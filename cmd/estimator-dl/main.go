@@ -3,12 +3,11 @@ package main
 import (
 	"bufio"
 	"context"
-	"fmt"
-	"io"
 	"os"
 	"os/exec"
 	"time"
 
+	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
@@ -18,27 +17,59 @@ import (
 	"estimator/internal/entry"
 )
 
-func run(ctx context.Context, lg *zap.Logger) error {
-	return nil
-}
-
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		u := archive.GetURL(time.Now().AddDate(0, 0, -2))
 
 		g, ctx := errgroup.WithContext(ctx)
-		cmd := exec.CommandContext(ctx, "bash", "-c",
-			fmt.Sprintf("wget -O - %s | zstd -d", u),
+
+		wget := exec.CommandContext(ctx, "wget",
+			"-nv", "-O", "-", u,
 		)
+		wget.Stderr = os.Stderr
+		dl, err := wget.StdoutPipe()
+		if err != nil {
+			return err
+		}
+
+		cmd := exec.CommandContext(ctx, "zstd", "-d")
+		cmd.Stdin = dl
 		cmd.Stderr = os.Stderr
 		out, err := cmd.StdoutPipe()
 		if err != nil {
 			return err
 		}
+
+		done := make(chan struct{})
+
 		g.Go(func() error {
-			return cmd.Run()
+			if err := cmd.Start(); err != nil {
+				return errors.Wrap(err, "zstd")
+			}
+			select {
+			case <-ctx.Done():
+				if err := cmd.Wait(); err != nil {
+					return errors.Wrap(err, "wget")
+				}
+			case <-done:
+			}
+			return nil
 		})
 		g.Go(func() error {
+			if err := wget.Start(); err != nil {
+				return errors.Wrap(err, "wget")
+			}
+			select {
+			case <-ctx.Done():
+				if err := wget.Wait(); err != nil {
+					return errors.Wrap(err, "wget")
+				}
+			case <-done:
+			}
+			return nil
+		})
+		g.Go(func() error {
+			defer close(done)
 			s := bufio.NewScanner(out)
 			var (
 				d jx.Decoder
@@ -57,10 +88,7 @@ func main() {
 				}
 			}
 			if err := s.Err(); err != nil {
-				return err
-			}
-			if _, err := io.Copy(io.Discard, out); err != nil {
-				return err
+				return errors.Wrap(err, "scan")
 			}
 			return nil
 		})
