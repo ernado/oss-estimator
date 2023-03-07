@@ -49,7 +49,7 @@ func main() {
 			select {
 			case <-ctx.Done():
 				if err := cmd.Wait(); err != nil {
-					return errors.Wrap(err, "wget")
+					return errors.Wrap(err, "zstd")
 				}
 			case <-done:
 			}
