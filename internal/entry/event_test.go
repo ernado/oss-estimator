@@ -17,7 +17,7 @@ var (
 	//go:embed _testdata/2019-11-27T03.single.json
 	dataSingle []byte
 
-	//go:embed _testdata/2019-11-27T03.first100.json
+	//go:embed _testdata/2019-11-27T03.first100.jsonl
 	dataMulti []byte
 )
 
@@ -125,6 +125,8 @@ func TestEvent_Decode(t *testing.T) {
 		if e.Interesting() && e.Time.Year() > 2014 {
 			assert.NotEmpty(t, e.Actor)
 			assert.NotEmpty(t, e.Repo)
+			assert.NotZero(t, e.ActorID)
+			assert.NotZero(t, e.RepoID)
 		}
 
 	}

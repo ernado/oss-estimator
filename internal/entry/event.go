@@ -14,6 +14,8 @@ type Event struct {
 	Type    []byte
 	Repo    []byte
 	RepoURL []byte
+	RepoID  uint64
+	ActorID uint64
 	URL     []byte
 	Actor   []byte
 	Time    time.Time
@@ -32,6 +34,8 @@ func (e *Event) Reset() {
 	e.URL = e.URL[:0]
 	e.Time = time.Time{}
 	e.Actor = e.Actor[:0]
+	e.ActorID = 0
+	e.RepoID = 0
 }
 
 func (e *Event) Decode(d *jx.Decoder) error {
@@ -56,6 +60,17 @@ func (e *Event) Decode(d *jx.Decoder) error {
 							return errors.Wrap(err, "name")
 						}
 						e.Actor = v
+						return nil
+					case "id":
+						id, err := d.Num()
+						if err != nil {
+							return errors.Wrap(err, "id parse")
+						}
+						v, err := id.Uint64()
+						if err != nil {
+							return errors.Wrap(err, "id")
+						}
+						e.ActorID = v
 						return nil
 					default:
 						if err := d.Skip(); err != nil {
@@ -122,6 +137,17 @@ func (e *Event) Decode(d *jx.Decoder) error {
 					}
 					e.Repo = v
 					return nil
+				case "id":
+					id, err := d.Num()
+					if err != nil {
+						return errors.Wrap(err, "id parse")
+					}
+					v, err := id.Uint64()
+					if err != nil {
+						return errors.Wrap(err, "id")
+					}
+					e.RepoID = v
+					return nil
 				default:
 					if err := d.Skip(); err != nil {
 						return errors.Wrap(err, "skip")
@@ -159,6 +185,12 @@ func (e Event) Full() bool {
 		return false
 	}
 	if len(e.Type) == 0 {
+		return false
+	}
+	if e.ActorID == 0 {
+		return false
+	}
+	if e.RepoID == 0 {
 		return false
 	}
 	return true

@@ -16,21 +16,24 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/klauspost/compress/gzip"
 	"github.com/klauspost/compress/zstd"
-	ht "github.com/ogen-go/ogen/http"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
 	"estimator/internal/entry"
 )
 
+type HTTP interface {
+	Do(req *http.Request) (*http.Response, error)
+}
+
 // Client to gh archive.
 type Client struct {
-	api ht.Client
+	api HTTP
 	dir string
 	lg  *zap.Logger
 }
 
-func New(api ht.Client, dir string, lg *zap.Logger) *Client {
+func New(api HTTP, dir string, lg *zap.Logger) *Client {
 	return &Client{
 		api: api,
 		dir: dir,
