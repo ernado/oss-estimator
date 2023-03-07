@@ -6,7 +6,6 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-faster/errors v0.6.1
 	github.com/go-faster/jx v0.41.0
-	github.com/klauspost/compress v1.16.0
 	github.com/stretchr/testify v1.8.2
 	go.uber.org/atomic v1.10.0
 	go.uber.org/zap v1.24.0
