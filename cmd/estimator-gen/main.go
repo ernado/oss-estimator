@@ -84,10 +84,10 @@ func main() {
 			}
 		}
 
-		sort.Slice(c.Orgs, func(i, j int) bool {
+		sort.SliceStable(c.Orgs, func(i, j int) bool {
 			return c.Orgs[i].SLOC > c.Orgs[j].SLOC
 		})
-		sort.Slice(c.Repos, func(i, j int) bool {
+		sort.SliceStable(c.Repos, func(i, j int) bool {
 			return c.Repos[i].SLOC > c.Repos[j].SLOC
 		})
 
