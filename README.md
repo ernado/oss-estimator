@@ -49,10 +49,10 @@ languages:
 Languages that are counted: [Go C Go Template BASH Python]
 Total:
  SLOC 309739
- commits 114436
- pull requests 73525
+ commits 22280
+ pull requests 16993
 
-real    0m11,189s
-user    0m1,662s
-sys     0m0,547s
+real    0m0,745s
+user    0m0,239s
+sys     0m0,065s
 ```
