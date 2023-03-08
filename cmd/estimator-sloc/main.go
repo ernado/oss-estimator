@@ -37,6 +37,14 @@ type cacheEntry struct {
 	Code         []statEntry `json:"Code"`
 	Commits      int         `json:"Commits,omitempty"`
 	PullRequests int         `json:"PullRequests,omitempty"`
+	SLOC         int         `json:"SLOC,omitempty"`
+}
+
+func (c cacheEntry) Print() {
+	fmt.Println("Total:")
+	fmt.Println("", "SLOC", c.SLOC)
+	fmt.Println("", "commits", c.Commits)
+	fmt.Println("", "pull requests", c.PullRequests)
 }
 
 func main() {
@@ -49,9 +57,21 @@ func main() {
 		flag.StringVar(&repoName, "repo", repoName, "GitHub repository name")
 		flag.Parse()
 
-		p := filepath.Join("_work", "git", orgName, repoName)
-		root := osfs.New(p)
-		storageRoot := osfs.New(filepath.Join(p, ".git"))
+		p := filepath.Join("_work", orgName, repoName)
+		cacheEntryPath := filepath.Join(p, "cache.json")
+		if data, err := os.ReadFile(cacheEntryPath); err == nil {
+			var ce cacheEntry
+			if err := json.Unmarshal(data, &ce); err != nil {
+				return errors.Wrap(err, "unmarshal cache entry")
+			}
+			fmt.Println("Found cached entry", cacheEntryPath)
+			ce.Print()
+			return nil
+		}
+
+		gitRoot := filepath.Join(p, "git")
+		root := osfs.New(gitRoot)
+		storageRoot := osfs.New(filepath.Join(gitRoot, ".git"))
 		storage := filesystem.NewStorage(storageRoot, cache.NewObjectLRUDefault())
 
 		ts := oauth2.StaticTokenSource(
@@ -80,12 +100,12 @@ func main() {
 			u.User = url.UserPassword("git", os.Getenv("GITHUB_TOKEN"))
 
 			// Fix partial clone.
-			if err := os.RemoveAll(p); err != nil {
+			if err := os.RemoveAll(gitRoot); err != nil {
 				lg.Warn("RemoveAll failed", zap.Error(err))
 			}
 
 			// git is significantly faster than go-git on big repos for cloning.
-			cmd := exec.CommandContext(ctx, "git", "clone", "--depth=1", u.String(), p)
+			cmd := exec.CommandContext(ctx, "git", "clone", "--depth=1", u.String(), gitRoot)
 			out, outErr := new(bytes.Buffer), new(bytes.Buffer)
 			cmd.Stdout = out
 			cmd.Stderr = outErr
@@ -132,7 +152,7 @@ func main() {
 		// We can't use scc as library because of global state.
 		out, outErr := new(bytes.Buffer), new(bytes.Buffer)
 		cmd := exec.CommandContext(ctx, "scc", args...)
-		cmd.Dir = p
+		cmd.Dir = gitRoot
 		cmd.Stdout = out
 		cmd.Stderr = outErr
 		if err := cmd.Run(); err != nil {
@@ -186,11 +206,23 @@ func main() {
 		}
 
 		fmt.Println("Languages that are counted:", lang.All())
+		ce := cacheEntry{
+			PullRequests: pullRequests,
+			Commits:      commits,
+			Code:         stats,
+			SLOC:         total,
+		}
+		ce.Print()
 
-		fmt.Println("Total:")
-		fmt.Println("", "SLOC", total)
-		fmt.Println("", "commits", commits)
-		fmt.Println("", "pull requests", pullRequests)
+		cOut := new(bytes.Buffer)
+		e := json.NewEncoder(cOut)
+		e.SetIndent("", "  ")
+		if err := e.Encode(ce); err != nil {
+			return errors.Wrap(err, "encode cache entry")
+		}
+		if err := os.WriteFile(cacheEntryPath, cOut.Bytes(), 0o644); err != nil {
+			return errors.Wrap(err, "write cache entry")
+		}
 
 		return nil
 	})
