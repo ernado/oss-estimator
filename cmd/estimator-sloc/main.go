@@ -10,6 +10,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 
 	"github.com/go-faster/errors"
 	"github.com/go-git/go-billy/v5/osfs"
@@ -21,6 +22,7 @@ import (
 	"golang.org/x/oauth2"
 
 	"estimator/internal/app"
+	"estimator/internal/lang"
 )
 
 // scc entry per language.
@@ -96,7 +98,7 @@ func main() {
 		if err != nil {
 			return errors.Wrap(err, "head")
 		}
-		fmt.Println("head", head)
+		fmt.Println("git head:", head)
 
 		// Initialize arguments for scc.
 		args := []string{
@@ -136,9 +138,17 @@ func main() {
 			return errors.Wrap(err, "decode scc output")
 		}
 
+		fmt.Println("languages:")
+		var total int
 		for _, s := range stats {
-			fmt.Println(s.Name, s.Code)
+			fmt.Println("", strings.ToLower(s.Name), s.Code)
+			if lang.In(s.Name) {
+				total += s.Code
+			}
 		}
+
+		fmt.Println("Total:", total, "SLOC")
+		fmt.Println("Languages that are counted:", lang.All())
 
 		return nil
 	})

@@ -15,37 +15,40 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 
 ```console
 $ time estimator-sloc --org cilium --repo cilium
-head 427461643b5c1493fb7b7662cb4501add3e446d3 refs/heads/master
-Go 295919
-ReStructuredText 32295
-JSON 15093
-C Header 13910
-C 8972
-Shell 7791
-Go Template 2321
-BASH 1818
-Makefile 1617
-Plain Text 1238
-Protocol Buffers 984
-Python 709
-Jenkins Buildfile 545
-Smarty Template 485
-Dockerfile 457
-License 344
-SVG 190
-gitignore 135
-JavaScript 109
-Systemd 97
-Docker ignore 76
-CSS 71
-Lua 71
-sed 63
-Terraform 52
-AWK 24
-XML 14
-Ruby 9
-TOML 4
-HTML 3
+git head: 427461643b5c1493fb7b7662cb4501add3e446d3 refs/heads/master
+languages:
+ go 295919
+ restructuredtext 32295
+ json 15093
+ c header 13910
+ c 8972
+ shell 7791
+ go template 2321
+ bash 1818
+ makefile 1617
+ plain text 1238
+ protocol buffers 984
+ python 709
+ jenkins buildfile 545
+ smarty template 485
+ dockerfile 457
+ license 344
+ svg 190
+ gitignore 135
+ javascript 109
+ systemd 97
+ docker ignore 76
+ css 71
+ lua 71
+ sed 63
+ terraform 52
+ awk 24
+ xml 14
+ ruby 9
+ toml 4
+ html 3
+Total: 309739 SLOC
+Languages that are counted: [Go C Go Template BASH Python]
 
 real    0m9,992s
 user    0m1,679s
