@@ -52,13 +52,15 @@ func main() {
 		// Fast path.
 		gitRepo, err := git.Open(storage, root)
 		if err != nil {
+			// Slow path, cloned repo doesn't exist.
+			//
+			// Fetching default branch and cloning.
 			ts := oauth2.StaticTokenSource(
 				&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
 			)
 			httpClient := oauth2.NewClient(ctx, ts)
 			c := github.NewClient(httpClient)
 
-			// Slow path, cloned repo doesn't exist.
 			repo, _, err := c.Repositories.Get(ctx, orgName, repoName)
 			if err != nil {
 				return errors.Wrap(err, "get repository")
