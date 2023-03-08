@@ -116,6 +116,7 @@ func main() {
 				{"vuejs", "vue"},
 				{"tensorflow", "tensorflow"},
 				{"golang", "go"},
+				{"cilium", "busybox"},
 			} {
 				select {
 				case <-ctx.Done():
