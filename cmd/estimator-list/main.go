@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"flag"
 	"sync"
 
 	"github.com/go-faster/errors"
@@ -22,10 +23,17 @@ type Job struct {
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
-			c           = gh.Client(ctx)
-			e           = estimate.New(c, "_work")
+			dir         = "_work"
 			concurrency = 8
-			jobs        = make(chan Job, concurrency)
+		)
+		flag.StringVar(&dir, "dir", dir, "directory to store data")
+		flag.IntVar(&concurrency, "j", concurrency, "number of concurrent jobs")
+		flag.Parse()
+
+		var (
+			c    = gh.Client(ctx)
+			e    = estimate.New(c, dir)
+			jobs = make(chan Job, concurrency)
 		)
 
 		g, ctx := errgroup.WithContext(ctx)
@@ -42,6 +50,7 @@ func main() {
 				"etcd-io",
 				"kata-containers",
 				"siderolabs",
+				"openebs",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
@@ -109,6 +118,8 @@ func main() {
 				{"Netflix", "titus-control-plane"},
 				{"helm", "helm"},
 				{"helm", "chartmuseum"},
+				{"vitalif", "vitastor"},
+				{"LINBIT", "linstor-server"},
 			} {
 				select {
 				case <-ctx.Done():
