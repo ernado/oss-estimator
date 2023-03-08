@@ -44,6 +44,12 @@ func main() {
 			{"ClickHouse", "clickhouse.github.io"}: {},
 			{"ClickHouse", "llvm"}:                 {},
 			{"ClickHouse", "protobuf"}:             {},
+			{"ClickHouse", "ssl"}:                  {},
+			{"ClickHouse", "libgsasl"}:             {},
+			{"ClickHouse", "libuv"}:                {},
+			{"ClickHouse", "UnixODBC"}:             {},
+			{"cilium", "busybox"}:                  {},
+			{"istio", "old_vendor-istio_repo"}:     {},
 		}
 
 		g, ctx := errgroup.WithContext(ctx)
@@ -116,8 +122,6 @@ func main() {
 				{"vuejs", "vue"},
 				{"tensorflow", "tensorflow"},
 				{"golang", "go"},
-				{"cilium", "busybox"},
-				{"istio", "old_vendor-istio_repo"},
 			} {
 				select {
 				case <-ctx.Done():

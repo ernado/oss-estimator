@@ -393,8 +393,8 @@ $ du -hs _work/
 | [kubernetes/csi-translation-lib](https://github.com/kubernetes/csi-translation-lib/)  | 6360 | 658 | 0 | 10 |
 | [open-telemetry/opamp-go](https://github.com/open-telemetry/opamp-go/)  | 6328 | 92 | 110 | 60 |
 | [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2/)  | 6307 | 535 | 177 | 259 |
-| [kubernetes-sigs/slack-infra](https://github.com/kubernetes-sigs/slack-infra/)  | 6124 | 108 | 44 | 85 |
 | [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 | 866 |
+| [kubernetes-sigs/slack-infra](https://github.com/kubernetes-sigs/slack-infra/)  | 6124 | 108 | 44 | 85 |
 | [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook/)  | 5993 | 38 | 32 | 3 |
 | [siderolabs/kres](https://github.com/siderolabs/kres/)  | 5987 | 152 | 199 | 22 |
 | [ClickHouse/bzip2](https://github.com/ClickHouse/bzip2/)  | 5964 | 141 | 0 | 1 |
