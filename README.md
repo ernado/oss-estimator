@@ -35,8 +35,8 @@ $ du -hs _work/
 
 ## Stats
 
-| Project                                        | SLOC | Commits | PRs | Stars |
-|------------------------------------------------|------|---------|-----|-------|
+| Organization | SLOC | Commits | PRs | Stars |
+|--------------|------|---------|-----|-------|
 | [kubernetes](https://github.com/kubernetes)  | 3434971 | 381074 | 190484 | 243089 |
 | [tensorflow](https://github.com/tensorflow)  | 3351209 | 144463 | 22710 | 171882 |
 | [ClickHouse](https://github.com/ClickHouse)  | 2341463 | 166223 | 34848 | 33869 |
@@ -393,8 +393,8 @@ $ du -hs _work/
 | [kubernetes/csi-translation-lib](https://github.com/kubernetes/csi-translation-lib/)  | 6360 | 658 | 0 | 10 |
 | [open-telemetry/opamp-go](https://github.com/open-telemetry/opamp-go/)  | 6328 | 92 | 110 | 60 |
 | [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2/)  | 6307 | 535 | 177 | 259 |
-| [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 | 866 |
 | [kubernetes-sigs/slack-infra](https://github.com/kubernetes-sigs/slack-infra/)  | 6124 | 108 | 44 | 85 |
+| [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 | 866 |
 | [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook/)  | 5993 | 38 | 32 | 3 |
 | [siderolabs/kres](https://github.com/siderolabs/kres/)  | 5987 | 152 | 199 | 22 |
 | [ClickHouse/bzip2](https://github.com/ClickHouse/bzip2/)  | 5964 | 141 | 0 | 1 |
