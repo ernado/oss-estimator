@@ -321,6 +321,29 @@
         }
       }
     },
+    "OpenObservability": {
+      "Name": "OpenObservability",
+      "SLOC": 2313,
+      "PR": 117,
+      "Commits": 251,
+      "Stars": 2015,
+      "Repos": {
+        "OpenMetrics": {
+          "Name": "OpenMetrics",
+          "SLOC": 2313,
+          "PR": 115,
+          "Commits": 238,
+          "Stars": 2004
+        },
+        "OpenObservability": {
+          "Name": "OpenObservability",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 13,
+          "Stars": 11
+        }
+      }
+    },
     "VKCOM": {
       "Name": "VKCOM",
       "SLOC": 101459,
@@ -464,6 +487,954 @@
           "PR": 450,
           "Commits": 18184,
           "Stars": 5029
+        }
+      }
+    },
+    "argoproj": {
+      "Name": "argoproj",
+      "SLOC": 517779,
+      "PR": 16889,
+      "Commits": 18119,
+      "Stars": 34216,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 0
+        },
+        "applicationset": {
+          "Name": "applicationset",
+          "SLOC": 12583,
+          "PR": 255,
+          "Commits": 195,
+          "Stars": 566
+        },
+        "argo-cd": {
+          "Name": "argo-cd",
+          "SLOC": 149421,
+          "PR": 5805,
+          "Commits": 5123,
+          "Stars": 12335
+        },
+        "argo-cd-hello-world-app": {
+          "Name": "argo-cd-hello-world-app",
+          "SLOC": 11,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 12
+        },
+        "argo-cd-hello-world-config": {
+          "Name": "argo-cd-hello-world-config",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 5,
+          "Stars": 2
+        },
+        "argo-cd-ui": {
+          "Name": "argo-cd-ui",
+          "SLOC": 6586,
+          "PR": 131,
+          "Commits": 385,
+          "Stars": 14
+        },
+        "argo-ci": {
+          "Name": "argo-ci",
+          "SLOC": 689,
+          "PR": 18,
+          "Commits": 32,
+          "Stars": 187
+        },
+        "argo-conformance-program": {
+          "Name": "argo-conformance-program",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 21,
+          "Stars": 2
+        },
+        "argo-events": {
+          "Name": "argo-events",
+          "SLOC": 35948,
+          "PR": 1452,
+          "Commits": 1316,
+          "Stars": 1868
+        },
+        "argo-helm": {
+          "Name": "argo-helm",
+          "SLOC": 0,
+          "PR": 1223,
+          "Commits": 1012,
+          "Stars": 1086
+        },
+        "argo-ml-demo": {
+          "Name": "argo-ml-demo",
+          "SLOC": 46,
+          "PR": 0,
+          "Commits": 15,
+          "Stars": 26
+        },
+        "argo-rollouts": {
+          "Name": "argo-rollouts",
+          "SLOC": 82570,
+          "PR": 1524,
+          "Commits": 1239,
+          "Stars": 1934
+        },
+        "argo-schema-generator": {
+          "Name": "argo-schema-generator",
+          "SLOC": 177,
+          "PR": 0,
+          "Commits": 34,
+          "Stars": 7
+        },
+        "argo-site": {
+          "Name": "argo-site",
+          "SLOC": 2001,
+          "PR": 102,
+          "Commits": 116,
+          "Stars": 14
+        },
+        "argo-ui": {
+          "Name": "argo-ui",
+          "SLOC": 4639,
+          "PR": 302,
+          "Commits": 409,
+          "Stars": 176
+        },
+        "argo-workflows": {
+          "Name": "argo-workflows",
+          "SLOC": 169790,
+          "PR": 4813,
+          "Commits": 4147,
+          "Stars": 12599
+        },
+        "argocd-example-apps": {
+          "Name": "argocd-example-apps",
+          "SLOC": 0,
+          "PR": 166,
+          "Commits": 45,
+          "Stars": 962
+        },
+        "argocon21": {
+          "Name": "argocon21",
+          "SLOC": 16357,
+          "PR": 19,
+          "Commits": 67,
+          "Stars": 7
+        },
+        "argoproj": {
+          "Name": "argoproj",
+          "SLOC": 72,
+          "PR": 104,
+          "Commits": 94,
+          "Stars": 409
+        },
+        "argoproj-deployments": {
+          "Name": "argoproj-deployments",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 2861,
+          "Stars": 148
+        },
+        "community-contrib-docs": {
+          "Name": "community-contrib-docs",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 2
+        },
+        "data-pipeline": {
+          "Name": "data-pipeline",
+          "SLOC": 526,
+          "PR": 0,
+          "Commits": 18,
+          "Stars": 33
+        },
+        "gitops-engine": {
+          "Name": "gitops-engine",
+          "SLOC": 23486,
+          "PR": 454,
+          "Commits": 254,
+          "Stars": 1490
+        },
+        "homebrew-tap": {
+          "Name": "homebrew-tap",
+          "SLOC": 0,
+          "PR": 28,
+          "Commits": 132,
+          "Stars": 13
+        },
+        "image-processing-demo": {
+          "Name": "image-processing-demo",
+          "SLOC": 120,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 2
+        },
+        "katacoda-scenarios": {
+          "Name": "katacoda-scenarios",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 0
+        },
+        "kubecon-sandbox": {
+          "Name": "kubecon-sandbox",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 26,
+          "Stars": 1
+        },
+        "kubeflow-ks": {
+          "Name": "kubeflow-ks",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 13,
+          "Stars": 1
+        },
+        "notifications-engine": {
+          "Name": "notifications-engine",
+          "SLOC": 6730,
+          "PR": 108,
+          "Commits": 81,
+          "Stars": 180
+        },
+        "pkg": {
+          "Name": "pkg",
+          "SLOC": 2847,
+          "PR": 340,
+          "Commits": 351,
+          "Stars": 29
+        },
+        "rollouts-demo": {
+          "Name": "rollouts-demo",
+          "SLOC": 781,
+          "PR": 21,
+          "Commits": 78,
+          "Stars": 107
+        },
+        "ui-lib": {
+          "Name": "ui-lib",
+          "SLOC": 2399,
+          "PR": 9,
+          "Commits": 18,
+          "Stars": 4
+        }
+      }
+    },
+    "backstage": {
+      "Name": "backstage",
+      "SLOC": 402257,
+      "PR": 12907,
+      "Commits": 40429,
+      "Stars": 21750,
+      "Repos": {
+        "actions": {
+          "Name": "actions",
+          "SLOC": 2401,
+          "PR": 117,
+          "Commits": 200,
+          "Stars": 10
+        },
+        "backend-system-exploration": {
+          "Name": "backend-system-exploration",
+          "SLOC": 1432,
+          "PR": 0,
+          "Commits": 28,
+          "Stars": 1
+        },
+        "backstage": {
+          "Name": "backstage",
+          "SLOC": 393729,
+          "PR": 12257,
+          "Commits": 38227,
+          "Stars": 21075
+        },
+        "catman": {
+          "Name": "catman",
+          "SLOC": 121,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 3
+        },
+        "charts": {
+          "Name": "charts",
+          "SLOC": 0,
+          "PR": 46,
+          "Commits": 68,
+          "Stars": 43
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 39,
+          "Commits": 116,
+          "Stars": 183
+        },
+        "config-schema-viewer": {
+          "Name": "config-schema-viewer",
+          "SLOC": 97,
+          "PR": 3,
+          "Commits": 15,
+          "Stars": 0
+        },
+        "demo": {
+          "Name": "demo",
+          "SLOC": 1633,
+          "PR": 106,
+          "Commits": 223,
+          "Stars": 35
+        },
+        "mkdocs-monorepo-plugin": {
+          "Name": "mkdocs-monorepo-plugin",
+          "SLOC": 497,
+          "PR": 46,
+          "Commits": 128,
+          "Stars": 238
+        },
+        "mkdocs-techdocs-core": {
+          "Name": "mkdocs-techdocs-core",
+          "SLOC": 259,
+          "PR": 72,
+          "Commits": 156,
+          "Stars": 46
+        },
+        "software-templates": {
+          "Name": "software-templates",
+          "SLOC": 217,
+          "PR": 22,
+          "Commits": 62,
+          "Stars": 67
+        },
+        "techdocs-cli": {
+          "Name": "techdocs-cli",
+          "SLOC": 1430,
+          "PR": 156,
+          "Commits": 345,
+          "Stars": 13
+        },
+        "techdocs-container": {
+          "Name": "techdocs-container",
+          "SLOC": 0,
+          "PR": 35,
+          "Commits": 70,
+          "Stars": 22
+        },
+        "tempo": {
+          "Name": "tempo",
+          "SLOC": 278,
+          "PR": 3,
+          "Commits": 364,
+          "Stars": 5
+        },
+        "test-demo": {
+          "Name": "test-demo",
+          "SLOC": 98,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "upgrade-helper-diff": {
+          "Name": "upgrade-helper-diff",
+          "SLOC": 65,
+          "PR": 5,
+          "Commits": 165,
+          "Stars": 6
+        },
+        "versions": {
+          "Name": "versions",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 259,
+          "Stars": 3
+        }
+      }
+    },
+    "buildpacks": {
+      "Name": "buildpacks",
+      "SLOC": 116668,
+      "PR": 3523,
+      "Commits": 16071,
+      "Stars": 2781,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 0
+        },
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "ci": {
+          "Name": "ci",
+          "SLOC": 0,
+          "PR": 9,
+          "Commits": 208,
+          "Stars": 9
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 126,
+          "Commits": 342,
+          "Stars": 29
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 179,
+          "PR": 350,
+          "Commits": 1065,
+          "Stars": 26
+        },
+        "forge": {
+          "Name": "forge",
+          "SLOC": 2672,
+          "PR": 7,
+          "Commits": 243,
+          "Stars": 7
+        },
+        "github-actions": {
+          "Name": "github-actions",
+          "SLOC": 2321,
+          "PR": 182,
+          "Commits": 385,
+          "Stars": 35
+        },
+        "homebrew-tap": {
+          "Name": "homebrew-tap",
+          "SLOC": 19,
+          "PR": 14,
+          "Commits": 69,
+          "Stars": 5
+        },
+        "imgutil": {
+          "Name": "imgutil",
+          "SLOC": 8667,
+          "PR": 149,
+          "Commits": 416,
+          "Stars": 21
+        },
+        "katacoda-scenarios": {
+          "Name": "katacoda-scenarios",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 17,
+          "Stars": 2
+        },
+        "knative-integration": {
+          "Name": "knative-integration",
+          "SLOC": 107,
+          "PR": 2,
+          "Commits": 9,
+          "Stars": 2
+        },
+        "libbuildpack": {
+          "Name": "libbuildpack",
+          "SLOC": 1908,
+          "PR": 10,
+          "Commits": 126,
+          "Stars": 5
+        },
+        "libcnb": {
+          "Name": "libcnb",
+          "SLOC": 3682,
+          "PR": 186,
+          "Commits": 272,
+          "Stars": 24
+        },
+        "lifecycle": {
+          "Name": "lifecycle",
+          "SLOC": 32902,
+          "PR": 665,
+          "Commits": 1643,
+          "Stars": 158
+        },
+        "pack": {
+          "Name": "pack",
+          "SLOC": 58400,
+          "PR": 957,
+          "Commits": 3376,
+          "Stars": 1933
+        },
+        "pack-orb": {
+          "Name": "pack-orb",
+          "SLOC": 0,
+          "PR": 38,
+          "Commits": 85,
+          "Stars": 10
+        },
+        "packs": {
+          "Name": "packs",
+          "SLOC": 2039,
+          "PR": 26,
+          "Commits": 188,
+          "Stars": 15
+        },
+        "profile": {
+          "Name": "profile",
+          "SLOC": 177,
+          "PR": 46,
+          "Commits": 34,
+          "Stars": 0
+        },
+        "registry-api": {
+          "Name": "registry-api",
+          "SLOC": 1572,
+          "PR": 87,
+          "Commits": 215,
+          "Stars": 3
+        },
+        "registry-index": {
+          "Name": "registry-index",
+          "SLOC": 0,
+          "PR": 36,
+          "Commits": 4645,
+          "Stars": 13
+        },
+        "registry-namespaces": {
+          "Name": "registry-namespaces",
+          "SLOC": 0,
+          "PR": 20,
+          "Commits": 79,
+          "Stars": 1
+        },
+        "resources": {
+          "Name": "resources",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 5
+        },
+        "rfcs": {
+          "Name": "rfcs",
+          "SLOC": 0,
+          "PR": 236,
+          "Commits": 1462,
+          "Stars": 47
+        },
+        "roadmap": {
+          "Name": "roadmap",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "sample-java-app": {
+          "Name": "sample-java-app",
+          "SLOC": 90,
+          "PR": 2,
+          "Commits": 12,
+          "Stars": 2
+        },
+        "samples": {
+          "Name": "samples",
+          "SLOC": 523,
+          "PR": 104,
+          "Commits": 279,
+          "Stars": 169
+        },
+        "scafall": {
+          "Name": "scafall",
+          "SLOC": 1410,
+          "PR": 12,
+          "Commits": 8,
+          "Stars": 0
+        },
+        "spec": {
+          "Name": "spec",
+          "SLOC": 0,
+          "PR": 229,
+          "Commits": 756,
+          "Stars": 236
+        },
+        "stacks": {
+          "Name": "stacks",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 15,
+          "Stars": 1
+        },
+        "tekton-integration": {
+          "Name": "tekton-integration",
+          "SLOC": 0,
+          "PR": 16,
+          "Commits": 63,
+          "Stars": 21
+        },
+        "templates": {
+          "Name": "templates",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 41,
+          "Stars": 2
+        }
+      }
+    },
+    "cert-manager": {
+      "Name": "cert-manager",
+      "SLOC": 145511,
+      "PR": 4808,
+      "Commits": 13123,
+      "Stars": 10877,
+      "Repos": {
+        "approver-policy": {
+          "Name": "approver-policy",
+          "SLOC": 8299,
+          "PR": 193,
+          "Commits": 486,
+          "Stars": 48
+        },
+        "aws-privateca-issuer": {
+          "Name": "aws-privateca-issuer",
+          "SLOC": 2966,
+          "PR": 203,
+          "Commits": 370,
+          "Stars": 123
+        },
+        "cert-manager": {
+          "Name": "cert-manager",
+          "SLOC": 100420,
+          "PR": 2769,
+          "Commits": 7511,
+          "Stars": 10065
+        },
+        "cert-manager-olm": {
+          "Name": "cert-manager-olm",
+          "SLOC": 141,
+          "PR": 71,
+          "Commits": 221,
+          "Stars": 13
+        },
+        "csi-driver": {
+          "Name": "csi-driver",
+          "SLOC": 4071,
+          "PR": 98,
+          "Commits": 372,
+          "Stars": 153
+        },
+        "csi-driver-spiffe": {
+          "Name": "csi-driver-spiffe",
+          "SLOC": 3169,
+          "PR": 29,
+          "Commits": 73,
+          "Stars": 44
+        },
+        "csi-lib": {
+          "Name": "csi-lib",
+          "SLOC": 3218,
+          "PR": 37,
+          "Commits": 148,
+          "Stars": 12
+        },
+        "infrastructure": {
+          "Name": "infrastructure",
+          "SLOC": 0,
+          "PR": 21,
+          "Commits": 46,
+          "Stars": 3
+        },
+        "istio-csr": {
+          "Name": "istio-csr",
+          "SLOC": 4189,
+          "PR": 127,
+          "Commits": 396,
+          "Stars": 121
+        },
+        "openshift-routes": {
+          "Name": "openshift-routes",
+          "SLOC": 1199,
+          "PR": 10,
+          "Commits": 14,
+          "Stars": 20
+        },
+        "print-your-cert": {
+          "Name": "print-your-cert",
+          "SLOC": 818,
+          "PR": 2,
+          "Commits": 86,
+          "Stars": 4
+        },
+        "release": {
+          "Name": "release",
+          "SLOC": 5283,
+          "PR": 108,
+          "Commits": 246,
+          "Stars": 4
+        },
+        "sample-external-issuer": {
+          "Name": "sample-external-issuer",
+          "SLOC": 1744,
+          "PR": 22,
+          "Commits": 96,
+          "Stars": 19
+        },
+        "signer-ca": {
+          "Name": "signer-ca",
+          "SLOC": 435,
+          "PR": 5,
+          "Commits": 8,
+          "Stars": 18
+        },
+        "signer-venafi": {
+          "Name": "signer-venafi",
+          "SLOC": 671,
+          "PR": 11,
+          "Commits": 139,
+          "Stars": 4
+        },
+        "testing-addons": {
+          "Name": "testing-addons",
+          "SLOC": 0,
+          "PR": 23,
+          "Commits": 54,
+          "Stars": 3
+        },
+        "trust-manager": {
+          "Name": "trust-manager",
+          "SLOC": 4520,
+          "PR": 82,
+          "Commits": 263,
+          "Stars": 101
+        },
+        "webhook-example": {
+          "Name": "webhook-example",
+          "SLOC": 270,
+          "PR": 31,
+          "Commits": 53,
+          "Stars": 70
+        },
+        "webhook-lib": {
+          "Name": "webhook-lib",
+          "SLOC": 2970,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 3
+        },
+        "webhook-operator": {
+          "Name": "webhook-operator",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 1128,
+          "PR": 966,
+          "Commits": 2533,
+          "Stars": 49
+        }
+      }
+    },
+    "chaos-mesh": {
+      "Name": "chaos-mesh",
+      "SLOC": 1091603,
+      "PR": 3174,
+      "Commits": 3295,
+      "Stars": 5881,
+      "Repos": {
+        "apps": {
+          "Name": "apps",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 17,
+          "Stars": 3
+        },
+        "bpfki": {
+          "Name": "bpfki",
+          "SLOC": 1106,
+          "PR": 2,
+          "Commits": 18,
+          "Stars": 27
+        },
+        "byteman-helper": {
+          "Name": "byteman-helper",
+          "SLOC": 871,
+          "PR": 18,
+          "Commits": 29,
+          "Stars": 1
+        },
+        "chaos-driver": {
+          "Name": "chaos-driver",
+          "SLOC": 1979,
+          "PR": 0,
+          "Commits": 83,
+          "Stars": 9
+        },
+        "chaos-mesh": {
+          "Name": "chaos-mesh",
+          "SLOC": 74917,
+          "PR": 2389,
+          "Commits": 1670,
+          "Stars": 5542
+        },
+        "chaos-mesh-action": {
+          "Name": "chaos-mesh-action",
+          "SLOC": 4,
+          "PR": 12,
+          "Commits": 53,
+          "Stars": 21
+        },
+        "chaos-mesh-on-skywalking": {
+          "Name": "chaos-mesh-on-skywalking",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 1
+        },
+        "chaos-tproxy": {
+          "Name": "chaos-tproxy",
+          "SLOC": 2741,
+          "PR": 45,
+          "Commits": 90,
+          "Stars": 21
+        },
+        "chaosd": {
+          "Name": "chaosd",
+          "SLOC": 10426,
+          "PR": 132,
+          "Commits": 179,
+          "Stars": 103
+        },
+        "charts": {
+          "Name": "charts",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 7,
+          "Stars": 3
+        },
+        "database-testing": {
+          "Name": "database-testing",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 27,
+          "Stars": 8
+        },
+        "datasource": {
+          "Name": "datasource",
+          "SLOC": 441,
+          "PR": 37,
+          "Commits": 97,
+          "Stars": 8
+        },
+        "experiments": {
+          "Name": "experiments",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 1
+        },
+        "iproute2-rs": {
+          "Name": "iproute2-rs",
+          "SLOC": 526,
+          "PR": 0,
+          "Commits": 19,
+          "Stars": 5
+        },
+        "jvm-chaos-demo": {
+          "Name": "jvm-chaos-demo",
+          "SLOC": 69,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "k8s_dns_chaos": {
+          "Name": "k8s_dns_chaos",
+          "SLOC": 5873,
+          "PR": 17,
+          "Commits": 35,
+          "Stars": 10
+        },
+        "logo": {
+          "Name": "logo",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 2
+        },
+        "memStress": {
+          "Name": "memStress",
+          "SLOC": 107,
+          "PR": 0,
+          "Commits": 17,
+          "Stars": 2
+        },
+        "nsexec": {
+          "Name": "nsexec",
+          "SLOC": 115,
+          "PR": 0,
+          "Commits": 20,
+          "Stars": 18
+        },
+        "rfcs": {
+          "Name": "rfcs",
+          "SLOC": 0,
+          "PR": 41,
+          "Commits": 35,
+          "Stars": 16
+        },
+        "tidb-chaos": {
+          "Name": "tidb-chaos",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 4,
+          "Stars": 2
+        },
+        "toda": {
+          "Name": "toda",
+          "SLOC": 4609,
+          "PR": 19,
+          "Commits": 233,
+          "Stars": 41
+        },
+        "toda-glibc": {
+          "Name": "toda-glibc",
+          "SLOC": 984836,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 1
+        },
+        "web-show": {
+          "Name": "web-show",
+          "SLOC": 636,
+          "PR": 21,
+          "Commits": 16,
+          "Stars": 5
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 815,
+          "PR": 319,
+          "Commits": 512,
+          "Stars": 17
+        },
+        "website-archived": {
+          "Name": "website-archived",
+          "SLOC": 630,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 0
+        },
+        "website-zh": {
+          "Name": "website-zh",
+          "SLOC": 902,
+          "PR": 107,
+          "Commits": 101,
+          "Stars": 13
         }
       }
     },
@@ -1022,6 +1993,441 @@
         }
       }
     },
+    "cloud-custodian": {
+      "Name": "cloud-custodian",
+      "SLOC": 196402,
+      "PR": 4563,
+      "Commits": 4463,
+      "Stars": 4843,
+      "Repos": {
+        "cel-python": {
+          "Name": "cel-python",
+          "SLOC": 18555,
+          "PR": 24,
+          "Commits": 115,
+          "Stars": 60
+        },
+        "cloud-custodian": {
+          "Name": "cloud-custodian",
+          "SLOC": 175123,
+          "PR": 4388,
+          "Commits": 4117,
+          "Stars": 4711
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 12,
+          "Stars": 12
+        },
+        "examples": {
+          "Name": "examples",
+          "SLOC": 175,
+          "PR": 15,
+          "Commits": 81,
+          "Stars": 5
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 15,
+          "Stars": 6
+        },
+        "infra": {
+          "Name": "infra",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 5,
+          "Stars": 1
+        },
+        "infrastructure": {
+          "Name": "infrastructure",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 16,
+          "Stars": 0
+        },
+        "poetry-plugin-freeze": {
+          "Name": "poetry-plugin-freeze",
+          "SLOC": 286,
+          "PR": 7,
+          "Commits": 7,
+          "Stars": 2
+        },
+        "pytest-terraform": {
+          "Name": "pytest-terraform",
+          "SLOC": 1234,
+          "PR": 38,
+          "Commits": 38,
+          "Stars": 37
+        },
+        "tfparse": {
+          "Name": "tfparse",
+          "SLOC": 1029,
+          "PR": 69,
+          "Commits": 51,
+          "Stars": 9
+        },
+        "www.cloudcustodian.io": {
+          "Name": "www.cloudcustodian.io",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 6,
+          "Stars": 0
+        }
+      }
+    },
+    "cloudevents": {
+      "Name": "cloudevents",
+      "SLOC": 79536,
+      "PR": 2624,
+      "Commits": 3977,
+      "Stars": 5845,
+      "Repos": {
+        "cloudevents-web": {
+          "Name": "cloudevents-web",
+          "SLOC": 0,
+          "PR": 67,
+          "Commits": 138,
+          "Stars": 15
+        },
+        "conformance": {
+          "Name": "conformance",
+          "SLOC": 1658,
+          "PR": 24,
+          "Commits": 51,
+          "Stars": 28
+        },
+        "sdk-csharp": {
+          "Name": "sdk-csharp",
+          "SLOC": 10596,
+          "PR": 146,
+          "Commits": 279,
+          "Stars": 199
+        },
+        "sdk-go": {
+          "Name": "sdk-go",
+          "SLOC": 32173,
+          "PR": 542,
+          "Commits": 624,
+          "Stars": 613
+        },
+        "sdk-java": {
+          "Name": "sdk-java",
+          "SLOC": 15484,
+          "PR": 370,
+          "Commits": 755,
+          "Stars": 315
+        },
+        "sdk-javascript": {
+          "Name": "sdk-javascript",
+          "SLOC": 3272,
+          "PR": 343,
+          "Commits": 777,
+          "Stars": 244
+        },
+        "sdk-php": {
+          "Name": "sdk-php",
+          "SLOC": 2267,
+          "PR": 36,
+          "Commits": 34,
+          "Stars": 53
+        },
+        "sdk-powershell": {
+          "Name": "sdk-powershell",
+          "SLOC": 0,
+          "PR": 26,
+          "Commits": 48,
+          "Stars": 11
+        },
+        "sdk-python": {
+          "Name": "sdk-python",
+          "SLOC": 4593,
+          "PR": 123,
+          "Commits": 83,
+          "Stars": 188
+        },
+        "sdk-ruby": {
+          "Name": "sdk-ruby",
+          "SLOC": 3054,
+          "PR": 69,
+          "Commits": 69,
+          "Stars": 29
+        },
+        "sdk-rust": {
+          "Name": "sdk-rust",
+          "SLOC": 5680,
+          "PR": 148,
+          "Commits": 194,
+          "Stars": 125
+        },
+        "spec": {
+          "Name": "spec",
+          "SLOC": 759,
+          "PR": 730,
+          "Commits": 925,
+          "Stars": 4025
+        }
+      }
+    },
+    "containerd": {
+      "Name": "containerd",
+      "SLOC": 353362,
+      "PR": 11652,
+      "Commits": 23217,
+      "Stars": 24743,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        },
+        "accelerated-container-image": {
+          "Name": "accelerated-container-image",
+          "SLOC": 3582,
+          "PR": 116,
+          "Commits": 237,
+          "Stars": 277
+        },
+        "aufs": {
+          "Name": "aufs",
+          "SLOC": 399,
+          "PR": 44,
+          "Commits": 80,
+          "Stars": 23
+        },
+        "btrfs": {
+          "Name": "btrfs",
+          "SLOC": 474,
+          "PR": 33,
+          "Commits": 80,
+          "Stars": 53
+        },
+        "cgroups": {
+          "Name": "cgroups",
+          "SLOC": 6838,
+          "PR": 218,
+          "Commits": 517,
+          "Stars": 928
+        },
+        "console": {
+          "Name": "console",
+          "SLOC": 892,
+          "PR": 63,
+          "Commits": 133,
+          "Stars": 125
+        },
+        "containerd": {
+          "Name": "containerd",
+          "SLOC": 150219,
+          "PR": 5887,
+          "Commits": 11962,
+          "Stars": 13342
+        },
+        "containerd.io": {
+          "Name": "containerd.io",
+          "SLOC": 10277,
+          "PR": 143,
+          "Commits": 274,
+          "Stars": 38
+        },
+        "continuity": {
+          "Name": "continuity",
+          "SLOC": 6234,
+          "PR": 157,
+          "Commits": 372,
+          "Stars": 126
+        },
+        "cri": {
+          "Name": "cri",
+          "SLOC": 22643,
+          "PR": 1184,
+          "Commits": 2089,
+          "Stars": 897
+        },
+        "fifo": {
+          "Name": "fifo",
+          "SLOC": 1080,
+          "PR": 44,
+          "Commits": 104,
+          "Stars": 78
+        },
+        "fuse-overlayfs-snapshotter": {
+          "Name": "fuse-overlayfs-snapshotter",
+          "SLOC": 544,
+          "PR": 43,
+          "Commits": 128,
+          "Stars": 23
+        },
+        "go-cni": {
+          "Name": "go-cni",
+          "SLOC": 1324,
+          "PR": 91,
+          "Commits": 169,
+          "Stars": 135
+        },
+        "go-runc": {
+          "Name": "go-runc",
+          "SLOC": 1626,
+          "PR": 80,
+          "Commits": 189,
+          "Stars": 128
+        },
+        "imgcrypt": {
+          "Name": "imgcrypt",
+          "SLOC": 4338,
+          "PR": 90,
+          "Commits": 223,
+          "Stars": 257
+        },
+        "nerdctl": {
+          "Name": "nerdctl",
+          "SLOC": 43571,
+          "PR": 1280,
+          "Commits": 2442,
+          "Stars": 5681
+        },
+        "nri": {
+          "Name": "nri",
+          "SLOC": 9415,
+          "PR": 28,
+          "Commits": 86,
+          "Stars": 99
+        },
+        "nydus-snapshotter": {
+          "Name": "nydus-snapshotter",
+          "SLOC": 12939,
+          "PR": 327,
+          "Commits": 915,
+          "Stars": 59
+        },
+        "overlaybd": {
+          "Name": "overlaybd",
+          "SLOC": 20939,
+          "PR": 147,
+          "Commits": 285,
+          "Stars": 144
+        },
+        "project": {
+          "Name": "project",
+          "SLOC": 21,
+          "PR": 80,
+          "Commits": 159,
+          "Stars": 59
+        },
+        "project-checks": {
+          "Name": "project-checks",
+          "SLOC": 21,
+          "PR": 6,
+          "Commits": 21,
+          "Stars": 4
+        },
+        "protobuild": {
+          "Name": "protobuild",
+          "SLOC": 1002,
+          "PR": 40,
+          "Commits": 82,
+          "Stars": 113
+        },
+        "release-tool": {
+          "Name": "release-tool",
+          "SLOC": 1157,
+          "PR": 35,
+          "Commits": 98,
+          "Stars": 25
+        },
+        "runwasi": {
+          "Name": "runwasi",
+          "SLOC": 4594,
+          "PR": 62,
+          "Commits": 184,
+          "Stars": 541
+        },
+        "rust-extensions": {
+          "Name": "rust-extensions",
+          "SLOC": 9965,
+          "PR": 103,
+          "Commits": 294,
+          "Stars": 92
+        },
+        "stargz-snapshotter": {
+          "Name": "stargz-snapshotter",
+          "SLOC": 25147,
+          "PR": 1003,
+          "Commits": 1350,
+          "Stars": 796
+        },
+        "ttrpc": {
+          "Name": "ttrpc",
+          "SLOC": 3430,
+          "PR": 107,
+          "Commits": 216,
+          "Stars": 447
+        },
+        "ttrpc-rust": {
+          "Name": "ttrpc-rust",
+          "SLOC": 9781,
+          "PR": 151,
+          "Commits": 357,
+          "Stars": 149
+        },
+        "typeurl": {
+          "Name": "typeurl",
+          "SLOC": 439,
+          "PR": 34,
+          "Commits": 61,
+          "Stars": 46
+        },
+        "zfs": {
+          "Name": "zfs",
+          "SLOC": 471,
+          "PR": 56,
+          "Commits": 108,
+          "Stars": 58
+        }
+      }
+    },
+    "containernetworking": {
+      "Name": "containernetworking",
+      "SLOC": 34793,
+      "PR": 1155,
+      "Commits": 2815,
+      "Stars": 6494,
+      "Repos": {
+        "cni": {
+          "Name": "cni",
+          "SLOC": 8556,
+          "PR": 603,
+          "Commits": 1099,
+          "Stars": 4734
+        },
+        "cni.dev": {
+          "Name": "cni.dev",
+          "SLOC": 11,
+          "PR": 68,
+          "Commits": 96,
+          "Stars": 25
+        },
+        "meeting-notes": {
+          "Name": "meeting-notes",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 0
+        },
+        "plugins": {
+          "Name": "plugins",
+          "SLOC": 26226,
+          "PR": 484,
+          "Commits": 1615,
+          "Stars": 1735
+        }
+      }
+    },
     "containers": {
       "Name": "containers",
       "SLOC": 174455,
@@ -1035,6 +2441,921 @@
           "PR": 10101,
           "Commits": 18210,
           "Stars": 17085
+        }
+      }
+    },
+    "coredns": {
+      "Name": "coredns",
+      "SLOC": 76247,
+      "PR": 4672,
+      "Commits": 5505,
+      "Stars": 11544,
+      "Repos": {
+        "alternate": {
+          "Name": "alternate",
+          "SLOC": 433,
+          "PR": 17,
+          "Commits": 35,
+          "Stars": 15
+        },
+        "ci": {
+          "Name": "ci",
+          "SLOC": 2310,
+          "PR": 130,
+          "Commits": 169,
+          "Stars": 8
+        },
+        "client": {
+          "Name": "client",
+          "SLOC": 273,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 4
+        },
+        "coredns": {
+          "Name": "coredns",
+          "SLOC": 50692,
+          "PR": 3772,
+          "Commits": 3576,
+          "Stars": 10353
+        },
+        "coredns-opa": {
+          "Name": "coredns-opa",
+          "SLOC": 26,
+          "PR": 2,
+          "Commits": 12,
+          "Stars": 4
+        },
+        "coredns-utils": {
+          "Name": "coredns-utils",
+          "SLOC": 44,
+          "PR": 4,
+          "Commits": 14,
+          "Stars": 6
+        },
+        "coredns.io": {
+          "Name": "coredns.io",
+          "SLOC": 2264,
+          "PR": 230,
+          "Commits": 664,
+          "Stars": 141
+        },
+        "corefile-migration": {
+          "Name": "corefile-migration",
+          "SLOC": 4184,
+          "PR": 64,
+          "Commits": 131,
+          "Stars": 13
+        },
+        "debian": {
+          "Name": "debian",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 5
+        },
+        "demo": {
+          "Name": "demo",
+          "SLOC": 51,
+          "PR": 4,
+          "Commits": 12,
+          "Stars": 12
+        },
+        "deployment": {
+          "Name": "deployment",
+          "SLOC": 0,
+          "PR": 202,
+          "Commits": 193,
+          "Stars": 524
+        },
+        "distributed": {
+          "Name": "distributed",
+          "SLOC": 802,
+          "PR": 0,
+          "Commits": 14,
+          "Stars": 1
+        },
+        "example": {
+          "Name": "example",
+          "SLOC": 101,
+          "PR": 9,
+          "Commits": 39,
+          "Stars": 38
+        },
+        "fallback": {
+          "Name": "fallback",
+          "SLOC": 375,
+          "PR": 9,
+          "Commits": 18,
+          "Stars": 10
+        },
+        "federation": {
+          "Name": "federation",
+          "SLOC": 563,
+          "PR": 0,
+          "Commits": 39,
+          "Stars": 2
+        },
+        "helm": {
+          "Name": "helm",
+          "SLOC": 0,
+          "PR": 69,
+          "Commits": 147,
+          "Stars": 60
+        },
+        "k8s_event": {
+          "Name": "k8s_event",
+          "SLOC": 652,
+          "PR": 0,
+          "Commits": 11,
+          "Stars": 1
+        },
+        "kubeapi": {
+          "Name": "kubeapi",
+          "SLOC": 169,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "kubepods": {
+          "Name": "kubepods",
+          "SLOC": 950,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 1
+        },
+        "kubernetai": {
+          "Name": "kubernetai",
+          "SLOC": 469,
+          "PR": 31,
+          "Commits": 40,
+          "Stars": 91
+        },
+        "learning-coredns": {
+          "Name": "learning-coredns",
+          "SLOC": 493,
+          "PR": 0,
+          "Commits": 25,
+          "Stars": 40
+        },
+        "logo": {
+          "Name": "logo",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 2
+        },
+        "metadata_edns0": {
+          "Name": "metadata_edns0",
+          "SLOC": 19,
+          "PR": 18,
+          "Commits": 17,
+          "Stars": 6
+        },
+        "multicluster": {
+          "Name": "multicluster",
+          "SLOC": 2096,
+          "PR": 9,
+          "Commits": 19,
+          "Stars": 35
+        },
+        "multicluster-dns": {
+          "Name": "multicluster-dns",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 11
+        },
+        "perf-tests": {
+          "Name": "perf-tests",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 5,
+          "Stars": 16
+        },
+        "policy": {
+          "Name": "policy",
+          "SLOC": 5012,
+          "PR": 30,
+          "Commits": 77,
+          "Stars": 46
+        },
+        "presentations": {
+          "Name": "presentations",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 11,
+          "Stars": 14
+        },
+        "proxy": {
+          "Name": "proxy",
+          "SLOC": 1628,
+          "PR": 3,
+          "Commits": 13,
+          "Stars": 22
+        },
+        "records": {
+          "Name": "records",
+          "SLOC": 305,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 8
+        },
+        "release": {
+          "Name": "release",
+          "SLOC": 176,
+          "PR": 10,
+          "Commits": 49,
+          "Stars": 3
+        },
+        "rfc": {
+          "Name": "rfc",
+          "SLOC": 0,
+          "PR": 10,
+          "Commits": 6,
+          "Stars": 0
+        },
+        "rrl": {
+          "Name": "rrl",
+          "SLOC": 1721,
+          "PR": 27,
+          "Commits": 90,
+          "Stars": 21
+        },
+        "unbound": {
+          "Name": "unbound",
+          "SLOC": 439,
+          "PR": 15,
+          "Commits": 54,
+          "Stars": 30
+        }
+      }
+    },
+    "cortexproject": {
+      "Name": "cortexproject",
+      "SLOC": 120038,
+      "PR": 3756,
+      "Commits": 4877,
+      "Stars": 5149,
+      "Repos": {
+        "cortex": {
+          "Name": "cortex",
+          "SLOC": 118998,
+          "PR": 3460,
+          "Commits": 4641,
+          "Stars": 5012
+        },
+        "cortex-helm-chart": {
+          "Name": "cortex-helm-chart",
+          "SLOC": 25,
+          "PR": 296,
+          "Commits": 231,
+          "Stars": 134
+        },
+        "promqlsmith": {
+          "Name": "promqlsmith",
+          "SLOC": 1015,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 3
+        }
+      }
+    },
+    "cri-o": {
+      "Name": "cri-o",
+      "SLOC": 71252,
+      "PR": 5760,
+      "Commits": 9192,
+      "Stars": 4533,
+      "Repos": {
+        "cpuset": {
+          "Name": "cpuset",
+          "SLOC": 528,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 1
+        },
+        "cri-o": {
+          "Name": "cri-o",
+          "SLOC": 47410,
+          "PR": 5534,
+          "Commits": 7628,
+          "Stars": 4437
+        },
+        "cri-o-ansible": {
+          "Name": "cri-o-ansible",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 52,
+          "Stars": 49
+        },
+        "cri-o.io": {
+          "Name": "cri-o.io",
+          "SLOC": 0,
+          "PR": 48,
+          "Commits": 90,
+          "Stars": 8
+        },
+        "image": {
+          "Name": "image",
+          "SLOC": 21617,
+          "PR": 2,
+          "Commits": 1081,
+          "Stars": 2
+        },
+        "ocicni": {
+          "Name": "ocicni",
+          "SLOC": 1630,
+          "PR": 127,
+          "Commits": 229,
+          "Stars": 36
+        },
+        "test": {
+          "Name": "test",
+          "SLOC": 0,
+          "PR": 32,
+          "Commits": 99,
+          "Stars": 0
+        },
+        "tools": {
+          "Name": "tools",
+          "SLOC": 67,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 0
+        }
+      }
+    },
+    "crossplane": {
+      "Name": "crossplane",
+      "SLOC": 127736,
+      "PR": 3514,
+      "Commits": 11219,
+      "Stars": 7726,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 1
+        },
+        "addon-oam-kubernetes-local": {
+          "Name": "addon-oam-kubernetes-local",
+          "SLOC": 1778,
+          "PR": 38,
+          "Commits": 40,
+          "Stars": 21
+        },
+        "addon-oam-kubernetes-remote": {
+          "Name": "addon-oam-kubernetes-remote",
+          "SLOC": 107,
+          "PR": 9,
+          "Commits": 36,
+          "Stars": 5
+        },
+        "app-service-tracker": {
+          "Name": "app-service-tracker",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 9,
+          "Stars": 4
+        },
+        "app-wordpress": {
+          "Name": "app-wordpress",
+          "SLOC": 0,
+          "PR": 55,
+          "Commits": 119,
+          "Stars": 11
+        },
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 5,
+          "Stars": 3
+        },
+        "cicd": {
+          "Name": "cicd",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 17,
+          "Stars": 6
+        },
+        "conformance": {
+          "Name": "conformance",
+          "SLOC": 1593,
+          "PR": 23,
+          "Commits": 56,
+          "Stars": 8
+        },
+        "crosscd": {
+          "Name": "crosscd",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 40,
+          "Stars": 20
+        },
+        "crossplane": {
+          "Name": "crossplane",
+          "SLOC": 42498,
+          "PR": 2157,
+          "Commits": 4648,
+          "Stars": 6704
+        },
+        "crossplane-cli": {
+          "Name": "crossplane-cli",
+          "SLOC": 3019,
+          "PR": 42,
+          "Commits": 168,
+          "Stars": 14
+        },
+        "crossplane-runtime": {
+          "Name": "crossplane-runtime",
+          "SLOC": 20868,
+          "PR": 260,
+          "Commits": 1232,
+          "Stars": 98
+        },
+        "crossplane-tools": {
+          "Name": "crossplane-tools",
+          "SLOC": 2206,
+          "PR": 42,
+          "Commits": 108,
+          "Stars": 21
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 4059,
+          "PR": 217,
+          "Commits": 1183,
+          "Stars": 25
+        },
+        "example-cnp": {
+          "Name": "example-cnp",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 28,
+          "Stars": 12
+        },
+        "gitlab-controller": {
+          "Name": "gitlab-controller",
+          "SLOC": 6482,
+          "PR": 18,
+          "Commits": 45,
+          "Stars": 12
+        },
+        "oam-kubernetes-runtime": {
+          "Name": "oam-kubernetes-runtime",
+          "SLOC": 18668,
+          "PR": 203,
+          "Commits": 415,
+          "Stars": 279
+        },
+        "org": {
+          "Name": "org",
+          "SLOC": 0,
+          "PR": 23,
+          "Commits": 49,
+          "Stars": 7
+        },
+        "pkg-unpack": {
+          "Name": "pkg-unpack",
+          "SLOC": 45,
+          "PR": 7,
+          "Commits": 19,
+          "Stars": 3
+        },
+        "provider-template": {
+          "Name": "provider-template",
+          "SLOC": 838,
+          "PR": 49,
+          "Commits": 137,
+          "Stars": 80
+        },
+        "release-test": {
+          "Name": "release-test",
+          "SLOC": 8496,
+          "PR": 0,
+          "Commits": 1247,
+          "Stars": 3
+        },
+        "sample-stack": {
+          "Name": "sample-stack",
+          "SLOC": 344,
+          "PR": 7,
+          "Commits": 18,
+          "Stars": 3
+        },
+        "stack-aws-sample": {
+          "Name": "stack-aws-sample",
+          "SLOC": 0,
+          "PR": 27,
+          "Commits": 67,
+          "Stars": 12
+        },
+        "stack-azure-sample": {
+          "Name": "stack-azure-sample",
+          "SLOC": 0,
+          "PR": 28,
+          "Commits": 69,
+          "Stars": 6
+        },
+        "stack-gcp-sample": {
+          "Name": "stack-gcp-sample",
+          "SLOC": 0,
+          "PR": 45,
+          "Commits": 120,
+          "Stars": 4
+        },
+        "stack-oam": {
+          "Name": "stack-oam",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 8,
+          "Stars": 5
+        },
+        "tbs": {
+          "Name": "tbs",
+          "SLOC": 1334,
+          "PR": 25,
+          "Commits": 67,
+          "Stars": 48
+        },
+        "templating-controller": {
+          "Name": "templating-controller",
+          "SLOC": 2095,
+          "PR": 20,
+          "Commits": 85,
+          "Stars": 7
+        },
+        "terrajet": {
+          "Name": "terrajet",
+          "SLOC": 9135,
+          "PR": 136,
+          "Commits": 463,
+          "Stars": 292
+        },
+        "test": {
+          "Name": "test",
+          "SLOC": 340,
+          "PR": 30,
+          "Commits": 72,
+          "Stars": 11
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 3831,
+          "PR": 28,
+          "Commits": 647,
+          "Stars": 1
+        }
+      }
+    },
+    "cubeFS": {
+      "Name": "cubeFS",
+      "SLOC": 591217,
+      "PR": 1443,
+      "Commits": 2763,
+      "Stars": 3381,
+      "Repos": {
+        "book": {
+          "Name": "book",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "chubaofs-charts": {
+          "Name": "chubaofs-charts",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 13,
+          "Stars": 2
+        },
+        "chubaofs-tools": {
+          "Name": "chubaofs-tools",
+          "SLOC": 2123,
+          "PR": 3,
+          "Commits": 8,
+          "Stars": 1
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 5
+        },
+        "cubefs": {
+          "Name": "cubefs",
+          "SLOC": 478033,
+          "PR": 1296,
+          "Commits": 2286,
+          "Stars": 3146
+        },
+        "cubefs-blobstore": {
+          "Name": "cubefs-blobstore",
+          "SLOC": 87363,
+          "PR": 3,
+          "Commits": 82,
+          "Stars": 14
+        },
+        "cubefs-csi": {
+          "Name": "cubefs-csi",
+          "SLOC": 1333,
+          "PR": 53,
+          "Commits": 103,
+          "Stars": 33
+        },
+        "cubefs-for-android": {
+          "Name": "cubefs-for-android",
+          "SLOC": 6047,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 17
+        },
+        "cubefs-hadoop": {
+          "Name": "cubefs-hadoop",
+          "SLOC": 1113,
+          "PR": 3,
+          "Commits": 7,
+          "Stars": 3
+        },
+        "cubefs-hadoop-sealed": {
+          "Name": "cubefs-hadoop-sealed",
+          "SLOC": 1106,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 4
+        },
+        "cubefs-helm": {
+          "Name": "cubefs-helm",
+          "SLOC": 0,
+          "PR": 13,
+          "Commits": 73,
+          "Stars": 13
+        },
+        "cubefs-rss": {
+          "Name": "cubefs-rss",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 5,
+          "Stars": 0
+        },
+        "cubekv": {
+          "Name": "cubekv",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 0
+        },
+        "cubevearch": {
+          "Name": "cubevearch",
+          "SLOC": 29,
+          "PR": 2,
+          "Commits": 6,
+          "Stars": 3
+        },
+        "docs-zh": {
+          "Name": "docs-zh",
+          "SLOC": 80,
+          "PR": 52,
+          "Commits": 91,
+          "Stars": 8
+        },
+        "open-source-promotion-plan-summer-2020-tasks": {
+          "Name": "open-source-promotion-plan-summer-2020-tasks",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 5
+        },
+        "shuttle": {
+          "Name": "shuttle",
+          "SLOC": 13990,
+          "PR": 8,
+          "Commits": 59,
+          "Stars": 127
+        }
+      }
+    },
+    "dapr": {
+      "Name": "dapr",
+      "SLOC": 335518,
+      "PR": 10727,
+      "Commits": 17420,
+      "Stars": 26035,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "blog": {
+          "Name": "blog",
+          "SLOC": 0,
+          "PR": 84,
+          "Commits": 376,
+          "Stars": 2
+        },
+        "cli": {
+          "Name": "cli",
+          "SLOC": 14726,
+          "PR": 654,
+          "Commits": 783,
+          "Stars": 275
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 105,
+          "Commits": 262,
+          "Stars": 90
+        },
+        "components-contrib": {
+          "Name": "components-contrib",
+          "SLOC": 83770,
+          "PR": 1489,
+          "Commits": 2884,
+          "Stars": 426
+        },
+        "cpp-sdk": {
+          "Name": "cpp-sdk",
+          "SLOC": 5685,
+          "PR": 27,
+          "Commits": 45,
+          "Stars": 29
+        },
+        "dapr": {
+          "Name": "dapr",
+          "SLOC": 100989,
+          "PR": 3129,
+          "Commits": 3973,
+          "Stars": 20656
+        },
+        "dashboard": {
+          "Name": "dashboard",
+          "SLOC": 3156,
+          "PR": 149,
+          "Commits": 228,
+          "Stars": 144
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 77,
+          "PR": 2092,
+          "Commits": 4741,
+          "Stars": 961
+        },
+        "docs-zh": {
+          "Name": "docs-zh",
+          "SLOC": 0,
+          "PR": 35,
+          "Commits": 5,
+          "Stars": 9
+        },
+        "dotnet-sdk": {
+          "Name": "dotnet-sdk",
+          "SLOC": 26454,
+          "PR": 465,
+          "Commits": 550,
+          "Stars": 967
+        },
+        "go-sdk": {
+          "Name": "go-sdk",
+          "SLOC": 7371,
+          "PR": 257,
+          "Commits": 239,
+          "Stars": 387
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 9,
+          "Commits": 164,
+          "Stars": 11
+        },
+        "homebrew-tap": {
+          "Name": "homebrew-tap",
+          "SLOC": 701,
+          "PR": 28,
+          "Commits": 103,
+          "Stars": 2
+        },
+        "installer-bundle": {
+          "Name": "installer-bundle",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 8,
+          "Stars": 27
+        },
+        "java-sdk": {
+          "Name": "java-sdk",
+          "SLOC": 39680,
+          "PR": 490,
+          "Commits": 409,
+          "Stars": 223
+        },
+        "js-sdk": {
+          "Name": "js-sdk",
+          "SLOC": 9645,
+          "PR": 242,
+          "Commits": 585,
+          "Stars": 159
+        },
+        "kit": {
+          "Name": "kit",
+          "SLOC": 6656,
+          "PR": 35,
+          "Commits": 30,
+          "Stars": 10
+        },
+        "mechanical-markdown": {
+          "Name": "mechanical-markdown",
+          "SLOC": 1322,
+          "PR": 20,
+          "Commits": 57,
+          "Stars": 14
+        },
+        "php-sdk": {
+          "Name": "php-sdk",
+          "SLOC": 9163,
+          "PR": 80,
+          "Commits": 255,
+          "Stars": 59
+        },
+        "proposals": {
+          "Name": "proposals",
+          "SLOC": 0,
+          "PR": 14,
+          "Commits": 13,
+          "Stars": 11
+        },
+        "python-sdk": {
+          "Name": "python-sdk",
+          "SLOC": 12107,
+          "PR": 351,
+          "Commits": 327,
+          "Stars": 173
+        },
+        "quickstarts": {
+          "Name": "quickstarts",
+          "SLOC": 3907,
+          "PR": 532,
+          "Commits": 915,
+          "Stars": 880
+        },
+        "rust-sdk": {
+          "Name": "rust-sdk",
+          "SLOC": 1179,
+          "PR": 54,
+          "Commits": 58,
+          "Stars": 147
+        },
+        "samples": {
+          "Name": "samples",
+          "SLOC": 2993,
+          "PR": 115,
+          "Commits": 79,
+          "Stars": 333
+        },
+        "setup-dapr": {
+          "Name": "setup-dapr",
+          "SLOC": 4801,
+          "PR": 114,
+          "Commits": 14,
+          "Stars": 7
+        },
+        "sig-api": {
+          "Name": "sig-api",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 13
+        },
+        "sig-sdk-spec": {
+          "Name": "sig-sdk-spec",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 6,
+          "Stars": 3
+        },
+        "test-infra": {
+          "Name": "test-infra",
+          "SLOC": 1118,
+          "PR": 98,
+          "Commits": 97,
+          "Stars": 13
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 18,
+          "PR": 46,
+          "Commits": 208,
+          "Stars": 3
         }
       }
     },
@@ -1628,6 +3949,59 @@
         }
       }
     },
+    "dragonflyoss": {
+      "Name": "dragonflyoss",
+      "SLOC": 72255,
+      "PR": 1665,
+      "Commits": 1428,
+      "Stars": 1140,
+      "Repos": {
+        "Dragonfly2": {
+          "Name": "Dragonfly2",
+          "SLOC": 72255,
+          "PR": 1665,
+          "Commits": 1428,
+          "Stars": 1140
+        }
+      }
+    },
+    "emissary-ingress": {
+      "Name": "emissary-ingress",
+      "SLOC": 105687,
+      "PR": 3266,
+      "Commits": 17988,
+      "Stars": 4037,
+      "Repos": {
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 25,
+          "Stars": 13
+        },
+        "emissary": {
+          "Name": "emissary",
+          "SLOC": 105296,
+          "PR": 3256,
+          "Commits": 17947,
+          "Stars": 4023
+        },
+        "goversion": {
+          "Name": "goversion",
+          "SLOC": 286,
+          "PR": 2,
+          "Commits": 11,
+          "Stars": 0
+        },
+        "ratelimit-example": {
+          "Name": "ratelimit-example",
+          "SLOC": 105,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 1
+        }
+      }
+    },
     "envoyproxy": {
       "Name": "envoyproxy",
       "SLOC": 1871907,
@@ -1972,6 +4346,878 @@
         }
       }
     },
+    "fluent": {
+      "Name": "fluent",
+      "SLOC": 1543620,
+      "PR": 11997,
+      "Commits": 38043,
+      "Stars": 24202,
+      "Repos": {
+        "NLog.Targets.Fluentd": {
+          "Name": "NLog.Targets.Fluentd",
+          "SLOC": 360,
+          "PR": 9,
+          "Commits": 24,
+          "Stars": 42
+        },
+        "cfl": {
+          "Name": "cfl",
+          "SLOC": 4834,
+          "PR": 25,
+          "Commits": 88,
+          "Stars": 0
+        },
+        "chunkio": {
+          "Name": "chunkio",
+          "SLOC": 5090,
+          "PR": 88,
+          "Commits": 371,
+          "Stars": 16
+        },
+        "cmetrics": {
+          "Name": "cmetrics",
+          "SLOC": 24098,
+          "PR": 149,
+          "Commits": 431,
+          "Stars": 9
+        },
+        "ctraces": {
+          "Name": "ctraces",
+          "SLOC": 12719,
+          "PR": 35,
+          "Commits": 150,
+          "Stars": 0
+        },
+        "data-collection": {
+          "Name": "data-collection",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 17,
+          "Stars": 8
+        },
+        "diagtool": {
+          "Name": "diagtool",
+          "SLOC": 1126,
+          "PR": 7,
+          "Commits": 192,
+          "Stars": 4
+        },
+        "fluent-bit": {
+          "Name": "fluent-bit",
+          "SLOC": 1086788,
+          "PR": 3308,
+          "Commits": 9289,
+          "Stars": 4370
+        },
+        "fluent-bit-ci": {
+          "Name": "fluent-bit-ci",
+          "SLOC": 367,
+          "PR": 85,
+          "Commits": 232,
+          "Stars": 6
+        },
+        "fluent-bit-docker-image": {
+          "Name": "fluent-bit-docker-image",
+          "SLOC": 5,
+          "PR": 22,
+          "Commits": 161,
+          "Stars": 68
+        },
+        "fluent-bit-docs": {
+          "Name": "fluent-bit-docs",
+          "SLOC": 5,
+          "PR": 909,
+          "Commits": 1195,
+          "Stars": 111
+        },
+        "fluent-bit-docs-stream-processing": {
+          "Name": "fluent-bit-docs-stream-processing",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 25,
+          "Stars": 3
+        },
+        "fluent-bit-go": {
+          "Name": "fluent-bit-go",
+          "SLOC": 447,
+          "PR": 25,
+          "Commits": 66,
+          "Stars": 158
+        },
+        "fluent-bit-infra": {
+          "Name": "fluent-bit-infra",
+          "SLOC": 0,
+          "PR": 176,
+          "Commits": 334,
+          "Stars": 3
+        },
+        "fluent-bit-kubernetes-logging": {
+          "Name": "fluent-bit-kubernetes-logging",
+          "SLOC": 0,
+          "PR": 53,
+          "Commits": 116,
+          "Stars": 453
+        },
+        "fluent-bit-labs": {
+          "Name": "fluent-bit-labs",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 3
+        },
+        "fluent-bit-observability-demo": {
+          "Name": "fluent-bit-observability-demo",
+          "SLOC": 70,
+          "PR": 8,
+          "Commits": 20,
+          "Stars": 4
+        },
+        "fluent-bit-packaging": {
+          "Name": "fluent-bit-packaging",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 77,
+          "Stars": 12
+        },
+        "fluent-bit-perf": {
+          "Name": "fluent-bit-perf",
+          "SLOC": 1163,
+          "PR": 0,
+          "Commits": 13,
+          "Stars": 28
+        },
+        "fluent-bit-plugin": {
+          "Name": "fluent-bit-plugin",
+          "SLOC": 31,
+          "PR": 7,
+          "Commits": 6,
+          "Stars": 12
+        },
+        "fluent-bit-release-notifications": {
+          "Name": "fluent-bit-release-notifications",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "fluent-bit-sandbox": {
+          "Name": "fluent-bit-sandbox",
+          "SLOC": 225,
+          "PR": 12,
+          "Commits": 14,
+          "Stars": 1
+        },
+        "fluent-bit-tutorials": {
+          "Name": "fluent-bit-tutorials",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 5
+        },
+        "fluent-bit-unstable-releases": {
+          "Name": "fluent-bit-unstable-releases",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "fluent-bit-website": {
+          "Name": "fluent-bit-website",
+          "SLOC": 11,
+          "PR": 3,
+          "Commits": 59,
+          "Stars": 3
+        },
+        "fluent-bit-website-old": {
+          "Name": "fluent-bit-website-old",
+          "SLOC": 63161,
+          "PR": 0,
+          "Commits": 19,
+          "Stars": 2
+        },
+        "fluent-logger-d": {
+          "Name": "fluent-logger-d",
+          "SLOC": 552,
+          "PR": 6,
+          "Commits": 37,
+          "Stars": 6
+        },
+        "fluent-logger-erlang": {
+          "Name": "fluent-logger-erlang",
+          "SLOC": 303,
+          "PR": 0,
+          "Commits": 60,
+          "Stars": 10
+        },
+        "fluent-logger-forward-node": {
+          "Name": "fluent-logger-forward-node",
+          "SLOC": 4206,
+          "PR": 31,
+          "Commits": 52,
+          "Stars": 9
+        },
+        "fluent-logger-golang": {
+          "Name": "fluent-logger-golang",
+          "SLOC": 1257,
+          "PR": 74,
+          "Commits": 246,
+          "Stars": 370
+        },
+        "fluent-logger-java": {
+          "Name": "fluent-logger-java",
+          "SLOC": 1667,
+          "PR": 52,
+          "Commits": 278,
+          "Stars": 202
+        },
+        "fluent-logger-node": {
+          "Name": "fluent-logger-node",
+          "SLOC": 1952,
+          "PR": 88,
+          "Commits": 464,
+          "Stars": 257
+        },
+        "fluent-logger-ocaml": {
+          "Name": "fluent-logger-ocaml",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 23,
+          "Stars": 7
+        },
+        "fluent-logger-perl": {
+          "Name": "fluent-logger-perl",
+          "SLOC": 675,
+          "PR": 25,
+          "Commits": 157,
+          "Stars": 43
+        },
+        "fluent-logger-php": {
+          "Name": "fluent-logger-php",
+          "SLOC": 693,
+          "PR": 42,
+          "Commits": 238,
+          "Stars": 216
+        },
+        "fluent-logger-python": {
+          "Name": "fluent-logger-python",
+          "SLOC": 1900,
+          "PR": 117,
+          "Commits": 265,
+          "Stars": 410
+        },
+        "fluent-logger-ruby": {
+          "Name": "fluent-logger-ruby",
+          "SLOC": 1447,
+          "PR": 67,
+          "Commits": 249,
+          "Stars": 249
+        },
+        "fluent-logger-scala": {
+          "Name": "fluent-logger-scala",
+          "SLOC": 1020,
+          "PR": 25,
+          "Commits": 134,
+          "Stars": 45
+        },
+        "fluent-operator": {
+          "Name": "fluent-operator",
+          "SLOC": 11682,
+          "PR": 442,
+          "Commits": 619,
+          "Stars": 369
+        },
+        "fluent-otel-proto": {
+          "Name": "fluent-otel-proto",
+          "SLOC": 3051,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 0
+        },
+        "fluent-package-builder": {
+          "Name": "fluent-package-builder",
+          "SLOC": 652,
+          "PR": 302,
+          "Commits": 1226,
+          "Stars": 17
+        },
+        "fluent-plugin-buffer-chunkio": {
+          "Name": "fluent-plugin-buffer-chunkio",
+          "SLOC": 121,
+          "PR": 0,
+          "Commits": 19,
+          "Stars": 2
+        },
+        "fluent-plugin-flume": {
+          "Name": "fluent-plugin-flume",
+          "SLOC": 592,
+          "PR": 9,
+          "Commits": 57,
+          "Stars": 23
+        },
+        "fluent-plugin-grok-parser": {
+          "Name": "fluent-plugin-grok-parser",
+          "SLOC": 929,
+          "PR": 36,
+          "Commits": 241,
+          "Stars": 100
+        },
+        "fluent-plugin-hoop": {
+          "Name": "fluent-plugin-hoop",
+          "SLOC": 825,
+          "PR": 0,
+          "Commits": 61,
+          "Stars": 6
+        },
+        "fluent-plugin-kafka": {
+          "Name": "fluent-plugin-kafka",
+          "SLOC": 3636,
+          "PR": 210,
+          "Commits": 638,
+          "Stars": 291
+        },
+        "fluent-plugin-mongo": {
+          "Name": "fluent-plugin-mongo",
+          "SLOC": 1471,
+          "PR": 76,
+          "Commits": 380,
+          "Stars": 170
+        },
+        "fluent-plugin-msgpack-rpc": {
+          "Name": "fluent-plugin-msgpack-rpc",
+          "SLOC": 112,
+          "PR": 2,
+          "Commits": 18,
+          "Stars": 8
+        },
+        "fluent-plugin-multiprocess": {
+          "Name": "fluent-plugin-multiprocess",
+          "SLOC": 76,
+          "PR": 7,
+          "Commits": 30,
+          "Stars": 42
+        },
+        "fluent-plugin-opensearch": {
+          "Name": "fluent-plugin-opensearch",
+          "SLOC": 7563,
+          "PR": 29,
+          "Commits": 1317,
+          "Stars": 39
+        },
+        "fluent-plugin-parser-cri": {
+          "Name": "fluent-plugin-parser-cri",
+          "SLOC": 130,
+          "PR": 5,
+          "Commits": 21,
+          "Stars": 21
+        },
+        "fluent-plugin-parser-winevt_xml": {
+          "Name": "fluent-plugin-parser-winevt_xml",
+          "SLOC": 297,
+          "PR": 15,
+          "Commits": 51,
+          "Stars": 0
+        },
+        "fluent-plugin-prometheus": {
+          "Name": "fluent-plugin-prometheus",
+          "SLOC": 2131,
+          "PR": 97,
+          "Commits": 272,
+          "Stars": 239
+        },
+        "fluent-plugin-prometheus_pushgateway": {
+          "Name": "fluent-plugin-prometheus_pushgateway",
+          "SLOC": 268,
+          "PR": 9,
+          "Commits": 36,
+          "Stars": 1
+        },
+        "fluent-plugin-rewrite-tag-filter": {
+          "Name": "fluent-plugin-rewrite-tag-filter",
+          "SLOC": 620,
+          "PR": 55,
+          "Commits": 262,
+          "Stars": 160
+        },
+        "fluent-plugin-s3": {
+          "Name": "fluent-plugin-s3",
+          "SLOC": 2775,
+          "PR": 215,
+          "Commits": 682,
+          "Stars": 300
+        },
+        "fluent-plugin-sanitizer": {
+          "Name": "fluent-plugin-sanitizer",
+          "SLOC": 371,
+          "PR": 7,
+          "Commits": 30,
+          "Stars": 12
+        },
+        "fluent-plugin-scribe": {
+          "Name": "fluent-plugin-scribe",
+          "SLOC": 645,
+          "PR": 16,
+          "Commits": 101,
+          "Stars": 20
+        },
+        "fluent-plugin-sd-dns": {
+          "Name": "fluent-plugin-sd-dns",
+          "SLOC": 299,
+          "PR": 5,
+          "Commits": 27,
+          "Stars": 3
+        },
+        "fluent-plugin-splunk": {
+          "Name": "fluent-plugin-splunk",
+          "SLOC": 1328,
+          "PR": 21,
+          "Commits": 159,
+          "Stars": 30
+        },
+        "fluent-plugin-sql": {
+          "Name": "fluent-plugin-sql",
+          "SLOC": 784,
+          "PR": 56,
+          "Commits": 200,
+          "Stars": 100
+        },
+        "fluent-plugin-webhdfs": {
+          "Name": "fluent-plugin-webhdfs",
+          "SLOC": 1160,
+          "PR": 52,
+          "Commits": 239,
+          "Stars": 59
+        },
+        "fluent-plugin-windows-eventlog": {
+          "Name": "fluent-plugin-windows-eventlog",
+          "SLOC": 1275,
+          "PR": 47,
+          "Commits": 269,
+          "Stars": 27
+        },
+        "fluent-plugins": {
+          "Name": "fluent-plugins",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 18
+        },
+        "fluent.github.com": {
+          "Name": "fluent.github.com",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 44,
+          "Stars": 4
+        },
+        "fluentbit-website-v2": {
+          "Name": "fluentbit-website-v2",
+          "SLOC": 74,
+          "PR": 0,
+          "Commits": 38,
+          "Stars": 2
+        },
+        "fluentbit-website-v3": {
+          "Name": "fluentbit-website-v3",
+          "SLOC": 78182,
+          "PR": 27,
+          "Commits": 386,
+          "Stars": 4
+        },
+        "fluentd": {
+          "Name": "fluentd",
+          "SLOC": 80490,
+          "PR": 1864,
+          "Commits": 6525,
+          "Stars": 11822
+        },
+        "fluentd-aggregator-docker-image": {
+          "Name": "fluentd-aggregator-docker-image",
+          "SLOC": 0,
+          "PR": 76,
+          "Commits": 44,
+          "Stars": 3
+        },
+        "fluentd-benchmark": {
+          "Name": "fluentd-benchmark",
+          "SLOC": 159,
+          "PR": 12,
+          "Commits": 99,
+          "Stars": 47
+        },
+        "fluentd-docker-image": {
+          "Name": "fluentd-docker-image",
+          "SLOC": 0,
+          "PR": 166,
+          "Commits": 594,
+          "Stars": 438
+        },
+        "fluentd-docs": {
+          "Name": "fluentd-docs",
+          "SLOC": 5458,
+          "PR": 458,
+          "Commits": 2432,
+          "Stars": 49
+        },
+        "fluentd-docs-gitbook": {
+          "Name": "fluentd-docs-gitbook",
+          "SLOC": 0,
+          "PR": 331,
+          "Commits": 7,
+          "Stars": 40
+        },
+        "fluentd-docs-kubernetes": {
+          "Name": "fluentd-docs-kubernetes",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "fluentd-forwarder": {
+          "Name": "fluentd-forwarder",
+          "SLOC": 3930,
+          "PR": 21,
+          "Commits": 118,
+          "Stars": 281
+        },
+        "fluentd-kubernetes-daemonset": {
+          "Name": "fluentd-kubernetes-daemonset",
+          "SLOC": 14118,
+          "PR": 1048,
+          "Commits": 826,
+          "Stars": 1152
+        },
+        "fluentd-ui": {
+          "Name": "fluentd-ui",
+          "SLOC": 9697,
+          "PR": 357,
+          "Commits": 1838,
+          "Stars": 580
+        },
+        "fluentd-website": {
+          "Name": "fluentd-website",
+          "SLOC": 3529,
+          "PR": 213,
+          "Commits": 990,
+          "Stars": 11
+        },
+        "fluentd-website-hugo": {
+          "Name": "fluentd-website-hugo",
+          "SLOC": 212,
+          "PR": 0,
+          "Commits": 8,
+          "Stars": 0
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 189,
+          "Commits": 396,
+          "Stars": 260
+        },
+        "kafka-connect-fluentd": {
+          "Name": "kafka-connect-fluentd",
+          "SLOC": 1439,
+          "PR": 11,
+          "Commits": 128,
+          "Stars": 23
+        },
+        "m3-workshop-fluentcon": {
+          "Name": "m3-workshop-fluentcon",
+          "SLOC": 6,
+          "PR": 3,
+          "Commits": 21,
+          "Stars": 4
+        },
+        "nginx-fluentd-module": {
+          "Name": "nginx-fluentd-module",
+          "SLOC": 456,
+          "PR": 7,
+          "Commits": 16,
+          "Stars": 86
+        },
+        "onigmo": {
+          "Name": "onigmo",
+          "SLOC": 86587,
+          "PR": 5,
+          "Commits": 1173,
+          "Stars": 2
+        },
+        "sigdump": {
+          "Name": "sigdump",
+          "SLOC": 130,
+          "PR": 15,
+          "Commits": 36,
+          "Stars": 178
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 188,
+          "PR": 7,
+          "Commits": 240,
+          "Stars": 13
+        }
+      }
+    },
+    "fluxcd": {
+      "Name": "fluxcd",
+      "SLOC": 200223,
+      "PR": 9490,
+      "Commits": 27687,
+      "Stars": 19867,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 23,
+          "Commits": 43,
+          "Stars": 3
+        },
+        "charts": {
+          "Name": "charts",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 14,
+          "Stars": 15
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 147,
+          "PR": 188,
+          "Commits": 411,
+          "Stars": 28
+        },
+        "cues": {
+          "Name": "cues",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 51,
+          "Stars": 46
+        },
+        "flagger": {
+          "Name": "flagger",
+          "SLOC": 27557,
+          "PR": 753,
+          "Commits": 2652,
+          "Stars": 4148
+        },
+        "flux": {
+          "Name": "flux",
+          "SLOC": 29862,
+          "PR": 1940,
+          "Commits": 5266,
+          "Stars": 6932
+        },
+        "flux-get-started": {
+          "Name": "flux-get-started",
+          "SLOC": 0,
+          "PR": 60,
+          "Commits": 81,
+          "Stars": 158
+        },
+        "flux-kustomize-example": {
+          "Name": "flux-kustomize-example",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 42,
+          "Stars": 74
+        },
+        "flux-recv": {
+          "Name": "flux-recv",
+          "SLOC": 1076,
+          "PR": 19,
+          "Commits": 62,
+          "Stars": 67
+        },
+        "flux2": {
+          "Name": "flux2",
+          "SLOC": 20442,
+          "PR": 1200,
+          "Commits": 2652,
+          "Stars": 4523
+        },
+        "flux2-kustomize-helm-example": {
+          "Name": "flux2-kustomize-helm-example",
+          "SLOC": 0,
+          "PR": 57,
+          "Commits": 85,
+          "Stars": 627
+        },
+        "flux2-multi-tenancy": {
+          "Name": "flux2-multi-tenancy",
+          "SLOC": 0,
+          "PR": 73,
+          "Commits": 163,
+          "Stars": 375
+        },
+        "fluxctl-action": {
+          "Name": "fluxctl-action",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 13,
+          "Stars": 15
+        },
+        "gitsrv": {
+          "Name": "gitsrv",
+          "SLOC": 0,
+          "PR": 19,
+          "Commits": 67,
+          "Stars": 9
+        },
+        "go-git-providers": {
+          "Name": "go-git-providers",
+          "SLOC": 16141,
+          "PR": 142,
+          "Commits": 347,
+          "Stars": 62
+        },
+        "golang-with-libgit2": {
+          "Name": "golang-with-libgit2",
+          "SLOC": 237,
+          "PR": 39,
+          "Commits": 104,
+          "Stars": 3
+        },
+        "helm-controller": {
+          "Name": "helm-controller",
+          "SLOC": 5486,
+          "PR": 412,
+          "Commits": 897,
+          "Stars": 293
+        },
+        "helm-operator": {
+          "Name": "helm-operator",
+          "SLOC": 5610,
+          "PR": 351,
+          "Commits": 4620,
+          "Stars": 656
+        },
+        "helm-operator-docs-redirects": {
+          "Name": "helm-operator-docs-redirects",
+          "SLOC": 15,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 0
+        },
+        "helm-operator-get-started": {
+          "Name": "helm-operator-get-started",
+          "SLOC": 0,
+          "PR": 48,
+          "Commits": 170,
+          "Stars": 456
+        },
+        "homebrew-tap": {
+          "Name": "homebrew-tap",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 145,
+          "Stars": 4
+        },
+        "image-automation-controller": {
+          "Name": "image-automation-controller",
+          "SLOC": 3235,
+          "PR": 314,
+          "Commits": 738,
+          "Stars": 117
+        },
+        "image-reflector-controller": {
+          "Name": "image-reflector-controller",
+          "SLOC": 5132,
+          "PR": 253,
+          "Commits": 583,
+          "Stars": 79
+        },
+        "kustomize-controller": {
+          "Name": "kustomize-controller",
+          "SLOC": 10698,
+          "PR": 559,
+          "Commits": 1345,
+          "Stars": 204
+        },
+        "legacy-docs-redirects": {
+          "Name": "legacy-docs-redirects",
+          "SLOC": 15,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 0
+        },
+        "multi-tenancy": {
+          "Name": "multi-tenancy",
+          "SLOC": 0,
+          "PR": 13,
+          "Commits": 80,
+          "Stars": 181
+        },
+        "multi-tenancy-team1": {
+          "Name": "multi-tenancy-team1",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 16,
+          "Stars": 9
+        },
+        "notification-controller": {
+          "Name": "notification-controller",
+          "SLOC": 7054,
+          "PR": 349,
+          "Commits": 829,
+          "Stars": 119
+        },
+        "pkg": {
+          "Name": "pkg",
+          "SLOC": 27523,
+          "PR": 454,
+          "Commits": 1077,
+          "Stars": 30
+        },
+        "source-controller": {
+          "Name": "source-controller",
+          "SLOC": 30140,
+          "PR": 758,
+          "Commits": 1950,
+          "Stars": 191
+        },
+        "source-watcher": {
+          "Name": "source-watcher",
+          "SLOC": 152,
+          "PR": 39,
+          "Commits": 101,
+          "Stars": 26
+        },
+        "stats": {
+          "Name": "stats",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 36,
+          "Stars": 1
+        },
+        "terraform-provider-flux": {
+          "Name": "terraform-provider-flux",
+          "SLOC": 3964,
+          "PR": 269,
+          "Commits": 541,
+          "Stars": 247
+        },
+        "test-infra": {
+          "Name": "test-infra",
+          "SLOC": 411,
+          "PR": 4,
+          "Commits": 13,
+          "Stars": 0
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 405,
+          "PR": 1080,
+          "Commits": 2321,
+          "Stars": 27
+        },
+        "webui": {
+          "Name": "webui",
+          "SLOC": 4921,
+          "PR": 38,
+          "Commits": 162,
+          "Stars": 142
+        }
+      }
+    },
     "go-faster": {
       "Name": "go-faster",
       "SLOC": 50751,
@@ -2090,6 +5336,134 @@
           "PR": 38,
           "Commits": 540,
           "Stars": 5
+        }
+      }
+    },
+    "goharbor": {
+      "Name": "goharbor",
+      "SLOC": 242493,
+      "PR": 10355,
+      "Commits": 16930,
+      "Stars": 21116,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 4,
+          "Stars": 0
+        },
+        "acceleration-service": {
+          "Name": "acceleration-service",
+          "SLOC": 2314,
+          "PR": 92,
+          "Commits": 144,
+          "Stars": 28
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 196,
+          "Commits": 577,
+          "Stars": 66
+        },
+        "go-client": {
+          "Name": "go-client",
+          "SLOC": 424,
+          "PR": 9,
+          "Commits": 7,
+          "Stars": 20
+        },
+        "harbor": {
+          "Name": "harbor",
+          "SLOC": 191467,
+          "PR": 8026,
+          "Commits": 11562,
+          "Stars": 19523
+        },
+        "harbor-arm": {
+          "Name": "harbor-arm",
+          "SLOC": 139,
+          "PR": 14,
+          "Commits": 11,
+          "Stars": 37
+        },
+        "harbor-cluster-operator": {
+          "Name": "harbor-cluster-operator",
+          "SLOC": 4849,
+          "PR": 114,
+          "Commits": 390,
+          "Stars": 28
+        },
+        "harbor-helm": {
+          "Name": "harbor-helm",
+          "SLOC": 348,
+          "PR": 748,
+          "Commits": 647,
+          "Stars": 939
+        },
+        "harbor-loongson": {
+          "Name": "harbor-loongson",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 1
+        },
+        "harbor-operator": {
+          "Name": "harbor-operator",
+          "SLOC": 32491,
+          "PR": 537,
+          "Commits": 1032,
+          "Stars": 293
+        },
+        "harbor-scanner-clair": {
+          "Name": "harbor-scanner-clair",
+          "SLOC": 2852,
+          "PR": 16,
+          "Commits": 44,
+          "Stars": 31
+        },
+        "jenkins-shared-library": {
+          "Name": "jenkins-shared-library",
+          "SLOC": 0,
+          "PR": 28,
+          "Commits": 34,
+          "Stars": 4
+        },
+        "perf": {
+          "Name": "perf",
+          "SLOC": 2425,
+          "PR": 30,
+          "Commits": 63,
+          "Stars": 14
+        },
+        "pluggable-scanner-spec": {
+          "Name": "pluggable-scanner-spec",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 23,
+          "Stars": 14
+        },
+        "replication-verification": {
+          "Name": "replication-verification",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 32,
+          "Stars": 6
+        },
+        "terraform-provider-harbor": {
+          "Name": "terraform-provider-harbor",
+          "SLOC": 5179,
+          "PR": 185,
+          "Commits": 520,
+          "Stars": 87
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 5,
+          "PR": 346,
+          "Commits": 1839,
+          "Stars": 25
         }
       }
     },
@@ -3209,6 +6583,211 @@
         }
       }
     },
+    "in-toto": {
+      "Name": "in-toto",
+      "SLOC": 92299,
+      "PR": 1029,
+      "Commits": 9451,
+      "Stars": 1062,
+      "Repos": {
+        "Dockerfiles": {
+          "Name": "Dockerfiles",
+          "SLOC": 36,
+          "PR": 16,
+          "Commits": 42,
+          "Stars": 4
+        },
+        "ITE": {
+          "Name": "ITE",
+          "SLOC": 0,
+          "PR": 34,
+          "Commits": 234,
+          "Stars": 13
+        },
+        "apt-transport-in-toto": {
+          "Name": "apt-transport-in-toto",
+          "SLOC": 1056,
+          "PR": 23,
+          "Commits": 106,
+          "Stars": 7
+        },
+        "attestation": {
+          "Name": "attestation",
+          "SLOC": 136,
+          "PR": 81,
+          "Commits": 244,
+          "Stars": 106
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 15,
+          "Stars": 3
+        },
+        "demo": {
+          "Name": "demo",
+          "SLOC": 351,
+          "PR": 37,
+          "Commits": 128,
+          "Stars": 52
+        },
+        "demo-jekyll": {
+          "Name": "demo-jekyll",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 15,
+          "Stars": 1
+        },
+        "demo-opensuse": {
+          "Name": "demo-opensuse",
+          "SLOC": 205,
+          "PR": 0,
+          "Commits": 11,
+          "Stars": 0
+        },
+        "demo-project-jekyll": {
+          "Name": "demo-project-jekyll",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 0
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 228,
+          "PR": 44,
+          "Commits": 149,
+          "Stars": 26
+        },
+        "friends": {
+          "Name": "friends",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 14,
+          "Stars": 5
+        },
+        "github-action": {
+          "Name": "github-action",
+          "SLOC": 33244,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 4
+        },
+        "image-resources": {
+          "Name": "image-resources",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 1
+        },
+        "in-toto": {
+          "Name": "in-toto",
+          "SLOC": 10429,
+          "PR": 407,
+          "Commits": 1811,
+          "Stars": 681
+        },
+        "in-toto-golang": {
+          "Name": "in-toto-golang",
+          "SLOC": 9144,
+          "PR": 146,
+          "Commits": 721,
+          "Stars": 77
+        },
+        "in-toto-inspections": {
+          "Name": "in-toto-inspections",
+          "SLOC": 242,
+          "PR": 0,
+          "Commits": 25,
+          "Stars": 1
+        },
+        "in-toto-java": {
+          "Name": "in-toto-java",
+          "SLOC": 3561,
+          "PR": 92,
+          "Commits": 285,
+          "Stars": 8
+        },
+        "in-toto-rs": {
+          "Name": "in-toto-rs",
+          "SLOC": 6671,
+          "PR": 37,
+          "Commits": 161,
+          "Stars": 28
+        },
+        "in-toto-webhook": {
+          "Name": "in-toto-webhook",
+          "SLOC": 506,
+          "PR": 2,
+          "Commits": 10,
+          "Stars": 9
+        },
+        "in-toto.io": {
+          "Name": "in-toto.io",
+          "SLOC": 9,
+          "PR": 14,
+          "Commits": 52,
+          "Stars": 1
+        },
+        "ite-4-demo": {
+          "Name": "ite-4-demo",
+          "SLOC": 383,
+          "PR": 0,
+          "Commits": 21,
+          "Stars": 1
+        },
+        "ite-4-demo-test-repo": {
+          "Name": "ite-4-demo-test-repo",
+          "SLOC": 5,
+          "PR": 50,
+          "Commits": 101,
+          "Stars": 0
+        },
+        "kubectl-in-toto": {
+          "Name": "kubectl-in-toto",
+          "SLOC": 209,
+          "PR": 3,
+          "Commits": 29,
+          "Stars": 8
+        },
+        "layout-web-tool": {
+          "Name": "layout-web-tool",
+          "SLOC": 1910,
+          "PR": 26,
+          "Commits": 255,
+          "Stars": 2
+        },
+        "supply-chain-compromises": {
+          "Name": "supply-chain-compromises",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 42,
+          "Stars": 20
+        },
+        "toto-pip": {
+          "Name": "toto-pip",
+          "SLOC": 23708,
+          "PR": 0,
+          "Commits": 4917,
+          "Stars": 0
+        },
+        "totoify-grafeas": {
+          "Name": "totoify-grafeas",
+          "SLOC": 266,
+          "PR": 2,
+          "Commits": 41,
+          "Stars": 4
+        },
+        "windows-setup": {
+          "Name": "windows-setup",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        }
+      }
+    },
     "istio": {
       "Name": "istio",
       "SLOC": 583580,
@@ -3435,6 +7014,232 @@
         }
       }
     },
+    "jaegertracing": {
+      "Name": "jaegertracing",
+      "SLOC": 250499,
+      "PR": 7640,
+      "Commits": 8737,
+      "Stars": 23691,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 7,
+          "Stars": 0
+        },
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 9,
+          "Stars": 2
+        },
+        "docker-protobuf": {
+          "Name": "docker-protobuf",
+          "SLOC": 47,
+          "PR": 16,
+          "Commits": 272,
+          "Stars": 74
+        },
+        "documentation": {
+          "Name": "documentation",
+          "SLOC": 164,
+          "PR": 428,
+          "Commits": 492,
+          "Stars": 55
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 266,
+          "Commits": 607,
+          "Stars": 205
+        },
+        "jaeger": {
+          "Name": "jaeger",
+          "SLOC": 71895,
+          "PR": 2332,
+          "Commits": 1953,
+          "Stars": 17262
+        },
+        "jaeger-analytics-flink": {
+          "Name": "jaeger-analytics-flink",
+          "SLOC": 2747,
+          "PR": 5,
+          "Commits": 3,
+          "Stars": 61
+        },
+        "jaeger-analytics-java": {
+          "Name": "jaeger-analytics-java",
+          "SLOC": 2596,
+          "PR": 41,
+          "Commits": 103,
+          "Stars": 38
+        },
+        "jaeger-clickhouse": {
+          "Name": "jaeger-clickhouse",
+          "SLOC": 3869,
+          "PR": 80,
+          "Commits": 120,
+          "Stars": 159
+        },
+        "jaeger-client-cpp": {
+          "Name": "jaeger-client-cpp",
+          "SLOC": 10896,
+          "PR": 140,
+          "Commits": 110,
+          "Stars": 136
+        },
+        "jaeger-client-csharp": {
+          "Name": "jaeger-client-csharp",
+          "SLOC": 11262,
+          "PR": 105,
+          "Commits": 285,
+          "Stars": 308
+        },
+        "jaeger-client-go": {
+          "Name": "jaeger-client-go",
+          "SLOC": 19391,
+          "PR": 408,
+          "Commits": 433,
+          "Stars": 1327
+        },
+        "jaeger-client-java": {
+          "Name": "jaeger-client-java",
+          "SLOC": 12386,
+          "PR": 504,
+          "Commits": 528,
+          "Stars": 485
+        },
+        "jaeger-client-javascript": {
+          "Name": "jaeger-client-javascript",
+          "SLOC": 26,
+          "PR": 6,
+          "Commits": 7,
+          "Stars": 32
+        },
+        "jaeger-client-node": {
+          "Name": "jaeger-client-node",
+          "SLOC": 9104,
+          "PR": 420,
+          "Commits": 450,
+          "Stars": 549
+        },
+        "jaeger-client-python": {
+          "Name": "jaeger-client-python",
+          "SLOC": 6278,
+          "PR": 236,
+          "Commits": 264,
+          "Stars": 413
+        },
+        "jaeger-idl": {
+          "Name": "jaeger-idl",
+          "SLOC": 410,
+          "PR": 80,
+          "Commits": 90,
+          "Stars": 68
+        },
+        "jaeger-kubernetes": {
+          "Name": "jaeger-kubernetes",
+          "SLOC": 190,
+          "PR": 73,
+          "Commits": 60,
+          "Stars": 440
+        },
+        "jaeger-lib": {
+          "Name": "jaeger-lib",
+          "SLOC": 3271,
+          "PR": 69,
+          "Commits": 79,
+          "Stars": 63
+        },
+        "jaeger-openshift": {
+          "Name": "jaeger-openshift",
+          "SLOC": 76,
+          "PR": 70,
+          "Commits": 62,
+          "Stars": 56
+        },
+        "jaeger-opentelemetry-collector": {
+          "Name": "jaeger-opentelemetry-collector",
+          "SLOC": 210,
+          "PR": 127,
+          "Commits": 30,
+          "Stars": 13
+        },
+        "jaeger-opentelemetry-releases": {
+          "Name": "jaeger-opentelemetry-releases",
+          "SLOC": 180,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 3
+        },
+        "jaeger-operator": {
+          "Name": "jaeger-operator",
+          "SLOC": 28454,
+          "PR": 1300,
+          "Commits": 1096,
+          "Stars": 904
+        },
+        "jaeger-performance": {
+          "Name": "jaeger-performance",
+          "SLOC": 3966,
+          "PR": 49,
+          "Commits": 181,
+          "Stars": 18
+        },
+        "jaeger-ui": {
+          "Name": "jaeger-ui",
+          "SLOC": 48861,
+          "PR": 781,
+          "Commits": 1091,
+          "Stars": 894
+        },
+        "jaeger-vscode": {
+          "Name": "jaeger-vscode",
+          "SLOC": 122,
+          "PR": 8,
+          "Commits": 20,
+          "Stars": 4
+        },
+        "legacy-client-java": {
+          "Name": "legacy-client-java",
+          "SLOC": 11470,
+          "PR": 14,
+          "Commits": 292,
+          "Stars": 5
+        },
+        "security-audits": {
+          "Name": "security-audits",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 4
+        },
+        "spark-dependencies": {
+          "Name": "spark-dependencies",
+          "SLOC": 2223,
+          "PR": 65,
+          "Commits": 54,
+          "Stars": 110
+        },
+        "vertx-create-span": {
+          "Name": "vertx-create-span",
+          "SLOC": 128,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 3
+        },
+        "xdock-zipkin-brave": {
+          "Name": "xdock-zipkin-brave",
+          "SLOC": 277,
+          "PR": 12,
+          "Commits": 17,
+          "Stars": 0
+        }
+      }
+    },
     "kata-containers": {
       "Name": "kata-containers",
       "SLOC": 223850,
@@ -3553,6 +7358,665 @@
           "PR": 172,
           "Commits": 397,
           "Stars": 23
+        }
+      }
+    },
+    "kedacore": {
+      "Name": "kedacore",
+      "SLOC": 105043,
+      "PR": 4221,
+      "Commits": 3857,
+      "Stars": 6767,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 5,
+          "Stars": 0
+        },
+        "charts": {
+          "Name": "charts",
+          "SLOC": 0,
+          "PR": 255,
+          "Commits": 230,
+          "Stars": 94
+        },
+        "dashboard": {
+          "Name": "dashboard",
+          "SLOC": 1548,
+          "PR": 15,
+          "Commits": 17,
+          "Stars": 6
+        },
+        "external-scaler-azure-cosmos-db": {
+          "Name": "external-scaler-azure-cosmos-db",
+          "SLOC": 699,
+          "PR": 32,
+          "Commits": 32,
+          "Stars": 8
+        },
+        "external-scaler-samples": {
+          "Name": "external-scaler-samples",
+          "SLOC": 507,
+          "PR": 6,
+          "Commits": 9,
+          "Stars": 9
+        },
+        "external-scalers": {
+          "Name": "external-scalers",
+          "SLOC": 0,
+          "PR": 18,
+          "Commits": 19,
+          "Stars": 9
+        },
+        "github-template": {
+          "Name": "github-template",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 3,
+          "Stars": 0
+        },
+        "governance": {
+          "Name": "governance",
+          "SLOC": 0,
+          "PR": 37,
+          "Commits": 50,
+          "Stars": 7
+        },
+        "http-add-on": {
+          "Name": "http-add-on",
+          "SLOC": 7632,
+          "PR": 413,
+          "Commits": 262,
+          "Stars": 176
+        },
+        "keda": {
+          "Name": "keda",
+          "SLOC": 68274,
+          "PR": 2143,
+          "Commits": 1869,
+          "Stars": 6047
+        },
+        "keda-docs": {
+          "Name": "keda-docs",
+          "SLOC": 0,
+          "PR": 862,
+          "Commits": 764,
+          "Stars": 66
+        },
+        "keda-external-scaler-azure-durable-functions": {
+          "Name": "keda-external-scaler-azure-durable-functions",
+          "SLOC": 761,
+          "PR": 4,
+          "Commits": 102,
+          "Stars": 5
+        },
+        "keda-olm-operator": {
+          "Name": "keda-olm-operator",
+          "SLOC": 2194,
+          "PR": 148,
+          "Commits": 158,
+          "Stars": 24
+        },
+        "sample-azure-functions-on-ocp4": {
+          "Name": "sample-azure-functions-on-ocp4",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 10,
+          "Stars": 2
+        },
+        "sample-dotnet-worker-servicebus-queue": {
+          "Name": "sample-dotnet-worker-servicebus-queue",
+          "SLOC": 21275,
+          "PR": 30,
+          "Commits": 38,
+          "Stars": 68
+        },
+        "sample-go-gcppubsub": {
+          "Name": "sample-go-gcppubsub",
+          "SLOC": 27,
+          "PR": 3,
+          "Commits": 3,
+          "Stars": 12
+        },
+        "sample-go-rabbitmq": {
+          "Name": "sample-go-rabbitmq",
+          "SLOC": 107,
+          "PR": 26,
+          "Commits": 25,
+          "Stars": 68
+        },
+        "sample-go-storage-queue": {
+          "Name": "sample-go-storage-queue",
+          "SLOC": 215,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 1
+        },
+        "sample-hello-world-azure-functions": {
+          "Name": "sample-hello-world-azure-functions",
+          "SLOC": 3,
+          "PR": 9,
+          "Commits": 20,
+          "Stars": 75
+        },
+        "sample-javascript-eventhub-azure-function": {
+          "Name": "sample-javascript-eventhub-azure-function",
+          "SLOC": 95,
+          "PR": 3,
+          "Commits": 9,
+          "Stars": 2
+        },
+        "sample-python-kafka-azure-function": {
+          "Name": "sample-python-kafka-azure-function",
+          "SLOC": 18,
+          "PR": 8,
+          "Commits": 7,
+          "Stars": 6
+        },
+        "sample-typescript-kafka-azure-function": {
+          "Name": "sample-typescript-kafka-azure-function",
+          "SLOC": 15,
+          "PR": 9,
+          "Commits": 9,
+          "Stars": 15
+        },
+        "samples": {
+          "Name": "samples",
+          "SLOC": 0,
+          "PR": 32,
+          "Commits": 59,
+          "Stars": 64
+        },
+        "test-tools": {
+          "Name": "test-tools",
+          "SLOC": 1673,
+          "PR": 60,
+          "Commits": 53,
+          "Stars": 3
+        },
+        "testing-infrastructure": {
+          "Name": "testing-infrastructure",
+          "SLOC": 0,
+          "PR": 100,
+          "Commits": 98,
+          "Stars": 0
+        }
+      }
+    },
+    "keptn": {
+      "Name": "keptn",
+      "SLOC": 256768,
+      "PR": 8351,
+      "Commits": 11785,
+      "Stars": 1875,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 12,
+          "Stars": 1
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 114,
+          "Commits": 344,
+          "Stars": 45
+        },
+        "enhancement-proposals": {
+          "Name": "enhancement-proposals",
+          "SLOC": 0,
+          "PR": 63,
+          "Commits": 137,
+          "Stars": 11
+        },
+        "examples": {
+          "Name": "examples",
+          "SLOC": 106,
+          "PR": 210,
+          "Commits": 412,
+          "Stars": 23
+        },
+        "get.keptn.sh": {
+          "Name": "get.keptn.sh",
+          "SLOC": 0,
+          "PR": 84,
+          "Commits": 132,
+          "Stars": 1
+        },
+        "gh-action-build-docker-image": {
+          "Name": "gh-action-build-docker-image",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 5,
+          "Stars": 0
+        },
+        "gh-action-ci-prepare-keptn-cluster": {
+          "Name": "gh-action-ci-prepare-keptn-cluster",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 47,
+          "Stars": 0
+        },
+        "gh-action-extract-branch-name": {
+          "Name": "gh-action-extract-branch-name",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        },
+        "gh-action-send-event": {
+          "Name": "gh-action-send-event",
+          "SLOC": 3245,
+          "PR": 3,
+          "Commits": 6,
+          "Stars": 3
+        },
+        "gh-automation": {
+          "Name": "gh-automation",
+          "SLOC": 0,
+          "PR": 18,
+          "Commits": 29,
+          "Stars": 5
+        },
+        "go-utils": {
+          "Name": "go-utils",
+          "SLOC": 17604,
+          "PR": 565,
+          "Commits": 895,
+          "Stars": 7
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "helm-charts-dev": {
+          "Name": "helm-charts-dev",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 0
+        },
+        "integrations": {
+          "Name": "integrations",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 9,
+          "Stars": 4
+        },
+        "keptn": {
+          "Name": "keptn",
+          "SLOC": 162256,
+          "PR": 6077,
+          "Commits": 8297,
+          "Stars": 1689
+        },
+        "kubernetes-utils": {
+          "Name": "kubernetes-utils",
+          "SLOC": 563,
+          "PR": 164,
+          "Commits": 135,
+          "Stars": 0
+        },
+        "lifecycle-toolkit": {
+          "Name": "lifecycle-toolkit",
+          "SLOC": 32187,
+          "PR": 666,
+          "Commits": 497,
+          "Stars": 56
+        },
+        "lifecycle-toolkit-charts": {
+          "Name": "lifecycle-toolkit-charts",
+          "SLOC": 0,
+          "PR": 91,
+          "Commits": 17,
+          "Stars": 0
+        },
+        "spec": {
+          "Name": "spec",
+          "SLOC": 0,
+          "PR": 73,
+          "Commits": 165,
+          "Stars": 17
+        },
+        "tutorials": {
+          "Name": "tutorials",
+          "SLOC": 40807,
+          "PR": 193,
+          "Commits": 622,
+          "Stars": 10
+        },
+        "wg-app-lifecycle": {
+          "Name": "wg-app-lifecycle",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 13,
+          "Stars": 2
+        }
+      }
+    },
+    "knative": {
+      "Name": "knative",
+      "SLOC": 416901,
+      "PR": 32252,
+      "Commits": 27849,
+      "Stars": 12383,
+      "Repos": {
+        ".artifacthub": {
+          "Name": ".artifacthub",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 0
+        },
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 16,
+          "Commits": 195,
+          "Stars": 7
+        },
+        "actions": {
+          "Name": "actions",
+          "SLOC": 0,
+          "PR": 79,
+          "Commits": 73,
+          "Stars": 8
+        },
+        "build": {
+          "Name": "build",
+          "SLOC": 8260,
+          "PR": 452,
+          "Commits": 372,
+          "Stars": 575
+        },
+        "build-templates": {
+          "Name": "build-templates",
+          "SLOC": 0,
+          "PR": 90,
+          "Commits": 70,
+          "Stars": 184
+        },
+        "caching": {
+          "Name": "caching",
+          "SLOC": 404,
+          "PR": 725,
+          "Commits": 649,
+          "Stars": 36
+        },
+        "client": {
+          "Name": "client",
+          "SLOC": 46650,
+          "PR": 1259,
+          "Commits": 1100,
+          "Stars": 303
+        },
+        "client-contrib": {
+          "Name": "client-contrib",
+          "SLOC": 4655,
+          "PR": 45,
+          "Commits": 36,
+          "Stars": 11
+        },
+        "client-pkg": {
+          "Name": "client-pkg",
+          "SLOC": 18116,
+          "PR": 86,
+          "Commits": 80,
+          "Stars": 3
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 2697,
+          "PR": 981,
+          "Commits": 895,
+          "Stars": 202
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 2849,
+          "PR": 3889,
+          "Commits": 3012,
+          "Stars": 3842
+        },
+        "eventing": {
+          "Name": "eventing",
+          "SLOC": 87064,
+          "PR": 4302,
+          "Commits": 3524,
+          "Stars": 1264
+        },
+        "eventing-contrib": {
+          "Name": "eventing-contrib",
+          "SLOC": 284,
+          "PR": 1191,
+          "Commits": 904,
+          "Stars": 224
+        },
+        "eventing-operator": {
+          "Name": "eventing-operator",
+          "SLOC": 2114,
+          "PR": 167,
+          "Commits": 116,
+          "Stars": 20
+        },
+        "func": {
+          "Name": "func",
+          "SLOC": 31225,
+          "PR": 1130,
+          "Commits": 1158,
+          "Stars": 156
+        },
+        "hack": {
+          "Name": "hack",
+          "SLOC": 2394,
+          "PR": 233,
+          "Commits": 189,
+          "Stars": 15
+        },
+        "homebrew-client": {
+          "Name": "homebrew-client",
+          "SLOC": 520,
+          "PR": 87,
+          "Commits": 96,
+          "Stars": 11
+        },
+        "infra": {
+          "Name": "infra",
+          "SLOC": 3,
+          "PR": 45,
+          "Commits": 47,
+          "Stars": 3
+        },
+        "networking": {
+          "Name": "networking",
+          "SLOC": 10854,
+          "PR": 728,
+          "Commits": 840,
+          "Stars": 57
+        },
+        "observability": {
+          "Name": "observability",
+          "SLOC": 8619,
+          "PR": 28,
+          "Commits": 19,
+          "Stars": 25
+        },
+        "operator": {
+          "Name": "operator",
+          "SLOC": 13264,
+          "PR": 1142,
+          "Commits": 855,
+          "Stars": 135
+        },
+        "pkg": {
+          "Name": "pkg",
+          "SLOC": 61171,
+          "PR": 2309,
+          "Commits": 1987,
+          "Stars": 234
+        },
+        "release": {
+          "Name": "release",
+          "SLOC": 0,
+          "PR": 168,
+          "Commits": 154,
+          "Stars": 6
+        },
+        "serving": {
+          "Name": "serving",
+          "SLOC": 96891,
+          "PR": 9432,
+          "Commits": 8039,
+          "Stars": 4890
+        },
+        "serving-operator": {
+          "Name": "serving-operator",
+          "SLOC": 2623,
+          "PR": 309,
+          "Commits": 399,
+          "Stars": 39
+        },
+        "specs": {
+          "Name": "specs",
+          "SLOC": 3,
+          "PR": 69,
+          "Commits": 53,
+          "Stars": 27
+        },
+        "test-infra": {
+          "Name": "test-infra",
+          "SLOC": 15899,
+          "PR": 3000,
+          "Commits": 2712,
+          "Stars": 82
+        },
+        "ux": {
+          "Name": "ux",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 18,
+          "Stars": 2
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 342,
+          "PR": 273,
+          "Commits": 248,
+          "Stars": 22
+        }
+      }
+    },
+    "kubeedge": {
+      "Name": "kubeedge",
+      "SLOC": 141336,
+      "PR": 3921,
+      "Commits": 7333,
+      "Stars": 6763,
+      "Repos": {
+        "beehive": {
+          "Name": "beehive",
+          "SLOC": 2378,
+          "PR": 29,
+          "Commits": 70,
+          "Stars": 31
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 3311,
+          "PR": 57,
+          "Commits": 131,
+          "Stars": 45
+        },
+        "community-infra": {
+          "Name": "community-infra",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 10,
+          "Stars": 0
+        },
+        "dashboard": {
+          "Name": "dashboard",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 6,
+          "Stars": 13
+        },
+        "edgemesh": {
+          "Name": "edgemesh",
+          "SLOC": 6909,
+          "PR": 265,
+          "Commits": 534,
+          "Stars": 182
+        },
+        "examples": {
+          "Name": "examples",
+          "SLOC": 5991,
+          "PR": 64,
+          "Commits": 132,
+          "Stars": 201
+        },
+        "ianvs": {
+          "Name": "ianvs",
+          "SLOC": 4859,
+          "PR": 53,
+          "Commits": 155,
+          "Stars": 76
+        },
+        "keink": {
+          "Name": "keink",
+          "SLOC": 1238,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 3
+        },
+        "killercoda-scenarios": {
+          "Name": "killercoda-scenarios",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 14,
+          "Stars": 6
+        },
+        "kubeedge": {
+          "Name": "kubeedge",
+          "SLOC": 66698,
+          "PR": 2874,
+          "Commits": 4697,
+          "Stars": 5684
+        },
+        "mappers-go": {
+          "Name": "mappers-go",
+          "SLOC": 12588,
+          "PR": 74,
+          "Commits": 158,
+          "Stars": 33
+        },
+        "sedna": {
+          "Name": "sedna",
+          "SLOC": 33439,
+          "PR": 215,
+          "Commits": 475,
+          "Stars": 428
+        },
+        "viaduct": {
+          "Name": "viaduct",
+          "SLOC": 3406,
+          "PR": 18,
+          "Commits": 44,
+          "Stars": 18
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 519,
+          "PR": 250,
+          "Commits": 904,
+          "Stars": 43
         }
       }
     },
@@ -4799,6 +9263,1241 @@
         }
       }
     },
+    "kubevirt": {
+      "Name": "kubevirt",
+      "SLOC": 631776,
+      "PR": 22598,
+      "Commits": 60523,
+      "Stars": 5470,
+      "Repos": {
+        "ansible-kubevirt-modules": {
+          "Name": "ansible-kubevirt-modules",
+          "SLOC": 0,
+          "PR": 213,
+          "Commits": 203,
+          "Stars": 6
+        },
+        "api": {
+          "Name": "api",
+          "SLOC": 2989,
+          "PR": 0,
+          "Commits": 132,
+          "Stars": 6
+        },
+        "api-reference": {
+          "Name": "api-reference",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 455,
+          "Stars": 8
+        },
+        "bridge-marker": {
+          "Name": "bridge-marker",
+          "SLOC": 417,
+          "PR": 57,
+          "Commits": 81,
+          "Stars": 6
+        },
+        "cdi-api-reference": {
+          "Name": "cdi-api-reference",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 134,
+          "Stars": 1
+        },
+        "cdi-operator": {
+          "Name": "cdi-operator",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 32,
+          "Stars": 1
+        },
+        "ci-health": {
+          "Name": "ci-health",
+          "SLOC": 4033,
+          "PR": 51,
+          "Commits": 23385,
+          "Stars": 5
+        },
+        "client-go": {
+          "Name": "client-go",
+          "SLOC": 5961,
+          "PR": 9,
+          "Commits": 301,
+          "Stars": 25
+        },
+        "client-python": {
+          "Name": "client-python",
+          "SLOC": 7176,
+          "PR": 21,
+          "Commits": 358,
+          "Stars": 24
+        },
+        "cloud-image-builder": {
+          "Name": "cloud-image-builder",
+          "SLOC": 0,
+          "PR": 129,
+          "Commits": 398,
+          "Stars": 6
+        },
+        "cloud-provider-kubevirt": {
+          "Name": "cloud-provider-kubevirt",
+          "SLOC": 2969,
+          "PR": 199,
+          "Commits": 276,
+          "Stars": 57
+        },
+        "cluster-api-provider-external": {
+          "Name": "cluster-api-provider-external",
+          "SLOC": 1532,
+          "PR": 16,
+          "Commits": 74,
+          "Stars": 5
+        },
+        "cluster-network-addons-operator": {
+          "Name": "cluster-network-addons-operator",
+          "SLOC": 14413,
+          "PR": 1374,
+          "Commits": 1176,
+          "Stars": 57
+        },
+        "cockpit-demo": {
+          "Name": "cockpit-demo",
+          "SLOC": 100,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 2
+        },
+        "common-instancetypes": {
+          "Name": "common-instancetypes",
+          "SLOC": 0,
+          "PR": 33,
+          "Commits": 99,
+          "Stars": 0
+        },
+        "common-templates": {
+          "Name": "common-templates",
+          "SLOC": 395,
+          "PR": 485,
+          "Commits": 519,
+          "Stars": 48
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 280,
+          "PR": 160,
+          "Commits": 243,
+          "Stars": 27
+        },
+        "containerdisks": {
+          "Name": "containerdisks",
+          "SLOC": 2983,
+          "PR": 39,
+          "Commits": 42,
+          "Stars": 10
+        },
+        "containerized-data-importer": {
+          "Name": "containerized-data-importer",
+          "SLOC": 79122,
+          "PR": 2104,
+          "Commits": 2484,
+          "Stars": 311
+        },
+        "containerized-data-importer-api": {
+          "Name": "containerized-data-importer-api",
+          "SLOC": 623,
+          "PR": 0,
+          "Commits": 27,
+          "Stars": 2
+        },
+        "controller-lifecycle-operator-sdk": {
+          "Name": "controller-lifecycle-operator-sdk",
+          "SLOC": 3849,
+          "PR": 18,
+          "Commits": 48,
+          "Stars": 4
+        },
+        "cpu-nfd-plugin": {
+          "Name": "cpu-nfd-plugin",
+          "SLOC": 682,
+          "PR": 15,
+          "Commits": 50,
+          "Stars": 0
+        },
+        "csi-driver": {
+          "Name": "csi-driver",
+          "SLOC": 2834,
+          "PR": 74,
+          "Commits": 86,
+          "Stars": 17
+        },
+        "demo": {
+          "Name": "demo",
+          "SLOC": 0,
+          "PR": 107,
+          "Commits": 292,
+          "Stars": 106
+        },
+        "device-plugin-manager": {
+          "Name": "device-plugin-manager",
+          "SLOC": 398,
+          "PR": 17,
+          "Commits": 105,
+          "Stars": 23
+        },
+        "hostpath-provisioner": {
+          "Name": "hostpath-provisioner",
+          "SLOC": 6050,
+          "PR": 164,
+          "Commits": 149,
+          "Stars": 51
+        },
+        "hostpath-provisioner-operator": {
+          "Name": "hostpath-provisioner-operator",
+          "SLOC": 9772,
+          "PR": 285,
+          "Commits": 315,
+          "Stars": 25
+        },
+        "hyperconverged-cluster-operator": {
+          "Name": "hyperconverged-cluster-operator",
+          "SLOC": 31386,
+          "PR": 2176,
+          "Commits": 1432,
+          "Stars": 106
+        },
+        "katacoda-scenarios": {
+          "Name": "katacoda-scenarios",
+          "SLOC": 0,
+          "PR": 25,
+          "Commits": 33,
+          "Stars": 4
+        },
+        "kubectl-virt-plugin": {
+          "Name": "kubectl-virt-plugin",
+          "SLOC": 144,
+          "PR": 23,
+          "Commits": 81,
+          "Stars": 8
+        },
+        "kubernetes-device-plugins": {
+          "Name": "kubernetes-device-plugins",
+          "SLOC": 819,
+          "PR": 40,
+          "Commits": 114,
+          "Stars": 42
+        },
+        "kubesecondarydns": {
+          "Name": "kubesecondarydns",
+          "SLOC": 1136,
+          "PR": 57,
+          "Commits": 127,
+          "Stars": 6
+        },
+        "kubevirt": {
+          "Name": "kubevirt",
+          "SLOC": 281105,
+          "PR": 6962,
+          "Commits": 16314,
+          "Stars": 3922
+        },
+        "kubevirt-ansible": {
+          "Name": "kubevirt-ansible",
+          "SLOC": 2459,
+          "PR": 469,
+          "Commits": 587,
+          "Stars": 82
+        },
+        "kubevirt-operator": {
+          "Name": "kubevirt-operator",
+          "SLOC": 192,
+          "PR": 16,
+          "Commits": 40,
+          "Stars": 4
+        },
+        "kubevirt-ssp-operator": {
+          "Name": "kubevirt-ssp-operator",
+          "SLOC": 1290,
+          "PR": 254,
+          "Commits": 431,
+          "Stars": 8
+        },
+        "kubevirt-tekton-tasks": {
+          "Name": "kubevirt-tekton-tasks",
+          "SLOC": 16682,
+          "PR": 209,
+          "Commits": 526,
+          "Stars": 20
+        },
+        "kubevirt-template-validator": {
+          "Name": "kubevirt-template-validator",
+          "SLOC": 2639,
+          "PR": 61,
+          "Commits": 252,
+          "Stars": 3
+        },
+        "kubevirt-tutorial": {
+          "Name": "kubevirt-tutorial",
+          "SLOC": 200,
+          "PR": 92,
+          "Commits": 205,
+          "Stars": 27
+        },
+        "kubevirt-velero-plugin": {
+          "Name": "kubevirt-velero-plugin",
+          "SLOC": 8861,
+          "PR": 126,
+          "Commits": 123,
+          "Stars": 18
+        },
+        "kubevirtci": {
+          "Name": "kubevirtci",
+          "SLOC": 2357,
+          "PR": 891,
+          "Commits": 902,
+          "Stars": 61
+        },
+        "kvm-info-nfd-plugin": {
+          "Name": "kvm-info-nfd-plugin",
+          "SLOC": 6634,
+          "PR": 13,
+          "Commits": 62,
+          "Stars": 1
+        },
+        "libguestfs-appliance": {
+          "Name": "libguestfs-appliance",
+          "SLOC": 0,
+          "PR": 14,
+          "Commits": 32,
+          "Stars": 2
+        },
+        "libvirt": {
+          "Name": "libvirt",
+          "SLOC": 0,
+          "PR": 58,
+          "Commits": 151,
+          "Stars": 38
+        },
+        "machine-remediation": {
+          "Name": "machine-remediation",
+          "SLOC": 3472,
+          "PR": 104,
+          "Commits": 169,
+          "Stars": 10
+        },
+        "macvtap-cni": {
+          "Name": "macvtap-cni",
+          "SLOC": 1290,
+          "PR": 87,
+          "Commits": 145,
+          "Stars": 28
+        },
+        "monitoring": {
+          "Name": "monitoring",
+          "SLOC": 263,
+          "PR": 156,
+          "Commits": 266,
+          "Stars": 10
+        },
+        "must-gather": {
+          "Name": "must-gather",
+          "SLOC": 1756,
+          "PR": 167,
+          "Commits": 206,
+          "Stars": 11
+        },
+        "node-labeller": {
+          "Name": "node-labeller",
+          "SLOC": 252,
+          "PR": 21,
+          "Commits": 52,
+          "Stars": 1
+        },
+        "node-maintenance-operator": {
+          "Name": "node-maintenance-operator",
+          "SLOC": 2600,
+          "PR": 162,
+          "Commits": 347,
+          "Stars": 40
+        },
+        "project-infra": {
+          "Name": "project-infra",
+          "SLOC": 29473,
+          "PR": 2528,
+          "Commits": 2400,
+          "Stars": 21
+        },
+        "qe-tools": {
+          "Name": "qe-tools",
+          "SLOC": 1178,
+          "PR": 24,
+          "Commits": 51,
+          "Stars": 3
+        },
+        "run": {
+          "Name": "run",
+          "SLOC": 0,
+          "PR": 14,
+          "Commits": 42,
+          "Stars": 5
+        },
+        "ssp-operator": {
+          "Name": "ssp-operator",
+          "SLOC": 17269,
+          "PR": 501,
+          "Commits": 629,
+          "Stars": 12
+        },
+        "storage-demo": {
+          "Name": "storage-demo",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        },
+        "tekton-tasks-operator": {
+          "Name": "tekton-tasks-operator",
+          "SLOC": 4426,
+          "PR": 129,
+          "Commits": 193,
+          "Stars": 3
+        },
+        "terraform-provider-kubevirt": {
+          "Name": "terraform-provider-kubevirt",
+          "SLOC": 6782,
+          "PR": 26,
+          "Commits": 101,
+          "Stars": 16
+        },
+        "test-benchmarks": {
+          "Name": "test-benchmarks",
+          "SLOC": 974,
+          "PR": 4,
+          "Commits": 11,
+          "Stars": 1
+        },
+        "test-infra-containers": {
+          "Name": "test-infra-containers",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 2
+        },
+        "user-guide": {
+          "Name": "user-guide",
+          "SLOC": 0,
+          "PR": 543,
+          "Commits": 1203,
+          "Stars": 52
+        },
+        "v2v-job": {
+          "Name": "v2v-job",
+          "SLOC": 86,
+          "PR": 3,
+          "Commits": 43,
+          "Stars": 4
+        },
+        "vAdvisor": {
+          "Name": "vAdvisor",
+          "SLOC": 1349,
+          "PR": 11,
+          "Commits": 84,
+          "Stars": 14
+        },
+        "vm-console-proxy": {
+          "Name": "vm-console-proxy",
+          "SLOC": 2080,
+          "PR": 6,
+          "Commits": 51,
+          "Stars": 2
+        },
+        "vm-import-operator": {
+          "Name": "vm-import-operator",
+          "SLOC": 26625,
+          "PR": 415,
+          "Commits": 900,
+          "Stars": 13
+        },
+        "vmctl": {
+          "Name": "vmctl",
+          "SLOC": 0,
+          "PR": 9,
+          "Commits": 74,
+          "Stars": 12
+        },
+        "web-ui-components": {
+          "Name": "web-ui-components",
+          "SLOC": 28537,
+          "PR": 500,
+          "Commits": 416,
+          "Stars": 9
+        },
+        "web-ui-design": {
+          "Name": "web-ui-design",
+          "SLOC": 0,
+          "PR": 28,
+          "Commits": 55,
+          "Stars": 4
+        },
+        "web-ui-operator": {
+          "Name": "web-ui-operator",
+          "SLOC": 882,
+          "PR": 81,
+          "Commits": 201,
+          "Stars": 12
+        }
+      }
+    },
+    "kyverno": {
+      "Name": "kyverno",
+      "SLOC": 280021,
+      "PR": 5118,
+      "Commits": 8775,
+      "Stars": 4015,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 16,
+          "Stars": 0
+        },
+        "KDP": {
+          "Name": "KDP",
+          "SLOC": 0,
+          "PR": 38,
+          "Commits": 45,
+          "Stars": 11
+        },
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        },
+        "demos": {
+          "Name": "demos",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 44,
+          "Stars": 5
+        },
+        "grafana-dashboard": {
+          "Name": "grafana-dashboard",
+          "SLOC": 0,
+          "PR": 13,
+          "Commits": 26,
+          "Stars": 12
+        },
+        "kyverno": {
+          "Name": "kyverno",
+          "SLOC": 259549,
+          "PR": 3930,
+          "Commits": 5531,
+          "Stars": 3591
+        },
+        "load-testing": {
+          "Name": "load-testing",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 0
+        },
+        "policies": {
+          "Name": "policies",
+          "SLOC": 0,
+          "PR": 274,
+          "Commits": 992,
+          "Stars": 183
+        },
+        "policy-reporter": {
+          "Name": "policy-reporter",
+          "SLOC": 13461,
+          "PR": 188,
+          "Commits": 445,
+          "Stars": 170
+        },
+        "policy-reporter-docs": {
+          "Name": "policy-reporter-docs",
+          "SLOC": 49,
+          "PR": 5,
+          "Commits": 4,
+          "Stars": 2
+        },
+        "policy-reporter-kyverno-plugin": {
+          "Name": "policy-reporter-kyverno-plugin",
+          "SLOC": 4787,
+          "PR": 20,
+          "Commits": 56,
+          "Stars": 8
+        },
+        "policy-reporter-ui": {
+          "Name": "policy-reporter-ui",
+          "SLOC": 1108,
+          "PR": 224,
+          "Commits": 345,
+          "Stars": 15
+        },
+        "pre-commit-hook": {
+          "Name": "pre-commit-hook",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 7,
+          "Stars": 0
+        },
+        "sample-extension-service": {
+          "Name": "sample-extension-service",
+          "SLOC": 50,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 0
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 1017,
+          "PR": 411,
+          "Commits": 1249,
+          "Stars": 18
+        }
+      }
+    },
+    "linkerd": {
+      "Name": "linkerd",
+      "SLOC": 237911,
+      "PR": 13362,
+      "Commits": 13011,
+      "Stars": 17954,
+      "Repos": {
+        "dev": {
+          "Name": "dev",
+          "SLOC": 50,
+          "PR": 23,
+          "Commits": 38,
+          "Stars": 3
+        },
+        "docs-archive": {
+          "Name": "docs-archive",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 2
+        },
+        "drain-rs": {
+          "Name": "drain-rs",
+          "SLOC": 208,
+          "PR": 22,
+          "Commits": 38,
+          "Stars": 10
+        },
+        "gsoc": {
+          "Name": "gsoc",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 48,
+          "Stars": 4
+        },
+        "k8s-community-cluster": {
+          "Name": "k8s-community-cluster",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "k8s-gateway-api-rs": {
+          "Name": "k8s-gateway-api-rs",
+          "SLOC": 669,
+          "PR": 46,
+          "Commits": 41,
+          "Stars": 19
+        },
+        "katacoda": {
+          "Name": "katacoda",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 11,
+          "Stars": 0
+        },
+        "linkerd": {
+          "Name": "linkerd",
+          "SLOC": 73291,
+          "PR": 1376,
+          "Commits": 1433,
+          "Stars": 5372
+        },
+        "linkerd-await": {
+          "Name": "linkerd-await",
+          "SLOC": 254,
+          "PR": 380,
+          "Commits": 341,
+          "Stars": 53
+        },
+        "linkerd-examples": {
+          "Name": "linkerd-examples",
+          "SLOC": 1363,
+          "PR": 214,
+          "Commits": 353,
+          "Stars": 418
+        },
+        "linkerd-extension-init": {
+          "Name": "linkerd-extension-init",
+          "SLOC": 221,
+          "PR": 13,
+          "Commits": 11,
+          "Stars": 0
+        },
+        "linkerd-failover": {
+          "Name": "linkerd-failover",
+          "SLOC": 1004,
+          "PR": 623,
+          "Commits": 563,
+          "Stars": 25
+        },
+        "linkerd-inject": {
+          "Name": "linkerd-inject",
+          "SLOC": 198,
+          "PR": 7,
+          "Commits": 8,
+          "Stars": 14
+        },
+        "linkerd-smi": {
+          "Name": "linkerd-smi",
+          "SLOC": 1598,
+          "PR": 25,
+          "Commits": 24,
+          "Stars": 15
+        },
+        "linkerd-tcp": {
+          "Name": "linkerd-tcp",
+          "SLOC": 3122,
+          "PR": 64,
+          "Commits": 64,
+          "Stars": 524
+        },
+        "linkerd-viz": {
+          "Name": "linkerd-viz",
+          "SLOC": 0,
+          "PR": 35,
+          "Commits": 73,
+          "Stars": 106
+        },
+        "linkerd-zipkin": {
+          "Name": "linkerd-zipkin",
+          "SLOC": 162,
+          "PR": 34,
+          "Commits": 47,
+          "Stars": 28
+        },
+        "linkerd2": {
+          "Name": "linkerd2",
+          "SLOC": 82016,
+          "PR": 6391,
+          "Commits": 5469,
+          "Stars": 9382
+        },
+        "linkerd2-action-gcloud": {
+          "Name": "linkerd2-action-gcloud",
+          "SLOC": 2684,
+          "PR": 9,
+          "Commits": 28,
+          "Stars": 2
+        },
+        "linkerd2-ci-metrics": {
+          "Name": "linkerd2-ci-metrics",
+          "SLOC": 607,
+          "PR": 2,
+          "Commits": 6,
+          "Stars": 3
+        },
+        "linkerd2-conformance": {
+          "Name": "linkerd2-conformance",
+          "SLOC": 1688,
+          "PR": 15,
+          "Commits": 10,
+          "Stars": 1
+        },
+        "linkerd2-mock-dst": {
+          "Name": "linkerd2-mock-dst",
+          "SLOC": 806,
+          "PR": 10,
+          "Commits": 16,
+          "Stars": 6
+        },
+        "linkerd2-proxy": {
+          "Name": "linkerd2-proxy",
+          "SLOC": 54087,
+          "PR": 2298,
+          "Commits": 2191,
+          "Stars": 1701
+        },
+        "linkerd2-proxy-api": {
+          "Name": "linkerd2-proxy-api",
+          "SLOC": 4260,
+          "PR": 212,
+          "Commits": 212,
+          "Stars": 78
+        },
+        "linkerd2-proxy-init": {
+          "Name": "linkerd2-proxy-init",
+          "SLOC": 1886,
+          "PR": 198,
+          "Commits": 295,
+          "Stars": 34
+        },
+        "namerctl": {
+          "Name": "namerctl",
+          "SLOC": 624,
+          "PR": 21,
+          "Commits": 27,
+          "Stars": 30
+        },
+        "polixy": {
+          "Name": "polixy",
+          "SLOC": 3400,
+          "PR": 2,
+          "Commits": 294,
+          "Stars": 14
+        },
+        "rfc": {
+          "Name": "rfc",
+          "SLOC": 16,
+          "PR": 35,
+          "Commits": 43,
+          "Stars": 4
+        },
+        "rustup-nightly-docker": {
+          "Name": "rustup-nightly-docker",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 3,
+          "Stars": 2
+        },
+        "tacho": {
+          "Name": "tacho",
+          "SLOC": 1056,
+          "PR": 22,
+          "Commits": 33,
+          "Stars": 67
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 2641,
+          "PR": 1276,
+          "Commits": 1287,
+          "Stars": 37
+        }
+      }
+    },
+    "litmuschaos": {
+      "Name": "litmuschaos",
+      "SLOC": 203224,
+      "PR": 7096,
+      "Commits": 7491,
+      "Stars": 4055,
+      "Repos": {
+        "admission-controllers": {
+          "Name": "admission-controllers",
+          "SLOC": 1653,
+          "PR": 15,
+          "Commits": 15,
+          "Stars": 6
+        },
+        "chaos-charts": {
+          "Name": "chaos-charts",
+          "SLOC": 149,
+          "PR": 566,
+          "Commits": 805,
+          "Stars": 57
+        },
+        "chaos-ci-lib": {
+          "Name": "chaos-ci-lib",
+          "SLOC": 1982,
+          "PR": 98,
+          "Commits": 10,
+          "Stars": 7
+        },
+        "chaos-exporter": {
+          "Name": "chaos-exporter",
+          "SLOC": 1162,
+          "PR": 112,
+          "Commits": 97,
+          "Stars": 27
+        },
+        "chaos-observability": {
+          "Name": "chaos-observability",
+          "SLOC": 0,
+          "PR": 21,
+          "Commits": 20,
+          "Stars": 6
+        },
+        "chaos-operator": {
+          "Name": "chaos-operator",
+          "SLOC": 3315,
+          "PR": 390,
+          "Commits": 343,
+          "Stars": 104
+        },
+        "chaos-runner": {
+          "Name": "chaos-runner",
+          "SLOC": 5229,
+          "PR": 181,
+          "Commits": 136,
+          "Stars": 19
+        },
+        "chaos-scheduler": {
+          "Name": "chaos-scheduler",
+          "SLOC": 860,
+          "PR": 27,
+          "Commits": 23,
+          "Stars": 5
+        },
+        "chaos-workflows": {
+          "Name": "chaos-workflows",
+          "SLOC": 0,
+          "PR": 12,
+          "Commits": 21,
+          "Stars": 17
+        },
+        "charthub.litmuschaos.io": {
+          "Name": "charthub.litmuschaos.io",
+          "SLOC": 5931,
+          "PR": 317,
+          "Commits": 225,
+          "Stars": 14
+        },
+        "elves": {
+          "Name": "elves",
+          "SLOC": 1699,
+          "PR": 35,
+          "Commits": 35,
+          "Stars": 0
+        },
+        "github-chaos-actions": {
+          "Name": "github-chaos-actions",
+          "SLOC": 0,
+          "PR": 23,
+          "Commits": 24,
+          "Stars": 30
+        },
+        "gitlab-remote-templates": {
+          "Name": "gitlab-remote-templates",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 6,
+          "Stars": 4
+        },
+        "icons": {
+          "Name": "icons",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 4,
+          "Stars": 0
+        },
+        "katacoda-scenarios": {
+          "Name": "katacoda-scenarios",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 0
+        },
+        "litmus": {
+          "Name": "litmus",
+          "SLOC": 78745,
+          "PR": 2592,
+          "Commits": 2515,
+          "Stars": 3535
+        },
+        "litmus-agent-upgrade": {
+          "Name": "litmus-agent-upgrade",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "litmus-ansible": {
+          "Name": "litmus-ansible",
+          "SLOC": 1175,
+          "PR": 37,
+          "Commits": 27,
+          "Stars": 6
+        },
+        "litmus-cd": {
+          "Name": "litmus-cd",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 49,
+          "Stars": 0
+        },
+        "litmus-cd-old": {
+          "Name": "litmus-cd-old",
+          "SLOC": 0,
+          "PR": 16,
+          "Commits": 658,
+          "Stars": 8
+        },
+        "litmus-docs": {
+          "Name": "litmus-docs",
+          "SLOC": 688,
+          "PR": 184,
+          "Commits": 185,
+          "Stars": 10
+        },
+        "litmus-e2e": {
+          "Name": "litmus-e2e",
+          "SLOC": 15990,
+          "PR": 360,
+          "Commits": 231,
+          "Stars": 15
+        },
+        "litmus-go": {
+          "Name": "litmus-go",
+          "SLOC": 28508,
+          "PR": 558,
+          "Commits": 425,
+          "Stars": 51
+        },
+        "litmus-helm": {
+          "Name": "litmus-helm",
+          "SLOC": 0,
+          "PR": 256,
+          "Commits": 287,
+          "Stars": 35
+        },
+        "litmus-portal": {
+          "Name": "litmus-portal",
+          "SLOC": 1832,
+          "PR": 10,
+          "Commits": 24,
+          "Stars": 3
+        },
+        "litmus-python": {
+          "Name": "litmus-python",
+          "SLOC": 3370,
+          "PR": 39,
+          "Commits": 86,
+          "Stars": 10
+        },
+        "litmus-ui": {
+          "Name": "litmus-ui",
+          "SLOC": 8261,
+          "PR": 109,
+          "Commits": 171,
+          "Stars": 5
+        },
+        "litmus-website-2": {
+          "Name": "litmus-website-2",
+          "SLOC": 654,
+          "PR": 63,
+          "Commits": 27,
+          "Stars": 0
+        },
+        "litmusctl": {
+          "Name": "litmusctl",
+          "SLOC": 3371,
+          "PR": 89,
+          "Commits": 115,
+          "Stars": 17
+        },
+        "m-agent": {
+          "Name": "m-agent",
+          "SLOC": 1123,
+          "PR": 8,
+          "Commits": 16,
+          "Stars": 4
+        },
+        "spinnaker-preconfigured-job-plugin": {
+          "Name": "spinnaker-preconfigured-job-plugin",
+          "SLOC": 57,
+          "PR": 0,
+          "Commits": 17,
+          "Stars": 0
+        },
+        "test-tools": {
+          "Name": "test-tools",
+          "SLOC": 31828,
+          "PR": 300,
+          "Commits": 226,
+          "Stars": 27
+        },
+        "tutorials": {
+          "Name": "tutorials",
+          "SLOC": 0,
+          "PR": 24,
+          "Commits": 39,
+          "Stars": 5
+        },
+        "v1-litmus-docs": {
+          "Name": "v1-litmus-docs",
+          "SLOC": 366,
+          "PR": 476,
+          "Commits": 491,
+          "Stars": 19
+        },
+        "website-litmuschaos": {
+          "Name": "website-litmuschaos",
+          "SLOC": 5276,
+          "PR": 165,
+          "Commits": 133,
+          "Stars": 9
+        }
+      }
+    },
+    "longhorn": {
+      "Name": "longhorn",
+      "SLOC": 193671,
+      "PR": 6558,
+      "Commits": 9986,
+      "Stars": 5144,
+      "Repos": {
+        "backing-image-manager": {
+          "Name": "backing-image-manager",
+          "SLOC": 5457,
+          "PR": 105,
+          "Commits": 126,
+          "Stars": 4
+        },
+        "backupstore": {
+          "Name": "backupstore",
+          "SLOC": 5083,
+          "PR": 107,
+          "Commits": 188,
+          "Stars": 3
+        },
+        "bot": {
+          "Name": "bot",
+          "SLOC": 8876,
+          "PR": 20,
+          "Commits": 25,
+          "Stars": 0
+        },
+        "charts": {
+          "Name": "charts",
+          "SLOC": 0,
+          "PR": 103,
+          "Commits": 68,
+          "Stars": 28
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 14,
+          "Stars": 1
+        },
+        "go-iscsi-helper": {
+          "Name": "go-iscsi-helper",
+          "SLOC": 1913,
+          "PR": 59,
+          "Commits": 110,
+          "Stars": 17
+        },
+        "infra": {
+          "Name": "infra",
+          "SLOC": 0,
+          "PR": 117,
+          "Commits": 142,
+          "Stars": 3
+        },
+        "longhorn": {
+          "Name": "longhorn",
+          "SLOC": 143,
+          "PR": 768,
+          "Commits": 919,
+          "Stars": 4515
+        },
+        "longhorn-engine": {
+          "Name": "longhorn-engine",
+          "SLOC": 23322,
+          "PR": 715,
+          "Commits": 1545,
+          "Stars": 297
+        },
+        "longhorn-instance-manager": {
+          "Name": "longhorn-instance-manager",
+          "SLOC": 4759,
+          "PR": 195,
+          "Commits": 366,
+          "Stars": 8
+        },
+        "longhorn-manager": {
+          "Name": "longhorn-manager",
+          "SLOC": 68886,
+          "PR": 1755,
+          "Commits": 2979,
+          "Stars": 132
+        },
+        "longhorn-share-manager": {
+          "Name": "longhorn-share-manager",
+          "SLOC": 925,
+          "PR": 56,
+          "Commits": 62,
+          "Stars": 5
+        },
+        "longhorn-spdk-engine": {
+          "Name": "longhorn-spdk-engine",
+          "SLOC": 607,
+          "PR": 3,
+          "Commits": 17,
+          "Stars": 5
+        },
+        "longhorn-tests": {
+          "Name": "longhorn-tests",
+          "SLOC": 42351,
+          "PR": 1270,
+          "Commits": 1514,
+          "Stars": 13
+        },
+        "longhorn-ui": {
+          "Name": "longhorn-ui",
+          "SLOC": 25603,
+          "PR": 595,
+          "Commits": 817,
+          "Stars": 92
+        },
+        "minio-multiarch-image": {
+          "Name": "minio-multiarch-image",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "nsfilelock": {
+          "Name": "nsfilelock",
+          "SLOC": 313,
+          "PR": 2,
+          "Commits": 13,
+          "Stars": 0
+        },
+        "nvme-go": {
+          "Name": "nvme-go",
+          "SLOC": 280,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0
+        },
+        "sparse-tools": {
+          "Name": "sparse-tools",
+          "SLOC": 4048,
+          "PR": 86,
+          "Commits": 200,
+          "Stars": 6
+        },
+        "upgrade-responder": {
+          "Name": "upgrade-responder",
+          "SLOC": 877,
+          "PR": 37,
+          "Commits": 54,
+          "Stars": 2
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 228,
+          "PR": 563,
+          "Commits": 822,
+          "Stars": 12
+        }
+      }
+    },
     "m3db": {
       "Name": "m3db",
       "SLOC": 736760,
@@ -4962,6 +10661,731 @@
         }
       }
     },
+    "nats-io": {
+      "Name": "nats-io",
+      "SLOC": 802454,
+      "PR": 12919,
+      "Commits": 36210,
+      "Stars": 31045,
+      "Repos": {
+        "advisories": {
+          "Name": "advisories",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 39,
+          "Stars": 2
+        },
+        "asyncio-nats-examples": {
+          "Name": "asyncio-nats-examples",
+          "SLOC": 698,
+          "PR": 3,
+          "Commits": 20,
+          "Stars": 23
+        },
+        "cliprompts": {
+          "Name": "cliprompts",
+          "SLOC": 1015,
+          "PR": 11,
+          "Commits": 27,
+          "Stars": 0
+        },
+        "demo-minio-nats": {
+          "Name": "demo-minio-nats",
+          "SLOC": 162,
+          "PR": 2,
+          "Commits": 14,
+          "Stars": 23
+        },
+        "deploy": {
+          "Name": "deploy",
+          "SLOC": 234,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 2
+        },
+        "elixir-nats": {
+          "Name": "elixir-nats",
+          "SLOC": 841,
+          "PR": 41,
+          "Commits": 170,
+          "Stars": 76
+        },
+        "go-nats": {
+          "Name": "go-nats",
+          "SLOC": 14163,
+          "PR": 0,
+          "Commits": 937,
+          "Stars": 20
+        },
+        "go-nats-examples": {
+          "Name": "go-nats-examples",
+          "SLOC": 1668,
+          "PR": 28,
+          "Commits": 85,
+          "Stars": 101
+        },
+        "go-nats-streaming": {
+          "Name": "go-nats-streaming",
+          "SLOC": 3527,
+          "PR": 0,
+          "Commits": 394,
+          "Stars": 5
+        },
+        "graft": {
+          "Name": "graft",
+          "SLOC": 2159,
+          "PR": 20,
+          "Commits": 103,
+          "Stars": 149
+        },
+        "homebrew-nats-tools": {
+          "Name": "homebrew-nats-tools",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 63,
+          "Stars": 4
+        },
+        "integration-tests": {
+          "Name": "integration-tests",
+          "SLOC": 1222,
+          "PR": 3,
+          "Commits": 99,
+          "Stars": 4
+        },
+        "java-nats-examples": {
+          "Name": "java-nats-examples",
+          "SLOC": 6056,
+          "PR": 7,
+          "Commits": 166,
+          "Stars": 20
+        },
+        "java-nats-server-runner": {
+          "Name": "java-nats-server-runner",
+          "SLOC": 1295,
+          "PR": 25,
+          "Commits": 77,
+          "Stars": 3
+        },
+        "jetstream": {
+          "Name": "jetstream",
+          "SLOC": 0,
+          "PR": 387,
+          "Commits": 777,
+          "Stars": 450
+        },
+        "jetstream-gh-action": {
+          "Name": "jetstream-gh-action",
+          "SLOC": 596,
+          "PR": 37,
+          "Commits": 74,
+          "Stars": 2
+        },
+        "jetstream-leaf-nodes-demo": {
+          "Name": "jetstream-leaf-nodes-demo",
+          "SLOC": 50,
+          "PR": 2,
+          "Commits": 15,
+          "Stars": 16
+        },
+        "js-nuid": {
+          "Name": "js-nuid",
+          "SLOC": 183,
+          "PR": 36,
+          "Commits": 48,
+          "Stars": 4
+        },
+        "jsm.go": {
+          "Name": "jsm.go",
+          "SLOC": 9508,
+          "PR": 391,
+          "Commits": 795,
+          "Stars": 102
+        },
+        "jwt": {
+          "Name": "jwt",
+          "SLOC": 11738,
+          "PR": 165,
+          "Commits": 288,
+          "Stars": 63
+        },
+        "k8s": {
+          "Name": "k8s",
+          "SLOC": 0,
+          "PR": 418,
+          "Commits": 1003,
+          "Stars": 320
+        },
+        "kotlin-nats-examples": {
+          "Name": "kotlin-nats-examples",
+          "SLOC": 201,
+          "PR": 2,
+          "Commits": 13,
+          "Stars": 1
+        },
+        "kubecon2020": {
+          "Name": "kubecon2020",
+          "SLOC": 2164,
+          "PR": 0,
+          "Commits": 91,
+          "Stars": 7
+        },
+        "latency-tests": {
+          "Name": "latency-tests",
+          "SLOC": 275,
+          "PR": 11,
+          "Commits": 25,
+          "Stars": 13
+        },
+        "nack": {
+          "Name": "nack",
+          "SLOC": 3379,
+          "PR": 66,
+          "Commits": 190,
+          "Stars": 100
+        },
+        "nats-account-server": {
+          "Name": "nats-account-server",
+          "SLOC": 5239,
+          "PR": 60,
+          "Commits": 209,
+          "Stars": 69
+        },
+        "nats-box": {
+          "Name": "nats-box",
+          "SLOC": 0,
+          "PR": 32,
+          "Commits": 113,
+          "Stars": 62
+        },
+        "nats-connector-framework": {
+          "Name": "nats-connector-framework",
+          "SLOC": 1144,
+          "PR": 23,
+          "Commits": 78,
+          "Stars": 30
+        },
+        "nats-connector-redis": {
+          "Name": "nats-connector-redis",
+          "SLOC": 1398,
+          "PR": 7,
+          "Commits": 20,
+          "Stars": 11
+        },
+        "nats-docker": {
+          "Name": "nats-docker",
+          "SLOC": 105,
+          "PR": 78,
+          "Commits": 189,
+          "Stars": 104
+        },
+        "nats-general": {
+          "Name": "nats-general",
+          "SLOC": 0,
+          "PR": 38,
+          "Commits": 87,
+          "Stars": 56
+        },
+        "nats-jms-bridge": {
+          "Name": "nats-jms-bridge",
+          "SLOC": 15241,
+          "PR": 90,
+          "Commits": 398,
+          "Stars": 11
+        },
+        "nats-kafka": {
+          "Name": "nats-kafka",
+          "SLOC": 8331,
+          "PR": 58,
+          "Commits": 98,
+          "Stars": 91
+        },
+        "nats-mq": {
+          "Name": "nats-mq",
+          "SLOC": 23251,
+          "PR": 13,
+          "Commits": 88,
+          "Stars": 18
+        },
+        "nats-on-a-log": {
+          "Name": "nats-on-a-log",
+          "SLOC": 1166,
+          "PR": 3,
+          "Commits": 28,
+          "Stars": 19
+        },
+        "nats-operator": {
+          "Name": "nats-operator",
+          "SLOC": 6801,
+          "PR": 206,
+          "Commits": 588,
+          "Stars": 555
+        },
+        "nats-parent-pom": {
+          "Name": "nats-parent-pom",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 91,
+          "Stars": 0
+        },
+        "nats-pure.rb": {
+          "Name": "nats-pure.rb",
+          "SLOC": 7664,
+          "PR": 60,
+          "Commits": 304,
+          "Stars": 95
+        },
+        "nats-replicator": {
+          "Name": "nats-replicator",
+          "SLOC": 4770,
+          "PR": 7,
+          "Commits": 44,
+          "Stars": 18
+        },
+        "nats-rest-config-proxy": {
+          "Name": "nats-rest-config-proxy",
+          "SLOC": 9212,
+          "PR": 49,
+          "Commits": 213,
+          "Stars": 21
+        },
+        "nats-server": {
+          "Name": "nats-server",
+          "SLOC": 190697,
+          "PR": 2552,
+          "Commits": 6848,
+          "Stars": 12388
+        },
+        "nats-siddhi-demo": {
+          "Name": "nats-siddhi-demo",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 6,
+          "Stars": 7
+        },
+        "nats-site": {
+          "Name": "nats-site",
+          "SLOC": 20474,
+          "PR": 743,
+          "Commits": 2077,
+          "Stars": 83
+        },
+        "nats-streaming-docker": {
+          "Name": "nats-streaming-docker",
+          "SLOC": 105,
+          "PR": 38,
+          "Commits": 100,
+          "Stars": 44
+        },
+        "nats-streaming-operator": {
+          "Name": "nats-streaming-operator",
+          "SLOC": 1033,
+          "PR": 35,
+          "Commits": 139,
+          "Stars": 172
+        },
+        "nats-streaming-server": {
+          "Name": "nats-streaming-server",
+          "SLOC": 48858,
+          "PR": 651,
+          "Commits": 1721,
+          "Stars": 2445
+        },
+        "nats-surveyor": {
+          "Name": "nats-surveyor",
+          "SLOC": 3645,
+          "PR": 91,
+          "Commits": 171,
+          "Stars": 149
+        },
+        "nats-top": {
+          "Name": "nats-top",
+          "SLOC": 1077,
+          "PR": 42,
+          "Commits": 124,
+          "Stars": 285
+        },
+        "nats.c": {
+          "Name": "nats.c",
+          "SLOC": 64903,
+          "PR": 399,
+          "Commits": 972,
+          "Stars": 301
+        },
+        "nats.c.deps": {
+          "Name": "nats.c.deps",
+          "SLOC": 3794,
+          "PR": 0,
+          "Commits": 47,
+          "Stars": 3
+        },
+        "nats.client.deps": {
+          "Name": "nats.client.deps",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 56,
+          "Stars": 0
+        },
+        "nats.cr": {
+          "Name": "nats.cr",
+          "SLOC": 878,
+          "PR": 11,
+          "Commits": 38,
+          "Stars": 42
+        },
+        "nats.deno": {
+          "Name": "nats.deno",
+          "SLOC": 29707,
+          "PR": 413,
+          "Commits": 442,
+          "Stars": 115
+        },
+        "nats.docs": {
+          "Name": "nats.docs",
+          "SLOC": 687,
+          "PR": 459,
+          "Commits": 1978,
+          "Stars": 94
+        },
+        "nats.ex": {
+          "Name": "nats.ex",
+          "SLOC": 0,
+          "PR": 87,
+          "Commits": 327,
+          "Stars": 160
+        },
+        "nats.go": {
+          "Name": "nats.go",
+          "SLOC": 38830,
+          "PR": 716,
+          "Commits": 1766,
+          "Stars": 4392
+        },
+        "nats.java": {
+          "Name": "nats.java",
+          "SLOC": 49190,
+          "PR": 510,
+          "Commits": 1495,
+          "Stars": 461
+        },
+        "nats.js": {
+          "Name": "nats.js",
+          "SLOC": 3975,
+          "PR": 267,
+          "Commits": 561,
+          "Stars": 1298
+        },
+        "nats.net": {
+          "Name": "nats.net",
+          "SLOC": 46752,
+          "PR": 430,
+          "Commits": 747,
+          "Stars": 566
+        },
+        "nats.py": {
+          "Name": "nats.py",
+          "SLOC": 13848,
+          "PR": 228,
+          "Commits": 687,
+          "Stars": 634
+        },
+        "nats.py2": {
+          "Name": "nats.py2",
+          "SLOC": 5357,
+          "PR": 50,
+          "Commits": 320,
+          "Stars": 62
+        },
+        "nats.rb": {
+          "Name": "nats.rb",
+          "SLOC": 9312,
+          "PR": 118,
+          "Commits": 756,
+          "Stars": 867
+        },
+        "nats.rs": {
+          "Name": "nats.rs",
+          "SLOC": 22750,
+          "PR": 687,
+          "Commits": 1358,
+          "Stars": 698
+        },
+        "nats.ts": {
+          "Name": "nats.ts",
+          "SLOC": 6393,
+          "PR": 86,
+          "Commits": 533,
+          "Stars": 180
+        },
+        "nats.ws": {
+          "Name": "nats.ws",
+          "SLOC": 2925,
+          "PR": 111,
+          "Commits": 183,
+          "Stars": 219
+        },
+        "natscli": {
+          "Name": "natscli",
+          "SLOC": 15875,
+          "PR": 543,
+          "Commits": 1666,
+          "Stars": 280
+        },
+        "netlify-slack": {
+          "Name": "netlify-slack",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 8,
+          "Stars": 0
+        },
+        "nginx-nats": {
+          "Name": "nginx-nats",
+          "SLOC": 2838,
+          "PR": 15,
+          "Commits": 58,
+          "Stars": 98
+        },
+        "nkeys": {
+          "Name": "nkeys",
+          "SLOC": 1782,
+          "PR": 35,
+          "Commits": 108,
+          "Stars": 101
+        },
+        "nkeys.js": {
+          "Name": "nkeys.js",
+          "SLOC": 2463,
+          "PR": 20,
+          "Commits": 61,
+          "Stars": 14
+        },
+        "nkeys.py": {
+          "Name": "nkeys.py",
+          "SLOC": 443,
+          "PR": 2,
+          "Commits": 25,
+          "Stars": 4
+        },
+        "nkeys.rb": {
+          "Name": "nkeys.rb",
+          "SLOC": 255,
+          "PR": 3,
+          "Commits": 17,
+          "Stars": 1
+        },
+        "node-nats-examples": {
+          "Name": "node-nats-examples",
+          "SLOC": 1284,
+          "PR": 19,
+          "Commits": 26,
+          "Stars": 7
+        },
+        "node-nuid": {
+          "Name": "node-nuid",
+          "SLOC": 142,
+          "PR": 39,
+          "Commits": 91,
+          "Stars": 10
+        },
+        "not.go": {
+          "Name": "not.go",
+          "SLOC": 309,
+          "PR": 3,
+          "Commits": 7,
+          "Stars": 85
+        },
+        "not.java": {
+          "Name": "not.java",
+          "SLOC": 408,
+          "PR": 5,
+          "Commits": 16,
+          "Stars": 2
+        },
+        "nsc": {
+          "Name": "nsc",
+          "SLOC": 31920,
+          "PR": 358,
+          "Commits": 604,
+          "Stars": 61
+        },
+        "nuid": {
+          "Name": "nuid",
+          "SLOC": 170,
+          "PR": 11,
+          "Commits": 29,
+          "Stars": 346
+        },
+        "prometheus-nats-exporter": {
+          "Name": "prometheus-nats-exporter",
+          "SLOC": 4218,
+          "PR": 128,
+          "Commits": 284,
+          "Stars": 283
+        },
+        "ruby-nats-examples": {
+          "Name": "ruby-nats-examples",
+          "SLOC": 385,
+          "PR": 0,
+          "Commits": 9,
+          "Stars": 0
+        },
+        "spring-nats": {
+          "Name": "spring-nats",
+          "SLOC": 2366,
+          "PR": 18,
+          "Commits": 124,
+          "Stars": 44
+        },
+        "stan.go": {
+          "Name": "stan.go",
+          "SLOC": 3904,
+          "PR": 190,
+          "Commits": 501,
+          "Stars": 683
+        },
+        "stan.java": {
+          "Name": "stan.java",
+          "SLOC": 5974,
+          "PR": 64,
+          "Commits": 361,
+          "Stars": 94
+        },
+        "stan.js": {
+          "Name": "stan.js",
+          "SLOC": 2572,
+          "PR": 97,
+          "Commits": 130,
+          "Stars": 281
+        },
+        "stan.net": {
+          "Name": "stan.net",
+          "SLOC": 4588,
+          "PR": 114,
+          "Commits": 190,
+          "Stars": 134
+        },
+        "stan.py": {
+          "Name": "stan.py",
+          "SLOC": 2323,
+          "PR": 20,
+          "Commits": 93,
+          "Stars": 109
+        },
+        "stan.rb": {
+          "Name": "stan.rb",
+          "SLOC": 1682,
+          "PR": 13,
+          "Commits": 83,
+          "Stars": 20
+        },
+        "sublist": {
+          "Name": "sublist",
+          "SLOC": 1758,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 9
+        },
+        "terraform-provider-jetstream": {
+          "Name": "terraform-provider-jetstream",
+          "SLOC": 2369,
+          "PR": 62,
+          "Commits": 129,
+          "Stars": 35
+        },
+        "ts-nats-examples": {
+          "Name": "ts-nats-examples",
+          "SLOC": 882,
+          "PR": 13,
+          "Commits": 32,
+          "Stars": 5
+        },
+        "ts-nkeys": {
+          "Name": "ts-nkeys",
+          "SLOC": 898,
+          "PR": 32,
+          "Commits": 39,
+          "Stars": 4
+        }
+      }
+    },
+    "notaryproject": {
+      "Name": "notaryproject",
+      "SLOC": 64404,
+      "PR": 1900,
+      "Commits": 3693,
+      "Stars": 3301,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 7,
+          "Stars": 0
+        },
+        "meeting-notes": {
+          "Name": "meeting-notes",
+          "SLOC": 0,
+          "PR": 11,
+          "Commits": 9,
+          "Stars": 1
+        },
+        "notary": {
+          "Name": "notary",
+          "SLOC": 43787,
+          "PR": 992,
+          "Commits": 3014,
+          "Stars": 2992
+        },
+        "notaryproject": {
+          "Name": "notaryproject",
+          "SLOC": 0,
+          "PR": 129,
+          "Commits": 76,
+          "Stars": 117
+        },
+        "notaryproject.dev": {
+          "Name": "notaryproject.dev",
+          "SLOC": 0,
+          "PR": 82,
+          "Commits": 107,
+          "Stars": 9
+        },
+        "notation": {
+          "Name": "notation",
+          "SLOC": 6966,
+          "PR": 343,
+          "Commits": 192,
+          "Stars": 144
+        },
+        "notation-core-go": {
+          "Name": "notation-core-go",
+          "SLOC": 6046,
+          "PR": 99,
+          "Commits": 42,
+          "Stars": 5
+        },
+        "notation-go": {
+          "Name": "notation-go",
+          "SLOC": 7376,
+          "PR": 198,
+          "Commits": 124,
+          "Stars": 18
+        },
+        "roadmap": {
+          "Name": "roadmap",
+          "SLOC": 0,
+          "PR": 20,
+          "Commits": 87,
+          "Stars": 5
+        },
+        "tuf": {
+          "Name": "tuf",
+          "SLOC": 229,
+          "PR": 24,
+          "Commits": 35,
+          "Stars": 10
+        }
+      }
+    },
     "ogen-go": {
       "Name": "ogen-go",
       "SLOC": 38140,
@@ -5003,6 +11427,169 @@
           "PR": 142,
           "Commits": 243,
           "Stars": 3
+        }
+      }
+    },
+    "open-policy-agent": {
+      "Name": "open-policy-agent",
+      "SLOC": 343018,
+      "PR": 7177,
+      "Commits": 8507,
+      "Stars": 15401,
+      "Repos": {
+        "cert-controller": {
+          "Name": "cert-controller",
+          "SLOC": 1142,
+          "PR": 29,
+          "Commits": 34,
+          "Stars": 67
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 27
+        },
+        "conftest": {
+          "Name": "conftest",
+          "SLOC": 5988,
+          "PR": 505,
+          "Commits": 868,
+          "Stars": 2546
+        },
+        "contrib": {
+          "Name": "contrib",
+          "SLOC": 8393,
+          "PR": 167,
+          "Commits": 197,
+          "Stars": 285
+        },
+        "example-api-authz-go": {
+          "Name": "example-api-authz-go",
+          "SLOC": 357,
+          "PR": 6,
+          "Commits": 19,
+          "Stars": 80
+        },
+        "example-api-authz-python": {
+          "Name": "example-api-authz-python",
+          "SLOC": 170,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 31
+        },
+        "frameworks": {
+          "Name": "frameworks",
+          "SLOC": 15019,
+          "PR": 238,
+          "Commits": 373,
+          "Stars": 105
+        },
+        "gatekeeper": {
+          "Name": "gatekeeper",
+          "SLOC": 43709,
+          "PR": 1534,
+          "Commits": 1215,
+          "Stars": 2965
+        },
+        "gatekeeper-external-data-provider": {
+          "Name": "gatekeeper-external-data-provider",
+          "SLOC": 285,
+          "PR": 7,
+          "Commits": 8,
+          "Stars": 4
+        },
+        "gatekeeper-library": {
+          "Name": "gatekeeper-library",
+          "SLOC": 2925,
+          "PR": 166,
+          "Commits": 168,
+          "Stars": 509
+        },
+        "golang-opa-wasm": {
+          "Name": "golang-opa-wasm",
+          "SLOC": 1696,
+          "PR": 6,
+          "Commits": 14,
+          "Stars": 18
+        },
+        "kube-mgmt": {
+          "Name": "kube-mgmt",
+          "SLOC": 2304,
+          "PR": 124,
+          "Commits": 206,
+          "Stars": 195
+        },
+        "library": {
+          "Name": "library",
+          "SLOC": 0,
+          "PR": 33,
+          "Commits": 36,
+          "Stars": 89
+        },
+        "npm-opa-wasm": {
+          "Name": "npm-opa-wasm",
+          "SLOC": 1404,
+          "PR": 278,
+          "Commits": 237,
+          "Stars": 111
+        },
+        "opa": {
+          "Name": "opa",
+          "SLOC": 235392,
+          "PR": 3535,
+          "Commits": 4482,
+          "Stars": 7781
+        },
+        "opa-docker-authz": {
+          "Name": "opa-docker-authz",
+          "SLOC": 439,
+          "PR": 29,
+          "Commits": 46,
+          "Stars": 71
+        },
+        "opa-envoy-plugin": {
+          "Name": "opa-envoy-plugin",
+          "SLOC": 4480,
+          "PR": 386,
+          "Commits": 318,
+          "Stars": 272
+        },
+        "opa-envoy-spire-ext-authz": {
+          "Name": "opa-envoy-spire-ext-authz",
+          "SLOC": 386,
+          "PR": 0,
+          "Commits": 5,
+          "Stars": 42
+        },
+        "opa-idea-plugin": {
+          "Name": "opa-idea-plugin",
+          "SLOC": 4039,
+          "PR": 75,
+          "Commits": 125,
+          "Stars": 45
+        },
+        "rego-python": {
+          "Name": "rego-python",
+          "SLOC": 297,
+          "PR": 2,
+          "Commits": 8,
+          "Stars": 40
+        },
+        "setup-opa": {
+          "Name": "setup-opa",
+          "SLOC": 13595,
+          "PR": 17,
+          "Commits": 31,
+          "Stars": 33
+        },
+        "vscode-opa": {
+          "Name": "vscode-opa",
+          "SLOC": 998,
+          "PR": 40,
+          "Commits": 109,
+          "Stars": 85
         }
       }
     },
@@ -5752,6 +12339,316 @@
         }
       }
     },
+    "operator-framework": {
+      "Name": "operator-framework",
+      "SLOC": 265044,
+      "PR": 14030,
+      "Commits": 18938,
+      "Stars": 13344,
+      "Repos": {
+        "api": {
+          "Name": "api",
+          "SLOC": 8899,
+          "PR": 230,
+          "Commits": 294,
+          "Stars": 19
+        },
+        "audit": {
+          "Name": "audit",
+          "SLOC": 7946,
+          "PR": 107,
+          "Commits": 247,
+          "Stars": 8
+        },
+        "awesome-operators": {
+          "Name": "awesome-operators",
+          "SLOC": 0,
+          "PR": 144,
+          "Commits": 326,
+          "Stars": 3458
+        },
+        "bundle-example": {
+          "Name": "bundle-example",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 3
+        },
+        "combo": {
+          "Name": "combo",
+          "SLOC": 1777,
+          "PR": 46,
+          "Commits": 88,
+          "Stars": 8
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 54,
+          "Commits": 130,
+          "Stars": 24
+        },
+        "community-operator-catalog": {
+          "Name": "community-operator-catalog",
+          "SLOC": 6,
+          "PR": 10,
+          "Commits": 17,
+          "Stars": 3
+        },
+        "community-operators": {
+          "Name": "community-operators",
+          "SLOC": 3690,
+          "PR": 4080,
+          "Commits": 5358,
+          "Stars": 417
+        },
+        "cool-catalog": {
+          "Name": "cool-catalog",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 29,
+          "Stars": 5
+        },
+        "deppy": {
+          "Name": "deppy",
+          "SLOC": 3188,
+          "PR": 57,
+          "Commits": 78,
+          "Stars": 8
+        },
+        "enhancements": {
+          "Name": "enhancements",
+          "SLOC": 0,
+          "PR": 114,
+          "Commits": 242,
+          "Stars": 10
+        },
+        "flake-analyzer": {
+          "Name": "flake-analyzer",
+          "SLOC": 1276,
+          "PR": 9,
+          "Commits": 26,
+          "Stars": 2
+        },
+        "getting-started": {
+          "Name": "getting-started",
+          "SLOC": 0,
+          "PR": 47,
+          "Commits": 80,
+          "Stars": 544
+        },
+        "go-appr": {
+          "Name": "go-appr",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 7,
+          "Stars": 5
+        },
+        "helm-app-operator-kit": {
+          "Name": "helm-app-operator-kit",
+          "SLOC": 102,
+          "PR": 49,
+          "Commits": 106,
+          "Stars": 134
+        },
+        "helm-operator-plugins": {
+          "Name": "helm-operator-plugins",
+          "SLOC": 10899,
+          "PR": 141,
+          "Commits": 194,
+          "Stars": 34
+        },
+        "index-mermaid-graph": {
+          "Name": "index-mermaid-graph",
+          "SLOC": 241,
+          "PR": 10,
+          "Commits": 42,
+          "Stars": 4
+        },
+        "java-controller-runtime": {
+          "Name": "java-controller-runtime",
+          "SLOC": 928,
+          "PR": 7,
+          "Commits": 23,
+          "Stars": 9
+        },
+        "java-operator-plugins": {
+          "Name": "java-operator-plugins",
+          "SLOC": 1469,
+          "PR": 69,
+          "Commits": 99,
+          "Stars": 21
+        },
+        "kubectl-operator": {
+          "Name": "kubectl-operator",
+          "SLOC": 2861,
+          "PR": 51,
+          "Commits": 67,
+          "Stars": 66
+        },
+        "logos": {
+          "Name": "logos",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 2
+        },
+        "mock-extension-apiserver": {
+          "Name": "mock-extension-apiserver",
+          "SLOC": 747,
+          "PR": 4,
+          "Commits": 9,
+          "Stars": 3
+        },
+        "olm-book": {
+          "Name": "olm-book",
+          "SLOC": 0,
+          "PR": 45,
+          "Commits": 93,
+          "Stars": 24
+        },
+        "olm-broker": {
+          "Name": "olm-broker",
+          "SLOC": 918,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 8
+        },
+        "olm-docs": {
+          "Name": "olm-docs",
+          "SLOC": 224,
+          "PR": 232,
+          "Commits": 328,
+          "Stars": 13
+        },
+        "olmv1-installer": {
+          "Name": "olmv1-installer",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "operator-controller": {
+          "Name": "operator-controller",
+          "SLOC": 3191,
+          "PR": 84,
+          "Commits": 38,
+          "Stars": 4
+        },
+        "operator-courier": {
+          "Name": "operator-courier",
+          "SLOC": 2445,
+          "PR": 154,
+          "Commits": 260,
+          "Stars": 41
+        },
+        "operator-framework.io": {
+          "Name": "operator-framework.io",
+          "SLOC": 597,
+          "PR": 24,
+          "Commits": 38,
+          "Stars": 4
+        },
+        "operator-lib": {
+          "Name": "operator-lib",
+          "SLOC": 3574,
+          "PR": 70,
+          "Commits": 96,
+          "Stars": 33
+        },
+        "operator-lifecycle-manager": {
+          "Name": "operator-lifecycle-manager",
+          "SLOC": 87015,
+          "PR": 2192,
+          "Commits": 4176,
+          "Stars": 1455
+        },
+        "operator-manifest-tools": {
+          "Name": "operator-manifest-tools",
+          "SLOC": 3728,
+          "PR": 13,
+          "Commits": 49,
+          "Stars": 6
+        },
+        "operator-manifests": {
+          "Name": "operator-manifests",
+          "SLOC": 133,
+          "PR": 10,
+          "Commits": 16,
+          "Stars": 16
+        },
+        "operator-marketplace": {
+          "Name": "operator-marketplace",
+          "SLOC": 2136,
+          "PR": 445,
+          "Commits": 752,
+          "Stars": 96
+        },
+        "operator-registry": {
+          "Name": "operator-registry",
+          "SLOC": 32640,
+          "PR": 780,
+          "Commits": 1121,
+          "Stars": 181
+        },
+        "operator-sdk": {
+          "Name": "operator-sdk",
+          "SLOC": 46703,
+          "PR": 3863,
+          "Commits": 3152,
+          "Stars": 6339
+        },
+        "operator-sdk-ansible-util": {
+          "Name": "operator-sdk-ansible-util",
+          "SLOC": 1332,
+          "PR": 16,
+          "Commits": 26,
+          "Stars": 16
+        },
+        "operator-sdk-samples": {
+          "Name": "operator-sdk-samples",
+          "SLOC": 307,
+          "PR": 133,
+          "Commits": 195,
+          "Stars": 236
+        },
+        "operatorhub.io": {
+          "Name": "operatorhub.io",
+          "SLOC": 19884,
+          "PR": 330,
+          "Commits": 620,
+          "Stars": 40
+        },
+        "oria-operator": {
+          "Name": "oria-operator",
+          "SLOC": 2097,
+          "PR": 37,
+          "Commits": 42,
+          "Stars": 5
+        },
+        "rukpak": {
+          "Name": "rukpak",
+          "SLOC": 9812,
+          "PR": 362,
+          "Commits": 435,
+          "Stars": 37
+        },
+        "tekton-scorecard-image": {
+          "Name": "tekton-scorecard-image",
+          "SLOC": 4279,
+          "PR": 2,
+          "Commits": 24,
+          "Stars": 2
+        },
+        "test-infra": {
+          "Name": "test-infra",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 1
+        }
+      }
+    },
     "pixie-io": {
       "Name": "pixie-io",
       "SLOC": 352478,
@@ -5765,6 +12662,92 @@
           "PR": 549,
           "Commits": 11768,
           "Stars": 4380
+        }
+      }
+    },
+    "projectcontour": {
+      "Name": "projectcontour",
+      "SLOC": 130778,
+      "PR": 3818,
+      "Commits": 4904,
+      "Stars": 4105,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 12,
+          "Stars": 1
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 25,
+          "Commits": 54,
+          "Stars": 3
+        },
+        "contour": {
+          "Name": "contour",
+          "SLOC": 111519,
+          "PR": 3161,
+          "Commits": 4017,
+          "Stars": 3339
+        },
+        "contour-authserver": {
+          "Name": "contour-authserver",
+          "SLOC": 1391,
+          "PR": 14,
+          "Commits": 17,
+          "Stars": 31
+        },
+        "contour-operator": {
+          "Name": "contour-operator",
+          "SLOC": 8311,
+          "PR": 400,
+          "Commits": 353,
+          "Stars": 44
+        },
+        "contour-perf": {
+          "Name": "contour-perf",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 1
+        },
+        "gimbal": {
+          "Name": "gimbal",
+          "SLOC": 4354,
+          "PR": 159,
+          "Commits": 365,
+          "Stars": 669
+        },
+        "homebrew-ir2proxy": {
+          "Name": "homebrew-ir2proxy",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 1
+        },
+        "integration-tester": {
+          "Name": "integration-tester",
+          "SLOC": 4189,
+          "PR": 19,
+          "Commits": 30,
+          "Stars": 3
+        },
+        "ir2proxy": {
+          "Name": "ir2proxy",
+          "SLOC": 722,
+          "PR": 29,
+          "Commits": 40,
+          "Stars": 12
+        },
+        "lint": {
+          "Name": "lint",
+          "SLOC": 292,
+          "PR": 7,
+          "Commits": 8,
+          "Stars": 1
         }
       }
     },
@@ -6098,6 +13081,64 @@
           "PR": 39439,
           "Commits": 116201,
           "Stars": 51069
+        }
+      }
+    },
+    "rook": {
+      "Name": "rook",
+      "SLOC": 132102,
+      "PR": 7128,
+      "Commits": 24758,
+      "Stars": 11160,
+      "Repos": {
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 14,
+          "Stars": 2
+        },
+        "cassandra": {
+          "Name": "cassandra",
+          "SLOC": 11805,
+          "PR": 13,
+          "Commits": 7438,
+          "Stars": 5
+        },
+        "kubectl-rook-ceph": {
+          "Name": "kubectl-rook-ceph",
+          "SLOC": 445,
+          "PR": 48,
+          "Commits": 99,
+          "Stars": 37
+        },
+        "nfs": {
+          "Name": "nfs",
+          "SLOC": 12404,
+          "PR": 22,
+          "Commits": 7449,
+          "Stars": 28
+        },
+        "operator-kit": {
+          "Name": "operator-kit",
+          "SLOC": 377,
+          "PR": 26,
+          "Commits": 56,
+          "Stars": 278
+        },
+        "rook": {
+          "Name": "rook",
+          "SLOC": 95842,
+          "PR": 7012,
+          "Commits": 9645,
+          "Stars": 10809
+        },
+        "rook-client-python": {
+          "Name": "rook-client-python",
+          "SLOC": 11229,
+          "PR": 3,
+          "Commits": 57,
+          "Stars": 1
         }
       }
     },
@@ -6714,6 +13755,127 @@
         }
       }
     },
+    "spiffe": {
+      "Name": "spiffe",
+      "SLOC": 206940,
+      "PR": 3978,
+      "Commits": 8606,
+      "Stars": 2933,
+      "Repos": {
+        "assets": {
+          "Name": "assets",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 7,
+          "Stars": 0
+        },
+        "awesome-spiffe": {
+          "Name": "awesome-spiffe",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6,
+          "Stars": 5
+        },
+        "go-spiffe": {
+          "Name": "go-spiffe",
+          "SLOC": 11788,
+          "PR": 155,
+          "Commits": 215,
+          "Stars": 97
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 72,
+          "Commits": 181,
+          "Stars": 7
+        },
+        "java-spiffe": {
+          "Name": "java-spiffe",
+          "SLOC": 11516,
+          "PR": 90,
+          "Commits": 321,
+          "Stars": 18
+        },
+        "spiffe": {
+          "Name": "spiffe",
+          "SLOC": 52,
+          "PR": 188,
+          "Commits": 515,
+          "Stars": 1184
+        },
+        "spiffe-csi": {
+          "Name": "spiffe-csi",
+          "SLOC": 956,
+          "PR": 82,
+          "Commits": 80,
+          "Stars": 34
+        },
+        "spiffe-helper": {
+          "Name": "spiffe-helper",
+          "SLOC": 707,
+          "PR": 32,
+          "Commits": 70,
+          "Stars": 26
+        },
+        "spiffe.io": {
+          "Name": "spiffe.io",
+          "SLOC": 7980,
+          "PR": 216,
+          "Commits": 791,
+          "Stars": 20
+        },
+        "spire": {
+          "Name": "spire",
+          "SLOC": 156671,
+          "PR": 2776,
+          "Commits": 5825,
+          "Stars": 1362
+        },
+        "spire-api-sdk": {
+          "Name": "spire-api-sdk",
+          "SLOC": 654,
+          "PR": 34,
+          "Commits": 37,
+          "Stars": 7
+        },
+        "spire-controller-manager": {
+          "Name": "spire-controller-manager",
+          "SLOC": 5445,
+          "PR": 92,
+          "Commits": 84,
+          "Stars": 29
+        },
+        "spire-examples": {
+          "Name": "spire-examples",
+          "SLOC": 469,
+          "PR": 52,
+          "Commits": 104,
+          "Stars": 18
+        },
+        "spire-plugin-sdk": {
+          "Name": "spire-plugin-sdk",
+          "SLOC": 2031,
+          "PR": 40,
+          "Commits": 36,
+          "Stars": 9
+        },
+        "spire-tutorials": {
+          "Name": "spire-tutorials",
+          "SLOC": 88,
+          "PR": 74,
+          "Commits": 128,
+          "Stars": 62
+        },
+        "tornjak": {
+          "Name": "tornjak",
+          "SLOC": 8583,
+          "PR": 75,
+          "Commits": 206,
+          "Stars": 55
+        }
+      }
+    },
     "tensorflow": {
       "Name": "tensorflow",
       "SLOC": 3351209,
@@ -6727,6 +13889,159 @@
           "PR": 22710,
           "Commits": 144463,
           "Stars": 171882
+        }
+      }
+    },
+    "thanos-io": {
+      "Name": "thanos-io",
+      "SLOC": 123500,
+      "PR": 3958,
+      "Commits": 4070,
+      "Stars": 12047,
+      "Repos": {
+        "kube-thanos": {
+          "Name": "kube-thanos",
+          "SLOC": 0,
+          "PR": 237,
+          "Commits": 520,
+          "Stars": 420
+        },
+        "objstore": {
+          "Name": "objstore",
+          "SLOC": 6822,
+          "PR": 34,
+          "Commits": 209,
+          "Stars": 43
+        },
+        "thanos": {
+          "Name": "thanos",
+          "SLOC": 113244,
+          "PR": 3627,
+          "Commits": 3137,
+          "Stars": 11516
+        },
+        "thanos-community-website": {
+          "Name": "thanos-community-website",
+          "SLOC": 190,
+          "PR": 25,
+          "Commits": 154,
+          "Stars": 0
+        },
+        "thanosbench": {
+          "Name": "thanosbench",
+          "SLOC": 3244,
+          "PR": 32,
+          "Commits": 42,
+          "Stars": 56
+        },
+        "tutorials": {
+          "Name": "tutorials",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 8,
+          "Stars": 12
+        }
+      }
+    },
+    "theupdateframework": {
+      "Name": "theupdateframework",
+      "SLOC": 45381,
+      "PR": 2591,
+      "Commits": 8614,
+      "Stars": 2601,
+      "Repos": {
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 14,
+          "Stars": 1
+        },
+        "go-tuf": {
+          "Name": "go-tuf",
+          "SLOC": 13248,
+          "PR": 306,
+          "Commits": 450,
+          "Stars": 531
+        },
+        "pep-maximum-security-model": {
+          "Name": "pep-maximum-security-model",
+          "SLOC": 613,
+          "PR": 7,
+          "Commits": 85,
+          "Stars": 1
+        },
+        "pep-on-pypi-with-tuf": {
+          "Name": "pep-on-pypi-with-tuf",
+          "SLOC": 584,
+          "PR": 6,
+          "Commits": 120,
+          "Stars": 5
+        },
+        "pypi.updateframework.com": {
+          "Name": "pypi.updateframework.com",
+          "SLOC": 550,
+          "PR": 0,
+          "Commits": 69,
+          "Stars": 2
+        },
+        "python-tuf": {
+          "Name": "python-tuf",
+          "SLOC": 9551,
+          "PR": 1502,
+          "Commits": 5636,
+          "Stars": 1486
+        },
+        "rust-tuf": {
+          "Name": "rust-tuf",
+          "SLOC": 14641,
+          "PR": 221,
+          "Commits": 756,
+          "Stars": 155
+        },
+        "specification": {
+          "Name": "specification",
+          "SLOC": 272,
+          "PR": 155,
+          "Commits": 320,
+          "Stars": 332
+        },
+        "taps": {
+          "Name": "taps",
+          "SLOC": 0,
+          "PR": 132,
+          "Commits": 755,
+          "Stars": 25
+        },
+        "theupdateframework.io": {
+          "Name": "theupdateframework.io",
+          "SLOC": 11,
+          "PR": 33,
+          "Commits": 108,
+          "Stars": 4
+        },
+        "tuf-js": {
+          "Name": "tuf-js",
+          "SLOC": 5911,
+          "PR": 226,
+          "Commits": 301,
+          "Stars": 59
+        }
+      }
+    },
+    "tikv": {
+      "Name": "tikv",
+      "SLOC": 395829,
+      "PR": 10257,
+      "Commits": 7081,
+      "Stars": 12776,
+      "Repos": {
+        "tikv": {
+          "Name": "tikv",
+          "SLOC": 395829,
+          "PR": 10257,
+          "Commits": 7081,
+          "Stars": 12776
         }
       }
     },
@@ -7267,6 +14582,164 @@
           "PR": 12,
           "Commits": 1224,
           "Stars": 69
+        }
+      }
+    },
+    "vitessio": {
+      "Name": "vitessio",
+      "SLOC": 671344,
+      "PR": 11006,
+      "Commits": 36744,
+      "Stars": 15909,
+      "Repos": {
+        "arewefastyet": {
+          "Name": "arewefastyet",
+          "SLOC": 8512,
+          "PR": 222,
+          "Commits": 1304,
+          "Stars": 33
+        },
+        "contrib": {
+          "Name": "contrib",
+          "SLOC": 1961,
+          "PR": 31,
+          "Commits": 32,
+          "Stars": 12
+        },
+        "enhancements": {
+          "Name": "enhancements",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 46,
+          "Stars": 2
+        },
+        "messages": {
+          "Name": "messages",
+          "SLOC": 174,
+          "PR": 0,
+          "Commits": 10,
+          "Stars": 5
+        },
+        "metrics": {
+          "Name": "metrics",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 1
+        },
+        "vitess": {
+          "Name": "vitess",
+          "SLOC": 610950,
+          "PR": 9602,
+          "Commits": 32323,
+          "Stars": 15711
+        },
+        "vitess-bot": {
+          "Name": "vitess-bot",
+          "SLOC": 321,
+          "PR": 25,
+          "Commits": 69,
+          "Stars": 4
+        },
+        "vitess-operator": {
+          "Name": "vitess-operator",
+          "SLOC": 3385,
+          "PR": 10,
+          "Commits": 11,
+          "Stars": 105
+        },
+        "vitess-resources": {
+          "Name": "vitess-resources",
+          "SLOC": 0,
+          "PR": 15,
+          "Commits": 34,
+          "Stars": 0
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 46041,
+          "PR": 1093,
+          "Commits": 2912,
+          "Stars": 36
+        }
+      }
+    },
+    "volcano-sh": {
+      "Name": "volcano-sh",
+      "SLOC": 68543,
+      "PR": 2003,
+      "Commits": 5490,
+      "Stars": 3151,
+      "Repos": {
+        "apis": {
+          "Name": "apis",
+          "SLOC": 1028,
+          "PR": 93,
+          "Commits": 114,
+          "Stars": 20
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 12,
+          "Commits": 22,
+          "Stars": 7
+        },
+        "dashboard": {
+          "Name": "dashboard",
+          "SLOC": 461,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 0
+        },
+        "devices": {
+          "Name": "devices",
+          "SLOC": 1189,
+          "PR": 18,
+          "Commits": 33,
+          "Stars": 55
+        },
+        "federation": {
+          "Name": "federation",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0
+        },
+        "kubegene": {
+          "Name": "kubegene",
+          "SLOC": 8956,
+          "PR": 50,
+          "Commits": 101,
+          "Stars": 184
+        },
+        "kubegene-website": {
+          "Name": "kubegene-website",
+          "SLOC": 0,
+          "PR": 14,
+          "Commits": 93,
+          "Stars": 5
+        },
+        "resource-exporter": {
+          "Name": "resource-exporter",
+          "SLOC": 730,
+          "PR": 6,
+          "Commits": 14,
+          "Stars": 11
+        },
+        "volcano": {
+          "Name": "volcano",
+          "SLOC": 55659,
+          "PR": 1606,
+          "Commits": 4646,
+          "Stars": 2852
+        },
+        "website": {
+          "Name": "website",
+          "SLOC": 520,
+          "PR": 204,
+          "Commits": 463,
+          "Stars": 17
         }
       }
     },

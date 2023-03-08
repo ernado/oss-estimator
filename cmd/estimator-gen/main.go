@@ -37,6 +37,10 @@ type Stat struct {
 const maxLen = 35
 
 func (s Stat) Title() string {
+	if s.Name == "CNCF" || s.Name == "K8s" {
+		// Markdown bold for aggregate.
+		return "**" + s.Name + "**"
+	}
 	v := s.Name
 	if s.Org != "" {
 		v = s.Org + "/" + s.Name
@@ -48,6 +52,12 @@ func (s Stat) Title() string {
 }
 
 func (s Stat) URL() string {
+	if s.Name == "CNCF" {
+		return "https://www.cncf.io/"
+	}
+	if s.Name == "K8s" {
+		return "https://kubernetes.io/"
+	}
 	if s.Org == "" {
 		return fmt.Sprintf("https://github.com/%s", s.Name)
 	}
@@ -185,6 +195,67 @@ func NearestThousandFormat(x int) string {
 }
 
 func main() {
+	// List of CNCF projects: https://www.cncf.io/projects/
+	isCNCF := make(map[string]bool)
+	for _, org := range []string{
+		"istio",
+		"etcd-io",
+		"kubernetes",
+		"kubernetes-sigs",
+		"envoyproxy",
+		"argoproj",
+		"containerd",
+		"coredns",
+		"fluent",
+		"goharbor",
+		"jaegertracing",
+		"linkerd",
+		"open-policy-agent",
+		"rook",
+		"spiffe",
+		"cri-o",
+		"containernetworking",
+		"cortexproject",
+		"projectcontour",
+		"nats-io",
+		"notaryproject",
+		"OpenObservability",
+		"operator-framework",
+		"thanos-io",
+		"grpc",
+		"longhorn",
+		"fluent",
+		"fluxcd",
+		"fluent",
+		"fluxcd",
+		"helm",
+		"prometheus",
+		"theupdateframework",
+		"vitessio",
+		"backstage",
+		"buildpacks",
+		"cert-manager",
+		"chaos-mesh",
+		"cert-manager",
+		"cloud-custodian",
+		"cloudevents",
+		"crossplane",
+		"cubeFS",
+		"dapr",
+		"emissary-ingress",
+		"in-toto",
+		"kedacore",
+		"keptn",
+		"knative",
+		"kubeedge",
+		"kubevirt",
+		"kyverno",
+		"litmuschaos",
+		"volcano-sh",
+	} {
+		isCNCF[org] = true
+	}
+
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		t := template.New("template")
 		t.Funcs(template.FuncMap{
@@ -197,9 +268,14 @@ func main() {
 			return errors.Wrap(err, "unmarshal data")
 		}
 
+		// Aggregates.
 		k8s := Stat{
-			Name: "kubernetes",
+			Name: "K8s",
 		}
+		cncf := Stat{
+			Name: "CNCF",
+		}
+
 		var c Context
 		for _, org := range v.Organizations {
 			for _, repo := range org.Repos {
@@ -212,6 +288,13 @@ func main() {
 					Stars:   repo.Stars,
 				})
 			}
+			if isCNCF[org.Name] {
+				cncf.PR += org.PR
+				cncf.Commits += org.Commits
+				cncf.Stars += org.Stars
+				cncf.SLOC += org.SLOC
+			}
+
 			switch org.Name {
 			case "kubernetes", "kubernetes-sigs":
 				k8s.PR += org.PR
@@ -229,8 +312,8 @@ func main() {
 			}
 		}
 
-		// Aggregate kubernetes and kubernetes-sig to single org.
-		c.Orgs = append(c.Orgs, k8s)
+		// Add aggregates.
+		c.Orgs = append(c.Orgs, k8s, cncf)
 
 		sort.SliceStable(c.Orgs, func(i, j int) bool {
 			return c.Orgs[i].SLOC > c.Orgs[j].SLOC
