@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"strings"
 	"sync"
 
 	"github.com/go-faster/errors"
@@ -23,19 +22,18 @@ type Job struct {
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
-			c = gh.Client(ctx)
-			e = estimate.New(c, "_work")
+			c           = gh.Client(ctx)
+			e           = estimate.New(c, "_work")
+			concurrency = 8
+			jobs        = make(chan Job, concurrency)
 		)
-
-		concurrency := 8
-		jobs := make(chan Job, concurrency)
 		g, ctx := errgroup.WithContext(ctx)
-
 		g.Go(func() error {
 			defer close(jobs)
-			{
-				// Get all grpc libs.
-				org := "grpc"
+			for _, org := range []string{
+				"grpc",
+				"open-telemetry",
+			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
 						PerPage: 100,
@@ -45,32 +43,10 @@ func main() {
 					return errors.Wrap(err, "list repos")
 				}
 				for _, repo := range repos {
-					if strings.HasPrefix(repo.GetName(), "grpc-") {
-						select {
-						case <-ctx.Done():
-							return ctx.Err()
-						case jobs <- Job{Org: org, Repo: repo.GetName()}:
-						}
-					}
-				}
-			}
-			{
-				org := "open-telemetry"
-				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
-					ListOptions: github.ListOptions{
-						PerPage: 100,
-					},
-				})
-				if err != nil {
-					return errors.Wrap(err, "list repos")
-				}
-				for _, repo := range repos {
-					if strings.HasPrefix(repo.GetName(), "opentelemetry-") {
-						select {
-						case <-ctx.Done():
-							return ctx.Err()
-						case jobs <- Job{Org: org, Repo: repo.GetName()}:
-						}
+					select {
+					case <-ctx.Done():
+						return ctx.Err()
+					case jobs <- Job{Org: org, Repo: repo.GetName()}:
 					}
 				}
 			}
