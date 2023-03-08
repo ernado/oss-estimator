@@ -2,15 +2,15 @@
   "Organizations": {
     "ClickHouse": {
       "Name": "ClickHouse",
-      "SLOC": 3452905,
-      "PR": 34830,
-      "Commits": 174040,
+      "SLOC": 2455734,
+      "PR": 34820,
+      "Commits": 173812,
       "Repos": {
         "ClickHouse": {
           "Name": "ClickHouse",
-          "SLOC": 902942,
+          "SLOC": 903149,
           "PR": 32188,
-          "Commits": 109644
+          "Commits": 109661
         },
         "UnixODBC": {
           "Name": "UnixODBC",
@@ -82,7 +82,7 @@
           "Name": "clickhouse-go",
           "SLOC": 34226,
           "PR": 459,
-          "Commits": 1259
+          "Commits": 1262
         },
         "clickhouse-java": {
           "Name": "clickhouse-java",
@@ -113,12 +113,6 @@
           "SLOC": 11213,
           "PR": 39,
           "Commits": 515
-        },
-        "clickhouse-test.github.io": {
-          "Name": "clickhouse-test.github.io",
-          "SLOC": 68714,
-          "PR": 0,
-          "Commits": 207
         },
         "clickhouse-website-content": {
           "Name": "clickhouse-website-content",
@@ -221,12 +215,6 @@
           "SLOC": 34765,
           "PR": 7,
           "Commits": 35
-        },
-        "llvm": {
-          "Name": "llvm",
-          "SLOC": 928664,
-          "PR": 10,
-          "Commits": 41
         },
         "metabase-clickhouse-driver": {
           "Name": "metabase-clickhouse-driver",
@@ -1710,17 +1698,199 @@
         }
       }
     },
+    "go-faster": {
+      "Name": "go-faster",
+      "SLOC": 50751,
+      "PR": 670,
+      "Commits": 4707,
+      "Repos": {
+        ".github": {
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 21
+        },
+        "bfj": {
+          "Name": "bfj",
+          "SLOC": 82,
+          "PR": 0,
+          "Commits": 5
+        },
+        "bot": {
+          "Name": "bot",
+          "SLOC": 2679,
+          "PR": 108,
+          "Commits": 165
+        },
+        "cilium-mesh-testing": {
+          "Name": "cilium-mesh-testing",
+          "SLOC": 253,
+          "PR": 0,
+          "Commits": 1
+        },
+        "city": {
+          "Name": "city",
+          "SLOC": 2882,
+          "PR": 3,
+          "Commits": 60
+        },
+        "errors": {
+          "Name": "errors",
+          "SLOC": 1432,
+          "PR": 20,
+          "Commits": 112
+        },
+        "gh-archive-clickhouse": {
+          "Name": "gh-archive-clickhouse",
+          "SLOC": 983,
+          "PR": 75,
+          "Commits": 85
+        },
+        "gha": {
+          "Name": "gha",
+          "SLOC": 2828,
+          "PR": 122,
+          "Commits": 223
+        },
+        "hx": {
+          "Name": "hx",
+          "SLOC": 13037,
+          "PR": 12,
+          "Commits": 1473
+        },
+        "jx": {
+          "Name": "jx",
+          "SLOC": 9667,
+          "PR": 65,
+          "Commits": 1408
+        },
+        "jx-bench-sample": {
+          "Name": "jx-bench-sample",
+          "SLOC": 59,
+          "PR": 0,
+          "Commits": 8
+        },
+        "tail": {
+          "Name": "tail",
+          "SLOC": 943,
+          "PR": 25,
+          "Commits": 96
+        },
+        "web": {
+          "Name": "web",
+          "SLOC": 286,
+          "PR": 117,
+          "Commits": 299
+        },
+        "x": {
+          "Name": "x",
+          "SLOC": 0,
+          "PR": 37,
+          "Commits": 109
+        },
+        "xor": {
+          "Name": "xor",
+          "SLOC": 178,
+          "PR": 48,
+          "Commits": 102
+        },
+        "yamlx": {
+          "Name": "yamlx",
+          "SLOC": 15442,
+          "PR": 38,
+          "Commits": 540
+        }
+      }
+    },
     "gotd": {
       "Name": "gotd",
-      "SLOC": 52603,
-      "PR": 786,
-      "Commits": 3084,
+      "SLOC": 74334,
+      "PR": 2438,
+      "Commits": 6222,
       "Repos": {
+        "bot": {
+          "Name": "bot",
+          "SLOC": 3069,
+          "PR": 256,
+          "Commits": 584
+        },
+        "botapi": {
+          "Name": "botapi",
+          "SLOC": 6402,
+          "PR": 313,
+          "Commits": 653
+        },
+        "cli": {
+          "Name": "cli",
+          "SLOC": 593,
+          "PR": 179,
+          "Commits": 261
+        },
+        "contrib": {
+          "Name": "contrib",
+          "SLOC": 4722,
+          "PR": 317,
+          "Commits": 568
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 193,
+          "PR": 186,
+          "Commits": 174
+        },
+        "gep": {
+          "Name": "gep",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2
+        },
+        "getdoc": {
+          "Name": "getdoc",
+          "SLOC": 1061,
+          "PR": 130,
+          "Commits": 301
+        },
+        "gotdlog": {
+          "Name": "gotdlog",
+          "SLOC": 26,
+          "PR": 3,
+          "Commits": 11
+        },
+        "neo": {
+          "Name": "neo",
+          "SLOC": 795,
+          "PR": 24,
+          "Commits": 83
+        },
+        "ref": {
+          "Name": "ref",
+          "SLOC": 2358,
+          "PR": 85,
+          "Commits": 144
+        },
         "td": {
           "Name": "td",
           "SLOC": 52603,
           "PR": 786,
           "Commits": 3084
+        },
+        "teled": {
+          "Name": "teled",
+          "SLOC": 623,
+          "PR": 42,
+          "Commits": 73
+        },
+        "tgstatus": {
+          "Name": "tgstatus",
+          "SLOC": 408,
+          "PR": 94,
+          "Commits": 200
+        },
+        "tl": {
+          "Name": "tl",
+          "SLOC": 1481,
+          "PR": 23,
+          "Commits": 84
         }
       }
     },
@@ -4106,15 +4276,39 @@
     },
     "ogen-go": {
       "Name": "ogen-go",
-      "SLOC": 36658,
-      "PR": 700,
-      "Commits": 3267,
+      "SLOC": 38140,
+      "PR": 1050,
+      "Commits": 3872,
       "Repos": {
+        "corpus": {
+          "Name": "corpus",
+          "SLOC": 0,
+          "PR": 69,
+          "Commits": 170
+        },
+        "ent2ogen": {
+          "Name": "ent2ogen",
+          "SLOC": 924,
+          "PR": 64,
+          "Commits": 132
+        },
+        "example": {
+          "Name": "example",
+          "SLOC": 358,
+          "PR": 75,
+          "Commits": 60
+        },
         "ogen": {
           "Name": "ogen",
           "SLOC": 36658,
           "PR": 700,
           "Commits": 3267
+        },
+        "web": {
+          "Name": "web",
+          "SLOC": 200,
+          "PR": 142,
+          "Commits": 243
         }
       }
     },
