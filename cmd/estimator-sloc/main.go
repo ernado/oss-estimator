@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"path/filepath"
 	"strings"
 
 	"github.com/go-faster/errors"
@@ -28,7 +29,7 @@ func main() {
 			orgName, repoName = elems[0], elems[1]
 		}
 
-		c, err := estimate.New(gh.Client(ctx), "_work").Get(ctx, orgName, repoName)
+		c, err := estimate.New(gh.Client(ctx), filepath.Join("_work", "dataset")).Get(ctx, orgName, repoName)
 		if err != nil {
 			return errors.Wrap(err, "estimate")
 		}

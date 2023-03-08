@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"path"
 	"sync"
 
 	"github.com/go-faster/errors"
@@ -23,7 +24,7 @@ type Job struct {
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
-			dir         = "_work"
+			dir         = path.Join("_work", "dataset")
 			concurrency = 8
 		)
 		flag.StringVar(&dir, "dir", dir, "directory to store data")
@@ -40,6 +41,7 @@ func main() {
 		g.Go(func() error {
 			defer close(jobs)
 			for _, org := range []string{
+				"ClickHouse",
 				"grpc",
 				"open-telemetry",
 				"prometheus",
@@ -52,6 +54,12 @@ func main() {
 				"siderolabs",
 				"openebs",
 				"m3db",
+				"grafana",
+				"VictoriaMetrics",
+				"vectordotdev",
+				"envoyproxy",
+				"helm",
+				"docker",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
@@ -75,53 +83,19 @@ func main() {
 			for _, v := range [][2]string{
 				{"ogen-go", "ogen"},
 				{"gotd", "td"},
-				{"kubernetes", "kubernetes"},
-				{"cilium", "cilium"},
-				{"cilium", "tetragon"},
-				{"cilium", "hubble"},
-				{"cilium", "hubble-ui"},
-				{"cilium", "ebpf"},
-				{"cilium", "cilium-cli"},
-				{"cilium", "pwru"},
-				{"cilium", "hubble-otel"},
-				{"kata-containers", "kata-containers"},
-				{"grafana", "grafana"},
-				{"grafana", "loki"},
-				{"grafana", "mimir"},
-				{"grafana", "oncall"},
-				{"grafana", "agent"},
-				{"grafana", "k6"},
 				{"VKCOM", "statshouse"},
 				{"VKCOM", "VKUI"},
-				{"VictoriaMetrics", "VictoriaMetrics"},
-				{"VictoriaMetrics", "metrics"},
-				{"VictoriaMetrics", "grafana-datasource"},
-				{"VictoriaMetrics", "operator"},
 				{"pixie-io", "pixie"},
-				{"siderolabs", "talos"},
 				{"falcosecurity", "falco"},
-				{"ClickHouse", "ClickHouse"},
-				{"vectordotdev", "vector"},
-				{"prometheus", "node_exporter"},
-				{"prometheus", "common"},
-				{"prometheus", "exporter-toolkit"},
-				{"prometheus", "prometheus"},
-				{"prometheus", "pushgateway"},
-				{"envoyproxy", "envoy"},
-				{"istio", "istio"},
-				{"istio", "ztunnel"},
-				{"istio", "proxy"},
-				{"etcd-io", "etcd"},
 				{"apache", "mesos"},
 				{"apache", "aurora"},
 				{"uber", "peloton"},
 				{"Netflix", "titus-executor"},
 				{"Netflix", "titus-control-plane"},
-				{"helm", "helm"},
-				{"helm", "chartmuseum"},
 				{"vitalif", "vitastor"},
 				{"LINBIT", "linstor-server"},
 				{"uber", "kraken"},
+				{"containers", "podman"},
 			} {
 				select {
 				case <-ctx.Done():

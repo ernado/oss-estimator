@@ -1,7 +1,6 @@
 package entry
 
 import (
-	"bytes"
 	"fmt"
 	"time"
 	"unsafe"
@@ -10,28 +9,50 @@ import (
 	"github.com/go-faster/jx"
 )
 
+type EventType byte
+
+// "WatchEvent", "PushEvent", "IssuesEvent", "PullRequestEvent"
+const (
+	EventUnknown EventType = iota
+	EventWatch
+	EventPush
+	EventIssue
+	EventPR
+)
+
+func (t EventType) String() string {
+	switch t {
+	case EventWatch:
+		return "WatchEvent"
+	case EventPush:
+		return "PushEvent"
+	case EventIssue:
+		return "IssuesEvent"
+	case EventPR:
+		return "PullRequestEvent"
+	case EventUnknown:
+		return "Unknown"
+	default:
+		return fmt.Sprintf("Event(%d)", t)
+	}
+}
+
 type Event struct {
-	Type    []byte
-	Repo    []byte
-	RepoURL []byte
-	RepoID  uint64
-	ActorID uint64
-	URL     []byte
+	Type    EventType
+	RepoID  int64
+	ActorID int64
 	Actor   []byte
 	Time    time.Time
 }
 
 func (e Event) String() string {
-	return fmt.Sprintf("%s %30s %s",
-		e.Time.Format(Layout), e.Type, e.Repo,
+	return fmt.Sprintf("%s %5s %d",
+		e.Time.Format(Layout), e.Type, e.RepoID,
 	)
 }
 
 func (e *Event) Reset() {
-	e.Type = e.Type[:0]
-	e.Repo = e.Repo[:0]
-	e.RepoURL = e.RepoURL[:0]
-	e.URL = e.URL[:0]
+	e.Type = EventUnknown
 	e.Time = time.Time{}
 	e.Actor = e.Actor[:0]
 	e.ActorID = 0
@@ -54,23 +75,23 @@ func (e *Event) Decode(d *jx.Decoder) error {
 			case jx.Object:
 				if err := d.ObjBytes(func(d *jx.Decoder, key []byte) error {
 					switch string(key) {
-					case "login":
-						v, err := d.StrAppend(e.Actor[:0])
-						if err != nil {
-							return errors.Wrap(err, "name")
-						}
-						e.Actor = v
-						return nil
 					case "id":
 						id, err := d.Num()
 						if err != nil {
 							return errors.Wrap(err, "id parse")
 						}
-						v, err := id.Uint64()
+						v, err := id.Int64()
 						if err != nil {
 							return errors.Wrap(err, "id")
 						}
 						e.ActorID = v
+						return nil
+					case "login":
+						v, err := d.StrAppend(e.Actor[:0])
+						if err != nil {
+							return errors.Wrap(err, "actor")
+						}
+						e.Actor = v
 						return nil
 					default:
 						if err := d.Skip(); err != nil {
@@ -86,18 +107,22 @@ func (e *Event) Decode(d *jx.Decoder) error {
 			}
 			return nil
 		case "type":
-			v, err := d.StrAppend(e.Type[:0])
+			v, err := d.StrBytes()
 			if err != nil {
 				return errors.Wrap(err, "type")
 			}
-			e.Type = v
-			return nil
-		case "url":
-			v, err := d.StrAppend(e.URL[:0])
-			if err != nil {
-				return errors.Wrap(err, "url")
+			switch string(v) {
+			case "WatchEvent":
+				e.Type = EventWatch
+			case "PushEvent":
+				e.Type = EventPush
+			case "IssuesEvent":
+				e.Type = EventIssue
+			case "PullRequestEvent":
+				e.Type = EventPR
+			default:
+				e.Type = EventUnknown
 			}
-			e.URL = v
 			return nil
 		case "created_at":
 			v, err := d.StrBytes()
@@ -113,40 +138,12 @@ func (e *Event) Decode(d *jx.Decoder) error {
 		case "repo", "repository":
 			if err := d.ObjBytes(func(d *jx.Decoder, key []byte) error {
 				switch string(key) {
-				case "url":
-					v, err := d.StrAppend(e.RepoURL[:0])
-					if err != nil {
-						return errors.Wrap(err, "name")
-					}
-					e.RepoURL = v
-					return nil
-				case "full_name":
-					v, err := d.StrAppend(e.Repo[:0])
-					if err != nil {
-						return errors.Wrap(err, "name")
-					}
-					e.Repo = v
-					return nil
-				case "name":
-					if len(e.Repo) != 0 {
-						return d.Skip()
-					}
-					v, err := d.StrAppend(e.Repo[:0])
-					if err != nil {
-						return errors.Wrap(err, "name")
-					}
-					e.Repo = v
-					return nil
 				case "id":
-					id, err := d.Num()
+					id, err := d.Int64()
 					if err != nil {
 						return errors.Wrap(err, "id parse")
 					}
-					v, err := id.Uint64()
-					if err != nil {
-						return errors.Wrap(err, "id")
-					}
-					e.RepoID = v
+					e.RepoID = id
 					return nil
 				default:
 					if err := d.Skip(); err != nil {
@@ -167,24 +164,17 @@ func (e *Event) Decode(d *jx.Decoder) error {
 	}); err != nil {
 		return errors.Wrap(err, "object")
 	}
-	if len(e.Repo) == 0 {
-		v := bytes.TrimPrefix(e.RepoURL, []byte("https://api.github.com/repos/"))
-		e.Repo = append(e.Repo, v...)
-	}
 	return nil
 }
 
 func (e Event) Full() bool {
-	if len(e.Repo) == 0 {
-		return false
-	}
 	if len(e.Actor) == 0 {
 		return false
 	}
 	if e.Time.IsZero() {
 		return false
 	}
-	if len(e.Type) == 0 {
+	if e.Type == EventUnknown {
 		return false
 	}
 	if e.ActorID == 0 {
@@ -197,10 +187,5 @@ func (e Event) Full() bool {
 }
 
 func (e Event) Interesting() bool {
-	switch string(e.Type) {
-	case "WatchEvent", "PushEvent", "IssuesEvent", "PullRequestEvent":
-		return true
-	default:
-		return false
-	}
+	return e.Type != EventUnknown
 }

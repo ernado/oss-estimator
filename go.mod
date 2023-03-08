@@ -8,8 +8,10 @@ require (
 	github.com/go-git/go-billy/v5 v5.4.1
 	github.com/go-git/go-git/v5 v5.6.0
 	github.com/google/go-github/v50 v50.1.0
+	github.com/hashicorp/golang-lru/v2 v2.0.1
 	github.com/jedib0t/go-pretty/v6 v6.4.6
 	github.com/stretchr/testify v1.8.2
+	go.etcd.io/bbolt v1.3.7
 	go.uber.org/zap v1.24.0
 	golang.org/x/oauth2 v0.6.0
 	golang.org/x/sync v0.1.0
