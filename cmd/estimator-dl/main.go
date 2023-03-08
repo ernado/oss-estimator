@@ -8,6 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/ClickHouse/ch-go/proto"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 	lru "github.com/hashicorp/golang-lru/v2"
@@ -51,6 +52,13 @@ func (s SimplifiedEntry) Encode(e *jx.Encoder) {
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		u := archive.GetURL(time.Now().AddDate(0, 0, -2))
+
+		// clickhouse local --structure "event UInt8, repo Int64, actor Int64, time DateTime" --input-format Native --file _work/events.ch.native --interactive
+		outFile, err := os.Create(filepath.Join("_work", "events.ch.native"))
+		if err != nil {
+			return errors.Wrap(err, "open")
+		}
+		defer func() { _ = outFile.Close() }()
 
 		g, ctx := errgroup.WithContext(ctx)
 
@@ -121,7 +129,15 @@ func main() {
 				d  jx.Decoder
 				e  jx.Encoder
 				ev entry.Event
+
+				colEv      proto.ColUInt8
+				colRepoID  proto.ColInt64
+				colActorID proto.ColInt64
+				colTime    proto.ColDateTime
+
+				outBuf proto.Buffer
 			)
+
 			buf := make([]byte, 0, 1024*1024)
 			s.Buffer(buf, len(buf))
 
@@ -130,9 +146,37 @@ func main() {
 			bucketInverse := []byte("actor-to-id")
 			var idEncoder jx.Encoder
 
+			input := []proto.InputColumn{
+				{Name: "event", Data: &colEv},
+				{Name: "repo", Data: &colRepoID},
+				{Name: "actor", Data: &colActorID},
+				{Name: "time", Data: &colTime},
+			}
+
 			for s.Scan() {
+				if ctx.Err() != nil {
+					return ctx.Err()
+				}
+
 				e.Reset()
 				ev.Reset()
+
+				if colEv.Rows() > 10_000 {
+					b := proto.Block{Rows: colEv.Rows(), Columns: 4}
+					if err := b.EncodeRawBlock(&outBuf, 54451, input); err != nil {
+						return errors.Wrap(err, "encode")
+					}
+					if _, err := outFile.Write(outBuf.Buf); err != nil {
+						return errors.Wrap(err, "write")
+					}
+					outBuf.Reset()
+					proto.Reset(
+						&colEv,
+						&colRepoID,
+						&colActorID,
+						&colTime,
+					)
+				}
 
 				data := s.Bytes()
 				d.ResetBytes(data)
@@ -178,6 +222,14 @@ func main() {
 					Time:    ev.Time.Unix(),
 				}
 				se.Encode(&e)
+
+				{
+					colEv.Append(se.Event)
+					colRepoID.Append(se.Repo)
+					colActorID.Append(se.ActorID)
+					colTime.Append(ev.Time)
+				}
+
 				if _, err := os.Stdout.Write(e.Bytes()); err != nil {
 					return errors.Wrap(err, "write")
 				}
@@ -187,6 +239,12 @@ func main() {
 			}
 			if err := s.Err(); err != nil {
 				return errors.Wrap(err, "scan")
+			}
+			if err := outFile.Sync(); err != nil {
+				return errors.Wrap(err, "sync")
+			}
+			if err := outFile.Close(); err != nil {
+				return errors.Wrap(err, "close")
 			}
 			return nil
 		})
