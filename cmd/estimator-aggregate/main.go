@@ -31,7 +31,6 @@ type Aggregated struct {
 }
 
 func main() {
-
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
 			dir = "_work"
