@@ -4,6 +4,7 @@ import (
 	"context"
 	"flag"
 	"path"
+	"strings"
 	"sync"
 
 	"github.com/go-faster/errors"
@@ -71,6 +72,9 @@ func main() {
 				}
 				for _, repo := range repos {
 					if repo.GetSize() == 0 || repo.GetFork() {
+						continue
+					}
+					if strings.Contains(repo.GetName(), "github.io") {
 						continue
 					}
 					select {

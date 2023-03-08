@@ -2,9 +2,9 @@
   "Organizations": {
     "ClickHouse": {
       "Name": "ClickHouse",
-      "SLOC": 4431391,
+      "SLOC": 3452905,
       "PR": 34830,
-      "Commits": 174047,
+      "Commits": 174040,
       "Repos": {
         "ClickHouse": {
           "Name": "ClickHouse",
@@ -131,12 +131,6 @@
           "SLOC": 702,
           "PR": 209,
           "Commits": 561
-        },
-        "clickhouse.github.io": {
-          "Name": "clickhouse.github.io",
-          "SLOC": 978486,
-          "PR": 0,
-          "Commits": 7
         },
         "clickhouse_exporter": {
           "Name": "clickhouse_exporter",
