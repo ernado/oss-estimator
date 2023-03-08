@@ -9,6 +9,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 
 	"github.com/go-faster/errors"
 	"github.com/go-git/go-billy/v5/osfs"
@@ -38,6 +39,7 @@ type Entry struct {
 	PullRequests int         `json:"PullRequests,omitempty"`
 	SLOC         int         `json:"SLOC,omitempty"`
 	Head         string      `json:"HEAD,omitempty"`
+	RepoID       int64       `json:"RepoID,omitempty"`
 }
 
 func (e Entry) Print() {
@@ -89,21 +91,34 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 	// Try to open first, so we don't need to call GitHub API.
 	// Fast path.
 	gitRepo, err := git.Open(storage, root)
+
+	if err == nil {
+		_, err = gitRepo.Head()
+	}
+
+	var repoID int64
+
 	if err != nil {
 		// Slow path, cloned repo doesn't exist.
 		//
 		// Fetching default branch and cloning.
-
 		repo, _, err := c.gh.Repositories.Get(ctx, orgName, repoName)
 		if err != nil {
 			return nil, errors.Wrap(err, "get repository")
 		}
 
+		repoID = repo.GetID()
 		u, err := url.Parse(repo.GetCloneURL())
 		if err != nil {
 			return nil, errors.Wrap(err, "parse clone URL")
 		}
-		u.User = url.UserPassword("git", os.Getenv("GITHUB_TOKEN"))
+		switch orgName + "/" + repoName {
+		case "VKCOM/VKUI":
+			// HACK: LFS can't be fetched by personal token:
+			// 	Resource not accessible by personal access token
+		default:
+			u.User = url.UserPassword("git", os.Getenv("GITHUB_TOKEN"))
+		}
 
 		// Fix partial clone.
 		_ = os.RemoveAll(gitRoot)
@@ -126,18 +141,17 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 			return nil, errors.Wrap(err, "open git repo after clone")
 		}
 	}
-	head, err := gitRepo.Head()
-	if err != nil {
-		return nil, errors.Wrap(err, "get HEAD")
-	}
 
 	// Initialize arguments for scc.
+	exclude := []string{
+		"yaml", "yml", "md", "json",
+	}
 	args := []string{
 		"--no-complexity",
 		"--no-cocomo",
 		"--no-min-gen",
 		"--sort", "code",
-		"-x", "yaml,yml,md",
+		"-x", strings.Join(exclude, ","),
 		"--format", "json",
 	}
 	// Ignore common vendor directories.
@@ -203,14 +217,28 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		pullRequests = res.LastPage
 	}
 
+	head, err := gitRepo.Head()
+	if err != nil {
+		return nil, errors.Wrap(err, "get head")
+	}
+
+	if repoID == 0 {
+		repo, _, err := c.gh.Repositories.Get(ctx, orgName, repoName)
+		if err != nil {
+			return nil, errors.Wrap(err, "get repository")
+		}
+		repoID = repo.GetID()
+	}
+
 	ce := Entry{
 		PullRequests: pullRequests,
 		Commits:      commits,
 		Code:         stats,
 		SLOC:         total,
-		Head:         head.String(),
+		Head:         head.Hash().String(),
 		Org:          orgName,
 		Repo:         repoName,
+		RepoID:       repoID,
 	}
 
 	cOut := new(bytes.Buffer)
