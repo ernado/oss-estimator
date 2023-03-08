@@ -17,6 +17,7 @@ import (
 
 	"estimator/internal/app"
 	"estimator/internal/estimate"
+	"estimator/internal/lang"
 )
 
 //go:embed README.md.tmpl
@@ -37,7 +38,7 @@ type Stat struct {
 }
 
 func (s Stat) Lang() string {
-	if s.Language == "" {
+	if !lang.In(s.Language) {
 		return "N/A"
 	}
 	return s.Language

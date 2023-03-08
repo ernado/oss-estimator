@@ -52,6 +52,7 @@ func main() {
 			{"istio", "old_vendor-istio_repo"}:     {},
 			{"openebs", "openebs-docs"}:            {},
 			{"chaos-mesh", "toda-glibc"}:           {},
+			{"envoyproxy", "envoy-website"}:        {},
 		}
 
 		g, ctx := errgroup.WithContext(ctx)

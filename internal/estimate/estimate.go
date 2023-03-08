@@ -80,6 +80,9 @@ func Max(s map[string]int) string {
 	var max int
 	var name string
 	for k, v := range s {
+		if !lang.In(k) {
+			continue
+		}
 		if v > max {
 			max = v
 			name = k
