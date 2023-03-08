@@ -410,9 +410,9 @@
     },
     "cilium": {
       "Name": "cilium",
-      "SLOC": 699525,
+      "SLOC": 516598,
       "PR": 22466,
-      "Commits": 48736,
+      "Commits": 32090,
       "Repos": {
         "Jenkins-library": {
           "Name": "Jenkins-library",
@@ -455,12 +455,6 @@
           "SLOC": 160,
           "PR": 10,
           "Commits": 21
-        },
-        "busybox": {
-          "Name": "busybox",
-          "SLOC": 182927,
-          "PR": 0,
-          "Commits": 16646
         },
         "certgen": {
           "Name": "certgen",
