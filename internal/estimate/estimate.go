@@ -160,6 +160,11 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		"include",
 		"third_party",
 		"3rdparty",
+
+		".git",
+		".yarn",
+		".vendor",
+		".github",
 	} {
 		args = append(args, "--exclude-dir", v)
 	}
