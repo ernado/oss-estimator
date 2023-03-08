@@ -98,6 +98,7 @@ func main() {
 		}
 		fmt.Println("head", head)
 
+		// Initialize arguments for scc.
 		args := []string{
 			"--no-complexity",
 			"--no-cocomo",
@@ -106,7 +107,6 @@ func main() {
 			"-x", "yaml,yml,md",
 			"--format", "json",
 		}
-
 		// Ignore common vendor directories.
 		for _, v := range []string{
 			"vendor",
