@@ -1678,6 +1678,20 @@
         }
       }
     },
+    "facebook": {
+      "Name": "facebook",
+      "SLOC": 356872,
+      "PR": 13252,
+      "Commits": 15582,
+      "Repos": {
+        "react": {
+          "Name": "react",
+          "SLOC": 356872,
+          "PR": 13252,
+          "Commits": 15582
+        }
+      }
+    },
     "falcosecurity": {
       "Name": "falcosecurity",
       "SLOC": 11312,
@@ -1793,6 +1807,20 @@
           "SLOC": 15442,
           "PR": 38,
           "Commits": 540
+        }
+      }
+    },
+    "golang": {
+      "Name": "golang",
+      "SLOC": 1060489,
+      "PR": 2865,
+      "Commits": 55721,
+      "Repos": {
+        "go": {
+          "Name": "go",
+          "SLOC": 1060489,
+          "PR": 2865,
+          "Commits": 55721
         }
       }
     },
@@ -5750,6 +5778,20 @@
         }
       }
     },
+    "tensorflow": {
+      "Name": "tensorflow",
+      "SLOC": 2950012,
+      "PR": 22710,
+      "Commits": 144461,
+      "Repos": {
+        "tensorflow": {
+          "Name": "tensorflow",
+          "SLOC": 2950012,
+          "PR": 22710,
+          "Commits": 144461
+        }
+      }
+    },
     "uber": {
       "Name": "uber",
       "SLOC": 253779,
@@ -6197,6 +6239,20 @@
           "SLOC": 37792,
           "PR": 12,
           "Commits": 1224
+        }
+      }
+    },
+    "vuejs": {
+      "Name": "vuejs",
+      "SLOC": 60290,
+      "PR": 2389,
+      "Commits": 3546,
+      "Repos": {
+        "vue": {
+          "Name": "vue",
+          "SLOC": 60290,
+          "PR": 2389,
+          "Commits": 3546
         }
       }
     }

@@ -112,6 +112,10 @@ func main() {
 				{"LINBIT", "linstor-server"},
 				{"uber", "kraken"},
 				{"containers", "podman"},
+				{"facebook", "react"},
+				{"vuejs", "vue"},
+				{"tensorflow", "tensorflow"},
+				{"golang", "go"},
 			} {
 				select {
 				case <-ctx.Done():
