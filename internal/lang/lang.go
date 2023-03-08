@@ -32,7 +32,6 @@ func All() []string {
 		"Erlang",
 		"Lua",
 		"Perl",
-		"BASH",
 	}
 }
 
