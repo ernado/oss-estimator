@@ -22,34 +22,6 @@ import (
 	"estimator/internal/entry"
 )
 
-type SimplifiedEntry struct {
-	Event   byte
-	Repo    int64
-	ActorID int64
-	Actor   []byte
-	Time    int64
-}
-
-func (s SimplifiedEntry) Encode(e *jx.Encoder) {
-	e.Obj(func(e *jx.Encoder) {
-		e.Field("e", func(e *jx.Encoder) {
-			e.UInt8(s.Event)
-		})
-		e.Field("r", func(e *jx.Encoder) {
-			e.Int64(s.Repo)
-		})
-		e.Field("aid", func(e *jx.Encoder) {
-			e.Int64(s.ActorID)
-		})
-		e.Field("a", func(e *jx.Encoder) {
-			e.ByteStr(s.Actor)
-		})
-		e.Field("t", func(e *jx.Encoder) {
-			e.Int64(s.Time)
-		})
-	})
-}
-
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		u := archive.GetURL(time.Now().AddDate(0, 0, -2))
