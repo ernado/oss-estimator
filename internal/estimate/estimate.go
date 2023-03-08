@@ -40,6 +40,7 @@ type Entry struct {
 	SLOC         int         `json:"SLOC,omitempty"`
 	Head         string      `json:"HEAD,omitempty"`
 	RepoID       int64       `json:"RepoID,omitempty"`
+	Stars        int         `json:"Stars,omitempty"`
 }
 
 type AggregatedRepo struct {
@@ -47,6 +48,7 @@ type AggregatedRepo struct {
 	SLOC    int    `json:"SLOC"`
 	PR      int    `json:"PR"`
 	Commits int    `json:"Commits"`
+	Stars   int    `json:"Stars"`
 }
 
 type AggregatedOrg struct {
@@ -54,6 +56,7 @@ type AggregatedOrg struct {
 	SLOC    int                        `json:"SLOC"`
 	PR      int                        `json:"PR"`
 	Commits int                        `json:"Commits"`
+	Stars   int                        `json:"Stars"`
 	Repos   map[string]*AggregatedRepo `json:"Repos,omitempty"`
 }
 
@@ -115,7 +118,10 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		_, err = gitRepo.Head()
 	}
 
-	var repoID int64
+	var (
+		repoID int64
+		stars  int
+	)
 
 	if err != nil {
 		// Slow path, cloned repo doesn't exist.
@@ -127,6 +133,7 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		}
 
 		repoID = repo.GetID()
+		stars = repo.GetStargazersCount()
 		u, err := url.Parse(repo.GetCloneURL())
 		if err != nil {
 			return nil, errors.Wrap(err, "parse clone URL")
@@ -251,7 +258,7 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		if err != nil {
 			return nil, errors.Wrap(err, "get repository")
 		}
-		repoID = repo.GetID()
+		repoID, stars = repo.GetID(), repo.GetStargazersCount()
 	}
 
 	ce := Entry{
@@ -263,8 +270,8 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		Org:          orgName,
 		Repo:         repoName,
 		RepoID:       repoID,
+		Stars:        stars,
 	}
-
 	cOut := new(bytes.Buffer)
 	e := json.NewEncoder(cOut)
 	e.SetIndent("", "  ")

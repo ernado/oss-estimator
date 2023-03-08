@@ -35,1041 +35,1037 @@ $ du -hs _work/
 
 ## Stats
 
-| Project                                        | SLOC | Commits | PRs |
-|------------------------------------------------|------|---------|-----|
-| [kubernetes](https://github.com/kubernetes)  | 3434965 | 381009 | 190436 |
-| [tensorflow](https://github.com/tensorflow)  | 2950012 | 144461 | 22710 |
-| [ClickHouse](https://github.com/ClickHouse)  | 2008985 | 166154 | 34816 |
-| [grafana](https://github.com/grafana)  | 1951379 | 86363 | 54264 |
-| [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1744404 | 117377 | 70999 |
-| [envoyproxy](https://github.com/envoyproxy)  | 1658015 | 46714 | 24301 |
-| [open-telemetry](https://github.com/open-telemetry)  | 1654946 | 61854 | 60991 |
-| [grpc](https://github.com/grpc)  | 1574380 | 74133 | 39484 |
-| [docker](https://github.com/docker)  | 1266379 | 173743 | 30579 |
-| [openebs](https://github.com/openebs)  | 1159571 | 17867 | 10440 |
-| [golang](https://github.com/golang)  | 1060489 | 55721 | 2865 |
-| [istio](https://github.com/istio)  | 990429 | 47089 | 62424 |
-| [m3db](https://github.com/m3db)  | 736219 | 10433 | 5079 |
-| [cilium](https://github.com/cilium)  | 516598 | 32090 | 22466 |
-| [apache](https://github.com/apache)  | 420406 | 22275 | 521 |
-| [prometheus](https://github.com/prometheus)  | 377312 | 30845 | 19111 |
-| [facebook](https://github.com/facebook)  | 356872 | 15582 | 13252 |
-| [LINBIT](https://github.com/LINBIT)  | 310871 | 4396 | 11 |
-| [vectordotdev](https://github.com/vectordotdev)  | 308968 | 14386 | 10193 |
-| [pixie-io](https://github.com/pixie-io)  | 304902 | 11768 | 549 |
-| [uber](https://github.com/uber)  | 253779 | 1572 | 248 |
-| [siderolabs](https://github.com/siderolabs)  | 232750 | 7104 | 9062 |
-| [kata-containers](https://github.com/kata-containers)  | 223850 | 22766 | 10296 |
-| [Netflix](https://github.com/Netflix)  | 207768 | 4152 | 2264 |
-| [VictoriaMetrics](https://github.com/VictoriaMetrics)  | 205963 | 8971 | 2595 |
-| [etcd-io](https://github.com/etcd-io)  | 185291 | 26375 | 11271 |
-| [containers](https://github.com/containers)  | 174426 | 18210 | 10099 |
-| [VKCOM](https://github.com/VKCOM)  | 101459 | 9819 | 3089 |
-| [gotd](https://github.com/gotd)  | 74334 | 6222 | 2438 |
-| [helm](https://github.com/helm)  | 71506 | 28920 | 26875 |
-| [vuejs](https://github.com/vuejs)  | 60290 | 3546 | 2389 |
-| [go-faster](https://github.com/go-faster)  | 50751 | 4707 | 670 |
-| [ogen-go](https://github.com/ogen-go)  | 38140 | 3872 | 1050 |
-| [vitalif](https://github.com/vitalif)  | 37792 | 1224 | 12 |
-| [falcosecurity](https://github.com/falcosecurity)  | 11312 | 3556 | 1445 |
+| Project                                        | SLOC | Commits | PRs | Stars |
+|------------------------------------------------|------|---------|-----|-------|
+| [kubernetes](https://github.com/kubernetes)  | 3434971 | 381074 | 190484 | 243089 |
+| [tensorflow](https://github.com/tensorflow)  | 3351209 | 144463 | 22710 | 171882 |
+| [ClickHouse](https://github.com/ClickHouse)  | 2341463 | 166223 | 34848 | 33869 |
+| [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1997680 | 117395 | 71019 | 98275 |
+| [envoyproxy](https://github.com/envoyproxy)  | 1871907 | 46722 | 24304 | 28102 |
+| [open-telemetry](https://github.com/open-telemetry)  | 1780557 | 61864 | 61019 | 28606 |
+| [grpc](https://github.com/grpc)  | 1683336 | 74131 | 38788 | 86819 |
+| [grafana](https://github.com/grafana)  | 1679277 | 76610 | 50201 | 103185 |
+| [docker](https://github.com/docker)  | 1266401 | 173748 | 30587 | 146425 |
+| [openebs](https://github.com/openebs)  | 1165411 | 17867 | 10441 | 10172 |
+| [golang](https://github.com/golang)  | 1061006 | 55722 | 2865 | 109154 |
+| [istio](https://github.com/istio)  | 995128 | 47091 | 62435 | 38491 |
+| [cilium](https://github.com/cilium)  | 867372 | 47596 | 21845 | 23625 |
+| [m3db](https://github.com/m3db)  | 736760 | 10433 | 5079 | 4646 |
+| [apache](https://github.com/apache)  | 420406 | 22275 | 521 | 5657 |
+| [prometheus](https://github.com/prometheus)  | 377349 | 30866 | 19120 | 89530 |
+| [facebook](https://github.com/facebook)  | 357548 | 15583 | 13253 | 203498 |
+| [pixie-io](https://github.com/pixie-io)  | 352478 | 11768 | 549 | 4380 |
+| [LINBIT](https://github.com/LINBIT)  | 310875 | 4396 | 11 | 649 |
+| [vectordotdev](https://github.com/vectordotdev)  | 308968 | 14392 | 10198 | 14352 |
+| [uber](https://github.com/uber)  | 253779 | 1572 | 248 | 5943 |
+| [siderolabs](https://github.com/siderolabs)  | 232773 | 7105 | 9062 | 4779 |
+| [kata-containers](https://github.com/kata-containers)  | 223850 | 22768 | 10297 | 7000 |
+| [Netflix](https://github.com/Netflix)  | 208149 | 4152 | 2264 | 551 |
+| [VictoriaMetrics](https://github.com/VictoriaMetrics)  | 205963 | 8126 | 2587 | 10986 |
+| [etcd-io](https://github.com/etcd-io)  | 185291 | 26381 | 11277 | 52282 |
+| [containers](https://github.com/containers)  | 174455 | 18210 | 10101 | 17085 |
+| [VKCOM](https://github.com/VKCOM)  | 101459 | 9819 | 3089 | 877 |
+| [gotd](https://github.com/gotd)  | 74334 | 6222 | 2440 | 1162 |
+| [helm](https://github.com/helm)  | 71506 | 28920 | 26875 | 48778 |
+| [vuejs](https://github.com/vuejs)  | 60290 | 3546 | 2389 | 202656 |
+| [go-faster](https://github.com/go-faster)  | 50751 | 4707 | 670 | 151 |
+| [vitalif](https://github.com/vitalif)  | 40876 | 1224 | 12 | 69 |
+| [ogen-go](https://github.com/ogen-go)  | 38140 | 3872 | 1050 | 472 |
+| [falcosecurity](https://github.com/falcosecurity)  | 13984 | 3557 | 1446 | 5681 |
 
 
-| Project                                        | SLOC | Commits | PRs |
-|------------------------------------------------|------|---------|-----|
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/)  | 2950012 | 144461 | 22710 |
-| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1488546 | 114436 | 73534 |
-| [golang/go](https://github.com/golang/go/)  | 1060489 | 55721 | 2865 |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse/)  | 903149 | 109661 | 32188 |
-| [grafana/grafana](https://github.com/grafana/grafana/)  | 889820 | 41314 | 33508 |
-| [envoyproxy/envoy](https://github.com/envoyproxy/envoy/)  | 677853 | 17303 | 17105 |
-| [openebs/openebs-docs](https://github.com/openebs/openebs-docs/)  | 640750 | 2366 | 832 |
-| [m3db/m3](https://github.com/m3db/m3/)  | 477343 | 4211 | 3564 |
-| [grpc/grpc](https://github.com/grpc/grpc/)  | 460386 | 52698 | 21633 |
-| [grpc/grpc-ios](https://github.com/grpc/grpc-ios/)  | 458326 | 96 | 103 |
-| [envoyproxy/envoy-wasm](https://github.com/envoyproxy/envoy-wasm/)  | 426964 | 8484 | 454 |
-| [istio/old_vendor-istio_repo](https://github.com/istio/old_vendor-istio_repo/)  | 411515 | 46 | 62 |
-| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-contrib/)  | 389240 | 9604 | 16157 |
-| [ClickHouse/grpc](https://github.com/ClickHouse/grpc/)  | 367274 | 47064 | 13 |
-| [facebook/react](https://github.com/facebook/react/)  | 356872 | 15582 | 13252 |
-| [istio/istio](https://github.com/istio/istio/)  | 338685 | 19853 | 26464 |
-| [kubernetes/autoscaler](https://github.com/kubernetes/autoscaler/)  | 332826 | 6457 | 3738 |
-| [docker/docker-ce](https://github.com/docker/docker-ce/)  | 324419 | 54308 | 662 |
-| [cilium/cilium](https://github.com/cilium/cilium/)  | 310912 | 22280 | 16994 |
-| [LINBIT/linstor-server](https://github.com/LINBIT/linstor-server/)  | 310871 | 4396 | 11 |
-| [apache/mesos](https://github.com/apache/mesos/)  | 305614 | 18184 | 450 |
-| [pixie-io/pixie](https://github.com/pixie-io/pixie/)  | 304902 | 11768 | 549 |
-| [docker/labs](https://github.com/docker/labs/)  | 304415 | 718 | 398 |
-| [envoyproxy/envoy-website](https://github.com/envoyproxy/envoy-website/)  | 299034 | 428 | 252 |
-| [vectordotdev/vector](https://github.com/vectordotdev/vector/)  | 274642 | 9346 | 9360 |
-| [kubernetes/test-infra](https://github.com/kubernetes/test-infra/)  | 270560 | 51932 | 24611 |
-| [docker/get-involved](https://github.com/docker/get-involved/)  | 264430 | 1635 | 36 |
-| [grafana/loki](https://github.com/grafana/loki/)  | 241078 | 4715 | 5175 |
-| [grpc/grpc-java](https://github.com/grpc/grpc-java/)  | 235127 | 5735 | 6854 |
-| [uber/peloton](https://github.com/uber/peloton/)  | 216371 | 705 | 10 |
-| [ClickHouse/clickhouse-website-cont~](https://github.com/ClickHouse/clickhouse-website-content/)  | 186631 | 1 | 2 |
-| [containers/podman](https://github.com/containers/podman/)  | 174426 | 18210 | 10099 |
-| [kubernetes-sigs/cluster-api](https://github.com/kubernetes-sigs/cluster-api/)  | 173316 | 8851 | 5326 |
-| [grafana/mimir](https://github.com/grafana/mimir/)  | 168077 | 7964 | 3131 |
-| [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-instrumentation/)  | 167856 | 8832 | 5064 |
-| [kubernetes/kops](https://github.com/kubernetes/kops/)  | 167601 | 19348 | 10373 |
-| [Netflix/titus-control-plane](https://github.com/Netflix/titus-control-plane/)  | 157302 | 1663 | 1267 |
-| [prometheus/prometheus](https://github.com/prometheus/prometheus/)  | 155113 | 10928 | 6780 |
-| [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/)  | 144520 | 5892 | 1819 |
-| [ClickHouse/ssl](https://github.com/ClickHouse/ssl/)  | 144412 | 16 | 2 |
-| [grpc/grpc-go](https://github.com/grpc/grpc-go/)  | 143240 | 4462 | 3913 |
-| [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize/)  | 139479 | 6327 | 3002 |
-| [kubernetes/apiserver](https://github.com/kubernetes/apiserver/)  | 131328 | 6178 | 25 |
-| [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers/)  | 130813 | 10134 | 3006 |
-| [siderolabs/talos](https://github.com/siderolabs/talos/)  | 130197 | 3898 | 5193 |
-| [etcd-io/etcd](https://github.com/etcd-io/etcd/)  | 125664 | 19329 | 9184 |
-| [apache/aurora](https://github.com/apache/aurora/)  | 114792 | 4091 | 71 |
-| [open-telemetry/opentelemetry-sandb~](https://github.com/open-telemetry/opentelemetry-sandbox-web-js/)  | 113692 | 2822 | 60 |
-| [kubernetes-sigs/vsphere-csi-driver](https://github.com/kubernetes-sigs/vsphere-csi-driver/)  | 106976 | 2268 | 1841 |
-| [grafana/agent](https://github.com/grafana/agent/)  | 105905 | 1464 | 1769 |
-| [grafana/oncall](https://github.com/grafana/oncall/)  | 104025 | 1819 | 965 |
-| [openebs/maya](https://github.com/openebs/maya/)  | 100071 | 1799 | 1669 |
-| [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java/)  | 96376 | 3268 | 3620 |
-| [kubernetes/kubectl](https://github.com/kubernetes/kubectl/)  | 95965 | 2962 | 313 |
-| [kubernetes/minikube](https://github.com/kubernetes/minikube/)  | 90063 | 20969 | 7600 |
-| [kubernetes-sigs/cloud-provider-azu~](https://github.com/kubernetes-sigs/cloud-provider-azure/)  | 84466 | 3425 | 3165 |
-| [ClickHouse/UnixODBC](https://github.com/ClickHouse/UnixODBC/)  | 83772 | 5 | 2 |
-| [docker/cli](https://github.com/docker/cli/)  | 78919 | 8462 | 2687 |
-| [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce/)  | 78027 | 4552 | 1564 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-azure/)  | 77206 | 3614 | 2179 |
-| [kubernetes-sigs/aws-load-balancer-~](https://github.com/kubernetes-sigs/aws-load-balancer-controller/)  | 76499 | 630 | 1197 |
-| [grafana/metrictank](https://github.com/grafana/metrictank/)  | 73770 | 6529 | 1242 |
-| [ClickHouse/clickhouse-java](https://github.com/ClickHouse/clickhouse-java/)  | 73753 | 1723 | 634 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-aws/)  | 73650 | 3831 | 2676 |
-| [grafana/k6](https://github.com/grafana/k6/)  | 73040 | 5056 | 1450 |
-| [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui/)  | 72373 | 4834 | 5272 |
-| [grpc/grpc-experiments](https://github.com/grpc/grpc-experiments/)  | 71879 | 633 | 232 |
-| [kubernetes/client-go](https://github.com/kubernetes/client-go/)  | 65629 | 3800 | 204 |
-| [kata-containers/runtime](https://github.com/kata-containers/runtime/)  | 63906 | 2751 | 1453 |
-| [grpc/grpc-dotnet](https://github.com/grpc/grpc-dotnet/)  | 63899 | 859 | 941 |
-| [VKCOM/statshouse](https://github.com/VKCOM/statshouse/)  | 61053 | 236 | 214 |
-| [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js/)  | 61017 | 1709 | 2004 |
-| [openebs/mayastor-control-plane](https://github.com/openebs/mayastor-control-plane/)  | 60917 | 1231 | 447 |
-| [kubernetes-sigs/external-dns](https://github.com/kubernetes-sigs/external-dns/)  | 60511 | 3011 | 1857 |
-| [vuejs/vue](https://github.com/vuejs/vue/)  | 60290 | 3546 | 2389 |
-| [kubernetes/legacy-cloud-providers](https://github.com/kubernetes/legacy-cloud-providers/)  | 60213 | 1807 | 0 |
-| [kubernetes/apimachinery](https://github.com/kubernetes/apimachinery/)  | 60137 | 2517 | 30 |
-| [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet/)  | 56924 | 2277 | 2791 |
-| [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx/)  | 56865 | 6900 | 4906 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/)  | 56099 | 1812 | 1063 |
-| [openebs/mayastor](https://github.com/openebs/mayastor/)  | 54167 | 1877 | 1148 |
-| [envoyproxy/envoy-mobile](https://github.com/envoyproxy/envoy-mobile/)  | 54137 | 1794 | 2208 |
-| [open-telemetry/experimental-arrow-~](https://github.com/open-telemetry/experimental-arrow-collector/)  | 53440 | 4416 | 37 |
-| [gotd/td](https://github.com/gotd/td/)  | 52603 | 3084 | 786 |
-| [open-telemetry/opentelemetry-js-co~](https://github.com/open-telemetry/opentelemetry-js-contrib/)  | 51352 | 1584 | 989 |
-| [kubernetes/apiextensions-apiserver](https://github.com/kubernetes/apiextensions-apiserver/)  | 51245 | 3162 | 8 |
-| [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go/)  | 51094 | 1943 | 2389 |
-| [m3db/m3metrics](https://github.com/m3db/m3metrics/)  | 50672 | 233 | 194 |
-| [Netflix/titus-executor](https://github.com/Netflix/titus-executor/)  | 50466 | 2489 | 997 |
-| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector/)  | 50320 | 4416 | 5092 |
-| [kubernetes-sigs/multi-tenancy](https://github.com/kubernetes-sigs/multi-tenancy/)  | 48929 | 2300 | 1064 |
-| [envoyproxy/pytooling](https://github.com/envoyproxy/pytooling/)  | 48908 | 615 | 619 |
-| [grpc/grpc-swift](https://github.com/grpc/grpc-swift/)  | 48316 | 1564 | 981 |
-| [m3db/pilosa](https://github.com/m3db/pilosa/)  | 46556 | 4474 | 5 |
-| [grafana/azure-data-explorer-dataso~](https://github.com/grafana/azure-data-explorer-datasource/)  | 45793 | 790 | 309 |
-| [open-telemetry/opentelemetry-pytho~](https://github.com/open-telemetry/opentelemetry-python-contrib/)  | 45783 | 1753 | 1021 |
-| [kubernetes-sigs/cli-utils](https://github.com/kubernetes-sigs/cli-utils/)  | 45255 | 1086 | 543 |
-| [cilium/tetragon](https://github.com/cilium/tetragon/)  | 45192 | 1147 | 629 |
-| [kubernetes/dashboard](https://github.com/kubernetes/dashboard/)  | 44851 | 4440 | 4943 |
-| [istio/old_mixer_repo](https://github.com/istio/old_mixer_repo/)  | 42543 | 741 | 1091 |
-| [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python/)  | 42221 | 1404 | 1728 |
-| [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime/)  | 42148 | 2221 | 1300 |
-| [grpc/grpc-node](https://github.com/grpc/grpc-node/)  | 41964 | 4216 | 1367 |
-| [helm/helm](https://github.com/helm/helm/)  | 41739 | 6809 | 4836 |
-| [openebs/istgt](https://github.com/openebs/istgt/)  | 41572 | 241 | 358 |
-| [kubernetes-sigs/sig-windows-samples](https://github.com/kubernetes-sigs/sig-windows-samples/)  | 40825 | 52 | 3 |
-| [VKCOM/VKUI](https://github.com/VKCOM/VKUI/)  | 40406 | 9583 | 2875 |
-| [open-telemetry/opentelemetry-cpp-c~](https://github.com/open-telemetry/opentelemetry-cpp-contrib/)  | 39640 | 157 | 180 |
-| [m3db/m3aggregator](https://github.com/m3db/m3aggregator/)  | 39089 | 177 | 142 |
-| [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder/)  | 38012 | 2978 | 1847 |
-| [vitalif/vitastor](https://github.com/vitalif/vitastor/)  | 37792 | 1224 | 12 |
-| [uber/kraken](https://github.com/uber/kraken/)  | 37408 | 867 | 238 |
-| [kubernetes/cloud-provider-alibaba-~](https://github.com/kubernetes/cloud-provider-alibaba-cloud/)  | 37304 | 799 | 283 |
-| [ogen-go/ogen](https://github.com/ogen-go/ogen/)  | 36658 | 3267 | 700 |
-| [openebs/cstor-operators](https://github.com/openebs/cstor-operators/)  | 36302 | 298 | 358 |
-| [VictoriaMetrics/operator](https://github.com/VictoriaMetrics/operator/)  | 35457 | 662 | 313 |
-| [ClickHouse/libpq](https://github.com/ClickHouse/libpq/)  | 34765 | 35 | 7 |
-| [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go/)  | 34226 | 1262 | 459 |
-| [istio/get-istioctl](https://github.com/istio/get-istioctl/)  | 34103 | 13 | 0 |
-| [kubernetes/cloud-provider-gcp](https://github.com/kubernetes/cloud-provider-gcp/)  | 33691 | 1459 | 420 |
-| [kubernetes/perf-tests](https://github.com/kubernetes/perf-tests/)  | 33389 | 3123 | 1888 |
-| [open-telemetry/opentelemetry-dotne~](https://github.com/open-telemetry/opentelemetry-dotnet-contrib/)  | 33382 | 732 | 850 |
-| [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp/)  | 32349 | 1005 | 1185 |
-| [open-telemetry/opentelemetry-dotne~](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation/)  | 32285 | 927 | 1789 |
-| [prometheus/alertmanager](https://github.com/prometheus/alertmanager/)  | 31884 | 2810 | 1677 |
-| [kubernetes-sigs/security-profiles-~](https://github.com/kubernetes-sigs/security-profiles-operator/)  | 31125 | 1596 | 1332 |
-| [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php/)  | 30972 | 508 | 590 |
-| [kubernetes/kube-openapi](https://github.com/kubernetes/kube-openapi/)  | 30917 | 1258 | 308 |
-| [open-telemetry/opentelemetry-rust](https://github.com/open-telemetry/opentelemetry-rust/)  | 30530 | 574 | 597 |
-| [docker/machine](https://github.com/docker/machine/)  | 29940 | 3463 | 1957 |
-| [m3db/m3cluster](https://github.com/m3db/m3cluster/)  | 29627 | 238 | 227 |
-| [cilium/ebpf](https://github.com/cilium/ebpf/)  | 28674 | 1289 | 684 |
-| [open-telemetry/opentelemetry-ebpf](https://github.com/open-telemetry/opentelemetry-ebpf/)  | 28414 | 267 | 110 |
-| [open-telemetry/opentelemetry-log-c~](https://github.com/open-telemetry/opentelemetry-log-collection/)  | 28053 | 267 | 373 |
-| [kubernetes-sigs/alibaba-cloud-csi-~](https://github.com/kubernetes-sigs/alibaba-cloud-csi-driver/)  | 27638 | 1341 | 590 |
-| [kubernetes/release](https://github.com/kubernetes/release/)  | 27346 | 5185 | 2390 |
-| [docker/docker-py](https://github.com/docker/docker-py/)  | 27332 | 3299 | 1538 |
-| [open-telemetry/opentelemetry-go-co~](https://github.com/open-telemetry/opentelemetry-go-contrib/)  | 27256 | 1046 | 3210 |
-| [cilium/hubble-ui](https://github.com/cilium/hubble-ui/)  | 26768 | 385 | 426 |
-| [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-contrib/)  | 26343 | 562 | 644 |
-| [open-telemetry/opentelemetry-swift](https://github.com/open-telemetry/opentelemetry-swift/)  | 25907 | 618 | 252 |
-| [envoyproxy/java-control-plane](https://github.com/envoyproxy/java-control-plane/)  | 25478 | 235 | 206 |
-| [grafana/grafana-plugin-sdk-go](https://github.com/grafana/grafana-plugin-sdk-go/)  | 25368 | 415 | 531 |
-| [kubernetes-sigs/scheduler-plugins](https://github.com/kubernetes-sigs/scheduler-plugins/)  | 25340 | 642 | 349 |
-| [kubernetes-sigs/kubefed](https://github.com/kubernetes-sigs/kubefed/)  | 25048 | 2745 | 978 |
-| [docker/compose-cli](https://github.com/docker/compose-cli/)  | 24959 | 3024 | 1214 |
-| [envoyproxy/nighthawk](https://github.com/envoyproxy/nighthawk/)  | 24840 | 578 | 655 |
-| [grafana/terraform-provider-grafana](https://github.com/grafana/terraform-provider-grafana/)  | 24623 | 696 | 521 |
-| [siderolabs/theila](https://github.com/siderolabs/theila/)  | 24315 | 100 | 114 |
-| [kubernetes/kube-state-metrics](https://github.com/kubernetes/kube-state-metrics/)  | 23693 | 2570 | 1233 |
-| [open-telemetry/opentelemetry-opera~](https://github.com/open-telemetry/opentelemetry-operator/)  | 23641 | 781 | 1019 |
-| [openebs/elves](https://github.com/openebs/elves/)  | 23246 | 234 | 47 |
-| [openebs/node-disk-manager](https://github.com/openebs/node-disk-manager/)  | 23219 | 451 | 533 |
-| [istio/old_pilot_repo](https://github.com/istio/old_pilot_repo/)  | 22997 | 688 | 1241 |
-| [kubernetes-sigs/azuredisk-csi-driv~](https://github.com/kubernetes-sigs/azuredisk-csi-driver/)  | 21740 | 2724 | 1337 |
-| [envoyproxy/gateway](https://github.com/envoyproxy/gateway/)  | 21624 | 539 | 631 |
-| [istio/operator](https://github.com/istio/operator/)  | 21286 | 508 | 780 |
-| [kubernetes-sigs/structured-merge-d~](https://github.com/kubernetes-sigs/structured-merge-diff/)  | 20928 | 495 | 208 |
-| [prometheus/procfs](https://github.com/prometheus/procfs/)  | 20804 | 572 | 372 |
-| [prometheus/client_golang](https://github.com/prometheus/client_golang/)  | 20747 | 1447 | 741 |
-| [ClickHouse/clickhouse-cpp](https://github.com/ClickHouse/clickhouse-cpp/)  | 20734 | 673 | 172 |
-| [docker/buildx](https://github.com/docker/buildx/)  | 20627 | 1420 | 722 |
-| [kubernetes/cloud-provider-vsphere](https://github.com/kubernetes/cloud-provider-vsphere/)  | 20499 | 1087 | 472 |
-| [istio/proxy](https://github.com/istio/proxy/)  | 20290 | 2482 | 4232 |
-| [kubernetes/cloud-provider-openstack](https://github.com/kubernetes/cloud-provider-openstack/)  | 20280 | 2669 | 1367 |
-| [open-telemetry/opentelemetry-ruby-~](https://github.com/open-telemetry/opentelemetry-ruby-contrib/)  | 19976 | 895 | 241 |
-| [prometheus/node_exporter](https://github.com/prometheus/node_exporter/)  | 19239 | 1966 | 1409 |
-| [envoyproxy/data-plane-api](https://github.com/envoyproxy/data-plane-api/)  | 19231 | 2387 | 540 |
-| [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler/)  | 19077 | 1332 | 666 |
-| [cilium/cilium-olm](https://github.com/cilium/cilium-olm/)  | 19028 | 341 | 55 |
-| [grpc/grpc-dart](https://github.com/grpc/grpc-dart/)  | 18720 | 228 | 297 |
-| [cilium/cilium-cli](https://github.com/cilium/cilium-cli/)  | 18381 | 1387 | 1135 |
-| [kubernetes-sigs/gcp-filestore-csi-~](https://github.com/kubernetes-sigs/gcp-filestore-csi-driver/)  | 17882 | 593 | 403 |
-| [istio/tools](https://github.com/istio/tools/)  | 17492 | 1792 | 2387 |
-| [openebs/dynamic-nfs-provisioner](https://github.com/openebs/dynamic-nfs-provisioner/)  | 17333 | 112 | 109 |
-| [docker/compose](https://github.com/docker/compose/)  | 17332 | 4009 | 3514 |
-| [docker/compose-on-kubernetes](https://github.com/docker/compose-on-kubernetes/)  | 17216 | 236 | 114 |
-| [kubernetes-sigs/etcdadm](https://github.com/kubernetes-sigs/etcdadm/)  | 16898 | 1219 | 248 |
-| [kubernetes/api](https://github.com/kubernetes/api/)  | 16874 | 6711 | 10 |
-| [open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby/)  | 16445 | 763 | 919 |
-| [ClickHouse/libgsasl](https://github.com/ClickHouse/libgsasl/)  | 16353 | 21 | 8 |
-| [kubernetes-sigs/aws-ebs-csi-driver](https://github.com/kubernetes-sigs/aws-ebs-csi-driver/)  | 16204 | 1654 | 882 |
-| [ClickHouse/libhdfs3](https://github.com/ClickHouse/libhdfs3/)  | 16027 | 64 | 34 |
-| [kubernetes-sigs/boskos](https://github.com/kubernetes-sigs/boskos/)  | 15965 | 923 | 129 |
-| [openebs/dynamic-localpv-provisioner](https://github.com/openebs/dynamic-localpv-provisioner/)  | 15882 | 154 | 123 |
-| [kubernetes-sigs/gcp-compute-persis~](https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver/)  | 15729 | 1373 | 824 |
-| [prometheus/client_java](https://github.com/prometheus/client_java/)  | 15646 | 578 | 490 |
-| [grafana/carbon-relay-ng](https://github.com/grafana/carbon-relay-ng/)  | 15553 | 1118 | 258 |
-| [ClickHouse/libcxx](https://github.com/ClickHouse/libcxx/)  | 15532 | 38 | 14 |
-| [go-faster/yamlx](https://github.com/go-faster/yamlx/)  | 15442 | 540 | 38 |
-| [kubernetes-sigs/azurefile-csi-driv~](https://github.com/kubernetes-sigs/azurefile-csi-driver/)  | 15239 | 2443 | 886 |
-| [kubernetes-sigs/promo-tools](https://github.com/kubernetes-sigs/promo-tools/)  | 15135 | 1615 | 602 |
-| [etcd-io/raft](https://github.com/etcd-io/raft/)  | 15020 | 1195 | 18 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-openstack/)  | 15014 | 1438 | 977 |
-| [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go/)  | 14953 | 1096 | 230 |
-| [kubernetes/cloud-provider-aws](https://github.com/kubernetes/cloud-provider-aws/)  | 14921 | 967 | 397 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-ibmcloud/)  | 14588 | 727 | 840 |
-| [openebs/jiva](https://github.com/openebs/jiva/)  | 14573 | 804 | 337 |
-| [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind/)  | 14569 | 3800 | 1596 |
-| [docker/libcompose](https://github.com/docker/libcompose/)  | 14354 | 673 | 361 |
-| [docker/go-docker](https://github.com/docker/go-docker/)  | 14335 | 7 | 4 |
-| [kubernetes/cloud-provider](https://github.com/kubernetes/cloud-provider/)  | 14187 | 1049 | 0 |
-| [VictoriaMetrics/grafana-datasource](https://github.com/VictoriaMetrics/grafana-datasource/)  | 14133 | 189 | 28 |
-| [kubernetes/component-base](https://github.com/kubernetes/component-base/)  | 13743 | 1262 | 0 |
-| [kubernetes-sigs/node-feature-disco~](https://github.com/kubernetes-sigs/node-feature-discovery/)  | 13630 | 1550 | 832 |
-| [docker/awesome-compose](https://github.com/docker/awesome-compose/)  | 13508 | 267 | 255 |
-| [prometheus/promlens](https://github.com/prometheus/promlens/)  | 13504 | 78 | 81 |
-| [grafana/har-to-k6](https://github.com/grafana/har-to-k6/)  | 13480 | 627 | 84 |
-| [istio/bots](https://github.com/istio/bots/)  | 13471 | 638 | 652 |
-| [m3db/m3coordinator](https://github.com/m3db/m3coordinator/)  | 13259 | 68 | 54 |
-| [m3db/m3ninx](https://github.com/m3db/m3ninx/)  | 13230 | 67 | 77 |
-| [envoyproxy/playground](https://github.com/envoyproxy/playground/)  | 13086 | 192 | 168 |
-| [go-faster/hx](https://github.com/go-faster/hx/)  | 13037 | 1473 | 12 |
-| [prometheus/common](https://github.com/prometheus/common/)  | 12964 | 495 | 362 |
-| [open-telemetry/opentelemetry-php-c~](https://github.com/open-telemetry/opentelemetry-php-contrib/)  | 12752 | 319 | 109 |
-| [m3db/m3x](https://github.com/m3db/m3x/)  | 12696 | 208 | 206 |
-| [etcd-io/bbolt](https://github.com/etcd-io/bbolt/)  | 12588 | 1162 | 220 |
-| [siderolabs/sidero](https://github.com/siderolabs/sidero/)  | 12377 | 366 | 839 |
-| [docker/app](https://github.com/docker/app/)  | 12333 | 1544 | 650 |
-| [grafana/ksonnet](https://github.com/grafana/ksonnet/)  | 12180 | 434 | 0 |
-| [ClickHouse/boost](https://github.com/ClickHouse/boost/)  | 11997 | 83 | 28 |
-| [m3db/m3db-operator](https://github.com/m3db/m3db-operator/)  | 11985 | 230 | 247 |
-| [openebs/openebsctl](https://github.com/openebs/openebsctl/)  | 11906 | 112 | 105 |
-| [kata-containers/agent](https://github.com/kata-containers/agent/)  | 11891 | 833 | 515 |
-| [openebs/website](https://github.com/openebs/website/)  | 11856 | 1152 | 342 |
-| [grafana/jslib.k6.io](https://github.com/grafana/jslib.k6.io/)  | 11563 | 189 | 70 |
-| [ClickHouse/antlr4-runtime](https://github.com/ClickHouse/antlr4-runtime/)  | 11537 | 306 | 0 |
-| [open-telemetry/opentelemetry-erlang](https://github.com/open-telemetry/opentelemetry-erlang/)  | 11535 | 1144 | 355 |
-| [prometheus/pushgateway](https://github.com/prometheus/pushgateway/)  | 11509 | 669 | 267 |
-| [ClickHouse/boost-extra](https://github.com/ClickHouse/boost-extra/)  | 11388 | 34 | 0 |
-| [kubernetes-sigs/blob-csi-driver](https://github.com/kubernetes-sigs/blob-csi-driver/)  | 11381 | 1663 | 645 |
-| [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv/)  | 11373 | 275 | 320 |
-| [docker/getting-started](https://github.com/docker/getting-started/)  | 11356 | 190 | 212 |
-| [falcosecurity/falco](https://github.com/falcosecurity/falco/)  | 11312 | 3556 | 1445 |
-| [ClickHouse/clickhouse-presentations](https://github.com/ClickHouse/clickhouse-presentations/)  | 11213 | 515 | 39 |
-| [m3db/m3msg](https://github.com/m3db/m3msg/)  | 11194 | 62 | 55 |
-| [docker/engine-api](https://github.com/docker/engine-api/)  | 11164 | 9154 | 327 |
-| [ClickHouse/clickhouse-odbc](https://github.com/ClickHouse/clickhouse-odbc/)  | 11113 | 1110 | 172 |
-| [kubernetes-sigs/kubebuilder-declar~](https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern/)  | 11087 | 591 | 262 |
-| [kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools/)  | 10903 | 773 | 455 |
-| [envoyproxy/xds-relay](https://github.com/envoyproxy/xds-relay/)  | 10813 | 127 | 162 |
-| [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv/)  | 10735 | 182 | 144 |
-| [open-telemetry/assign-reviewers-ac~](https://github.com/open-telemetry/assign-reviewers-action/)  | 10717 | 5 | 6 |
-| [kubernetes/code-generator](https://github.com/kubernetes/code-generator/)  | 10645 | 1073 | 17 |
-| [grafana/jmeter-to-k6](https://github.com/grafana/jmeter-to-k6/)  | 10629 | 347 | 24 |
-| [kubernetes/utils](https://github.com/kubernetes/utils/)  | 10611 | 893 | 233 |
-| [kubernetes/node-problem-detector](https://github.com/kubernetes/node-problem-detector/)  | 10541 | 753 | 434 |
-| [grpc/grpc-kotlin](https://github.com/grpc/grpc-kotlin/)  | 10497 | 230 | 184 |
-| [kubernetes/cli-runtime](https://github.com/kubernetes/cli-runtime/)  | 10483 | 913 | 5 |
-| [grafana/tanka](https://github.com/grafana/tanka/)  | 10369 | 449 | 469 |
-| [istio/pkg](https://github.com/istio/pkg/)  | 10199 | 859 | 763 |
-| [kubernetes-sigs/kube-batch](https://github.com/kubernetes-sigs/kube-batch/)  | 10197 | 1345 | 691 |
-| [istio/istio.io](https://github.com/istio/istio.io/)  | 10154 | 8352 | 10948 |
-| [kubernetes/kubeadm](https://github.com/kubernetes/kubeadm/)  | 9995 | 1020 | 519 |
-| [etcd-io/jetcd](https://github.com/etcd-io/jetcd/)  | 9809 | 1183 | 742 |
-| [kubernetes-sigs/secrets-store-csi-~](https://github.com/kubernetes-sigs/secrets-store-csi-driver/)  | 9699 | 1195 | 747 |
-| [istio/ztunnel](https://github.com/istio/ztunnel/)  | 9696 | 275 | 297 |
-| [go-faster/jx](https://github.com/go-faster/jx/)  | 9667 | 1408 | 65 |
-| [cilium/kube-apate](https://github.com/cilium/kube-apate/)  | 9590 | 18 | 0 |
-| [grafana/cortex-tools](https://github.com/grafana/cortex-tools/)  | 9567 | 270 | 179 |
-| [kubernetes-sigs/cloud-provider-hua~](https://github.com/kubernetes-sigs/cloud-provider-huaweicloud/)  | 9428 | 415 | 167 |
-| [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter/)  | 9406 | 847 | 310 |
-| [kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/)  | 9380 | 2298 | 1113 |
-| [grafana/worldmap-panel](https://github.com/grafana/worldmap-panel/)  | 9361 | 232 | 74 |
-| [openebs/cstor-csi](https://github.com/openebs/cstor-csi/)  | 9349 | 157 | 172 |
-| [kubernetes-sigs/cri-tools](https://github.com/kubernetes-sigs/cri-tools/)  | 9232 | 1532 | 794 |
-| [openebs/jiva-operator](https://github.com/openebs/jiva-operator/)  | 9218 | 148 | 170 |
-| [kubernetes/kompose](https://github.com/kubernetes/kompose/)  | 9201 | 1457 | 888 |
-| [ClickHouse/clickhouse-jdbc-bridge](https://github.com/ClickHouse/clickhouse-jdbc-bridge/)  | 9158 | 127 | 85 |
-| [envoyproxy/go-control-plane](https://github.com/envoyproxy/go-control-plane/)  | 9128 | 1364 | 398 |
-| [grpc/test-infra](https://github.com/grpc/test-infra/)  | 9113 | 484 | 346 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-gcp/)  | 8963 | 1112 | 673 |
-| [cilium/proxy](https://github.com/cilium/proxy/)  | 8863 | 567 | 116 |
-| [kubernetes-sigs/apiserver-network-~](https://github.com/kubernetes-sigs/apiserver-network-proxy/)  | 8794 | 640 | 316 |
-| [kubernetes/pod-security-admission](https://github.com/kubernetes/pod-security-admission/)  | 8784 | 465 | 0 |
-| [ClickHouse/graphouse](https://github.com/ClickHouse/graphouse/)  | 8737 | 542 | 160 |
-| [ClickHouse/clickhouse-connect](https://github.com/ClickHouse/clickhouse-connect/)  | 8723 | 229 | 84 |
-| [kubernetes-sigs/cli-experimental](https://github.com/kubernetes-sigs/cli-experimental/)  | 8601 | 278 | 200 |
-| [kubernetes/gengo](https://github.com/kubernetes/gengo/)  | 8416 | 455 | 182 |
-| [kubernetes-sigs/cloud-provider-bai~](https://github.com/kubernetes-sigs/cloud-provider-baiducloud/)  | 8390 | 213 | 71 |
-| [m3db/m3em](https://github.com/m3db/m3em/)  | 8125 | 25 | 19 |
-| [openebs/mayastor-extensions](https://github.com/openebs/mayastor-extensions/)  | 7899 | 220 | 124 |
-| [istio/old_mixerclient_repo](https://github.com/istio/old_mixerclient_repo/)  | 7867 | 228 | 409 |
-| [envoyproxy/ratelimit](https://github.com/envoyproxy/ratelimit/)  | 7866 | 150 | 235 |
-| [open-telemetry/opentelemetry-go-bu~](https://github.com/open-telemetry/opentelemetry-go-build-tools/)  | 7775 | 309 | 242 |
-| [openebs/device-localpv](https://github.com/openebs/device-localpv/)  | 7745 | 55 | 49 |
-| [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew/)  | 7644 | 478 | 479 |
-| [prometheus/client_python](https://github.com/prometheus/client_python/)  | 7601 | 512 | 389 |
-| [grafana/grafana-polystat-panel](https://github.com/grafana/grafana-polystat-panel/)  | 7580 | 199 | 124 |
-| [kubernetes/kube-aggregator](https://github.com/kubernetes/kube-aggregator/)  | 7488 | 2080 | 11 |
-| [grafana/grafana-api-golang-client](https://github.com/grafana/grafana-api-golang-client/)  | 7470 | 402 | 135 |
-| [kubernetes-sigs/aws-iam-authentica~](https://github.com/kubernetes-sigs/aws-iam-authenticator/)  | 7355 | 515 | 313 |
-| [kubernetes-sigs/aws-efs-csi-driver](https://github.com/kubernetes-sigs/aws-efs-csi-driver/)  | 7318 | 689 | 585 |
-| [openebs/upgrade](https://github.com/openebs/upgrade/)  | 7223 | 122 | 135 |
-| [grafana/postman-to-k6](https://github.com/grafana/postman-to-k6/)  | 7221 | 607 | 58 |
-| [kubernetes-sigs/instrumentation-to~](https://github.com/kubernetes-sigs/instrumentation-tools/)  | 7192 | 92 | 6 |
-| [docker/kitematic](https://github.com/docker/kitematic/)  | 7101 | 2335 | 534 |
-| [grpc/grpc-web](https://github.com/grpc/grpc-web/)  | 7042 | 888 | 622 |
-| [kubernetes/dns](https://github.com/kubernetes/dns/)  | 7033 | 710 | 318 |
-| [grafana/opcua-datasource](https://github.com/grafana/opcua-datasource/)  | 7031 | 370 | 44 |
-| [prometheus/mysqld_exporter](https://github.com/prometheus/mysqld_exporter/)  | 6994 | 605 | 412 |
-| [openebs/libcstor](https://github.com/openebs/libcstor/)  | 6959 | 77 | 89 |
-| [cilium/hubble](https://github.com/cilium/hubble/)  | 6843 | 795 | 757 |
-| [grafana/attic](https://github.com/grafana/attic/)  | 6818 | 426 | 0 |
-| [envoyproxy/envoy-build-tools](https://github.com/envoyproxy/envoy-build-tools/)  | 6816 | 320 | 182 |
-| [kubernetes-sigs/reference-docs](https://github.com/kubernetes-sigs/reference-docs/)  | 6815 | 492 | 233 |
-| [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo/)  | 6764 | 419 | 549 |
-| [grafana/kairosdb-datasource](https://github.com/grafana/kairosdb-datasource/)  | 6755 | 110 | 43 |
-| [cilium/image-tools](https://github.com/cilium/image-tools/)  | 6736 | 239 | 192 |
-| [helm/chartmuseum](https://github.com/helm/chartmuseum/)  | 6654 | 613 | 333 |
-| [etcd-io/dbtester](https://github.com/etcd-io/dbtester/)  | 6595 | 1226 | 288 |
-| [kubernetes-sigs/apiserver-builder-~](https://github.com/kubernetes-sigs/apiserver-builder-alpha/)  | 6580 | 1070 | 434 |
-| [envoyproxy/envoy-perf](https://github.com/envoyproxy/envoy-perf/)  | 6501 | 142 | 160 |
-| [gotd/botapi](https://github.com/gotd/botapi/)  | 6402 | 653 | 313 |
-| [kubernetes/csi-translation-lib](https://github.com/kubernetes/csi-translation-lib/)  | 6360 | 658 | 0 |
-| [open-telemetry/opamp-go](https://github.com/open-telemetry/opamp-go/)  | 6328 | 92 | 110 |
-| [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2/)  | 6307 | 535 | 177 |
-| [kubernetes-sigs/slack-infra](https://github.com/kubernetes-sigs/slack-infra/)  | 6124 | 108 | 44 |
-| [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 |
-| [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook/)  | 5993 | 38 | 32 |
-| [siderolabs/kres](https://github.com/siderolabs/kres/)  | 5987 | 152 | 199 |
-| [prometheus/blackbox_exporter](https://github.com/prometheus/blackbox_exporter/)  | 5942 | 455 | 436 |
-| [grafana/devtools](https://github.com/grafana/devtools/)  | 5940 | 139 | 22 |
-| [docker/go](https://github.com/docker/go/)  | 5884 | 24 | 8 |
-| [kata-containers/govmm](https://github.com/kata-containers/govmm/)  | 5875 | 402 | 151 |
-| [docker/volumes-backup-extension](https://github.com/docker/volumes-backup-extension/)  | 5873 | 228 | 76 |
-| [istio/api](https://github.com/istio/api/)  | 5811 | 1685 | 2454 |
-| [kubernetes/website](https://github.com/kubernetes/website/)  | 5767 | 39057 | 29114 |
-| [docker/metadata-action](https://github.com/docker/metadata-action/)  | 5744 | 318 | 157 |
-| [grafana/azure-monitor-datasource](https://github.com/grafana/azure-monitor-datasource/)  | 5611 | 170 | 18 |
-| [prometheus/compliance](https://github.com/prometheus/compliance/)  | 5606 | 147 | 79 |
-| [kubernetes-sigs/metrics-server](https://github.com/kubernetes-sigs/metrics-server/)  | 5559 | 989 | 602 |
-| [kubernetes/component-helpers](https://github.com/kubernetes/component-helpers/)  | 5547 | 329 | 0 |
-| [m3db/m3storage](https://github.com/m3db/m3storage/)  | 5511 | 38 | 15 |
-| [ClickHouse/bzip2](https://github.com/ClickHouse/bzip2/)  | 5444 | 141 | 0 |
-| [openebs/api](https://github.com/openebs/api/)  | 5374 | 88 | 99 |
-| [kubernetes-sigs/cluster-addons](https://github.com/kubernetes-sigs/cluster-addons/)  | 5371 | 261 | 89 |
-| [prometheus/codemirror-promql](https://github.com/prometheus/codemirror-promql/)  | 5312 | 516 | 151 |
-| [VictoriaMetrics/metricsql](https://github.com/VictoriaMetrics/metricsql/)  | 5287 | 102 | 6 |
-| [kubernetes-sigs/aws-fsx-csi-driver](https://github.com/kubernetes-sigs/aws-fsx-csi-driver/)  | 5247 | 409 | 204 |
-| [grafana/kubernetes-app](https://github.com/grafana/kubernetes-app/)  | 5231 | 199 | 23 |
-| [helm/helm-classic](https://github.com/helm/helm-classic/)  | 5214 | 574 | 274 |
-| [etcd-io/zetcd](https://github.com/etcd-io/zetcd/)  | 5152 | 135 | 58 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-digitalocean/)  | 5086 | 399 | 382 |
-| [m3db/m3ctl](https://github.com/m3db/m3ctl/)  | 4984 | 82 | 64 |
-| [grafana/gel-app](https://github.com/grafana/gel-app/)  | 4915 | 119 | 47 |
-| [prometheus/snmp_exporter](https://github.com/prometheus/snmp_exporter/)  | 4779 | 553 | 416 |
-| [helm/monocular](https://github.com/helm/monocular/)  | 4741 | 399 | 362 |
-| [kata-containers/tests](https://github.com/kata-containers/tests/)  | 4723 | 4332 | 2783 |
-| [gotd/contrib](https://github.com/gotd/contrib/)  | 4722 | 568 | 317 |
-| [kubernetes-sigs/image-builder](https://github.com/kubernetes-sigs/image-builder/)  | 4634 | 2592 | 814 |
-| [grafana/grafana-sensu-app](https://github.com/grafana/grafana-sensu-app/)  | 4610 | 16 | 45 |
-| [istio/old_auth_repo](https://github.com/istio/old_auth_repo/)  | 4574 | 166 | 230 |
-| [openebs/velero-plugin](https://github.com/openebs/velero-plugin/)  | 4537 | 119 | 137 |
-| [kubernetes-sigs/sig-storage-lib-ex~](https://github.com/kubernetes-sigs/sig-storage-lib-external-provisioner/)  | 4428 | 156 | 87 |
-| [prometheus/test-infra](https://github.com/prometheus/test-infra/)  | 4417 | 476 | 374 |
-| [vectordotdev/lumberjack-store](https://github.com/vectordotdev/lumberjack-store/)  | 4385 | 8 | 0 |
-| [kubernetes/k8s.io](https://github.com/kubernetes/k8s.io/)  | 4349 | 9331 | 4378 |
-| [docker/hub-tool](https://github.com/docker/hub-tool/)  | 4343 | 251 | 121 |
-| [kubernetes/mount-utils](https://github.com/kubernetes/mount-utils/)  | 4287 | 201 | 3 |
-| [docker/libtrust](https://github.com/docker/libtrust/)  | 4281 | 67 | 44 |
-| [openebs/openebs-k8s-provisioner](https://github.com/openebs/openebs-k8s-provisioner/)  | 4249 | 106 | 9 |
-| [istio/test-infra](https://github.com/istio/test-infra/)  | 4215 | 3960 | 4279 |
-| [openebs/spdk-rs](https://github.com/openebs/spdk-rs/)  | 4202 | 44 | 25 |
-| [siderolabs/go-blockdevice](https://github.com/siderolabs/go-blockdevice/)  | 4177 | 58 | 62 |
-| [istio/gogo-genproto](https://github.com/istio/gogo-genproto/)  | 4141 | 280 | 378 |
-| [docker/index-cli-plugin](https://github.com/docker/index-cli-plugin/)  | 4121 | 97 | 14 |
-| [kubernetes-sigs/zeitgeist](https://github.com/kubernetes-sigs/zeitgeist/)  | 4053 | 974 | 451 |
-| [kubernetes-sigs/prometheus-adapter](https://github.com/kubernetes-sigs/prometheus-adapter/)  | 4029 | 428 | 198 |
-| [openebs/m-exporter](https://github.com/openebs/m-exporter/)  | 3881 | 61 | 16 |
-| [prometheus/client_rust](https://github.com/prometheus/client_rust/)  | 3827 | 203 | 87 |
-| [open-telemetry/build-tools](https://github.com/open-telemetry/build-tools/)  | 3765 | 83 | 105 |
-| [prometheus/cloudwatch_exporter](https://github.com/prometheus/cloudwatch_exporter/)  | 3751 | 387 | 218 |
-| [vectordotdev/vector-generate](https://github.com/vectordotdev/vector-generate/)  | 3749 | 76 | 5 |
-| [etcd-io/etcdlabs](https://github.com/etcd-io/etcdlabs/)  | 3740 | 1192 | 223 |
-| [cilium/hubble-otel](https://github.com/cilium/hubble-otel/)  | 3703 | 247 | 61 |
-| [grafana/piechart-panel](https://github.com/grafana/piechart-panel/)  | 3671 | 192 | 123 |
-| [open-telemetry/opentelemetry-sqlco~](https://github.com/open-telemetry/opentelemetry-sqlcommenter/)  | 3660 | 14 | 26 |
-| [vectordotdev/gitdocs](https://github.com/vectordotdev/gitdocs/)  | 3644 | 405 | 62 |
-| [ClickHouse/libcxxabi](https://github.com/ClickHouse/libcxxabi/)  | 3632 | 14 | 4 |
-| [grafana/strava-datasource](https://github.com/grafana/strava-datasource/)  | 3627 | 326 | 47 |
-| [siderolabs/protoenc](https://github.com/siderolabs/protoenc/)  | 3608 | 18 | 17 |
-| [docker/actions-toolkit](https://github.com/docker/actions-toolkit/)  | 3600 | 204 | 67 |
-| [kubernetes/repo-infra](https://github.com/kubernetes/repo-infra/)  | 3591 | 498 | 208 |
-| [openebs/mayastor-dependencies](https://github.com/openebs/mayastor-dependencies/)  | 3518 | 41 | 24 |
-| [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray/)  | 3427 | 7028 | 6404 |
-| [kubernetes-sigs/kube-storage-versi~](https://github.com/kubernetes-sigs/kube-storage-version-migrator/)  | 3425 | 179 | 90 |
-| [istio/release-builder](https://github.com/istio/release-builder/)  | 3369 | 714 | 1418 |
-| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-packet/)  | 3362 | 660 | 408 |
-| [open-telemetry/opentelemetry-lambda](https://github.com/open-telemetry/opentelemetry-lambda/)  | 3255 | 351 | 429 |
-| [kubernetes-sigs/wg-policy-prototyp~](https://github.com/kubernetes-sigs/wg-policy-prototypes/)  | 3229 | 196 | 68 |
-| [grafana/loki-canary](https://github.com/grafana/loki-canary/)  | 3213 | 17 | 0 |
-| [prometheus/client_ruby](https://github.com/prometheus/client_ruby/)  | 3173 | 385 | 172 |
-| [kubernetes/community](https://github.com/kubernetes/community/)  | 3099 | 12179 | 5545 |
-| [envoyproxy/envoy-tools](https://github.com/envoyproxy/envoy-tools/)  | 3094 | 20 | 43 |
-| [open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api/)  | 3073 | 305 | 109 |
-| [gotd/bot](https://github.com/gotd/bot/)  | 3069 | 584 | 256 |
-| [siderolabs/bldr](https://github.com/siderolabs/bldr/)  | 3012 | 78 | 111 |
-| [kubernetes/publishing-bot](https://github.com/kubernetes/publishing-bot/)  | 2992 | 636 | 293 |
-| [siderolabs/bootkube-plugin](https://github.com/siderolabs/bootkube-plugin/)  | 2945 | 15 | 15 |
-| [prometheus/docs](https://github.com/prometheus/docs/)  | 2920 | 2500 | 1927 |
-| [m3db/bench](https://github.com/m3db/bench/)  | 2884 | 5 | 0 |
-| [go-faster/city](https://github.com/go-faster/city/)  | 2882 | 60 | 3 |
-| [cilium/github-actions](https://github.com/cilium/github-actions/)  | 2869 | 63 | 37 |
-| [open-telemetry/opentelemetry-go-in~](https://github.com/open-telemetry/opentelemetry-go-instrumentation/)  | 2858 | 23 | 23 |
-| [kubernetes/git-sync](https://github.com/kubernetes/git-sync/)  | 2856 | 721 | 446 |
-| [go-faster/gha](https://github.com/go-faster/gha/)  | 2828 | 223 | 122 |
-| [helm/chart-testing](https://github.com/helm/chart-testing/)  | 2816 | 265 | 356 |
-| [kubernetes/enhancements](https://github.com/kubernetes/enhancements/)  | 2810 | 6808 | 2850 |
-| [istio/common-files](https://github.com/istio/common-files/)  | 2786 | 605 | 795 |
-| [docker/gordon](https://github.com/docker/gordon/)  | 2773 | 349 | 124 |
-| [helm/helm-www](https://github.com/helm/helm-www/)  | 2748 | 4061 | 1110 |
-| [kata-containers/www.katacontainers~](https://github.com/kata-containers/www.katacontainers.io/)  | 2722 | 397 | 172 |
-| [docker/go-plugins-helpers](https://github.com/docker/go-plugins-helpers/)  | 2702 | 176 | 96 |
-| [go-faster/bot](https://github.com/go-faster/bot/)  | 2679 | 165 | 108 |
-| [kubernetes-sigs/ingress-controller~](https://github.com/kubernetes-sigs/ingress-controller-conformance/)  | 2656 | 161 | 74 |
-| [ClickHouse/dbt-clickhouse](https://github.com/ClickHouse/dbt-clickhouse/)  | 2639 | 267 | 67 |
-| [kubernetes-sigs/custom-metrics-api~](https://github.com/kubernetes-sigs/custom-metrics-apiserver/)  | 2636 | 246 | 107 |
-| [etcd-io/etcd-play](https://github.com/etcd-io/etcd-play/)  | 2631 | 169 | 35 |
-| [m3db/m3nsch](https://github.com/m3db/m3nsch/)  | 2624 | 21 | 11 |
-| [grafana/grafana-image-renderer](https://github.com/grafana/grafana-image-renderer/)  | 2621 | 211 | 191 |
-| [siderolabs/discovery-service](https://github.com/siderolabs/discovery-service/)  | 2590 | 39 | 31 |
-| [kubernetes-sigs/clientgofix](https://github.com/kubernetes-sigs/clientgofix/)  | 2588 | 26 | 5 |
-| [docker/scan-cli-plugin](https://github.com/docker/scan-cli-plugin/)  | 2560 | 315 | 155 |
-| [docker/libchan](https://github.com/docker/libchan/)  | 2558 | 145 | 71 |
-| [docker/go-connections](https://github.com/docker/go-connections/)  | 2531 | 8416 | 84 |
-| [kubernetes-sigs/nfs-ganesha-server~](https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner/)  | 2530 | 474 | 63 |
-| [docker/libkv](https://github.com/docker/libkv/)  | 2514 | 252 | 144 |
-| [VictoriaMetrics/metrics](https://github.com/VictoriaMetrics/metrics/)  | 2503 | 99 | 21 |
-| [kubernetes-sigs/container-object-s~](https://github.com/kubernetes-sigs/container-object-storage-interface-csi-adapter/)  | 2452 | 55 | 27 |
-| [istio/cni](https://github.com/istio/cni/)  | 2452 | 228 | 313 |
-| [openebs/jiva-csi](https://github.com/openebs/jiva-csi/)  | 2451 | 35 | 34 |
-| [prometheus/jmx_exporter](https://github.com/prometheus/jmx_exporter/)  | 2432 | 337 | 291 |
-| [siderolabs/go-smbios](https://github.com/siderolabs/go-smbios/)  | 2403 | 12 | 11 |
-| [m3db/build-tools](https://github.com/m3db/build-tools/)  | 2380 | 23 | 26 |
-| [gotd/ref](https://github.com/gotd/ref/)  | 2358 | 144 | 85 |
-| [siderolabs/protobuf](https://github.com/siderolabs/protobuf/)  | 2347 | 144 | 0 |
-| [kubernetes-sigs/kubebuilder-releas~](https://github.com/kubernetes-sigs/kubebuilder-release-tools/)  | 2345 | 52 | 35 |
-| [kubernetes-sigs/cluster-capacity](https://github.com/kubernetes-sigs/cluster-capacity/)  | 2287 | 483 | 107 |
-| [openebs/vhost-user](https://github.com/openebs/vhost-user/)  | 2278 | 17 | 6 |
-| [kubernetes-sigs/release-notes](https://github.com/kubernetes-sigs/release-notes/)  | 2273 | 594 | 429 |
-| [docker/sbom-cli-plugin](https://github.com/docker/sbom-cli-plugin/)  | 2193 | 28 | 23 |
-| [siderolabs/conform](https://github.com/siderolabs/conform/)  | 2167 | 167 | 177 |
-| [grafana/django-saml2-auth](https://github.com/grafana/django-saml2-auth/)  | 2160 | 215 | 128 |
-| [siderolabs/cluster-api-bootstrap-p~](https://github.com/siderolabs/cluster-api-bootstrap-provider-talos/)  | 2150 | 112 | 139 |
-| [m3db/m3collector](https://github.com/m3db/m3collector/)  | 2148 | 64 | 59 |
-| [istio/old_broker_repo](https://github.com/istio/old_broker_repo/)  | 2148 | 20 | 20 |
-| [prometheus/promu](https://github.com/prometheus/promu/)  | 2141 | 332 | 188 |
-| [kubernetes/registry.k8s.io](https://github.com/kubernetes/registry.k8s.io/)  | 2140 | 281 | 106 |
-| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers/)  | 2140 | 278 | 132 |
-| [vectordotdev/molecule](https://github.com/vectordotdev/molecule/)  | 2083 | 124 | 22 |
-| [cilium/kubenetbench](https://github.com/cilium/kubenetbench/)  | 2031 | 63 | 0 |
-| [docker/database-extension](https://github.com/docker/database-extension/)  | 1973 | 27 | 2 |
-| [grpc/grpc-haskell](https://github.com/grpc/grpc-haskell/)  | 1945 | 134 | 5 |
-| [siderolabs/cluster-api-provider-ta~](https://github.com/siderolabs/cluster-api-provider-talos/)  | 1930 | 45 | 44 |
-| [m3db/tally-cpp](https://github.com/m3db/tally-cpp/)  | 1912 | 83 | 3 |
-| [siderolabs/cluster-api-control-pla~](https://github.com/siderolabs/cluster-api-control-plane-provider-talos/)  | 1904 | 88 | 132 |
-| [grafana/clock-panel](https://github.com/grafana/clock-panel/)  | 1903 | 187 | 53 |
-| [kubernetes-sigs/windows-gmsa](https://github.com/kubernetes-sigs/windows-gmsa/)  | 1895 | 146 | 68 |
-| [openebs/lib-csi](https://github.com/openebs/lib-csi/)  | 1870 | 12 | 11 |
-| [VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache/)  | 1868 | 64 | 22 |
-| [kubernetes/kms](https://github.com/kubernetes/kms/)  | 1862 | 56 | 0 |
-| [kubernetes/system-validators](https://github.com/kubernetes/system-validators/)  | 1829 | 65 | 28 |
-| [grpc/grpc-proto](https://github.com/grpc/grpc-proto/)  | 1811 | 120 | 116 |
-| [kubernetes/controller-manager](https://github.com/kubernetes/controller-manager/)  | 1798 | 508 | 0 |
-| [kubernetes-sigs/application](https://github.com/kubernetes-sigs/application/)  | 1788 | 256 | 125 |
-| [kubernetes/dynamic-resource-alloca~](https://github.com/kubernetes/dynamic-resource-allocation/)  | 1765 | 40 | 0 |
-| [siderolabs/capi-utils](https://github.com/siderolabs/capi-utils/)  | 1735 | 29 | 30 |
-| [kubernetes-sigs/cluster-proportion~](https://github.com/kubernetes-sigs/cluster-proportional-autoscaler/)  | 1713 | 142 | 71 |
-| [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-docs/)  | 1699 | 95 | 94 |
-| [grafana/tail](https://github.com/grafana/tail/)  | 1690 | 273 | 13 |
-| [siderolabs/terraform-provider-talos](https://github.com/siderolabs/terraform-provider-talos/)  | 1685 | 27 | 27 |
-| [vectordotdev/timber-ruby](https://github.com/vectordotdev/timber-ruby/)  | 1663 | 817 | 100 |
-| [siderolabs/crypto](https://github.com/siderolabs/crypto/)  | 1643 | 28 | 27 |
-| [kubernetes-sigs/node-feature-disco~](https://github.com/kubernetes-sigs/node-feature-discovery-operator/)  | 1634 | 249 | 141 |
-| [kubernetes/cri-api](https://github.com/kubernetes/cri-api/)  | 1623 | 358 | 0 |
-| [grafana/kentik-app](https://github.com/grafana/kentik-app/)  | 1615 | 236 | 69 |
-| [kubernetes-sigs/aws-encryption-pro~](https://github.com/kubernetes-sigs/aws-encryption-provider/)  | 1611 | 183 | 68 |
-| [envoyproxy/envoy-openssl](https://github.com/envoyproxy/envoy-openssl/)  | 1598 | 113 | 56 |
-| [cilium/fake](https://github.com/cilium/fake/)  | 1588 | 86 | 54 |
-| [helm/chart-releaser](https://github.com/helm/chart-releaser/)  | 1570 | 166 | 181 |
-| [prometheus/graphite_exporter](https://github.com/prometheus/graphite_exporter/)  | 1558 | 358 | 148 |
-| [grafana/fake-data-gen](https://github.com/grafana/fake-data-gen/)  | 1548 | 132 | 27 |
-| [vectordotdev/react-query-assist](https://github.com/vectordotdev/react-query-assist/)  | 1547 | 57 | 4 |
-| [vectordotdev/cli](https://github.com/vectordotdev/cli/)  | 1543 | 49 | 3 |
-| [docker/HttpOverStream](https://github.com/docker/HttpOverStream/)  | 1542 | 109 | 42 |
-| [siderolabs/gen](https://github.com/siderolabs/gen/)  | 1539 | 10 | 9 |
-| [vectordotdev/timber-js](https://github.com/vectordotdev/timber-js/)  | 1512 | 206 | 42 |
-| [open-telemetry/opentelemetry-erlan~](https://github.com/open-telemetry/opentelemetry-erlang-contrib/)  | 1499 | 96 | 116 |
-| [gotd/tl](https://github.com/gotd/tl/)  | 1481 | 84 | 23 |
-| [siderolabs/contrib](https://github.com/siderolabs/contrib/)  | 1459 | 15 | 12 |
-| [vectordotdev/vector-test-harness](https://github.com/vectordotdev/vector-test-harness/)  | 1448 | 251 | 35 |
-| [siderolabs/grpc-proxy](https://github.com/siderolabs/grpc-proxy/)  | 1433 | 52 | 13 |
-| [go-faster/errors](https://github.com/go-faster/errors/)  | 1432 | 112 | 20 |
-| [kubernetes/metrics](https://github.com/kubernetes/metrics/)  | 1425 | 1059 | 22 |
-| [siderolabs/go-api-signature](https://github.com/siderolabs/go-api-signature/)  | 1422 | 8 | 7 |
-| [siderolabs/sfyra](https://github.com/siderolabs/sfyra/)  | 1401 | 6 | 7 |
-| [etcd-io/protodoc](https://github.com/etcd-io/protodoc/)  | 1397 | 41 | 5 |
-| [open-telemetry/opentelemetry-erlan~](https://github.com/open-telemetry/opentelemetry-erlang-api/)  | 1393 | 70 | 64 |
-| [prometheus/exporter-toolkit](https://github.com/prometheus/exporter-toolkit/)  | 1382 | 181 | 116 |
-| [kata-containers/ksm-throttler](https://github.com/kata-containers/ksm-throttler/)  | 1376 | 207 | 139 |
-| [prometheus/memcached_exporter](https://github.com/prometheus/memcached_exporter/)  | 1369 | 206 | 111 |
-| [cilium/microscope](https://github.com/cilium/microscope/)  | 1367 | 121 | 45 |
-| [docker/doodle](https://github.com/docker/doodle/)  | 1364 | 18 | 17 |
-| [grafana/snap-plugin-collector-kube~](https://github.com/grafana/snap-plugin-collector-kubestate/)  | 1350 | 22 | 3 |
-| [cilium/ipam](https://github.com/cilium/ipam/)  | 1348 | 13 | 6 |
-| [vectordotdev/timber-ruby-rails](https://github.com/vectordotdev/timber-ruby-rails/)  | 1334 | 71 | 3 |
-| [helm/helm-2to3](https://github.com/helm/helm-2to3/)  | 1303 | 164 | 114 |
-| [openebs/mayastor-api](https://github.com/openebs/mayastor-api/)  | 1297 | 73 | 47 |
-| [vectordotdev/vrl-web](https://github.com/vectordotdev/vrl-web/)  | 1288 | 207 | 2 |
-| [cilium/pwru](https://github.com/cilium/pwru/)  | 1272 | 180 | 124 |
-| [docker/dockercraft](https://github.com/docker/dockercraft/)  | 1248 | 208 | 50 |
-| [kubernetes/examples](https://github.com/kubernetes/examples/)  | 1246 | 2046 | 312 |
-| [docker/docs](https://github.com/docker/docs/)  | 1226 | 59521 | 10273 |
-| [kubernetes-sigs/cluster-proportion~](https://github.com/kubernetes-sigs/cluster-proportional-vertical-autoscaler/)  | 1211 | 125 | 30 |
-| [siderolabs/talos-controller-manager](https://github.com/siderolabs/talos-controller-manager/)  | 1198 | 34 | 36 |
-| [grafana/influxdb-flux-datasource](https://github.com/grafana/influxdb-flux-datasource/)  | 1197 | 155 | 47 |
-| [VictoriaMetrics/metrics-java](https://github.com/VictoriaMetrics/metrics-java/)  | 1195 | 51 | 22 |
-| [kata-containers/shim](https://github.com/kata-containers/shim/)  | 1187 | 269 | 212 |
-| [docker/github-actions](https://github.com/docker/github-actions/)  | 1182 | 77 | 20 |
-| [docker/build-push-action](https://github.com/docker/build-push-action/)  | 1174 | 676 | 306 |
-| [cilium/go-bindata](https://github.com/cilium/go-bindata/)  | 1172 | 196 | 0 |
-| [grafana/snap-plugin-collector-cadv~](https://github.com/grafana/snap-plugin-collector-cadvisor/)  | 1164 | 6 | 0 |
-| [etcd-io/gofail](https://github.com/etcd-io/gofail/)  | 1163 | 72 | 37 |
-| [kubernetes-sigs/legacyflag](https://github.com/kubernetes-sigs/legacyflag/)  | 1162 | 9 | 4 |
-| [siderolabs/metal-controller-manager](https://github.com/siderolabs/metal-controller-manager/)  | 1151 | 25 | 26 |
-| [kubernetes/kubelet](https://github.com/kubernetes/kubelet/)  | 1108 | 742 | 2 |
-| [cilium/starwars-docker](https://github.com/cilium/starwars-docker/)  | 1101 | 18 | 0 |
-| [vectordotdev/react-facet-filter](https://github.com/vectordotdev/react-facet-filter/)  | 1078 | 19 | 5 |
-| [siderolabs/os-engine](https://github.com/siderolabs/os-engine/)  | 1071 | 2 | 0 |
-| [docker/cli-docs-tool](https://github.com/docker/cli-docs-tool/)  | 1071 | 130 | 33 |
-| [gotd/getdoc](https://github.com/gotd/getdoc/)  | 1061 | 301 | 130 |
-| [grafana/grafana-sdk-mocks](https://github.com/grafana/grafana-sdk-mocks/)  | 1051 | 16 | 6 |
-| [grpc/grpc-php](https://github.com/grpc/grpc-php/)  | 1045 | 57 | 31 |
-| [cilium/cilium-sysdump](https://github.com/cilium/cilium-sysdump/)  | 1032 | 148 | 84 |
-| [cilium/ebpf.io-summit](https://github.com/cilium/ebpf.io-summit/)  | 1017 | 359 | 53 |
-| [cilium/release](https://github.com/cilium/release/)  | 1010 | 57 | 33 |
-| [cilium/cilium-etcd-operator](https://github.com/cilium/cilium-etcd-operator/)  | 1003 | 80 | 48 |
-| [openebs/rawfile-localpv](https://github.com/openebs/rawfile-localpv/)  | 1002 | 89 | 14 |
-| [siderolabs/go-retry](https://github.com/siderolabs/go-retry/)  | 992 | 9 | 9 |
-| [go-faster/gh-archive-clickhouse](https://github.com/go-faster/gh-archive-clickhouse/)  | 983 | 85 | 75 |
-| [grpc/grpc-java-api-checker](https://github.com/grpc/grpc-java-api-checker/)  | 981 | 23 | 21 |
-| [siderolabs/go-loadbalancer](https://github.com/siderolabs/go-loadbalancer/)  | 980 | 12 | 11 |
-| [kubernetes-sigs/gluster-file-exter~](https://github.com/kubernetes-sigs/gluster-file-external-provisioner/)  | 977 | 204 | 10 |
-| [kubernetes/sample-apiserver](https://github.com/kubernetes/sample-apiserver/)  | 969 | 2245 | 17 |
-| [cilium/bpf-ci-scripts](https://github.com/cilium/bpf-ci-scripts/)  | 958 | 140 | 0 |
-| [siderolabs/cluster-api-provider-me~](https://github.com/siderolabs/cluster-api-provider-metal/)  | 954 | 21 | 17 |
-| [vectordotdev/timber-node](https://github.com/vectordotdev/timber-node/)  | 952 | 256 | 24 |
-| [vectordotdev/timber-io](https://github.com/vectordotdev/timber-io/)  | 950 | 372 | 20 |
-| [go-faster/tail](https://github.com/go-faster/tail/)  | 943 | 96 | 25 |
-| [siderolabs/go-kubernetes](https://github.com/siderolabs/go-kubernetes/)  | 943 | 3 | 3 |
-| [docker/go-imageinspect](https://github.com/docker/go-imageinspect/)  | 940 | 40 | 11 |
-| [siderolabs/siderolink](https://github.com/siderolabs/siderolink/)  | 933 | 21 | 20 |
-| [ogen-go/ent2ogen](https://github.com/ogen-go/ent2ogen/)  | 924 | 132 | 64 |
-| [vectordotdev/http_test_server](https://github.com/vectordotdev/http_test_server/)  | 919 | 85 | 8 |
-| [helm/charts](https://github.com/helm/charts/)  | 898 | 13769 | 18202 |
-| [grafana/influxdb-08-datasource](https://github.com/grafana/influxdb-08-datasource/)  | 894 | 16 | 3 |
-| [kubernetes/kube-scheduler](https://github.com/kubernetes/kube-scheduler/)  | 893 | 719 | 2 |
-| [openebs/sts-pv-pvc-handler](https://github.com/openebs/sts-pv-pvc-handler/)  | 888 | 27 | 0 |
-| [helm/rudder-federation](https://github.com/helm/rudder-federation/)  | 880 | 56 | 9 |
-| [siderolabs/devise](https://github.com/siderolabs/devise/)  | 872 | 18 | 18 |
-| [openebs/data-populator](https://github.com/openebs/data-populator/)  | 857 | 6 | 5 |
-| [siderolabs/ui](https://github.com/siderolabs/ui/)  | 851 | 15 | 29 |
-| [grafana/grafana-kiosk](https://github.com/grafana/grafana-kiosk/)  | 850 | 46 | 40 |
-| [kubernetes-sigs/ip-masq-agent](https://github.com/kubernetes-sigs/ip-masq-agent/)  | 845 | 131 | 64 |
-| [prometheus/haproxy_exporter](https://github.com/prometheus/haproxy_exporter/)  | 842 | 293 | 170 |
-| [etcd-io/discoveryserver](https://github.com/etcd-io/discoveryserver/)  | 836 | 8 | 5 |
-| [cilium/certgen](https://github.com/cilium/certgen/)  | 832 | 128 | 111 |
-| [grafana/simple-json-backend-dataso~](https://github.com/grafana/simple-json-backend-datasource/)  | 827 | 22 | 24 |
-| [kubernetes-sigs/gluster-block-exte~](https://github.com/kubernetes-sigs/gluster-block-external-provisioner/)  | 818 | 287 | 0 |
-| [gotd/neo](https://github.com/gotd/neo/)  | 795 | 83 | 24 |
-| [grafana/worldping-gw](https://github.com/grafana/worldping-gw/)  | 789 | 172 | 5 |
-| [kata-containers/proxy](https://github.com/kata-containers/proxy/)  | 772 | 252 | 226 |
-| [docker/go-events](https://github.com/docker/go-events/)  | 772 | 30 | 23 |
-| [vectordotdev/go-datemath](https://github.com/vectordotdev/go-datemath/)  | 753 | 26 | 7 |
-| [kubernetes/org](https://github.com/kubernetes/org/)  | 745 | 5219 | 1883 |
-| [prometheus/consul_exporter](https://github.com/prometheus/consul_exporter/)  | 743 | 260 | 181 |
-| [helm/helm-mapkubeapis](https://github.com/helm/helm-mapkubeapis/)  | 739 | 129 | 64 |
-| [grafana/docs-base](https://github.com/grafana/docs-base/)  | 728 | 124 | 13 |
-| [vectordotdev/grease](https://github.com/vectordotdev/grease/)  | 712 | 12 | 0 |
-| [vectordotdev/timber-go](https://github.com/vectordotdev/timber-go/)  | 711 | 6 | 0 |
-| [kubernetes-sigs/dashboard-metrics-~](https://github.com/kubernetes-sigs/dashboard-metrics-scraper/)  | 711 | 83 | 29 |
-| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-builder/)  | 702 | 40 | 45 |
-| [ClickHouse/clickhouse-website-work~](https://github.com/ClickHouse/clickhouse-website-worker/)  | 702 | 561 | 209 |
-| [etcd-io/cetcd](https://github.com/etcd-io/cetcd/)  | 696 | 7 | 3 |
-| [docker/go-units](https://github.com/docker/go-units/)  | 694 | 94 | 31 |
-| [vectordotdev/timber-python](https://github.com/vectordotdev/timber-python/)  | 684 | 32 | 12 |
-| [siderolabs/protoc-gen-proxy](https://github.com/siderolabs/protoc-gen-proxy/)  | 680 | 13 | 7 |
-| [grafana/simple-json-datasource](https://github.com/grafana/simple-json-datasource/)  | 678 | 153 | 54 |
-| [grafana/snap-plugin-collector-gits~](https://github.com/grafana/snap-plugin-collector-gitstats/)  | 676 | 24 | 0 |
-| [cilium/team-manager](https://github.com/cilium/team-manager/)  | 673 | 16 | 10 |
-| [kubernetes-sigs/windows-testing](https://github.com/kubernetes-sigs/windows-testing/)  | 664 | 824 | 332 |
-| [grafana/grafana-plugin-repository](https://github.com/grafana/grafana-plugin-repository/)  | 659 | 2010 | 1026 |
-| [open-telemetry/opentelemetry.io](https://github.com/open-telemetry/opentelemetry.io/)  | 659 | 1694 | 1857 |
-| [siderolabs/talos-cloud-controller-~](https://github.com/siderolabs/talos-cloud-controller-manager/)  | 652 | 12 | 25 |
-| [docker/node-sdk](https://github.com/docker/node-sdk/)  | 652 | 101 | 72 |
-| [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller/)  | 642 | 1446 | 10 |
-| [grafana/memo](https://github.com/grafana/memo/)  | 638 | 46 | 7 |
-| [kubernetes-sigs/mdtoc](https://github.com/kubernetes-sigs/mdtoc/)  | 635 | 40 | 14 |
-| [docker/extensions-sdk](https://github.com/docker/extensions-sdk/)  | 634 | 477 | 166 |
-| [docker/base-cli-plugin](https://github.com/docker/base-cli-plugin/)  | 628 | 10 | 5 |
-| [gotd/teled](https://github.com/gotd/teled/)  | 623 | 73 | 42 |
-| [kubernetes/cluster-bootstrap](https://github.com/kubernetes/cluster-bootstrap/)  | 621 | 453 | 3 |
-| [ClickHouse/ch-bench](https://github.com/ClickHouse/ch-bench/)  | 620 | 90 | 19 |
-| [kubernetes-sigs/sig-windows-tools](https://github.com/kubernetes-sigs/sig-windows-tools/)  | 615 | 221 | 166 |
-| [siderolabs/go-cmd](https://github.com/siderolabs/go-cmd/)  | 612 | 5 | 4 |
-| [gotd/cli](https://github.com/gotd/cli/)  | 593 | 261 | 179 |
-| [siderolabs/go-kubeconfig](https://github.com/siderolabs/go-kubeconfig/)  | 588 | 2 | 0 |
-| [siderolabs/gitmeta](https://github.com/siderolabs/gitmeta/)  | 586 | 13 | 16 |
-| [siderolabs/go-circular](https://github.com/siderolabs/go-circular/)  | 586 | 2 | 0 |
-| [vectordotdev/timber-ruby-rack](https://github.com/vectordotdev/timber-ruby-rack/)  | 585 | 30 | 0 |
-| [helm/rudder-appcontroller](https://github.com/helm/rudder-appcontroller/)  | 581 | 26 | 4 |
-| [VictoriaMetrics/helm-charts](https://github.com/VictoriaMetrics/helm-charts/)  | 578 | 713 | 284 |
-| [cilium/workerpool](https://github.com/cilium/workerpool/)  | 565 | 71 | 43 |
-| [siderolabs/go-procfs](https://github.com/siderolabs/go-procfs/)  | 523 | 10 | 9 |
-| [open-telemetry/opentelemetry-php-i~](https://github.com/open-telemetry/opentelemetry-php-instrumentation/)  | 522 | 30 | 30 |
-| [docker/go-metrics](https://github.com/docker/go-metrics/)  | 513 | 38 | 21 |
-| [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action/)  | 503 | 300 | 152 |
-| [prometheus/prom2json](https://github.com/prometheus/prom2json/)  | 503 | 260 | 112 |
-| [docker/login-action](https://github.com/docker/login-action/)  | 492 | 253 | 343 |
-| [cilium/clustermesh-apiserver](https://github.com/cilium/clustermesh-apiserver/)  | 489 | 6 | 4 |
-| [cilium/cilium-perf-test](https://github.com/cilium/cilium-perf-test/)  | 478 | 41 | 2 |
-| [kubernetes-sigs/nfs-subdir-externa~](https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner/)  | 475 | 465 | 100 |
-| [siderolabs/go-kmsg](https://github.com/siderolabs/go-kmsg/)  | 460 | 5 | 5 |
-| [cilium/mock-hubble](https://github.com/cilium/mock-hubble/)  | 457 | 13 | 3 |
-| [cilium/mtu-update](https://github.com/cilium/mtu-update/)  | 451 | 15 | 2 |
-| [cilium/cilium-l4lb-test](https://github.com/cilium/cilium-l4lb-test/)  | 446 | 6 | 2 |
-| [helm/repo-audit](https://github.com/helm/repo-audit/)  | 439 | 8 | 0 |
-| [openebs/e2e-tests](https://github.com/openebs/e2e-tests/)  | 430 | 1385 | 409 |
-| [vectordotdev/example-heroku-ruby-r~](https://github.com/vectordotdev/example-heroku-ruby-rails-5x/)  | 423 | 12 | 3 |
-| [cilium/k8s-1abel](https://github.com/cilium/k8s-1abel/)  | 421 | 12 | 4 |
-| [siderolabs/go-gsuite](https://github.com/siderolabs/go-gsuite/)  | 421 | 10 | 5 |
-| [siderolabs/importvet](https://github.com/siderolabs/importvet/)  | 417 | 10 | 9 |
-| [prometheus/collectd_exporter](https://github.com/prometheus/collectd_exporter/)  | 413 | 165 | 96 |
-| [prometheus/influxdb_exporter](https://github.com/prometheus/influxdb_exporter/)  | 409 | 241 | 102 |
-| [gotd/tgstatus](https://github.com/gotd/tgstatus/)  | 408 | 200 | 94 |
-| [grafana/kubernetes-diff-logger](https://github.com/grafana/kubernetes-diff-logger/)  | 407 | 65 | 21 |
-| [siderolabs/discovery-client](https://github.com/siderolabs/discovery-client/)  | 405 | 7 | 6 |
-| [docker/dev-envs-extension](https://github.com/docker/dev-envs-extension/)  | 405 | 28 | 2 |
-| [kubernetes-sigs/externalip-webhook](https://github.com/kubernetes-sigs/externalip-webhook/)  | 397 | 92 | 17 |
-| [grafana/globalconf](https://github.com/grafana/globalconf/)  | 395 | 46 | 4 |
-| [grafana/bigtable-backup](https://github.com/grafana/bigtable-backup/)  | 392 | 21 | 6 |
-| [siderolabs/talos-doc-site](https://github.com/siderolabs/talos-doc-site/)  | 391 | 4 | 0 |
-| [open-telemetry/opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-proto/)  | 382 | 230 | 293 |
-| [ClickHouse/clickhouse_exporter](https://github.com/ClickHouse/clickhouse_exporter/)  | 376 | 76 | 41 |
-| [cilium/cilium-perf-networking](https://github.com/cilium/cilium-perf-networking/)  | 374 | 30 | 3 |
-| [grafana/grafana-oss-msi-generator](https://github.com/grafana/grafana-oss-msi-generator/)  | 359 | 8 | 2 |
-| [ogen-go/example](https://github.com/ogen-go/example/)  | 358 | 60 | 75 |
-| [kubernetes-sigs/downloadkubernetes](https://github.com/kubernetes-sigs/downloadkubernetes/)  | 351 | 784 | 375 |
-| [siderolabs/net](https://github.com/siderolabs/net/)  | 349 | 12 | 13 |
-| [kata-containers/packaging](https://github.com/kata-containers/packaging/)  | 345 | 1197 | 618 |
-| [envoyproxy/envoy-distro](https://github.com/envoyproxy/envoy-distro/)  | 339 | 6 | 7 |
-| [VictoriaMetrics/billy](https://github.com/VictoriaMetrics/billy/)  | 319 | 28 | 0 |
-| [cilium/arping](https://github.com/cilium/arping/)  | 307 | 36 | 8 |
-| [grafana/grafana-starter-app](https://github.com/grafana/grafana-starter-app/)  | 300 | 53 | 28 |
-| [grafana/github-to-es](https://github.com/grafana/github-to-es/)  | 300 | 20 | 0 |
-| [open-telemetry/opentelemetry-proto~](https://github.com/open-telemetry/opentelemetry-proto-java/)  | 293 | 13 | 4 |
-| [vectordotdev/go-duration](https://github.com/vectordotdev/go-duration/)  | 292 | 6 | 0 |
-| [grafana/puppet-promtail](https://github.com/grafana/puppet-promtail/)  | 290 | 87 | 40 |
-| [go-faster/web](https://github.com/go-faster/web/)  | 286 | 299 | 117 |
-| [istio/community](https://github.com/istio/community/)  | 286 | 827 | 768 |
-| [siderolabs/go-pcidb](https://github.com/siderolabs/go-pcidb/)  | 276 | 2 | 0 |
-| [docker/bake-action](https://github.com/docker/bake-action/)  | 271 | 183 | 100 |
-| [siderolabs/git-verify-chain](https://github.com/siderolabs/git-verify-chain/)  | 270 | 7 | 8 |
-| [kubernetes-sigs/container-object-s~](https://github.com/kubernetes-sigs/container-object-storage-interface-spec/)  | 267 | 61 | 30 |
-| [envoyproxy/ci-infra](https://github.com/envoyproxy/ci-infra/)  | 265 | 12 | 12 |
-| [vectordotdev/examples](https://github.com/vectordotdev/examples/)  | 264 | 14 | 0 |
-| [docker/compose-switch](https://github.com/docker/compose-switch/)  | 263 | 39 | 25 |
-| [vectordotdev/chronicle-emulator](https://github.com/vectordotdev/chronicle-emulator/)  | 261 | 9 | 0 |
-| [helm/github-webhook-dco-labeler](https://github.com/helm/github-webhook-dco-labeler/)  | 260 | 31 | 13 |
-| [helm/charts-tooling](https://github.com/helm/charts-tooling/)  | 258 | 9 | 2 |
-| [siderolabs/day-two](https://github.com/siderolabs/day-two/)  | 257 | 13 | 6 |
-| [docker/docker-ce-packaging](https://github.com/docker/docker-ce-packaging/)  | 255 | 1156 | 834 |
-| [grafana/perspective-panel](https://github.com/grafana/perspective-panel/)  | 254 | 7 | 26 |
-| [cilium/customvet](https://github.com/cilium/customvet/)  | 253 | 11 | 6 |
-| [go-faster/cilium-mesh-testing](https://github.com/go-faster/cilium-mesh-testing/)  | 253 | 1 | 0 |
-| [siderolabs/metal-metadata-server](https://github.com/siderolabs/metal-metadata-server/)  | 251 | 17 | 16 |
-| [vectordotdev/next-go](https://github.com/vectordotdev/next-go/)  | 238 | 24 | 4 |
-| [open-telemetry/opamp-java](https://github.com/open-telemetry/opamp-java/)  | 237 | 3 | 5 |
-| [kubernetes/sample-cli-plugin](https://github.com/kubernetes/sample-cli-plugin/)  | 224 | 650 | 0 |
-| [open-telemetry/opamp-spec](https://github.com/open-telemetry/opamp-spec/)  | 219 | 72 | 74 |
-| [cilium/identity-scale-test](https://github.com/cilium/identity-scale-test/)  | 212 | 1 | 0 |
-| [helm/pull-sizer](https://github.com/helm/pull-sizer/)  | 210 | 11 | 6 |
-| [cilium/state-writer](https://github.com/cilium/state-writer/)  | 209 | 5 | 0 |
-| [envoyproxy/katacoda-scenarios](https://github.com/envoyproxy/katacoda-scenarios/)  | 203 | 121 | 16 |
-| [ogen-go/web](https://github.com/ogen-go/web/)  | 200 | 243 | 142 |
-| [grafana/cloud-graphite-scripts](https://github.com/grafana/cloud-graphite-scripts/)  | 200 | 22 | 7 |
-| [cilium/chaos-monkeys](https://github.com/cilium/chaos-monkeys/)  | 198 | 57 | 38 |
-| [docker/buildkit-syft-scanner](https://github.com/docker/buildkit-syft-scanner/)  | 195 | 90 | 37 |
-| [gotd/docs](https://github.com/gotd/docs/)  | 193 | 174 | 186 |
-| [helm/acceptance-testing](https://github.com/helm/acceptance-testing/)  | 193 | 106 | 84 |
-| [cilium/health-examples](https://github.com/cilium/health-examples/)  | 192 | 3 | 0 |
-| [kubernetes/kube-controller-manager](https://github.com/kubernetes/kube-controller-manager/)  | 189 | 662 | 0 |
-| [prometheus/prometheus_api_client_r~](https://github.com/prometheus/prometheus_api_client_ruby/)  | 187 | 109 | 20 |
-| [vectordotdev/serverless-plugin-tim~](https://github.com/vectordotdev/serverless-plugin-timber/)  | 186 | 2 | 0 |
-| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-releases/)  | 186 | 177 | 215 |
-| [cilium/scruffy](https://github.com/cilium/scruffy/)  | 185 | 6 | 0 |
-| [envoyproxy/envoy-filter-example](https://github.com/envoyproxy/envoy-filter-example/)  | 182 | 11679 | 108 |
-| [grafana/homebrew-grafana](https://github.com/grafana/homebrew-grafana/)  | 180 | 88 | 34 |
-| [docker/opensource](https://github.com/docker/opensource/)  | 179 | 211 | 104 |
-| [go-faster/xor](https://github.com/go-faster/xor/)  | 178 | 102 | 48 |
-| [grafana/grafana-starter-datasource](https://github.com/grafana/grafana-starter-datasource/)  | 177 | 52 | 28 |
-| [grafana/grafana-plugin-model](https://github.com/grafana/grafana-plugin-model/)  | 166 | 19 | 3 |
-| [openebs/spdk-sys](https://github.com/openebs/spdk-sys/)  | 165 | 6 | 7 |
-| [cilium/bpf-map](https://github.com/cilium/bpf-map/)  | 160 | 21 | 10 |
-| [docker/whalesay](https://github.com/docker/whalesay/)  | 155 | 14 | 3 |
-| [open-telemetry/community](https://github.com/open-telemetry/community/)  | 152 | 599 | 537 |
-| [helm/charts-check-pr-title](https://github.com/helm/charts-check-pr-title/)  | 150 | 4 | 0 |
-| [siderolabs/extensions](https://github.com/siderolabs/extensions/)  | 149 | 81 | 115 |
-| [cilium/client-example](https://github.com/cilium/client-example/)  | 148 | 3 | 0 |
-| [cilium/node-discovery-perf](https://github.com/cilium/node-discovery-perf/)  | 145 | 18 | 0 |
-| [siderolabs/go-tail](https://github.com/siderolabs/go-tail/)  | 140 | 2 | 0 |
-| [siderolabs/pulumi-provider-talos](https://github.com/siderolabs/pulumi-provider-talos/)  | 138 | 44 | 27 |
-| [docker/import-restrictions](https://github.com/docker/import-restrictions/)  | 136 | 7 | 0 |
-| [vectordotdev/timber-cloudwatch-log~](https://github.com/vectordotdev/timber-cloudwatch-logs-lambda-function/)  | 133 | 48 | 4 |
-| [grafana/usage-stats-handler](https://github.com/grafana/usage-stats-handler/)  | 132 | 43 | 25 |
-| [docker/setup-qemu-action](https://github.com/docker/setup-qemu-action/)  | 130 | 116 | 57 |
-| [cilium/stale-rules](https://github.com/cilium/stale-rules/)  | 127 | 8 | 0 |
-| [kubernetes/sig-security](https://github.com/kubernetes/sig-security/)  | 127 | 69 | 34 |
-| [ClickHouse/kafka-samples](https://github.com/ClickHouse/kafka-samples/)  | 125 | 3 | 0 |
-| [cilium/star-wars-demo](https://github.com/cilium/star-wars-demo/)  | 123 | 15 | 3 |
-| [cilium/star-wars-demo-automated](https://github.com/cilium/star-wars-demo-automated/)  | 123 | 1 | 0 |
-| [grafana/jsonnet-libs](https://github.com/grafana/jsonnet-libs/)  | 121 | 1286 | 848 |
-| [istio/glog](https://github.com/istio/glog/)  | 121 | 6 | 5 |
-| [istio/klog](https://github.com/istio/klog/)  | 121 | 2 | 2 |
-| [vectordotdev/tokio-compat-perf-che~](https://github.com/vectordotdev/tokio-compat-perf-checks/)  | 119 | 16 | 0 |
-| [docker/testrepo](https://github.com/docker/testrepo/)  | 119 | 1 | 0 |
-| [grafana/grafana-starter-panel](https://github.com/grafana/grafana-starter-panel/)  | 117 | 72 | 34 |
-| [kata-containers/osbuilder](https://github.com/kata-containers/osbuilder/)  | 116 | 524 | 285 |
-| [kata-containers/community](https://github.com/kata-containers/community/)  | 116 | 282 | 139 |
-| [vectordotdev/tcp_test_server](https://github.com/vectordotdev/tcp_test_server/)  | 115 | 26 | 0 |
-| [vectordotdev/outside-cli](https://github.com/vectordotdev/outside-cli/)  | 114 | 3 | 0 |
-| [cilium/affinity-test-apps](https://github.com/cilium/affinity-test-apps/)  | 111 | 4 | 0 |
-| [vectordotdev/rust-benches](https://github.com/vectordotdev/rust-benches/)  | 109 | 4 | 0 |
-| [vectordotdev/example-heroku-ruby-r~](https://github.com/vectordotdev/example-heroku-ruby-rails-4x/)  | 107 | 1 | 0 |
-| [VictoriaMetrics/prometheus-benchma~](https://github.com/VictoriaMetrics/prometheus-benchmark/)  | 103 | 41 | 12 |
-| [grafana/graphite-mt](https://github.com/grafana/graphite-mt/)  | 101 | 106 | 42 |
-| [kubernetes/kube-proxy](https://github.com/kubernetes/kube-proxy/)  | 100 | 614 | 0 |
-| [cilium/migrate-svc-test](https://github.com/cilium/migrate-svc-test/)  | 99 | 4 | 0 |
-| [grafana/grafonnet-lib](https://github.com/grafana/grafonnet-lib/)  | 98 | 589 | 278 |
-| [prometheus/lezer-promql](https://github.com/prometheus/lezer-promql/)  | 96 | 131 | 45 |
-| [siderolabs/go-debug](https://github.com/siderolabs/go-debug/)  | 95 | 6 | 5 |
-| [docker/binfmt](https://github.com/docker/binfmt/)  | 91 | 25 | 17 |
-| [grafana/eslint-config-grafana](https://github.com/grafana/eslint-config-grafana/)  | 89 | 62 | 28 |
-| [vectordotdev/example-heroku-ruby-r~](https://github.com/vectordotdev/example-heroku-ruby-rails-3x/)  | 89 | 2 | 0 |
-| [grafana/loadgentest](https://github.com/grafana/loadgentest/)  | 83 | 57 | 3 |
-| [go-faster/bfj](https://github.com/go-faster/bfj/)  | 82 | 5 | 0 |
-| [istio/installer](https://github.com/istio/installer/)  | 82 | 617 | 616 |
-| [prometheus/client_model](https://github.com/prometheus/client_model/)  | 82 | 74 | 39 |
-| [siderolabs/discovery-api](https://github.com/siderolabs/discovery-api/)  | 80 | 4 | 3 |
-| [grafana/k6-timescaledb-stack](https://github.com/grafana/k6-timescaledb-stack/)  | 80 | 10 | 0 |
-| [grafana/k6-example-github-actions](https://github.com/grafana/k6-example-github-actions/)  | 79 | 40 | 4 |
-| [openebs/linux-utils](https://github.com/openebs/linux-utils/)  | 79 | 42 | 28 |
-| [grafana/k6-example-azure-pipelines](https://github.com/grafana/k6-example-azure-pipelines/)  | 72 | 34 | 2 |
-| [helm/query-store-quay-logs](https://github.com/helm/query-store-quay-logs/)  | 71 | 17 | 8 |
-| [cilium/api-router](https://github.com/cilium/api-router/)  | 67 | 1 | 0 |
-| [openebs/monitor-pv](https://github.com/openebs/monitor-pv/)  | 66 | 7 | 7 |
-| [vectordotdev/vector-heroku-buildpa~](https://github.com/vectordotdev/vector-heroku-buildpack/)  | 66 | 20 | 0 |
-| [vectordotdev/homebrew-brew](https://github.com/vectordotdev/homebrew-brew/)  | 63 | 91 | 8 |
-| [go-faster/jx-bench-sample](https://github.com/go-faster/jx-bench-sample/)  | 59 | 8 | 0 |
-| [kubernetes/contributor-site](https://github.com/kubernetes/contributor-site/)  | 58 | 606 | 284 |
-| [cilium/dummylb](https://github.com/cilium/dummylb/)  | 57 | 7 | 0 |
-| [openebs/mayastor-charts](https://github.com/openebs/mayastor-charts/)  | 56 | 13 | 7 |
-| [grafana/simple-angular-panel](https://github.com/grafana/simple-angular-panel/)  | 55 | 28 | 22 |
-| [cilium/echoserver-udp](https://github.com/cilium/echoserver-udp/)  | 54 | 2 | 2 |
-| [cilium/misc-scripts](https://github.com/cilium/misc-scripts/)  | 51 | 3 | 0 |
-| [grpc/homebrew-grpc](https://github.com/grpc/homebrew-grpc/)  | 50 | 156 | 59 |
-| [vectordotdev/example-heroku-elixir~](https://github.com/vectordotdev/example-heroku-elixir-phoenix/)  | 48 | 5 | 4 |
-| [cilium/demo-image](https://github.com/cilium/demo-image/)  | 44 | 11 | 4 |
-| [kubernetes/node-api](https://github.com/kubernetes/node-api/)  | 43 | 253 | 5 |
-| [vectordotdev/leveldb-build-demo](https://github.com/vectordotdev/leveldb-build-demo/)  | 42 | 25 | 3 |
-| [openebs/mayastor-docs](https://github.com/openebs/mayastor-docs/)  | 41 | 119 | 103 |
-| [grpc/grpc-docker-library](https://github.com/grpc/grpc-docker-library/)  | 39 | 86 | 60 |
-| [cilium/dnssec-client](https://github.com/cilium/dnssec-client/)  | 38 | 5 | 0 |
-| [vectordotdev/example-heroku-ruby-s~](https://github.com/vectordotdev/example-heroku-ruby-sinatra/)  | 34 | 2 | 0 |
-| [envoyproxy/management-plane-api](https://github.com/envoyproxy/management-plane-api/)  | 31 | 4 | 4 |
-| [cilium/delayed-httpd](https://github.com/cilium/delayed-httpd/)  | 29 | 4 | 0 |
-| [vectordotdev/node-bunyan-example](https://github.com/vectordotdev/node-bunyan-example/)  | 29 | 3 | 0 |
-| [helm/charts-classic](https://github.com/helm/charts-classic/)  | 28 | 148 | 87 |
-| [gotd/gotdlog](https://github.com/gotd/gotdlog/)  | 26 | 11 | 3 |
-| [openebs/helm-operator](https://github.com/openebs/helm-operator/)  | 25 | 24 | 17 |
-| [vectordotdev/node-winston-example](https://github.com/vectordotdev/node-winston-example/)  | 24 | 5 | 0 |
-| [envoyproxy/learnenvoy](https://github.com/envoyproxy/learnenvoy/)  | 24 | 81 | 67 |
-| [siderolabs/pkgs](https://github.com/siderolabs/pkgs/)  | 23 | 473 | 662 |
-| [siderolabs/homebrew-talos](https://github.com/siderolabs/homebrew-talos/)  | 19 | 33 | 29 |
-| [vectordotdev/tokio-fds-issue](https://github.com/vectordotdev/tokio-fds-issue/)  | 17 | 3 | 0 |
-| [prometheus/kube-demo-site](https://github.com/prometheus/kube-demo-site/)  | 17 | 6 | 3 |
-| [docker/docker-install](https://github.com/docker/docker-install/)  | 15 | 425 | 210 |
-| [vectordotdev/vector-demos](https://github.com/vectordotdev/vector-demos/)  | 13 | 59 | 13 |
-| [istio/cri](https://github.com/istio/cri/)  | 12 | 152 | 148 |
-| [cilium/connectivity-container](https://github.com/cilium/connectivity-container/)  | 12 | 2 | 0 |
-| [istio/client-go](https://github.com/istio/client-go/)  | 12 | 1035 | 1448 |
-| [siderolabs/go-pointer](https://github.com/siderolabs/go-pointer/)  | 11 | 2 | 0 |
-| [kubernetes-sigs/contributor-playgr~](https://github.com/kubernetes-sigs/contributor-playground/)  | 11 | 1228 | 952 |
-| [cilium/packer-ci-build](https://github.com/cilium/packer-ci-build/)  | 10 | 502 | 340 |
-| [openebs/monitoring](https://github.com/openebs/monitoring/)  | 10 | 194 | 74 |
-| [helm/kind-action](https://github.com/helm/kind-action/)  | 8 | 53 | 49 |
-| [kata-containers/directvolume](https://github.com/kata-containers/directvolume/)  | 8 | 3 | 0 |
-| [cilium/charts](https://github.com/cilium/charts/)  | 7 | 211 | 44 |
-| [helm/get-helm](https://github.com/helm/get-helm/)  | 6 | 8 | 2 |
-| [open-telemetry/opentelemetry-proto~](https://github.com/open-telemetry/opentelemetry-proto-go/)  | 5 | 49 | 82 |
-| [open-telemetry/oteps](https://github.com/open-telemetry/oteps/)  | 4 | 116 | 192 |
-| [open-telemetry/opentelemetry-speci~](https://github.com/open-telemetry/opentelemetry-specification/)  | 4 | 1456 | 1806 |
-| [kubernetes/noderesourcetopology-api](https://github.com/kubernetes/noderesourcetopology-api/)  | 3 | 28 | 0 |
-| [istio/bottestrepo](https://github.com/istio/bottestrepo/)  | 1 | 7 | 22 |
-| [ClickHouse/metabase-clickhouse-dri~](https://github.com/ClickHouse/metabase-clickhouse-driver/)  | 0 | 114 | 59 |
-| [vectordotdev/log-event-json-schema](https://github.com/vectordotdev/log-event-json-schema/)  | 0 | 156 | 33 |
-| [helm/hub](https://github.com/helm/hub/)  | 0 | 920 | 404 |
-| [siderolabs/project-template-go](https://github.com/siderolabs/project-template-go/)  | 0 | 3 | 2 |
-| [siderolabs/build-container](https://github.com/siderolabs/build-container/)  | 0 | 62 | 77 |
-| [siderolabs/playwright-go](https://github.com/siderolabs/playwright-go/)  | 0 | 2 | 0 |
-| [siderolabs/extras](https://github.com/siderolabs/extras/)  | 0 | 55 | 81 |
-| [siderolabs/enhancements](https://github.com/siderolabs/enhancements/)  | 0 | 1 | 0 |
-| [helm/prow](https://github.com/helm/prow/)  | 0 | 3 | 0 |
-| [siderolabs/toolchain-glibc](https://github.com/siderolabs/toolchain-glibc/)  | 0 | 6 | 5 |
-| [siderolabs/.github](https://github.com/siderolabs/.github/)  | 0 | 7 | 0 |
-| [siderolabs/roller-derby](https://github.com/siderolabs/roller-derby/)  | 0 | 3 | 5 |
-| [helm/get-helm-sh](https://github.com/helm/get-helm-sh/)  | 0 | 2 | 0 |
-| [siderolabs/project-template-kubern~](https://github.com/siderolabs/project-template-kubernetes-controller/)  | 0 | 6 | 5 |
-| [siderolabs/cluster-api-templates](https://github.com/siderolabs/cluster-api-templates/)  | 0 | 20 | 22 |
-| [helm/chart-releaser-action](https://github.com/helm/chart-releaser-action/)  | 0 | 53 | 60 |
-| [siderolabs/talos-app](https://github.com/siderolabs/talos-app/)  | 0 | 1 | 0 |
-| [siderolabs/stig](https://github.com/siderolabs/stig/)  | 0 | 4 | 0 |
-| [siderolabs/destruction-derby](https://github.com/siderolabs/destruction-derby/)  | 0 | 31 | 22 |
-| [siderolabs/katacoda-scenarios](https://github.com/siderolabs/katacoda-scenarios/)  | 0 | 4 | 0 |
-| [siderolabs/kernel](https://github.com/siderolabs/kernel/)  | 0 | 22 | 23 |
-| [siderolabs/signing-keys](https://github.com/siderolabs/signing-keys/)  | 0 | 19 | 2 |
-| [kata-containers/ci](https://github.com/kata-containers/ci/)  | 0 | 446 | 193 |
-| [siderolabs/template-go](https://github.com/siderolabs/template-go/)  | 0 | 4 | 3 |
-| [istio/old_issues_repo](https://github.com/istio/old_issues_repo/)  | 0 | 18 | 5 |
-| [kata-containers/documentation](https://github.com/kata-containers/documentation/)  | 0 | 679 | 379 |
-| [kata-containers/.github](https://github.com/kata-containers/.github/)  | 0 | 58 | 25 |
-| [helm/examples](https://github.com/helm/examples/)  | 0 | 10 | 6 |
-| [helm/docker-kubectl-helm-aws](https://github.com/helm/docker-kubectl-helm-aws/)  | 0 | 9 | 7 |
-| [helm/specs](https://github.com/helm/specs/)  | 0 | 3 | 0 |
-| [helm/helm-summit-notes](https://github.com/helm/helm-summit-notes/)  | 0 | 28 | 14 |
-| [go-faster/.github](https://github.com/go-faster/.github/)  | 0 | 21 | 0 |
-| [go-faster/x](https://github.com/go-faster/x/)  | 0 | 109 | 37 |
-| [kubernetes-sigs/sig-usability](https://github.com/kubernetes-sigs/sig-usability/)  | 0 | 15 | 7 |
-| [siderolabs/go-scsi](https://github.com/siderolabs/go-scsi/)  | 0 | 1 | 0 |
-| [istio/enhancements](https://github.com/istio/enhancements/)  | 0 | 116 | 118 |
-| [kubernetes-sigs/krew-index](https://github.com/kubernetes-sigs/krew-index/)  | 0 | 2543 | 2932 |
-| [kubernetes-sigs/lwkd](https://github.com/kubernetes-sigs/lwkd/)  | 0 | 802 | 175 |
-| [kubernetes-sigs/execution-hook](https://github.com/kubernetes-sigs/execution-hook/)  | 0 | 2 | 5 |
-| [kubernetes-sigs/discuss-theme](https://github.com/kubernetes-sigs/discuss-theme/)  | 0 | 6 | 3 |
-| [siderolabs/toolchain-musl](https://github.com/siderolabs/toolchain-musl/)  | 0 | 35 | 38 |
-| [helm/charts-repo-actions-demo](https://github.com/helm/charts-repo-actions-demo/)  | 0 | 55 | 52 |
-| [istio/fortio-deployment](https://github.com/istio/fortio-deployment/)  | 0 | 155 | 74 |
-| [istio/old_manifest_repo](https://github.com/istio/old_manifest_repo/)  | 0 | 21 | 5 |
-| [kubernetes-sigs/iptables-wrappers](https://github.com/kubernetes-sigs/iptables-wrappers/)  | 0 | 10 | 5 |
-| [siderolabs/charts](https://github.com/siderolabs/charts/)  | 0 | 8 | 0 |
-| [kubernetes/sig-release](https://github.com/kubernetes/sig-release/)  | 0 | 3360 | 1383 |
-| [kubernetes/committee-security-resp~](https://github.com/kubernetes/committee-security-response/)  | 0 | 225 | 114 |
-| [kubernetes/.github](https://github.com/kubernetes/.github/)  | 0 | 7 | 3 |
-| [helm/homebrew-tap](https://github.com/helm/homebrew-tap/)  | 0 | 14 | 3 |
-| [helm/docker-kubectl-helm-az](https://github.com/helm/docker-kubectl-helm-az/)  | 0 | 9 | 4 |
-| [helm/chart-testing-action](https://github.com/helm/chart-testing-action/)  | 0 | 66 | 66 |
-| [kubernetes/funding](https://github.com/kubernetes/funding/)  | 0 | 29 | 12 |
-| [ClickHouse/hive-metastore](https://github.com/ClickHouse/hive-metastore/)  | 0 | 4 | 0 |
-| [kubernetes/cloud-provider-sample](https://github.com/kubernetes/cloud-provider-sample/)  | 0 | 6 | 11 |
-| [docker/notary-official-images](https://github.com/docker/notary-official-images/)  | 0 | 46 | 22 |
-| [kubernetes/design-proposals-archive](https://github.com/kubernetes/design-proposals-archive/)  | 0 | 1121 | 0 |
-| [kubernetes/sig-testing](https://github.com/kubernetes/sig-testing/)  | 0 | 4 | 0 |
-| [kubernetes/steering](https://github.com/kubernetes/steering/)  | 0 | 231 | 105 |
-| [kubernetes/kubernetes-template-pro~](https://github.com/kubernetes/kubernetes-template-project/)  | 0 | 71 | 39 |
-| [ClickHouse/libc-headers](https://github.com/ClickHouse/libc-headers/)  | 0 | 18 | 4 |
-| [siderolabs/toolchain](https://github.com/siderolabs/toolchain/)  | 0 | 64 | 71 |
-| [envoyproxy/envoybot](https://github.com/envoyproxy/envoybot/)  | 0 | 12 | 13 |
-| [ClickHouse/clickhouse-com-content](https://github.com/ClickHouse/clickhouse-com-content/)  | 0 | 1 | 11 |
-| [envoyproxy/artwork](https://github.com/envoyproxy/artwork/)  | 0 | 4 | 0 |
-| [ClickHouse/libc-blobs](https://github.com/ClickHouse/libc-blobs/)  | 0 | 5 | 0 |
-| [envoyproxy/misc](https://github.com/envoyproxy/misc/)  | 0 | 3 | 0 |
-| [ClickHouse/sysroot](https://github.com/ClickHouse/sysroot/)  | 0 | 53 | 17 |
-| [envoyproxy/community](https://github.com/envoyproxy/community/)  | 0 | 1 | 0 |
-| [ClickHouse/clickhouse-blog-images](https://github.com/ClickHouse/clickhouse-blog-images/)  | 0 | 93 | 38 |
-| [siderolabs/tools](https://github.com/siderolabs/tools/)  | 0 | 175 | 273 |
-| [siderolabs/bldr-web](https://github.com/siderolabs/bldr-web/)  | 0 | 1 | 4 |
-| [ClickHouse/github-explorer](https://github.com/ClickHouse/github-explorer/)  | 0 | 60 | 4 |
-| [ClickHouse/icudata](https://github.com/ClickHouse/icudata/)  | 0 | 6 | 2 |
-| [vectordotdev/grease-builder](https://github.com/vectordotdev/grease-builder/)  | 0 | 3 | 0 |
-| [docker/buildx-packaging](https://github.com/docker/buildx-packaging/)  | 0 | 40 | 18 |
-| [ClickHouse/readthedocs-stub](https://github.com/ClickHouse/readthedocs-stub/)  | 0 | 2 | 0 |
-| [siderolabs/kubelet](https://github.com/siderolabs/kubelet/)  | 0 | 137 | 66 |
-| [vectordotdev/logfmt-elixir](https://github.com/vectordotdev/logfmt-elixir/)  | 0 | 55 | 0 |
-| [siderolabs/omni-feedback](https://github.com/siderolabs/omni-feedback/)  | 0 | 4 | 0 |
-| [vectordotdev/cli-builder](https://github.com/vectordotdev/cli-builder/)  | 0 | 5 | 0 |
-| [ClickHouse/clickhouse-playground-o~](https://github.com/ClickHouse/clickhouse-playground-old/)  | 0 | 41 | 8 |
-| [vectordotdev/ex_aws_athena](https://github.com/vectordotdev/ex_aws_athena/)  | 0 | 5 | 0 |
-| [vectordotdev/vector-test-harness-g~](https://github.com/vectordotdev/vector-test-harness-github-actions-test-repo/)  | 0 | 66 | 4 |
-| [siderolabs/rfcs](https://github.com/siderolabs/rfcs/)  | 0 | 13 | 8 |
-| [vectordotdev/vector-k8s-examples](https://github.com/vectordotdev/vector-k8s-examples/)  | 0 | 19 | 0 |
-| [vectordotdev/timber-elixir-ecto](https://github.com/vectordotdev/timber-elixir-ecto/)  | 0 | 21 | 8 |
-| [vectordotdev/timber-elixir](https://github.com/vectordotdev/timber-elixir/)  | 0 | 611 | 169 |
-| [vectordotdev/packer-docker](https://github.com/vectordotdev/packer-docker/)  | 0 | 2 | 0 |
-| [docker/hacktoberfest-2022](https://github.com/docker/hacktoberfest-2022/)  | 0 | 168 | 64 |
-| [cilium/ci-kernels](https://github.com/cilium/ci-kernels/)  | 0 | 62 | 32 |
-| [vectordotdev/splunk-cost-cutting](https://github.com/vectordotdev/splunk-cost-cutting/)  | 0 | 29 | 0 |
-| [gotd/gep](https://github.com/gotd/gep/)  | 0 | 2 | 0 |
-| [docker/golang-cross](https://github.com/docker/golang-cross/)  | 0 | 87 | 61 |
-| [grafana/cortex-jsonnet](https://github.com/grafana/cortex-jsonnet/)  | 0 | 982 | 391 |
-| [helm/community](https://github.com/helm/community/)  | 0 | 322 | 163 |
-| [docker/for-linux](https://github.com/docker/for-linux/)  | 0 | 11 | 7 |
-| [docker/containerd-packaging](https://github.com/docker/containerd-packaging/)  | 0 | 584 | 285 |
-| [vectordotdev/docker-client](https://github.com/vectordotdev/docker-client/)  | 0 | 6 | 0 |
-| [grafana/azure-template](https://github.com/grafana/azure-template/)  | 0 | 59 | 7 |
-| [grafana/puppet-grafana](https://github.com/grafana/puppet-grafana/)  | 0 | 1 | 0 |
-| [vectordotdev/timber-node-builder](https://github.com/vectordotdev/timber-node-builder/)  | 0 | 1 | 0 |
-| [cilium/networkpolicy](https://github.com/cilium/networkpolicy/)  | 0 | 5 | 2 |
-| [cilium/openshift-terraform-upi](https://github.com/cilium/openshift-terraform-upi/)  | 0 | 177 | 3 |
-| [vectordotdev/timber-elixir-excepti~](https://github.com/vectordotdev/timber-elixir-exceptions/)  | 0 | 26 | 5 |
-| [vectordotdev/vector-k8s-dev-env](https://github.com/vectordotdev/vector-k8s-dev-env/)  | 0 | 24 | 3 |
-| [cilium/Jenkins-library](https://github.com/cilium/Jenkins-library/)  | 0 | 8 | 0 |
-| [vectordotdev/td-agent-bit-builder-~](https://github.com/vectordotdev/td-agent-bit-builder-amzn/)  | 0 | 4 | 0 |
-| [cilium/chaos-testing-examples](https://github.com/cilium/chaos-testing-examples/)  | 0 | 2 | 0 |
-| [grafana/snap_k8s](https://github.com/grafana/snap_k8s/)  | 0 | 29 | 2 |
-| [docker/docker-bench-security](https://github.com/docker/docker-bench-security/)  | 0 | 840 | 327 |
-| [docker/distribution-library-image](https://github.com/docker/distribution-library-image/)  | 0 | 77 | 61 |
-| [vectordotdev/docker-builder](https://github.com/vectordotdev/docker-builder/)  | 0 | 1 | 0 |
-| [cilium/testing-recipes](https://github.com/cilium/testing-recipes/)  | 0 | 1 | 0 |
-| [cilium/alpine-curl](https://github.com/cilium/alpine-curl/)  | 0 | 64 | 62 |
-| [vectordotdev/timber-elixir-plug](https://github.com/vectordotdev/timber-elixir-plug/)  | 0 | 16 | 4 |
-| [grafana/packer-do-marketplace](https://github.com/grafana/packer-do-marketplace/)  | 0 | 6 | 0 |
-| [vectordotdev/helm-charts](https://github.com/vectordotdev/helm-charts/)  | 0 | 197 | 172 |
-| [vectordotdev/graphing-challenge](https://github.com/vectordotdev/graphing-challenge/)  | 0 | 1 | 0 |
-| [cilium/terraform-gke-ci-management~](https://github.com/cilium/terraform-gke-ci-management-cluster/)  | 0 | 23 | 2 |
-| [vectordotdev/ex_aws_glue](https://github.com/vectordotdev/ex_aws_glue/)  | 0 | 3 | 0 |
-| [grafana/tsconfig-grafana](https://github.com/grafana/tsconfig-grafana/)  | 0 | 14 | 5 |
-| [vectordotdev/docs](https://github.com/vectordotdev/docs/)  | 0 | 215 | 14 |
-| [cilium/echoserver](https://github.com/cilium/echoserver/)  | 0 | 7 | 2 |
-| [cilium/gke](https://github.com/cilium/gke/)  | 0 | 22 | 13 |
-| [cilium/k8s-iptables-diagram](https://github.com/cilium/k8s-iptables-diagram/)  | 0 | 5 | 2 |
-| [vectordotdev/timber-elixir-phoenix](https://github.com/vectordotdev/timber-elixir-phoenix/)  | 0 | 29 | 8 |
-| [vectordotdev/rust-musl-toolchain](https://github.com/vectordotdev/rust-musl-toolchain/)  | 0 | 5 | 0 |
-| [grafana/grafana-docker](https://github.com/grafana/grafana-docker/)  | 0 | 177 | 69 |
-| [grafana/grafana-build-container](https://github.com/grafana/grafana-build-container/)  | 0 | 33 | 5 |
-| [vectordotdev/content-old](https://github.com/vectordotdev/content-old/)  | 0 | 51 | 20 |
-| [cilium/kustomize-bases](https://github.com/cilium/kustomize-bases/)  | 0 | 18 | 0 |
-| [grafana/tutorials](https://github.com/grafana/tutorials/)  | 0 | 461 | 103 |
-| [openebs/openebs](https://github.com/openebs/openebs/)  | 0 | 2906 | 1442 |
-| [openebs/community](https://github.com/openebs/community/)  | 0 | 62 | 19 |
-| [openebs/performance-benchmark](https://github.com/openebs/performance-benchmark/)  | 0 | 8 | 6 |
-| [docker/for-win](https://github.com/docker/for-win/)  | 0 | 49 | 17 |
-| [openebs/charts](https://github.com/openebs/charts/)  | 0 | 316 | 283 |
-| [docker/dev-environments](https://github.com/docker/dev-environments/)  | 0 | 18 | 4 |
-| [ogen-go/corpus](https://github.com/ogen-go/corpus/)  | 0 | 170 | 69 |
-| [docker/desktop-linux](https://github.com/docker/desktop-linux/)  | 0 | 8 | 0 |
-| [cilium/json-mock](https://github.com/cilium/json-mock/)  | 0 | 86 | 86 |
-| [cilium/ubuntu-curl](https://github.com/cilium/ubuntu-curl/)  | 0 | 43 | 43 |
-| [VictoriaMetrics/vmctl](https://github.com/VictoriaMetrics/vmctl/)  | 0 | 85 | 11 |
-| [docker/cli-scan-feedback](https://github.com/docker/cli-scan-feedback/)  | 0 | 5 | 0 |
-| [etcd-io/discovery.etcd.io](https://github.com/etcd-io/discovery.etcd.io/)  | 0 | 82 | 52 |
-| [cilium/clustermesh-tools](https://github.com/cilium/clustermesh-tools/)  | 0 | 7 | 3 |
-| [VictoriaMetrics/vmui](https://github.com/VictoriaMetrics/vmui/)  | 0 | 76 | 16 |
-| [cilium/docker-bind](https://github.com/cilium/docker-bind/)  | 0 | 6 | 2 |
-| [etcd-io/website](https://github.com/etcd-io/website/)  | 0 | 572 | 401 |
-| [docker/scout-action](https://github.com/docker/scout-action/)  | 0 | 2 | 0 |
-| [etcd-io/maintainers](https://github.com/etcd-io/maintainers/)  | 0 | 2 | 0 |
-| [prometheus/busybox](https://github.com/prometheus/busybox/)  | 0 | 64 | 34 |
-| [VictoriaMetrics/VictoriaMetrics.gi~](https://github.com/VictoriaMetrics/VictoriaMetrics.github.io/)  | 0 | 856 | 12 |
-| [VictoriaMetrics/ansible-playbooks](https://github.com/VictoriaMetrics/ansible-playbooks/)  | 0 | 113 | 29 |
-| [cilium/installfest](https://github.com/cilium/installfest/)  | 0 | 15 | 8 |
-| [docker/for-mac](https://github.com/docker/for-mac/)  | 0 | 72 | 31 |
-| [prometheus/snmp_exporter_mibs](https://github.com/prometheus/snmp_exporter_mibs/)  | 0 | 8 | 3 |
-| [prometheus/nagios_plugins](https://github.com/prometheus/nagios_plugins/)  | 0 | 54 | 22 |
-| [prometheus/demo-site](https://github.com/prometheus/demo-site/)  | 0 | 270 | 61 |
-| [cilium/log-gatherer](https://github.com/cilium/log-gatherer/)  | 0 | 3 | 2 |
-| [docker/packaging](https://github.com/docker/packaging/)  | 0 | 723 | 97 |
-| [prometheus/circleci](https://github.com/prometheus/circleci/)  | 0 | 35 | 27 |
-| [prometheus/talks](https://github.com/prometheus/talks/)  | 0 | 11 | 5 |
-| [prometheus/host_exporter](https://github.com/prometheus/host_exporter/)  | 0 | 6 | 2 |
-| [prometheus/golang-builder](https://github.com/prometheus/golang-builder/)  | 0 | 310 | 185 |
-| [docker/extension-ideas](https://github.com/docker/extension-ideas/)  | 0 | 4 | 0 |
-| [grpc/grpc-community](https://github.com/grpc/grpc-community/)  | 0 | 42 | 14 |
-| [docker/community](https://github.com/docker/community/)  | 0 | 544 | 59 |
-| [prometheus/promci](https://github.com/prometheus/promci/)  | 0 | 5 | 0 |
-| [open-telemetry/opentelemetry-profi~](https://github.com/open-telemetry/opentelemetry-profiling/)  | 0 | 1 | 2 |
-| [open-telemetry/.github](https://github.com/open-telemetry/.github/)  | 0 | 5 | 4 |
-| [docker/code-of-conduct](https://github.com/docker/code-of-conduct/)  | 0 | 52 | 23 |
-| [grpc/grpc.io](https://github.com/grpc/grpc.io/)  | 0 | 801 | 674 |
-| [grpc/proposal](https://github.com/grpc/proposal/)  | 0 | 617 | 334 |
-| [docker/roadmap](https://github.com/docker/roadmap/)  | 0 | 32 | 15 |
-| [docker/hub-feedback](https://github.com/docker/hub-feedback/)  | 0 | 31 | 10 |
-| [grpc/coverage](https://github.com/grpc/coverage/)  | 0 | 2 | 0 |
-| [open-telemetry/opentelemetry-helm-~](https://github.com/open-telemetry/opentelemetry-helm-charts/)  | 0 | 354 | 437 |
-| [docker/engine-sync](https://github.com/docker/engine-sync/)  | 0 | 6 | 0 |
-| [open-telemetry/wg-prometheus](https://github.com/open-telemetry/wg-prometheus/)  | 0 | 9 | 9 |
-| [grpc/grpc.github.io](https://github.com/grpc/grpc.github.io/)  | 0 | 2 | 697 |
-| [docker/extensions-submissions](https://github.com/docker/extensions-submissions/)  | 0 | 48 | 21 |
-| [open-telemetry/opentelemetry-go-va~](https://github.com/open-telemetry/opentelemetry-go-vanityurls/)  | 0 | 13 | 14 |
-| [open-telemetry/docs-ja](https://github.com/open-telemetry/docs-ja/)  | 0 | 254 | 38 |
-| [open-telemetry/docs-cn](https://github.com/open-telemetry/docs-cn/)  | 0 | 284 | 99 |
-| [m3db/dtest](https://github.com/m3db/dtest/)  | 0 | 4 | 2 |
-| [m3db/docs-archive](https://github.com/m3db/docs-archive/)  | 0 | 5 | 0 |
-| [m3db/ci-scripts](https://github.com/m3db/ci-scripts/)  | 0 | 103 | 104 |
-| [m3db/proposal](https://github.com/m3db/proposal/)  | 0 | 12 | 5 |
+| Project                                        | SLOC | Commits | PRs | Stars |
+|------------------------------------------------|------|---------|-----|-------|
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/)  | 3351209 | 144463 | 22710 | 171882 |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1488546 | 114442 | 73545 | 96462 |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse/)  | 1112577 | 109729 | 32220 | 27404 |
+| [golang/go](https://github.com/golang/go/)  | 1061006 | 55722 | 2865 | 109154 |
+| [grafana/grafana](https://github.com/grafana/grafana/)  | 889820 | 41339 | 33532 | 54290 |
+| [envoyproxy/envoy](https://github.com/envoyproxy/envoy/)  | 807577 | 17306 | 17107 | 21571 |
+| [openebs/openebs-docs](https://github.com/openebs/openebs-docs/)  | 640750 | 2366 | 832 | 37 |
+| [grpc/grpc](https://github.com/grpc/grpc/)  | 514803 | 52698 | 21634 | 37233 |
+| [grpc/grpc-ios](https://github.com/grpc/grpc-ios/)  | 512418 | 96 | 103 | 22 |
+| [envoyproxy/envoy-wasm](https://github.com/envoyproxy/envoy-wasm/)  | 504503 | 8484 | 454 | 205 |
+| [m3db/m3](https://github.com/m3db/m3/)  | 477343 | 4211 | 3564 | 4366 |
+| [istio/old_vendor-istio_repo](https://github.com/istio/old_vendor-istio_repo/)  | 411548 | 46 | 62 | 2 |
+| [ClickHouse/grpc](https://github.com/ClickHouse/grpc/)  | 397291 | 47064 | 13 | 1 |
+| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-contrib/)  | 389240 | 9606 | 16162 | 1524 |
+| [facebook/react](https://github.com/facebook/react/)  | 357548 | 15583 | 13253 | 203498 |
+| [pixie-io/pixie](https://github.com/pixie-io/pixie/)  | 352478 | 11768 | 549 | 4380 |
+| [istio/istio](https://github.com/istio/istio/)  | 339081 | 19854 | 26467 | 32549 |
+| [kubernetes/autoscaler](https://github.com/kubernetes/autoscaler/)  | 332826 | 6459 | 3739 | 6592 |
+| [cilium/cilium](https://github.com/cilium/cilium/)  | 324822 | 22284 | 16999 | 14569 |
+| [docker/docker-ce](https://github.com/docker/docker-ce/)  | 324419 | 54308 | 662 | 5586 |
+| [LINBIT/linstor-server](https://github.com/LINBIT/linstor-server/)  | 310875 | 4396 | 11 | 649 |
+| [apache/mesos](https://github.com/apache/mesos/)  | 305614 | 18184 | 450 | 5029 |
+| [docker/labs](https://github.com/docker/labs/)  | 304415 | 718 | 398 | 11147 |
+| [envoyproxy/envoy-website](https://github.com/envoyproxy/envoy-website/)  | 299034 | 428 | 252 | 33 |
+| [kubernetes-sigs/security-profiles-~](https://github.com/kubernetes-sigs/security-profiles-operator/)  | 284401 | 1597 | 1334 | 465 |
+| [vectordotdev/vector](https://github.com/vectordotdev/vector/)  | 274642 | 9352 | 9365 | 12907 |
+| [kubernetes/test-infra](https://github.com/kubernetes/test-infra/)  | 270560 | 51941 | 24615 | 3571 |
+| [docker/get-involved](https://github.com/docker/get-involved/)  | 264430 | 1635 | 36 | 24 |
+| [grafana/loki](https://github.com/grafana/loki/)  | 241078 | 4717 | 5180 | 18489 |
+| [grpc/grpc-java](https://github.com/grpc/grpc-java/)  | 235165 | 5735 | 6854 | 10402 |
+| [uber/peloton](https://github.com/uber/peloton/)  | 216371 | 705 | 10 | 582 |
+| [cilium/pwru](https://github.com/cilium/pwru/)  | 194155 | 181 | 125 | 1156 |
+| [ClickHouse/clickhouse-website-cont~](https://github.com/ClickHouse/clickhouse-website-content/)  | 186631 | 1 | 2 | 2 |
+| [cilium/busybox](https://github.com/cilium/busybox/)  | 185793 | 16646 | 0 | 0 |
+| [containers/podman](https://github.com/containers/podman/)  | 174455 | 18210 | 10101 | 17085 |
+| [kubernetes-sigs/cluster-api](https://github.com/kubernetes-sigs/cluster-api/)  | 173316 | 8851 | 5326 | 2775 |
+| [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-instrumentation/)  | 167856 | 8835 | 5066 | 1214 |
+| [kubernetes/kops](https://github.com/kubernetes/kops/)  | 167601 | 19350 | 10375 | 14758 |
+| [Netflix/titus-control-plane](https://github.com/Netflix/titus-control-plane/)  | 157302 | 1663 | 1267 | 319 |
+| [ClickHouse/ssl](https://github.com/ClickHouse/ssl/)  | 156067 | 16 | 2 | 2 |
+| [prometheus/prometheus](https://github.com/prometheus/prometheus/)  | 155113 | 10934 | 6786 | 47081 |
+| [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/)  | 144520 | 5903 | 1822 | 8122 |
+| [grpc/grpc-go](https://github.com/grpc/grpc-go/)  | 143240 | 4462 | 3913 | 17694 |
+| [open-telemetry/opentelemetry-dotne~](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation/)  | 141088 | 927 | 1797 | 224 |
+| [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize/)  | 139479 | 6327 | 3002 | 9410 |
+| [kubernetes/apiserver](https://github.com/kubernetes/apiserver/)  | 131328 | 6180 | 25 | 494 |
+| [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers/)  | 130813 | 10136 | 3007 | 3088 |
+| [siderolabs/talos](https://github.com/siderolabs/talos/)  | 130197 | 3899 | 5193 | 3677 |
+| [etcd-io/etcd](https://github.com/etcd-io/etcd/)  | 125664 | 19331 | 9188 | 42804 |
+| [apache/aurora](https://github.com/apache/aurora/)  | 114792 | 4091 | 71 | 628 |
+| [open-telemetry/opentelemetry-sandb~](https://github.com/open-telemetry/opentelemetry-sandbox-web-js/)  | 113692 | 2822 | 60 | 10 |
+| [kubernetes-sigs/vsphere-csi-driver](https://github.com/kubernetes-sigs/vsphere-csi-driver/)  | 106976 | 2269 | 1841 | 218 |
+| [grafana/agent](https://github.com/grafana/agent/)  | 105905 | 1465 | 1770 | 980 |
+| [openebs/maya](https://github.com/openebs/maya/)  | 100071 | 1799 | 1669 | 180 |
+| [open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java/)  | 96376 | 3268 | 3620 | 1452 |
+| [kubernetes/kubectl](https://github.com/kubernetes/kubectl/)  | 95965 | 2962 | 313 | 2215 |
+| [kubernetes/minikube](https://github.com/kubernetes/minikube/)  | 90069 | 20969 | 7603 | 26015 |
+| [ClickHouse/UnixODBC](https://github.com/ClickHouse/UnixODBC/)  | 88921 | 5 | 2 | 0 |
+| [kubernetes-sigs/cloud-provider-azu~](https://github.com/kubernetes-sigs/cloud-provider-azure/)  | 84466 | 3425 | 3165 | 210 |
+| [docker/cli](https://github.com/docker/cli/)  | 78919 | 8462 | 2687 | 3901 |
+| [kubernetes/ingress-gce](https://github.com/kubernetes/ingress-gce/)  | 78027 | 4552 | 1564 | 1192 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-azure/)  | 77206 | 3614 | 2182 | 244 |
+| [kubernetes-sigs/aws-load-balancer-~](https://github.com/kubernetes-sigs/aws-load-balancer-controller/)  | 76499 | 630 | 1197 | 3264 |
+| [grafana/metrictank](https://github.com/grafana/metrictank/)  | 73770 | 6529 | 1242 | 628 |
+| [ClickHouse/clickhouse-java](https://github.com/ClickHouse/clickhouse-java/)  | 73753 | 1723 | 634 | 1171 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-aws/)  | 73650 | 3831 | 2676 | 543 |
+| [grafana/k6](https://github.com/grafana/k6/)  | 73040 | 5057 | 1451 | 19694 |
+| [kubernetes-sigs/kui](https://github.com/kubernetes-sigs/kui/)  | 72373 | 4834 | 5272 | 2435 |
+| [grpc/grpc-experiments](https://github.com/grpc/grpc-experiments/)  | 71879 | 633 | 232 | 1069 |
+| [kubernetes/client-go](https://github.com/kubernetes/client-go/)  | 65629 | 3800 | 204 | 7399 |
+| [kata-containers/runtime](https://github.com/kata-containers/runtime/)  | 63906 | 2751 | 1453 | 2114 |
+| [grpc/grpc-dotnet](https://github.com/grpc/grpc-dotnet/)  | 63899 | 859 | 941 | 3545 |
+| [VKCOM/statshouse](https://github.com/VKCOM/statshouse/)  | 61053 | 236 | 214 | 120 |
+| [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js/)  | 61017 | 1709 | 2005 | 1798 |
+| [openebs/mayastor-control-plane](https://github.com/openebs/mayastor-control-plane/)  | 60917 | 1231 | 447 | 27 |
+| [kubernetes-sigs/external-dns](https://github.com/kubernetes-sigs/external-dns/)  | 60511 | 3011 | 1858 | 6119 |
+| [vuejs/vue](https://github.com/vuejs/vue/)  | 60290 | 3546 | 2389 | 202656 |
+| [kubernetes/legacy-cloud-providers](https://github.com/kubernetes/legacy-cloud-providers/)  | 60213 | 1807 | 0 | 47 |
+| [kubernetes/apimachinery](https://github.com/kubernetes/apimachinery/)  | 60137 | 2517 | 30 | 661 |
+| [envoyproxy/envoy-mobile](https://github.com/envoyproxy/envoy-mobile/)  | 57633 | 1794 | 2208 | 550 |
+| [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet/)  | 56924 | 2277 | 2792 | 2276 |
+| [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx/)  | 56865 | 6900 | 4907 | 14521 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/)  | 56099 | 1812 | 1064 | 286 |
+| [openebs/mayastor](https://github.com/openebs/mayastor/)  | 54169 | 1877 | 1148 | 457 |
+| [open-telemetry/experimental-arrow-~](https://github.com/open-telemetry/experimental-arrow-collector/)  | 53440 | 4416 | 37 | 11 |
+| [gotd/td](https://github.com/gotd/td/)  | 52603 | 3084 | 788 | 1056 |
+| [open-telemetry/opentelemetry-js-co~](https://github.com/open-telemetry/opentelemetry-js-contrib/)  | 51352 | 1585 | 990 | 420 |
+| [kubernetes/apiextensions-apiserver](https://github.com/kubernetes/apiextensions-apiserver/)  | 51245 | 3162 | 8 | 206 |
+| [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go/)  | 51094 | 1943 | 2389 | 3670 |
+| [Netflix/titus-executor](https://github.com/Netflix/titus-executor/)  | 50847 | 2489 | 997 | 232 |
+| [m3db/m3metrics](https://github.com/m3db/m3metrics/)  | 50672 | 233 | 194 | 9 |
+| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector/)  | 50320 | 4416 | 5092 | 2759 |
+| [kubernetes-sigs/multi-tenancy](https://github.com/kubernetes-sigs/multi-tenancy/)  | 48929 | 2300 | 1064 | 930 |
+| [envoyproxy/pytooling](https://github.com/envoyproxy/pytooling/)  | 48908 | 615 | 619 | 6 |
+| [grpc/grpc-swift](https://github.com/grpc/grpc-swift/)  | 48316 | 1564 | 981 | 1718 |
+| [m3db/pilosa](https://github.com/m3db/pilosa/)  | 46556 | 4474 | 5 | 1 |
+| [openebs/istgt](https://github.com/openebs/istgt/)  | 46447 | 241 | 358 | 20 |
+| [grafana/azure-data-explorer-dataso~](https://github.com/grafana/azure-data-explorer-datasource/)  | 45793 | 790 | 309 | 38 |
+| [open-telemetry/opentelemetry-pytho~](https://github.com/open-telemetry/opentelemetry-python-contrib/)  | 45783 | 1754 | 1021 | 413 |
+| [kubernetes-sigs/cli-utils](https://github.com/kubernetes-sigs/cli-utils/)  | 45255 | 1086 | 543 | 113 |
+| [kubernetes/dashboard](https://github.com/kubernetes/dashboard/)  | 44851 | 4440 | 4943 | 12308 |
+| [istio/old_mixer_repo](https://github.com/istio/old_mixer_repo/)  | 42543 | 741 | 1091 | 68 |
+| [grpc/grpc-node](https://github.com/grpc/grpc-node/)  | 42337 | 4216 | 1367 | 3853 |
+| [open-telemetry/opentelemetry-python](https://github.com/open-telemetry/opentelemetry-python/)  | 42221 | 1404 | 1728 | 1207 |
+| [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime/)  | 42148 | 2221 | 1300 | 1877 |
+| [open-telemetry/opentelemetry-cpp-c~](https://github.com/open-telemetry/opentelemetry-cpp-contrib/)  | 42051 | 157 | 180 | 78 |
+| [helm/helm](https://github.com/helm/helm/)  | 41739 | 6809 | 4836 | 23880 |
+| [open-telemetry/opentelemetry-ebpf](https://github.com/open-telemetry/opentelemetry-ebpf/)  | 41435 | 267 | 110 | 85 |
+| [vitalif/vitastor](https://github.com/vitalif/vitastor/)  | 40876 | 1224 | 12 | 69 |
+| [kubernetes-sigs/sig-windows-samples](https://github.com/kubernetes-sigs/sig-windows-samples/)  | 40825 | 52 | 3 | 5 |
+| [VKCOM/VKUI](https://github.com/VKCOM/VKUI/)  | 40406 | 9583 | 2875 | 757 |
+| [m3db/m3aggregator](https://github.com/m3db/m3aggregator/)  | 39089 | 177 | 142 | 13 |
+| [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder/)  | 38012 | 2978 | 1847 | 6199 |
+| [uber/kraken](https://github.com/uber/kraken/)  | 37408 | 867 | 238 | 5361 |
+| [kubernetes/cloud-provider-alibaba-~](https://github.com/kubernetes/cloud-provider-alibaba-cloud/)  | 37304 | 799 | 283 | 321 |
+| [ogen-go/ogen](https://github.com/ogen-go/ogen/)  | 36658 | 3267 | 700 | 454 |
+| [ClickHouse/libpq](https://github.com/ClickHouse/libpq/)  | 36352 | 35 | 7 | 1 |
+| [openebs/cstor-operators](https://github.com/openebs/cstor-operators/)  | 36302 | 298 | 358 | 83 |
+| [VictoriaMetrics/operator](https://github.com/VictoriaMetrics/operator/)  | 35457 | 662 | 313 | 278 |
+| [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go/)  | 34226 | 1262 | 459 | 2302 |
+| [istio/get-istioctl](https://github.com/istio/get-istioctl/)  | 34103 | 13 | 0 | 6 |
+| [kubernetes/cloud-provider-gcp](https://github.com/kubernetes/cloud-provider-gcp/)  | 33691 | 1459 | 420 | 78 |
+| [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp/)  | 33554 | 1005 | 1187 | 431 |
+| [kubernetes/perf-tests](https://github.com/kubernetes/perf-tests/)  | 33389 | 3123 | 1888 | 764 |
+| [open-telemetry/opentelemetry-dotne~](https://github.com/open-telemetry/opentelemetry-dotnet-contrib/)  | 33382 | 732 | 850 | 230 |
+| [prometheus/alertmanager](https://github.com/prometheus/alertmanager/)  | 31884 | 2812 | 1677 | 5544 |
+| [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php/)  | 30979 | 508 | 591 | 519 |
+| [kubernetes/kube-openapi](https://github.com/kubernetes/kube-openapi/)  | 30917 | 1258 | 308 | 232 |
+| [ClickHouse/libc-headers](https://github.com/ClickHouse/libc-headers/)  | 30907 | 18 | 4 | 0 |
+| [open-telemetry/opentelemetry-rust](https://github.com/open-telemetry/opentelemetry-rust/)  | 30530 | 574 | 597 | 997 |
+| [docker/machine](https://github.com/docker/machine/)  | 29940 | 3463 | 1957 | 6562 |
+| [cilium/ebpf](https://github.com/cilium/ebpf/)  | 29933 | 1290 | 686 | 4160 |
+| [m3db/m3cluster](https://github.com/m3db/m3cluster/)  | 29627 | 238 | 227 | 21 |
+| [open-telemetry/opentelemetry-log-c~](https://github.com/open-telemetry/opentelemetry-log-collection/)  | 28053 | 267 | 373 | 92 |
+| [envoyproxy/nighthawk](https://github.com/envoyproxy/nighthawk/)  | 27852 | 578 | 655 | 272 |
+| [kubernetes-sigs/alibaba-cloud-csi-~](https://github.com/kubernetes-sigs/alibaba-cloud-csi-driver/)  | 27638 | 1341 | 590 | 444 |
+| [kubernetes/release](https://github.com/kubernetes/release/)  | 27346 | 5187 | 2392 | 436 |
+| [docker/docker-py](https://github.com/docker/docker-py/)  | 27332 | 3299 | 1538 | 6131 |
+| [open-telemetry/opentelemetry-go-co~](https://github.com/open-telemetry/opentelemetry-go-contrib/)  | 27256 | 1046 | 3210 | 684 |
+| [cilium/hubble-ui](https://github.com/cilium/hubble-ui/)  | 26768 | 385 | 426 | 237 |
+| [ClickHouse/libhdfs3](https://github.com/ClickHouse/libhdfs3/)  | 26723 | 64 | 34 | 23 |
+| [ClickHouse/clickhouse-cpp](https://github.com/ClickHouse/clickhouse-cpp/)  | 26671 | 673 | 172 | 215 |
+| [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-contrib/)  | 26343 | 562 | 644 | 80 |
+| [open-telemetry/opentelemetry-swift](https://github.com/open-telemetry/opentelemetry-swift/)  | 25907 | 618 | 252 | 126 |
+| [envoyproxy/java-control-plane](https://github.com/envoyproxy/java-control-plane/)  | 25478 | 235 | 206 | 246 |
+| [grafana/grafana-plugin-sdk-go](https://github.com/grafana/grafana-plugin-sdk-go/)  | 25368 | 415 | 531 | 157 |
+| [kubernetes-sigs/scheduler-plugins](https://github.com/kubernetes-sigs/scheduler-plugins/)  | 25340 | 642 | 349 | 733 |
+| [kubernetes-sigs/kubefed](https://github.com/kubernetes-sigs/kubefed/)  | 25048 | 2745 | 978 | 2450 |
+| [docker/compose-cli](https://github.com/docker/compose-cli/)  | 24959 | 3024 | 1214 | 910 |
+| [grafana/terraform-provider-grafana](https://github.com/grafana/terraform-provider-grafana/)  | 24623 | 697 | 522 | 312 |
+| [siderolabs/theila](https://github.com/siderolabs/theila/)  | 24315 | 100 | 114 | 45 |
+| [kubernetes/kube-state-metrics](https://github.com/kubernetes/kube-state-metrics/)  | 23693 | 2570 | 1234 | 4370 |
+| [open-telemetry/opentelemetry-opera~](https://github.com/open-telemetry/opentelemetry-operator/)  | 23641 | 781 | 1019 | 675 |
+| [openebs/elves](https://github.com/openebs/elves/)  | 23246 | 234 | 47 | 17 |
+| [openebs/node-disk-manager](https://github.com/openebs/node-disk-manager/)  | 23219 | 451 | 533 | 170 |
+| [istio/old_pilot_repo](https://github.com/istio/old_pilot_repo/)  | 22997 | 688 | 1241 | 138 |
+| [istio/proxy](https://github.com/istio/proxy/)  | 22423 | 2482 | 4232 | 700 |
+| [kubernetes-sigs/azuredisk-csi-driv~](https://github.com/kubernetes-sigs/azuredisk-csi-driver/)  | 21740 | 2724 | 1337 | 113 |
+| [envoyproxy/gateway](https://github.com/envoyproxy/gateway/)  | 21624 | 539 | 632 | 886 |
+| [istio/operator](https://github.com/istio/operator/)  | 21286 | 508 | 780 | 174 |
+| [kubernetes-sigs/structured-merge-d~](https://github.com/kubernetes-sigs/structured-merge-diff/)  | 20928 | 495 | 208 | 74 |
+| [prometheus/procfs](https://github.com/prometheus/procfs/)  | 20804 | 572 | 372 | 618 |
+| [prometheus/client_golang](https://github.com/prometheus/client_golang/)  | 20747 | 1447 | 741 | 4436 |
+| [docker/buildx](https://github.com/docker/buildx/)  | 20627 | 1420 | 722 | 2473 |
+| [kubernetes/cloud-provider-vsphere](https://github.com/kubernetes/cloud-provider-vsphere/)  | 20499 | 1087 | 472 | 189 |
+| [kubernetes/cloud-provider-openstack](https://github.com/kubernetes/cloud-provider-openstack/)  | 20280 | 2670 | 1368 | 507 |
+| [open-telemetry/opentelemetry-ruby-~](https://github.com/open-telemetry/opentelemetry-ruby-contrib/)  | 19976 | 895 | 241 | 29 |
+| [prometheus/node_exporter](https://github.com/prometheus/node_exporter/)  | 19276 | 1966 | 1410 | 8559 |
+| [envoyproxy/data-plane-api](https://github.com/envoyproxy/data-plane-api/)  | 19231 | 2388 | 540 | 510 |
+| [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler/)  | 19077 | 1334 | 667 | 3212 |
+| [cilium/cilium-olm](https://github.com/cilium/cilium-olm/)  | 19028 | 341 | 55 | 11 |
+| [ClickHouse/libgsasl](https://github.com/ClickHouse/libgsasl/)  | 18930 | 21 | 8 | 0 |
+| [grpc/grpc-dart](https://github.com/grpc/grpc-dart/)  | 18720 | 228 | 297 | 759 |
+| [cilium/cilium-cli](https://github.com/cilium/cilium-cli/)  | 18381 | 1387 | 1135 | 205 |
+| [kubernetes-sigs/gcp-filestore-csi-~](https://github.com/kubernetes-sigs/gcp-filestore-csi-driver/)  | 17882 | 593 | 403 | 68 |
+| [istio/tools](https://github.com/istio/tools/)  | 17492 | 1793 | 2388 | 302 |
+| [openebs/dynamic-nfs-provisioner](https://github.com/openebs/dynamic-nfs-provisioner/)  | 17333 | 112 | 109 | 103 |
+| [docker/compose](https://github.com/docker/compose/)  | 17332 | 4010 | 3515 | 28796 |
+| [docker/compose-on-kubernetes](https://github.com/docker/compose-on-kubernetes/)  | 17216 | 236 | 114 | 1425 |
+| [kubernetes-sigs/etcdadm](https://github.com/kubernetes-sigs/etcdadm/)  | 16898 | 1219 | 248 | 652 |
+| [kubernetes/api](https://github.com/kubernetes/api/)  | 16874 | 6711 | 10 | 514 |
+| [ClickHouse/libcxx](https://github.com/ClickHouse/libcxx/)  | 16510 | 38 | 14 | 0 |
+| [open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby/)  | 16445 | 763 | 919 | 375 |
+| [ClickHouse/clickhouse-odbc](https://github.com/ClickHouse/clickhouse-odbc/)  | 16287 | 1110 | 172 | 222 |
+| [kubernetes-sigs/aws-ebs-csi-driver](https://github.com/kubernetes-sigs/aws-ebs-csi-driver/)  | 16204 | 1654 | 882 | 720 |
+| [ClickHouse/boost](https://github.com/ClickHouse/boost/)  | 16195 | 83 | 28 | 1 |
+| [ClickHouse/antlr4-runtime](https://github.com/ClickHouse/antlr4-runtime/)  | 16181 | 306 | 0 | 1 |
+| [kubernetes-sigs/boskos](https://github.com/kubernetes-sigs/boskos/)  | 15965 | 923 | 129 | 93 |
+| [openebs/dynamic-localpv-provisioner](https://github.com/openebs/dynamic-localpv-provisioner/)  | 15882 | 154 | 123 | 88 |
+| [kubernetes-sigs/gcp-compute-persis~](https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver/)  | 15729 | 1373 | 824 | 133 |
+| [prometheus/client_java](https://github.com/prometheus/client_java/)  | 15646 | 578 | 490 | 1929 |
+| [grafana/carbon-relay-ng](https://github.com/grafana/carbon-relay-ng/)  | 15553 | 1118 | 258 | 454 |
+| [go-faster/yamlx](https://github.com/go-faster/yamlx/)  | 15442 | 540 | 38 | 5 |
+| [kubernetes-sigs/azurefile-csi-driv~](https://github.com/kubernetes-sigs/azurefile-csi-driver/)  | 15239 | 2443 | 886 | 113 |
+| [ClickHouse/boost-extra](https://github.com/ClickHouse/boost-extra/)  | 15221 | 34 | 0 | 0 |
+| [kubernetes-sigs/promo-tools](https://github.com/kubernetes-sigs/promo-tools/)  | 15135 | 1617 | 602 | 125 |
+| [etcd-io/raft](https://github.com/etcd-io/raft/)  | 15020 | 1195 | 19 | 139 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-openstack/)  | 15014 | 1438 | 977 | 220 |
+| [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go/)  | 14953 | 1096 | 230 | 230 |
+| [kubernetes/cloud-provider-aws](https://github.com/kubernetes/cloud-provider-aws/)  | 14921 | 975 | 401 | 294 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-ibmcloud/)  | 14588 | 727 | 840 | 55 |
+| [openebs/jiva](https://github.com/openebs/jiva/)  | 14573 | 804 | 337 | 133 |
+| [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind/)  | 14569 | 3800 | 1596 | 11234 |
+| [docker/libcompose](https://github.com/docker/libcompose/)  | 14354 | 673 | 361 | 587 |
+| [docker/go-docker](https://github.com/docker/go-docker/)  | 14335 | 7 | 4 | 179 |
+| [kubernetes/cloud-provider](https://github.com/kubernetes/cloud-provider/)  | 14187 | 1049 | 0 | 182 |
+| [VictoriaMetrics/grafana-datasource](https://github.com/VictoriaMetrics/grafana-datasource/)  | 14133 | 189 | 29 | 23 |
+| [falcosecurity/falco](https://github.com/falcosecurity/falco/)  | 13984 | 3557 | 1446 | 5681 |
+| [kubernetes/component-base](https://github.com/kubernetes/component-base/)  | 13743 | 1264 | 0 | 84 |
+| [kubernetes-sigs/node-feature-disco~](https://github.com/kubernetes-sigs/node-feature-discovery/)  | 13630 | 1550 | 832 | 541 |
+| [docker/awesome-compose](https://github.com/docker/awesome-compose/)  | 13508 | 267 | 255 | 21867 |
+| [prometheus/promlens](https://github.com/prometheus/promlens/)  | 13504 | 78 | 81 | 307 |
+| [grafana/har-to-k6](https://github.com/grafana/har-to-k6/)  | 13480 | 627 | 84 | 77 |
+| [istio/bots](https://github.com/istio/bots/)  | 13471 | 638 | 652 | 10 |
+| [m3db/m3coordinator](https://github.com/m3db/m3coordinator/)  | 13259 | 68 | 54 | 4 |
+| [m3db/m3ninx](https://github.com/m3db/m3ninx/)  | 13230 | 67 | 77 | 3 |
+| [envoyproxy/playground](https://github.com/envoyproxy/playground/)  | 13086 | 192 | 168 | 7 |
+| [go-faster/hx](https://github.com/go-faster/hx/)  | 13037 | 1473 | 12 | 4 |
+| [prometheus/common](https://github.com/prometheus/common/)  | 12964 | 497 | 362 | 224 |
+| [open-telemetry/opentelemetry-php-c~](https://github.com/open-telemetry/opentelemetry-php-contrib/)  | 12762 | 320 | 112 | 22 |
+| [m3db/m3x](https://github.com/m3db/m3x/)  | 12696 | 208 | 206 | 17 |
+| [etcd-io/bbolt](https://github.com/etcd-io/bbolt/)  | 12588 | 1164 | 220 | 6237 |
+| [siderolabs/sidero](https://github.com/siderolabs/sidero/)  | 12377 | 366 | 839 | 257 |
+| [docker/app](https://github.com/docker/app/)  | 12333 | 1544 | 650 | 1584 |
+| [grafana/ksonnet](https://github.com/grafana/ksonnet/)  | 12180 | 434 | 0 | 0 |
+| [m3db/m3db-operator](https://github.com/m3db/m3db-operator/)  | 11985 | 230 | 247 | 134 |
+| [openebs/openebsctl](https://github.com/openebs/openebsctl/)  | 11906 | 112 | 105 | 27 |
+| [kata-containers/agent](https://github.com/kata-containers/agent/)  | 11891 | 833 | 515 | 237 |
+| [openebs/website](https://github.com/openebs/website/)  | 11856 | 1152 | 342 | 11 |
+| [grafana/jslib.k6.io](https://github.com/grafana/jslib.k6.io/)  | 11563 | 189 | 71 | 32 |
+| [open-telemetry/opentelemetry-erlang](https://github.com/open-telemetry/opentelemetry-erlang/)  | 11535 | 1144 | 355 | 253 |
+| [prometheus/pushgateway](https://github.com/prometheus/pushgateway/)  | 11509 | 669 | 267 | 2514 |
+| [kubernetes-sigs/blob-csi-driver](https://github.com/kubernetes-sigs/blob-csi-driver/)  | 11381 | 1663 | 645 | 97 |
+| [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv/)  | 11373 | 275 | 320 | 261 |
+| [docker/getting-started](https://github.com/docker/getting-started/)  | 11356 | 190 | 212 | 2541 |
+| [ClickHouse/clickhouse-presentations](https://github.com/ClickHouse/clickhouse-presentations/)  | 11213 | 515 | 39 | 834 |
+| [m3db/m3msg](https://github.com/m3db/m3msg/)  | 11194 | 62 | 55 | 15 |
+| [docker/engine-api](https://github.com/docker/engine-api/)  | 11164 | 9154 | 327 | 267 |
+| [kubernetes-sigs/kubebuilder-declar~](https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern/)  | 11087 | 591 | 262 | 188 |
+| [cilium/proxy](https://github.com/cilium/proxy/)  | 10984 | 567 | 116 | 82 |
+| [kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools/)  | 10903 | 773 | 455 | 549 |
+| [envoyproxy/xds-relay](https://github.com/envoyproxy/xds-relay/)  | 10813 | 127 | 162 | 128 |
+| [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv/)  | 10735 | 182 | 144 | 141 |
+| [open-telemetry/assign-reviewers-ac~](https://github.com/open-telemetry/assign-reviewers-action/)  | 10717 | 5 | 6 | 6 |
+| [kubernetes/code-generator](https://github.com/kubernetes/code-generator/)  | 10645 | 1073 | 17 | 1394 |
+| [grafana/jmeter-to-k6](https://github.com/grafana/jmeter-to-k6/)  | 10629 | 347 | 24 | 57 |
+| [kubernetes/utils](https://github.com/kubernetes/utils/)  | 10611 | 893 | 233 | 256 |
+| [kubernetes/node-problem-detector](https://github.com/kubernetes/node-problem-detector/)  | 10541 | 753 | 434 | 2258 |
+| [grpc/grpc-kotlin](https://github.com/grpc/grpc-kotlin/)  | 10497 | 230 | 184 | 977 |
+| [kubernetes/cli-runtime](https://github.com/kubernetes/cli-runtime/)  | 10483 | 913 | 5 | 240 |
+| [grafana/tanka](https://github.com/grafana/tanka/)  | 10369 | 449 | 469 | 1896 |
+| [istio/pkg](https://github.com/istio/pkg/)  | 10199 | 859 | 763 | 47 |
+| [kubernetes-sigs/kube-batch](https://github.com/kubernetes-sigs/kube-batch/)  | 10197 | 1345 | 691 | 1035 |
+| [istio/istio.io](https://github.com/istio/istio.io/)  | 10154 | 8352 | 10950 | 681 |
+| [istio/old_mixerclient_repo](https://github.com/istio/old_mixerclient_repo/)  | 10004 | 228 | 409 | 15 |
+| [kubernetes/kubeadm](https://github.com/kubernetes/kubeadm/)  | 9995 | 1023 | 520 | 3362 |
+| [etcd-io/jetcd](https://github.com/etcd-io/jetcd/)  | 9809 | 1185 | 742 | 970 |
+| [kubernetes-sigs/secrets-store-csi-~](https://github.com/kubernetes-sigs/secrets-store-csi-driver/)  | 9699 | 1195 | 747 | 939 |
+| [istio/ztunnel](https://github.com/istio/ztunnel/)  | 9696 | 275 | 301 | 90 |
+| [go-faster/jx](https://github.com/go-faster/jx/)  | 9667 | 1408 | 65 | 80 |
+| [cilium/kube-apate](https://github.com/cilium/kube-apate/)  | 9590 | 18 | 0 | 4 |
+| [grafana/cortex-tools](https://github.com/grafana/cortex-tools/)  | 9567 | 270 | 179 | 133 |
+| [kubernetes-sigs/cloud-provider-hua~](https://github.com/kubernetes-sigs/cloud-provider-huaweicloud/)  | 9428 | 415 | 171 | 25 |
+| [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter/)  | 9406 | 847 | 310 | 823 |
+| [kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api/)  | 9380 | 2300 | 1115 | 871 |
+| [grafana/worldmap-panel](https://github.com/grafana/worldmap-panel/)  | 9361 | 232 | 74 | 294 |
+| [openebs/cstor-csi](https://github.com/openebs/cstor-csi/)  | 9349 | 157 | 172 | 23 |
+| [kubernetes-sigs/cri-tools](https://github.com/kubernetes-sigs/cri-tools/)  | 9232 | 1532 | 794 | 1217 |
+| [openebs/jiva-operator](https://github.com/openebs/jiva-operator/)  | 9218 | 148 | 170 | 37 |
+| [kubernetes/kompose](https://github.com/kubernetes/kompose/)  | 9201 | 1463 | 895 | 8309 |
+| [ClickHouse/clickhouse-jdbc-bridge](https://github.com/ClickHouse/clickhouse-jdbc-bridge/)  | 9158 | 127 | 85 | 137 |
+| [envoyproxy/go-control-plane](https://github.com/envoyproxy/go-control-plane/)  | 9128 | 1365 | 398 | 1287 |
+| [grpc/test-infra](https://github.com/grpc/test-infra/)  | 9113 | 484 | 346 | 64 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-gcp/)  | 8963 | 1112 | 673 | 131 |
+| [ClickHouse/libcxxabi](https://github.com/ClickHouse/libcxxabi/)  | 8810 | 14 | 4 | 0 |
+| [kubernetes-sigs/apiserver-network-~](https://github.com/kubernetes-sigs/apiserver-network-proxy/)  | 8794 | 640 | 316 | 262 |
+| [kubernetes/pod-security-admission](https://github.com/kubernetes/pod-security-admission/)  | 8784 | 465 | 0 | 77 |
+| [ClickHouse/graphouse](https://github.com/ClickHouse/graphouse/)  | 8737 | 542 | 160 | 251 |
+| [ClickHouse/clickhouse-connect](https://github.com/ClickHouse/clickhouse-connect/)  | 8723 | 229 | 84 | 86 |
+| [kubernetes-sigs/cli-experimental](https://github.com/kubernetes-sigs/cli-experimental/)  | 8601 | 278 | 200 | 65 |
+| [kubernetes/gengo](https://github.com/kubernetes/gengo/)  | 8416 | 455 | 182 | 485 |
+| [kubernetes-sigs/cloud-provider-bai~](https://github.com/kubernetes-sigs/cloud-provider-baiducloud/)  | 8390 | 213 | 71 | 38 |
+| [m3db/m3em](https://github.com/m3db/m3em/)  | 8125 | 25 | 19 | 1 |
+| [openebs/mayastor-extensions](https://github.com/openebs/mayastor-extensions/)  | 7899 | 220 | 125 | 10 |
+| [envoyproxy/ratelimit](https://github.com/envoyproxy/ratelimit/)  | 7866 | 150 | 235 | 1798 |
+| [open-telemetry/opentelemetry-go-bu~](https://github.com/open-telemetry/opentelemetry-go-build-tools/)  | 7775 | 309 | 242 | 21 |
+| [openebs/device-localpv](https://github.com/openebs/device-localpv/)  | 7745 | 55 | 49 | 15 |
+| [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew/)  | 7644 | 478 | 479 | 5396 |
+| [prometheus/client_python](https://github.com/prometheus/client_python/)  | 7601 | 512 | 389 | 3254 |
+| [grafana/grafana-polystat-panel](https://github.com/grafana/grafana-polystat-panel/)  | 7580 | 199 | 124 | 74 |
+| [kubernetes/kube-aggregator](https://github.com/kubernetes/kube-aggregator/)  | 7488 | 2080 | 11 | 223 |
+| [grafana/grafana-api-golang-client](https://github.com/grafana/grafana-api-golang-client/)  | 7470 | 402 | 135 | 71 |
+| [kubernetes-sigs/aws-iam-authentica~](https://github.com/kubernetes-sigs/aws-iam-authenticator/)  | 7355 | 515 | 313 | 1968 |
+| [kubernetes-sigs/aws-efs-csi-driver](https://github.com/kubernetes-sigs/aws-efs-csi-driver/)  | 7318 | 689 | 585 | 568 |
+| [openebs/upgrade](https://github.com/openebs/upgrade/)  | 7223 | 122 | 135 | 10 |
+| [grafana/postman-to-k6](https://github.com/grafana/postman-to-k6/)  | 7221 | 607 | 58 | 268 |
+| [kubernetes-sigs/instrumentation-to~](https://github.com/kubernetes-sigs/instrumentation-tools/)  | 7192 | 92 | 6 | 25 |
+| [docker/kitematic](https://github.com/docker/kitematic/)  | 7101 | 2335 | 534 | 12269 |
+| [grpc/grpc-web](https://github.com/grpc/grpc-web/)  | 7078 | 888 | 622 | 7380 |
+| [kubernetes/dns](https://github.com/kubernetes/dns/)  | 7033 | 710 | 318 | 802 |
+| [grafana/opcua-datasource](https://github.com/grafana/opcua-datasource/)  | 7031 | 370 | 44 | 45 |
+| [prometheus/mysqld_exporter](https://github.com/prometheus/mysqld_exporter/)  | 6994 | 605 | 412 | 1699 |
+| [openebs/libcstor](https://github.com/openebs/libcstor/)  | 6959 | 77 | 89 | 14 |
+| [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo/)  | 6884 | 420 | 549 | 690 |
+| [cilium/hubble](https://github.com/cilium/hubble/)  | 6843 | 796 | 757 | 2540 |
+| [grafana/attic](https://github.com/grafana/attic/)  | 6818 | 426 | 0 | 1 |
+| [envoyproxy/envoy-build-tools](https://github.com/envoyproxy/envoy-build-tools/)  | 6816 | 320 | 182 | 36 |
+| [kubernetes-sigs/reference-docs](https://github.com/kubernetes-sigs/reference-docs/)  | 6815 | 492 | 233 | 65 |
+| [grafana/kairosdb-datasource](https://github.com/grafana/kairosdb-datasource/)  | 6755 | 110 | 43 | 31 |
+| [cilium/image-tools](https://github.com/cilium/image-tools/)  | 6736 | 239 | 192 | 11 |
+| [helm/chartmuseum](https://github.com/helm/chartmuseum/)  | 6654 | 613 | 333 | 3119 |
+| [etcd-io/dbtester](https://github.com/etcd-io/dbtester/)  | 6595 | 1226 | 288 | 250 |
+| [kubernetes-sigs/apiserver-builder-~](https://github.com/kubernetes-sigs/apiserver-builder-alpha/)  | 6580 | 1070 | 434 | 717 |
+| [envoyproxy/envoy-perf](https://github.com/envoyproxy/envoy-perf/)  | 6501 | 142 | 160 | 107 |
+| [gotd/botapi](https://github.com/gotd/botapi/)  | 6402 | 653 | 313 | 18 |
+| [kubernetes/csi-translation-lib](https://github.com/kubernetes/csi-translation-lib/)  | 6360 | 658 | 0 | 10 |
+| [open-telemetry/opamp-go](https://github.com/open-telemetry/opamp-go/)  | 6328 | 92 | 110 | 60 |
+| [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2/)  | 6307 | 535 | 177 | 259 |
+| [kubernetes-sigs/slack-infra](https://github.com/kubernetes-sigs/slack-infra/)  | 6124 | 108 | 44 | 85 |
+| [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 | 866 |
+| [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook/)  | 5993 | 38 | 32 | 3 |
+| [siderolabs/kres](https://github.com/siderolabs/kres/)  | 5987 | 152 | 199 | 22 |
+| [ClickHouse/bzip2](https://github.com/ClickHouse/bzip2/)  | 5964 | 141 | 0 | 1 |
+| [prometheus/blackbox_exporter](https://github.com/prometheus/blackbox_exporter/)  | 5942 | 455 | 436 | 3484 |
+| [grafana/devtools](https://github.com/grafana/devtools/)  | 5940 | 139 | 22 | 9 |
+| [docker/go](https://github.com/docker/go/)  | 5884 | 24 | 8 | 17 |
+| [kata-containers/govmm](https://github.com/kata-containers/govmm/)  | 5875 | 402 | 151 | 304 |
+| [docker/volumes-backup-extension](https://github.com/docker/volumes-backup-extension/)  | 5873 | 228 | 76 | 47 |
+| [istio/api](https://github.com/istio/api/)  | 5811 | 1685 | 2454 | 404 |
+| [kubernetes/website](https://github.com/kubernetes/website/)  | 5767 | 39075 | 29119 | 3683 |
+| [docker/metadata-action](https://github.com/docker/metadata-action/)  | 5744 | 318 | 157 | 563 |
+| [grafana/azure-monitor-datasource](https://github.com/grafana/azure-monitor-datasource/)  | 5611 | 170 | 18 | 91 |
+| [prometheus/compliance](https://github.com/prometheus/compliance/)  | 5606 | 147 | 79 | 105 |
+| [kubernetes-sigs/metrics-server](https://github.com/kubernetes-sigs/metrics-server/)  | 5559 | 989 | 602 | 4546 |
+| [kubernetes/component-helpers](https://github.com/kubernetes/component-helpers/)  | 5547 | 329 | 0 | 11 |
+| [m3db/m3storage](https://github.com/m3db/m3storage/)  | 5511 | 38 | 15 | 3 |
+| [openebs/api](https://github.com/openebs/api/)  | 5374 | 88 | 99 | 7 |
+| [kubernetes-sigs/cluster-addons](https://github.com/kubernetes-sigs/cluster-addons/)  | 5371 | 261 | 89 | 147 |
+| [prometheus/codemirror-promql](https://github.com/prometheus/codemirror-promql/)  | 5312 | 516 | 151 | 35 |
+| [VictoriaMetrics/metricsql](https://github.com/VictoriaMetrics/metricsql/)  | 5287 | 102 | 6 | 136 |
+| [kubernetes-sigs/aws-fsx-csi-driver](https://github.com/kubernetes-sigs/aws-fsx-csi-driver/)  | 5247 | 409 | 204 | 103 |
+| [grafana/kubernetes-app](https://github.com/grafana/kubernetes-app/)  | 5231 | 199 | 23 | 397 |
+| [helm/helm-classic](https://github.com/helm/helm-classic/)  | 5214 | 574 | 274 | 578 |
+| [etcd-io/zetcd](https://github.com/etcd-io/zetcd/)  | 5152 | 135 | 58 | 1065 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-digitalocean/)  | 5086 | 399 | 383 | 92 |
+| [m3db/m3ctl](https://github.com/m3db/m3ctl/)  | 4984 | 82 | 64 | 14 |
+| [grafana/gel-app](https://github.com/grafana/gel-app/)  | 4915 | 119 | 47 | 2 |
+| [prometheus/snmp_exporter](https://github.com/prometheus/snmp_exporter/)  | 4779 | 553 | 416 | 1185 |
+| [helm/monocular](https://github.com/helm/monocular/)  | 4741 | 399 | 362 | 1435 |
+| [kata-containers/tests](https://github.com/kata-containers/tests/)  | 4723 | 4332 | 2783 | 135 |
+| [gotd/contrib](https://github.com/gotd/contrib/)  | 4722 | 568 | 317 | 10 |
+| [kubernetes-sigs/image-builder](https://github.com/kubernetes-sigs/image-builder/)  | 4634 | 2592 | 815 | 248 |
+| [grafana/grafana-sensu-app](https://github.com/grafana/grafana-sensu-app/)  | 4610 | 16 | 45 | 8 |
+| [istio/old_auth_repo](https://github.com/istio/old_auth_repo/)  | 4574 | 166 | 230 | 73 |
+| [openebs/velero-plugin](https://github.com/openebs/velero-plugin/)  | 4537 | 119 | 137 | 43 |
+| [kubernetes-sigs/sig-storage-lib-ex~](https://github.com/kubernetes-sigs/sig-storage-lib-external-provisioner/)  | 4428 | 156 | 87 | 449 |
+| [prometheus/test-infra](https://github.com/prometheus/test-infra/)  | 4417 | 476 | 374 | 130 |
+| [vectordotdev/lumberjack-store](https://github.com/vectordotdev/lumberjack-store/)  | 4385 | 8 | 0 | 0 |
+| [kubernetes/k8s.io](https://github.com/kubernetes/k8s.io/)  | 4349 | 9335 | 4383 | 450 |
+| [docker/hub-tool](https://github.com/docker/hub-tool/)  | 4343 | 251 | 121 | 264 |
+| [kubernetes/mount-utils](https://github.com/kubernetes/mount-utils/)  | 4287 | 201 | 3 | 39 |
+| [docker/libtrust](https://github.com/docker/libtrust/)  | 4281 | 67 | 44 | 107 |
+| [openebs/spdk-rs](https://github.com/openebs/spdk-rs/)  | 4271 | 44 | 25 | 8 |
+| [openebs/openebs-k8s-provisioner](https://github.com/openebs/openebs-k8s-provisioner/)  | 4249 | 106 | 9 | 1 |
+| [istio/test-infra](https://github.com/istio/test-infra/)  | 4215 | 3960 | 4280 | 66 |
+| [siderolabs/go-blockdevice](https://github.com/siderolabs/go-blockdevice/)  | 4177 | 58 | 62 | 10 |
+| [istio/gogo-genproto](https://github.com/istio/gogo-genproto/)  | 4141 | 280 | 378 | 7 |
+| [docker/index-cli-plugin](https://github.com/docker/index-cli-plugin/)  | 4121 | 97 | 14 | 38 |
+| [kubernetes-sigs/zeitgeist](https://github.com/kubernetes-sigs/zeitgeist/)  | 4053 | 978 | 451 | 150 |
+| [kubernetes-sigs/prometheus-adapter](https://github.com/kubernetes-sigs/prometheus-adapter/)  | 4029 | 428 | 198 | 1597 |
+| [openebs/m-exporter](https://github.com/openebs/m-exporter/)  | 3881 | 61 | 16 | 1 |
+| [prometheus/client_rust](https://github.com/prometheus/client_rust/)  | 3827 | 203 | 87 | 265 |
+| [open-telemetry/build-tools](https://github.com/open-telemetry/build-tools/)  | 3765 | 83 | 105 | 19 |
+| [prometheus/cloudwatch_exporter](https://github.com/prometheus/cloudwatch_exporter/)  | 3751 | 387 | 218 | 760 |
+| [vectordotdev/vector-generate](https://github.com/vectordotdev/vector-generate/)  | 3749 | 76 | 5 | 1 |
+| [etcd-io/etcdlabs](https://github.com/etcd-io/etcdlabs/)  | 3740 | 1192 | 223 | 181 |
+| [cilium/hubble-otel](https://github.com/cilium/hubble-otel/)  | 3703 | 247 | 61 | 48 |
+| [grafana/piechart-panel](https://github.com/grafana/piechart-panel/)  | 3671 | 192 | 123 | 150 |
+| [open-telemetry/opentelemetry-sqlco~](https://github.com/open-telemetry/opentelemetry-sqlcommenter/)  | 3660 | 14 | 26 | 13 |
+| [vectordotdev/gitdocs](https://github.com/vectordotdev/gitdocs/)  | 3644 | 405 | 62 | 260 |
+| [grafana/strava-datasource](https://github.com/grafana/strava-datasource/)  | 3627 | 326 | 47 | 121 |
+| [siderolabs/protoenc](https://github.com/siderolabs/protoenc/)  | 3608 | 18 | 17 | 0 |
+| [docker/actions-toolkit](https://github.com/docker/actions-toolkit/)  | 3600 | 204 | 67 | 19 |
+| [kubernetes/repo-infra](https://github.com/kubernetes/repo-infra/)  | 3591 | 498 | 208 | 90 |
+| [openebs/mayastor-dependencies](https://github.com/openebs/mayastor-dependencies/)  | 3519 | 41 | 24 | 3 |
+| [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray/)  | 3427 | 7029 | 6407 | 13606 |
+| [kubernetes-sigs/kube-storage-versi~](https://github.com/kubernetes-sigs/kube-storage-version-migrator/)  | 3425 | 179 | 90 | 104 |
+| [istio/release-builder](https://github.com/istio/release-builder/)  | 3369 | 714 | 1418 | 43 |
+| [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-packet/)  | 3362 | 660 | 408 | 85 |
+| [open-telemetry/opentelemetry-lambda](https://github.com/open-telemetry/opentelemetry-lambda/)  | 3255 | 351 | 429 | 151 |
+| [kubernetes-sigs/wg-policy-prototyp~](https://github.com/kubernetes-sigs/wg-policy-prototypes/)  | 3229 | 196 | 68 | 47 |
+| [grafana/loki-canary](https://github.com/grafana/loki-canary/)  | 3213 | 17 | 0 | 0 |
+| [prometheus/client_ruby](https://github.com/prometheus/client_ruby/)  | 3173 | 385 | 172 | 456 |
+| [openebs/vhost-user](https://github.com/openebs/vhost-user/)  | 3171 | 17 | 6 | 20 |
+| [kubernetes/community](https://github.com/kubernetes/community/)  | 3099 | 12179 | 5545 | 10728 |
+| [envoyproxy/envoy-tools](https://github.com/envoyproxy/envoy-tools/)  | 3094 | 20 | 43 | 42 |
+| [open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api/)  | 3073 | 305 | 109 | 80 |
+| [gotd/bot](https://github.com/gotd/bot/)  | 3069 | 584 | 256 | 14 |
+| [siderolabs/bldr](https://github.com/siderolabs/bldr/)  | 3012 | 78 | 111 | 45 |
+| [kubernetes/publishing-bot](https://github.com/kubernetes/publishing-bot/)  | 2992 | 636 | 293 | 67 |
+| [siderolabs/bootkube-plugin](https://github.com/siderolabs/bootkube-plugin/)  | 2945 | 15 | 15 | 1 |
+| [prometheus/docs](https://github.com/prometheus/docs/)  | 2920 | 2500 | 1927 | 552 |
+| [m3db/bench](https://github.com/m3db/bench/)  | 2884 | 5 | 0 | 1 |
+| [go-faster/city](https://github.com/go-faster/city/)  | 2882 | 60 | 3 | 12 |
+| [cilium/github-actions](https://github.com/cilium/github-actions/)  | 2869 | 63 | 37 | 4 |
+| [open-telemetry/opentelemetry-go-in~](https://github.com/open-telemetry/opentelemetry-go-instrumentation/)  | 2858 | 23 | 23 | 54 |
+| [kubernetes/git-sync](https://github.com/kubernetes/git-sync/)  | 2856 | 721 | 446 | 1709 |
+| [go-faster/gha](https://github.com/go-faster/gha/)  | 2828 | 223 | 122 | 0 |
+| [helm/chart-testing](https://github.com/helm/chart-testing/)  | 2816 | 265 | 356 | 946 |
+| [kubernetes/enhancements](https://github.com/kubernetes/enhancements/)  | 2810 | 6808 | 2850 | 2736 |
+| [istio/common-files](https://github.com/istio/common-files/)  | 2786 | 605 | 795 | 11 |
+| [docker/gordon](https://github.com/docker/gordon/)  | 2773 | 349 | 124 | 178 |
+| [helm/helm-www](https://github.com/helm/helm-www/)  | 2748 | 4061 | 1110 | 159 |
+| [kata-containers/www.katacontainers~](https://github.com/kata-containers/www.katacontainers.io/)  | 2722 | 397 | 172 | 23 |
+| [docker/go-plugins-helpers](https://github.com/docker/go-plugins-helpers/)  | 2702 | 176 | 96 | 309 |
+| [go-faster/bot](https://github.com/go-faster/bot/)  | 2679 | 165 | 108 | 0 |
+| [kubernetes-sigs/ingress-controller~](https://github.com/kubernetes-sigs/ingress-controller-conformance/)  | 2656 | 161 | 74 | 39 |
+| [ClickHouse/dbt-clickhouse](https://github.com/ClickHouse/dbt-clickhouse/)  | 2639 | 267 | 67 | 145 |
+| [kubernetes-sigs/custom-metrics-api~](https://github.com/kubernetes-sigs/custom-metrics-apiserver/)  | 2636 | 248 | 107 | 423 |
+| [etcd-io/etcd-play](https://github.com/etcd-io/etcd-play/)  | 2631 | 169 | 35 | 52 |
+| [m3db/m3nsch](https://github.com/m3db/m3nsch/)  | 2624 | 21 | 11 | 1 |
+| [grafana/grafana-image-renderer](https://github.com/grafana/grafana-image-renderer/)  | 2621 | 211 | 191 | 288 |
+| [siderolabs/discovery-service](https://github.com/siderolabs/discovery-service/)  | 2590 | 39 | 31 | 23 |
+| [kubernetes-sigs/clientgofix](https://github.com/kubernetes-sigs/clientgofix/)  | 2588 | 26 | 5 | 44 |
+| [docker/scan-cli-plugin](https://github.com/docker/scan-cli-plugin/)  | 2560 | 315 | 155 | 157 |
+| [docker/libchan](https://github.com/docker/libchan/)  | 2558 | 145 | 71 | 2459 |
+| [docker/go-connections](https://github.com/docker/go-connections/)  | 2531 | 8416 | 84 | 184 |
+| [kubernetes-sigs/nfs-ganesha-server~](https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner/)  | 2530 | 474 | 63 | 311 |
+| [docker/libkv](https://github.com/docker/libkv/)  | 2514 | 252 | 144 | 835 |
+| [VictoriaMetrics/metrics](https://github.com/VictoriaMetrics/metrics/)  | 2503 | 99 | 21 | 374 |
+| [m3db/tally-cpp](https://github.com/m3db/tally-cpp/)  | 2453 | 83 | 3 | 6 |
+| [istio/cni](https://github.com/istio/cni/)  | 2452 | 228 | 313 | 140 |
+| [kubernetes-sigs/container-object-s~](https://github.com/kubernetes-sigs/container-object-storage-interface-csi-adapter/)  | 2452 | 55 | 27 | 17 |
+| [openebs/jiva-csi](https://github.com/openebs/jiva-csi/)  | 2451 | 35 | 34 | 1 |
+| [prometheus/jmx_exporter](https://github.com/prometheus/jmx_exporter/)  | 2432 | 337 | 291 | 2553 |
+| [siderolabs/go-smbios](https://github.com/siderolabs/go-smbios/)  | 2403 | 12 | 11 | 8 |
+| [m3db/build-tools](https://github.com/m3db/build-tools/)  | 2380 | 23 | 26 | 12 |
+| [gotd/ref](https://github.com/gotd/ref/)  | 2358 | 144 | 85 | 0 |
+| [siderolabs/protobuf](https://github.com/siderolabs/protobuf/)  | 2347 | 144 | 0 | 0 |
+| [kubernetes-sigs/kubebuilder-releas~](https://github.com/kubernetes-sigs/kubebuilder-release-tools/)  | 2345 | 52 | 35 | 12 |
+| [kubernetes-sigs/cluster-capacity](https://github.com/kubernetes-sigs/cluster-capacity/)  | 2287 | 483 | 107 | 356 |
+| [kubernetes-sigs/release-notes](https://github.com/kubernetes-sigs/release-notes/)  | 2273 | 596 | 429 | 48 |
+| [docker/sbom-cli-plugin](https://github.com/docker/sbom-cli-plugin/)  | 2193 | 28 | 23 | 103 |
+| [siderolabs/conform](https://github.com/siderolabs/conform/)  | 2167 | 167 | 177 | 362 |
+| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers/)  | 2162 | 278 | 132 | 851 |
+| [grafana/django-saml2-auth](https://github.com/grafana/django-saml2-auth/)  | 2160 | 215 | 128 | 85 |
+| [siderolabs/cluster-api-bootstrap-p~](https://github.com/siderolabs/cluster-api-bootstrap-provider-talos/)  | 2150 | 112 | 139 | 52 |
+| [m3db/m3collector](https://github.com/m3db/m3collector/)  | 2148 | 64 | 59 | 5 |
+| [istio/old_broker_repo](https://github.com/istio/old_broker_repo/)  | 2148 | 20 | 20 | 8 |
+| [prometheus/promu](https://github.com/prometheus/promu/)  | 2141 | 332 | 188 | 238 |
+| [kubernetes/registry.k8s.io](https://github.com/kubernetes/registry.k8s.io/)  | 2140 | 281 | 106 | 117 |
+| [vectordotdev/molecule](https://github.com/vectordotdev/molecule/)  | 2083 | 124 | 22 | 95 |
+| [cilium/kubenetbench](https://github.com/cilium/kubenetbench/)  | 2031 | 63 | 0 | 33 |
+| [docker/database-extension](https://github.com/docker/database-extension/)  | 1973 | 27 | 2 | 5 |
+| [grpc/grpc-haskell](https://github.com/grpc/grpc-haskell/)  | 1945 | 134 | 5 | 153 |
+| [siderolabs/cluster-api-provider-ta~](https://github.com/siderolabs/cluster-api-provider-talos/)  | 1930 | 45 | 44 | 9 |
+| [siderolabs/cluster-api-control-pla~](https://github.com/siderolabs/cluster-api-control-plane-provider-talos/)  | 1904 | 88 | 132 | 19 |
+| [grafana/clock-panel](https://github.com/grafana/clock-panel/)  | 1903 | 187 | 53 | 87 |
+| [kubernetes-sigs/windows-gmsa](https://github.com/kubernetes-sigs/windows-gmsa/)  | 1895 | 146 | 68 | 24 |
+| [openebs/lib-csi](https://github.com/openebs/lib-csi/)  | 1870 | 12 | 11 | 3 |
+| [VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache/)  | 1868 | 64 | 22 | 1670 |
+| [kubernetes/kms](https://github.com/kubernetes/kms/)  | 1862 | 56 | 0 | 10 |
+| [kubernetes/system-validators](https://github.com/kubernetes/system-validators/)  | 1829 | 65 | 28 | 29 |
+| [grpc/grpc-proto](https://github.com/grpc/grpc-proto/)  | 1811 | 120 | 116 | 205 |
+| [kubernetes/controller-manager](https://github.com/kubernetes/controller-manager/)  | 1798 | 508 | 0 | 44 |
+| [kubernetes-sigs/application](https://github.com/kubernetes-sigs/application/)  | 1788 | 256 | 125 | 481 |
+| [kubernetes/dynamic-resource-alloca~](https://github.com/kubernetes/dynamic-resource-allocation/)  | 1765 | 40 | 0 | 3 |
+| [siderolabs/capi-utils](https://github.com/siderolabs/capi-utils/)  | 1735 | 29 | 30 | 0 |
+| [kubernetes-sigs/cluster-proportion~](https://github.com/kubernetes-sigs/cluster-proportional-autoscaler/)  | 1713 | 142 | 71 | 459 |
+| [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-docs/)  | 1699 | 95 | 94 | 70 |
+| [grafana/tail](https://github.com/grafana/tail/)  | 1690 | 273 | 13 | 9 |
+| [siderolabs/terraform-provider-talos](https://github.com/siderolabs/terraform-provider-talos/)  | 1685 | 27 | 27 | 31 |
+| [envoyproxy/envoy-openssl](https://github.com/envoyproxy/envoy-openssl/)  | 1670 | 113 | 56 | 32 |
+| [vectordotdev/timber-ruby](https://github.com/vectordotdev/timber-ruby/)  | 1663 | 817 | 100 | 155 |
+| [siderolabs/crypto](https://github.com/siderolabs/crypto/)  | 1643 | 28 | 27 | 5 |
+| [kubernetes-sigs/node-feature-disco~](https://github.com/kubernetes-sigs/node-feature-discovery-operator/)  | 1634 | 249 | 141 | 41 |
+| [kubernetes/cri-api](https://github.com/kubernetes/cri-api/)  | 1623 | 358 | 0 | 293 |
+| [grafana/kentik-app](https://github.com/grafana/kentik-app/)  | 1615 | 236 | 69 | 4 |
+| [kubernetes-sigs/aws-encryption-pro~](https://github.com/kubernetes-sigs/aws-encryption-provider/)  | 1611 | 183 | 68 | 191 |
+| [cilium/fake](https://github.com/cilium/fake/)  | 1588 | 86 | 54 | 14 |
+| [helm/chart-releaser](https://github.com/helm/chart-releaser/)  | 1570 | 166 | 181 | 531 |
+| [prometheus/graphite_exporter](https://github.com/prometheus/graphite_exporter/)  | 1558 | 358 | 148 | 299 |
+| [grafana/fake-data-gen](https://github.com/grafana/fake-data-gen/)  | 1548 | 132 | 27 | 14 |
+| [vectordotdev/react-query-assist](https://github.com/vectordotdev/react-query-assist/)  | 1547 | 57 | 4 | 19 |
+| [vectordotdev/cli](https://github.com/vectordotdev/cli/)  | 1543 | 49 | 3 | 7 |
+| [docker/HttpOverStream](https://github.com/docker/HttpOverStream/)  | 1542 | 109 | 42 | 28 |
+| [siderolabs/gen](https://github.com/siderolabs/gen/)  | 1539 | 10 | 9 | 1 |
+| [vectordotdev/timber-js](https://github.com/vectordotdev/timber-js/)  | 1512 | 206 | 42 | 42 |
+| [open-telemetry/opentelemetry-erlan~](https://github.com/open-telemetry/opentelemetry-erlang-contrib/)  | 1499 | 96 | 116 | 73 |
+| [gotd/tl](https://github.com/gotd/tl/)  | 1481 | 84 | 23 | 21 |
+| [siderolabs/contrib](https://github.com/siderolabs/contrib/)  | 1459 | 15 | 12 | 3 |
+| [vectordotdev/vector-test-harness](https://github.com/vectordotdev/vector-test-harness/)  | 1448 | 251 | 35 | 17 |
+| [siderolabs/grpc-proxy](https://github.com/siderolabs/grpc-proxy/)  | 1433 | 52 | 13 | 25 |
+| [go-faster/errors](https://github.com/go-faster/errors/)  | 1432 | 112 | 20 | 19 |
+| [kubernetes/metrics](https://github.com/kubernetes/metrics/)  | 1425 | 1059 | 22 | 425 |
+| [siderolabs/go-api-signature](https://github.com/siderolabs/go-api-signature/)  | 1422 | 8 | 7 | 3 |
+| [siderolabs/sfyra](https://github.com/siderolabs/sfyra/)  | 1401 | 6 | 7 | 2 |
+| [etcd-io/protodoc](https://github.com/etcd-io/protodoc/)  | 1397 | 41 | 5 | 44 |
+| [open-telemetry/opentelemetry-erlan~](https://github.com/open-telemetry/opentelemetry-erlang-api/)  | 1393 | 70 | 64 | 61 |
+| [prometheus/exporter-toolkit](https://github.com/prometheus/exporter-toolkit/)  | 1382 | 188 | 117 | 179 |
+| [kata-containers/ksm-throttler](https://github.com/kata-containers/ksm-throttler/)  | 1376 | 207 | 139 | 25 |
+| [prometheus/memcached_exporter](https://github.com/prometheus/memcached_exporter/)  | 1369 | 206 | 111 | 146 |
+| [cilium/microscope](https://github.com/cilium/microscope/)  | 1367 | 121 | 45 | 17 |
+| [docker/doodle](https://github.com/docker/doodle/)  | 1364 | 18 | 17 | 221 |
+| [grafana/snap-plugin-collector-kube~](https://github.com/grafana/snap-plugin-collector-kubestate/)  | 1350 | 22 | 3 | 18 |
+| [cilium/ipam](https://github.com/cilium/ipam/)  | 1348 | 13 | 6 | 6 |
+| [vectordotdev/timber-ruby-rails](https://github.com/vectordotdev/timber-ruby-rails/)  | 1334 | 71 | 3 | 2 |
+| [helm/helm-2to3](https://github.com/helm/helm-2to3/)  | 1303 | 164 | 114 | 493 |
+| [openebs/mayastor-api](https://github.com/openebs/mayastor-api/)  | 1297 | 73 | 47 | 4 |
+| [vectordotdev/vrl-web](https://github.com/vectordotdev/vrl-web/)  | 1288 | 207 | 2 | 16 |
+| [docker/dockercraft](https://github.com/docker/dockercraft/)  | 1248 | 208 | 50 | 6849 |
+| [kubernetes/examples](https://github.com/kubernetes/examples/)  | 1246 | 2046 | 312 | 5458 |
+| [docker/docs](https://github.com/docker/docs/)  | 1226 | 59525 | 10277 | 3767 |
+| [kubernetes-sigs/cluster-proportion~](https://github.com/kubernetes-sigs/cluster-proportional-vertical-autoscaler/)  | 1211 | 125 | 30 | 40 |
+| [siderolabs/talos-controller-manager](https://github.com/siderolabs/talos-controller-manager/)  | 1198 | 34 | 36 | 12 |
+| [grafana/influxdb-flux-datasource](https://github.com/grafana/influxdb-flux-datasource/)  | 1197 | 155 | 47 | 51 |
+| [VictoriaMetrics/metrics-java](https://github.com/VictoriaMetrics/metrics-java/)  | 1195 | 51 | 22 | 4 |
+| [kata-containers/shim](https://github.com/kata-containers/shim/)  | 1187 | 269 | 212 | 67 |
+| [docker/github-actions](https://github.com/docker/github-actions/)  | 1182 | 77 | 20 | 163 |
+| [docker/build-push-action](https://github.com/docker/build-push-action/)  | 1174 | 676 | 307 | 3118 |
+| [cilium/go-bindata](https://github.com/cilium/go-bindata/)  | 1172 | 196 | 0 | 1 |
+| [grafana/snap-plugin-collector-cadv~](https://github.com/grafana/snap-plugin-collector-cadvisor/)  | 1164 | 6 | 0 | 0 |
+| [etcd-io/gofail](https://github.com/etcd-io/gofail/)  | 1163 | 72 | 37 | 358 |
+| [kubernetes-sigs/legacyflag](https://github.com/kubernetes-sigs/legacyflag/)  | 1162 | 9 | 4 | 2 |
+| [siderolabs/metal-controller-manager](https://github.com/siderolabs/metal-controller-manager/)  | 1151 | 25 | 26 | 2 |
+| [kubernetes/kubelet](https://github.com/kubernetes/kubelet/)  | 1108 | 742 | 2 | 212 |
+| [cilium/starwars-docker](https://github.com/cilium/starwars-docker/)  | 1101 | 18 | 0 | 1 |
+| [vectordotdev/react-facet-filter](https://github.com/vectordotdev/react-facet-filter/)  | 1078 | 19 | 5 | 7 |
+| [docker/cli-docs-tool](https://github.com/docker/cli-docs-tool/)  | 1071 | 130 | 33 | 18 |
+| [siderolabs/os-engine](https://github.com/siderolabs/os-engine/)  | 1071 | 2 | 0 | 6 |
+| [gotd/getdoc](https://github.com/gotd/getdoc/)  | 1061 | 301 | 130 | 6 |
+| [grafana/grafana-sdk-mocks](https://github.com/grafana/grafana-sdk-mocks/)  | 1051 | 16 | 6 | 6 |
+| [grpc/grpc-php](https://github.com/grpc/grpc-php/)  | 1045 | 57 | 31 | 381 |
+| [cilium/cilium-sysdump](https://github.com/cilium/cilium-sysdump/)  | 1032 | 148 | 84 | 16 |
+| [cilium/ebpf.io-summit](https://github.com/cilium/ebpf.io-summit/)  | 1017 | 359 | 53 | 0 |
+| [cilium/release](https://github.com/cilium/release/)  | 1010 | 57 | 33 | 4 |
+| [cilium/cilium-etcd-operator](https://github.com/cilium/cilium-etcd-operator/)  | 1003 | 80 | 48 | 27 |
+| [openebs/rawfile-localpv](https://github.com/openebs/rawfile-localpv/)  | 1002 | 89 | 14 | 47 |
+| [siderolabs/go-retry](https://github.com/siderolabs/go-retry/)  | 992 | 9 | 9 | 4 |
+| [go-faster/gh-archive-clickhouse](https://github.com/go-faster/gh-archive-clickhouse/)  | 983 | 85 | 75 | 2 |
+| [grpc/grpc-java-api-checker](https://github.com/grpc/grpc-java-api-checker/)  | 981 | 23 | 21 | 26 |
+| [siderolabs/go-loadbalancer](https://github.com/siderolabs/go-loadbalancer/)  | 980 | 12 | 11 | 6 |
+| [kubernetes-sigs/gluster-file-exter~](https://github.com/kubernetes-sigs/gluster-file-external-provisioner/)  | 977 | 204 | 10 | 5 |
+| [kubernetes/sample-apiserver](https://github.com/kubernetes/sample-apiserver/)  | 969 | 2245 | 17 | 435 |
+| [cilium/bpf-ci-scripts](https://github.com/cilium/bpf-ci-scripts/)  | 958 | 140 | 0 | 1 |
+| [siderolabs/cluster-api-provider-me~](https://github.com/siderolabs/cluster-api-provider-metal/)  | 954 | 21 | 17 | 2 |
+| [vectordotdev/timber-node](https://github.com/vectordotdev/timber-node/)  | 952 | 256 | 24 | 3 |
+| [vectordotdev/timber-io](https://github.com/vectordotdev/timber-io/)  | 950 | 372 | 20 | 0 |
+| [go-faster/tail](https://github.com/go-faster/tail/)  | 943 | 96 | 25 | 16 |
+| [siderolabs/go-kubernetes](https://github.com/siderolabs/go-kubernetes/)  | 943 | 3 | 3 | 0 |
+| [docker/go-imageinspect](https://github.com/docker/go-imageinspect/)  | 940 | 40 | 11 | 12 |
+| [siderolabs/siderolink](https://github.com/siderolabs/siderolink/)  | 933 | 21 | 20 | 3 |
+| [ogen-go/ent2ogen](https://github.com/ogen-go/ent2ogen/)  | 924 | 132 | 64 | 8 |
+| [vectordotdev/http_test_server](https://github.com/vectordotdev/http_test_server/)  | 919 | 85 | 8 | 8 |
+| [helm/charts](https://github.com/helm/charts/)  | 898 | 13769 | 18202 | 15473 |
+| [grafana/influxdb-08-datasource](https://github.com/grafana/influxdb-08-datasource/)  | 894 | 16 | 3 | 6 |
+| [kubernetes/kube-scheduler](https://github.com/kubernetes/kube-scheduler/)  | 893 | 719 | 2 | 123 |
+| [openebs/sts-pv-pvc-handler](https://github.com/openebs/sts-pv-pvc-handler/)  | 888 | 27 | 0 | 2 |
+| [helm/rudder-federation](https://github.com/helm/rudder-federation/)  | 880 | 56 | 9 | 18 |
+| [siderolabs/devise](https://github.com/siderolabs/devise/)  | 872 | 18 | 18 | 4 |
+| [openebs/data-populator](https://github.com/openebs/data-populator/)  | 857 | 6 | 5 | 3 |
+| [siderolabs/ui](https://github.com/siderolabs/ui/)  | 851 | 15 | 29 | 4 |
+| [grafana/grafana-kiosk](https://github.com/grafana/grafana-kiosk/)  | 850 | 46 | 40 | 253 |
+| [kubernetes-sigs/ip-masq-agent](https://github.com/kubernetes-sigs/ip-masq-agent/)  | 845 | 131 | 64 | 168 |
+| [prometheus/haproxy_exporter](https://github.com/prometheus/haproxy_exporter/)  | 842 | 293 | 169 | 599 |
+| [etcd-io/discoveryserver](https://github.com/etcd-io/discoveryserver/)  | 836 | 8 | 5 | 17 |
+| [cilium/certgen](https://github.com/cilium/certgen/)  | 832 | 128 | 111 | 10 |
+| [grafana/simple-json-backend-dataso~](https://github.com/grafana/simple-json-backend-datasource/)  | 827 | 22 | 24 | 19 |
+| [kubernetes-sigs/gluster-block-exte~](https://github.com/kubernetes-sigs/gluster-block-external-provisioner/)  | 818 | 287 | 0 | 2 |
+| [gotd/neo](https://github.com/gotd/neo/)  | 795 | 83 | 24 | 7 |
+| [grafana/worldping-gw](https://github.com/grafana/worldping-gw/)  | 789 | 172 | 5 | 0 |
+| [docker/go-events](https://github.com/docker/go-events/)  | 772 | 30 | 23 | 126 |
+| [kata-containers/proxy](https://github.com/kata-containers/proxy/)  | 772 | 252 | 226 | 58 |
+| [vectordotdev/go-datemath](https://github.com/vectordotdev/go-datemath/)  | 753 | 26 | 7 | 41 |
+| [kubernetes/org](https://github.com/kubernetes/org/)  | 745 | 5219 | 1883 | 207 |
+| [prometheus/consul_exporter](https://github.com/prometheus/consul_exporter/)  | 743 | 260 | 181 | 399 |
+| [helm/helm-mapkubeapis](https://github.com/helm/helm-mapkubeapis/)  | 739 | 129 | 64 | 398 |
+| [grafana/docs-base](https://github.com/grafana/docs-base/)  | 728 | 124 | 13 | 4 |
+| [vectordotdev/grease](https://github.com/vectordotdev/grease/)  | 712 | 12 | 0 | 20 |
+| [kubernetes-sigs/dashboard-metrics-~](https://github.com/kubernetes-sigs/dashboard-metrics-scraper/)  | 711 | 83 | 29 | 72 |
+| [vectordotdev/timber-go](https://github.com/vectordotdev/timber-go/)  | 711 | 6 | 0 | 12 |
+| [ClickHouse/clickhouse-website-work~](https://github.com/ClickHouse/clickhouse-website-worker/)  | 702 | 562 | 209 | 6 |
+| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-builder/)  | 702 | 40 | 45 | 54 |
+| [etcd-io/cetcd](https://github.com/etcd-io/cetcd/)  | 696 | 7 | 3 | 34 |
+| [docker/go-units](https://github.com/docker/go-units/)  | 694 | 94 | 31 | 174 |
+| [vectordotdev/timber-python](https://github.com/vectordotdev/timber-python/)  | 684 | 32 | 12 | 30 |
+| [siderolabs/protoc-gen-proxy](https://github.com/siderolabs/protoc-gen-proxy/)  | 680 | 13 | 7 | 2 |
+| [grafana/simple-json-datasource](https://github.com/grafana/simple-json-datasource/)  | 678 | 153 | 54 | 495 |
+| [grafana/snap-plugin-collector-gits~](https://github.com/grafana/snap-plugin-collector-gitstats/)  | 676 | 24 | 0 | 1 |
+| [cilium/team-manager](https://github.com/cilium/team-manager/)  | 673 | 16 | 10 | 41 |
+| [kubernetes-sigs/windows-testing](https://github.com/kubernetes-sigs/windows-testing/)  | 664 | 824 | 332 | 30 |
+| [grafana/grafana-plugin-repository](https://github.com/grafana/grafana-plugin-repository/)  | 659 | 2010 | 1026 | 147 |
+| [open-telemetry/opentelemetry.io](https://github.com/open-telemetry/opentelemetry.io/)  | 659 | 1695 | 1860 | 348 |
+| [siderolabs/talos-cloud-controller-~](https://github.com/siderolabs/talos-cloud-controller-manager/)  | 652 | 12 | 25 | 9 |
+| [docker/node-sdk](https://github.com/docker/node-sdk/)  | 652 | 101 | 72 | 101 |
+| [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller/)  | 642 | 1446 | 10 | 2605 |
+| [grafana/memo](https://github.com/grafana/memo/)  | 638 | 46 | 7 | 60 |
+| [kubernetes-sigs/mdtoc](https://github.com/kubernetes-sigs/mdtoc/)  | 635 | 40 | 14 | 35 |
+| [docker/extensions-sdk](https://github.com/docker/extensions-sdk/)  | 634 | 477 | 166 | 103 |
+| [docker/base-cli-plugin](https://github.com/docker/base-cli-plugin/)  | 628 | 10 | 5 | 14 |
+| [gotd/teled](https://github.com/gotd/teled/)  | 623 | 73 | 42 | 9 |
+| [kubernetes/cluster-bootstrap](https://github.com/kubernetes/cluster-bootstrap/)  | 621 | 453 | 3 | 28 |
+| [ClickHouse/ch-bench](https://github.com/ClickHouse/ch-bench/)  | 620 | 90 | 19 | 25 |
+| [kubernetes-sigs/sig-windows-tools](https://github.com/kubernetes-sigs/sig-windows-tools/)  | 615 | 221 | 166 | 89 |
+| [siderolabs/go-cmd](https://github.com/siderolabs/go-cmd/)  | 612 | 5 | 4 | 1 |
+| [gotd/cli](https://github.com/gotd/cli/)  | 593 | 261 | 179 | 13 |
+| [siderolabs/go-kubeconfig](https://github.com/siderolabs/go-kubeconfig/)  | 588 | 2 | 0 | 0 |
+| [siderolabs/gitmeta](https://github.com/siderolabs/gitmeta/)  | 586 | 13 | 16 | 1 |
+| [siderolabs/go-circular](https://github.com/siderolabs/go-circular/)  | 586 | 2 | 0 | 0 |
+| [vectordotdev/timber-ruby-rack](https://github.com/vectordotdev/timber-ruby-rack/)  | 585 | 30 | 0 | 0 |
+| [helm/rudder-appcontroller](https://github.com/helm/rudder-appcontroller/)  | 581 | 26 | 4 | 6 |
+| [VictoriaMetrics/helm-charts](https://github.com/VictoriaMetrics/helm-charts/)  | 578 | 713 | 284 | 190 |
+| [cilium/workerpool](https://github.com/cilium/workerpool/)  | 565 | 71 | 43 | 17 |
+| [open-telemetry/opentelemetry-php-i~](https://github.com/open-telemetry/opentelemetry-php-instrumentation/)  | 556 | 30 | 30 | 24 |
+| [siderolabs/go-procfs](https://github.com/siderolabs/go-procfs/)  | 523 | 10 | 9 | 5 |
+| [docker/go-metrics](https://github.com/docker/go-metrics/)  | 513 | 38 | 22 | 82 |
+| [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action/)  | 503 | 300 | 152 | 606 |
+| [prometheus/prom2json](https://github.com/prometheus/prom2json/)  | 503 | 260 | 112 | 300 |
+| [docker/login-action](https://github.com/docker/login-action/)  | 492 | 253 | 343 | 641 |
+| [cilium/clustermesh-apiserver](https://github.com/cilium/clustermesh-apiserver/)  | 489 | 6 | 4 | 6 |
+| [cilium/cilium-perf-test](https://github.com/cilium/cilium-perf-test/)  | 478 | 41 | 2 | 4 |
+| [kubernetes-sigs/nfs-subdir-externa~](https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner/)  | 475 | 465 | 100 | 1751 |
+| [siderolabs/go-kmsg](https://github.com/siderolabs/go-kmsg/)  | 460 | 5 | 5 | 0 |
+| [cilium/mock-hubble](https://github.com/cilium/mock-hubble/)  | 457 | 13 | 3 | 0 |
+| [cilium/mtu-update](https://github.com/cilium/mtu-update/)  | 451 | 15 | 2 | 5 |
+| [cilium/cilium-l4lb-test](https://github.com/cilium/cilium-l4lb-test/)  | 446 | 6 | 2 | 9 |
+| [helm/repo-audit](https://github.com/helm/repo-audit/)  | 439 | 8 | 0 | 3 |
+| [openebs/e2e-tests](https://github.com/openebs/e2e-tests/)  | 430 | 1385 | 409 | 10 |
+| [vectordotdev/example-heroku-ruby-r~](https://github.com/vectordotdev/example-heroku-ruby-rails-5x/)  | 423 | 12 | 3 | 0 |
+| [siderolabs/go-gsuite](https://github.com/siderolabs/go-gsuite/)  | 421 | 10 | 5 | 1 |
+| [cilium/k8s-1abel](https://github.com/cilium/k8s-1abel/)  | 421 | 12 | 4 | 20 |
+| [siderolabs/importvet](https://github.com/siderolabs/importvet/)  | 417 | 10 | 9 | 0 |
+| [prometheus/collectd_exporter](https://github.com/prometheus/collectd_exporter/)  | 413 | 165 | 96 | 229 |
+| [prometheus/influxdb_exporter](https://github.com/prometheus/influxdb_exporter/)  | 409 | 241 | 102 | 212 |
+| [gotd/tgstatus](https://github.com/gotd/tgstatus/)  | 408 | 200 | 94 | 8 |
+| [grafana/kubernetes-diff-logger](https://github.com/grafana/kubernetes-diff-logger/)  | 407 | 65 | 21 | 107 |
+| [siderolabs/discovery-client](https://github.com/siderolabs/discovery-client/)  | 405 | 7 | 6 | 2 |
+| [docker/dev-envs-extension](https://github.com/docker/dev-envs-extension/)  | 405 | 28 | 2 | 21 |
+| [kubernetes-sigs/externalip-webhook](https://github.com/kubernetes-sigs/externalip-webhook/)  | 397 | 92 | 17 | 33 |
+| [grafana/globalconf](https://github.com/grafana/globalconf/)  | 395 | 46 | 4 | 2 |
+| [grafana/bigtable-backup](https://github.com/grafana/bigtable-backup/)  | 392 | 21 | 6 | 1 |
+| [siderolabs/talos-doc-site](https://github.com/siderolabs/talos-doc-site/)  | 391 | 4 | 0 | 0 |
+| [open-telemetry/opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-proto/)  | 382 | 230 | 293 | 370 |
+| [ClickHouse/clickhouse_exporter](https://github.com/ClickHouse/clickhouse_exporter/)  | 376 | 76 | 41 | 307 |
+| [cilium/cilium-perf-networking](https://github.com/cilium/cilium-perf-networking/)  | 374 | 30 | 3 | 40 |
+| [grafana/grafana-oss-msi-generator](https://github.com/grafana/grafana-oss-msi-generator/)  | 359 | 8 | 2 | 1 |
+| [ogen-go/example](https://github.com/ogen-go/example/)  | 358 | 60 | 75 | 7 |
+| [kubernetes-sigs/downloadkubernetes](https://github.com/kubernetes-sigs/downloadkubernetes/)  | 351 | 784 | 375 | 86 |
+| [siderolabs/net](https://github.com/siderolabs/net/)  | 349 | 12 | 13 | 1 |
+| [kata-containers/packaging](https://github.com/kata-containers/packaging/)  | 345 | 1197 | 618 | 118 |
+| [envoyproxy/envoy-distro](https://github.com/envoyproxy/envoy-distro/)  | 339 | 6 | 7 | 1 |
+| [VictoriaMetrics/billy](https://github.com/VictoriaMetrics/billy/)  | 319 | 28 | 0 | 17 |
+| [cilium/arping](https://github.com/cilium/arping/)  | 307 | 36 | 8 | 4 |
+| [grafana/github-to-es](https://github.com/grafana/github-to-es/)  | 300 | 20 | 0 | 53 |
+| [grafana/grafana-starter-app](https://github.com/grafana/grafana-starter-app/)  | 300 | 53 | 28 | 28 |
+| [open-telemetry/opentelemetry-proto~](https://github.com/open-telemetry/opentelemetry-proto-java/)  | 293 | 13 | 4 | 4 |
+| [vectordotdev/go-duration](https://github.com/vectordotdev/go-duration/)  | 292 | 6 | 0 | 0 |
+| [grafana/puppet-promtail](https://github.com/grafana/puppet-promtail/)  | 290 | 87 | 40 | 16 |
+| [go-faster/web](https://github.com/go-faster/web/)  | 286 | 299 | 117 | 0 |
+| [istio/community](https://github.com/istio/community/)  | 286 | 827 | 768 | 2518 |
+| [siderolabs/go-pcidb](https://github.com/siderolabs/go-pcidb/)  | 276 | 2 | 0 | 2 |
+| [docker/bake-action](https://github.com/docker/bake-action/)  | 271 | 183 | 100 | 100 |
+| [siderolabs/git-verify-chain](https://github.com/siderolabs/git-verify-chain/)  | 270 | 7 | 8 | 1 |
+| [kubernetes-sigs/container-object-s~](https://github.com/kubernetes-sigs/container-object-storage-interface-spec/)  | 267 | 61 | 30 | 46 |
+| [envoyproxy/ci-infra](https://github.com/envoyproxy/ci-infra/)  | 265 | 12 | 12 | 5 |
+| [vectordotdev/examples](https://github.com/vectordotdev/examples/)  | 264 | 14 | 0 | 2 |
+| [docker/compose-switch](https://github.com/docker/compose-switch/)  | 263 | 39 | 25 | 169 |
+| [vectordotdev/chronicle-emulator](https://github.com/vectordotdev/chronicle-emulator/)  | 261 | 9 | 0 | 0 |
+| [helm/github-webhook-dco-labeler](https://github.com/helm/github-webhook-dco-labeler/)  | 260 | 31 | 13 | 3 |
+| [helm/charts-tooling](https://github.com/helm/charts-tooling/)  | 258 | 9 | 2 | 8 |
+| [siderolabs/day-two](https://github.com/siderolabs/day-two/)  | 257 | 13 | 6 | 3 |
+| [docker/docker-ce-packaging](https://github.com/docker/docker-ce-packaging/)  | 255 | 1156 | 834 | 158 |
+| [grafana/perspective-panel](https://github.com/grafana/perspective-panel/)  | 254 | 7 | 26 | 9 |
+| [go-faster/cilium-mesh-testing](https://github.com/go-faster/cilium-mesh-testing/)  | 253 | 1 | 0 | 0 |
+| [cilium/customvet](https://github.com/cilium/customvet/)  | 253 | 11 | 6 | 3 |
+| [siderolabs/metal-metadata-server](https://github.com/siderolabs/metal-metadata-server/)  | 251 | 17 | 16 | 1 |
+| [vectordotdev/next-go](https://github.com/vectordotdev/next-go/)  | 238 | 24 | 4 | 257 |
+| [open-telemetry/opamp-java](https://github.com/open-telemetry/opamp-java/)  | 237 | 3 | 5 | 4 |
+| [envoyproxy/envoy-filter-example](https://github.com/envoyproxy/envoy-filter-example/)  | 231 | 11682 | 108 | 283 |
+| [kubernetes/sample-cli-plugin](https://github.com/kubernetes/sample-cli-plugin/)  | 224 | 650 | 0 | 249 |
+| [open-telemetry/opamp-spec](https://github.com/open-telemetry/opamp-spec/)  | 219 | 72 | 74 | 47 |
+| [cilium/identity-scale-test](https://github.com/cilium/identity-scale-test/)  | 212 | 1 | 0 | 0 |
+| [helm/pull-sizer](https://github.com/helm/pull-sizer/)  | 210 | 11 | 6 | 7 |
+| [cilium/state-writer](https://github.com/cilium/state-writer/)  | 209 | 5 | 0 | 1 |
+| [envoyproxy/katacoda-scenarios](https://github.com/envoyproxy/katacoda-scenarios/)  | 203 | 121 | 16 | 25 |
+| [ogen-go/web](https://github.com/ogen-go/web/)  | 200 | 243 | 142 | 3 |
+| [grafana/cloud-graphite-scripts](https://github.com/grafana/cloud-graphite-scripts/)  | 200 | 22 | 7 | 17 |
+| [cilium/chaos-monkeys](https://github.com/cilium/chaos-monkeys/)  | 198 | 57 | 38 | 5 |
+| [docker/buildkit-syft-scanner](https://github.com/docker/buildkit-syft-scanner/)  | 195 | 90 | 37 | 12 |
+| [helm/acceptance-testing](https://github.com/helm/acceptance-testing/)  | 193 | 106 | 84 | 23 |
+| [gotd/docs](https://github.com/gotd/docs/)  | 193 | 174 | 186 | 0 |
+| [cilium/health-examples](https://github.com/cilium/health-examples/)  | 192 | 3 | 0 | 0 |
+| [kubernetes/kube-controller-manager](https://github.com/kubernetes/kube-controller-manager/)  | 189 | 662 | 0 | 70 |
+| [prometheus/prometheus_api_client_r~](https://github.com/prometheus/prometheus_api_client_ruby/)  | 187 | 109 | 20 | 32 |
+| [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-releases/)  | 186 | 177 | 215 | 107 |
+| [vectordotdev/serverless-plugin-tim~](https://github.com/vectordotdev/serverless-plugin-timber/)  | 186 | 2 | 0 | 1 |
+| [cilium/scruffy](https://github.com/cilium/scruffy/)  | 185 | 6 | 0 | 0 |
+| [grafana/homebrew-grafana](https://github.com/grafana/homebrew-grafana/)  | 180 | 88 | 34 | 10 |
+| [docker/opensource](https://github.com/docker/opensource/)  | 179 | 211 | 104 | 59 |
+| [go-faster/xor](https://github.com/go-faster/xor/)  | 178 | 102 | 48 | 10 |
+| [grafana/grafana-starter-datasource](https://github.com/grafana/grafana-starter-datasource/)  | 177 | 52 | 28 | 19 |
+| [grafana/grafana-plugin-model](https://github.com/grafana/grafana-plugin-model/)  | 166 | 19 | 3 | 7 |
+| [openebs/spdk-sys](https://github.com/openebs/spdk-sys/)  | 165 | 6 | 7 | 11 |
+| [cilium/bpf-map](https://github.com/cilium/bpf-map/)  | 160 | 21 | 10 | 42 |
+| [docker/whalesay](https://github.com/docker/whalesay/)  | 155 | 14 | 3 | 36 |
+| [open-telemetry/community](https://github.com/open-telemetry/community/)  | 152 | 599 | 537 | 586 |
+| [helm/charts-check-pr-title](https://github.com/helm/charts-check-pr-title/)  | 150 | 4 | 0 | 2 |
+| [siderolabs/extensions](https://github.com/siderolabs/extensions/)  | 149 | 81 | 115 | 20 |
+| [cilium/client-example](https://github.com/cilium/client-example/)  | 148 | 3 | 0 | 7 |
+| [cilium/node-discovery-perf](https://github.com/cilium/node-discovery-perf/)  | 145 | 18 | 0 | 0 |
+| [siderolabs/go-tail](https://github.com/siderolabs/go-tail/)  | 140 | 2 | 0 | 0 |
+| [siderolabs/pulumi-provider-talos](https://github.com/siderolabs/pulumi-provider-talos/)  | 138 | 44 | 27 | 18 |
+| [docker/import-restrictions](https://github.com/docker/import-restrictions/)  | 136 | 7 | 0 | 6 |
+| [vectordotdev/timber-cloudwatch-log~](https://github.com/vectordotdev/timber-cloudwatch-logs-lambda-function/)  | 133 | 48 | 4 | 5 |
+| [grafana/usage-stats-handler](https://github.com/grafana/usage-stats-handler/)  | 132 | 43 | 25 | 2 |
+| [docker/setup-qemu-action](https://github.com/docker/setup-qemu-action/)  | 130 | 116 | 58 | 285 |
+| [kubernetes/sig-security](https://github.com/kubernetes/sig-security/)  | 127 | 69 | 34 | 108 |
+| [cilium/stale-rules](https://github.com/cilium/stale-rules/)  | 127 | 8 | 0 | 2 |
+| [ClickHouse/kafka-samples](https://github.com/ClickHouse/kafka-samples/)  | 125 | 3 | 0 | 0 |
+| [cilium/star-wars-demo-automated](https://github.com/cilium/star-wars-demo-automated/)  | 123 | 1 | 0 | 0 |
+| [cilium/star-wars-demo](https://github.com/cilium/star-wars-demo/)  | 123 | 15 | 3 | 20 |
+| [grafana/jsonnet-libs](https://github.com/grafana/jsonnet-libs/)  | 121 | 1286 | 848 | 496 |
+| [istio/klog](https://github.com/istio/klog/)  | 121 | 2 | 2 | 3 |
+| [istio/glog](https://github.com/istio/glog/)  | 121 | 6 | 5 | 22 |
+| [vectordotdev/tokio-compat-perf-che~](https://github.com/vectordotdev/tokio-compat-perf-checks/)  | 119 | 16 | 0 | 0 |
+| [docker/testrepo](https://github.com/docker/testrepo/)  | 119 | 1 | 0 | 1 |
+| [grafana/grafana-starter-panel](https://github.com/grafana/grafana-starter-panel/)  | 117 | 72 | 34 | 65 |
+| [kata-containers/osbuilder](https://github.com/kata-containers/osbuilder/)  | 116 | 524 | 285 | 111 |
+| [kata-containers/community](https://github.com/kata-containers/community/)  | 116 | 282 | 139 | 211 |
+| [vectordotdev/tcp_test_server](https://github.com/vectordotdev/tcp_test_server/)  | 115 | 26 | 0 | 0 |
+| [vectordotdev/outside-cli](https://github.com/vectordotdev/outside-cli/)  | 114 | 3 | 0 | 83 |
+| [cilium/affinity-test-apps](https://github.com/cilium/affinity-test-apps/)  | 111 | 4 | 0 | 2 |
+| [vectordotdev/rust-benches](https://github.com/vectordotdev/rust-benches/)  | 109 | 4 | 0 | 0 |
+| [vectordotdev/example-heroku-ruby-r~](https://github.com/vectordotdev/example-heroku-ruby-rails-4x/)  | 107 | 1 | 0 | 0 |
+| [VictoriaMetrics/prometheus-benchma~](https://github.com/VictoriaMetrics/prometheus-benchmark/)  | 103 | 41 | 12 | 58 |
+| [grafana/graphite-mt](https://github.com/grafana/graphite-mt/)  | 101 | 106 | 42 | 6 |
+| [kubernetes/kube-proxy](https://github.com/kubernetes/kube-proxy/)  | 100 | 614 | 0 | 138 |
+| [cilium/migrate-svc-test](https://github.com/cilium/migrate-svc-test/)  | 99 | 4 | 0 | 0 |
+| [grafana/grafonnet-lib](https://github.com/grafana/grafonnet-lib/)  | 98 | 589 | 278 | 1047 |
+| [prometheus/lezer-promql](https://github.com/prometheus/lezer-promql/)  | 96 | 131 | 45 | 10 |
+| [siderolabs/go-debug](https://github.com/siderolabs/go-debug/)  | 95 | 6 | 5 | 0 |
+| [docker/binfmt](https://github.com/docker/binfmt/)  | 91 | 25 | 17 | 42 |
+| [vectordotdev/example-heroku-ruby-r~](https://github.com/vectordotdev/example-heroku-ruby-rails-3x/)  | 89 | 2 | 0 | 0 |
+| [grafana/eslint-config-grafana](https://github.com/grafana/eslint-config-grafana/)  | 89 | 62 | 28 | 5 |
+| [grafana/loadgentest](https://github.com/grafana/loadgentest/)  | 83 | 57 | 3 | 32 |
+| [go-faster/bfj](https://github.com/go-faster/bfj/)  | 82 | 5 | 0 | 0 |
+| [prometheus/client_model](https://github.com/prometheus/client_model/)  | 82 | 74 | 39 | 58 |
+| [istio/installer](https://github.com/istio/installer/)  | 82 | 617 | 616 | 113 |
+| [siderolabs/discovery-api](https://github.com/siderolabs/discovery-api/)  | 80 | 4 | 3 | 2 |
+| [grafana/k6-timescaledb-stack](https://github.com/grafana/k6-timescaledb-stack/)  | 80 | 10 | 0 | 30 |
+| [openebs/linux-utils](https://github.com/openebs/linux-utils/)  | 79 | 42 | 28 | 2 |
+| [grafana/k6-example-github-actions](https://github.com/grafana/k6-example-github-actions/)  | 79 | 40 | 4 | 26 |
+| [grafana/k6-example-azure-pipelines](https://github.com/grafana/k6-example-azure-pipelines/)  | 72 | 34 | 2 | 14 |
+| [helm/query-store-quay-logs](https://github.com/helm/query-store-quay-logs/)  | 71 | 17 | 8 | 3 |
+| [cilium/api-router](https://github.com/cilium/api-router/)  | 67 | 1 | 0 | 1 |
+| [openebs/monitor-pv](https://github.com/openebs/monitor-pv/)  | 66 | 7 | 7 | 3 |
+| [vectordotdev/vector-heroku-buildpa~](https://github.com/vectordotdev/vector-heroku-buildpack/)  | 66 | 20 | 0 | 2 |
+| [vectordotdev/homebrew-brew](https://github.com/vectordotdev/homebrew-brew/)  | 63 | 91 | 8 | 2 |
+| [go-faster/jx-bench-sample](https://github.com/go-faster/jx-bench-sample/)  | 59 | 8 | 0 | 0 |
+| [kubernetes/contributor-site](https://github.com/kubernetes/contributor-site/)  | 58 | 606 | 284 | 43 |
+| [cilium/dummylb](https://github.com/cilium/dummylb/)  | 57 | 7 | 0 | 1 |
+| [openebs/mayastor-charts](https://github.com/openebs/mayastor-charts/)  | 56 | 13 | 7 | 1 |
+| [grafana/simple-angular-panel](https://github.com/grafana/simple-angular-panel/)  | 55 | 28 | 22 | 7 |
+| [cilium/echoserver-udp](https://github.com/cilium/echoserver-udp/)  | 54 | 2 | 2 | 2 |
+| [cilium/misc-scripts](https://github.com/cilium/misc-scripts/)  | 51 | 3 | 0 | 4 |
+| [grpc/homebrew-grpc](https://github.com/grpc/homebrew-grpc/)  | 50 | 156 | 59 | 98 |
+| [vectordotdev/example-heroku-elixir~](https://github.com/vectordotdev/example-heroku-elixir-phoenix/)  | 48 | 5 | 4 | 0 |
+| [cilium/demo-image](https://github.com/cilium/demo-image/)  | 44 | 11 | 4 | 0 |
+| [kubernetes/node-api](https://github.com/kubernetes/node-api/)  | 43 | 253 | 5 | 12 |
+| [vectordotdev/leveldb-build-demo](https://github.com/vectordotdev/leveldb-build-demo/)  | 42 | 25 | 3 | 1 |
+| [openebs/mayastor-docs](https://github.com/openebs/mayastor-docs/)  | 41 | 119 | 103 | 4 |
+| [grpc/grpc-docker-library](https://github.com/grpc/grpc-docker-library/)  | 39 | 86 | 60 | 207 |
+| [cilium/dnssec-client](https://github.com/cilium/dnssec-client/)  | 38 | 5 | 0 | 0 |
+| [vectordotdev/example-heroku-ruby-s~](https://github.com/vectordotdev/example-heroku-ruby-sinatra/)  | 34 | 2 | 0 | 1 |
+| [envoyproxy/management-plane-api](https://github.com/envoyproxy/management-plane-api/)  | 31 | 4 | 4 | 4 |
+| [cilium/delayed-httpd](https://github.com/cilium/delayed-httpd/)  | 29 | 4 | 0 | 0 |
+| [vectordotdev/node-bunyan-example](https://github.com/vectordotdev/node-bunyan-example/)  | 29 | 3 | 0 | 0 |
+| [helm/charts-classic](https://github.com/helm/charts-classic/)  | 28 | 148 | 87 | 142 |
+| [gotd/gotdlog](https://github.com/gotd/gotdlog/)  | 26 | 11 | 3 | 0 |
+| [openebs/helm-operator](https://github.com/openebs/helm-operator/)  | 25 | 24 | 17 | 5 |
+| [vectordotdev/node-winston-example](https://github.com/vectordotdev/node-winston-example/)  | 24 | 5 | 0 | 0 |
+| [envoyproxy/learnenvoy](https://github.com/envoyproxy/learnenvoy/)  | 24 | 81 | 67 | 50 |
+| [siderolabs/pkgs](https://github.com/siderolabs/pkgs/)  | 23 | 473 | 662 | 14 |
+| [siderolabs/toolchain-musl](https://github.com/siderolabs/toolchain-musl/)  | 23 | 35 | 38 | 2 |
+| [siderolabs/homebrew-talos](https://github.com/siderolabs/homebrew-talos/)  | 19 | 33 | 29 | 8 |
+| [vectordotdev/tokio-fds-issue](https://github.com/vectordotdev/tokio-fds-issue/)  | 17 | 3 | 0 | 0 |
+| [prometheus/kube-demo-site](https://github.com/prometheus/kube-demo-site/)  | 17 | 6 | 3 | 0 |
+| [docker/docker-install](https://github.com/docker/docker-install/)  | 15 | 425 | 210 | 1618 |
+| [vectordotdev/vector-demos](https://github.com/vectordotdev/vector-demos/)  | 13 | 59 | 13 | 9 |
+| [cilium/connectivity-container](https://github.com/cilium/connectivity-container/)  | 12 | 2 | 0 | 0 |
+| [istio/cri](https://github.com/istio/cri/)  | 12 | 152 | 148 | 5 |
+| [istio/client-go](https://github.com/istio/client-go/)  | 12 | 1035 | 1448 | 230 |
+| [siderolabs/go-pointer](https://github.com/siderolabs/go-pointer/)  | 11 | 2 | 0 | 0 |
+| [kubernetes-sigs/contributor-playgr~](https://github.com/kubernetes-sigs/contributor-playground/)  | 11 | 1228 | 952 | 145 |
+| [openebs/monitoring](https://github.com/openebs/monitoring/)  | 10 | 194 | 74 | 14 |
+| [cilium/packer-ci-build](https://github.com/cilium/packer-ci-build/)  | 10 | 502 | 340 | 11 |
+| [kata-containers/directvolume](https://github.com/kata-containers/directvolume/)  | 8 | 3 | 0 | 3 |
+| [helm/kind-action](https://github.com/helm/kind-action/)  | 8 | 53 | 49 | 193 |
+| [cilium/charts](https://github.com/cilium/charts/)  | 7 | 211 | 44 | 21 |
+| [helm/get-helm](https://github.com/helm/get-helm/)  | 6 | 8 | 2 | 1 |
+| [open-telemetry/opentelemetry-proto~](https://github.com/open-telemetry/opentelemetry-proto-go/)  | 5 | 49 | 82 | 18 |
+| [open-telemetry/oteps](https://github.com/open-telemetry/oteps/)  | 4 | 116 | 192 | 245 |
+| [open-telemetry/opentelemetry-speci~](https://github.com/open-telemetry/opentelemetry-specification/)  | 4 | 1456 | 1806 | 3135 |
+| [kubernetes/noderesourcetopology-api](https://github.com/kubernetes/noderesourcetopology-api/)  | 3 | 28 | 0 | 10 |
+| [istio/bottestrepo](https://github.com/istio/bottestrepo/)  | 1 | 7 | 22 | 1 |
+| [open-telemetry/.github](https://github.com/open-telemetry/.github/)  | 0 | 5 | 4 | 0 |
+| [docker/containerd-packaging](https://github.com/docker/containerd-packaging/)  | 0 | 584 | 285 | 53 |
+| [openebs/community](https://github.com/openebs/community/)  | 0 | 62 | 19 | 9 |
+| [docker/cli-scan-feedback](https://github.com/docker/cli-scan-feedback/)  | 0 | 5 | 0 | 3 |
+| [vectordotdev/ex_aws_glue](https://github.com/vectordotdev/ex_aws_glue/)  | 0 | 3 | 0 | 1 |
+| [siderolabs/roller-derby](https://github.com/siderolabs/roller-derby/)  | 0 | 3 | 5 | 0 |
+| [siderolabs/.github](https://github.com/siderolabs/.github/)  | 0 | 7 | 0 | 0 |
+| [siderolabs/build-container](https://github.com/siderolabs/build-container/)  | 0 | 62 | 77 | 4 |
+| [vectordotdev/timber-elixir-excepti~](https://github.com/vectordotdev/timber-elixir-exceptions/)  | 0 | 26 | 5 | 5 |
+| [vectordotdev/grease-builder](https://github.com/vectordotdev/grease-builder/)  | 0 | 3 | 0 | 0 |
+| [siderolabs/charts](https://github.com/siderolabs/charts/)  | 0 | 8 | 0 | 1 |
+| [etcd-io/maintainers](https://github.com/etcd-io/maintainers/)  | 0 | 2 | 0 | 0 |
+| [docker/extension-ideas](https://github.com/docker/extension-ideas/)  | 0 | 4 | 0 | 25 |
+| [vectordotdev/cli-builder](https://github.com/vectordotdev/cli-builder/)  | 0 | 5 | 0 | 1 |
+| [grafana/azure-template](https://github.com/grafana/azure-template/)  | 0 | 59 | 7 | 4 |
+| [siderolabs/omni-feedback](https://github.com/siderolabs/omni-feedback/)  | 0 | 4 | 0 | 1 |
+| [etcd-io/website](https://github.com/etcd-io/website/)  | 0 | 572 | 402 | 111 |
+| [siderolabs/extras](https://github.com/siderolabs/extras/)  | 0 | 55 | 81 | 3 |
+| [siderolabs/project-template-kubern~](https://github.com/siderolabs/project-template-kubernetes-controller/)  | 0 | 6 | 5 | 1 |
+| [docker/notary-official-images](https://github.com/docker/notary-official-images/)  | 0 | 46 | 22 | 14 |
+| [kubernetes/committee-security-resp~](https://github.com/kubernetes/committee-security-response/)  | 0 | 225 | 114 | 146 |
+| [siderolabs/tools](https://github.com/siderolabs/tools/)  | 0 | 175 | 273 | 11 |
+| [etcd-io/discovery.etcd.io](https://github.com/etcd-io/discovery.etcd.io/)  | 0 | 82 | 52 | 20 |
+| [siderolabs/cluster-api-templates](https://github.com/siderolabs/cluster-api-templates/)  | 0 | 20 | 22 | 8 |
+| [siderolabs/stig](https://github.com/siderolabs/stig/)  | 0 | 4 | 0 | 0 |
+| [kubernetes/kubernetes-template-pro~](https://github.com/kubernetes/kubernetes-template-project/)  | 0 | 71 | 39 | 140 |
+| [grafana/tsconfig-grafana](https://github.com/grafana/tsconfig-grafana/)  | 0 | 14 | 5 | 0 |
+| [siderolabs/template-go](https://github.com/siderolabs/template-go/)  | 0 | 4 | 3 | 0 |
+| [siderolabs/toolchain](https://github.com/siderolabs/toolchain/)  | 0 | 64 | 71 | 6 |
+| [vectordotdev/vector-k8s-examples](https://github.com/vectordotdev/vector-k8s-examples/)  | 0 | 19 | 0 | 6 |
+| [siderolabs/destruction-derby](https://github.com/siderolabs/destruction-derby/)  | 0 | 31 | 22 | 0 |
+| [ClickHouse/github-explorer](https://github.com/ClickHouse/github-explorer/)  | 0 | 60 | 4 | 104 |
+| [vectordotdev/timber-elixir-ecto](https://github.com/vectordotdev/timber-elixir-ecto/)  | 0 | 21 | 8 | 5 |
+| [siderolabs/bldr-web](https://github.com/siderolabs/bldr-web/)  | 0 | 1 | 4 | 0 |
+| [siderolabs/katacoda-scenarios](https://github.com/siderolabs/katacoda-scenarios/)  | 0 | 4 | 0 | 1 |
+| [siderolabs/playwright-go](https://github.com/siderolabs/playwright-go/)  | 0 | 2 | 0 | 0 |
+| [siderolabs/kernel](https://github.com/siderolabs/kernel/)  | 0 | 22 | 23 | 0 |
+| [grafana/tutorials](https://github.com/grafana/tutorials/)  | 0 | 461 | 103 | 107 |
+| [vectordotdev/vector-k8s-dev-env](https://github.com/vectordotdev/vector-k8s-dev-env/)  | 0 | 24 | 3 | 1 |
+| [docker/distribution-library-image](https://github.com/docker/distribution-library-image/)  | 0 | 77 | 61 | 229 |
+| [kubernetes/sig-release](https://github.com/kubernetes/sig-release/)  | 0 | 3360 | 1383 | 437 |
+| [openebs/performance-benchmark](https://github.com/openebs/performance-benchmark/)  | 0 | 8 | 6 | 15 |
+| [vectordotdev/td-agent-bit-builder-~](https://github.com/vectordotdev/td-agent-bit-builder-amzn/)  | 0 | 4 | 0 | 2 |
+| [siderolabs/go-scsi](https://github.com/siderolabs/go-scsi/)  | 0 | 1 | 0 | 0 |
+| [siderolabs/kubelet](https://github.com/siderolabs/kubelet/)  | 0 | 137 | 66 | 5 |
+| [siderolabs/rfcs](https://github.com/siderolabs/rfcs/)  | 0 | 13 | 8 | 2 |
+| [kubernetes-sigs/iptables-wrappers](https://github.com/kubernetes-sigs/iptables-wrappers/)  | 0 | 10 | 5 | 32 |
+| [kubernetes-sigs/lwkd](https://github.com/kubernetes-sigs/lwkd/)  | 0 | 802 | 175 | 73 |
+| [cilium/k8s-iptables-diagram](https://github.com/cilium/k8s-iptables-diagram/)  | 0 | 5 | 2 | 100 |
+| [siderolabs/signing-keys](https://github.com/siderolabs/signing-keys/)  | 0 | 19 | 2 | 0 |
+| [docker/code-of-conduct](https://github.com/docker/code-of-conduct/)  | 0 | 52 | 23 | 33 |
+| [grafana/cortex-jsonnet](https://github.com/grafana/cortex-jsonnet/)  | 0 | 982 | 391 | 75 |
+| [cilium/ci-kernels](https://github.com/cilium/ci-kernels/)  | 0 | 62 | 32 | 9 |
+| [kubernetes/funding](https://github.com/kubernetes/funding/)  | 0 | 29 | 12 | 13 |
+| [open-telemetry/opentelemetry-helm-~](https://github.com/open-telemetry/opentelemetry-helm-charts/)  | 0 | 354 | 438 | 196 |
+| [kubernetes/sig-testing](https://github.com/kubernetes/sig-testing/)  | 0 | 4 | 0 | 4 |
+| [vectordotdev/docker-client](https://github.com/vectordotdev/docker-client/)  | 0 | 6 | 0 | 0 |
+| [cilium/kustomize-bases](https://github.com/cilium/kustomize-bases/)  | 0 | 18 | 0 | 2 |
+| [cilium/log-gatherer](https://github.com/cilium/log-gatherer/)  | 0 | 3 | 2 | 0 |
+| [open-telemetry/docs-ja](https://github.com/open-telemetry/docs-ja/)  | 0 | 254 | 38 | 11 |
+| [siderolabs/enhancements](https://github.com/siderolabs/enhancements/)  | 0 | 1 | 0 | 0 |
+| [siderolabs/toolchain-glibc](https://github.com/siderolabs/toolchain-glibc/)  | 0 | 6 | 5 | 0 |
+| [cilium/terraform-gke-ci-management~](https://github.com/cilium/terraform-gke-ci-management-cluster/)  | 0 | 23 | 2 | 4 |
+| [vectordotdev/graphing-challenge](https://github.com/vectordotdev/graphing-challenge/)  | 0 | 1 | 0 | 0 |
+| [ogen-go/corpus](https://github.com/ogen-go/corpus/)  | 0 | 170 | 69 | 0 |
+| [cilium/gke](https://github.com/cilium/gke/)  | 0 | 22 | 13 | 7 |
+| [docker/for-win](https://github.com/docker/for-win/)  | 0 | 49 | 17 | 1696 |
+| [cilium/networkpolicy](https://github.com/cilium/networkpolicy/)  | 0 | 5 | 2 | 0 |
+| [kubernetes-sigs/krew-index](https://github.com/kubernetes-sigs/krew-index/)  | 0 | 2544 | 2933 | 586 |
+| [cilium/ubuntu-curl](https://github.com/cilium/ubuntu-curl/)  | 0 | 43 | 43 | 3 |
+| [cilium/alpine-curl](https://github.com/cilium/alpine-curl/)  | 0 | 64 | 62 | 3 |
+| [siderolabs/talos-app](https://github.com/siderolabs/talos-app/)  | 0 | 1 | 0 | 0 |
+| [cilium/clustermesh-tools](https://github.com/cilium/clustermesh-tools/)  | 0 | 7 | 3 | 3 |
+| [vectordotdev/docs](https://github.com/vectordotdev/docs/)  | 0 | 215 | 14 | 10 |
+| [grafana/grafana-build-container](https://github.com/grafana/grafana-build-container/)  | 0 | 33 | 5 | 6 |
+| [grafana/grafana-docker](https://github.com/grafana/grafana-docker/)  | 0 | 177 | 69 | 632 |
+| [kubernetes/steering](https://github.com/kubernetes/steering/)  | 0 | 231 | 105 | 73 |
+| [docker/packaging](https://github.com/docker/packaging/)  | 0 | 723 | 97 | 16 |
+| [VictoriaMetrics/vmctl](https://github.com/VictoriaMetrics/vmctl/)  | 0 | 85 | 11 | 36 |
+| [kubernetes-sigs/discuss-theme](https://github.com/kubernetes-sigs/discuss-theme/)  | 0 | 6 | 3 | 1 |
+| [cilium/Jenkins-library](https://github.com/cilium/Jenkins-library/)  | 0 | 8 | 0 | 3 |
+| [cilium/openshift-terraform-upi](https://github.com/cilium/openshift-terraform-upi/)  | 0 | 177 | 3 | 3 |
+| [docker/for-linux](https://github.com/docker/for-linux/)  | 0 | 11 | 7 | 730 |
+| [openebs/charts](https://github.com/openebs/charts/)  | 0 | 316 | 283 | 81 |
+| [kubernetes/.github](https://github.com/kubernetes/.github/)  | 0 | 7 | 3 | 0 |
+| [docker/roadmap](https://github.com/docker/roadmap/)  | 0 | 32 | 15 | 1222 |
+| [ClickHouse/sysroot](https://github.com/ClickHouse/sysroot/)  | 0 | 53 | 17 | 9 |
+| [VictoriaMetrics/ansible-playbooks](https://github.com/VictoriaMetrics/ansible-playbooks/)  | 0 | 113 | 29 | 47 |
+| [ClickHouse/readthedocs-stub](https://github.com/ClickHouse/readthedocs-stub/)  | 0 | 2 | 0 | 0 |
+| [docker/hub-feedback](https://github.com/docker/hub-feedback/)  | 0 | 31 | 10 | 217 |
+| [vectordotdev/timber-elixir](https://github.com/vectordotdev/timber-elixir/)  | 0 | 611 | 169 | 217 |
+| [VictoriaMetrics/vmui](https://github.com/VictoriaMetrics/vmui/)  | 0 | 76 | 16 | 31 |
+| [vectordotdev/timber-elixir-phoenix](https://github.com/vectordotdev/timber-elixir-phoenix/)  | 0 | 29 | 8 | 3 |
+| [siderolabs/project-template-go](https://github.com/siderolabs/project-template-go/)  | 0 | 3 | 2 | 0 |
+| [kubernetes/design-proposals-archive](https://github.com/kubernetes/design-proposals-archive/)  | 0 | 1121 | 0 | 301 |
+| [ClickHouse/clickhouse-blog-images](https://github.com/ClickHouse/clickhouse-blog-images/)  | 0 | 93 | 38 | 0 |
+| [cilium/installfest](https://github.com/cilium/installfest/)  | 0 | 15 | 8 | 14 |
+| [cilium/json-mock](https://github.com/cilium/json-mock/)  | 0 | 86 | 86 | 8 |
+| [ClickHouse/icudata](https://github.com/ClickHouse/icudata/)  | 0 | 6 | 2 | 9 |
+| [vectordotdev/rust-musl-toolchain](https://github.com/vectordotdev/rust-musl-toolchain/)  | 0 | 5 | 0 | 8 |
+| [kubernetes/cloud-provider-sample](https://github.com/kubernetes/cloud-provider-sample/)  | 0 | 6 | 11 | 15 |
+| [prometheus/snmp_exporter_mibs](https://github.com/prometheus/snmp_exporter_mibs/)  | 0 | 8 | 3 | 3 |
+| [grafana/packer-do-marketplace](https://github.com/grafana/packer-do-marketplace/)  | 0 | 6 | 0 | 4 |
+| [prometheus/host_exporter](https://github.com/prometheus/host_exporter/)  | 0 | 6 | 2 | 7 |
+| [kata-containers/ci](https://github.com/kata-containers/ci/)  | 0 | 446 | 193 | 14 |
+| [cilium/docker-bind](https://github.com/cilium/docker-bind/)  | 0 | 6 | 2 | 0 |
+| [openebs/openebs](https://github.com/openebs/openebs/)  | 0 | 2906 | 1442 | 8010 |
+| [cilium/echoserver](https://github.com/cilium/echoserver/)  | 0 | 7 | 2 | 12 |
+| [docker/extensions-submissions](https://github.com/docker/extensions-submissions/)  | 0 | 48 | 21 | 7 |
+| [istio/old_issues_repo](https://github.com/istio/old_issues_repo/)  | 0 | 18 | 5 | 37 |
+| [cilium/chaos-testing-examples](https://github.com/cilium/chaos-testing-examples/)  | 0 | 2 | 0 | 26 |
+| [vectordotdev/vector-test-harness-g~](https://github.com/vectordotdev/vector-test-harness-github-actions-test-repo/)  | 0 | 66 | 4 | 1 |
+| [kata-containers/.github](https://github.com/kata-containers/.github/)  | 0 | 58 | 25 | 0 |
+| [docker/desktop-linux](https://github.com/docker/desktop-linux/)  | 0 | 8 | 0 | 62 |
+| [grafana/puppet-grafana](https://github.com/grafana/puppet-grafana/)  | 0 | 1 | 0 | 5 |
+| [vectordotdev/timber-elixir-plug](https://github.com/vectordotdev/timber-elixir-plug/)  | 0 | 16 | 4 | 1 |
+| [prometheus/nagios_plugins](https://github.com/prometheus/nagios_plugins/)  | 0 | 54 | 22 | 103 |
+| [ClickHouse/metabase-clickhouse-dri~](https://github.com/ClickHouse/metabase-clickhouse-driver/)  | 0 | 114 | 59 | 372 |
+| [open-telemetry/opentelemetry-profi~](https://github.com/open-telemetry/opentelemetry-profiling/)  | 0 | 1 | 2 | 16 |
+| [go-faster/x](https://github.com/go-faster/x/)  | 0 | 109 | 37 | 3 |
+| [kubernetes-sigs/sig-usability](https://github.com/kubernetes-sigs/sig-usability/)  | 0 | 15 | 7 | 8 |
+| [prometheus/demo-site](https://github.com/prometheus/demo-site/)  | 0 | 270 | 61 | 76 |
+| [ClickHouse/clickhouse-com-content](https://github.com/ClickHouse/clickhouse-com-content/)  | 0 | 1 | 11 | 3 |
+| [cilium/testing-recipes](https://github.com/cilium/testing-recipes/)  | 0 | 1 | 0 | 0 |
+| [grpc/proposal](https://github.com/grpc/proposal/)  | 0 | 617 | 334 | 611 |
+| [gotd/gep](https://github.com/gotd/gep/)  | 0 | 2 | 0 | 0 |
+| [prometheus/busybox](https://github.com/prometheus/busybox/)  | 0 | 64 | 34 | 32 |
+| [vectordotdev/timber-node-builder](https://github.com/vectordotdev/timber-node-builder/)  | 0 | 1 | 0 | 0 |
+| [kubernetes-sigs/execution-hook](https://github.com/kubernetes-sigs/execution-hook/)  | 0 | 2 | 5 | 12 |
+| [istio/old_manifest_repo](https://github.com/istio/old_manifest_repo/)  | 0 | 21 | 5 | 1 |
+| [ClickHouse/libc-blobs](https://github.com/ClickHouse/libc-blobs/)  | 0 | 5 | 0 | 0 |
+| [envoyproxy/misc](https://github.com/envoyproxy/misc/)  | 0 | 3 | 0 | 0 |
+| [istio/fortio-deployment](https://github.com/istio/fortio-deployment/)  | 0 | 155 | 74 | 15 |
+| [ClickHouse/clickhouse-playground-o~](https://github.com/ClickHouse/clickhouse-playground-old/)  | 0 | 41 | 8 | 4 |
+| [envoyproxy/artwork](https://github.com/envoyproxy/artwork/)  | 0 | 4 | 0 | 9 |
+| [envoyproxy/community](https://github.com/envoyproxy/community/)  | 0 | 1 | 0 | 7 |
+| [grpc/coverage](https://github.com/grpc/coverage/)  | 0 | 2 | 0 | 1 |
+| [prometheus/promci](https://github.com/prometheus/promci/)  | 0 | 5 | 0 | 1 |
+| [envoyproxy/envoybot](https://github.com/envoyproxy/envoybot/)  | 0 | 12 | 13 | 2 |
+| [vectordotdev/docker-builder](https://github.com/vectordotdev/docker-builder/)  | 0 | 1 | 0 | 0 |
+| [ClickHouse/hive-metastore](https://github.com/ClickHouse/hive-metastore/)  | 0 | 4 | 0 | 1 |
+| [grpc/grpc-community](https://github.com/grpc/grpc-community/)  | 0 | 42 | 14 | 59 |
+| [docker/buildx-packaging](https://github.com/docker/buildx-packaging/)  | 0 | 40 | 18 | 11 |
+| [m3db/docs-archive](https://github.com/m3db/docs-archive/)  | 0 | 5 | 0 | 0 |
+| [open-telemetry/opentelemetry-go-va~](https://github.com/open-telemetry/opentelemetry-go-vanityurls/)  | 0 | 13 | 14 | 3 |
+| [vectordotdev/splunk-cost-cutting](https://github.com/vectordotdev/splunk-cost-cutting/)  | 0 | 29 | 0 | 0 |
+| [m3db/proposal](https://github.com/m3db/proposal/)  | 0 | 12 | 5 | 14 |
+| [docker/dev-environments](https://github.com/docker/dev-environments/)  | 0 | 18 | 4 | 58 |
+| [grafana/snap_k8s](https://github.com/grafana/snap_k8s/)  | 0 | 29 | 2 | 6 |
+| [m3db/dtest](https://github.com/m3db/dtest/)  | 0 | 4 | 2 | 1 |
+| [m3db/ci-scripts](https://github.com/m3db/ci-scripts/)  | 0 | 103 | 104 | 5 |
+| [helm/charts-repo-actions-demo](https://github.com/helm/charts-repo-actions-demo/)  | 0 | 55 | 52 | 97 |
+| [helm/examples](https://github.com/helm/examples/)  | 0 | 10 | 6 | 31 |
+| [prometheus/talks](https://github.com/prometheus/talks/)  | 0 | 11 | 5 | 19 |
+| [vectordotdev/logfmt-elixir](https://github.com/vectordotdev/logfmt-elixir/)  | 0 | 55 | 0 | 8 |
+| [go-faster/.github](https://github.com/go-faster/.github/)  | 0 | 21 | 0 | 0 |
+| [vectordotdev/log-event-json-schema](https://github.com/vectordotdev/log-event-json-schema/)  | 0 | 156 | 33 | 12 |
+| [istio/enhancements](https://github.com/istio/enhancements/)  | 0 | 116 | 118 | 12 |
+| [helm/docker-kubectl-helm-aws](https://github.com/helm/docker-kubectl-helm-aws/)  | 0 | 9 | 7 | 6 |
+| [helm/docker-kubectl-helm-az](https://github.com/helm/docker-kubectl-helm-az/)  | 0 | 9 | 4 | 7 |
+| [open-telemetry/wg-prometheus](https://github.com/open-telemetry/wg-prometheus/)  | 0 | 9 | 9 | 36 |
+| [docker/engine-sync](https://github.com/docker/engine-sync/)  | 0 | 6 | 0 | 8 |
+| [kata-containers/documentation](https://github.com/kata-containers/documentation/)  | 0 | 679 | 379 | 492 |
+| [docker/for-mac](https://github.com/docker/for-mac/)  | 0 | 72 | 31 | 2318 |
+| [helm/hub](https://github.com/helm/hub/)  | 0 | 920 | 404 | 246 |
+| [docker/golang-cross](https://github.com/docker/golang-cross/)  | 0 | 87 | 61 | 95 |
+| [docker/hacktoberfest-2022](https://github.com/docker/hacktoberfest-2022/)  | 0 | 168 | 64 | 137 |
+| [prometheus/circleci](https://github.com/prometheus/circleci/)  | 0 | 35 | 27 | 7 |
+| [helm/community](https://github.com/helm/community/)  | 0 | 322 | 163 | 360 |
+| [vectordotdev/packer-docker](https://github.com/vectordotdev/packer-docker/)  | 0 | 2 | 0 | 0 |
+| [helm/homebrew-tap](https://github.com/helm/homebrew-tap/)  | 0 | 14 | 3 | 4 |
+| [helm/chart-releaser-action](https://github.com/helm/chart-releaser-action/)  | 0 | 53 | 60 | 378 |
+| [vectordotdev/helm-charts](https://github.com/vectordotdev/helm-charts/)  | 0 | 197 | 172 | 59 |
+| [prometheus/golang-builder](https://github.com/prometheus/golang-builder/)  | 0 | 314 | 187 | 68 |
+| [vectordotdev/ex_aws_athena](https://github.com/vectordotdev/ex_aws_athena/)  | 0 | 5 | 0 | 2 |
+| [vectordotdev/content-old](https://github.com/vectordotdev/content-old/)  | 0 | 51 | 20 | 5 |
+| [helm/specs](https://github.com/helm/specs/)  | 0 | 3 | 0 | 4 |
+| [docker/docker-bench-security](https://github.com/docker/docker-bench-security/)  | 0 | 840 | 327 | 8244 |
+| [helm/chart-testing-action](https://github.com/helm/chart-testing-action/)  | 0 | 66 | 66 | 177 |
+| [helm/get-helm-sh](https://github.com/helm/get-helm-sh/)  | 0 | 2 | 0 | 4 |
+| [docker/scout-action](https://github.com/docker/scout-action/)  | 0 | 2 | 0 | 3 |
+| [helm/prow](https://github.com/helm/prow/)  | 0 | 3 | 0 | 19 |
+| [open-telemetry/docs-cn](https://github.com/open-telemetry/docs-cn/)  | 0 | 284 | 99 | 450 |
+| [grpc/grpc.io](https://github.com/grpc/grpc.io/)  | 0 | 801 | 674 | 362 |
+| [docker/community](https://github.com/docker/community/)  | 0 | 544 | 59 | 329 |
+| [helm/helm-summit-notes](https://github.com/helm/helm-summit-notes/)  | 0 | 28 | 14 | 24 |
 
 

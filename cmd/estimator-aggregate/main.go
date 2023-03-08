@@ -64,11 +64,13 @@ func main() {
 					Name:    e.Repo,
 					SLOC:    e.SLOC,
 					PR:      e.PullRequests,
+					Stars:   e.Stars,
 					Commits: e.Commits,
 				}
 				orgOut.SLOC += repoOut.SLOC
 				orgOut.PR += repoOut.PR
 				orgOut.Commits += repoOut.Commits
+				orgOut.Stars += repoOut.Stars
 				orgOut.Repos[repoOut.Name] = repoOut
 			}
 			out.Organizations[orgOut.Name] = orgOut

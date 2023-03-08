@@ -27,6 +27,7 @@ type Stat struct {
 	SLOC    int
 	PR      int
 	Commits int
+	Stars   int
 	Org     string
 }
 
@@ -69,6 +70,7 @@ func main() {
 				SLOC:    org.SLOC,
 				PR:      org.PR,
 				Commits: org.Commits,
+				Stars:   org.Stars,
 			})
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
@@ -77,6 +79,7 @@ func main() {
 					SLOC:    repo.SLOC,
 					PR:      repo.PR,
 					Commits: repo.Commits,
+					Stars:   repo.Stars,
 				})
 			}
 		}
