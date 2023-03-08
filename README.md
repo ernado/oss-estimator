@@ -26,3 +26,8 @@ $ go run ./cmd/estimator-sloc open-telemetry/opentelemetry-ebpf
 | HEAD    | df4e6e6 |
 +---------+---------+
 ```
+
+```console
+$ du -hs _work/
+31G	_work
+```
