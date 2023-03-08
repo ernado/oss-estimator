@@ -132,7 +132,6 @@ func main() {
 				"carina-io",
 				"k3s-io",
 				"karmada-io",
-				"elastic",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
@@ -182,6 +181,9 @@ func main() {
 				{"rust-lang", "rust"},
 				{"tikv", "tikv"},
 				{"dragonflyoss", "Dragonfly2"},
+				{"elastic", "elasticsearch"},
+				{"elastic", "beats"},
+				{"elastic", "logstash"},
 			} {
 				select {
 				case <-ctx.Done():
