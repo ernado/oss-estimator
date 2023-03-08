@@ -269,8 +269,8 @@ func main() {
 		})
 		template.Must(t.Parse(tpl))
 
-		var v estimate.Aggregated
-		if err := json.Unmarshal(data, &v); err != nil {
+		var a estimate.Aggregated
+		if err := json.Unmarshal(data, &a); err != nil {
 			return errors.Wrap(err, "unmarshal data")
 		}
 
@@ -283,7 +283,7 @@ func main() {
 		}
 
 		var c Context
-		for _, org := range v.Organizations {
+		for _, org := range a.Organizations {
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
 					Org:     org.Name,
@@ -294,13 +294,6 @@ func main() {
 					Stars:   repo.Stars,
 				})
 			}
-			if isCNCF[org.Name] {
-				cncf.PR += org.PR
-				cncf.Commits += org.Commits
-				cncf.Stars += org.Stars
-				cncf.SLOC += org.SLOC
-			}
-
 			v := Stat{
 				Name:    org.Name,
 				SLOC:    org.SLOC,
@@ -309,16 +302,19 @@ func main() {
 				Stars:   org.Stars,
 			}
 			if isCNCF[org.Name] {
+				cncf.PR += org.PR
+				cncf.Commits += org.Commits
+				cncf.Stars += org.Stars
+				cncf.SLOC += org.SLOC
 				c.CNCF = append(c.CNCF, v)
 			}
+			c.Orgs = append(c.Orgs, v)
 			switch org.Name {
 			case "kubernetes", "kubernetes-sigs":
 				k8s.PR += org.PR
 				k8s.Commits += org.Commits
 				k8s.Stars += org.Stars
 				k8s.SLOC += org.SLOC
-			default:
-				c.Orgs = append(c.Orgs, v)
 			}
 		}
 
