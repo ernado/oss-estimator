@@ -40,12 +40,12 @@ $ du -hs _work/
 | Project                                        | SLOC | Commits | PRs |
 |------------------------------------------------|------|---------|-----|
 {{ range .Orgs -}}
-| [{{ .Name }}](https://github.com/{{ .Name }})  | {{ .SLOC }} | {{ .Commits }} | {{ .PR }} |
+| [{{ .Title }}]({{ .URL }})  | {{ .SLOC }} | {{ .Commits }} | {{ .PR }} |
 {{ end }}
 
 | Project                                        | SLOC | Commits | PRs |
 |------------------------------------------------|------|---------|-----|
 {{ range .Repos -}}
-| [{{ .Name }}](https://github.com/{{ .Name }})  | {{ .SLOC }} | {{ .Commits }} | {{ .PR }} |
+| [{{ .Title }}]({{ .URL }})  | {{ .SLOC }} | {{ .Commits }} | {{ .PR }} |
 {{ end }}
 

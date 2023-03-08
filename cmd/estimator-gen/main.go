@@ -4,6 +4,7 @@ import (
 	"context"
 	_ "embed"
 	"encoding/json"
+	"fmt"
 	"os"
 	"path"
 	"sort"
@@ -27,6 +28,27 @@ type Stat struct {
 	SLOC    int
 	PR      int
 	Commits int
+	Org     string
+}
+
+const maxLen = 35
+
+func (s Stat) Title() string {
+	v := s.Name
+	if s.Org == "" {
+		v += "/" + s.Org
+	}
+	if len(v) > maxLen {
+		return v[:maxLen-1] + "~"
+	}
+	return v
+}
+
+func (s Stat) URL() string {
+	if s.Org == "" {
+		return fmt.Sprintf("https://github.com/%s", s.Name)
+	}
+	return fmt.Sprintf("https://github.com/%s/%s/", s.Org, s.Name)
 }
 
 type Context struct {
