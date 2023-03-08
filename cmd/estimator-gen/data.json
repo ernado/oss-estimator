@@ -5430,10 +5430,10 @@
     },
     "openebs": {
       "Name": "openebs",
-      "SLOC": 1165411,
-      "PR": 10441,
-      "Commits": 17867,
-      "Stars": 10172,
+      "SLOC": 524661,
+      "PR": 9609,
+      "Commits": 15501,
+      "Stars": 10135,
       "Repos": {
         "api": {
           "Name": "api",
@@ -5665,13 +5665,6 @@
           "PR": 1442,
           "Commits": 2906,
           "Stars": 8010
-        },
-        "openebs-docs": {
-          "Name": "openebs-docs",
-          "SLOC": 640750,
-          "PR": 832,
-          "Commits": 2366,
-          "Stars": 37
         },
         "openebs-k8s-provisioner": {
           "Name": "openebs-k8s-provisioner",

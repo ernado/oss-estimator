@@ -50,6 +50,7 @@ func main() {
 			{"ClickHouse", "UnixODBC"}:             {},
 			{"cilium", "busybox"}:                  {},
 			{"istio", "old_vendor-istio_repo"}:     {},
+			{"openebs", "openebs-docs"}:            {},
 		}
 
 		g, ctx := errgroup.WithContext(ctx)
