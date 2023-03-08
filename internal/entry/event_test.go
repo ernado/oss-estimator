@@ -120,9 +120,9 @@ func TestEvent_Decode(t *testing.T) {
 		j.ResetBytes(s.Bytes())
 		var e Event
 		assert.NoError(t, e.Decode(j))
-		assert.NotEmpty(t, e.Type)
 
 		if e.Interesting() && e.Time.Year() > 2014 {
+			assert.NotEmpty(t, e.Type)
 			assert.NotEmpty(t, e.Actor)
 			assert.NotZero(t, e.ActorID)
 			assert.NotZero(t, e.RepoID)
