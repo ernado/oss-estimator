@@ -274,6 +274,7 @@ func main() {
 		"carina-io",
 		"k3s-io",
 		"karmada-io",
+		"open-telemetry",
 	} {
 		isCNCF[org] = true
 	}

@@ -40,7 +40,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 ### Organizations
 | Organization | SLOC | Commits | PRs | Stars | Language |
 |--------------|------|---------|-----|-------|----------|
-| [**CNCF**](https://www.cncf.io/)  | 20.6M | 1.3M | 763.4K | 1.1M | Go |
+| [**CNCF**](https://www.cncf.io/)  | 22.4M | 1.4M | 824.5K | 1.1M | Go |
 | [torvalds](https://github.com/torvalds)  | 19.1M | 1.1M | 761 | 147.5K | C |
 | [**K8s**](https://kubernetes.io/)  | 5.4M | 498.5K | 261.5K | 341.3K | Go |
 | [kubernetes](https://github.com/kubernetes)  | 3.4M | 381.1K | 190.5K | 243.1K | Go |
@@ -760,6 +760,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 |---------|------|---------|-----|-------|----------|
 | [kubernetes](https://github.com/kubernetes)  | 3.4M | 381.1K | 190.5K | 243.1K | Go |
 | [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1.9M | 117.4K | 71.3K | 98.2K | Go |
+| [open-telemetry](https://github.com/open-telemetry)  | 1.7M | 61.8K | 61.4K | 28.6K | Go |
 | [grpc](https://github.com/grpc)  | 1.6M | 74.1K | 38.7K | 86.8K | C++ |
 | [envoyproxy](https://github.com/envoyproxy)  | 1.5M | 46.3K | 24.6K | 28.6K | C++ |
 | [nats-io](https://github.com/nats-io)  | 802.4K | 36.2K | 12.9K | 31.4K | Go |
