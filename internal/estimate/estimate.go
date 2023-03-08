@@ -45,6 +45,7 @@ type Entry struct {
 }
 
 type AggregatedRepo struct {
+	ID      int64  `json:"ID"`
 	OrgID   int64  `json:"OrgID"`
 	Name    string `json:"Name"`
 	SLOC    int    `json:"SLOC"`
@@ -183,8 +184,8 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		"-x", strings.Join(exclude, ","),
 		"--format", "json",
 	}
-	// Ignore common vendor directories.
-	for _, v := range []string{
+
+	ignoreDirs := []string{
 		"vendor",
 		"include",
 		"third_party",
@@ -194,9 +195,16 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		".yarn",
 		".vendor",
 		".github",
+	}
+	switch repoName {
+	case "statshouse":
+		ignoreDirs = append(ignoreDirs, "sqlite")
+	case "fluent-bit":
+		ignoreDirs = append(ignoreDirs, "lib")
+	}
 
-		"sqlite", // hack for statshouse that vendors sqlite
-	} {
+	// Ignore common vendor directories.
+	for _, v := range ignoreDirs {
 		args = append(args, "--exclude-dir", v)
 	}
 

@@ -51,6 +51,7 @@ func main() {
 			{"cilium", "busybox"}:                  {},
 			{"istio", "old_vendor-istio_repo"}:     {},
 			{"openebs", "openebs-docs"}:            {},
+			{"chaos-mesh", "toda-glibc"}:           {},
 		}
 
 		g, ctx := errgroup.WithContext(ctx)

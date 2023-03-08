@@ -301,6 +301,16 @@ func main() {
 				cncf.SLOC += org.SLOC
 			}
 
+			v := Stat{
+				Name:    org.Name,
+				SLOC:    org.SLOC,
+				PR:      org.PR,
+				Commits: org.Commits,
+				Stars:   org.Stars,
+			}
+			if isCNCF[org.Name] {
+				c.CNCF = append(c.CNCF, v)
+			}
 			switch org.Name {
 			case "kubernetes", "kubernetes-sigs":
 				k8s.PR += org.PR
@@ -308,17 +318,7 @@ func main() {
 				k8s.Stars += org.Stars
 				k8s.SLOC += org.SLOC
 			default:
-				v := Stat{
-					Name:    org.Name,
-					SLOC:    org.SLOC,
-					PR:      org.PR,
-					Commits: org.Commits,
-					Stars:   org.Stars,
-				}
 				c.Orgs = append(c.Orgs, v)
-				if isCNCF[org.Name] {
-					c.CNCF = append(c.CNCF, v)
-				}
 			}
 		}
 
@@ -332,7 +332,7 @@ func main() {
 			return c.Repos[i].SLOC > c.Repos[j].SLOC
 		})
 		sort.SliceStable(c.CNCF, func(i, j int) bool {
-			return c.CNCF[i].SLOC > c.Repos[j].SLOC
+			return c.CNCF[i].SLOC > c.CNCF[j].SLOC
 		})
 
 		var filteredRepos []Stat

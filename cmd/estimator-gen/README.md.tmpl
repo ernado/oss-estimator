@@ -44,9 +44,9 @@ $ du -hs _work/
 | [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} |
 {{ end }}
 
-### Repos
-| Project                                        | SLOC | Commits | PRs | Stars |
-|------------------------------------------------|------|---------|-----|-------|
+### Repositories
+| Repository | SLOC | Commits | PRs | Stars |
+|------------|------|---------|-----|-------|
 {{ range .Repos -}}
 | [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} |
 {{ end }}

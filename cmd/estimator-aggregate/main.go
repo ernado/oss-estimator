@@ -61,6 +61,7 @@ func main() {
 					return errors.Errorf("org mismatch: %s != %s", orgOut.Name, e.Org)
 				}
 				repoOut := &estimate.AggregatedRepo{
+					ID:      e.RepoID,
 					Name:    e.Repo,
 					SLOC:    e.SLOC,
 					PR:      e.PullRequests,
