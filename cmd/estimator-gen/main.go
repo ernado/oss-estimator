@@ -34,7 +34,7 @@ const maxLen = 35
 
 func (s Stat) Title() string {
 	v := s.Name
-	if s.Org == "" {
+	if s.Org != "" {
 		v += "/" + s.Org
 	}
 	if len(v) > maxLen {
