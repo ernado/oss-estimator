@@ -112,24 +112,22 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		if err != nil {
 			return nil, errors.Wrap(err, "parse clone URL")
 		}
-		switch orgName + "/" + repoName {
-		case "VKCOM/VKUI":
-			// HACK: LFS can't be fetched by personal token:
-			// 	Resource not accessible by personal access token
-		default:
-			u.User = url.UserPassword("git", os.Getenv("GITHUB_TOKEN"))
-		}
-
 		// Fix partial clone.
 		_ = os.RemoveAll(gitRoot)
 
 		// git is significantly faster than go-git on big repos for cloning.
+	fetch:
 		cmd := exec.CommandContext(ctx, "git", "clone", "--depth=1", u.String(), gitRoot)
 		out, outErr := new(bytes.Buffer), new(bytes.Buffer)
 		cmd.Stdout = out
 		cmd.Stderr = outErr
 
 		if err := cmd.Run(); err != nil {
+			if strings.Contains(outErr.String(), "fatal: Resource not accessible by personal access token") {
+				// Try again without auth.
+				u.User = nil
+				goto fetch
+			}
 			if outErr.Len() > 0 {
 				return nil, errors.Wrapf(err, "run git: %s", outErr)
 			}

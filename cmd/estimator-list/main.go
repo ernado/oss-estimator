@@ -27,22 +27,34 @@ func main() {
 			concurrency = 8
 			jobs        = make(chan Job, concurrency)
 		)
+
 		g, ctx := errgroup.WithContext(ctx)
 		g.Go(func() error {
 			defer close(jobs)
 			for _, org := range []string{
 				"grpc",
 				"open-telemetry",
+				"prometheus",
+				"cilium",
+				"kubernetes",
+				"kubernetes-sigs",
+				"istio",
+				"etcd-io",
+				"kata-containers",
+				"siderolabs",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
-						PerPage: 100,
+						PerPage: 500,
 					},
 				})
 				if err != nil {
 					return errors.Wrap(err, "list repos")
 				}
 				for _, repo := range repos {
+					if repo.GetSize() == 0 || repo.GetFork() {
+						continue
+					}
 					select {
 					case <-ctx.Done():
 						return ctx.Err()
