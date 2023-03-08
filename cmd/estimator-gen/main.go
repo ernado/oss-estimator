@@ -269,8 +269,8 @@ func main() {
 		})
 		template.Must(t.Parse(tpl))
 
-		var a estimate.Aggregated
-		if err := json.Unmarshal(data, &a); err != nil {
+		var ag estimate.Aggregated
+		if err := json.Unmarshal(data, &ag); err != nil {
 			return errors.Wrap(err, "unmarshal data")
 		}
 
@@ -283,7 +283,7 @@ func main() {
 		}
 
 		var c Context
-		for _, org := range a.Organizations {
+		for _, org := range ag.Organizations {
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
 					Org:     org.Name,
@@ -321,15 +321,18 @@ func main() {
 		// Add aggregates.
 		c.Orgs = append(c.Orgs, k8s, cncf)
 
-		sort.SliceStable(c.Orgs, func(i, j int) bool {
-			return c.Orgs[i].SLOC > c.Orgs[j].SLOC
-		})
-		sort.SliceStable(c.Repos, func(i, j int) bool {
-			return c.Repos[i].SLOC > c.Repos[j].SLOC
-		})
-		sort.SliceStable(c.CNCF, func(i, j int) bool {
-			return c.CNCF[i].SLOC > c.CNCF[j].SLOC
-		})
+		comparator := func(s []Stat) func(i int, j int) bool {
+			return func(i int, j int) bool {
+				a, b := s[i], s[j]
+				if a.SLOC == b.SLOC {
+					return a.Name < b.Name
+				}
+				return s[i].SLOC > s[j].SLOC
+			}
+		}
+		sort.SliceStable(c.Orgs, comparator(c.Orgs))
+		sort.SliceStable(c.Repos, comparator(c.Repos))
+		sort.SliceStable(c.CNCF, comparator(c.CNCF))
 
 		var filteredRepos []Stat
 		for _, repo := range c.Repos {
