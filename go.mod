@@ -1,6 +1,6 @@
 module estimator
 
-go 1.20
+go 1.19
 
 require (
 	github.com/go-faster/errors v0.6.1
