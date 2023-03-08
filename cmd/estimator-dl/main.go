@@ -26,6 +26,7 @@ type SimplifiedEntry struct {
 	Repo    int64
 	ActorID int64
 	Actor   []byte
+	Time    int64
 }
 
 func (s SimplifiedEntry) Encode(e *jx.Encoder) {
@@ -41,6 +42,9 @@ func (s SimplifiedEntry) Encode(e *jx.Encoder) {
 		})
 		e.Field("a", func(e *jx.Encoder) {
 			e.ByteStr(s.Actor)
+		})
+		e.Field("t", func(e *jx.Encoder) {
+			e.Int64(s.Time)
 		})
 	})
 }
@@ -176,6 +180,7 @@ func main() {
 					Repo:    ev.RepoID,
 					ActorID: ev.ActorID,
 					Actor:   ev.Actor,
+					Time:    ev.Time.Unix(),
 				}
 				se.Encode(&e)
 				if _, err := os.Stdout.Write(e.Bytes()); err != nil {
