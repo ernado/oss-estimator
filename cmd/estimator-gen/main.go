@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"path"
 	"sort"
 	"text/template"
 
@@ -74,7 +73,8 @@ func main() {
 			})
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
-					Name:    path.Join(org.Name, repo.Name),
+					Org:     org.Name,
+					Name:    repo.Name,
 					SLOC:    repo.SLOC,
 					PR:      repo.PR,
 					Commits: repo.Commits,
