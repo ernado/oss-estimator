@@ -311,6 +311,7 @@ func main() {
 			if isCNCF[org.Name] {
 				c.CNCF = append(c.CNCF, v)
 			}
+			c.Orgs = append(c.Orgs, v)
 			switch org.Name {
 			case "kubernetes", "kubernetes-sigs":
 				k8s.PR += org.PR
@@ -318,7 +319,6 @@ func main() {
 				k8s.Stars += org.Stars
 				k8s.SLOC += org.SLOC
 			default:
-				c.Orgs = append(c.Orgs, v)
 			}
 		}
 
