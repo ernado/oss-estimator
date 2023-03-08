@@ -4,6 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	"strings"
 
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
@@ -41,9 +42,14 @@ func main() {
 			orgName  = "go-faster"
 			repoName = "jx"
 		)
-		flag.StringVar(&orgName, "org", orgName, "GitHub organization name")
-		flag.StringVar(&repoName, "repo", repoName, "GitHub repository name")
 		flag.Parse()
+		if v := flag.Arg(0); v != "" {
+			elems := strings.SplitN(v, "/", 2)
+			if len(elems) != 2 {
+				return errors.Errorf("invalid repo name: %q", v)
+			}
+			orgName, repoName = elems[0], elems[1]
+		}
 
 		c, err := estimate.New(gh.Client(ctx), "_work").Get(ctx, orgName, repoName)
 		if err != nil {

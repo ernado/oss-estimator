@@ -13,13 +13,14 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 ## Example
 
 ```console
-$ go run ./cmd/estimator-sloc
+$ go run ./cmd/estimator-sloc open-telemetry/opentelemetry-ebpf
 +-------------------+
-| go-faster/jx      |
+| open-telemetry/op |
+| entelemetry-ebpf  |
 +---------+---------+
-| SLOC    | 9667    |
-| Commits | 1408    |
-| PR      | 65      |
-| HEAD    | 8da2e3c |
+| SLOC    | 4295    |
+| Commits | 267     |
+| PR      | 110     |
+| HEAD    | df4e6e6 |
 +---------+---------+
 ```
