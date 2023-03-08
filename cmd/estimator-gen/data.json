@@ -6092,6 +6092,38 @@
         }
       }
     },
+    "python": {
+      "Name": "python",
+      "SLOC": 1366451,
+      "PR": 39439,
+      "Commits": 116201,
+      "Stars": 51069,
+      "Repos": {
+        "cpython": {
+          "Name": "cpython",
+          "SLOC": 1366451,
+          "PR": 39439,
+          "Commits": 116201,
+          "Stars": 51069
+        }
+      }
+    },
+    "rust-lang": {
+      "Name": "rust-lang",
+      "SLOC": 1525493,
+      "PR": 61178,
+      "Commits": 219103,
+      "Stars": 78642,
+      "Repos": {
+        "rust": {
+          "Name": "rust",
+          "SLOC": 1525493,
+          "PR": 61178,
+          "Commits": 219103,
+          "Stars": 78642
+        }
+      }
+    },
     "siderolabs": {
       "Name": "siderolabs",
       "SLOC": 232773,
@@ -6702,6 +6734,22 @@
           "PR": 22710,
           "Commits": 144463,
           "Stars": 171882
+        }
+      }
+    },
+    "torvalds": {
+      "Name": "torvalds",
+      "SLOC": 19110371,
+      "PR": 761,
+      "Commits": 1169202,
+      "Stars": 147547,
+      "Repos": {
+        "linux": {
+          "Name": "linux",
+          "SLOC": 19110371,
+          "PR": 761,
+          "Commits": 1169202,
+          "Stars": 147547
         }
       }
     },

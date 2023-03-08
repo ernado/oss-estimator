@@ -105,6 +105,7 @@ func main() {
 				}
 			}
 			for _, v := range []key{
+				{"torvalds", "linux"},
 				{"VKCOM", "statshouse"},
 				{"VKCOM", "VKUI"},
 				{"pixie-io", "pixie"},
@@ -122,6 +123,8 @@ func main() {
 				{"vuejs", "vue"},
 				{"tensorflow", "tensorflow"},
 				{"golang", "go"},
+				{"python", "cpython"},
+				{"rust-lang", "rust"},
 			} {
 				select {
 				case <-ctx.Done():

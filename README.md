@@ -37,6 +37,7 @@ $ du -hs _work/
 
 | Organization | SLOC | Commits | PRs | Stars |
 |--------------|------|---------|-----|-------|
+| [torvalds](https://github.com/torvalds)  | 19110371 | 1169202 | 761 | 147547 |
 | [kubernetes](https://github.com/kubernetes)  | 5432651 | 498469 | 261503 | 341364 |
 | [tensorflow](https://github.com/tensorflow)  | 3351209 | 144463 | 22710 | 171882 |
 | [ClickHouse](https://github.com/ClickHouse)  | 2341463 | 166223 | 34848 | 33869 |
@@ -44,6 +45,8 @@ $ du -hs _work/
 | [open-telemetry](https://github.com/open-telemetry)  | 1780557 | 61864 | 61019 | 28606 |
 | [grpc](https://github.com/grpc)  | 1683336 | 74131 | 38788 | 86819 |
 | [grafana](https://github.com/grafana)  | 1679277 | 76610 | 50201 | 103185 |
+| [rust-lang](https://github.com/rust-lang)  | 1525493 | 219103 | 61178 | 78642 |
+| [python](https://github.com/python)  | 1366451 | 116201 | 39439 | 51069 |
 | [docker](https://github.com/docker)  | 1266401 | 173748 | 30587 | 146425 |
 | [openebs](https://github.com/openebs)  | 1165411 | 17867 | 10441 | 10172 |
 | [golang](https://github.com/golang)  | 1061006 | 55722 | 2865 | 109154 |
@@ -75,8 +78,11 @@ $ du -hs _work/
 
 | Project                                        | SLOC | Commits | PRs | Stars |
 |------------------------------------------------|------|---------|-----|-------|
+| [torvalds/linux](https://github.com/torvalds/linux/)  | 19110371 | 1169202 | 761 | 147547 |
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/)  | 3351209 | 144463 | 22710 | 171882 |
+| [rust-lang/rust](https://github.com/rust-lang/rust/)  | 1525493 | 219103 | 61178 | 78642 |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1488546 | 114442 | 73545 | 96462 |
+| [python/cpython](https://github.com/python/cpython/)  | 1366451 | 116201 | 39439 | 51069 |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse/)  | 1112577 | 109729 | 32220 | 27404 |
 | [golang/go](https://github.com/golang/go/)  | 1061006 | 55722 | 2865 | 109154 |
 | [grafana/grafana](https://github.com/grafana/grafana/)  | 889820 | 41339 | 33532 | 54290 |
