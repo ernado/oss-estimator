@@ -14,25 +14,6 @@ import (
 	"estimator/internal/estimate"
 )
 
-type AggregatedRepo struct {
-	Name    string `json:"Name"`
-	SLOC    int    `json:"SLOC"`
-	PR      int    `json:"PR"`
-	Commits int    `json:"Commits"`
-}
-
-type AggregatedOrg struct {
-	Name    string                     `json:"Name"`
-	SLOC    int                        `json:"SLOC"`
-	PR      int                        `json:"PR"`
-	Commits int                        `json:"Commits"`
-	Repos   map[string]*AggregatedRepo `json:"Repos,omitempty"`
-}
-
-type Aggregated struct {
-	Organizations map[string]*AggregatedOrg `json:"Organizations,omitempty"`
-}
-
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
@@ -41,8 +22,8 @@ func main() {
 		flag.StringVar(&dir, "dir", dir, "directory to store data")
 		flag.Parse()
 
-		out := &Aggregated{
-			Organizations: map[string]*AggregatedOrg{},
+		out := &estimate.Aggregated{
+			Organizations: map[string]*estimate.AggregatedOrg{},
 		}
 
 		orgs, err := os.ReadDir(dir)
@@ -50,9 +31,9 @@ func main() {
 			return errors.Wrap(err, "read orgs")
 		}
 		for _, org := range orgs {
-			orgOut := &AggregatedOrg{
+			orgOut := &estimate.AggregatedOrg{
 				Name:  org.Name(),
-				Repos: map[string]*AggregatedRepo{},
+				Repos: map[string]*estimate.AggregatedRepo{},
 			}
 			if !org.IsDir() {
 				continue
@@ -79,7 +60,7 @@ func main() {
 				if orgOut.Name != e.Org {
 					return errors.Errorf("org mismatch: %s != %s", orgOut.Name, e.Org)
 				}
-				repoOut := &AggregatedRepo{
+				repoOut := &estimate.AggregatedRepo{
 					Name:    e.Repo,
 					SLOC:    e.SLOC,
 					PR:      e.PullRequests,

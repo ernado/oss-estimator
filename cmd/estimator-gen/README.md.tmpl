@@ -1,0 +1,50 @@
+{{- /*gotype: estimator/cmd/estimator-gen.Context*/ -}}
+
+# oss-estimator
+
+Set of tools to get info about GitHub project that is needed to estimate the cost of running it.
+
+## Tools
+
+| Tool                                                  | Description                                                                 |
+|-------------------------------------------------------|-----------------------------------------------------------------------------|
+| [estimator-dl](../estimator-dl/main.go)               | Download from [gharchive.org](https://gharchive.org)                        |
+| [estimator-sloc](../estimator-sloc/main.go)           | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
+| [estimator-list](../estimator-list/main.go)           | Concurrently fetch popular oss repos and stat for them                      |
+| [estimator-aggregate](../estimator-aggregate/main.go) | Aggregate stats                                                             |
+
+
+## Example
+
+```console
+$ go run ./cmd/estimator-sloc open-telemetry/opentelemetry-ebpf
++-------------------+
+| open-telemetry/op |
+| entelemetry-ebpf  |
++---------+---------+
+| SLOC    | 4295    |
+| Commits | 267     |
+| PR      | 110     |
+| HEAD    | df4e6e6 |
++---------+---------+
+```
+
+```console
+$ du -hs _work/
+31G	_work
+```
+
+## Stats
+
+| Project                                        | SLOC | Commits | PRs |
+|------------------------------------------------|------|---------|-----|
+{{ range .Orgs -}}
+| [{{ .Name }}](https://github.com/{{ .Name }})  | {{ .SLOC }} | {{ .Commits }} | {{ .PR }} |
+{{ end }}
+
+| Project                                        | SLOC | Commits | PRs |
+|------------------------------------------------|------|---------|-----|
+{{ range .Repos -}}
+| [{{ .Name }}](https://github.com/{{ .Name }})  | {{ .SLOC }} | {{ .Commits }} | {{ .PR }} |
+{{ end }}
+

@@ -42,6 +42,25 @@ type Entry struct {
 	RepoID       int64       `json:"RepoID,omitempty"`
 }
 
+type AggregatedRepo struct {
+	Name    string `json:"Name"`
+	SLOC    int    `json:"SLOC"`
+	PR      int    `json:"PR"`
+	Commits int    `json:"Commits"`
+}
+
+type AggregatedOrg struct {
+	Name    string                     `json:"Name"`
+	SLOC    int                        `json:"SLOC"`
+	PR      int                        `json:"PR"`
+	Commits int                        `json:"Commits"`
+	Repos   map[string]*AggregatedRepo `json:"Repos,omitempty"`
+}
+
+type Aggregated struct {
+	Organizations map[string]*AggregatedOrg `json:"Organizations,omitempty"`
+}
+
 func (e Entry) Print() {
 	tw := table.NewWriter()
 	tw.SetTitle(fmt.Sprintf("%s/%s", e.Org, e.Repo))
