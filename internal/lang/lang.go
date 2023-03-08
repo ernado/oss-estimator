@@ -7,6 +7,7 @@ func All() []string {
 	return []string{
 		"Go",
 		"C",
+		"C Header",
 		"Go Template",
 		"BASH",
 		"Python",
