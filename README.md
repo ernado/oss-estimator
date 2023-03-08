@@ -4,8 +4,8 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 
 Tools:
 
-| Tool                                   | Description                                                                 |
-|----------------------------------------|-----------------------------------------------------------------------------|
-| [estimator-dl](./cmd/estimator-dl)     | Download from [gharchive.org](https://gharchive.org)                        |
-| [estimator-get](./cmd/estimator-get)   | Pull request and commit count                                               |
-| [estimator-sloc](./cmd/estimator-sloc) | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
+| Tool                                           | Description                                                                 |
+|------------------------------------------------|-----------------------------------------------------------------------------|
+| [estimator-dl](./cmd/estimator-dl/main.go)     | Download from [gharchive.org](https://gharchive.org)                        |
+| [estimator-get](./cmd/estimator-get/main.go)   | Pull request and commit count                                               |
+| [estimator-sloc](./cmd/estimator-sloc/main.go) | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
