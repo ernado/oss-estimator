@@ -51,6 +51,7 @@ func main() {
 				"kata-containers",
 				"siderolabs",
 				"openebs",
+				"m3db",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
@@ -120,6 +121,7 @@ func main() {
 				{"helm", "chartmuseum"},
 				{"vitalif", "vitastor"},
 				{"LINBIT", "linstor-server"},
+				{"uber", "kraken"},
 			} {
 				select {
 				case <-ctx.Done():

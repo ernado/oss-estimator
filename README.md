@@ -4,11 +4,12 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 
 ## Tools
 
-| Tool                                           | Description                                                                 |
-|------------------------------------------------|-----------------------------------------------------------------------------|
-| [estimator-dl](./cmd/estimator-dl/main.go)     | Download from [gharchive.org](https://gharchive.org)                        |
-| [estimator-sloc](./cmd/estimator-sloc/main.go) | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
-| [estimator-list](./cmd/estimator-list/main.go) | Concurrently fetch popular oss repos and stat for them                      |
+| Tool                                                     | Description                                                                 |
+|----------------------------------------------------------|-----------------------------------------------------------------------------|
+| [estimator-dl](./cmd/estimator-dl/main.go)               | Download from [gharchive.org](https://gharchive.org)                        |
+| [estimator-sloc](./cmd/estimator-sloc/main.go)           | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
+| [estimator-list](./cmd/estimator-list/main.go)           | Concurrently fetch popular oss repos and stat for them                      |
+| [estimator-aggregate](./cmd/estimator-aggregate/main.go) | Aggregate stats                                                             |
 
 
 ## Example
