@@ -40,10 +40,12 @@ type Entry struct {
 	SLOC         int         `json:"SLOC,omitempty"`
 	Head         string      `json:"HEAD,omitempty"`
 	RepoID       int64       `json:"RepoID,omitempty"`
+	OrgID        int64       `json:"OrgID,omitempty"`
 	Stars        int         `json:"Stars,omitempty"`
 }
 
 type AggregatedRepo struct {
+	OrgID   int64  `json:"OrgID"`
 	Name    string `json:"Name"`
 	SLOC    int    `json:"SLOC"`
 	PR      int    `json:"PR"`
@@ -52,6 +54,7 @@ type AggregatedRepo struct {
 }
 
 type AggregatedOrg struct {
+	ID      int64                      `json:"ID"`
 	Name    string                     `json:"Name"`
 	SLOC    int                        `json:"SLOC"`
 	PR      int                        `json:"PR"`
@@ -120,6 +123,7 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 
 	var (
 		repoID int64
+		orgID  int64
 		stars  int
 	)
 
@@ -134,6 +138,7 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 
 		repoID = repo.GetID()
 		stars = repo.GetStargazersCount()
+		orgID = repo.GetOwner().GetID()
 		u, err := url.Parse(repo.GetCloneURL())
 		if err != nil {
 			return nil, errors.Wrap(err, "parse clone URL")
@@ -258,10 +263,11 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		if err != nil {
 			return nil, errors.Wrap(err, "get repository")
 		}
-		repoID, stars = repo.GetID(), repo.GetStargazersCount()
+		repoID, stars, orgID = repo.GetID(), repo.GetStargazersCount(), repo.GetOwner().GetID()
 	}
 
 	ce := Entry{
+		OrgID:        orgID,
 		PullRequests: pullRequests,
 		Commits:      commits,
 		Code:         stats,

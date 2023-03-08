@@ -252,6 +252,11 @@ func main() {
 		"kyverno",
 		"litmuschaos",
 		"volcano-sh",
+		"containerssh",
+		"AthenZ",
+		"carina-io",
+		"k3s-io",
+		"karmada-io",
 	} {
 		isCNCF[org] = true
 	}

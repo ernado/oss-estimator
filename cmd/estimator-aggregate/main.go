@@ -66,7 +66,9 @@ func main() {
 					PR:      e.PullRequests,
 					Stars:   e.Stars,
 					Commits: e.Commits,
+					OrgID:   e.OrgID,
 				}
+				orgOut.ID = e.OrgID
 				orgOut.SLOC += repoOut.SLOC
 				orgOut.PR += repoOut.PR
 				orgOut.Commits += repoOut.Commits
