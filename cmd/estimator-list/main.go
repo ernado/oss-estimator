@@ -132,6 +132,7 @@ func main() {
 				"carina-io",
 				"k3s-io",
 				"karmada-io",
+				"elastic",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{

@@ -40,6 +40,7 @@ $ du -hs _work/
 |--------------|------|---------|-----|-------|----------|
 | [**CNCF**](https://www.cncf.io/)  | 20.6M | 1.3M | 763.4K | 1.1M | Go |
 | [torvalds](https://github.com/torvalds)  | 19.1M | 1.1M | 761 | 147.5K | C |
+| [elastic](https://github.com/elastic)  | 8.1M | 202.1K | 216.2K | 155.9K | TypeScript |
 | [**K8s**](https://kubernetes.io/)  | 5.4M | 498.5K | 261.5K | 341.3K | Go |
 | [kubernetes](https://github.com/kubernetes)  | 3.4M | 381.1K | 190.5K | 243.1K | Go |
 | [tensorflow](https://github.com/tensorflow)  | 3.3M | 144.4K | 22.7K | 171.8K | C++ |
@@ -133,7 +134,9 @@ $ du -hs _work/
 | Repository | SLOC | Commits | PRs | Stars | Language |
 |------------|------|---------|-----|-------|----------|
 | [torvalds/linux](https://github.com/torvalds/linux/)  | 19.1M | 1.1M | 761 | 147.5K | C |
+| [elastic/kibana](https://github.com/elastic/kibana/)  | 4.1M | 61.4K | 100.2K | 18.3K | TypeScript |
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/)  | 3.3M | 144.4K | 22.7K | 171.8K | C++ |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch/)  | 2.4M | 67.8K | 62.4K | 62.9K | Java |
 | [rust-lang/rust](https://github.com/rust-lang/rust/)  | 1.5M | 219.1K | 61.1K | 78.6K | Rust |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1.4M | 114.4K | 73.5K | 96.4K | Go |
 | [python/cpython](https://github.com/python/cpython/)  | 1.3M | 116.2K | 39.4K | 51.7K | Python |
@@ -141,6 +144,7 @@ $ du -hs _work/
 | [golang/go](https://github.com/golang/go/)  | 1.6M | 55.7K | 2.8K | 109.1K | Go |
 | [grafana/grafana](https://github.com/grafana/grafana/)  | 889.8K | 41.3K | 33.5K | 54.2K | TypeScript |
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy/)  | 807.5K | 17.3K | 17.1K | 21.5K | C++ |
+| [elastic/beats](https://github.com/elastic/beats/)  | 617.7K | 16.2K | 25.7K | 11.5K | Go |
 | [vitessio/vitess](https://github.com/vitessio/vitess/)  | 610.9K | 32.3K | 9.6K | 15.7K | Go |
 | [grpc/grpc](https://github.com/grpc/grpc/)  | 514.8K | 52.6K | 21.6K | 37.2K | C++ |
 | [grpc/grpc-ios](https://github.com/grpc/grpc-ios/)  | 512.2K | 96 | 103 | 22 | C++ |
@@ -177,6 +181,7 @@ $ du -hs _work/
 | [ClickHouse/clickhouse-website-cont~](https://github.com/ClickHouse/clickhouse-website-content/)  | 186.6K | 1 | 2 | 2 | JavaScript |
 | [fluent/fluent-bit](https://github.com/fluent/fluent-bit/)  | 182.4K | 9.2K | 3.3K | 4.3K | C |
 | [cloud-custodian/cloud-custodian](https://github.com/cloud-custodian/cloud-custodian/)  | 175.1K | 4.1K | 4.3K | 4.7K | Python |
+| [elastic/bower-elasticsearch-js](https://github.com/elastic/bower-elasticsearch-js/)  | 174.9K | 119 | 5 | 64 | JavaScript |
 | [containers/podman](https://github.com/containers/podman/)  | 174.4K | 18.2K | 10.1K | 17.8K | Go |
 | [kubernetes-sigs/cluster-api](https://github.com/kubernetes-sigs/cluster-api/)  | 173.3K | 8.8K | 5.3K | 2.7K | Go |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows/)  | 169.7K | 4.1K | 4.8K | 12.5K | Go |
@@ -185,6 +190,7 @@ $ du -hs _work/
 | [keptn/keptn](https://github.com/keptn/keptn/)  | 162.2K | 8.2K | 6.7K | 1.6K | Go |
 | [Netflix/titus-control-plane](https://github.com/Netflix/titus-control-plane/)  | 157.3K | 1.6K | 1.2K | 319 | Java |
 | [spiffe/spire](https://github.com/spiffe/spire/)  | 156.6K | 5.8K | 2.7K | 1.3K | Go |
+| [elastic/elasticsearch-net](https://github.com/elastic/elasticsearch-net/)  | 155.1K | 7.9K | 4.4K | 3.3K | C# |
 | [prometheus/prometheus](https://github.com/prometheus/prometheus/)  | 155.1K | 10.9K | 6.7K | 47.8K | Go |
 | [containerd/containerd](https://github.com/containerd/containerd/)  | 150.2K | 11.9K | 5.8K | 13.3K | Go |
 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd/)  | 149.4K | 5.1K | 5.8K | 12.3K | Go |
@@ -212,6 +218,7 @@ $ du -hs _work/
 | [kubernetes/kubectl](https://github.com/kubernetes/kubectl/)  | 95.9K | 2.9K | 313 | 2.2K | Go |
 | [rook/rook](https://github.com/rook/rook/)  | 95.8K | 9.6K | 7.1K | 10.8K | Go |
 | [karmada-io/karmada](https://github.com/karmada-io/karmada/)  | 94.6K | 3.6K | 2.3K | 3.1K | Go |
+| [elastic/logstash](https://github.com/elastic/logstash/)  | 92.8K | 10.3K | 8.5K | 13.3K | Ruby |
 | [kubernetes/minikube](https://github.com/kubernetes/minikube/)  | 90.6K | 20.9K | 7.6K | 26.1K | Go |
 | [cubeFS/cubefs-blobstore](https://github.com/cubeFS/cubefs-blobstore/)  | 87.3K | 82 | 3 | 14 | Go |
 | [knative/eventing](https://github.com/knative/eventing/)  | 87.6K | 3.5K | 4.3K | 1.2K | Go |
@@ -242,6 +249,7 @@ $ du -hs _work/
 | [longhorn/longhorn-manager](https://github.com/longhorn/longhorn-manager/)  | 68.8K | 2.9K | 1.7K | 132 | Go |
 | [kedacore/keda](https://github.com/kedacore/keda/)  | 68.2K | 1.8K | 2.1K | 6.4K | Go |
 | [kubeedge/kubeedge](https://github.com/kubeedge/kubeedge/)  | 66.6K | 4.6K | 2.8K | 5.6K | Go |
+| [elastic/elasticsearch-hadoop](https://github.com/elastic/elasticsearch-hadoop/)  | 66.6K | 2.1K | 879 | 1.8K | Java |
 | [kubernetes/client-go](https://github.com/kubernetes/client-go/)  | 65.6K | 3.8K | 204 | 7.4K | Go |
 | [nats-io/nats.c](https://github.com/nats-io/nats.c/)  | 64.9K | 972 | 399 | 301 | C |
 | [kata-containers/runtime](https://github.com/kata-containers/runtime/)  | 63.9K | 2.7K | 1.4K | 2.1K | Go |
@@ -255,6 +263,7 @@ $ du -hs _work/
 | [vuejs/vue](https://github.com/vuejs/vue/)  | 60.2K | 3.5K | 2.3K | 202.6K | TypeScript |
 | [kubernetes/legacy-cloud-providers](https://github.com/kubernetes/legacy-cloud-providers/)  | 60.2K | 1.8K | 0 | 47 | Go |
 | [kubernetes/apimachinery](https://github.com/kubernetes/apimachinery/)  | 60.1K | 2.5K | 30 | 661 | Go |
+| [elastic/elasticsearch-py](https://github.com/elastic/elasticsearch-py/)  | 59.8K | 1.5K | 1.1K | 3.8K | Python |
 | [buildpacks/pack](https://github.com/buildpacks/pack/)  | 58.4K | 3.3K | 957 | 1.9K | Go |
 | [envoyproxy/envoy-mobile](https://github.com/envoyproxy/envoy-mobile/)  | 57.6K | 1.7K | 2.2K | 550 | Java |
 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet/)  | 56.9K | 2.2K | 2.7K | 2.2K | C# |
@@ -269,9 +278,11 @@ $ du -hs _work/
 | [kubernetes/apiextensions-apiserver](https://github.com/kubernetes/apiextensions-apiserver/)  | 51.2K | 3.1K | 8 | 206 | Go |
 | [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go/)  | 51.9K | 1.9K | 2.3K | 3.6K | Go |
 | [Netflix/titus-executor](https://github.com/Netflix/titus-executor/)  | 50.8K | 2.4K | 997 | 232 | Go |
+| [elastic/rally](https://github.com/elastic/rally/)  | 50.8K | 2.3K | 902 | 1.7K | Python |
 | [coredns/coredns](https://github.com/coredns/coredns/)  | 50.6K | 3.5K | 3.7K | 10.3K | Go |
 | [m3db/m3metrics](https://github.com/m3db/m3metrics/)  | 50.6K | 233 | 194 | 9 | Go |
 | [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector/)  | 50.3K | 4.4K | 5.9K | 2.7K | Go |
+| [elastic/elasticsearch-js](https://github.com/elastic/elasticsearch-js/)  | 49.6K | 2.2K | 920 | 5.9K | TypeScript |
 | [nats-io/nats.java](https://github.com/nats-io/nats.java/)  | 49.1K | 1.4K | 510 | 461 | Java |
 | [kubernetes-sigs/multi-tenancy](https://github.com/kubernetes-sigs/multi-tenancy/)  | 48.9K | 2.3K | 1.6K | 930 | Go |
 | [envoyproxy/pytooling](https://github.com/envoyproxy/pytooling/)  | 48.9K | 615 | 619 | 6 | Python |
@@ -306,8 +317,10 @@ $ du -hs _work/
 | [keptn/tutorials](https://github.com/keptn/tutorials/)  | 40.8K | 622 | 193 | 10 | JavaScript |
 | [VKCOM/VKUI](https://github.com/VKCOM/VKUI/)  | 40.4K | 9.5K | 2.8K | 757 | TypeScript |
 | [dapr/java-sdk](https://github.com/dapr/java-sdk/)  | 39.6K | 409 | 490 | 223 | Java |
+| [elastic/sense](https://github.com/elastic/sense/)  | 39.6K | 872 | 67 | 382 | JavaScript |
 | [m3db/m3aggregator](https://github.com/m3db/m3aggregator/)  | 39.8K | 177 | 142 | 13 | Go |
 | [nats-io/nats.go](https://github.com/nats-io/nats.go/)  | 38.8K | 1.7K | 716 | 4.3K | Go |
+| [elastic/timelion](https://github.com/elastic/timelion/)  | 38.7K | 451 | 29 | 347 | JavaScript |
 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder/)  | 38.1K | 2.9K | 1.8K | 6.2K | Go |
 | [uber/kraken](https://github.com/uber/kraken/)  | 37.4K | 867 | 238 | 5.3K | Go |
 | [kubernetes/cloud-provider-alibaba-~](https://github.com/kubernetes/cloud-provider-alibaba-cloud/)  | 37.3K | 799 | 283 | 321 | Go |
@@ -316,6 +329,7 @@ $ du -hs _work/
 | [openebs/cstor-operators](https://github.com/openebs/cstor-operators/)  | 36.3K | 298 | 358 | 83 | Go |
 | [argoproj/argo-events](https://github.com/argoproj/argo-events/)  | 35.9K | 1.3K | 1.4K | 1.8K | Go |
 | [VictoriaMetrics/operator](https://github.com/VictoriaMetrics/operator/)  | 35.4K | 662 | 313 | 278 | Go |
+| [elastic/elasticsearch-perl](https://github.com/elastic/elasticsearch-perl/)  | 34.6K | 973 | 70 | 86 | Perl |
 | [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go/)  | 34.2K | 1.2K | 462 | 2.3K | Go |
 | [istio/get-istioctl](https://github.com/istio/get-istioctl/)  | 34.1K | 13 | 0 | 6 | JavaScript |
 | [kubernetes/cloud-provider-gcp](https://github.com/kubernetes/cloud-provider-gcp/)  | 33.6K | 1.4K | 420 | 78 | Go |
@@ -380,11 +394,13 @@ $ du -hs _work/
 | [kubernetes/kube-state-metrics](https://github.com/kubernetes/kube-state-metrics/)  | 23.6K | 2.5K | 1.2K | 4.3K | Go |
 | [open-telemetry/opentelemetry-opera~](https://github.com/open-telemetry/opentelemetry-operator/)  | 23.6K | 781 | 1.1K | 675 | Go |
 | [argoproj/gitops-engine](https://github.com/argoproj/gitops-engine/)  | 23.4K | 254 | 454 | 1.4K | Go |
+| [elastic/elasticsearch-ruby](https://github.com/elastic/elasticsearch-ruby/)  | 23.4K | 2.6K | 1.5K | 1.9K | Ruby |
 | [longhorn/longhorn-engine](https://github.com/longhorn/longhorn-engine/)  | 23.3K | 1.5K | 715 | 297 | Go |
 | [nats-io/nats-mq](https://github.com/nats-io/nats-mq/)  | 23.2K | 88 | 13 | 18 | Go |
 | [openebs/elves](https://github.com/openebs/elves/)  | 23.2K | 234 | 47 | 17 | Python |
 | [openebs/node-disk-manager](https://github.com/openebs/node-disk-manager/)  | 23.2K | 451 | 533 | 170 | Go |
 | [istio/old_pilot_repo](https://github.com/istio/old_pilot_repo/)  | 22.9K | 688 | 1.2K | 138 | Go |
+| [elastic/docs](https://github.com/elastic/docs/)  | 22.7K | 2.4K | 2.1K | 225 | Ruby |
 | [nats-io/nats.rs](https://github.com/nats-io/nats.rs/)  | 22.7K | 1.3K | 687 | 698 | Rust |
 | [containerd/cri](https://github.com/containerd/cri/)  | 22.6K | 2.8K | 1.1K | 897 | Go |
 | [istio/proxy](https://github.com/istio/proxy/)  | 22.4K | 2.4K | 4.2K | 700 | C++ |
@@ -418,6 +434,7 @@ $ du -hs _work/
 | [AthenZ/athenz-authorizer](https://github.com/AthenZ/athenz-authorizer/)  | 18.5K | 85 | 2 | 1 | Go |
 | [kubernetes-sigs/gcp-filestore-csi-~](https://github.com/kubernetes-sigs/gcp-filestore-csi-driver/)  | 17.8K | 593 | 403 | 68 | Go |
 | [keptn/go-utils](https://github.com/keptn/go-utils/)  | 17.6K | 895 | 565 | 7 | Go |
+| [elastic/curator](https://github.com/elastic/curator/)  | 17.5K | 1.6K | 757 | 2.9K | Python |
 | [istio/tools](https://github.com/istio/tools/)  | 17.4K | 1.7K | 2.3K | 302 | Go |
 | [openebs/dynamic-nfs-provisioner](https://github.com/openebs/dynamic-nfs-provisioner/)  | 17.3K | 112 | 109 | 103 | Go |
 | [docker/compose](https://github.com/docker/compose/)  | 17.3K | 4.1K | 3.5K | 28.7K | Go |
@@ -465,6 +482,7 @@ $ du -hs _work/
 | [nats-io/go-nats](https://github.com/nats-io/go-nats/)  | 14.1K | 937 | 0 | 20 | Go |
 | [VictoriaMetrics/grafana-datasource](https://github.com/VictoriaMetrics/grafana-datasource/)  | 14.1K | 189 | 29 | 23 | TypeScript |
 | [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset/)  | 14.1K | 826 | 1.4K | 1.1K | Ruby |
+| [elastic/examples](https://github.com/elastic/examples/)  | 14.6K | 1.1K | 278 | 2.5K | JavaScript |
 | [cubeFS/shuttle](https://github.com/cubeFS/shuttle/)  | 13.9K | 59 | 8 | 127 | Java |
 | [falcosecurity/falco](https://github.com/falcosecurity/falco/)  | 13.9K | 3.5K | 1.4K | 5.6K | C++ |
 | [nats-io/nats.py](https://github.com/nats-io/nats.py/)  | 13.8K | 687 | 228 | 634 | Python |
@@ -531,6 +549,7 @@ $ du -hs _work/
 | [fluxcd/kustomize-controller](https://github.com/fluxcd/kustomize-controller/)  | 10.6K | 1.3K | 559 | 204 | Go |
 | [kubernetes/code-generator](https://github.com/kubernetes/code-generator/)  | 10.6K | 1.7K | 17 | 1.3K | Go |
 | [grafana/jmeter-to-k6](https://github.com/grafana/jmeter-to-k6/)  | 10.6K | 347 | 24 | 57 | JavaScript |
+| [elastic/elasticsearch-dsl-py](https://github.com/elastic/elasticsearch-dsl-py/)  | 10.6K | 1.2K | 366 | 3.6K | Python |
 | [kubernetes/utils](https://github.com/kubernetes/utils/)  | 10.6K | 896 | 235 | 256 | Go |
 | [cloudevents/sdk-csharp](https://github.com/cloudevents/sdk-csharp/)  | 10.5K | 279 | 146 | 199 | C# |
 | [kubernetes/node-problem-detector](https://github.com/kubernetes/node-problem-detector/)  | 10.5K | 753 | 434 | 2.2K | Go |
@@ -544,6 +563,7 @@ $ du -hs _work/
 | [istio/pkg](https://github.com/istio/pkg/)  | 10.1K | 859 | 763 | 47 | Go |
 | [kubernetes-sigs/kube-batch](https://github.com/kubernetes-sigs/kube-batch/)  | 10.1K | 1.3K | 691 | 1.3K | Go |
 | [istio/istio.io](https://github.com/istio/istio.io/)  | 10.1K | 8.3K | 10.9K | 681 | JavaScript |
+| [elastic/elasticsearch-rails](https://github.com/elastic/elasticsearch-rails/)  | 10.1K | 680 | 374 | 2.9K | Ruby |
 | [istio/old_mixerclient_repo](https://github.com/istio/old_mixerclient_repo/)  | 10.4K | 228 | 409 | 15 | C++ |
 | [kubernetes/kubeadm](https://github.com/kubernetes/kubeadm/)  | 9.9K | 1.2K | 520 | 3.3K | Go |
 | [containerd/rust-extensions](https://github.com/containerd/rust-extensions/)  | 9.9K | 294 | 103 | 92 | Rust |
@@ -604,6 +624,7 @@ $ du -hs _work/
 | [cert-manager/approver-policy](https://github.com/cert-manager/approver-policy/)  | 8.2K | 486 | 193 | 48 | Go |
 | [litmuschaos/litmus-ui](https://github.com/litmuschaos/litmus-ui/)  | 8.2K | 171 | 109 | 5 | TypeScript |
 | [knative/build](https://github.com/knative/build/)  | 8.2K | 372 | 452 | 575 | Go |
+| [elastic/elasticsearch-perl-compat](https://github.com/elastic/elasticsearch-perl-compat/)  | 8.2K | 21 | 0 | 2 | Perl |
 | [m3db/m3em](https://github.com/m3db/m3em/)  | 8.1K | 25 | 19 | 1 | Go |
 | [spiffe/spiffe.io](https://github.com/spiffe/spiffe.io/)  | 7.9K | 791 | 216 | 20 | JavaScript |
 | [operator-framework/audit](https://github.com/operator-framework/audit/)  | 7.9K | 247 | 107 | 8 | Go |
@@ -613,6 +634,7 @@ $ du -hs _work/
 | [openebs/device-localpv](https://github.com/openebs/device-localpv/)  | 7.7K | 55 | 49 | 15 | Go |
 | [nats-io/nats-pure.rb](https://github.com/nats-io/nats-pure.rb/)  | 7.6K | 304 | 60 | 95 | Ruby |
 | [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew/)  | 7.6K | 478 | 479 | 5.3K | Go |
+| [elastic/logstash-contrib](https://github.com/elastic/logstash-contrib/)  | 7.6K | 2.8K | 124 | 128 | Ruby |
 | [kedacore/http-add-on](https://github.com/kedacore/http-add-on/)  | 7.6K | 262 | 413 | 176 | Go |
 | [prometheus/client_python](https://github.com/prometheus/client_python/)  | 7.6K | 512 | 389 | 3.2K | Python |
 | [grafana/grafana-polystat-panel](https://github.com/grafana/grafana-polystat-panel/)  | 7.5K | 199 | 124 | 74 | TypeScript |
@@ -656,6 +678,7 @@ $ du -hs _work/
 | [argoproj/argo-cd-ui](https://github.com/argoproj/argo-cd-ui/)  | 6.5K | 385 | 131 | 14 | TypeScript |
 | [kubernetes-sigs/apiserver-builder-~](https://github.com/kubernetes-sigs/apiserver-builder-alpha/)  | 6.5K | 1.7K | 434 | 717 | Go |
 | [envoyproxy/envoy-perf](https://github.com/envoyproxy/envoy-perf/)  | 6.5K | 142 | 160 | 107 | Python |
+| [elastic/support-diagnostics](https://github.com/elastic/support-diagnostics/)  | 6.4K | 567 | 271 | 270 | Java |
 | [crossplane/gitlab-controller](https://github.com/crossplane/gitlab-controller/)  | 6.4K | 45 | 18 | 12 | Go |
 | [AthenZ/terraform-provider-athenz](https://github.com/AthenZ/terraform-provider-athenz/)  | 6.4K | 94 | 56 | 3 | Go |
 | [gotd/botapi](https://github.com/gotd/botapi/)  | 6.4K | 653 | 313 | 18 | Go |
@@ -701,6 +724,8 @@ $ du -hs _work/
 | [fluent/fluentd-docs](https://github.com/fluent/fluentd-docs/)  | 5.4K | 2.4K | 458 | 49 | JavaScript |
 | [longhorn/backing-image-manager](https://github.com/longhorn/backing-image-manager/)  | 5.4K | 126 | 105 | 4 | Go |
 | [spiffe/spire-controller-manager](https://github.com/spiffe/spire-controller-manager/)  | 5.4K | 84 | 92 | 29 | Go |
+| [elastic/apm-nodejs-http-client](https://github.com/elastic/apm-nodejs-http-client/)  | 5.4K | 244 | 157 | 21 | JavaScript |
+| [elastic/makelogs](https://github.com/elastic/makelogs/)  | 5.3K | 179 | 36 | 107 | JavaScript |
 | [openebs/api](https://github.com/openebs/api/)  | 5.3K | 88 | 99 | 7 | Go |
 | [kubernetes-sigs/cluster-addons](https://github.com/kubernetes-sigs/cluster-addons/)  | 5.3K | 261 | 89 | 147 | Go |
 | [nats-io/nats.py2](https://github.com/nats-io/nats.py2/)  | 5.3K | 320 | 50 | 62 | Python |
