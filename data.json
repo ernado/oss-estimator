@@ -3,14 +3,14 @@
     "ClickHouse": {
       "Name": "ClickHouse",
       "SLOC": 902942,
-      "PR": 32185,
-      "Commits": 109640,
+      "PR": 32188,
+      "Commits": 109644,
       "Repos": {
         "ClickHouse": {
           "Name": "ClickHouse",
           "SLOC": 902942,
-          "PR": 32185,
-          "Commits": 109640
+          "PR": 32188,
+          "Commits": 109644
         }
       }
     },
@@ -50,15 +50,15 @@
     },
     "VKCOM": {
       "Name": "VKCOM",
-      "SLOC": 265656,
-      "PR": 3082,
-      "Commits": 9813,
+      "SLOC": 264959,
+      "PR": 3089,
+      "Commits": 9819,
       "Repos": {
         "VKUI": {
           "Name": "VKUI",
-          "SLOC": 41103,
-          "PR": 2868,
-          "Commits": 9577
+          "SLOC": 40406,
+          "PR": 2875,
+          "Commits": 9583
         },
         "statshouse": {
           "Name": "statshouse",
@@ -122,9 +122,9 @@
     },
     "cilium": {
       "Name": "cilium",
-      "SLOC": 18552894,
-      "PR": 22542,
-      "Commits": 1239258,
+      "SLOC": 699525,
+      "PR": 22466,
+      "Commits": 48736,
       "Repos": {
         "Jenkins-library": {
           "Name": "Jenkins-library",
@@ -143,12 +143,6 @@
           "SLOC": 0,
           "PR": 62,
           "Commits": 64
-        },
-        "api": {
-          "Name": "api",
-          "SLOC": 1099,
-          "PR": 0,
-          "Commits": 306
         },
         "api-router": {
           "Name": "api-router",
@@ -218,7 +212,7 @@
         },
         "cilium-cli": {
           "Name": "cilium-cli",
-          "SLOC": 18431,
+          "SLOC": 18381,
           "PR": 1135,
           "Commits": 1387
         },
@@ -264,12 +258,6 @@
           "PR": 0,
           "Commits": 3
         },
-        "client-go": {
-          "Name": "client-go",
-          "SLOC": 42777,
-          "PR": 0,
-          "Commits": 1604
-        },
         "clustermesh-apiserver": {
           "Name": "clustermesh-apiserver",
           "SLOC": 489,
@@ -294,12 +282,6 @@
           "PR": 6,
           "Commits": 11
         },
-        "deepequal-gen": {
-          "Name": "deepequal-gen",
-          "SLOC": 1462,
-          "PR": 0,
-          "Commits": 8
-        },
         "delayed-httpd": {
           "Name": "delayed-httpd",
           "SLOC": 29,
@@ -311,12 +293,6 @@
           "SLOC": 44,
           "PR": 4,
           "Commits": 11
-        },
-        "dns": {
-          "Name": "dns",
-          "SLOC": 21402,
-          "PR": 4,
-          "Commits": 4097
         },
         "dnssec-client": {
           "Name": "dnssec-client",
@@ -396,12 +372,6 @@
           "PR": 0,
           "Commits": 3
         },
-        "helm-gh-pages-action": {
-          "Name": "helm-gh-pages-action",
-          "SLOC": 10854,
-          "PR": 0,
-          "Commits": 33
-        },
         "hubble": {
           "Name": "hubble",
           "SLOC": 6843,
@@ -444,18 +414,6 @@
           "PR": 6,
           "Commits": 13
         },
-        "iproute2": {
-          "Name": "iproute2",
-          "SLOC": 90837,
-          "PR": 18,
-          "Commits": 5383
-        },
-        "istio": {
-          "Name": "istio",
-          "SLOC": 177184,
-          "PR": 3,
-          "Commits": 4903
-        },
         "json-mock": {
           "Name": "json-mock",
           "SLOC": 0,
@@ -474,23 +432,11 @@
           "PR": 2,
           "Commits": 5
         },
-        "kafka": {
-          "Name": "kafka",
-          "SLOC": 8778,
-          "PR": 4,
-          "Commits": 284
-        },
         "kube-apate": {
           "Name": "kube-apate",
           "SLOC": 9590,
           "PR": 0,
           "Commits": 18
-        },
-        "kubectl-image": {
-          "Name": "kubectl-image",
-          "SLOC": 0,
-          "PR": 0,
-          "Commits": 1
         },
         "kubenetbench": {
           "Name": "kubenetbench",
@@ -498,41 +444,17 @@
           "PR": 0,
           "Commits": 63
         },
-        "kubernetes-the-hard-way": {
-          "Name": "kubernetes-the-hard-way",
-          "SLOC": 0,
-          "PR": 0,
-          "Commits": 284
-        },
         "kustomize-bases": {
           "Name": "kustomize-bases",
           "SLOC": 0,
           "PR": 0,
           "Commits": 18
         },
-        "libbpf": {
-          "Name": "libbpf",
-          "SLOC": 20497,
-          "PR": 2,
-          "Commits": 1144
-        },
-        "linux": {
-          "Name": "linux",
-          "SLOC": 16999663,
-          "PR": 12,
-          "Commits": 1163871
-        },
         "log-gatherer": {
           "Name": "log-gatherer",
           "SLOC": 0,
           "PR": 2,
           "Commits": 3
-        },
-        "metallb": {
-          "Name": "metallb",
-          "SLOC": 9925,
-          "PR": 11,
-          "Commits": 983
         },
         "microscope": {
           "Name": "microscope",
@@ -564,12 +486,6 @@
           "PR": 2,
           "Commits": 15
         },
-        "netlink": {
-          "Name": "netlink",
-          "SLOC": 29130,
-          "PR": 2,
-          "Commits": 594
-        },
         "networkpolicy": {
           "Name": "networkpolicy",
           "SLOC": 0,
@@ -582,23 +498,11 @@
           "PR": 0,
           "Commits": 18
         },
-        "old_pilot_repo": {
-          "Name": "old_pilot_repo",
-          "SLOC": 22997,
-          "PR": 0,
-          "Commits": 689
-        },
         "openshift-terraform-upi": {
           "Name": "openshift-terraform-upi",
           "SLOC": 0,
           "PR": 3,
           "Commits": 177
-        },
-        "oss-fuzz": {
-          "Name": "oss-fuzz",
-          "SLOC": 23048,
-          "PR": 0,
-          "Commits": 4952
         },
         "packer-ci-build": {
           "Name": "packer-ci-build",
@@ -618,12 +522,6 @@
           "PR": 124,
           "Commits": 180
         },
-        "python-bmemcached": {
-          "Name": "python-bmemcached",
-          "SLOC": 0,
-          "PR": 0,
-          "Commits": 2
-        },
         "release": {
           "Name": "release",
           "SLOC": 1010,
@@ -635,12 +533,6 @@
           "SLOC": 185,
           "PR": 0,
           "Commits": 6
-        },
-        "sphinx_rtd_theme": {
-          "Name": "sphinx_rtd_theme",
-          "SLOC": 0,
-          "PR": 20,
-          "Commits": 1348
         },
         "stale-rules": {
           "Name": "stale-rules",
@@ -702,12 +594,6 @@
           "PR": 43,
           "Commits": 43
         },
-        "vendor-istio": {
-          "Name": "vendor-istio",
-          "SLOC": 393666,
-          "PR": 0,
-          "Commits": 36
-        },
         "workerpool": {
           "Name": "workerpool",
           "SLOC": 565,
@@ -720,21 +606,21 @@
       "Name": "envoyproxy",
       "SLOC": 677853,
       "PR": 17105,
-      "Commits": 17302,
+      "Commits": 17303,
       "Repos": {
         "envoy": {
           "Name": "envoy",
           "SLOC": 677853,
           "PR": 17105,
-          "Commits": 17302
+          "Commits": 17303
         }
       }
     },
     "etcd-io": {
       "Name": "etcd-io",
-      "SLOC": 185822,
-      "PR": 11270,
-      "Commits": 26411,
+      "SLOC": 185291,
+      "PR": 11271,
+      "Commits": 26375,
       "Repos": {
         "bbolt": {
           "Name": "bbolt",
@@ -770,7 +656,7 @@
           "Name": "etcd",
           "SLOC": 125664,
           "PR": 9184,
-          "Commits": 19327
+          "Commits": 19329
         },
         "etcd-play": {
           "Name": "etcd-play",
@@ -790,16 +676,10 @@
           "PR": 37,
           "Commits": 72
         },
-        "govanityurls": {
-          "Name": "govanityurls",
-          "SLOC": 531,
-          "PR": 0,
-          "Commits": 38
-        },
         "jetcd": {
           "Name": "jetcd",
           "SLOC": 9809,
-          "PR": 741,
+          "PR": 742,
           "Commits": 1183
         },
         "maintainers": {
@@ -864,9 +744,9 @@
     },
     "grafana": {
       "Name": "grafana",
-      "SLOC": 1582443,
-      "PR": 45996,
-      "Commits": 62330,
+      "SLOC": 1581945,
+      "PR": 45998,
+      "Commits": 62332,
       "Repos": {
         "agent": {
           "Name": "agent",
@@ -876,13 +756,13 @@
         },
         "grafana": {
           "Name": "grafana",
-          "SLOC": 890209,
-          "PR": 33507,
-          "Commits": 41313
+          "SLOC": 889820,
+          "PR": 33508,
+          "Commits": 41314
         },
         "k6": {
           "Name": "k6",
-          "SLOC": 73149,
+          "SLOC": 73040,
           "PR": 1450,
           "Commits": 5056
         },
@@ -890,7 +770,7 @@
           "Name": "loki",
           "SLOC": 241078,
           "PR": 5175,
-          "Commits": 4714
+          "Commits": 4715
         },
         "mimir": {
           "Name": "mimir",
@@ -901,16 +781,16 @@
         "oncall": {
           "Name": "oncall",
           "SLOC": 104025,
-          "PR": 964,
+          "PR": 965,
           "Commits": 1819
         }
       }
     },
     "grpc": {
       "Name": "grpc",
-      "SLOC": 1575889,
-      "PR": 39486,
-      "Commits": 75583,
+      "SLOC": 1574380,
+      "PR": 39484,
+      "Commits": 74133,
       "Repos": {
         "coverage": {
           "Name": "coverage",
@@ -921,7 +801,7 @@
         "grpc": {
           "Name": "grpc",
           "SLOC": 460386,
-          "PR": 21632,
+          "PR": 21633,
           "Commits": 52698
         },
         "grpc-community": {
@@ -968,7 +848,7 @@
         },
         "grpc-ios": {
           "Name": "grpc-ios",
-          "SLOC": 458337,
+          "SLOC": 458326,
           "PR": 103,
           "Commits": 96
         },
@@ -1032,12 +912,6 @@
           "PR": 674,
           "Commits": 801
         },
-        "grpc.io-docsy": {
-          "Name": "grpc.io-docsy",
-          "SLOC": 1498,
-          "PR": 3,
-          "Commits": 1450
-        },
         "homebrew-grpc": {
           "Name": "homebrew-grpc",
           "SLOC": 50,
@@ -1080,9 +954,9 @@
     },
     "istio": {
       "Name": "istio",
-      "SLOC": 1356353,
-      "PR": 62765,
-      "Commits": 56985,
+      "SLOC": 990429,
+      "PR": 62424,
+      "Commits": 47089,
       "Repos": {
         "api": {
           "Name": "api",
@@ -1123,8 +997,8 @@
         "community": {
           "Name": "community",
           "SLOC": 286,
-          "PR": 767,
-          "Commits": 826
+          "PR": 768,
+          "Commits": 827
         },
         "cri": {
           "Name": "cri",
@@ -1132,35 +1006,17 @@
           "PR": 148,
           "Commits": 152
         },
-        "distroless": {
-          "Name": "distroless",
-          "SLOC": 1972,
-          "PR": 5,
-          "Commits": 465
-        },
         "enhancements": {
           "Name": "enhancements",
           "SLOC": 0,
           "PR": 118,
           "Commits": 116
         },
-        "envoy": {
-          "Name": "envoy",
-          "SLOC": 345675,
-          "PR": 338,
-          "Commits": 6563
-        },
         "fortio-deployment": {
           "Name": "fortio-deployment",
           "SLOC": 0,
           "PR": 74,
           "Commits": 155
-        },
-        "gateway-api": {
-          "Name": "gateway-api",
-          "SLOC": 7528,
-          "PR": 0,
-          "Commits": 1746
         },
         "get-istioctl": {
           "Name": "get-istioctl",
@@ -1173,18 +1029,6 @@
           "SLOC": 121,
           "PR": 5,
           "Commits": 6
-        },
-        "go-control-plane": {
-          "Name": "go-control-plane",
-          "SLOC": 5474,
-          "PR": 0,
-          "Commits": 768
-        },
-        "go-junit-report": {
-          "Name": "go-junit-report",
-          "SLOC": 2228,
-          "PR": 2,
-          "Commits": 113
         },
         "gogo-genproto": {
           "Name": "gogo-genproto",
@@ -1200,9 +1044,9 @@
         },
         "istio": {
           "Name": "istio",
-          "SLOC": 338567,
-          "PR": 26461,
-          "Commits": 19852
+          "SLOC": 338685,
+          "PR": 26464,
+          "Commits": 19853
         },
         "istio.io": {
           "Name": "istio.io",
@@ -1300,12 +1144,6 @@
           "PR": 2387,
           "Commits": 1792
         },
-        "viper": {
-          "Name": "viper",
-          "SLOC": 3165,
-          "PR": 0,
-          "Commits": 243
-        },
         "ztunnel": {
           "Name": "ztunnel",
           "SLOC": 9696,
@@ -1316,9 +1154,9 @@
     },
     "kata-containers": {
       "Name": "kata-containers",
-      "SLOC": 223806,
+      "SLOC": 223850,
       "PR": 10296,
-      "Commits": 22764,
+      "Commits": 22766,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -1364,9 +1202,9 @@
         },
         "kata-containers": {
           "Name": "kata-containers",
-          "SLOC": 130769,
+          "SLOC": 130813,
           "PR": 3006,
-          "Commits": 10132
+          "Commits": 10134
         },
         "ksm-throttler": {
           "Name": "ksm-throttler",
@@ -1420,9 +1258,9 @@
     },
     "kubernetes": {
       "Name": "kubernetes",
-      "SLOC": 3442783,
-      "PR": 190671,
-      "Commits": 381481,
+      "SLOC": 3434965,
+      "PR": 190436,
+      "Commits": 381009,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -1499,7 +1337,7 @@
         "cloud-provider-openstack": {
           "Name": "cloud-provider-openstack",
           "SLOC": 20280,
-          "PR": 1366,
+          "PR": 1367,
           "Commits": 2669
         },
         "cloud-provider-sample": {
@@ -1646,12 +1484,6 @@
           "PR": 4378,
           "Commits": 9331
         },
-        "klog": {
-          "Name": "klog",
-          "SLOC": 7818,
-          "PR": 245,
-          "Commits": 475
-        },
         "kms": {
           "Name": "kms",
           "SLOC": 1862,
@@ -1727,7 +1559,7 @@
         "kubernetes": {
           "Name": "kubernetes",
           "SLOC": 1488546,
-          "PR": 73528,
+          "PR": 73534,
           "Commits": 114436
         },
         "kubernetes-template-project": {
@@ -1872,7 +1704,7 @@
           "Name": "test-infra",
           "SLOC": 270560,
           "PR": 24611,
-          "Commits": 51929
+          "Commits": 51932
         },
         "utils": {
           "Name": "utils",
@@ -1883,7 +1715,7 @@
         "website": {
           "Name": "website",
           "SLOC": 5767,
-          "PR": 29111,
+          "PR": 29114,
           "Commits": 39057
         }
       }
@@ -1891,8 +1723,8 @@
     "kubernetes-sigs": {
       "Name": "kubernetes-sigs",
       "SLOC": 1744404,
-      "PR": 70987,
-      "Commits": 117370,
+      "PR": 70999,
+      "Commits": 117377,
       "Repos": {
         "alibaba-cloud-csi-driver": {
           "Name": "alibaba-cloud-csi-driver",
@@ -1999,7 +1831,7 @@
         "cloud-provider-azure": {
           "Name": "cloud-provider-azure",
           "SLOC": 84466,
-          "PR": 3163,
+          "PR": 3165,
           "Commits": 3425
         },
         "cloud-provider-baiducloud": {
@@ -2011,8 +1843,8 @@
         "cloud-provider-huaweicloud": {
           "Name": "cloud-provider-huaweicloud",
           "SLOC": 9428,
-          "PR": 162,
-          "Commits": 413
+          "PR": 167,
+          "Commits": 415
         },
         "cluster-addons": {
           "Name": "cluster-addons",
@@ -2054,7 +1886,7 @@
           "Name": "cluster-api-provider-ibmcloud",
           "SLOC": 14588,
           "PR": 840,
-          "Commits": 726
+          "Commits": 727
         },
         "cluster-api-provider-openstack": {
           "Name": "cluster-api-provider-openstack",
@@ -2185,8 +2017,8 @@
         "gateway-api": {
           "Name": "gateway-api",
           "SLOC": 9380,
-          "PR": 1112,
-          "Commits": 2296
+          "PR": 1113,
+          "Commits": 2298
         },
         "gcp-compute-persistent-disk-csi-driver": {
           "Name": "gcp-compute-persistent-disk-csi-driver",
@@ -2215,7 +2047,7 @@
         "image-builder": {
           "Name": "image-builder",
           "SLOC": 4634,
-          "PR": 813,
+          "PR": 814,
           "Commits": 2592
         },
         "ingress-controller-conformance": {
@@ -2402,7 +2234,7 @@
           "Name": "scheduler-plugins",
           "SLOC": 25340,
           "PR": 349,
-          "Commits": 640
+          "Commits": 642
         },
         "secrets-store-csi-driver": {
           "Name": "secrets-store-csi-driver",
@@ -2461,7 +2293,7 @@
         "vsphere-csi-driver": {
           "Name": "vsphere-csi-driver",
           "SLOC": 106976,
-          "PR": 1840,
+          "PR": 1841,
           "Commits": 2268
         },
         "wg-policy-prototypes": {
@@ -2485,7 +2317,7 @@
         "zeitgeist": {
           "Name": "zeitgeist",
           "SLOC": 4053,
-          "PR": 449,
+          "PR": 451,
           "Commits": 974
         }
       }
@@ -2646,9 +2478,9 @@
     },
     "open-telemetry": {
       "Name": "open-telemetry",
-      "SLOC": 1654966,
-      "PR": 60987,
-      "Commits": 61849,
+      "SLOC": 1654946,
+      "PR": 60991,
+      "Commits": 61854,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -2725,8 +2557,8 @@
         "opentelemetry-collector-contrib": {
           "Name": "opentelemetry-collector-contrib",
           "SLOC": 389240,
-          "PR": 16154,
-          "Commits": 9603
+          "PR": 16157,
+          "Commits": 9604
         },
         "opentelemetry-collector-releases": {
           "Name": "opentelemetry-collector-releases",
@@ -2749,8 +2581,8 @@
         "opentelemetry-demo": {
           "Name": "opentelemetry-demo",
           "SLOC": 6764,
-          "PR": 548,
-          "Commits": 418
+          "PR": 549,
+          "Commits": 419
         },
         "opentelemetry-dotnet": {
           "Name": "opentelemetry-dotnet",
@@ -2828,7 +2660,7 @@
           "Name": "opentelemetry-helm-charts",
           "SLOC": 0,
           "PR": 437,
-          "Commits": 353
+          "Commits": 354
         },
         "opentelemetry-java": {
           "Name": "opentelemetry-java",
@@ -2850,9 +2682,9 @@
         },
         "opentelemetry-java-instrumentation": {
           "Name": "opentelemetry-java-instrumentation",
-          "SLOC": 167876,
+          "SLOC": 167856,
           "PR": 5064,
-          "Commits": 8830
+          "Commits": 8832
         },
         "opentelemetry-js": {
           "Name": "opentelemetry-js",
@@ -3292,13 +3124,13 @@
     },
     "pixie-io": {
       "Name": "pixie-io",
-      "SLOC": 305231,
+      "SLOC": 304902,
       "PR": 549,
       "Commits": 11768,
       "Repos": {
         "pixie": {
           "Name": "pixie",
-          "SLOC": 305231,
+          "SLOC": 304902,
           "PR": 549,
           "Commits": 11768
         }
@@ -3307,7 +3139,7 @@
     "prometheus": {
       "Name": "prometheus",
       "SLOC": 377312,
-      "PR": 19107,
+      "PR": 19111,
       "Commits": 30845,
       "Repos": {
         "alertmanager": {
@@ -3493,7 +3325,7 @@
         "node_exporter": {
           "Name": "node_exporter",
           "SLOC": 19239,
-          "PR": 1408,
+          "PR": 1409,
           "Commits": 1966
         },
         "procfs": {
@@ -3517,7 +3349,7 @@
         "prometheus": {
           "Name": "prometheus",
           "SLOC": 155113,
-          "PR": 6777,
+          "PR": 6780,
           "Commits": 10928
         },
         "prometheus_api_client_ruby": {
