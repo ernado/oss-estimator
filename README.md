@@ -37,10 +37,9 @@ $ du -hs _work/
 
 | Organization | SLOC | Commits | PRs | Stars |
 |--------------|------|---------|-----|-------|
-| [kubernetes](https://github.com/kubernetes)  | 3434971 | 381074 | 190484 | 243089 |
+| [kubernetes](https://github.com/kubernetes)  | 5432651 | 498469 | 261503 | 341364 |
 | [tensorflow](https://github.com/tensorflow)  | 3351209 | 144463 | 22710 | 171882 |
 | [ClickHouse](https://github.com/ClickHouse)  | 2341463 | 166223 | 34848 | 33869 |
-| [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1997680 | 117395 | 71019 | 98275 |
 | [envoyproxy](https://github.com/envoyproxy)  | 1871907 | 46722 | 24304 | 28102 |
 | [open-telemetry](https://github.com/open-telemetry)  | 1780557 | 61864 | 61019 | 28606 |
 | [grpc](https://github.com/grpc)  | 1683336 | 74131 | 38788 | 86819 |

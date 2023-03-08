@@ -63,15 +63,12 @@ func main() {
 		if err := json.Unmarshal(data, &v); err != nil {
 			return errors.Wrap(err, "unmarshal data")
 		}
+
+		k8s := Stat{
+			Name: "kubernetes",
+		}
 		var c Context
 		for _, org := range v.Organizations {
-			c.Orgs = append(c.Orgs, Stat{
-				Name:    org.Name,
-				SLOC:    org.SLOC,
-				PR:      org.PR,
-				Commits: org.Commits,
-				Stars:   org.Stars,
-			})
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
 					Org:     org.Name,
@@ -82,7 +79,25 @@ func main() {
 					Stars:   repo.Stars,
 				})
 			}
+			switch org.Name {
+			case "kubernetes", "kubernetes-sigs":
+				k8s.PR += org.PR
+				k8s.Commits += org.Commits
+				k8s.Stars += org.Stars
+				k8s.SLOC += org.SLOC
+			default:
+				c.Orgs = append(c.Orgs, Stat{
+					Name:    org.Name,
+					SLOC:    org.SLOC,
+					PR:      org.PR,
+					Commits: org.Commits,
+					Stars:   org.Stars,
+				})
+			}
 		}
+
+		// Aggregate kubernetes and kubernetes-sig to single org.
+		c.Orgs = append(c.Orgs, k8s)
 
 		sort.SliceStable(c.Orgs, func(i, j int) bool {
 			return c.Orgs[i].SLOC > c.Orgs[j].SLOC
