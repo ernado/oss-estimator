@@ -91,6 +91,15 @@ func main() {
 			return c.Repos[i].SLOC > c.Repos[j].SLOC
 		})
 
+		var filteredRepos []Stat
+		for _, repo := range c.Repos {
+			if repo.SLOC < 4500 {
+				continue
+			}
+			filteredRepos = append(filteredRepos, repo)
+		}
+		c.Repos = filteredRepos
+
 		f, err := os.Create("README.md")
 		if err != nil {
 			return errors.Wrap(err, "create file")
