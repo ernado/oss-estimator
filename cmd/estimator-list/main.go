@@ -22,6 +22,8 @@ type Job struct {
 	Repo string
 }
 
+type key [2]string
+
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
@@ -37,6 +39,11 @@ func main() {
 			e    = estimate.New(c, dir)
 			jobs = make(chan Job, concurrency)
 		)
+
+		skip := map[key]struct{}{
+			{"ClickHouse", "clickhouse.github.io"}: {},
+			{"ClickHouse", "llvm"}:                 {},
+		}
 
 		g, ctx := errgroup.WithContext(ctx)
 		g.Go(func() error {
@@ -61,6 +68,9 @@ func main() {
 				"envoyproxy",
 				"helm",
 				"docker",
+				"go-faster",
+				"gotd",
+				"ogen-go",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
@@ -74,6 +84,9 @@ func main() {
 					if repo.GetSize() == 0 || repo.GetFork() {
 						continue
 					}
+					if _, ok := skip[key{org, repo.GetName()}]; ok {
+						continue
+					}
 					if strings.Contains(repo.GetName(), "github.io") {
 						continue
 					}
@@ -84,9 +97,7 @@ func main() {
 					}
 				}
 			}
-			for _, v := range [][2]string{
-				{"ogen-go", "ogen"},
-				{"gotd", "td"},
+			for _, v := range []key{
 				{"VKCOM", "statshouse"},
 				{"VKCOM", "VKUI"},
 				{"pixie-io", "pixie"},

@@ -130,7 +130,7 @@ func main() {
 				e  jx.Encoder
 				ev entry.Event
 
-				colEv      proto.ColUInt8
+				colEv      proto.ColEnum8
 				colRepoID  proto.ColInt64
 				colActorID proto.ColInt64
 				colTime    proto.ColDateTime
@@ -147,7 +147,7 @@ func main() {
 			var idEncoder jx.Encoder
 
 			input := []proto.InputColumn{
-				{Name: "event", Data: &colEv},
+				{Name: "event", Data: proto.Wrap(&colEv, `'WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4`)},
 				{Name: "repo", Data: &colRepoID},
 				{Name: "actor", Data: &colActorID},
 				{Name: "time", Data: &colTime},
@@ -224,7 +224,7 @@ func main() {
 				se.Encode(&e)
 
 				{
-					colEv.Append(se.Event)
+					colEv.Append(proto.Enum8(se.Event))
 					colRepoID.Append(se.Repo)
 					colActorID.Append(se.ActorID)
 					colTime.Append(ev.Time)
