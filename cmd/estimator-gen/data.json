@@ -3211,10 +3211,10 @@
     },
     "istio": {
       "Name": "istio",
-      "SLOC": 995128,
-      "PR": 62435,
-      "Commits": 47091,
-      "Stars": 38491,
+      "SLOC": 583580,
+      "PR": 62373,
+      "Commits": 47045,
+      "Stars": 38489,
       "Repos": {
         "api": {
           "Name": "api",
@@ -3383,13 +3383,6 @@
           "PR": 1241,
           "Commits": 688,
           "Stars": 138
-        },
-        "old_vendor-istio_repo": {
-          "Name": "old_vendor-istio_repo",
-          "SLOC": 411548,
-          "PR": 62,
-          "Commits": 46,
-          "Stars": 2
         },
         "operator": {
           "Name": "operator",

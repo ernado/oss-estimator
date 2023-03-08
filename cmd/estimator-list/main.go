@@ -117,6 +117,7 @@ func main() {
 				{"tensorflow", "tensorflow"},
 				{"golang", "go"},
 				{"cilium", "busybox"},
+				{"istio", "old_vendor-istio_repo"},
 			} {
 				select {
 				case <-ctx.Done():

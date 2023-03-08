@@ -48,9 +48,9 @@ $ du -hs _work/
 | [docker](https://github.com/docker)  | 1266401 | 173748 | 30587 | 146425 |
 | [openebs](https://github.com/openebs)  | 1165411 | 17867 | 10441 | 10172 |
 | [golang](https://github.com/golang)  | 1061006 | 55722 | 2865 | 109154 |
-| [istio](https://github.com/istio)  | 995128 | 47091 | 62435 | 38491 |
 | [cilium](https://github.com/cilium)  | 867372 | 47596 | 21845 | 23625 |
 | [m3db](https://github.com/m3db)  | 736760 | 10433 | 5079 | 4646 |
+| [istio](https://github.com/istio)  | 583580 | 47045 | 62373 | 38489 |
 | [apache](https://github.com/apache)  | 420406 | 22275 | 521 | 5657 |
 | [prometheus](https://github.com/prometheus)  | 377349 | 30866 | 19120 | 89530 |
 | [facebook](https://github.com/facebook)  | 357548 | 15583 | 13253 | 203498 |
@@ -87,7 +87,6 @@ $ du -hs _work/
 | [grpc/grpc-ios](https://github.com/grpc/grpc-ios/)  | 512418 | 96 | 103 | 22 |
 | [envoyproxy/envoy-wasm](https://github.com/envoyproxy/envoy-wasm/)  | 504503 | 8484 | 454 | 205 |
 | [m3db/m3](https://github.com/m3db/m3/)  | 477343 | 4211 | 3564 | 4366 |
-| [istio/old_vendor-istio_repo](https://github.com/istio/old_vendor-istio_repo/)  | 411548 | 46 | 62 | 2 |
 | [ClickHouse/grpc](https://github.com/ClickHouse/grpc/)  | 397291 | 47064 | 13 | 1 |
 | [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-contrib/)  | 389240 | 9606 | 16162 | 1524 |
 | [facebook/react](https://github.com/facebook/react/)  | 357548 | 15583 | 13253 | 203498 |
@@ -394,8 +393,8 @@ $ du -hs _work/
 | [kubernetes/csi-translation-lib](https://github.com/kubernetes/csi-translation-lib/)  | 6360 | 658 | 0 | 10 |
 | [open-telemetry/opamp-go](https://github.com/open-telemetry/opamp-go/)  | 6328 | 92 | 110 | 60 |
 | [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2/)  | 6307 | 535 | 177 | 259 |
-| [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 | 866 |
 | [kubernetes-sigs/slack-infra](https://github.com/kubernetes-sigs/slack-infra/)  | 6124 | 108 | 44 | 85 |
+| [kubernetes-sigs/sig-storage-local-~](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner/)  | 6124 | 623 | 213 | 866 |
 | [cilium/docsearch-scraper-webhook](https://github.com/cilium/docsearch-scraper-webhook/)  | 5993 | 38 | 32 | 3 |
 | [siderolabs/kres](https://github.com/siderolabs/kres/)  | 5987 | 152 | 199 | 22 |
 | [ClickHouse/bzip2](https://github.com/ClickHouse/bzip2/)  | 5964 | 141 | 0 | 1 |
