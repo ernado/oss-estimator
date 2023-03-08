@@ -67,6 +67,7 @@ func (s Stat) URL() string {
 type Context struct {
 	Orgs  []Stat
 	Repos []Stat
+	CNCF  []Stat
 }
 
 // credit to https://github.com/DeyV/gotools/blob/master/numbers.go
@@ -307,13 +308,17 @@ func main() {
 				k8s.Stars += org.Stars
 				k8s.SLOC += org.SLOC
 			default:
-				c.Orgs = append(c.Orgs, Stat{
+				v := Stat{
 					Name:    org.Name,
 					SLOC:    org.SLOC,
 					PR:      org.PR,
 					Commits: org.Commits,
 					Stars:   org.Stars,
-				})
+				}
+				c.Orgs = append(c.Orgs, v)
+				if isCNCF[org.Name] {
+					c.CNCF = append(c.CNCF, v)
+				}
 			}
 		}
 

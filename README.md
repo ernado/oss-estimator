@@ -35,6 +35,7 @@ $ du -hs _work/
 
 ## Stats
 
+### Organizations
 | Organization | SLOC | Commits | PRs | Stars |
 |--------------|------|---------|-----|-------|
 | [**CNCF**](https://www.cncf.io/)  | 22.8M | 1.3M | 763.7K | 1.1M |
@@ -126,6 +127,7 @@ $ du -hs _work/
 | [OpenObservability](https://github.com/OpenObservability)  | 2.3K | 251 | 117 | 2.1K |
 
 
+### Repos
 | Project                                        | SLOC | Commits | PRs | Stars |
 |------------------------------------------------|------|---------|-----|-------|
 | [torvalds/linux](https://github.com/torvalds/linux/)  | 19.1M | 1.1M | 761 | 147.5K |
@@ -487,8 +489,8 @@ $ du -hs _work/
 | [fluent/ctraces](https://github.com/fluent/ctraces/)  | 12.7K | 150 | 35 | 0 |
 | [carina-io/carina](https://github.com/carina-io/carina/)  | 12.7K | 712 | 115 | 588 |
 | [m3db/m3x](https://github.com/m3db/m3x/)  | 12.6K | 208 | 206 | 17 |
-| [kubeedge/mappers-go](https://github.com/kubeedge/mappers-go/)  | 12.5K | 158 | 74 | 33 |
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt/)  | 12.5K | 1.1K | 220 | 6.2K |
+| [kubeedge/mappers-go](https://github.com/kubeedge/mappers-go/)  | 12.5K | 158 | 74 | 33 |
 | [argoproj/applicationset](https://github.com/argoproj/applicationset/)  | 12.5K | 195 | 255 | 566 |
 | [rook/nfs](https://github.com/rook/nfs/)  | 12.4K | 7.4K | 22 | 28 |
 | [jaegertracing/jaeger-client-java](https://github.com/jaegertracing/jaeger-client-java/)  | 12.3K | 528 | 504 | 485 |
@@ -746,4 +748,61 @@ $ du -hs _work/
 | [openebs/velero-plugin](https://github.com/openebs/velero-plugin/)  | 4.5K | 119 | 137 | 43 |
 | [cert-manager/trust-manager](https://github.com/cert-manager/trust-manager/)  | 4.5K | 263 | 82 | 101 |
 
+
+### CNCF Projects
+| Project                                        | SLOC | Commits | PRs | Stars |
+|------------------------------------------------|------|---------|-----|-------|
+| [buildpacks](https://github.com/buildpacks)  | 116.6K | 16.7K | 3.5K | 2.7K |
+| [k3s-io](https://github.com/k3s-io)  | 38.5K | 3.4K | 3.2K | 25.3K |
+| [kedacore](https://github.com/kedacore)  | 105.4K | 3.8K | 4.2K | 6.7K |
+| [notaryproject](https://github.com/notaryproject)  | 64.4K | 3.6K | 1.9K | 3.3K |
+| [spiffe](https://github.com/spiffe)  | 206.9K | 8.6K | 3.9K | 2.9K |
+| [grpc](https://github.com/grpc)  | 1.6M | 74.1K | 38.7K | 86.8K |
+| [containerssh](https://github.com/containerssh)  | 62.1K | 1.7K | 2.2K | 2.2K |
+| [dapr](https://github.com/dapr)  | 335.5K | 17.4K | 10.7K | 26.3K |
+| [in-toto](https://github.com/in-toto)  | 92.2K | 9.4K | 1.2K | 1.6K |
+| [istio](https://github.com/istio)  | 583.5K | 47.5K | 62.3K | 38.4K |
+| [cert-manager](https://github.com/cert-manager)  | 145.5K | 13.1K | 4.8K | 10.8K |
+| [open-policy-agent](https://github.com/open-policy-agent)  | 343.1K | 8.5K | 7.1K | 15.4K |
+| [thanos-io](https://github.com/thanos-io)  | 123.5K | 4.7K | 3.9K | 12.4K |
+| [carina-io](https://github.com/carina-io)  | 12.8K | 749 | 118 | 588 |
+| [prometheus](https://github.com/prometheus)  | 377.3K | 30.8K | 19.1K | 89.5K |
+| [vitessio](https://github.com/vitessio)  | 671.3K | 36.7K | 11.6K | 15.9K |
+| [linkerd](https://github.com/linkerd)  | 237.9K | 13.1K | 13.3K | 17.9K |
+| [cri-o](https://github.com/cri-o)  | 71.2K | 9.1K | 5.7K | 4.5K |
+| [emissary-ingress](https://github.com/emissary-ingress)  | 105.6K | 17.9K | 3.2K | 4.3K |
+| [fluxcd](https://github.com/fluxcd)  | 200.2K | 27.6K | 9.4K | 19.8K |
+| [litmuschaos](https://github.com/litmuschaos)  | 203.2K | 7.4K | 7.9K | 4.5K |
+| [longhorn](https://github.com/longhorn)  | 193.6K | 9.9K | 6.5K | 5.1K |
+| [nats-io](https://github.com/nats-io)  | 802.4K | 36.2K | 12.9K | 31.4K |
+| [cloud-custodian](https://github.com/cloud-custodian)  | 196.4K | 4.4K | 4.5K | 4.8K |
+| [kubevirt](https://github.com/kubevirt)  | 631.7K | 60.5K | 22.5K | 5.4K |
+| [projectcontour](https://github.com/projectcontour)  | 130.7K | 4.9K | 3.8K | 4.1K |
+| [chaos-mesh](https://github.com/chaos-mesh)  | 1.9M | 3.2K | 3.1K | 5.8K |
+| [containernetworking](https://github.com/containernetworking)  | 34.7K | 2.8K | 1.1K | 6.4K |
+| [crossplane](https://github.com/crossplane)  | 127.7K | 11.2K | 3.5K | 7.7K |
+| [keptn](https://github.com/keptn)  | 256.7K | 11.7K | 8.3K | 1.8K |
+| [kyverno](https://github.com/kyverno)  | 280.2K | 8.7K | 5.1K | 4.1K |
+| [OpenObservability](https://github.com/OpenObservability)  | 2.3K | 251 | 117 | 2.1K |
+| [coredns](https://github.com/coredns)  | 76.2K | 5.5K | 4.6K | 11.5K |
+| [envoyproxy](https://github.com/envoyproxy)  | 1.8M | 46.7K | 24.3K | 28.1K |
+| [goharbor](https://github.com/goharbor)  | 242.4K | 16.9K | 10.3K | 21.1K |
+| [jaegertracing](https://github.com/jaegertracing)  | 250.4K | 8.7K | 7.6K | 23.6K |
+| [etcd-io](https://github.com/etcd-io)  | 185.2K | 26.3K | 11.2K | 52.2K |
+| [rook](https://github.com/rook)  | 132.1K | 24.7K | 7.1K | 11.1K |
+| [backstage](https://github.com/backstage)  | 402.2K | 40.4K | 12.9K | 21.7K |
+| [cortexproject](https://github.com/cortexproject)  | 120.3K | 4.8K | 3.7K | 5.1K |
+| [helm](https://github.com/helm)  | 71.5K | 28.9K | 26.8K | 48.7K |
+| [containerd](https://github.com/containerd)  | 353.3K | 23.2K | 11.6K | 24.7K |
+| [argoproj](https://github.com/argoproj)  | 517.7K | 18.1K | 16.8K | 34.2K |
+| [cloudevents](https://github.com/cloudevents)  | 79.5K | 3.9K | 2.6K | 5.8K |
+| [theupdateframework](https://github.com/theupdateframework)  | 45.3K | 8.6K | 2.5K | 2.6K |
+| [knative](https://github.com/knative)  | 416.9K | 27.8K | 32.2K | 12.3K |
+| [cubeFS](https://github.com/cubeFS)  | 591.2K | 2.7K | 1.4K | 3.3K |
+| [fluent](https://github.com/fluent)  | 1.5M | 38.4K | 11.9K | 24.2K |
+| [karmada-io](https://github.com/karmada-io)  | 98.8K | 4.1K | 2.6K | 3.1K |
+| [kubeedge](https://github.com/kubeedge)  | 141.3K | 7.3K | 3.9K | 6.7K |
+| [operator-framework](https://github.com/operator-framework)  | 265.4K | 18.9K | 14.3K | 13.3K |
+| [volcano-sh](https://github.com/volcano-sh)  | 68.5K | 5.4K | 2.3K | 3.1K |
+| [AthenZ](https://github.com/AthenZ)  | 405.5K | 3.4K | 2.4K | 762 |
 
