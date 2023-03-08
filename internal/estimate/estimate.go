@@ -62,7 +62,7 @@ type AggregatedOrg struct {
 	PR        int                        `json:"PR"`
 	Commits   int                        `json:"Commits"`
 	Stars     int                        `json:"Stars"`
-	Languages map[string]int             `json:"languages"`
+	Languages map[string]int             `json:"Languages"`
 	Repos     map[string]*AggregatedRepo `json:"Repos,omitempty"`
 }
 

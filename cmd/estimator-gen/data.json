@@ -7,7 +7,7 @@
       "PR": 2042,
       "Commits": 3460,
       "Stars": 762,
-      "languages": {
+      "Languages": {
         "BASH": 269,
         "CSS": 937,
         "CSV": 16,
@@ -265,7 +265,7 @@
       "PR": 34855,
       "Commits": 166246,
       "Stars": 33867,
-      "languages": {
+      "Languages": {
         "AWK": 182,
         "Arvo": 142,
         "Assembly": 15817,
@@ -1047,7 +1047,7 @@
       "PR": 11,
       "Commits": 4396,
       "Stars": 649,
-      "languages": {
+      "Languages": {
         "Batch": 68,
         "C": 280,
         "C Header": 4,
@@ -1106,7 +1106,7 @@
       "PR": 2264,
       "Commits": 4152,
       "Stars": 551,
-      "languages": {
+      "Languages": {
         "Autoconf": 171,
         "BASH": 91,
         "Batch": 76,
@@ -1192,7 +1192,7 @@
       "PR": 117,
       "Commits": 251,
       "Stars": 2015,
-      "languages": {
+      "Languages": {
         "Dockerfile": 5,
         "Gemfile": 2,
         "Go": 1773,
@@ -1253,7 +1253,7 @@
       "PR": 3089,
       "Commits": 9819,
       "Stars": 877,
-      "languages": {
+      "Languages": {
         "CSS": 9373,
         "Docker ignore": 16,
         "Dockerfile": 145,
@@ -1344,7 +1344,7 @@
       "PR": 2588,
       "Commits": 8127,
       "Stars": 10986,
-      "languages": {
+      "Languages": {
         "BASH": 3,
         "Batch": 152,
         "Bazel": 15,
@@ -1601,7 +1601,7 @@
       "PR": 521,
       "Commits": 22275,
       "Stars": 5657,
-      "languages": {
+      "Languages": {
         "Autoconf": 1325,
         "BASH": 1261,
         "Batch": 77,
@@ -1711,7 +1711,7 @@
       "PR": 16890,
       "Commits": 18120,
       "Stars": 34216,
-      "languages": {
+      "Languages": {
         "BASH": 2,
         "CSS": 544,
         "CSV": 54,
@@ -2293,7 +2293,7 @@
       "PR": 12907,
       "Commits": 40429,
       "Stars": 21750,
-      "languages": {
+      "Languages": {
         "CSS": 1576,
         "Docker ignore": 19,
         "Dockerfile": 149,
@@ -2613,7 +2613,7 @@
       "PR": 3523,
       "Commits": 16071,
       "Stars": 2781,
-      "languages": {
+      "Languages": {
         "ASP.NET": 25,
         "BASH": 943,
         "Batch": 750,
@@ -3165,7 +3165,7 @@
       "PR": 118,
       "Commits": 749,
       "Stars": 588,
-      "languages": {
+      "Languages": {
         "Dockerfile": 128,
         "Go": 12851,
         "Go Template": 19,
@@ -3248,7 +3248,7 @@
       "PR": 4809,
       "Commits": 13123,
       "Stars": 10877,
-      "languages": {
+      "Languages": {
         "BASH": 518,
         "CSS": 232,
         "Docker ignore": 12,
@@ -3656,7 +3656,7 @@
       "PR": 3174,
       "Commits": 3293,
       "Stars": 5881,
-      "languages": {
+      "Languages": {
         "C": 1077,
         "C Header": 305,
         "C++": 833,
@@ -4107,7 +4107,7 @@
       "PR": 21850,
       "Commits": 30951,
       "Stars": 23627,
-      "languages": {
+      "Languages": {
         "AWK": 24,
         "Autoconf": 1,
         "BASH": 5300,
@@ -5352,7 +5352,7 @@
       "PR": 4563,
       "Commits": 4463,
       "Stars": 4843,
-      "languages": {
+      "Languages": {
         "Autoconf": 18,
         "Batch": 26,
         "CSS": 36,
@@ -5579,7 +5579,7 @@
       "PR": 2624,
       "Commits": 3977,
       "Stars": 5845,
-      "languages": {
+      "Languages": {
         "Arvo": 126,
         "Autoconf": 4,
         "Batch": 147,
@@ -5827,7 +5827,7 @@
       "PR": 11652,
       "Commits": 23221,
       "Stars": 24744,
-      "languages": {
+      "Languages": {
         "BASH": 749,
         "C": 1669,
         "C Header": 4132,
@@ -6378,7 +6378,7 @@
       "PR": 1155,
       "Commits": 2815,
       "Stars": 6494,
-      "languages": {
+      "Languages": {
         "Go": 34782,
         "HTML": 492,
         "JavaScript": 11,
@@ -6461,7 +6461,7 @@
       "PR": 10101,
       "Commits": 18214,
       "Stars": 17086,
-      "languages": {
+      "Languages": {
         "AWK": 12,
         "Autoconf": 5253,
         "BASH": 2837,
@@ -6538,7 +6538,7 @@
       "PR": 2250,
       "Commits": 1768,
       "Stars": 2225,
-      "languages": {
+      "Languages": {
         "Docker ignore": 12,
         "Dockerfile": 154,
         "Go": 61718,
@@ -7133,7 +7133,7 @@
       "PR": 4672,
       "Commits": 5505,
       "Stars": 11544,
-      "languages": {
+      "Languages": {
         "BASH": 205,
         "CSS": 3615,
         "Docker ignore": 2,
@@ -7642,7 +7642,7 @@
       "PR": 3756,
       "Commits": 4877,
       "Stars": 5149,
-      "languages": {
+      "Languages": {
         "BASH": 102,
         "Docker ignore": 15,
         "Dockerfile": 149,
@@ -7738,7 +7738,7 @@
       "PR": 5760,
       "Commits": 9192,
       "Stars": 4533,
-      "languages": {
+      "Languages": {
         "BASH": 2517,
         "C": 418,
         "C Header": 87,
@@ -7894,7 +7894,7 @@
       "PR": 3514,
       "Commits": 11219,
       "Stars": 7726,
-      "languages": {
+      "Languages": {
         "BASH": 698,
         "CSS": 73,
         "Docker ignore": 7,
@@ -8444,7 +8444,7 @@
       "PR": 1443,
       "Commits": 2763,
       "Stars": 3381,
-      "languages": {
+      "Languages": {
         "Assembly": 726,
         "Autoconf": 134,
         "BASH": 850,
@@ -8756,7 +8756,7 @@
       "PR": 10728,
       "Commits": 17421,
       "Stars": 26035,
-      "languages": {
+      "Languages": {
         "Batch": 59,
         "Blade template": 111,
         "C Header": 3926,
@@ -9335,7 +9335,7 @@
       "PR": 30591,
       "Commits": 173751,
       "Stars": 146434,
-      "languages": {
+      "Languages": {
         "ASP.NET": 799,
         "AsciiDoc": 3340,
         "Assembly": 7,
@@ -10838,7 +10838,7 @@
       "PR": 1665,
       "Commits": 1428,
       "Stars": 1140,
-      "languages": {
+      "Languages": {
         "Dockerfile": 144,
         "Go": 72255,
         "HTML": 196,
@@ -10879,7 +10879,7 @@
       "PR": 96679,
       "Commits": 94468,
       "Stars": 87826,
-      "languages": {
+      "Languages": {
         "BASH": 640,
         "Batch": 971,
         "C": 56,
@@ -11045,7 +11045,7 @@
       "PR": 3266,
       "Commits": 17988,
       "Stars": 4037,
-      "languages": {
+      "Languages": {
         "AWK": 94,
         "Autoconf": 6935,
         "BASH": 191,
@@ -11143,7 +11143,7 @@
       "PR": 24063,
       "Commits": 46314,
       "Stars": 28069,
-      "languages": {
+      "Languages": {
         "Autoconf": 52,
         "BASH": 934,
         "Batch": 113,
@@ -11724,7 +11724,7 @@
       "PR": 11277,
       "Commits": 26381,
       "Stars": 52284,
-      "languages": {
+      "Languages": {
         "ASP.NET": 14,
         "AsciiDoc": 37,
         "BASH": 67,
@@ -12035,7 +12035,7 @@
       "PR": 13256,
       "Commits": 15587,
       "Stars": 203503,
-      "languages": {
+      "Languages": {
         "C Header": 676,
         "C++": 650,
         "CSS": 3238,
@@ -12084,7 +12084,7 @@
       "PR": 1447,
       "Commits": 3558,
       "Stars": 5681,
-      "languages": {
+      "Languages": {
         "Autoconf": 356,
         "BASH": 1137,
         "C Header": 2672,
@@ -12133,7 +12133,7 @@
       "PR": 11999,
       "Commits": 38043,
       "Stars": 24202,
-      "languages": {
+      "Languages": {
         "Autoconf": 515,
         "BASH": 813,
         "Batch": 137,
@@ -13607,7 +13607,7 @@
       "PR": 9492,
       "Commits": 27687,
       "Stars": 19867,
-      "languages": {
+      "Languages": {
         "BASH": 651,
         "Docker ignore": 2,
         "Dockerfile": 282,
@@ -14242,7 +14242,7 @@
       "PR": 670,
       "Commits": 4707,
       "Stars": 151,
-      "languages": {
+      "Languages": {
         "Assembly": 192,
         "CSS": 108,
         "Dockerfile": 6,
@@ -14519,7 +14519,7 @@
       "PR": 10355,
       "Commits": 16930,
       "Stars": 21116,
-      "languages": {
+      "Languages": {
         "BASH": 101,
         "CSS": 90,
         "Docker ignore": 28,
@@ -14842,7 +14842,7 @@
       "PR": 2865,
       "Commits": 55724,
       "Stars": 109163,
-      "languages": {
+      "Languages": {
         "AWK": 7,
         "Alex": 101,
         "Assembly": 91755,
@@ -14917,7 +14917,7 @@
       "PR": 2440,
       "Commits": 6222,
       "Stars": 1162,
-      "languages": {
+      "Languages": {
         "CSS": 765,
         "Dockerfile": 23,
         "Go": 70399,
@@ -15167,7 +15167,7 @@
       "PR": 50230,
       "Commits": 76634,
       "Stars": 103195,
-      "languages": {
+      "Languages": {
         "Assembly": 2,
         "Autoconf": 171,
         "BASH": 922,
@@ -16648,7 +16648,7 @@
       "PR": 38790,
       "Commits": 74133,
       "Stars": 86822,
-      "languages": {
+      "Languages": {
         "AWK": 364,
         "Autoconf": 174,
         "BASH": 1374,
@@ -17209,7 +17209,7 @@
       "PR": 26875,
       "Commits": 28920,
       "Stars": 48779,
-      "languages": {
+      "Languages": {
         "BASH": 784,
         "Bazel": 6,
         "CSS": 657,
@@ -17821,7 +17821,7 @@
       "PR": 1029,
       "Commits": 9451,
       "Stars": 1062,
-      "languages": {
+      "Languages": {
         "AsciiDoc": 3043,
         "Autoconf": 24,
         "Batch": 244,
@@ -18296,7 +18296,7 @@
       "PR": 62385,
       "Commits": 47051,
       "Stars": 38489,
-      "languages": {
+      "Languages": {
         "BASH": 603,
         "Bazel": 1333,
         "C": 201,
@@ -18940,7 +18940,7 @@
       "PR": 7640,
       "Commits": 8737,
       "Stars": 23692,
-      "languages": {
+      "Languages": {
         "ASP.NET": 1,
         "AWK": 16,
         "Arvo": 230,
@@ -19561,7 +19561,7 @@
       "PR": 3257,
       "Commits": 3493,
       "Stars": 25331,
-      "languages": {
+      "Languages": {
         "Autoconf": 43,
         "BASH": 3860,
         "Bazel": 21,
@@ -19838,7 +19838,7 @@
       "PR": 2683,
       "Commits": 4127,
       "Stars": 3183,
-      "languages": {
+      "Languages": {
         "CSS": 2098,
         "Dockerfile": 15,
         "Go": 96723,
@@ -19963,7 +19963,7 @@
       "PR": 10299,
       "Commits": 22768,
       "Stars": 7000,
-      "languages": {
+      "Languages": {
         "Autoconf": 3273,
         "BASH": 926,
         "C": 232,
@@ -20292,7 +20292,7 @@
       "PR": 4221,
       "Commits": 3859,
       "Stars": 6767,
-      "languages": {
+      "Languages": {
         "Batch": 294,
         "C#": 2121,
         "CSS": 12764,
@@ -20757,7 +20757,7 @@
       "PR": 8351,
       "Commits": 11785,
       "Stars": 1875,
-      "languages": {
+      "Languages": {
         "Bazel": 628,
         "CSS": 491,
         "Closure Template": 173,
@@ -21106,7 +21106,7 @@
       "PR": 32252,
       "Commits": 27851,
       "Stars": 12383,
-      "languages": {
+      "Languages": {
         "AsciiDoc": 1559,
         "BASH": 75,
         "Batch": 1373,
@@ -21660,7 +21660,7 @@
       "PR": 3921,
       "Commits": 7333,
       "Stars": 6763,
-      "languages": {
+      "Languages": {
         "Autoconf": 2,
         "BASH": 18,
         "Batch": 52,
@@ -21959,7 +21959,7 @@
       "PR": 190507,
       "Commits": 381108,
       "Stars": 243104,
-      "languages": {
+      "Languages": {
         "Autoconf": 1601,
         "BASH": 5443,
         "Batch": 25,
@@ -23360,7 +23360,7 @@
       "PR": 71034,
       "Commits": 117416,
       "Stars": 98287,
-      "languages": {
+      "Languages": {
         "ASP.NET": 1,
         "Assembly": 23,
         "Autoconf": 97,
@@ -25393,7 +25393,7 @@
       "PR": 22598,
       "Commits": 60523,
       "Stars": 5470,
-      "languages": {
+      "Languages": {
         "Autoconf": 5735,
         "BASH": 2194,
         "Bazel": 27015,
@@ -26641,7 +26641,7 @@
       "PR": 5118,
       "Commits": 8775,
       "Stars": 4017,
-      "languages": {
+      "Languages": {
         "CSS": 6,
         "Docker ignore": 20,
         "Dockerfile": 74,
@@ -26896,7 +26896,7 @@
       "PR": 13362,
       "Commits": 13011,
       "Stars": 17954,
-      "languages": {
+      "Languages": {
         "BASH": 1398,
         "Batch": 1,
         "CSS": 3546,
@@ -27455,7 +27455,7 @@
       "PR": 7096,
       "Commits": 7491,
       "Stars": 4054,
-      "languages": {
+      "Languages": {
         "Autoconf": 15,
         "BASH": 579,
         "Batch": 76,
@@ -28104,7 +28104,7 @@
       "PR": 6558,
       "Commits": 9986,
       "Stars": 5144,
-      "languages": {
+      "Languages": {
         "BASH": 1028,
         "Docker ignore": 22,
         "Dockerfile": 264,
@@ -28495,7 +28495,7 @@
       "PR": 5079,
       "Commits": 10433,
       "Stars": 4646,
-      "languages": {
+      "Languages": {
         "Assembly": 11,
         "BASH": 55,
         "Bazel": 113,
@@ -28899,7 +28899,7 @@
       "PR": 12919,
       "Commits": 36212,
       "Stars": 31046,
-      "languages": {
+      "Languages": {
         "Autoconf": 310,
         "BASH": 38,
         "Batch": 2536,
@@ -30463,7 +30463,7 @@
       "PR": 1900,
       "Commits": 3693,
       "Stars": 3301,
-      "languages": {
+      "Languages": {
         "BASH": 18,
         "Dockerfile": 186,
         "Go": 62666,
@@ -30640,7 +30640,7 @@
       "PR": 1050,
       "Commits": 3872,
       "Stars": 472,
-      "languages": {
+      "Languages": {
         "CSS": 36,
         "Go": 33360,
         "Go Template": 4580,
@@ -30742,7 +30742,7 @@
       "PR": 7177,
       "Commits": 8509,
       "Stars": 15402,
-      "languages": {
+      "Languages": {
         "Autoconf": 4,
         "BASH": 418,
         "Batch": 68,
@@ -31203,7 +31203,7 @@
       "PR": 61042,
       "Commits": 61885,
       "Stars": 28610,
-      "languages": {
+      "Languages": {
         "ASP.NET": 2,
         "Autoconf": 635,
         "BASH": 420,
@@ -32499,7 +32499,7 @@
       "PR": 9609,
       "Commits": 15501,
       "Stars": 10135,
-      "languages": {
+      "Languages": {
         "AsciiDoc": 472,
         "Autoconf": 731,
         "BASH": 1805,
@@ -33408,7 +33408,7 @@
       "PR": 14031,
       "Commits": 18938,
       "Stars": 13344,
-      "languages": {
+      "Languages": {
         "Autoconf": 5,
         "BASH": 2143,
         "Batch": 147,
@@ -34162,7 +34162,7 @@
       "PR": 550,
       "Commits": 11769,
       "Stars": 4381,
-      "languages": {
+      "Languages": {
         "BASH": 83,
         "Bazel": 26902,
         "C": 3225,
@@ -34251,7 +34251,7 @@
       "PR": 3818,
       "Commits": 4904,
       "Stars": 4105,
-      "languages": {
+      "Languages": {
         "BASH": 49,
         "Docker ignore": 6,
         "Dockerfile": 82,
@@ -34452,7 +34452,7 @@
       "PR": 19132,
       "Commits": 30895,
       "Stars": 89536,
-      "languages": {
+      "Languages": {
         "Autoconf": 2,
         "BASH": 716,
         "Batch": 294,
@@ -35270,7 +35270,7 @@
       "PR": 39440,
       "Commits": 116202,
       "Stars": 51071,
-      "languages": {
+      "Languages": {
         "Assembly": 46,
         "Autoconf": 3487,
         "Batch": 1906,
@@ -35361,7 +35361,7 @@
       "PR": 7128,
       "Commits": 24758,
       "Stars": 11160,
-      "languages": {
+      "Languages": {
         "Autoconf": 15,
         "BASH": 325,
         "CSS": 3,
@@ -35520,7 +35520,7 @@
       "PR": 61180,
       "Commits": 219103,
       "Stars": 78644,
-      "languages": {
+      "Languages": {
         "Alex": 18,
         "AsciiDoc": 1589,
         "Assembly": 389,
@@ -35607,7 +35607,7 @@
       "PR": 9062,
       "Commits": 7105,
       "Stars": 4779,
-      "languages": {
+      "Languages": {
         "C Header": 23,
         "CSS": 32291,
         "Docker ignore": 156,
@@ -36957,7 +36957,7 @@
       "PR": 3978,
       "Commits": 8606,
       "Stars": 2933,
-      "languages": {
+      "Languages": {
         "BASH": 2154,
         "Batch": 61,
         "CSS": 9584,
@@ -37273,7 +37273,7 @@
       "PR": 22711,
       "Commits": 144471,
       "Stars": 171885,
-      "languages": {
+      "Languages": {
         "Autoconf": 101,
         "BASH": 470,
         "Batch": 449,
@@ -37370,7 +37370,7 @@
       "PR": 3959,
       "Commits": 4070,
       "Stars": 12047,
-      "languages": {
+      "Languages": {
         "CSS": 745,
         "Docker ignore": 24,
         "Dockerfile": 16,
@@ -37512,7 +37512,7 @@
       "PR": 2591,
       "Commits": 8614,
       "Stars": 2601,
-      "languages": {
+      "Languages": {
         "CSS": 518,
         "DOT": 14,
         "Dockerfile": 5,
@@ -37717,7 +37717,7 @@
       "PR": 10257,
       "Commits": 7081,
       "Stars": 12776,
-      "languages": {
+      "Languages": {
         "BASH": 123,
         "C": 173,
         "Docker ignore": 21,
@@ -37762,7 +37762,7 @@
       "PR": 761,
       "Commits": 1169202,
       "Stars": 147549,
-      "languages": {
+      "Languages": {
         "AWK": 1756,
         "Assembly": 344637,
         "Autoconf": 301,
@@ -37863,7 +37863,7 @@
       "PR": 248,
       "Commits": 1572,
       "Stars": 5943,
-      "languages": {
+      "Languages": {
         "CSS": 10,
         "DOT": 34,
         "Docker ignore": 9,
@@ -37941,7 +37941,7 @@
       "PR": 10198,
       "Commits": 14392,
       "Stars": 14352,
-      "languages": {
+      "Languages": {
         "AWK": 59,
         "Autoconf": 6,
         "BASH": 1170,
@@ -39021,7 +39021,7 @@
       "PR": 12,
       "Commits": 1224,
       "Stars": 70,
-      "languages": {
+      "Languages": {
         "Alex": 1355,
         "Autoconf": 9,
         "C": 1060,
@@ -39084,7 +39084,7 @@
       "PR": 11006,
       "Commits": 36744,
       "Stars": 15909,
-      "languages": {
+      "Languages": {
         "Assembly": 3,
         "BASH": 321,
         "CSS": 382,
@@ -39335,7 +39335,7 @@
       "PR": 2003,
       "Commits": 5490,
       "Stars": 3151,
-      "languages": {
+      "Languages": {
         "CSS": 2929,
         "Dockerfile": 67,
         "Go": 67551,
@@ -39529,7 +39529,7 @@
       "PR": 2389,
       "Commits": 3546,
       "Stars": 202656,
-      "languages": {
+      "Languages": {
         "BASH": 14,
         "CSS": 717,
         "HTML": 2044,
