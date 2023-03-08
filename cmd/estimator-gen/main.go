@@ -35,7 +35,7 @@ const maxLen = 35
 func (s Stat) Title() string {
 	v := s.Name
 	if s.Org != "" {
-		v = s.Org + "/" + v
+		v = s.Org + "/" + s.Name
 	}
 	if len(v) > maxLen {
 		return v[:maxLen-1] + "~"
@@ -57,7 +57,6 @@ type Context struct {
 
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
-
 		t := template.Must(template.New("template").Parse(tpl))
 		var v estimate.Aggregated
 		if err := json.Unmarshal(data, &v); err != nil {
