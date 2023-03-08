@@ -12,6 +12,7 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"github.com/klauspost/compress/zstd"
 	"go.etcd.io/bbolt"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
@@ -54,11 +55,21 @@ func main() {
 		u := archive.GetURL(time.Now().AddDate(0, 0, -2))
 
 		// clickhouse local --structure "event Enum8('WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4), repo Int64, actor Int64, time DateTime" --input-format Native --interactive --file events.ch.native.zst
-		outFile, err := os.Create(filepath.Join("_work", "events.ch.native"))
+		outPathTarget := filepath.Join("_work", "events.ch.native.zst")
+		outPathTmp := outPathTarget + ".tmp"
+		outFile, err := os.Create(outPathTmp)
 		if err != nil {
 			return errors.Wrap(err, "open")
 		}
 		defer func() { _ = outFile.Close() }()
+
+		outWrite, err := zstd.NewWriter(outFile,
+			zstd.WithEncoderConcurrency(1),
+			zstd.WithEncoderLevel(zstd.SpeedBetterCompression),
+		)
+		if err != nil {
+			return errors.Wrap(err, "zstd")
+		}
 
 		g, ctx := errgroup.WithContext(ctx)
 
@@ -141,7 +152,6 @@ func main() {
 			buf := make([]byte, 0, 1024*1024)
 			s.Buffer(buf, len(buf))
 
-			nl := []byte{'\n'}
 			bucket := []byte("id-to-actor")
 			bucketInverse := []byte("actor-to-id")
 			var idEncoder jx.Encoder
@@ -151,6 +161,23 @@ func main() {
 				{Name: "repo", Data: &colRepoID},
 				{Name: "actor", Data: &colActorID},
 				{Name: "time", Data: &colTime},
+			}
+			write := func() error {
+				b := proto.Block{Rows: colEv.Rows(), Columns: 4}
+				if err := b.EncodeRawBlock(&outBuf, 54451, input); err != nil {
+					return errors.Wrap(err, "encode")
+				}
+				if _, err := outWrite.Write(outBuf.Buf); err != nil {
+					return errors.Wrap(err, "write")
+				}
+				outBuf.Reset()
+				proto.Reset(
+					&colEv,
+					&colRepoID,
+					&colActorID,
+					&colTime,
+				)
+				return nil
 			}
 
 			for s.Scan() {
@@ -162,20 +189,9 @@ func main() {
 				ev.Reset()
 
 				if colEv.Rows() > 10_000 {
-					b := proto.Block{Rows: colEv.Rows(), Columns: 4}
-					if err := b.EncodeRawBlock(&outBuf, 54451, input); err != nil {
-						return errors.Wrap(err, "encode")
-					}
-					if _, err := outFile.Write(outBuf.Buf); err != nil {
+					if err := write(); err != nil {
 						return errors.Wrap(err, "write")
 					}
-					outBuf.Reset()
-					proto.Reset(
-						&colEv,
-						&colRepoID,
-						&colActorID,
-						&colTime,
-					)
 				}
 
 				data := s.Bytes()
@@ -213,38 +229,34 @@ func main() {
 						return errors.Wrap(err, "db")
 					}
 				}
-
-				se := SimplifiedEntry{
-					Event:   byte(ev.Type),
-					Repo:    ev.RepoID,
-					ActorID: ev.ActorID,
-					Actor:   ev.Actor,
-					Time:    ev.Time.Unix(),
-				}
-				se.Encode(&e)
-
 				{
-					colEv.Append(proto.Enum8(se.Event))
-					colRepoID.Append(se.Repo)
-					colActorID.Append(se.ActorID)
+					colEv.Append(proto.Enum8(ev.Type))
+					colRepoID.Append(ev.RepoID)
+					colActorID.Append(ev.ActorID)
 					colTime.Append(ev.Time)
-				}
-
-				if _, err := os.Stdout.Write(e.Bytes()); err != nil {
-					return errors.Wrap(err, "write")
-				}
-				if _, err := os.Stdout.Write(nl); err != nil {
-					return errors.Wrap(err, "write")
 				}
 			}
 			if err := s.Err(); err != nil {
 				return errors.Wrap(err, "scan")
+			}
+			// Flush remaining data.
+			if err := write(); err != nil {
+				return errors.Wrap(err, "write")
+			}
+			if err := outWrite.Flush(); err != nil {
+				return errors.Wrap(err, "flush")
+			}
+			if err := outWrite.Close(); err != nil {
+				return errors.Wrap(err, "close")
 			}
 			if err := outFile.Sync(); err != nil {
 				return errors.Wrap(err, "sync")
 			}
 			if err := outFile.Close(); err != nil {
 				return errors.Wrap(err, "close")
+			}
+			if err := os.Rename(outPathTmp, outPathTarget); err != nil {
+				return errors.Wrap(err, "rename")
 			}
 			return nil
 		})
