@@ -119,6 +119,8 @@ func main() {
 				{"uber", "peloton"},
 				{"Netflix", "titus-executor"},
 				{"Netflix", "titus-control-plane"},
+				{"helm", "helm"},
+				{"helm", "chartmuseum"},
 			} {
 				select {
 				case <-ctx.Done():
