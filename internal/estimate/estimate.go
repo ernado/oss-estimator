@@ -163,6 +163,8 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		".yarn",
 		".vendor",
 		".github",
+
+		"sqlite", // hack for statshouse that vendors sqlite
 	} {
 		args = append(args, "--exclude-dir", v)
 	}

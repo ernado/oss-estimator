@@ -2,15 +2,267 @@
   "Organizations": {
     "ClickHouse": {
       "Name": "ClickHouse",
-      "SLOC": 902942,
-      "PR": 32188,
-      "Commits": 109644,
+      "SLOC": 4431391,
+      "PR": 34830,
+      "Commits": 174047,
       "Repos": {
         "ClickHouse": {
           "Name": "ClickHouse",
           "SLOC": 902942,
           "PR": 32188,
           "Commits": 109644
+        },
+        "UnixODBC": {
+          "Name": "UnixODBC",
+          "SLOC": 83772,
+          "PR": 2,
+          "Commits": 5
+        },
+        "antlr4-runtime": {
+          "Name": "antlr4-runtime",
+          "SLOC": 11537,
+          "PR": 0,
+          "Commits": 306
+        },
+        "boost": {
+          "Name": "boost",
+          "SLOC": 11997,
+          "PR": 28,
+          "Commits": 83
+        },
+        "boost-extra": {
+          "Name": "boost-extra",
+          "SLOC": 11388,
+          "PR": 0,
+          "Commits": 34
+        },
+        "bzip2": {
+          "Name": "bzip2",
+          "SLOC": 5444,
+          "PR": 0,
+          "Commits": 141
+        },
+        "ch-bench": {
+          "Name": "ch-bench",
+          "SLOC": 620,
+          "PR": 19,
+          "Commits": 90
+        },
+        "ch-go": {
+          "Name": "ch-go",
+          "SLOC": 14953,
+          "PR": 230,
+          "Commits": 1096
+        },
+        "clickhouse-blog-images": {
+          "Name": "clickhouse-blog-images",
+          "SLOC": 0,
+          "PR": 38,
+          "Commits": 93
+        },
+        "clickhouse-com-content": {
+          "Name": "clickhouse-com-content",
+          "SLOC": 0,
+          "PR": 11,
+          "Commits": 1
+        },
+        "clickhouse-connect": {
+          "Name": "clickhouse-connect",
+          "SLOC": 8723,
+          "PR": 84,
+          "Commits": 229
+        },
+        "clickhouse-cpp": {
+          "Name": "clickhouse-cpp",
+          "SLOC": 20734,
+          "PR": 172,
+          "Commits": 673
+        },
+        "clickhouse-go": {
+          "Name": "clickhouse-go",
+          "SLOC": 34226,
+          "PR": 459,
+          "Commits": 1259
+        },
+        "clickhouse-java": {
+          "Name": "clickhouse-java",
+          "SLOC": 73753,
+          "PR": 634,
+          "Commits": 1723
+        },
+        "clickhouse-jdbc-bridge": {
+          "Name": "clickhouse-jdbc-bridge",
+          "SLOC": 9158,
+          "PR": 85,
+          "Commits": 127
+        },
+        "clickhouse-odbc": {
+          "Name": "clickhouse-odbc",
+          "SLOC": 11113,
+          "PR": 172,
+          "Commits": 1110
+        },
+        "clickhouse-playground-old": {
+          "Name": "clickhouse-playground-old",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 41
+        },
+        "clickhouse-presentations": {
+          "Name": "clickhouse-presentations",
+          "SLOC": 11213,
+          "PR": 39,
+          "Commits": 515
+        },
+        "clickhouse-test.github.io": {
+          "Name": "clickhouse-test.github.io",
+          "SLOC": 68714,
+          "PR": 0,
+          "Commits": 207
+        },
+        "clickhouse-website-content": {
+          "Name": "clickhouse-website-content",
+          "SLOC": 186631,
+          "PR": 2,
+          "Commits": 1
+        },
+        "clickhouse-website-worker": {
+          "Name": "clickhouse-website-worker",
+          "SLOC": 702,
+          "PR": 209,
+          "Commits": 561
+        },
+        "clickhouse.github.io": {
+          "Name": "clickhouse.github.io",
+          "SLOC": 978486,
+          "PR": 0,
+          "Commits": 7
+        },
+        "clickhouse_exporter": {
+          "Name": "clickhouse_exporter",
+          "SLOC": 376,
+          "PR": 41,
+          "Commits": 76
+        },
+        "dbt-clickhouse": {
+          "Name": "dbt-clickhouse",
+          "SLOC": 2639,
+          "PR": 67,
+          "Commits": 267
+        },
+        "github-explorer": {
+          "Name": "github-explorer",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 60
+        },
+        "graphouse": {
+          "Name": "graphouse",
+          "SLOC": 8737,
+          "PR": 160,
+          "Commits": 542
+        },
+        "grpc": {
+          "Name": "grpc",
+          "SLOC": 367274,
+          "PR": 13,
+          "Commits": 47064
+        },
+        "hive-metastore": {
+          "Name": "hive-metastore",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4
+        },
+        "icudata": {
+          "Name": "icudata",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 6
+        },
+        "kafka-samples": {
+          "Name": "kafka-samples",
+          "SLOC": 125,
+          "PR": 0,
+          "Commits": 3
+        },
+        "libc-blobs": {
+          "Name": "libc-blobs",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5
+        },
+        "libc-headers": {
+          "Name": "libc-headers",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 18
+        },
+        "libcxx": {
+          "Name": "libcxx",
+          "SLOC": 15532,
+          "PR": 14,
+          "Commits": 38
+        },
+        "libcxxabi": {
+          "Name": "libcxxabi",
+          "SLOC": 3632,
+          "PR": 4,
+          "Commits": 14
+        },
+        "libgsasl": {
+          "Name": "libgsasl",
+          "SLOC": 16353,
+          "PR": 8,
+          "Commits": 21
+        },
+        "libhdfs3": {
+          "Name": "libhdfs3",
+          "SLOC": 16027,
+          "PR": 34,
+          "Commits": 64
+        },
+        "libpq": {
+          "Name": "libpq",
+          "SLOC": 34765,
+          "PR": 7,
+          "Commits": 35
+        },
+        "llvm": {
+          "Name": "llvm",
+          "SLOC": 928664,
+          "PR": 10,
+          "Commits": 41
+        },
+        "metabase-clickhouse-driver": {
+          "Name": "metabase-clickhouse-driver",
+          "SLOC": 0,
+          "PR": 59,
+          "Commits": 114
+        },
+        "protobuf": {
+          "Name": "protobuf",
+          "SLOC": 446749,
+          "PR": 4,
+          "Commits": 7658
+        },
+        "readthedocs-stub": {
+          "Name": "readthedocs-stub",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2
+        },
+        "ssl": {
+          "Name": "ssl",
+          "SLOC": 144412,
+          "PR": 2,
+          "Commits": 16
+        },
+        "sysroot": {
+          "Name": "sysroot",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 53
         }
       }
     },
@@ -50,7 +302,7 @@
     },
     "VKCOM": {
       "Name": "VKCOM",
-      "SLOC": 264959,
+      "SLOC": 101459,
       "PR": 3089,
       "Commits": 9819,
       "Repos": {
@@ -62,7 +314,7 @@
         },
         "statshouse": {
           "Name": "statshouse",
-          "SLOC": 224553,
+          "SLOC": 61053,
           "PR": 214,
           "Commits": 236
         }
@@ -70,9 +322,9 @@
     },
     "VictoriaMetrics": {
       "Name": "VictoriaMetrics",
-      "SLOC": 196613,
-      "PR": 2181,
-      "Commits": 6842,
+      "SLOC": 205963,
+      "PR": 2595,
+      "Commits": 8971,
       "Repos": {
         "VictoriaMetrics": {
           "Name": "VictoriaMetrics",
@@ -80,11 +332,41 @@
           "PR": 1819,
           "Commits": 5892
         },
+        "VictoriaMetrics.github.io": {
+          "Name": "VictoriaMetrics.github.io",
+          "SLOC": 0,
+          "PR": 12,
+          "Commits": 856
+        },
+        "ansible-playbooks": {
+          "Name": "ansible-playbooks",
+          "SLOC": 0,
+          "PR": 29,
+          "Commits": 113
+        },
+        "billy": {
+          "Name": "billy",
+          "SLOC": 319,
+          "PR": 0,
+          "Commits": 28
+        },
+        "fastcache": {
+          "Name": "fastcache",
+          "SLOC": 1868,
+          "PR": 22,
+          "Commits": 64
+        },
         "grafana-datasource": {
           "Name": "grafana-datasource",
           "SLOC": 14133,
           "PR": 28,
           "Commits": 189
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 578,
+          "PR": 284,
+          "Commits": 713
         },
         "metrics": {
           "Name": "metrics",
@@ -92,11 +374,41 @@
           "PR": 21,
           "Commits": 99
         },
+        "metrics-java": {
+          "Name": "metrics-java",
+          "SLOC": 1195,
+          "PR": 22,
+          "Commits": 51
+        },
+        "metricsql": {
+          "Name": "metricsql",
+          "SLOC": 5287,
+          "PR": 6,
+          "Commits": 102
+        },
         "operator": {
           "Name": "operator",
           "SLOC": 35457,
           "PR": 313,
           "Commits": 662
+        },
+        "prometheus-benchmark": {
+          "Name": "prometheus-benchmark",
+          "SLOC": 103,
+          "PR": 12,
+          "Commits": 41
+        },
+        "vmctl": {
+          "Name": "vmctl",
+          "SLOC": 0,
+          "PR": 11,
+          "Commits": 85
+        },
+        "vmui": {
+          "Name": "vmui",
+          "SLOC": 0,
+          "PR": 16,
+          "Commits": 76
         }
       }
     },
@@ -602,17 +914,693 @@
         }
       }
     },
+    "containers": {
+      "Name": "containers",
+      "SLOC": 174426,
+      "PR": 10099,
+      "Commits": 18210,
+      "Repos": {
+        "podman": {
+          "Name": "podman",
+          "SLOC": 174426,
+          "PR": 10099,
+          "Commits": 18210
+        }
+      }
+    },
+    "docker": {
+      "Name": "docker",
+      "SLOC": 1266379,
+      "PR": 30579,
+      "Commits": 173743,
+      "Repos": {
+        "HttpOverStream": {
+          "Name": "HttpOverStream",
+          "SLOC": 1542,
+          "PR": 42,
+          "Commits": 109
+        },
+        "actions-toolkit": {
+          "Name": "actions-toolkit",
+          "SLOC": 3600,
+          "PR": 67,
+          "Commits": 204
+        },
+        "app": {
+          "Name": "app",
+          "SLOC": 12333,
+          "PR": 650,
+          "Commits": 1544
+        },
+        "awesome-compose": {
+          "Name": "awesome-compose",
+          "SLOC": 13508,
+          "PR": 255,
+          "Commits": 267
+        },
+        "bake-action": {
+          "Name": "bake-action",
+          "SLOC": 271,
+          "PR": 100,
+          "Commits": 183
+        },
+        "base-cli-plugin": {
+          "Name": "base-cli-plugin",
+          "SLOC": 628,
+          "PR": 5,
+          "Commits": 10
+        },
+        "binfmt": {
+          "Name": "binfmt",
+          "SLOC": 91,
+          "PR": 17,
+          "Commits": 25
+        },
+        "build-push-action": {
+          "Name": "build-push-action",
+          "SLOC": 1174,
+          "PR": 306,
+          "Commits": 676
+        },
+        "buildkit-syft-scanner": {
+          "Name": "buildkit-syft-scanner",
+          "SLOC": 195,
+          "PR": 37,
+          "Commits": 90
+        },
+        "buildx": {
+          "Name": "buildx",
+          "SLOC": 20627,
+          "PR": 722,
+          "Commits": 1420
+        },
+        "buildx-packaging": {
+          "Name": "buildx-packaging",
+          "SLOC": 0,
+          "PR": 18,
+          "Commits": 40
+        },
+        "cli": {
+          "Name": "cli",
+          "SLOC": 78919,
+          "PR": 2687,
+          "Commits": 8462
+        },
+        "cli-docs-tool": {
+          "Name": "cli-docs-tool",
+          "SLOC": 1071,
+          "PR": 33,
+          "Commits": 130
+        },
+        "cli-scan-feedback": {
+          "Name": "cli-scan-feedback",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5
+        },
+        "code-of-conduct": {
+          "Name": "code-of-conduct",
+          "SLOC": 0,
+          "PR": 23,
+          "Commits": 52
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 59,
+          "Commits": 544
+        },
+        "compose": {
+          "Name": "compose",
+          "SLOC": 17332,
+          "PR": 3514,
+          "Commits": 4009
+        },
+        "compose-cli": {
+          "Name": "compose-cli",
+          "SLOC": 24959,
+          "PR": 1214,
+          "Commits": 3024
+        },
+        "compose-on-kubernetes": {
+          "Name": "compose-on-kubernetes",
+          "SLOC": 17216,
+          "PR": 114,
+          "Commits": 236
+        },
+        "compose-switch": {
+          "Name": "compose-switch",
+          "SLOC": 263,
+          "PR": 25,
+          "Commits": 39
+        },
+        "containerd-packaging": {
+          "Name": "containerd-packaging",
+          "SLOC": 0,
+          "PR": 285,
+          "Commits": 584
+        },
+        "database-extension": {
+          "Name": "database-extension",
+          "SLOC": 1973,
+          "PR": 2,
+          "Commits": 27
+        },
+        "desktop-linux": {
+          "Name": "desktop-linux",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 8
+        },
+        "dev-environments": {
+          "Name": "dev-environments",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 18
+        },
+        "dev-envs-extension": {
+          "Name": "dev-envs-extension",
+          "SLOC": 405,
+          "PR": 2,
+          "Commits": 28
+        },
+        "distribution-library-image": {
+          "Name": "distribution-library-image",
+          "SLOC": 0,
+          "PR": 61,
+          "Commits": 77
+        },
+        "docker-bench-security": {
+          "Name": "docker-bench-security",
+          "SLOC": 0,
+          "PR": 327,
+          "Commits": 840
+        },
+        "docker-ce": {
+          "Name": "docker-ce",
+          "SLOC": 324419,
+          "PR": 662,
+          "Commits": 54308
+        },
+        "docker-ce-packaging": {
+          "Name": "docker-ce-packaging",
+          "SLOC": 255,
+          "PR": 834,
+          "Commits": 1156
+        },
+        "docker-credential-helpers": {
+          "Name": "docker-credential-helpers",
+          "SLOC": 2140,
+          "PR": 132,
+          "Commits": 278
+        },
+        "docker-install": {
+          "Name": "docker-install",
+          "SLOC": 15,
+          "PR": 210,
+          "Commits": 425
+        },
+        "docker-py": {
+          "Name": "docker-py",
+          "SLOC": 27332,
+          "PR": 1538,
+          "Commits": 3299
+        },
+        "dockercraft": {
+          "Name": "dockercraft",
+          "SLOC": 1248,
+          "PR": 50,
+          "Commits": 208
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 1226,
+          "PR": 10273,
+          "Commits": 59521
+        },
+        "doodle": {
+          "Name": "doodle",
+          "SLOC": 1364,
+          "PR": 17,
+          "Commits": 18
+        },
+        "engine-api": {
+          "Name": "engine-api",
+          "SLOC": 11164,
+          "PR": 327,
+          "Commits": 9154
+        },
+        "engine-sync": {
+          "Name": "engine-sync",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6
+        },
+        "extension-ideas": {
+          "Name": "extension-ideas",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4
+        },
+        "extensions-sdk": {
+          "Name": "extensions-sdk",
+          "SLOC": 634,
+          "PR": 166,
+          "Commits": 477
+        },
+        "extensions-submissions": {
+          "Name": "extensions-submissions",
+          "SLOC": 0,
+          "PR": 21,
+          "Commits": 48
+        },
+        "for-linux": {
+          "Name": "for-linux",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 11
+        },
+        "for-mac": {
+          "Name": "for-mac",
+          "SLOC": 0,
+          "PR": 31,
+          "Commits": 72
+        },
+        "for-win": {
+          "Name": "for-win",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 49
+        },
+        "get-involved": {
+          "Name": "get-involved",
+          "SLOC": 264430,
+          "PR": 36,
+          "Commits": 1635
+        },
+        "getting-started": {
+          "Name": "getting-started",
+          "SLOC": 11356,
+          "PR": 212,
+          "Commits": 190
+        },
+        "github-actions": {
+          "Name": "github-actions",
+          "SLOC": 1182,
+          "PR": 20,
+          "Commits": 77
+        },
+        "go": {
+          "Name": "go",
+          "SLOC": 5884,
+          "PR": 8,
+          "Commits": 24
+        },
+        "go-connections": {
+          "Name": "go-connections",
+          "SLOC": 2531,
+          "PR": 84,
+          "Commits": 8416
+        },
+        "go-docker": {
+          "Name": "go-docker",
+          "SLOC": 14335,
+          "PR": 4,
+          "Commits": 7
+        },
+        "go-events": {
+          "Name": "go-events",
+          "SLOC": 772,
+          "PR": 23,
+          "Commits": 30
+        },
+        "go-imageinspect": {
+          "Name": "go-imageinspect",
+          "SLOC": 940,
+          "PR": 11,
+          "Commits": 40
+        },
+        "go-metrics": {
+          "Name": "go-metrics",
+          "SLOC": 513,
+          "PR": 21,
+          "Commits": 38
+        },
+        "go-plugins-helpers": {
+          "Name": "go-plugins-helpers",
+          "SLOC": 2702,
+          "PR": 96,
+          "Commits": 176
+        },
+        "go-units": {
+          "Name": "go-units",
+          "SLOC": 694,
+          "PR": 31,
+          "Commits": 94
+        },
+        "golang-cross": {
+          "Name": "golang-cross",
+          "SLOC": 0,
+          "PR": 61,
+          "Commits": 87
+        },
+        "gordon": {
+          "Name": "gordon",
+          "SLOC": 2773,
+          "PR": 124,
+          "Commits": 349
+        },
+        "hacktoberfest-2022": {
+          "Name": "hacktoberfest-2022",
+          "SLOC": 0,
+          "PR": 64,
+          "Commits": 168
+        },
+        "hub-feedback": {
+          "Name": "hub-feedback",
+          "SLOC": 0,
+          "PR": 10,
+          "Commits": 31
+        },
+        "hub-tool": {
+          "Name": "hub-tool",
+          "SLOC": 4343,
+          "PR": 121,
+          "Commits": 251
+        },
+        "import-restrictions": {
+          "Name": "import-restrictions",
+          "SLOC": 136,
+          "PR": 0,
+          "Commits": 7
+        },
+        "index-cli-plugin": {
+          "Name": "index-cli-plugin",
+          "SLOC": 4121,
+          "PR": 14,
+          "Commits": 97
+        },
+        "kitematic": {
+          "Name": "kitematic",
+          "SLOC": 7101,
+          "PR": 534,
+          "Commits": 2335
+        },
+        "labs": {
+          "Name": "labs",
+          "SLOC": 304415,
+          "PR": 398,
+          "Commits": 718
+        },
+        "libchan": {
+          "Name": "libchan",
+          "SLOC": 2558,
+          "PR": 71,
+          "Commits": 145
+        },
+        "libcompose": {
+          "Name": "libcompose",
+          "SLOC": 14354,
+          "PR": 361,
+          "Commits": 673
+        },
+        "libkv": {
+          "Name": "libkv",
+          "SLOC": 2514,
+          "PR": 144,
+          "Commits": 252
+        },
+        "libtrust": {
+          "Name": "libtrust",
+          "SLOC": 4281,
+          "PR": 44,
+          "Commits": 67
+        },
+        "login-action": {
+          "Name": "login-action",
+          "SLOC": 492,
+          "PR": 343,
+          "Commits": 253
+        },
+        "machine": {
+          "Name": "machine",
+          "SLOC": 29940,
+          "PR": 1957,
+          "Commits": 3463
+        },
+        "metadata-action": {
+          "Name": "metadata-action",
+          "SLOC": 5744,
+          "PR": 157,
+          "Commits": 318
+        },
+        "node-sdk": {
+          "Name": "node-sdk",
+          "SLOC": 652,
+          "PR": 72,
+          "Commits": 101
+        },
+        "notary-official-images": {
+          "Name": "notary-official-images",
+          "SLOC": 0,
+          "PR": 22,
+          "Commits": 46
+        },
+        "opensource": {
+          "Name": "opensource",
+          "SLOC": 179,
+          "PR": 104,
+          "Commits": 211
+        },
+        "packaging": {
+          "Name": "packaging",
+          "SLOC": 0,
+          "PR": 97,
+          "Commits": 723
+        },
+        "roadmap": {
+          "Name": "roadmap",
+          "SLOC": 0,
+          "PR": 15,
+          "Commits": 32
+        },
+        "sbom-cli-plugin": {
+          "Name": "sbom-cli-plugin",
+          "SLOC": 2193,
+          "PR": 23,
+          "Commits": 28
+        },
+        "scan-cli-plugin": {
+          "Name": "scan-cli-plugin",
+          "SLOC": 2560,
+          "PR": 155,
+          "Commits": 315
+        },
+        "scout-action": {
+          "Name": "scout-action",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2
+        },
+        "setup-buildx-action": {
+          "Name": "setup-buildx-action",
+          "SLOC": 503,
+          "PR": 152,
+          "Commits": 300
+        },
+        "setup-qemu-action": {
+          "Name": "setup-qemu-action",
+          "SLOC": 130,
+          "PR": 57,
+          "Commits": 116
+        },
+        "testrepo": {
+          "Name": "testrepo",
+          "SLOC": 119,
+          "PR": 0,
+          "Commits": 1
+        },
+        "volumes-backup-extension": {
+          "Name": "volumes-backup-extension",
+          "SLOC": 5873,
+          "PR": 76,
+          "Commits": 228
+        },
+        "whalesay": {
+          "Name": "whalesay",
+          "SLOC": 155,
+          "PR": 3,
+          "Commits": 14
+        }
+      }
+    },
     "envoyproxy": {
       "Name": "envoyproxy",
-      "SLOC": 677853,
-      "PR": 17105,
-      "Commits": 17303,
+      "SLOC": 1658015,
+      "PR": 24301,
+      "Commits": 46714,
       "Repos": {
+        "artwork": {
+          "Name": "artwork",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4
+        },
+        "ci-infra": {
+          "Name": "ci-infra",
+          "SLOC": 265,
+          "PR": 12,
+          "Commits": 12
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1
+        },
+        "data-plane-api": {
+          "Name": "data-plane-api",
+          "SLOC": 19231,
+          "PR": 540,
+          "Commits": 2387
+        },
         "envoy": {
           "Name": "envoy",
           "SLOC": 677853,
           "PR": 17105,
           "Commits": 17303
+        },
+        "envoy-build-tools": {
+          "Name": "envoy-build-tools",
+          "SLOC": 6816,
+          "PR": 182,
+          "Commits": 320
+        },
+        "envoy-distro": {
+          "Name": "envoy-distro",
+          "SLOC": 339,
+          "PR": 7,
+          "Commits": 6
+        },
+        "envoy-filter-example": {
+          "Name": "envoy-filter-example",
+          "SLOC": 182,
+          "PR": 108,
+          "Commits": 11679
+        },
+        "envoy-mobile": {
+          "Name": "envoy-mobile",
+          "SLOC": 54137,
+          "PR": 2208,
+          "Commits": 1794
+        },
+        "envoy-openssl": {
+          "Name": "envoy-openssl",
+          "SLOC": 1598,
+          "PR": 56,
+          "Commits": 113
+        },
+        "envoy-perf": {
+          "Name": "envoy-perf",
+          "SLOC": 6501,
+          "PR": 160,
+          "Commits": 142
+        },
+        "envoy-tools": {
+          "Name": "envoy-tools",
+          "SLOC": 3094,
+          "PR": 43,
+          "Commits": 20
+        },
+        "envoy-wasm": {
+          "Name": "envoy-wasm",
+          "SLOC": 426964,
+          "PR": 454,
+          "Commits": 8484
+        },
+        "envoy-website": {
+          "Name": "envoy-website",
+          "SLOC": 299034,
+          "PR": 252,
+          "Commits": 428
+        },
+        "envoybot": {
+          "Name": "envoybot",
+          "SLOC": 0,
+          "PR": 13,
+          "Commits": 12
+        },
+        "gateway": {
+          "Name": "gateway",
+          "SLOC": 21624,
+          "PR": 631,
+          "Commits": 539
+        },
+        "go-control-plane": {
+          "Name": "go-control-plane",
+          "SLOC": 9128,
+          "PR": 398,
+          "Commits": 1364
+        },
+        "java-control-plane": {
+          "Name": "java-control-plane",
+          "SLOC": 25478,
+          "PR": 206,
+          "Commits": 235
+        },
+        "katacoda-scenarios": {
+          "Name": "katacoda-scenarios",
+          "SLOC": 203,
+          "PR": 16,
+          "Commits": 121
+        },
+        "learnenvoy": {
+          "Name": "learnenvoy",
+          "SLOC": 24,
+          "PR": 67,
+          "Commits": 81
+        },
+        "management-plane-api": {
+          "Name": "management-plane-api",
+          "SLOC": 31,
+          "PR": 4,
+          "Commits": 4
+        },
+        "misc": {
+          "Name": "misc",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3
+        },
+        "nighthawk": {
+          "Name": "nighthawk",
+          "SLOC": 24840,
+          "PR": 655,
+          "Commits": 578
+        },
+        "playground": {
+          "Name": "playground",
+          "SLOC": 13086,
+          "PR": 168,
+          "Commits": 192
+        },
+        "pytooling": {
+          "Name": "pytooling",
+          "SLOC": 48908,
+          "PR": 619,
+          "Commits": 615
+        },
+        "ratelimit": {
+          "Name": "ratelimit",
+          "SLOC": 7866,
+          "PR": 235,
+          "Commits": 150
+        },
+        "xds-relay": {
+          "Name": "xds-relay",
+          "SLOC": 10813,
+          "PR": 162,
+          "Commits": 127
         }
       }
     },
@@ -744,9 +1732,9 @@
     },
     "grafana": {
       "Name": "grafana",
-      "SLOC": 1581945,
-      "PR": 45998,
-      "Commits": 62332,
+      "SLOC": 1951379,
+      "PR": 54264,
+      "Commits": 86363,
       "Repos": {
         "agent": {
           "Name": "agent",
@@ -754,11 +1742,263 @@
           "PR": 1769,
           "Commits": 1464
         },
+        "attic": {
+          "Name": "attic",
+          "SLOC": 6818,
+          "PR": 0,
+          "Commits": 426
+        },
+        "azure-data-explorer-datasource": {
+          "Name": "azure-data-explorer-datasource",
+          "SLOC": 45793,
+          "PR": 309,
+          "Commits": 790
+        },
+        "azure-monitor-datasource": {
+          "Name": "azure-monitor-datasource",
+          "SLOC": 5611,
+          "PR": 18,
+          "Commits": 170
+        },
+        "azure-template": {
+          "Name": "azure-template",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 59
+        },
+        "bigtable-backup": {
+          "Name": "bigtable-backup",
+          "SLOC": 392,
+          "PR": 6,
+          "Commits": 21
+        },
+        "carbon-relay-ng": {
+          "Name": "carbon-relay-ng",
+          "SLOC": 15553,
+          "PR": 258,
+          "Commits": 1118
+        },
+        "clock-panel": {
+          "Name": "clock-panel",
+          "SLOC": 1903,
+          "PR": 53,
+          "Commits": 187
+        },
+        "cloud-graphite-scripts": {
+          "Name": "cloud-graphite-scripts",
+          "SLOC": 200,
+          "PR": 7,
+          "Commits": 22
+        },
+        "cortex-jsonnet": {
+          "Name": "cortex-jsonnet",
+          "SLOC": 0,
+          "PR": 391,
+          "Commits": 982
+        },
+        "cortex-tools": {
+          "Name": "cortex-tools",
+          "SLOC": 9567,
+          "PR": 179,
+          "Commits": 270
+        },
+        "devtools": {
+          "Name": "devtools",
+          "SLOC": 5940,
+          "PR": 22,
+          "Commits": 139
+        },
+        "django-saml2-auth": {
+          "Name": "django-saml2-auth",
+          "SLOC": 2160,
+          "PR": 128,
+          "Commits": 215
+        },
+        "docs-base": {
+          "Name": "docs-base",
+          "SLOC": 728,
+          "PR": 13,
+          "Commits": 124
+        },
+        "eslint-config-grafana": {
+          "Name": "eslint-config-grafana",
+          "SLOC": 89,
+          "PR": 28,
+          "Commits": 62
+        },
+        "fake-data-gen": {
+          "Name": "fake-data-gen",
+          "SLOC": 1548,
+          "PR": 27,
+          "Commits": 132
+        },
+        "gel-app": {
+          "Name": "gel-app",
+          "SLOC": 4915,
+          "PR": 47,
+          "Commits": 119
+        },
+        "github-to-es": {
+          "Name": "github-to-es",
+          "SLOC": 300,
+          "PR": 0,
+          "Commits": 20
+        },
+        "globalconf": {
+          "Name": "globalconf",
+          "SLOC": 395,
+          "PR": 4,
+          "Commits": 46
+        },
         "grafana": {
           "Name": "grafana",
           "SLOC": 889820,
           "PR": 33508,
           "Commits": 41314
+        },
+        "grafana-api-golang-client": {
+          "Name": "grafana-api-golang-client",
+          "SLOC": 7470,
+          "PR": 135,
+          "Commits": 402
+        },
+        "grafana-build-container": {
+          "Name": "grafana-build-container",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 33
+        },
+        "grafana-docker": {
+          "Name": "grafana-docker",
+          "SLOC": 0,
+          "PR": 69,
+          "Commits": 177
+        },
+        "grafana-image-renderer": {
+          "Name": "grafana-image-renderer",
+          "SLOC": 2621,
+          "PR": 191,
+          "Commits": 211
+        },
+        "grafana-kiosk": {
+          "Name": "grafana-kiosk",
+          "SLOC": 850,
+          "PR": 40,
+          "Commits": 46
+        },
+        "grafana-oss-msi-generator": {
+          "Name": "grafana-oss-msi-generator",
+          "SLOC": 359,
+          "PR": 2,
+          "Commits": 8
+        },
+        "grafana-plugin-model": {
+          "Name": "grafana-plugin-model",
+          "SLOC": 166,
+          "PR": 3,
+          "Commits": 19
+        },
+        "grafana-plugin-repository": {
+          "Name": "grafana-plugin-repository",
+          "SLOC": 659,
+          "PR": 1026,
+          "Commits": 2010
+        },
+        "grafana-plugin-sdk-go": {
+          "Name": "grafana-plugin-sdk-go",
+          "SLOC": 25368,
+          "PR": 531,
+          "Commits": 415
+        },
+        "grafana-polystat-panel": {
+          "Name": "grafana-polystat-panel",
+          "SLOC": 7580,
+          "PR": 124,
+          "Commits": 199
+        },
+        "grafana-sdk-mocks": {
+          "Name": "grafana-sdk-mocks",
+          "SLOC": 1051,
+          "PR": 6,
+          "Commits": 16
+        },
+        "grafana-sensu-app": {
+          "Name": "grafana-sensu-app",
+          "SLOC": 4610,
+          "PR": 45,
+          "Commits": 16
+        },
+        "grafana-starter-app": {
+          "Name": "grafana-starter-app",
+          "SLOC": 300,
+          "PR": 28,
+          "Commits": 53
+        },
+        "grafana-starter-datasource": {
+          "Name": "grafana-starter-datasource",
+          "SLOC": 177,
+          "PR": 28,
+          "Commits": 52
+        },
+        "grafana-starter-panel": {
+          "Name": "grafana-starter-panel",
+          "SLOC": 117,
+          "PR": 34,
+          "Commits": 72
+        },
+        "grafonnet-lib": {
+          "Name": "grafonnet-lib",
+          "SLOC": 98,
+          "PR": 278,
+          "Commits": 589
+        },
+        "graphite-mt": {
+          "Name": "graphite-mt",
+          "SLOC": 101,
+          "PR": 42,
+          "Commits": 106
+        },
+        "har-to-k6": {
+          "Name": "har-to-k6",
+          "SLOC": 13480,
+          "PR": 84,
+          "Commits": 627
+        },
+        "homebrew-grafana": {
+          "Name": "homebrew-grafana",
+          "SLOC": 180,
+          "PR": 34,
+          "Commits": 88
+        },
+        "influxdb-08-datasource": {
+          "Name": "influxdb-08-datasource",
+          "SLOC": 894,
+          "PR": 3,
+          "Commits": 16
+        },
+        "influxdb-flux-datasource": {
+          "Name": "influxdb-flux-datasource",
+          "SLOC": 1197,
+          "PR": 47,
+          "Commits": 155
+        },
+        "jmeter-to-k6": {
+          "Name": "jmeter-to-k6",
+          "SLOC": 10629,
+          "PR": 24,
+          "Commits": 347
+        },
+        "jslib.k6.io": {
+          "Name": "jslib.k6.io",
+          "SLOC": 11563,
+          "PR": 70,
+          "Commits": 189
+        },
+        "jsonnet-libs": {
+          "Name": "jsonnet-libs",
+          "SLOC": 121,
+          "PR": 848,
+          "Commits": 1286
         },
         "k6": {
           "Name": "k6",
@@ -766,11 +2006,83 @@
           "PR": 1450,
           "Commits": 5056
         },
+        "k6-example-azure-pipelines": {
+          "Name": "k6-example-azure-pipelines",
+          "SLOC": 72,
+          "PR": 2,
+          "Commits": 34
+        },
+        "k6-example-github-actions": {
+          "Name": "k6-example-github-actions",
+          "SLOC": 79,
+          "PR": 4,
+          "Commits": 40
+        },
+        "k6-timescaledb-stack": {
+          "Name": "k6-timescaledb-stack",
+          "SLOC": 80,
+          "PR": 0,
+          "Commits": 10
+        },
+        "kairosdb-datasource": {
+          "Name": "kairosdb-datasource",
+          "SLOC": 6755,
+          "PR": 43,
+          "Commits": 110
+        },
+        "kentik-app": {
+          "Name": "kentik-app",
+          "SLOC": 1615,
+          "PR": 69,
+          "Commits": 236
+        },
+        "ksonnet": {
+          "Name": "ksonnet",
+          "SLOC": 12180,
+          "PR": 0,
+          "Commits": 434
+        },
+        "kubernetes-app": {
+          "Name": "kubernetes-app",
+          "SLOC": 5231,
+          "PR": 23,
+          "Commits": 199
+        },
+        "kubernetes-diff-logger": {
+          "Name": "kubernetes-diff-logger",
+          "SLOC": 407,
+          "PR": 21,
+          "Commits": 65
+        },
+        "loadgentest": {
+          "Name": "loadgentest",
+          "SLOC": 83,
+          "PR": 3,
+          "Commits": 57
+        },
         "loki": {
           "Name": "loki",
           "SLOC": 241078,
           "PR": 5175,
           "Commits": 4715
+        },
+        "loki-canary": {
+          "Name": "loki-canary",
+          "SLOC": 3213,
+          "PR": 0,
+          "Commits": 17
+        },
+        "memo": {
+          "Name": "memo",
+          "SLOC": 638,
+          "PR": 7,
+          "Commits": 46
+        },
+        "metrictank": {
+          "Name": "metrictank",
+          "SLOC": 73770,
+          "PR": 1242,
+          "Commits": 6529
         },
         "mimir": {
           "Name": "mimir",
@@ -783,6 +2095,144 @@
           "SLOC": 104025,
           "PR": 965,
           "Commits": 1819
+        },
+        "opcua-datasource": {
+          "Name": "opcua-datasource",
+          "SLOC": 7031,
+          "PR": 44,
+          "Commits": 370
+        },
+        "packer-do-marketplace": {
+          "Name": "packer-do-marketplace",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6
+        },
+        "perspective-panel": {
+          "Name": "perspective-panel",
+          "SLOC": 254,
+          "PR": 26,
+          "Commits": 7
+        },
+        "piechart-panel": {
+          "Name": "piechart-panel",
+          "SLOC": 3671,
+          "PR": 123,
+          "Commits": 192
+        },
+        "postman-to-k6": {
+          "Name": "postman-to-k6",
+          "SLOC": 7221,
+          "PR": 58,
+          "Commits": 607
+        },
+        "puppet-grafana": {
+          "Name": "puppet-grafana",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1
+        },
+        "puppet-promtail": {
+          "Name": "puppet-promtail",
+          "SLOC": 290,
+          "PR": 40,
+          "Commits": 87
+        },
+        "simple-angular-panel": {
+          "Name": "simple-angular-panel",
+          "SLOC": 55,
+          "PR": 22,
+          "Commits": 28
+        },
+        "simple-json-backend-datasource": {
+          "Name": "simple-json-backend-datasource",
+          "SLOC": 827,
+          "PR": 24,
+          "Commits": 22
+        },
+        "simple-json-datasource": {
+          "Name": "simple-json-datasource",
+          "SLOC": 678,
+          "PR": 54,
+          "Commits": 153
+        },
+        "snap-plugin-collector-cadvisor": {
+          "Name": "snap-plugin-collector-cadvisor",
+          "SLOC": 1164,
+          "PR": 0,
+          "Commits": 6
+        },
+        "snap-plugin-collector-gitstats": {
+          "Name": "snap-plugin-collector-gitstats",
+          "SLOC": 676,
+          "PR": 0,
+          "Commits": 24
+        },
+        "snap-plugin-collector-kubestate": {
+          "Name": "snap-plugin-collector-kubestate",
+          "SLOC": 1350,
+          "PR": 3,
+          "Commits": 22
+        },
+        "snap_k8s": {
+          "Name": "snap_k8s",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 29
+        },
+        "strava-datasource": {
+          "Name": "strava-datasource",
+          "SLOC": 3627,
+          "PR": 47,
+          "Commits": 326
+        },
+        "tail": {
+          "Name": "tail",
+          "SLOC": 1690,
+          "PR": 13,
+          "Commits": 273
+        },
+        "tanka": {
+          "Name": "tanka",
+          "SLOC": 10369,
+          "PR": 469,
+          "Commits": 449
+        },
+        "terraform-provider-grafana": {
+          "Name": "terraform-provider-grafana",
+          "SLOC": 24623,
+          "PR": 521,
+          "Commits": 696
+        },
+        "tsconfig-grafana": {
+          "Name": "tsconfig-grafana",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 14
+        },
+        "tutorials": {
+          "Name": "tutorials",
+          "SLOC": 0,
+          "PR": 103,
+          "Commits": 461
+        },
+        "usage-stats-handler": {
+          "Name": "usage-stats-handler",
+          "SLOC": 132,
+          "PR": 25,
+          "Commits": 43
+        },
+        "worldmap-panel": {
+          "Name": "worldmap-panel",
+          "SLOC": 9361,
+          "PR": 74,
+          "Commits": 232
+        },
+        "worldping-gw": {
+          "Name": "worldping-gw",
+          "SLOC": 789,
+          "PR": 5,
+          "Commits": 172
         }
       }
     },
@@ -934,21 +2384,219 @@
     },
     "helm": {
       "Name": "helm",
-      "SLOC": 48393,
-      "PR": 5169,
-      "Commits": 7422,
+      "SLOC": 71506,
+      "PR": 26875,
+      "Commits": 28920,
       "Repos": {
+        "acceptance-testing": {
+          "Name": "acceptance-testing",
+          "SLOC": 193,
+          "PR": 84,
+          "Commits": 106
+        },
+        "chart-releaser": {
+          "Name": "chart-releaser",
+          "SLOC": 1570,
+          "PR": 181,
+          "Commits": 166
+        },
+        "chart-releaser-action": {
+          "Name": "chart-releaser-action",
+          "SLOC": 0,
+          "PR": 60,
+          "Commits": 53
+        },
+        "chart-testing": {
+          "Name": "chart-testing",
+          "SLOC": 2816,
+          "PR": 356,
+          "Commits": 265
+        },
+        "chart-testing-action": {
+          "Name": "chart-testing-action",
+          "SLOC": 0,
+          "PR": 66,
+          "Commits": 66
+        },
         "chartmuseum": {
           "Name": "chartmuseum",
           "SLOC": 6654,
           "PR": 333,
           "Commits": 613
         },
+        "charts": {
+          "Name": "charts",
+          "SLOC": 898,
+          "PR": 18202,
+          "Commits": 13769
+        },
+        "charts-check-pr-title": {
+          "Name": "charts-check-pr-title",
+          "SLOC": 150,
+          "PR": 0,
+          "Commits": 4
+        },
+        "charts-classic": {
+          "Name": "charts-classic",
+          "SLOC": 28,
+          "PR": 87,
+          "Commits": 148
+        },
+        "charts-repo-actions-demo": {
+          "Name": "charts-repo-actions-demo",
+          "SLOC": 0,
+          "PR": 52,
+          "Commits": 55
+        },
+        "charts-tooling": {
+          "Name": "charts-tooling",
+          "SLOC": 258,
+          "PR": 2,
+          "Commits": 9
+        },
+        "community": {
+          "Name": "community",
+          "SLOC": 0,
+          "PR": 163,
+          "Commits": 322
+        },
+        "docker-kubectl-helm-aws": {
+          "Name": "docker-kubectl-helm-aws",
+          "SLOC": 0,
+          "PR": 7,
+          "Commits": 9
+        },
+        "docker-kubectl-helm-az": {
+          "Name": "docker-kubectl-helm-az",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 9
+        },
+        "examples": {
+          "Name": "examples",
+          "SLOC": 0,
+          "PR": 6,
+          "Commits": 10
+        },
+        "get-helm": {
+          "Name": "get-helm",
+          "SLOC": 6,
+          "PR": 2,
+          "Commits": 8
+        },
+        "get-helm-sh": {
+          "Name": "get-helm-sh",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2
+        },
+        "github-webhook-dco-labeler": {
+          "Name": "github-webhook-dco-labeler",
+          "SLOC": 260,
+          "PR": 13,
+          "Commits": 31
+        },
         "helm": {
           "Name": "helm",
           "SLOC": 41739,
           "PR": 4836,
           "Commits": 6809
+        },
+        "helm-2to3": {
+          "Name": "helm-2to3",
+          "SLOC": 1303,
+          "PR": 114,
+          "Commits": 164
+        },
+        "helm-classic": {
+          "Name": "helm-classic",
+          "SLOC": 5214,
+          "PR": 274,
+          "Commits": 574
+        },
+        "helm-mapkubeapis": {
+          "Name": "helm-mapkubeapis",
+          "SLOC": 739,
+          "PR": 64,
+          "Commits": 129
+        },
+        "helm-summit-notes": {
+          "Name": "helm-summit-notes",
+          "SLOC": 0,
+          "PR": 14,
+          "Commits": 28
+        },
+        "helm-www": {
+          "Name": "helm-www",
+          "SLOC": 2748,
+          "PR": 1110,
+          "Commits": 4061
+        },
+        "homebrew-tap": {
+          "Name": "homebrew-tap",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 14
+        },
+        "hub": {
+          "Name": "hub",
+          "SLOC": 0,
+          "PR": 404,
+          "Commits": 920
+        },
+        "kind-action": {
+          "Name": "kind-action",
+          "SLOC": 8,
+          "PR": 49,
+          "Commits": 53
+        },
+        "monocular": {
+          "Name": "monocular",
+          "SLOC": 4741,
+          "PR": 362,
+          "Commits": 399
+        },
+        "prow": {
+          "Name": "prow",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3
+        },
+        "pull-sizer": {
+          "Name": "pull-sizer",
+          "SLOC": 210,
+          "PR": 6,
+          "Commits": 11
+        },
+        "query-store-quay-logs": {
+          "Name": "query-store-quay-logs",
+          "SLOC": 71,
+          "PR": 8,
+          "Commits": 17
+        },
+        "repo-audit": {
+          "Name": "repo-audit",
+          "SLOC": 439,
+          "PR": 0,
+          "Commits": 8
+        },
+        "rudder-appcontroller": {
+          "Name": "rudder-appcontroller",
+          "SLOC": 581,
+          "PR": 4,
+          "Commits": 26
+        },
+        "rudder-federation": {
+          "Name": "rudder-federation",
+          "SLOC": 880,
+          "PR": 9,
+          "Commits": 56
+        },
+        "specs": {
+          "Name": "specs",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3
         }
       }
     },
@@ -3942,15 +5590,417 @@
     },
     "vectordotdev": {
       "Name": "vectordotdev",
-      "SLOC": 274642,
-      "PR": 9360,
-      "Commits": 9346,
+      "SLOC": 308968,
+      "PR": 10193,
+      "Commits": 14386,
       "Repos": {
+        "chronicle-emulator": {
+          "Name": "chronicle-emulator",
+          "SLOC": 261,
+          "PR": 0,
+          "Commits": 9
+        },
+        "cli": {
+          "Name": "cli",
+          "SLOC": 1543,
+          "PR": 3,
+          "Commits": 49
+        },
+        "cli-builder": {
+          "Name": "cli-builder",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5
+        },
+        "content-old": {
+          "Name": "content-old",
+          "SLOC": 0,
+          "PR": 20,
+          "Commits": 51
+        },
+        "docker-builder": {
+          "Name": "docker-builder",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1
+        },
+        "docker-client": {
+          "Name": "docker-client",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 6
+        },
+        "docs": {
+          "Name": "docs",
+          "SLOC": 0,
+          "PR": 14,
+          "Commits": 215
+        },
+        "ex_aws_athena": {
+          "Name": "ex_aws_athena",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5
+        },
+        "ex_aws_glue": {
+          "Name": "ex_aws_glue",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3
+        },
+        "example-heroku-elixir-phoenix": {
+          "Name": "example-heroku-elixir-phoenix",
+          "SLOC": 48,
+          "PR": 4,
+          "Commits": 5
+        },
+        "example-heroku-ruby-rails-3x": {
+          "Name": "example-heroku-ruby-rails-3x",
+          "SLOC": 89,
+          "PR": 0,
+          "Commits": 2
+        },
+        "example-heroku-ruby-rails-4x": {
+          "Name": "example-heroku-ruby-rails-4x",
+          "SLOC": 107,
+          "PR": 0,
+          "Commits": 1
+        },
+        "example-heroku-ruby-rails-5x": {
+          "Name": "example-heroku-ruby-rails-5x",
+          "SLOC": 423,
+          "PR": 3,
+          "Commits": 12
+        },
+        "example-heroku-ruby-sinatra": {
+          "Name": "example-heroku-ruby-sinatra",
+          "SLOC": 34,
+          "PR": 0,
+          "Commits": 2
+        },
+        "examples": {
+          "Name": "examples",
+          "SLOC": 264,
+          "PR": 0,
+          "Commits": 14
+        },
+        "gitdocs": {
+          "Name": "gitdocs",
+          "SLOC": 3644,
+          "PR": 62,
+          "Commits": 405
+        },
+        "go-datemath": {
+          "Name": "go-datemath",
+          "SLOC": 753,
+          "PR": 7,
+          "Commits": 26
+        },
+        "go-duration": {
+          "Name": "go-duration",
+          "SLOC": 292,
+          "PR": 0,
+          "Commits": 6
+        },
+        "graphing-challenge": {
+          "Name": "graphing-challenge",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1
+        },
+        "grease": {
+          "Name": "grease",
+          "SLOC": 712,
+          "PR": 0,
+          "Commits": 12
+        },
+        "grease-builder": {
+          "Name": "grease-builder",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 3
+        },
+        "helm-charts": {
+          "Name": "helm-charts",
+          "SLOC": 0,
+          "PR": 172,
+          "Commits": 197
+        },
+        "homebrew-brew": {
+          "Name": "homebrew-brew",
+          "SLOC": 63,
+          "PR": 8,
+          "Commits": 91
+        },
+        "http_test_server": {
+          "Name": "http_test_server",
+          "SLOC": 919,
+          "PR": 8,
+          "Commits": 85
+        },
+        "leveldb-build-demo": {
+          "Name": "leveldb-build-demo",
+          "SLOC": 42,
+          "PR": 3,
+          "Commits": 25
+        },
+        "log-event-json-schema": {
+          "Name": "log-event-json-schema",
+          "SLOC": 0,
+          "PR": 33,
+          "Commits": 156
+        },
+        "logfmt-elixir": {
+          "Name": "logfmt-elixir",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 55
+        },
+        "lumberjack-store": {
+          "Name": "lumberjack-store",
+          "SLOC": 4385,
+          "PR": 0,
+          "Commits": 8
+        },
+        "molecule": {
+          "Name": "molecule",
+          "SLOC": 2083,
+          "PR": 22,
+          "Commits": 124
+        },
+        "next-go": {
+          "Name": "next-go",
+          "SLOC": 238,
+          "PR": 4,
+          "Commits": 24
+        },
+        "node-bunyan-example": {
+          "Name": "node-bunyan-example",
+          "SLOC": 29,
+          "PR": 0,
+          "Commits": 3
+        },
+        "node-winston-example": {
+          "Name": "node-winston-example",
+          "SLOC": 24,
+          "PR": 0,
+          "Commits": 5
+        },
+        "outside-cli": {
+          "Name": "outside-cli",
+          "SLOC": 114,
+          "PR": 0,
+          "Commits": 3
+        },
+        "packer-docker": {
+          "Name": "packer-docker",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 2
+        },
+        "react-facet-filter": {
+          "Name": "react-facet-filter",
+          "SLOC": 1078,
+          "PR": 5,
+          "Commits": 19
+        },
+        "react-query-assist": {
+          "Name": "react-query-assist",
+          "SLOC": 1547,
+          "PR": 4,
+          "Commits": 57
+        },
+        "rust-benches": {
+          "Name": "rust-benches",
+          "SLOC": 109,
+          "PR": 0,
+          "Commits": 4
+        },
+        "rust-musl-toolchain": {
+          "Name": "rust-musl-toolchain",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 5
+        },
+        "serverless-plugin-timber": {
+          "Name": "serverless-plugin-timber",
+          "SLOC": 186,
+          "PR": 0,
+          "Commits": 2
+        },
+        "splunk-cost-cutting": {
+          "Name": "splunk-cost-cutting",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 29
+        },
+        "tcp_test_server": {
+          "Name": "tcp_test_server",
+          "SLOC": 115,
+          "PR": 0,
+          "Commits": 26
+        },
+        "td-agent-bit-builder-amzn": {
+          "Name": "td-agent-bit-builder-amzn",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4
+        },
+        "timber-cloudwatch-logs-lambda-function": {
+          "Name": "timber-cloudwatch-logs-lambda-function",
+          "SLOC": 133,
+          "PR": 4,
+          "Commits": 48
+        },
+        "timber-elixir": {
+          "Name": "timber-elixir",
+          "SLOC": 0,
+          "PR": 169,
+          "Commits": 611
+        },
+        "timber-elixir-ecto": {
+          "Name": "timber-elixir-ecto",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 21
+        },
+        "timber-elixir-exceptions": {
+          "Name": "timber-elixir-exceptions",
+          "SLOC": 0,
+          "PR": 5,
+          "Commits": 26
+        },
+        "timber-elixir-phoenix": {
+          "Name": "timber-elixir-phoenix",
+          "SLOC": 0,
+          "PR": 8,
+          "Commits": 29
+        },
+        "timber-elixir-plug": {
+          "Name": "timber-elixir-plug",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 16
+        },
+        "timber-go": {
+          "Name": "timber-go",
+          "SLOC": 711,
+          "PR": 0,
+          "Commits": 6
+        },
+        "timber-io": {
+          "Name": "timber-io",
+          "SLOC": 950,
+          "PR": 20,
+          "Commits": 372
+        },
+        "timber-js": {
+          "Name": "timber-js",
+          "SLOC": 1512,
+          "PR": 42,
+          "Commits": 206
+        },
+        "timber-node": {
+          "Name": "timber-node",
+          "SLOC": 952,
+          "PR": 24,
+          "Commits": 256
+        },
+        "timber-node-builder": {
+          "Name": "timber-node-builder",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1
+        },
+        "timber-python": {
+          "Name": "timber-python",
+          "SLOC": 684,
+          "PR": 12,
+          "Commits": 32
+        },
+        "timber-ruby": {
+          "Name": "timber-ruby",
+          "SLOC": 1663,
+          "PR": 100,
+          "Commits": 817
+        },
+        "timber-ruby-rack": {
+          "Name": "timber-ruby-rack",
+          "SLOC": 585,
+          "PR": 0,
+          "Commits": 30
+        },
+        "timber-ruby-rails": {
+          "Name": "timber-ruby-rails",
+          "SLOC": 1334,
+          "PR": 3,
+          "Commits": 71
+        },
+        "tokio-compat-perf-checks": {
+          "Name": "tokio-compat-perf-checks",
+          "SLOC": 119,
+          "PR": 0,
+          "Commits": 16
+        },
+        "tokio-fds-issue": {
+          "Name": "tokio-fds-issue",
+          "SLOC": 17,
+          "PR": 0,
+          "Commits": 3
+        },
         "vector": {
           "Name": "vector",
           "SLOC": 274642,
           "PR": 9360,
           "Commits": 9346
+        },
+        "vector-demos": {
+          "Name": "vector-demos",
+          "SLOC": 13,
+          "PR": 13,
+          "Commits": 59
+        },
+        "vector-generate": {
+          "Name": "vector-generate",
+          "SLOC": 3749,
+          "PR": 5,
+          "Commits": 76
+        },
+        "vector-heroku-buildpack": {
+          "Name": "vector-heroku-buildpack",
+          "SLOC": 66,
+          "PR": 0,
+          "Commits": 20
+        },
+        "vector-k8s-dev-env": {
+          "Name": "vector-k8s-dev-env",
+          "SLOC": 0,
+          "PR": 3,
+          "Commits": 24
+        },
+        "vector-k8s-examples": {
+          "Name": "vector-k8s-examples",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 19
+        },
+        "vector-test-harness": {
+          "Name": "vector-test-harness",
+          "SLOC": 1448,
+          "PR": 35,
+          "Commits": 251
+        },
+        "vector-test-harness-github-actions-test-repo": {
+          "Name": "vector-test-harness-github-actions-test-repo",
+          "SLOC": 0,
+          "PR": 4,
+          "Commits": 66
+        },
+        "vrl-web": {
+          "Name": "vrl-web",
+          "SLOC": 1288,
+          "PR": 2,
+          "Commits": 207
         }
       }
     },

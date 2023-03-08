@@ -36,7 +36,7 @@ type Aggregated struct {
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
-			dir = "_work"
+			dir = filepath.Join("_work", "dataset")
 		)
 		flag.StringVar(&dir, "dir", dir, "directory to store data")
 		flag.Parse()
