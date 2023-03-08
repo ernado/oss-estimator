@@ -331,6 +331,9 @@ func main() {
 		sort.SliceStable(c.Repos, func(i, j int) bool {
 			return c.Repos[i].SLOC > c.Repos[j].SLOC
 		})
+		sort.SliceStable(c.CNCF, func(i, j int) bool {
+			return c.CNCF[i].SLOC > c.Repos[j].SLOC
+		})
 
 		var filteredRepos []Stat
 		for _, repo := range c.Repos {
