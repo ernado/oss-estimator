@@ -53,7 +53,7 @@ func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		u := archive.GetURL(time.Now().AddDate(0, 0, -2))
 
-		// clickhouse local --structure "event Enum8('WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4), repo Int64, actor Int64, time DateTime" --input-format Native --file _work/events.ch.native --interactive
+		// clickhouse local --structure "event Enum8('WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4), repo Int64, actor Int64, time DateTime" --input-format Native --interactive --file events.ch.native.zst
 		outFile, err := os.Create(filepath.Join("_work", "events.ch.native"))
 		if err != nil {
 			return errors.Wrap(err, "open")
