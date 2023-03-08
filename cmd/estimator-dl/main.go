@@ -6,7 +6,6 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"sync"
 	"time"
 
 	"github.com/go-faster/errors"
@@ -47,10 +46,6 @@ func (s SimplifiedEntry) Encode(e *jx.Encoder) {
 			e.Int64(s.Time)
 		})
 	})
-}
-
-type ActorCache struct {
-	mux sync.Mutex
 }
 
 func main() {
