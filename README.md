@@ -4,13 +4,13 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 
 ## Tools
 
-| Tool                                                  | Description                                                                 |
-|-------------------------------------------------------|-----------------------------------------------------------------------------|
-| [estimator-dl](../estimator-dl/main.go)               | Download from [gharchive.org](https://gharchive.org)                        |
-| [estimator-sloc](../estimator-sloc/main.go)           | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
-| [estimator-list](../estimator-list/main.go)           | Concurrently fetch popular oss repos and stat for them                      |
-| [estimator-aggregate](../estimator-aggregate/main.go) | Aggregate stats                                                             |
-| [estimator-gen](../estimator-gen/main.go)             | Generate README.md                                                          |
+| Tool                                                  | Description                                                                                               |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [estimator-dl](../estimator-dl/main.go)               | Download from [gharchive.org](https://gharchive.org) and save to zstd-compressed clickhouse native format |
+| [estimator-sloc](../estimator-sloc/main.go)           | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH)                               |
+| [estimator-list](../estimator-list/main.go)           | Concurrently fetch popular oss repos and stat for them                                                    |
+| [estimator-aggregate](../estimator-aggregate/main.go) | Aggregate stats                                                                                           |
+| [estimator-gen](../estimator-gen/main.go)             | Generate README.md                                                                                        |
 
 
 ## Example
@@ -34,6 +34,8 @@ $ du -hs _work/
 ```
 
 ## Stats
+
+Languages: BASH, BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Template, Haskell, Java, JavaScript, Kotlin, Lua, Objective C, Objective C++, PHP, Perl, Protocol Buffers, Python, Ruby, Rust, Scala, Swift, TypeScript
 
 ### Organizations
 | Organization | SLOC | Commits | PRs | Stars | Language |

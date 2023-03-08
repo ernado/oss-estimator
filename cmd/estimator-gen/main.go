@@ -75,9 +75,15 @@ func (s Stat) URL() string {
 }
 
 type Context struct {
-	Orgs  []Stat
-	Repos []Stat
-	CNCF  []Stat
+	Orgs          []Stat
+	Repos         []Stat
+	CNCF          []Stat
+	LanguagesList []string
+}
+
+func (c Context) Languages() string {
+	sort.Strings(c.LanguagesList)
+	return strings.Join(c.LanguagesList, ", ")
 }
 
 // credit to https://github.com/DeyV/gotools/blob/master/numbers.go
@@ -292,7 +298,9 @@ func main() {
 			Name: "CNCF",
 		}
 
-		var c Context
+		c := Context{
+			LanguagesList: lang.All(),
+		}
 		for _, org := range ag.Organizations {
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
