@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"net/url"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -13,9 +14,7 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-git/v5"
-	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"github.com/go-git/go-git/v5/storage/filesystem"
 	"github.com/google/go-github/v50/github"
 	"go.uber.org/zap"
@@ -57,25 +56,39 @@ func main() {
 		// Fast path.
 		gitRepo, err := git.Open(storage, root)
 		if err != nil {
-			// Slow path.
+			// Slow path, cloned repo doesn't exist.
 			repo, _, err := c.Repositories.Get(ctx, orgName, repoName)
 			if err != nil {
 				return errors.Wrap(err, "get repository")
 			}
 
-			ref := plumbing.NewBranchReferenceName(repo.GetDefaultBranch())
-			gitRepo, err = git.CloneContext(ctx, storage, root, &git.CloneOptions{
-				Depth: 1,
-				URL:   repo.GetCloneURL(),
-				Auth: &http.BasicAuth{
-					Username: "read",
-					Password: os.Getenv("GITHUB_TOKEN"),
-				},
-				ReferenceName: ref,
-				SingleBranch:  true,
-			})
+			u, err := url.Parse(repo.GetCloneURL())
 			if err != nil {
-				return errors.Wrap(err, "clone")
+				return errors.Wrap(err, "parse clone URL")
+			}
+			u.User = url.UserPassword("git", os.Getenv("GITHUB_TOKEN"))
+
+			// Fix partial clone.
+			if err := os.RemoveAll(p); err != nil {
+				lg.Warn("RemoveAll failed", zap.Error(err))
+			}
+
+			// git is significantly faster than go-git on big repos for cloning.
+			cmd := exec.CommandContext(ctx, "git", "clone", "--depth=1", u.String(), p)
+			out, outErr := new(bytes.Buffer), new(bytes.Buffer)
+			cmd.Stdout = out
+			cmd.Stderr = outErr
+
+			if err := cmd.Run(); err != nil {
+				if outErr.Len() > 0 {
+					return errors.Wrapf(err, "run scc: %s", outErr)
+				}
+				return errors.Wrap(err, "run scc")
+			}
+
+			gitRepo, err = git.Open(storage, root)
+			if err != nil {
+				return errors.Wrap(err, "open git repo after clone")
 			}
 		}
 
