@@ -186,7 +186,7 @@ func main() {
 			PerPage: 1,
 		}
 		{
-			_, res, err := c.Repositories.ListCommits(ctx, "kubernetes", "kubernetes", &github.CommitsListOptions{
+			_, res, err := c.Repositories.ListCommits(ctx, orgName, repoName, &github.CommitsListOptions{
 				ListOptions: list,
 			})
 			if err != nil {
@@ -195,7 +195,7 @@ func main() {
 			commits = res.LastPage
 		}
 		{
-			_, res, err := c.PullRequests.List(ctx, "kubernetes", "kubernetes", &github.PullRequestListOptions{
+			_, res, err := c.PullRequests.List(ctx, orgName, repoName, &github.PullRequestListOptions{
 				State:       "all",
 				ListOptions: list,
 			})
