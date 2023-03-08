@@ -45,23 +45,47 @@ type Entry struct {
 }
 
 type AggregatedRepo struct {
-	ID      int64  `json:"ID"`
-	OrgID   int64  `json:"OrgID"`
-	Name    string `json:"Name"`
-	SLOC    int    `json:"SLOC"`
-	PR      int    `json:"PR"`
-	Commits int    `json:"Commits"`
-	Stars   int    `json:"Stars"`
+	ID        int64          `json:"ID"`
+	OrgID     int64          `json:"OrgID"`
+	Name      string         `json:"Name"`
+	SLOC      int            `json:"SLOC"`
+	PR        int            `json:"PR"`
+	Commits   int            `json:"Commits"`
+	Stars     int            `json:"Stars"`
+	Languages map[string]int `json:"Languages"`
 }
 
 type AggregatedOrg struct {
-	ID      int64                      `json:"ID"`
-	Name    string                     `json:"Name"`
-	SLOC    int                        `json:"SLOC"`
-	PR      int                        `json:"PR"`
-	Commits int                        `json:"Commits"`
-	Stars   int                        `json:"Stars"`
-	Repos   map[string]*AggregatedRepo `json:"Repos,omitempty"`
+	ID        int64                      `json:"ID"`
+	Name      string                     `json:"Name"`
+	SLOC      int                        `json:"SLOC"`
+	PR        int                        `json:"PR"`
+	Commits   int                        `json:"Commits"`
+	Stars     int                        `json:"Stars"`
+	Languages map[string]int             `json:"languages"`
+	Repos     map[string]*AggregatedRepo `json:"Repos,omitempty"`
+}
+
+func Merge(dst, src map[string]int) map[string]int {
+	if dst == nil {
+		dst = make(map[string]int)
+	}
+	for k, v := range src {
+		dst[k] += v
+	}
+	return dst
+}
+
+func Max(s map[string]int) string {
+	var max int
+	var name string
+	for k, v := range s {
+		if v > max {
+			max = v
+			name = k
+		}
+	}
+	return name
 }
 
 type Aggregated struct {

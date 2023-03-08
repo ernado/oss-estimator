@@ -38,22 +38,22 @@ $ du -hs _work/
 ## Stats
 
 ### Organizations
-| Organization | SLOC | Commits | PRs | Stars |
-|--------------|------|---------|-----|-------|
+| Organization | SLOC | Commits | PRs | Stars | Language |
+|--------------|------|---------|-----|-------|----------|
 {{ range .Orgs -}}
-| [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} |
+| [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} | {{ .Lang }} |
 {{ end }}
 
 ### Repositories
-| Repository | SLOC | Commits | PRs | Stars |
-|------------|------|---------|-----|-------|
+| Repository | SLOC | Commits | PRs | Stars | Language |
+|------------|------|---------|-----|-------|----------|
 {{ range .Repos -}}
-| [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} |
+| [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} | {{ .Lang }} |
 {{ end }}
 
 ### CNCF Projects
-| Project                                        | SLOC | Commits | PRs | Stars |
-|------------------------------------------------|------|---------|-----|-------|
+| Project | SLOC | Commits | PRs | Stars | Language |
+|---------|------|---------|-----|-------|----------|
 {{ range .CNCF -}}
-| [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} |
+| [{{ .Title }}]({{ .URL }})  | {{ formatNumber .SLOC }} | {{ formatNumber .Commits }} | {{ formatNumber .PR }} | {{ formatNumber .Stars }} | {{ .Lang }} |
 {{ end }}

@@ -32,8 +32,9 @@ func main() {
 		}
 		for _, org := range orgs {
 			orgOut := &estimate.AggregatedOrg{
-				Name:  org.Name(),
-				Repos: map[string]*estimate.AggregatedRepo{},
+				Name:      org.Name(),
+				Repos:     map[string]*estimate.AggregatedRepo{},
+				Languages: map[string]int{},
 			}
 			if !org.IsDir() {
 				continue
@@ -60,14 +61,19 @@ func main() {
 				if orgOut.Name != e.Org {
 					return errors.Errorf("org mismatch: %s != %s", orgOut.Name, e.Org)
 				}
+
 				repoOut := &estimate.AggregatedRepo{
-					ID:      e.RepoID,
-					Name:    e.Repo,
-					SLOC:    e.SLOC,
-					PR:      e.PullRequests,
-					Stars:   e.Stars,
-					Commits: e.Commits,
-					OrgID:   e.OrgID,
+					ID:        e.RepoID,
+					Name:      e.Repo,
+					SLOC:      e.SLOC,
+					PR:        e.PullRequests,
+					Stars:     e.Stars,
+					Commits:   e.Commits,
+					OrgID:     e.OrgID,
+					Languages: map[string]int{},
+				}
+				for _, v := range e.Code {
+					repoOut.Languages[v.Name] += v.Code
 				}
 				orgOut.ID = e.OrgID
 				orgOut.SLOC += repoOut.SLOC
@@ -75,6 +81,9 @@ func main() {
 				orgOut.Commits += repoOut.Commits
 				orgOut.Stars += repoOut.Stars
 				orgOut.Repos[repoOut.Name] = repoOut
+				for k, v := range repoOut.Languages {
+					orgOut.Languages[k] += v
+				}
 			}
 			out.Organizations[orgOut.Name] = orgOut
 		}

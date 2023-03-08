@@ -26,12 +26,21 @@ var tpl string
 var data []byte
 
 type Stat struct {
-	Name    string
-	SLOC    int
-	PR      int
-	Commits int
-	Stars   int
-	Org     string
+	Name      string
+	SLOC      int
+	PR        int
+	Commits   int
+	Stars     int
+	Org       string
+	Language  string
+	Languages map[string]int
+}
+
+func (s Stat) Lang() string {
+	if s.Language == "" {
+		return "N/A"
+	}
+	return s.Language
 }
 
 const maxLen = 35
@@ -286,26 +295,31 @@ func main() {
 		for _, org := range ag.Organizations {
 			for _, repo := range org.Repos {
 				c.Repos = append(c.Repos, Stat{
-					Org:     org.Name,
-					Name:    repo.Name,
-					SLOC:    repo.SLOC,
-					PR:      repo.PR,
-					Commits: repo.Commits,
-					Stars:   repo.Stars,
+					Org:       org.Name,
+					Name:      repo.Name,
+					SLOC:      repo.SLOC,
+					PR:        repo.PR,
+					Commits:   repo.Commits,
+					Stars:     repo.Stars,
+					Language:  estimate.Max(repo.Languages),
+					Languages: repo.Languages,
 				})
 			}
 			v := Stat{
-				Name:    org.Name,
-				SLOC:    org.SLOC,
-				PR:      org.PR,
-				Commits: org.Commits,
-				Stars:   org.Stars,
+				Name:      org.Name,
+				SLOC:      org.SLOC,
+				PR:        org.PR,
+				Commits:   org.Commits,
+				Stars:     org.Stars,
+				Language:  estimate.Max(org.Languages),
+				Languages: org.Languages,
 			}
 			if isCNCF[org.Name] {
 				cncf.PR += org.PR
 				cncf.Commits += org.Commits
 				cncf.Stars += org.Stars
 				cncf.SLOC += org.SLOC
+				cncf.Languages = estimate.Merge(cncf.Languages, org.Languages)
 				c.CNCF = append(c.CNCF, v)
 			}
 			c.Orgs = append(c.Orgs, v)
@@ -315,10 +329,13 @@ func main() {
 				k8s.Commits += org.Commits
 				k8s.Stars += org.Stars
 				k8s.SLOC += org.SLOC
+				k8s.Languages = estimate.Merge(k8s.Languages, org.Languages)
 			}
 		}
 
 		// Add aggregates.
+		k8s.Language = estimate.Max(k8s.Languages)
+		cncf.Language = estimate.Max(cncf.Languages)
 		c.Orgs = append(c.Orgs, k8s, cncf)
 
 		comparator := func(s []Stat) func(i int, j int) bool {
@@ -330,6 +347,7 @@ func main() {
 				return s[i].SLOC > s[j].SLOC
 			}
 		}
+
 		sort.SliceStable(c.Orgs, comparator(c.Orgs))
 		sort.SliceStable(c.Repos, comparator(c.Repos))
 		sort.SliceStable(c.CNCF, comparator(c.CNCF))
