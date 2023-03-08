@@ -2,9 +2,9 @@
   "Organizations": {
     "ClickHouse": {
       "Name": "ClickHouse",
-      "SLOC": 2455734,
-      "PR": 34820,
-      "Commits": 173812,
+      "SLOC": 2008985,
+      "PR": 34816,
+      "Commits": 166154,
       "Repos": {
         "ClickHouse": {
           "Name": "ClickHouse",
@@ -221,12 +221,6 @@
           "SLOC": 0,
           "PR": 59,
           "Commits": 114
-        },
-        "protobuf": {
-          "Name": "protobuf",
-          "SLOC": 446749,
-          "PR": 4,
-          "Commits": 7658
         },
         "readthedocs-stub": {
           "Name": "readthedocs-stub",

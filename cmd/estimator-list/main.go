@@ -43,6 +43,7 @@ func main() {
 		skip := map[key]struct{}{
 			{"ClickHouse", "clickhouse.github.io"}: {},
 			{"ClickHouse", "llvm"}:                 {},
+			{"ClickHouse", "protobuf"}:             {},
 		}
 
 		g, ctx := errgroup.WithContext(ctx)
