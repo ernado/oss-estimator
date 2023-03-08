@@ -2,6 +2,9 @@
   "Organizations": {
     "ClickHouse": {
       "Name": "ClickHouse",
+      "SLOC": 902942,
+      "PR": 32185,
+      "Commits": 109640,
       "Repos": {
         "ClickHouse": {
           "Name": "ClickHouse",
@@ -13,6 +16,9 @@
     },
     "LINBIT": {
       "Name": "LINBIT",
+      "SLOC": 310871,
+      "PR": 11,
+      "Commits": 4396,
       "Repos": {
         "linstor-server": {
           "Name": "linstor-server",
@@ -24,6 +30,9 @@
     },
     "Netflix": {
       "Name": "Netflix",
+      "SLOC": 207768,
+      "PR": 2264,
+      "Commits": 4152,
       "Repos": {
         "titus-control-plane": {
           "Name": "titus-control-plane",
@@ -41,6 +50,9 @@
     },
     "VKCOM": {
       "Name": "VKCOM",
+      "SLOC": 265656,
+      "PR": 3082,
+      "Commits": 9813,
       "Repos": {
         "VKUI": {
           "Name": "VKUI",
@@ -58,6 +70,9 @@
     },
     "VictoriaMetrics": {
       "Name": "VictoriaMetrics",
+      "SLOC": 196613,
+      "PR": 2181,
+      "Commits": 6842,
       "Repos": {
         "VictoriaMetrics": {
           "Name": "VictoriaMetrics",
@@ -87,6 +102,9 @@
     },
     "apache": {
       "Name": "apache",
+      "SLOC": 420406,
+      "PR": 521,
+      "Commits": 22275,
       "Repos": {
         "aurora": {
           "Name": "aurora",
@@ -104,6 +122,9 @@
     },
     "cilium": {
       "Name": "cilium",
+      "SLOC": 18552894,
+      "PR": 22542,
+      "Commits": 1239258,
       "Repos": {
         "Jenkins-library": {
           "Name": "Jenkins-library",
@@ -697,6 +718,9 @@
     },
     "envoyproxy": {
       "Name": "envoyproxy",
+      "SLOC": 677853,
+      "PR": 17105,
+      "Commits": 17302,
       "Repos": {
         "envoy": {
           "Name": "envoy",
@@ -708,6 +732,9 @@
     },
     "etcd-io": {
       "Name": "etcd-io",
+      "SLOC": 185822,
+      "PR": 11270,
+      "Commits": 26411,
       "Repos": {
         "bbolt": {
           "Name": "bbolt",
@@ -809,6 +836,9 @@
     },
     "falcosecurity": {
       "Name": "falcosecurity",
+      "SLOC": 11312,
+      "PR": 1445,
+      "Commits": 3556,
       "Repos": {
         "falco": {
           "Name": "falco",
@@ -820,6 +850,9 @@
     },
     "gotd": {
       "Name": "gotd",
+      "SLOC": 52603,
+      "PR": 786,
+      "Commits": 3084,
       "Repos": {
         "td": {
           "Name": "td",
@@ -831,6 +864,9 @@
     },
     "grafana": {
       "Name": "grafana",
+      "SLOC": 1582443,
+      "PR": 45996,
+      "Commits": 62330,
       "Repos": {
         "agent": {
           "Name": "agent",
@@ -872,6 +908,9 @@
     },
     "grpc": {
       "Name": "grpc",
+      "SLOC": 1575889,
+      "PR": 39486,
+      "Commits": 75583,
       "Repos": {
         "coverage": {
           "Name": "coverage",
@@ -1021,6 +1060,9 @@
     },
     "helm": {
       "Name": "helm",
+      "SLOC": 48393,
+      "PR": 5169,
+      "Commits": 7422,
       "Repos": {
         "chartmuseum": {
           "Name": "chartmuseum",
@@ -1038,6 +1080,9 @@
     },
     "istio": {
       "Name": "istio",
+      "SLOC": 1356353,
+      "PR": 62765,
+      "Commits": 56985,
       "Repos": {
         "api": {
           "Name": "api",
@@ -1271,6 +1316,9 @@
     },
     "kata-containers": {
       "Name": "kata-containers",
+      "SLOC": 223806,
+      "PR": 10296,
+      "Commits": 22764,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -1372,6 +1420,9 @@
     },
     "kubernetes": {
       "Name": "kubernetes",
+      "SLOC": 3442783,
+      "PR": 190671,
+      "Commits": 381481,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -1839,6 +1890,9 @@
     },
     "kubernetes-sigs": {
       "Name": "kubernetes-sigs",
+      "SLOC": 1744404,
+      "PR": 70987,
+      "Commits": 117370,
       "Repos": {
         "alibaba-cloud-csi-driver": {
           "Name": "alibaba-cloud-csi-driver",
@@ -2438,6 +2492,9 @@
     },
     "m3db": {
       "Name": "m3db",
+      "SLOC": 736219,
+      "PR": 5079,
+      "Commits": 10433,
       "Repos": {
         "bench": {
           "Name": "bench",
@@ -2575,6 +2632,9 @@
     },
     "ogen-go": {
       "Name": "ogen-go",
+      "SLOC": 36658,
+      "PR": 700,
+      "Commits": 3267,
       "Repos": {
         "ogen": {
           "Name": "ogen",
@@ -2586,6 +2646,9 @@
     },
     "open-telemetry": {
       "Name": "open-telemetry",
+      "SLOC": 1654966,
+      "PR": 60987,
+      "Commits": 61849,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -2945,6 +3008,9 @@
     },
     "openebs": {
       "Name": "openebs",
+      "SLOC": 1159571,
+      "PR": 10440,
+      "Commits": 17867,
       "Repos": {
         "api": {
           "Name": "api",
@@ -3226,6 +3292,9 @@
     },
     "pixie-io": {
       "Name": "pixie-io",
+      "SLOC": 305231,
+      "PR": 549,
+      "Commits": 11768,
       "Repos": {
         "pixie": {
           "Name": "pixie",
@@ -3237,6 +3306,9 @@
     },
     "prometheus": {
       "Name": "prometheus",
+      "SLOC": 377312,
+      "PR": 19107,
+      "Commits": 30845,
       "Repos": {
         "alertmanager": {
           "Name": "alertmanager",
@@ -3506,6 +3578,9 @@
     },
     "siderolabs": {
       "Name": "siderolabs",
+      "SLOC": 232750,
+      "PR": 9062,
+      "Commits": 7104,
       "Repos": {
         ".github": {
           "Name": ".github",
@@ -4015,6 +4090,9 @@
     },
     "uber": {
       "Name": "uber",
+      "SLOC": 253779,
+      "PR": 248,
+      "Commits": 1572,
       "Repos": {
         "kraken": {
           "Name": "kraken",
@@ -4032,6 +4110,9 @@
     },
     "vectordotdev": {
       "Name": "vectordotdev",
+      "SLOC": 274642,
+      "PR": 9360,
+      "Commits": 9346,
       "Repos": {
         "vector": {
           "Name": "vector",
@@ -4043,6 +4124,9 @@
     },
     "vitalif": {
       "Name": "vitalif",
+      "SLOC": 37792,
+      "PR": 12,
+      "Commits": 1224,
       "Repos": {
         "vitastor": {
           "Name": "vitastor",

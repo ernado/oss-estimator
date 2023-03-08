@@ -22,8 +22,11 @@ type AggregatedRepo struct {
 }
 
 type AggregatedOrg struct {
-	Name  string                     `json:"Name"`
-	Repos map[string]*AggregatedRepo `json:"Repos,omitempty"`
+	Name    string                     `json:"Name"`
+	SLOC    int                        `json:"SLOC"`
+	PR      int                        `json:"PR"`
+	Commits int                        `json:"Commits"`
+	Repos   map[string]*AggregatedRepo `json:"Repos,omitempty"`
 }
 
 type Aggregated struct {
@@ -82,6 +85,9 @@ func main() {
 					PR:      e.PullRequests,
 					Commits: e.Commits,
 				}
+				orgOut.SLOC += repoOut.SLOC
+				orgOut.PR += repoOut.PR
+				orgOut.Commits += repoOut.Commits
 				orgOut.Repos[repoOut.Name] = repoOut
 			}
 			out.Organizations[orgOut.Name] = orgOut
