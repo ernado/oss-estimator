@@ -81,9 +81,9 @@ func main() {
 
 			if err := cmd.Run(); err != nil {
 				if outErr.Len() > 0 {
-					return errors.Wrapf(err, "run scc: %s", outErr)
+					return errors.Wrapf(err, "run git: %s", outErr)
 				}
-				return errors.Wrap(err, "run scc")
+				return errors.Wrap(err, "run git")
 			}
 
 			gitRepo, err = git.Open(storage, root)
