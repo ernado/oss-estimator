@@ -33,6 +33,12 @@ type statEntry struct {
 	Code int `json:"Code"`
 }
 
+type cacheEntry struct {
+	Code         []statEntry `json:"Code"`
+	Commits      int         `json:"Commits,omitempty"`
+	PullRequests int         `json:"PullRequests,omitempty"`
+}
+
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		var (
@@ -48,6 +54,12 @@ func main() {
 		storageRoot := osfs.New(filepath.Join(p, ".git"))
 		storage := filesystem.NewStorage(storageRoot, cache.NewObjectLRUDefault())
 
+		ts := oauth2.StaticTokenSource(
+			&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
+		)
+		httpClient := oauth2.NewClient(ctx, ts)
+		c := github.NewClient(httpClient)
+
 		// Try to open first, so we don't need to call GitHub API.
 		// Fast path.
 		gitRepo, err := git.Open(storage, root)
@@ -55,11 +67,6 @@ func main() {
 			// Slow path, cloned repo doesn't exist.
 			//
 			// Fetching default branch and cloning.
-			ts := oauth2.StaticTokenSource(
-				&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
-			)
-			httpClient := oauth2.NewClient(ctx, ts)
-			c := github.NewClient(httpClient)
 
 			repo, _, err := c.Repositories.Get(ctx, orgName, repoName)
 			if err != nil {
@@ -100,6 +107,7 @@ func main() {
 		if err != nil {
 			return errors.Wrap(err, "head")
 		}
+
 		fmt.Println("git head:", head)
 
 		// Initialize arguments for scc.
@@ -149,8 +157,40 @@ func main() {
 			}
 		}
 
-		fmt.Println("Total:", total, "SLOC")
+		var (
+			commits      int
+			pullRequests int
+		)
+		// Last page number for per-page: 1 will be total entities number.
+		list := github.ListOptions{
+			PerPage: 1,
+		}
+		{
+			_, res, err := c.Repositories.ListCommits(ctx, "kubernetes", "kubernetes", &github.CommitsListOptions{
+				ListOptions: list,
+			})
+			if err != nil {
+				return errors.Wrap(err, "list commits")
+			}
+			commits = res.LastPage
+		}
+		{
+			_, res, err := c.PullRequests.List(ctx, "kubernetes", "kubernetes", &github.PullRequestListOptions{
+				State:       "all",
+				ListOptions: list,
+			})
+			if err != nil {
+				return errors.Wrap(err, "list pull requests")
+			}
+			pullRequests = res.LastPage
+		}
+
 		fmt.Println("Languages that are counted:", lang.All())
+
+		fmt.Println("Total:")
+		fmt.Println("", "SLOC", total)
+		fmt.Println("", "commits", commits)
+		fmt.Println("", "pull requests", pullRequests)
 
 		return nil
 	})

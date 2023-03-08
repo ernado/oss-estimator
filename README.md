@@ -7,7 +7,6 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 | Tool                                           | Description                                                                 |
 |------------------------------------------------|-----------------------------------------------------------------------------|
 | [estimator-dl](./cmd/estimator-dl/main.go)     | Download from [gharchive.org](https://gharchive.org)                        |
-| [estimator-get](./cmd/estimator-get/main.go)   | Pull request and commit count                                               |
 | [estimator-sloc](./cmd/estimator-sloc/main.go) | SLOC count using [scc](https://github.com/boyter/scc/) (should be in $PATH) |
 
 
@@ -47,10 +46,13 @@ languages:
  ruby 9
  toml 4
  html 3
-Total: 309739 SLOC
 Languages that are counted: [Go C Go Template BASH Python]
+Total:
+ SLOC 309739
+ commits 114436
+ pull requests 73525
 
-real    0m9,992s
-user    0m1,679s
-sys     0m0,419s
+real    0m11,189s
+user    0m1,662s
+sys     0m0,547s
 ```
