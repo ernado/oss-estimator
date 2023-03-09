@@ -2,7 +2,6 @@ package archive
 
 import (
 	"encoding/binary"
-	"path/filepath"
 
 	"github.com/go-faster/errors"
 	lru "github.com/hashicorp/golang-lru/v2"
@@ -123,8 +122,8 @@ func (u *UserCache) Add(id int64, v []byte) error {
 	return nil
 }
 
-func NewUserCache(dir string, size int) (*UserCache, error) {
-	db, err := bbolt.Open(filepath.Join(dir, "users.bbolt"), 0666, &bbolt.Options{
+func NewUserCache(path string, size int) (*UserCache, error) {
+	db, err := bbolt.Open(path, 0666, &bbolt.Options{
 		NoSync:         true,
 		NoFreelistSync: true,
 	})

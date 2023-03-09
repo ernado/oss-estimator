@@ -1,6 +1,7 @@
 package archive
 
 import (
+	"path/filepath"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -11,8 +12,12 @@ var (
 	_testK = int64(866677)
 )
 
+func path(tb testing.TB) string {
+	return filepath.Join(tb.TempDir(), "archive.bbolt")
+}
+
 func TestUserCache(t *testing.T) {
-	uc, err := NewUserCache(t.TempDir(), 10_000)
+	uc, err := NewUserCache(path(t), 10_000)
 	require.NoErrorf(t, err, "NewUserCache() failed: %v", err)
 	defer func() {
 		require.NoErrorf(t, uc.Close(), "Close() failed: %v", err)
@@ -29,7 +34,7 @@ func TestUserCache(t *testing.T) {
 func BenchmarkUserCache_Add(b *testing.B) {
 	b.ReportAllocs()
 
-	uc, err := NewUserCache(b.TempDir(), 10_000)
+	uc, err := NewUserCache(path(b), 10_000)
 	require.NoErrorf(b, err, "NewUserCache() failed: %v", err)
 	defer func() {
 		require.NoErrorf(b, uc.Close(), "Close() failed: %v", err)
@@ -43,7 +48,7 @@ func BenchmarkUserCache_Add(b *testing.B) {
 func BenchmarkUserCacheWrite(b *testing.B) {
 	b.ReportAllocs()
 
-	uc, err := NewUserCache(b.TempDir(), 10_000)
+	uc, err := NewUserCache(path(b), 10_000)
 	require.NoErrorf(b, err, "NewUserCache() failed: %v", err)
 	defer func() {
 		require.NoErrorf(b, uc.Close(), "Close() failed: %v", err)
@@ -57,7 +62,7 @@ func BenchmarkUserCacheWrite(b *testing.B) {
 func BenchmarkUserCacheRead(b *testing.B) {
 	b.ReportAllocs()
 
-	uc, err := NewUserCache(b.TempDir(), 10_000)
+	uc, err := NewUserCache(path(b), 10_000)
 	require.NoErrorf(b, err, "NewUserCache() failed: %v", err)
 	defer func() {
 		require.NoErrorf(b, uc.Close(), "Close() failed: %v", err)
