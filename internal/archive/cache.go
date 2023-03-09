@@ -101,6 +101,10 @@ func (u *UserCache) Get(name []byte) (int64, error) {
 }
 
 func (u *UserCache) Add(id int64, v []byte) error {
+	if id == 0 {
+		// No-op.
+		return nil
+	}
 	if u.hasOrAdd(id) {
 		return nil
 	}
