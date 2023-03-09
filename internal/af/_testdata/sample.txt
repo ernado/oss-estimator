@@ -1,0 +1,20 @@
+# This is the main developers affiliations file.
+# If you see your name with asterisk '*' sign - it means that
+# multiple affiliations were found for you with different email addresses.
+# Please merge all of them into one then.
+# Note that email addresses below are "best effort" and are out-of-date
+# or inaccurate in many cases. Please do not rely on this email information
+# without verification.
+007: 007!users.noreply.github.com, ryan!espressive.com
+	Espressive
+00r2: 00r2!users.noreply.github.com
+	PerkinElmer Inc. until 2014-08-01
+	Independent from 2014-08-01 until 2015-10-01
+	PwC from 2015-10-01 until 2020-01-01
+	Simplebet Inc. from 2020-01-01
+01deyishu: 01deyishu!users.noreply.github.com, yanshen!qiniu.com
+	Tencent Holdings Limited
+03amir: as2437!it.jgec.ac.in
+	Independent until 2022-02-01
+	JGEC Winter of Code from 2022-02-01 until 2022-03-01
+	GirlScript Foundation from 2022-03-01
