@@ -44,11 +44,26 @@ func NewDownloader(lg *zap.Logger, uc *UserCache, dir string) *Downloader {
 	}
 }
 
-func (d *Downloader) Download(ctx context.Context, t time.Time) error {
-	u := GetURL(t)
-
-	outPathTarget := filepath.Join(d.dir, fmt.Sprintf("%s.zst", Format(t)))
+func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
+	targetDIR := filepath.Join(d.dir, "cache", t.Format("2006-01"))
+	if err := os.MkdirAll(targetDIR, 0755); err != nil {
+		return errors.Wrap(err, "mkdir")
+	}
+	outPathTarget := filepath.Join(targetDIR, fmt.Sprintf("%s.native.zst", t.Format("2006-01-02-15")))
 	outPathTmp := outPathTarget + ".tmp"
+	defer func() {
+		if err != nil {
+			_ = os.Remove(outPathTmp)
+			_ = os.Remove(outPathTarget)
+		}
+	}()
+
+	if stat, err := os.Stat(outPathTarget); err == nil && stat.Size() > 0 {
+		// Already processed.
+		d.lg.Info("Hit", zap.String("k", Format(t)))
+		return nil
+	}
+
 	outFile, err := os.Create(outPathTmp)
 	if err != nil {
 		return errors.Wrap(err, "open")
@@ -65,8 +80,9 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) error {
 
 	g, ctx := errgroup.WithContext(ctx)
 
+	d.lg.Info("Download", zap.String("k", Format(t)))
 	wget := exec.CommandContext(ctx, "wget",
-		"-nv", "-O", "-", u,
+		"-nv", "-O", "-", GetURL(t),
 	)
 	wget.Stderr = os.Stderr
 	dl, err := wget.StdoutPipe()
@@ -126,7 +142,8 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) error {
 			outBuf proto.Buffer
 		)
 
-		buf := make([]byte, 0, 1024*1024)
+		const maxTokSize = 1024 * 1024 * 150
+		buf := make([]byte, 0, maxTokSize)
 		s.Buffer(buf, len(buf))
 		input := []proto.InputColumn{
 			{Name: "event", Data: proto.Wrap(&colEv, `'WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4`)},

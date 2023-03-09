@@ -8,9 +8,11 @@ import (
 
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
+	"golang.org/x/sync/errgroup"
 
 	"estimator/internal/app"
 	"estimator/internal/archive"
+	"estimator/internal/entry"
 )
 
 func main() {
@@ -27,6 +29,10 @@ func main() {
 		flag.StringVar(&arg.Dir, "dir", arg.Dir, "directory to store data")
 		flag.Parse()
 
+		if arg.Jobs <= 0 {
+			arg.Jobs = 1
+		}
+
 		uc, err := archive.NewUserCache(arg.Dir, 250_000)
 		if err != nil {
 			return errors.Wrap(err, "cache")
@@ -35,10 +41,43 @@ func main() {
 			lg.Info("Closing")
 			_ = uc.Close()
 		}()
-
-		d := archive.NewDownloader(lg, uc, arg.Dir)
-		if err := d.Download(ctx, time.Now().AddDate(0, 0, -2)); err != nil {
-			return errors.Wrap(err, "download")
+		var (
+			d     = archive.NewDownloader(lg, uc, arg.Dir)
+			start = entry.Start()
+			end   = time.Now().AddDate(0, 0, -2)
+			jobs  = make(chan time.Time, arg.Jobs)
+		)
+		g, ctx := errgroup.WithContext(ctx)
+		g.Go(func() error {
+			defer close(jobs)
+			for t := start; t.Before(end); t = t.Add(entry.Delta) {
+				select {
+				case <-ctx.Done():
+					return ctx.Err()
+				case jobs <- t:
+				}
+			}
+			return nil
+		})
+		for i := 0; i < arg.Jobs; i++ {
+			g.Go(func() error {
+				for {
+					select {
+					case <-ctx.Done():
+						return ctx.Err()
+					case t, ok := <-jobs:
+						if !ok {
+							return nil
+						}
+						if err := d.Download(ctx, t); err != nil {
+							return errors.Wrap(err, "download")
+						}
+					}
+				}
+			})
+		}
+		if err := g.Wait(); err != nil {
+			return errors.Wrap(err, "wait")
 		}
 		if err := uc.Close(); err != nil {
 			return errors.Wrap(err, "close")
