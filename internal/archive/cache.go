@@ -81,6 +81,25 @@ func (u *UserCache) hasOrAdd(id int64) bool {
 	return found
 }
 
+func (u *UserCache) Get(name []byte) (int64, error) {
+	var id int64
+	if err := u.db.View(func(tx *bbolt.Tx) error {
+		b := tx.Bucket(_bucketInverse)
+		if b == nil {
+			return nil
+		}
+		v := b.Get(name)
+		if v == nil {
+			return nil
+		}
+		id = int64(binary.BigEndian.Uint64(v))
+		return nil
+	}); err != nil {
+		return 0, errors.Wrap(err, "view")
+	}
+	return id, nil
+}
+
 func (u *UserCache) Add(id int64, v []byte) error {
 	if u.hasOrAdd(id) {
 		return nil

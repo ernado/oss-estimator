@@ -169,6 +169,12 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 			return nil
 		}
 
+		var (
+			noActorID int
+			good      int
+			total     int
+		)
+
 		for s.Scan() {
 			if ctx.Err() != nil {
 				return ctx.Err()
@@ -190,13 +196,26 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 				d.lg.Error("decode", zap.Error(err))
 				continue
 			}
+			total++
 			if !ev.Interesting() {
+				continue
+			}
+			if ev.ActorID == 0 {
+				actorID, err := d.uc.Get(ev.Actor)
+				if err != nil {
+					return errors.Wrap(err, "get")
+				}
+				ev.ActorID = actorID
+			}
+			if ev.ActorID == 0 {
+				noActorID++
 				continue
 			}
 			if err := d.uc.Add(ev.ActorID, ev.Actor); err != nil {
 				return errors.Wrap(err, "add")
 			}
 			{
+				good++
 				colEv.Append(proto.Enum8(ev.Type))
 				colRepoID.Append(ev.RepoID)
 				colActorID.Append(ev.ActorID)
@@ -225,6 +244,13 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 		if err := os.Rename(outPathTmp, outPathTarget); err != nil {
 			return errors.Wrap(err, "rename")
 		}
+		d.lg.Info("Processed",
+			zap.Int("no_actor_id", noActorID),
+			zap.Int("good", good),
+			zap.Int("total", total),
+			zap.String("k", Format(t)),
+		)
+
 		return nil
 	})
 
