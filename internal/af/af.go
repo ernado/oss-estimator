@@ -21,6 +21,9 @@ type User struct {
 	Companies []Company
 }
 
+// Parse parses the affiliations file from io.Reader.
+//
+// See https://github.com/cncf/gitdm, developers_affiliations*.txt.
 func Parse(in io.Reader, fn func(u User) error) error {
 	scanner := bufio.NewScanner(in)
 
@@ -30,7 +33,7 @@ func Parse(in io.Reader, fn func(u User) error) error {
 		if strings.HasPrefix(s, "#") || s == "" {
 			continue
 		}
-		if strings.HasPrefix(s, "\t") {
+		if strings.HasPrefix(s, "\t") || strings.HasPrefix(s, "\u00a0") {
 			// Company affiliation.
 			var company Company
 			elems := strings.Split(s, " ")
@@ -53,7 +56,8 @@ func Parse(in io.Reader, fn func(u User) error) error {
 					case "until":
 						company.Until = t
 					default:
-						return errors.Errorf("invalid company affiliation: %q", s)
+						company.From = t
+						lastToken = "from"
 					}
 				}
 			}
@@ -74,6 +78,15 @@ func Parse(in io.Reader, fn func(u User) error) error {
 				return errors.Errorf("invalid line: %q", s)
 			}
 			u.Name = s[:idx]
+			for _, e := range strings.Split(s[idx+1:], " ") {
+				e = strings.Trim(e, ",")
+				e = strings.ReplaceAll(e, "!", "@")
+				e = strings.TrimSpace(e)
+				if e == "" {
+					continue
+				}
+				u.Emails = append(u.Emails, e)
+			}
 		}
 	}
 	return nil
