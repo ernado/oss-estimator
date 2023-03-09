@@ -173,6 +173,7 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 			noActorID int
 			good      int
 			total     int
+			decodeErr int
 		)
 
 		for s.Scan() {
@@ -194,6 +195,7 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 
 			if err := ev.Decode(&j); err != nil {
 				d.lg.Error("decode", zap.Error(err))
+				decodeErr++
 				continue
 			}
 			total++
@@ -248,6 +250,7 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 			zap.Int("no_actor_id", noActorID),
 			zap.Int("good", good),
 			zap.Int("total", total),
+			zap.Int("err", decodeErr),
 			zap.String("k", Format(t)),
 		)
 
