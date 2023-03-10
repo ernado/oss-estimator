@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/ClickHouse/ch-go v0.53.0
 	github.com/go-faster/errors v0.6.1
-	github.com/go-faster/jx v0.41.0
+	github.com/go-faster/jx v1.0.0
 	github.com/go-git/go-billy/v5 v5.4.1
 	github.com/go-git/go-git/v5 v5.6.0
 	github.com/google/go-github/v50 v50.1.0
