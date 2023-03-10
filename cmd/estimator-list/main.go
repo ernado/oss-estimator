@@ -48,6 +48,7 @@ func main() {
 			{"ClickHouse", "libgsasl"}:             {},
 			{"ClickHouse", "libuv"}:                {},
 			{"ClickHouse", "UnixODBC"}:             {},
+			{"ClickHouse", "grpc"}:                 {},
 			{"cilium", "busybox"}:                  {},
 			{"istio", "old_vendor-istio_repo"}:     {},
 			{"openebs", "openebs-docs"}:            {},

@@ -46,10 +46,10 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [kubernetes](https://github.com/kubernetes)  | 3.4M | 381.1K | 190.5K | 243.1K | Go |
 | [tensorflow](https://github.com/tensorflow)  | 3.3M | 144.4K | 22.7K | 171.8K | C++ |
 | [elastic](https://github.com/elastic)  | 3.1M | 94.4K | 96.6K | 87.8K | Java |
-| [ClickHouse](https://github.com/ClickHouse)  | 2.7M | 166.2K | 34.8K | 33.8K | C++ |
 | [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1.9M | 117.4K | 71.3K | 98.2K | Go |
 | [open-telemetry](https://github.com/open-telemetry)  | 1.7M | 61.8K | 61.4K | 28.6K | Go |
 | [grpc](https://github.com/grpc)  | 1.6M | 74.1K | 38.7K | 86.8K | C++ |
+| [ClickHouse](https://github.com/ClickHouse)  | 1.6M | 119.1K | 34.8K | 33.8K | C++ |
 | [grafana](https://github.com/grafana)  | 1.6M | 76.6K | 50.2K | 103.1K | Go |
 | [envoyproxy](https://github.com/envoyproxy)  | 1.5M | 46.3K | 24.6K | 28.6K | C++ |
 | [rust-lang](https://github.com/rust-lang)  | 1.5M | 219.1K | 61.1K | 78.6K | Rust |
@@ -152,7 +152,6 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [envoyproxy/envoy-wasm](https://github.com/envoyproxy/envoy-wasm/)  | 504.5K | 8.4K | 454 | 205 | C++ |
 | [cubeFS/cubefs](https://github.com/cubeFS/cubefs/)  | 478.3K | 2.2K | 1.2K | 3.1K | Go |
 | [m3db/m3](https://github.com/m3db/m3/)  | 477.3K | 4.2K | 3.5K | 4.3K | Go |
-| [ClickHouse/grpc](https://github.com/ClickHouse/grpc/)  | 397.2K | 47.6K | 13 | 1 | C++ |
 | [tikv/tikv](https://github.com/tikv/tikv/)  | 395.8K | 7.8K | 10.2K | 12.7K | Rust |
 | [backstage/backstage](https://github.com/backstage/backstage/)  | 393.7K | 38.2K | 12.2K | 21.7K | TypeScript |
 | [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-contrib/)  | 389.2K | 9.6K | 16.1K | 1.5K | Go |
