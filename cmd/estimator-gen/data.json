@@ -9260,10 +9260,10 @@
     "docker": {
       "ID": 5429470,
       "Name": "docker",
-      "SLOC": 1266401,
+      "SLOC": 1266605,
       "PR": 30591,
-      "Commits": 173751,
-      "Stars": 146434,
+      "Commits": 173768,
+      "Stars": 146438,
       "Languages": {
         "ASP.NET": 799,
         "AsciiDoc": 3340,
@@ -9274,9 +9274,9 @@
         "C": 502,
         "C Header": 22,
         "C#": 8673,
-        "CSS": 129798,
+        "CSS": 129853,
         "DOT": 48,
-        "Docker ignore": 199,
+        "Docker ignore": 200,
         "Dockerfile": 7746,
         "Extensible Stylesheet Language Transformations": 81,
         "Fish": 1040,
@@ -9285,9 +9285,9 @@
         "Gherkin Specification": 306,
         "Go": 601979,
         "Go Template": 4,
-        "HTML": 5116,
+        "HTML": 5135,
         "Java": 575,
-        "JavaScript": 416669,
+        "JavaScript": 416873,
         "JavaServer Pages": 492,
         "LESS": 8109,
         "License": 13695,
@@ -9300,7 +9300,7 @@
         "PHP": 173427,
         "Patch": 613,
         "Perl": 155,
-        "Plain Text": 17477,
+        "Plain Text": 17480,
         "Powershell": 1493,
         "Properties File": 26,
         "Protocol Buffers": 881,
@@ -9319,7 +9319,7 @@
         "TypeScript Typings": 26263,
         "Vue": 80,
         "XML": 665,
-        "gitignore": 1933,
+        "gitignore": 1977,
         "nuspec": 19
       },
       "Repos": {
@@ -10742,6 +10742,23 @@
             "SVG": 24,
             "TypeScript": 2540,
             "gitignore": 14
+          }
+        },
+        "welcome-to-docker": {
+          "ID": 606041588,
+          "OrgID": 5429470,
+          "Name": "welcome-to-docker",
+          "SLOC": 204,
+          "PR": 0,
+          "Commits": 17,
+          "Stars": 4,
+          "Languages": {
+            "CSS": 55,
+            "Docker ignore": 1,
+            "HTML": 19,
+            "JavaScript": 204,
+            "Plain Text": 3,
+            "gitignore": 44
           }
         },
         "whalesay": {
@@ -28825,13 +28842,13 @@
       "ID": 10203055,
       "Name": "nats-io",
       "SLOC": 802454,
-      "PR": 12919,
-      "Commits": 36212,
+      "PR": 12930,
+      "Commits": 36238,
       "Stars": 31046,
       "Languages": {
         "Autoconf": 310,
         "BASH": 38,
-        "Batch": 2536,
+        "Batch": 2562,
         "C": 56766,
         "C Header": 8158,
         "C#": 51250,
@@ -28850,12 +28867,12 @@
         "JavaScript": 40784,
         "Kotlin": 3725,
         "LESS": 6568,
-        "License": 14679,
+        "License": 14696,
         "MSBuild": 856,
         "Makefile": 644,
         "Org": 1319,
         "Plain Text": 4743,
-        "Powershell": 339,
+        "Powershell": 371,
         "Prolog": 18,
         "Properties File": 221,
         "Protocol Buffers": 785,
@@ -28874,7 +28891,8 @@
         "TypeScript": 40026,
         "TypeScript Typings": 246,
         "XML": 3147,
-        "gitignore": 1786
+        "gitignore": 1786,
+        "nuspec": 51
       },
       "Repos": {
         "advisories": {
@@ -29324,6 +29342,21 @@
             "Makefile": 11,
             "Shell": 48,
             "gitignore": 8
+          }
+        },
+        "nats-choco": {
+          "ID": 58687396,
+          "OrgID": 10203055,
+          "Name": "nats-choco",
+          "SLOC": 0,
+          "PR": 11,
+          "Commits": 26,
+          "Stars": 0,
+          "Languages": {
+            "Batch": 26,
+            "License": 17,
+            "Powershell": 32,
+            "nuspec": 51
           }
         },
         "nats-connector-framework": {
@@ -39486,6 +39519,667 @@
             "TypeScript": 58700,
             "TypeScript Typings": 3059,
             "gitignore": 17
+          }
+        }
+      }
+    },
+    "ydb-platform": {
+      "ID": 88314308,
+      "Name": "ydb-platform",
+      "SLOC": 3137787,
+      "PR": 1571,
+      "Commits": 18552,
+      "Stars": 3150,
+      "Languages": {
+        "Assembly": 139,
+        "Autoconf": 3952,
+        "Batch": 10,
+        "C": 641850,
+        "C Header": 539689,
+        "C#": 4658,
+        "C++": 1556495,
+        "C++ Header": 9019,
+        "CMake": 13404,
+        "CSS": 4973,
+        "Cython": 2088,
+        "Docker ignore": 4,
+        "Dockerfile": 53,
+        "Go": 127574,
+        "HTML": 2467,
+        "Java": 28276,
+        "JavaScript": 91668,
+        "LLVM IR": 43,
+        "License": 3734,
+        "Lua": 49,
+        "MSBuild": 161,
+        "Makefile": 348,
+        "PHP": 4926,
+        "Plain Text": 226457,
+        "Powershell": 109,
+        "Properties File": 2,
+        "Protocol Buffers": 36115,
+        "Python": 70079,
+        "ReStructuredText": 150,
+        "Rust": 12431,
+        "SQL": 1050,
+        "SVG": 15,
+        "Sass": 4526,
+        "Shell": 534,
+        "Smarty Template": 182,
+        "Swig": 31,
+        "Systemd": 80,
+        "TOML": 98,
+        "TypeScript": 21889,
+        "TypeScript Typings": 9529,
+        "XML": 2459,
+        "gitignore": 267
+      },
+      "Repos": {
+        "gorm-driver": {
+          "ID": 580790885,
+          "OrgID": 88314308,
+          "Name": "gorm-driver",
+          "SLOC": 1296,
+          "PR": 15,
+          "Commits": 18,
+          "Stars": 1,
+          "Languages": {
+            "Go": 1296,
+            "License": 170
+          }
+        },
+        "slo-tests": {
+          "ID": 578666558,
+          "OrgID": 88314308,
+          "Name": "slo-tests",
+          "SLOC": 130,
+          "PR": 17,
+          "Commits": 185,
+          "Stars": 1,
+          "Languages": {
+            "JavaScript": 130,
+            "gitignore": 2
+          }
+        },
+        "terraform-provider-ydb": {
+          "ID": 487871077,
+          "OrgID": 88314308,
+          "Name": "terraform-provider-ydb",
+          "SLOC": 4995,
+          "PR": 10,
+          "Commits": 70,
+          "Stars": 1,
+          "Languages": {
+            "Go": 4995,
+            "License": 169,
+            "Makefile": 6,
+            "gitignore": 9
+          }
+        },
+        "xorm": {
+          "ID": 563400533,
+          "OrgID": 88314308,
+          "Name": "xorm",
+          "SLOC": 31883,
+          "PR": 9,
+          "Commits": 1713,
+          "Stars": 0,
+          "Languages": {
+            "Go": 31883,
+            "License": 22,
+            "Makefile": 234,
+            "Plain Text": 746,
+            "SQL": 241,
+            "Shell": 5,
+            "gitignore": 29
+          }
+        },
+        "ydb": {
+          "ID": 456549280,
+          "OrgID": 88314308,
+          "Name": "ydb",
+          "SLOC": 2849219,
+          "PR": 35,
+          "Commits": 9351,
+          "Stars": 2769,
+          "Languages": {
+            "Assembly": 139,
+            "Autoconf": 3951,
+            "Batch": 10,
+            "C": 641850,
+            "C Header": 539689,
+            "C++": 1556495,
+            "C++ Header": 9019,
+            "CMake": 13404,
+            "CSS": 4963,
+            "Cython": 2088,
+            "Go": 92,
+            "HTML": 2212,
+            "JavaScript": 22973,
+            "LLVM IR": 43,
+            "License": 170,
+            "Lua": 49,
+            "Plain Text": 225586,
+            "Powershell": 109,
+            "Protocol Buffers": 32862,
+            "Python": 53121,
+            "SQL": 809,
+            "SVG": 6,
+            "Shell": 513,
+            "Smarty Template": 127,
+            "Swig": 31,
+            "Systemd": 80,
+            "gitignore": 7
+          }
+        },
+        "ydb-api-protos": {
+          "ID": 394972278,
+          "OrgID": 88314308,
+          "Name": "ydb-api-protos",
+          "SLOC": 2588,
+          "PR": 13,
+          "Commits": 40,
+          "Stars": 6,
+          "Languages": {
+            "License": 10,
+            "Protocol Buffers": 2588,
+            "gitignore": 5
+          }
+        },
+        "ydb-dotnet-examples": {
+          "ID": 403397719,
+          "OrgID": 88314308,
+          "Name": "ydb-dotnet-examples",
+          "SLOC": 613,
+          "PR": 0,
+          "Commits": 14,
+          "Stars": 4,
+          "Languages": {
+            "C#": 613,
+            "License": 10,
+            "MSBuild": 41,
+            "gitignore": 6
+          }
+        },
+        "ydb-dotnet-genproto": {
+          "ID": 407957554,
+          "OrgID": 88314308,
+          "Name": "ydb-dotnet-genproto",
+          "SLOC": 139,
+          "PR": 2,
+          "Commits": 8,
+          "Stars": 1,
+          "Languages": {
+            "C#": 139,
+            "License": 10,
+            "MSBuild": 31,
+            "gitignore": 6
+          }
+        },
+        "ydb-dotnet-sdk": {
+          "ID": 407970053,
+          "OrgID": 88314308,
+          "Name": "ydb-dotnet-sdk",
+          "SLOC": 3612,
+          "PR": 0,
+          "Commits": 17,
+          "Stars": 17,
+          "Languages": {
+            "C#": 3612,
+            "License": 10,
+            "MSBuild": 60,
+            "gitignore": 5
+          }
+        },
+        "ydb-dotnet-yc": {
+          "ID": 403397439,
+          "OrgID": 88314308,
+          "Name": "ydb-dotnet-yc",
+          "SLOC": 294,
+          "PR": 0,
+          "Commits": 19,
+          "Stars": 0,
+          "Languages": {
+            "C#": 294,
+            "License": 10,
+            "MSBuild": 29,
+            "gitignore": 6
+          }
+        },
+        "ydb-embedded-ui": {
+          "ID": 458166037,
+          "OrgID": 88314308,
+          "Name": "ydb-embedded-ui",
+          "SLOC": 24056,
+          "PR": 334,
+          "Commits": 611,
+          "Stars": 13,
+          "Languages": {
+            "CSS": 10,
+            "HTML": 23,
+            "JavaScript": 9619,
+            "License": 17,
+            "SVG": 9,
+            "Sass": 4416,
+            "Shell": 4,
+            "TypeScript": 14437,
+            "TypeScript Typings": 128,
+            "gitignore": 16
+          }
+        },
+        "ydb-go-examples": {
+          "ID": 403882539,
+          "OrgID": 88314308,
+          "Name": "ydb-go-examples",
+          "SLOC": 6521,
+          "PR": 16,
+          "Commits": 176,
+          "Stars": 12,
+          "Languages": {
+            "Go": 6521,
+            "HTML": 59,
+            "License": 170,
+            "Makefile": 31,
+            "Smarty Template": 4,
+            "gitignore": 3
+          }
+        },
+        "ydb-go-genproto": {
+          "ID": 395033473,
+          "OrgID": 88314308,
+          "Name": "ydb-go-genproto",
+          "SLOC": 23,
+          "PR": 8,
+          "Commits": 37,
+          "Stars": 3,
+          "Languages": {
+            "Go": 23,
+            "License": 170,
+            "Makefile": 2,
+            "gitignore": 4
+          }
+        },
+        "ydb-go-persqueue-sdk": {
+          "ID": 448916734,
+          "OrgID": 88314308,
+          "Name": "ydb-go-persqueue-sdk",
+          "SLOC": 450,
+          "PR": 2,
+          "Commits": 9,
+          "Stars": 2,
+          "Languages": {
+            "Go": 450,
+            "gitignore": 12
+          }
+        },
+        "ydb-go-sdk": {
+          "ID": 392265178,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk",
+          "SLOC": 62900,
+          "PR": 465,
+          "Commits": 2895,
+          "Stars": 80,
+          "Languages": {
+            "Go": 62900,
+            "HTML": 59,
+            "License": 170,
+            "Smarty Template": 4,
+            "gitignore": 18
+          }
+        },
+        "ydb-go-sdk-auth-environ": {
+          "ID": 401289284,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-auth-environ",
+          "SLOC": 31,
+          "PR": 0,
+          "Commits": 21,
+          "Stars": 2,
+          "Languages": {
+            "Go": 31,
+            "License": 170,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-sdk-metrics": {
+          "ID": 414846220,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-metrics",
+          "SLOC": 1356,
+          "PR": 0,
+          "Commits": 87,
+          "Stars": 3,
+          "Languages": {
+            "Go": 1356,
+            "License": 170,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-sdk-opentracing": {
+          "ID": 430587127,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-opentracing",
+          "SLOC": 2112,
+          "PR": 0,
+          "Commits": 63,
+          "Stars": 4,
+          "Languages": {
+            "Go": 2112,
+            "License": 170,
+            "gitignore": 2
+          }
+        },
+        "ydb-go-sdk-otel": {
+          "ID": 544761332,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-otel",
+          "SLOC": 2464,
+          "PR": 5,
+          "Commits": 101,
+          "Stars": 1,
+          "Languages": {
+            "Go": 2464,
+            "License": 170,
+            "gitignore": 2
+          }
+        },
+        "ydb-go-sdk-prometheus": {
+          "ID": 401284202,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-prometheus",
+          "SLOC": 1532,
+          "PR": 3,
+          "Commits": 105,
+          "Stars": 2,
+          "Languages": {
+            "Go": 1532,
+            "License": 170,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-sdk-zap": {
+          "ID": 420635749,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-zap",
+          "SLOC": 2356,
+          "PR": 7,
+          "Commits": 92,
+          "Stars": 3,
+          "Languages": {
+            "Go": 2356,
+            "License": 170,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-sdk-zerolog": {
+          "ID": 420755150,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sdk-zerolog",
+          "SLOC": 2096,
+          "PR": 3,
+          "Commits": 66,
+          "Stars": 4,
+          "Languages": {
+            "Go": 2096,
+            "License": 170,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-sql": {
+          "ID": 419289363,
+          "OrgID": 88314308,
+          "Name": "ydb-go-sql",
+          "SLOC": 2138,
+          "PR": 3,
+          "Commits": 46,
+          "Stars": 3,
+          "Languages": {
+            "Go": 2138,
+            "License": 10,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-yc": {
+          "ID": 401288067,
+          "OrgID": 88314308,
+          "Name": "ydb-go-yc",
+          "SLOC": 784,
+          "PR": 2,
+          "Commits": 52,
+          "Stars": 4,
+          "Languages": {
+            "Go": 784,
+            "License": 170,
+            "gitignore": 1
+          }
+        },
+        "ydb-go-yc-metadata": {
+          "ID": 448865278,
+          "OrgID": 88314308,
+          "Name": "ydb-go-yc-metadata",
+          "SLOC": 358,
+          "PR": 2,
+          "Commits": 27,
+          "Stars": 3,
+          "Languages": {
+            "Go": 358,
+            "License": 170,
+            "gitignore": 2
+          }
+        },
+        "ydb-importer": {
+          "ID": 552416329,
+          "OrgID": 88314308,
+          "Name": "ydb-importer",
+          "SLOC": 3341,
+          "PR": 0,
+          "Commits": 28,
+          "Stars": 0,
+          "Languages": {
+            "Java": 3341,
+            "License": 169,
+            "Shell": 1,
+            "XML": 337,
+            "gitignore": 7
+          }
+        },
+        "ydb-java-examples": {
+          "ID": 491175873,
+          "OrgID": 88314308,
+          "Name": "ydb-java-examples",
+          "SLOC": 3835,
+          "PR": 0,
+          "Commits": 106,
+          "Stars": 1,
+          "Languages": {
+            "HTML": 57,
+            "Java": 3835,
+            "License": 170,
+            "Properties File": 1,
+            "XML": 944,
+            "gitignore": 5
+          }
+        },
+        "ydb-java-genproto": {
+          "ID": 493662363,
+          "OrgID": 88314308,
+          "Name": "ydb-java-genproto",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 14,
+          "Stars": 0,
+          "Languages": {
+            "License": 170,
+            "XML": 189,
+            "gitignore": 5
+          }
+        },
+        "ydb-java-sdk": {
+          "ID": 485334928,
+          "OrgID": 88314308,
+          "Name": "ydb-java-sdk",
+          "SLOC": 20997,
+          "PR": 32,
+          "Commits": 598,
+          "Stars": 12,
+          "Languages": {
+            "Java": 20997,
+            "License": 170,
+            "Properties File": 1,
+            "XML": 802,
+            "gitignore": 6
+          }
+        },
+        "ydb-java-yc": {
+          "ID": 491091432,
+          "OrgID": 88314308,
+          "Name": "ydb-java-yc",
+          "SLOC": 103,
+          "PR": 0,
+          "Commits": 96,
+          "Stars": 0,
+          "Languages": {
+            "Java": 103,
+            "License": 170,
+            "XML": 187,
+            "gitignore": 5
+          }
+        },
+        "ydb-kubernetes-operator": {
+          "ID": 407142976,
+          "OrgID": 88314308,
+          "Name": "ydb-kubernetes-operator",
+          "SLOC": 4187,
+          "PR": 109,
+          "Commits": 149,
+          "Stars": 30,
+          "Languages": {
+            "Dockerfile": 14,
+            "Go": 4187,
+            "License": 10,
+            "Makefile": 56,
+            "Plain Text": 0,
+            "Smarty Template": 47,
+            "gitignore": 39
+          }
+        },
+        "ydb-nodejs-genproto": {
+          "ID": 424236353,
+          "OrgID": 88314308,
+          "Name": "ydb-nodejs-genproto",
+          "SLOC": 59348,
+          "PR": 3,
+          "Commits": 9,
+          "Stars": 1,
+          "Languages": {
+            "JavaScript": 58683,
+            "License": 10,
+            "Protocol Buffers": 665,
+            "TypeScript Typings": 9401,
+            "gitignore": 5
+          }
+        },
+        "ydb-nodejs-sdk": {
+          "ID": 250519390,
+          "OrgID": 88314308,
+          "Name": "ydb-nodejs-sdk",
+          "SLOC": 6600,
+          "PR": 185,
+          "Commits": 367,
+          "Stars": 46,
+          "Languages": {
+            "Docker ignore": 4,
+            "Dockerfile": 7,
+            "JavaScript": 35,
+            "License": 10,
+            "Shell": 10,
+            "TypeScript": 6565,
+            "gitignore": 16
+          }
+        },
+        "ydb-php-examples": {
+          "ID": 358508778,
+          "OrgID": 88314308,
+          "Name": "ydb-php-examples",
+          "SLOC": 862,
+          "PR": 0,
+          "Commits": 15,
+          "Stars": 4,
+          "Languages": {
+            "Dockerfile": 5,
+            "License": 10,
+            "PHP": 862,
+            "gitignore": 10
+          }
+        },
+        "ydb-php-sdk": {
+          "ID": 357230524,
+          "OrgID": 88314308,
+          "Name": "ydb-php-sdk",
+          "SLOC": 4064,
+          "PR": 9,
+          "Commits": 85,
+          "Stars": 21,
+          "Languages": {
+            "Dockerfile": 11,
+            "License": 10,
+            "Makefile": 3,
+            "PHP": 4064,
+            "gitignore": 4
+          }
+        },
+        "ydb-python-sdk": {
+          "ID": 181687264,
+          "OrgID": 88314308,
+          "Name": "ydb-python-sdk",
+          "SLOC": 17070,
+          "PR": 132,
+          "Commits": 594,
+          "Stars": 54,
+          "Languages": {
+            "Autoconf": 1,
+            "Dockerfile": 16,
+            "JavaScript": 112,
+            "License": 170,
+            "Makefile": 16,
+            "Plain Text": 85,
+            "Python": 16958,
+            "ReStructuredText": 150,
+            "Shell": 1,
+            "gitignore": 13
+          }
+        },
+        "ydb-rs-sdk": {
+          "ID": 405003943,
+          "OrgID": 88314308,
+          "Name": "ydb-rs-sdk",
+          "SLOC": 12431,
+          "PR": 105,
+          "Commits": 604,
+          "Stars": 37,
+          "Languages": {
+            "HTML": 57,
+            "Plain Text": 40,
+            "Rust": 12431,
+            "TOML": 98,
+            "gitignore": 7
+          }
+        },
+        "ydb-ui-components": {
+          "ID": 467885649,
+          "OrgID": 88314308,
+          "Name": "ydb-ui-components",
+          "SLOC": 1003,
+          "PR": 45,
+          "Commits": 64,
+          "Stars": 5,
+          "Languages": {
+            "JavaScript": 116,
+            "License": 17,
+            "Sass": 110,
+            "TypeScript": 887,
+            "gitignore": 4
           }
         }
       }

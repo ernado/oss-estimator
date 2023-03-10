@@ -45,6 +45,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [**K8s**](https://kubernetes.io/)  | 5.4M | 498.5K | 261.5K | 341.3K | Go |
 | [kubernetes](https://github.com/kubernetes)  | 3.4M | 381.1K | 190.5K | 243.1K | Go |
 | [tensorflow](https://github.com/tensorflow)  | 3.3M | 144.4K | 22.7K | 171.8K | C++ |
+| [ydb-platform](https://github.com/ydb-platform)  | 3.1M | 18.5K | 1.5K | 3.1K | C++ |
 | [elastic](https://github.com/elastic)  | 3.1M | 94.4K | 96.6K | 87.8K | Java |
 | [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1.9M | 117.4K | 71.3K | 98.2K | Go |
 | [open-telemetry](https://github.com/open-telemetry)  | 1.7M | 61.8K | 61.4K | 28.6K | Go |
@@ -137,6 +138,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 |------------|------|---------|-----|-------|----------|
 | [torvalds/linux](https://github.com/torvalds/linux/)  | 19.1M | 1.1M | 761 | 147.5K | C |
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/)  | 3.3M | 144.4K | 22.7K | 171.8K | C++ |
+| [ydb-platform/ydb](https://github.com/ydb-platform/ydb/)  | 2.8M | 9.3K | 35 | 2.7K | C++ |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch/)  | 2.4M | 67.8K | 62.4K | 62.9K | Java |
 | [rust-lang/rust](https://github.com/rust-lang/rust/)  | 1.5M | 219.1K | 61.1K | 78.6K | Rust |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1.4M | 114.4K | 73.5K | 96.4K | Go |
@@ -252,6 +254,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [kata-containers/runtime](https://github.com/kata-containers/runtime/)  | 63.9K | 2.7K | 1.4K | 2.1K | Go |
 | [grpc/grpc-dotnet](https://github.com/grpc/grpc-dotnet/)  | 63.8K | 859 | 941 | 3.5K | C# |
 | [fluent/fluent-bit-website-old](https://github.com/fluent/fluent-bit-website-old/)  | 63.1K | 19 | 0 | 2 | JavaScript |
+| [ydb-platform/ydb-go-sdk](https://github.com/ydb-platform/ydb-go-sdk/)  | 62.9K | 2.8K | 465 | 80 | Go |
 | [knative/pkg](https://github.com/knative/pkg/)  | 61.1K | 1.9K | 2.3K | 234 | Go |
 | [VKCOM/statshouse](https://github.com/VKCOM/statshouse/)  | 61.5K | 236 | 214 | 120 | Go |
 | [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js/)  | 61.1K | 1.7K | 2.6K | 1.7K | TypeScript |
@@ -260,6 +263,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [vuejs/vue](https://github.com/vuejs/vue/)  | 60.2K | 3.5K | 2.3K | 202.6K | TypeScript |
 | [kubernetes/legacy-cloud-providers](https://github.com/kubernetes/legacy-cloud-providers/)  | 60.2K | 1.8K | 0 | 47 | Go |
 | [kubernetes/apimachinery](https://github.com/kubernetes/apimachinery/)  | 60.1K | 2.5K | 30 | 661 | Go |
+| [ydb-platform/ydb-nodejs-genproto](https://github.com/ydb-platform/ydb-nodejs-genproto/)  | 59.3K | 9 | 3 | 1 | JavaScript |
 | [buildpacks/pack](https://github.com/buildpacks/pack/)  | 58.4K | 3.3K | 957 | 1.9K | Go |
 | [envoyproxy/envoy-mobile](https://github.com/envoyproxy/envoy-mobile/)  | 57.6K | 1.7K | 2.2K | 550 | Java |
 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet/)  | 56.9K | 2.2K | 2.7K | 2.2K | C# |
@@ -337,6 +341,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [cloudevents/sdk-go](https://github.com/cloudevents/sdk-go/)  | 32.1K | 624 | 542 | 613 | Go |
 | [nats-io/nsc](https://github.com/nats-io/nsc/)  | 31.9K | 604 | 358 | 61 | Go |
 | [prometheus/alertmanager](https://github.com/prometheus/alertmanager/)  | 31.8K | 2.8K | 1.6K | 5.5K | Go |
+| [ydb-platform/xorm](https://github.com/ydb-platform/xorm/)  | 31.8K | 1.7K | 9 | 0 | Go |
 | [litmuschaos/test-tools](https://github.com/litmuschaos/test-tools/)  | 31.8K | 226 | 300 | 27 | C |
 | [kubevirt/hyperconverged-cluster-op~](https://github.com/kubevirt/hyperconverged-cluster-operator/)  | 31.3K | 1.4K | 2.1K | 106 | Go |
 | [knative/func](https://github.com/knative/func/)  | 31.2K | 1.1K | 1.1K | 156 | Go |
@@ -381,6 +386,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [grafana/terraform-provider-grafana](https://github.com/grafana/terraform-provider-grafana/)  | 24.6K | 697 | 523 | 312 | Go |
 | [siderolabs/theila](https://github.com/siderolabs/theila/)  | 24.3K | 100 | 114 | 45 | TypeScript |
 | [fluent/cmetrics](https://github.com/fluent/cmetrics/)  | 24.9K | 431 | 149 | 9 | C |
+| [ydb-platform/ydb-embedded-ui](https://github.com/ydb-platform/ydb-embedded-ui/)  | 24.5K | 611 | 334 | 13 | TypeScript |
 | [in-toto/toto-pip](https://github.com/in-toto/toto-pip/)  | 23.7K | 4.9K | 0 | 0 | Python |
 | [kubernetes/kube-state-metrics](https://github.com/kubernetes/kube-state-metrics/)  | 23.6K | 2.5K | 1.2K | 4.3K | Go |
 | [open-telemetry/opentelemetry-opera~](https://github.com/open-telemetry/opentelemetry-operator/)  | 23.6K | 781 | 1.1K | 675 | Go |
@@ -398,6 +404,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [cri-o/image](https://github.com/cri-o/image/)  | 21.6K | 1.8K | 2 | 2 | Go |
 | [istio/operator](https://github.com/istio/operator/)  | 21.2K | 508 | 780 | 174 | Go |
 | [kedacore/sample-dotnet-worker-serv~](https://github.com/kedacore/sample-dotnet-worker-servicebus-queue/)  | 21.2K | 38 | 30 | 68 | JavaScript |
+| [ydb-platform/ydb-java-sdk](https://github.com/ydb-platform/ydb-java-sdk/)  | 20.9K | 598 | 32 | 12 | Java |
 | [containerd/overlaybd](https://github.com/containerd/overlaybd/)  | 20.9K | 285 | 147 | 144 | C++ |
 | [kubernetes-sigs/structured-merge-d~](https://github.com/kubernetes-sigs/structured-merge-diff/)  | 20.9K | 495 | 208 | 74 | Go |
 | [crossplane/crossplane-runtime](https://github.com/crossplane/crossplane-runtime/)  | 20.8K | 1.2K | 260 | 98 | Go |
@@ -428,6 +435,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [docker/compose](https://github.com/docker/compose/)  | 17.3K | 4.1K | 3.5K | 28.7K | Go |
 | [kubevirt/ssp-operator](https://github.com/kubevirt/ssp-operator/)  | 17.2K | 629 | 501 | 12 | Go |
 | [docker/compose-on-kubernetes](https://github.com/docker/compose-on-kubernetes/)  | 17.2K | 236 | 114 | 1.4K | Go |
+| [ydb-platform/ydb-python-sdk](https://github.com/ydb-platform/ydb-python-sdk/)  | 17.7K | 594 | 132 | 54 | Python |
 | [kubernetes-sigs/etcdadm](https://github.com/kubernetes-sigs/etcdadm/)  | 16.8K | 1.2K | 248 | 652 | Go |
 | [kubernetes/api](https://github.com/kubernetes/api/)  | 16.8K | 6.7K | 10 | 514 | Go |
 | [kubevirt/kubevirt-tekton-tasks](https://github.com/kubevirt/kubevirt-tekton-tasks/)  | 16.6K | 526 | 209 | 20 | Go |
@@ -497,6 +505,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt/)  | 12.5K | 1.1K | 220 | 6.2K | Go |
 | [kubeedge/mappers-go](https://github.com/kubeedge/mappers-go/)  | 12.5K | 158 | 74 | 33 | Go |
 | [argoproj/applicationset](https://github.com/argoproj/applicationset/)  | 12.5K | 195 | 255 | 566 | Go |
+| [ydb-platform/ydb-rs-sdk](https://github.com/ydb-platform/ydb-rs-sdk/)  | 12.4K | 604 | 105 | 37 | Rust |
 | [rook/nfs](https://github.com/rook/nfs/)  | 12.4K | 7.4K | 22 | 28 | Go |
 | [jaegertracing/jaeger-client-java](https://github.com/jaegertracing/jaeger-client-java/)  | 12.3K | 528 | 504 | 485 | Java |
 | [siderolabs/sidero](https://github.com/siderolabs/sidero/)  | 12.3K | 366 | 839 | 257 | Go |
@@ -657,9 +666,11 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [dapr/kit](https://github.com/dapr/kit/)  | 6.6K | 30 | 35 | 10 | Go |
 | [helm/chartmuseum](https://github.com/helm/chartmuseum/)  | 6.6K | 613 | 333 | 3.1K | Go |
 | [kubevirt/kvm-info-nfd-plugin](https://github.com/kubevirt/kvm-info-nfd-plugin/)  | 6.6K | 62 | 13 | 1 | C Header |
+| [ydb-platform/ydb-nodejs-sdk](https://github.com/ydb-platform/ydb-nodejs-sdk/)  | 6.6K | 367 | 185 | 46 | TypeScript |
 | [etcd-io/dbtester](https://github.com/etcd-io/dbtester/)  | 6.5K | 1.2K | 288 | 250 | Go |
 | [argoproj/argo-cd-ui](https://github.com/argoproj/argo-cd-ui/)  | 6.5K | 385 | 131 | 14 | TypeScript |
 | [kubernetes-sigs/apiserver-builder-~](https://github.com/kubernetes-sigs/apiserver-builder-alpha/)  | 6.5K | 1.7K | 434 | 717 | Go |
+| [ydb-platform/ydb-go-examples](https://github.com/ydb-platform/ydb-go-examples/)  | 6.5K | 176 | 16 | 12 | Go |
 | [envoyproxy/envoy-perf](https://github.com/envoyproxy/envoy-perf/)  | 6.5K | 142 | 160 | 107 | Python |
 | [crossplane/gitlab-controller](https://github.com/crossplane/gitlab-controller/)  | 6.4K | 45 | 18 | 12 | Go |
 | [AthenZ/terraform-provider-athenz](https://github.com/AthenZ/terraform-provider-athenz/)  | 6.4K | 94 | 56 | 3 | Go |
@@ -726,6 +737,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [kubernetes-sigs/cluster-api-provid~](https://github.com/kubernetes-sigs/cluster-api-provider-digitalocean/)  | 5.8K | 399 | 383 | 92 | Go |
 | [longhorn/backupstore](https://github.com/longhorn/backupstore/)  | 5.8K | 188 | 107 | 3 | Go |
 | [coredns/policy](https://github.com/coredns/policy/)  | 5.1K | 77 | 30 | 46 | Go |
+| [ydb-platform/terraform-provider-ydb](https://github.com/ydb-platform/terraform-provider-ydb/)  | 4.9K | 70 | 10 | 1 | Go |
 | [m3db/m3ctl](https://github.com/m3db/m3ctl/)  | 4.9K | 82 | 64 | 14 | Go |
 | [fluxcd/webui](https://github.com/fluxcd/webui/)  | 4.9K | 162 | 38 | 142 | TypeScript |
 | [grafana/gel-app](https://github.com/grafana/gel-app/)  | 4.9K | 119 | 47 | 2 | Go |
