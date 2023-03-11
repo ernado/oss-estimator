@@ -76,8 +76,11 @@ func (u *UserCache) Close() error {
 }
 
 func (u *UserCache) hasOrAdd(id int64) bool {
-	found, _ := u.lru.ContainsOrAdd(id, struct{}{})
-	return found
+	if _, ok := u.lru.Get(id); ok {
+		return true
+	}
+	u.lru.Add(id, struct{}{})
+	return false
 }
 
 func (u *UserCache) Get(name []byte) (int64, error) {
@@ -108,29 +111,31 @@ func (u *UserCache) Add(id int64, v []byte) error {
 		return nil
 	}
 	k := u.key(id)
-	found, err := u.inDB(k)
-	if err != nil {
-		return errors.Wrap(err, "db get")
-	}
-	if found {
-		// In DB, was already wrote.
-		return nil
-	}
 	if err := u.put(k, v); err != nil {
 		return errors.Wrap(err, "put")
 	}
 	return nil
 }
 
-func NewUserCache(path string, size int) (*UserCache, error) {
-	db, err := bbolt.Open(path, 0666, &bbolt.Options{
+type UserCacheOptions struct {
+	Path     string
+	Size     int
+	ReadOnly bool
+}
+
+func NewUserCache(opt UserCacheOptions) (*UserCache, error) {
+	if opt.Size <= 0 {
+		opt.Size = 1000
+	}
+	db, err := bbolt.Open(opt.Path, 0666, &bbolt.Options{
 		NoSync:         true,
 		NoFreelistSync: true,
+		ReadOnly:       opt.ReadOnly,
 	})
 	if err != nil {
 		return nil, errors.Wrap(err, "db open")
 	}
-	cache, err := lru.New[int64, struct{}](size)
+	cache, err := lru.New[int64, struct{}](opt.Size)
 	if err != nil {
 		return nil, errors.Wrap(err, "cache")
 	}

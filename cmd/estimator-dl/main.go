@@ -33,7 +33,10 @@ func main() {
 			arg.Jobs = 1
 		}
 
-		uc, err := archive.NewUserCache(filepath.Join(arg.Dir, "users.bbolt"), 250_000)
+		uc, err := archive.NewUserCache(archive.UserCacheOptions{
+			Path: filepath.Join(arg.Dir, "users.bbolt"),
+			Size: 250_000,
+		})
 		if err != nil {
 			return errors.Wrap(err, "cache")
 		}

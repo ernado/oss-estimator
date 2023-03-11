@@ -16,14 +16,27 @@ func path(tb testing.TB) string {
 	return filepath.Join(tb.TempDir(), "archive.bbolt")
 }
 
-func TestUserCache(t *testing.T) {
-	uc, err := NewUserCache(path(t), 10_000)
-	require.NoErrorf(t, err, "NewUserCache() failed: %v", err)
-	defer func() {
-		require.NoErrorf(t, uc.Close(), "Close() failed: %v", err)
-	}()
+func opts(tb testing.TB) UserCacheOptions {
+	return UserCacheOptions{
+		Path: path(tb),
+		Size: 10_000,
+	}
+}
 
-	require.NoErrorf(t, uc.Add(_testK, _testV), "Add() failed: %v", err)
+func newUserCache(tb testing.TB) *UserCache {
+	tb.Helper()
+	uc, err := NewUserCache(opts(tb))
+	require.NoErrorf(tb, err, "NewUserCache() failed: %v", err)
+	tb.Cleanup(func() {
+		_ = uc.Close()
+	})
+	return uc
+}
+
+func TestUserCache(t *testing.T) {
+	uc := newUserCache(t)
+
+	require.NoErrorf(t, uc.Add(_testK, _testV), "Add()")
 	require.True(t, uc.lru.Contains(_testK), "lru.Contains() failed")
 
 	has, err := uc.inDB(uc.key(_testK))
@@ -34,40 +47,26 @@ func TestUserCache(t *testing.T) {
 func BenchmarkUserCache_Add(b *testing.B) {
 	b.ReportAllocs()
 
-	uc, err := NewUserCache(path(b), 10_000)
-	require.NoErrorf(b, err, "NewUserCache() failed: %v", err)
-	defer func() {
-		require.NoErrorf(b, uc.Close(), "Close() failed: %v", err)
-	}()
+	uc := newUserCache(b)
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		require.NoErrorf(b, uc.Add(_testK, _testV), "Add() failed: %v", err)
+		require.NoErrorf(b, uc.Add(_testK, _testV), "Add()")
 	}
 }
 
 func BenchmarkUserCacheWrite(b *testing.B) {
 	b.ReportAllocs()
-
-	uc, err := NewUserCache(path(b), 10_000)
-	require.NoErrorf(b, err, "NewUserCache() failed: %v", err)
-	defer func() {
-		require.NoErrorf(b, uc.Close(), "Close() failed: %v", err)
-	}()
+	uc := newUserCache(b)
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		require.NoErrorf(b, uc.put(uc.key(_testK), _testV), "put() failed: %v", err)
+		require.NoErrorf(b, uc.put(uc.key(_testK), _testV), "put()")
 	}
 }
 
 func BenchmarkUserCacheRead(b *testing.B) {
 	b.ReportAllocs()
-
-	uc, err := NewUserCache(path(b), 10_000)
-	require.NoErrorf(b, err, "NewUserCache() failed: %v", err)
-	defer func() {
-		require.NoErrorf(b, uc.Close(), "Close() failed: %v", err)
-	}()
-	require.NoErrorf(b, uc.put(uc.key(_testK), _testV), "put() failed: %v", err)
+	uc := newUserCache(b)
+	require.NoErrorf(b, uc.put(uc.key(_testK), _testV), "put()")
 
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {

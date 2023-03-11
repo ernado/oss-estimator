@@ -19,7 +19,7 @@ func Run(f func(ctx context.Context, lg *zap.Logger) error) {
 	cfg.EncodeLevel = zapcore.CapitalColorLevelEncoder
 	lg := zap.New(zapcore.NewCore(
 		zapcore.NewConsoleEncoder(cfg),
-		zapcore.AddSync(colorable.NewColorableStdout()),
+		zapcore.AddSync(colorable.NewColorableStderr()),
 		zapcore.DebugLevel,
 	))
 
