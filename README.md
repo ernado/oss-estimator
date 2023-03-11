@@ -35,7 +35,7 @@ $ du -hs _work/
 
 ## Stats
 
-Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Template, Haskell, Java, JavaScript, Kotlin, Lua, Objective C, Objective C++, PHP, Perl, Protocol Buffers, Python, Ruby, Rust, Scala, Swift, TypeScript
+Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Template, Haskell, Java, JavaScript, Kotlin, Lua, Objective C, Objective C++, PHP, Perl, Protocol Buffers, Python, Ruby, Rust, Scala, Swift, TypeScript, Zig
 
 ### Organizations
 | Organization | SLOC | Commits | PRs | Stars | Language |
@@ -57,6 +57,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [python](https://github.com/python)  | 1.3M | 116.2K | 39.4K | 51.7K | Python |
 | [docker](https://github.com/docker)  | 1.2M | 173.7K | 30.5K | 146.4K | Go |
 | [golang](https://github.com/golang)  | 1.6M | 55.7K | 2.8K | 109.1K | Go |
+| [ziglang](https://github.com/ziglang)  | 901.1K | 22.8K | 6.7K | 20.3K | Zig |
 | [nats-io](https://github.com/nats-io)  | 802.4K | 36.2K | 12.9K | 31.4K | Go |
 | [m3db](https://github.com/m3db)  | 736.7K | 10.4K | 5.7K | 4.6K | Go |
 | [cilium](https://github.com/cilium)  | 681.5K | 30.9K | 21.8K | 23.6K | Go |
@@ -81,7 +82,6 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [LINBIT](https://github.com/LINBIT)  | 310.8K | 4.3K | 11 | 649 | Java |
 | [vectordotdev](https://github.com/vectordotdev)  | 308.9K | 14.3K | 10.1K | 14.3K | Rust |
 | [kyverno](https://github.com/kyverno)  | 280.2K | 8.7K | 5.1K | 4.1K | Go |
-| [ziglang](https://github.com/ziglang)  | 273.2K | 22.8K | 6.7K | 20.3K | C |
 | [operator-framework](https://github.com/operator-framework)  | 265.4K | 18.9K | 14.3K | 13.3K | Go |
 | [keptn](https://github.com/keptn)  | 256.7K | 11.7K | 8.3K | 1.8K | Go |
 | [uber](https://github.com/uber)  | 253.7K | 1.5K | 248 | 5.9K | Go |
@@ -146,6 +146,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [python/cpython](https://github.com/python/cpython/)  | 1.3M | 116.2K | 39.4K | 51.7K | Python |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse/)  | 1.1M | 109.7K | 32.2K | 27.4K | C++ |
 | [golang/go](https://github.com/golang/go/)  | 1.6M | 55.7K | 2.8K | 109.1K | Go |
+| [ziglang/zig](https://github.com/ziglang/zig/)  | 901.1K | 22.8K | 6.7K | 20.3K | Zig |
 | [grafana/grafana](https://github.com/grafana/grafana/)  | 889.8K | 41.3K | 33.5K | 54.2K | TypeScript |
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy/)  | 807.5K | 17.3K | 17.1K | 21.5K | C++ |
 | [elastic/beats](https://github.com/elastic/beats/)  | 617.7K | 16.2K | 25.7K | 11.5K | Go |
@@ -171,7 +172,6 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 | [kubernetes-sigs/security-profiles-~](https://github.com/kubernetes-sigs/security-profiles-operator/)  | 284.4K | 1.5K | 1.3K | 465 | C Header |
 | [kubevirt/kubevirt](https://github.com/kubevirt/kubevirt/)  | 281.1K | 16.3K | 6.9K | 3.9K | Go |
 | [vectordotdev/vector](https://github.com/vectordotdev/vector/)  | 274.6K | 9.3K | 9.3K | 12.9K | Rust |
-| [ziglang/zig](https://github.com/ziglang/zig/)  | 273.2K | 22.8K | 6.7K | 20.3K | C |
 | [kubernetes/test-infra](https://github.com/kubernetes/test-infra/)  | 270.5K | 51.9K | 24.6K | 3.5K | Go |
 | [docker/get-involved](https://github.com/docker/get-involved/)  | 264.4K | 1.6K | 36 | 24 | JavaScript |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno/)  | 259.5K | 5.5K | 3.9K | 3.5K | Go |

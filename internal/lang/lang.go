@@ -32,6 +32,7 @@ func All() []string {
 		"Erlang",
 		"Lua",
 		"Perl",
+		"Zig",
 	}
 }
 

@@ -40219,10 +40219,10 @@
     "ziglang": {
       "ID": 27973237,
       "Name": "ziglang",
-      "SLOC": 273299,
-      "PR": 6767,
-      "Commits": 22840,
-      "Stars": 20348,
+      "SLOC": 901135,
+      "PR": 6768,
+      "Commits": 22841,
+      "Stars": 20369,
       "Languages": {
         "Assembly": 33374,
         "Autoconf": 20471,
@@ -40242,7 +40242,7 @@
         "Powershell": 258,
         "Python": 924,
         "Shell": 421,
-        "Zig": 627831,
+        "Zig": 627836,
         "gitignore": 7
       },
       "Repos": {
@@ -40250,10 +40250,10 @@
           "ID": 40276274,
           "OrgID": 27973237,
           "Name": "zig",
-          "SLOC": 273299,
-          "PR": 6767,
-          "Commits": 22840,
-          "Stars": 20348,
+          "SLOC": 901135,
+          "PR": 6768,
+          "Commits": 22841,
+          "Stars": 20369,
           "Languages": {
             "Assembly": 33374,
             "Autoconf": 20471,
@@ -40273,7 +40273,7 @@
             "Powershell": 258,
             "Python": 924,
             "Shell": 421,
-            "Zig": 627831,
+            "Zig": 627836,
             "gitignore": 7
           }
         }
