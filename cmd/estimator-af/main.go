@@ -57,6 +57,14 @@ func main() {
 				return ctx.Err()
 			}
 			if err := func() error {
+				var total int
+				defer func() {
+					lg.Info("Processed",
+						zap.String("file", n),
+						zap.Int("total", total),
+					)
+				}()
+
 				f, err := os.Open(filepath.Join(arg.Dir, n))
 				if err != nil {
 					return errors.Wrap(err, "open file")
@@ -65,6 +73,8 @@ func main() {
 				lg.Info("Processing", zap.String("file", n))
 
 				return af.Parse(f, func(u af.User) error {
+					total++
+
 					if ctx.Err() != nil {
 						return ctx.Err()
 					}
