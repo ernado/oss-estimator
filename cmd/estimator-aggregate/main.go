@@ -10,26 +10,50 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
+	"estimator/internal/aggregator"
 	"estimator/internal/app"
 	"estimator/internal/estimate"
 )
 
+func write(path string, v interface{}) error {
+	f, err := os.Create(path)
+	if err != nil {
+		return errors.Wrap(err, "create")
+	}
+	defer func() { _ = f.Close() }()
+	e := json.NewEncoder(f)
+	e.SetIndent("", "  ")
+	if err := e.Encode(v); err != nil {
+		return errors.Wrap(err, "encode")
+	}
+	if err := f.Sync(); err != nil {
+		return errors.Wrap(err, "sync")
+	}
+	if err := f.Close(); err != nil {
+		return errors.Wrap(err, "sync")
+	}
+	return nil
+}
+
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
-		var (
-			dir = filepath.Join("_work", "dataset")
-		)
-		flag.StringVar(&dir, "dir", dir, "directory to store data")
+		var arg struct {
+			Dir    string
+			OutDir string
+		}
+		flag.StringVar(&arg.Dir, "dir", filepath.Join("_work", "dataset"), "directory to read data from")
+		flag.StringVar(&arg.OutDir, "o", "_data", "directory to read data from")
 		flag.Parse()
 
 		out := &estimate.Aggregated{
 			Organizations: map[string]*estimate.AggregatedOrg{},
 		}
-
-		orgs, err := os.ReadDir(dir)
+		orgs, err := os.ReadDir(arg.Dir)
 		if err != nil {
 			return errors.Wrap(err, "read orgs")
 		}
+
+		var cncfRepos []int64
 		for _, org := range orgs {
 			orgOut := &estimate.AggregatedOrg{
 				Name:      org.Name(),
@@ -39,7 +63,7 @@ func main() {
 			if !org.IsDir() {
 				continue
 			}
-			projects, err := os.ReadDir(filepath.Join(dir, org.Name()))
+			projects, err := os.ReadDir(filepath.Join(arg.Dir, org.Name()))
 			if err != nil {
 				return errors.Wrap(err, "read projects")
 			}
@@ -47,7 +71,7 @@ func main() {
 				if !project.IsDir() {
 					continue
 				}
-				data, err := os.ReadFile(filepath.Join(dir, org.Name(), project.Name(), "cache.json"))
+				data, err := os.ReadFile(filepath.Join(arg.Dir, org.Name(), project.Name(), "cache.json"))
 				if os.IsNotExist(err) {
 					continue
 				}
@@ -60,6 +84,9 @@ func main() {
 				}
 				if orgOut.Name != e.Org {
 					return errors.Errorf("org mismatch: %s != %s", orgOut.Name, e.Org)
+				}
+				if aggregator.IsCNCF(e.Org) {
+					cncfRepos = append(cncfRepos, e.RepoID)
 				}
 
 				repoOut := &estimate.AggregatedRepo{
@@ -88,10 +115,11 @@ func main() {
 			out.Organizations[orgOut.Name] = orgOut
 		}
 
-		e := json.NewEncoder(os.Stdout)
-		e.SetIndent("", "  ")
-		if err := e.Encode(out); err != nil {
-			return errors.Wrap(err, "encode")
+		if err := write(filepath.Join(arg.OutDir, "aggregated.json"), out); err != nil {
+			return errors.Wrap(err, "write")
+		}
+		if err := write(filepath.Join(arg.OutDir, "cncf-repos.json"), cncfRepos); err != nil {
+			return errors.Wrap(err, "write")
 		}
 
 		return nil

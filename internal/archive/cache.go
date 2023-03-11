@@ -83,6 +83,25 @@ func (u *UserCache) hasOrAdd(id int64) bool {
 	return false
 }
 
+func (u *UserCache) HasName(id int64) (bool, error) {
+	if u.hasOrAdd(id) {
+		return true, nil
+	}
+	var hit bool
+	k := u.key(id)
+	if err := u.db.View(func(tx *bbolt.Tx) error {
+		b := tx.Bucket(_bucket)
+		if b == nil {
+			return nil
+		}
+		hit = b.Get(k[:]) != nil
+		return nil
+	}); err != nil {
+		return false, errors.Wrap(err, "view")
+	}
+	return hit, nil
+}
+
 func (u *UserCache) Get(name []byte) (int64, error) {
 	var id int64
 	if err := u.db.View(func(tx *bbolt.Tx) error {

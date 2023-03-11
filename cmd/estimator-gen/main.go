@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"math"
 	"os"
+	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
@@ -15,6 +16,7 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
+	"estimator/internal/aggregator"
 	"estimator/internal/app"
 	"estimator/internal/estimate"
 	"estimator/internal/lang"
@@ -22,9 +24,6 @@ import (
 
 //go:embed README.md.tmpl
 var tpl string
-
-//go:embed data.json
-var data []byte
 
 type Stat struct {
 	Name      string
@@ -213,72 +212,6 @@ func NearestThousandFormat(x int) string {
 
 func main() {
 	// List of CNCF projects: https://www.cncf.io/projects/
-	isCNCF := make(map[string]bool)
-	for _, org := range []string{
-		"istio",
-		"etcd-io",
-		"kubernetes",
-		"kubernetes-sigs",
-		"envoyproxy",
-		"argoproj",
-		"containerd",
-		"coredns",
-		"fluent",
-		"goharbor",
-		"jaegertracing",
-		"linkerd",
-		"open-policy-agent",
-		"rook",
-		"spiffe",
-		"cri-o",
-		"containernetworking",
-		"cortexproject",
-		"projectcontour",
-		"nats-io",
-		"notaryproject",
-		"OpenObservability",
-		"operator-framework",
-		"thanos-io",
-		"grpc",
-		"longhorn",
-		"fluent",
-		"fluxcd",
-		"fluent",
-		"fluxcd",
-		"helm",
-		"prometheus",
-		"theupdateframework",
-		"vitessio",
-		"backstage",
-		"buildpacks",
-		"cert-manager",
-		"chaos-mesh",
-		"cert-manager",
-		"cloud-custodian",
-		"cloudevents",
-		"crossplane",
-		"cubeFS",
-		"dapr",
-		"emissary-ingress",
-		"in-toto",
-		"kedacore",
-		"keptn",
-		"knative",
-		"kubeedge",
-		"kubevirt",
-		"kyverno",
-		"litmuschaos",
-		"volcano-sh",
-		"containerssh",
-		"AthenZ",
-		"carina-io",
-		"k3s-io",
-		"karmada-io",
-		"open-telemetry",
-	} {
-		isCNCF[org] = true
-	}
-
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		t := template.New("template")
 		t.Funcs(template.FuncMap{
@@ -286,6 +219,10 @@ func main() {
 		})
 		template.Must(t.Parse(tpl))
 
+		data, err := os.ReadFile(filepath.Join("_data", "aggregated.json"))
+		if err != nil {
+			return errors.Wrap(err, "read affiliations.json")
+		}
 		var ag estimate.Aggregated
 		if err := json.Unmarshal(data, &ag); err != nil {
 			return errors.Wrap(err, "unmarshal data")
@@ -324,7 +261,7 @@ func main() {
 				Language:  estimate.Max(org.Languages),
 				Languages: org.Languages,
 			}
-			if isCNCF[org.Name] {
+			if aggregator.IsCNCF(org.Name) {
 				cncf.PR += org.PR
 				cncf.Commits += org.Commits
 				cncf.Stars += org.Stars
