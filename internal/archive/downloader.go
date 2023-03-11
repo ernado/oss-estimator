@@ -44,6 +44,8 @@ func NewDownloader(lg *zap.Logger, uc *UserCache, dir string) *Downloader {
 	}
 }
 
+const EventDDL = `'WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4`
+
 func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 	targetDIR := filepath.Join(d.dir, "cache", t.Format("2006-01"))
 	if err := os.MkdirAll(targetDIR, 0755); err != nil {
@@ -146,7 +148,7 @@ func (d *Downloader) Download(ctx context.Context, t time.Time) (err error) {
 		buf := make([]byte, 0, maxTokSize)
 		s.Buffer(buf, len(buf))
 		input := []proto.InputColumn{
-			{Name: "event", Data: proto.Wrap(&colEv, `'WatchEvent'=1, 'PushEvent'=2, 'IssuesEvent'=3, 'PullRequestEvent'=4`)},
+			{Name: "event", Data: proto.Wrap(&colEv, EventDDL)},
 			{Name: "repo", Data: &colRepoID},
 			{Name: "actor", Data: &colActorID},
 			{Name: "time", Data: &colTime},
