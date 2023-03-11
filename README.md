@@ -14,7 +14,7 @@ Set of tools to get info about GitHub project that is needed to estimate the cos
 
 
 ## Data used
-- [gharchive.org](https://gharchive.org) - GitHub Archive
+- [gharchive.org](https://gharchive.org), GitHub events archive from 2014 until now
 - Direct clone of GitHub repos (~50GB of data)
 - [cncf/gitdm](https://github.com/cncf/gitdm/tree/master), CNCF affiliation of developers
 
