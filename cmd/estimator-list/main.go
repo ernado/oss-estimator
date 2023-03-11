@@ -186,6 +186,7 @@ func main() {
 				{"elastic", "elasticsearch"},
 				{"elastic", "beats"},
 				{"elastic", "logstash"},
+				{"ziglang", "zig"},
 			} {
 				select {
 				case <-ctx.Done():
