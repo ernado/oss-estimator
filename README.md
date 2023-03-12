@@ -79,6 +79,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [ydb-platform](https://github.com/ydb-platform)  | 3.1M | 18.5K | 1.5K | 3.1K | C++ | 261 |
 | [elastic](https://github.com/elastic)  | 3.1M | 94.4K | 96.6K | 87.8K | Java | 261 |
 | [kubernetes-sigs](https://github.com/kubernetes-sigs)  | 1.9M | 117.4K | 71.3K | 98.2K | Go | 166 |
+| [cockroachdb](https://github.com/cockroachdb)  | 1.9M | 100.7K | 59.2K | 33.7K | Go | 163 |
 | [open-telemetry](https://github.com/open-telemetry)  | 1.7M | 61.8K | 61.4K | 28.6K | Go | 148 |
 | [grpc](https://github.com/grpc)  | 1.6M | 74.1K | 38.7K | 86.8K | C++ | 140 |
 | [ClickHouse](https://github.com/ClickHouse)  | 1.6M | 119.1K | 34.8K | 33.8K | C++ | 140 |
@@ -172,6 +173,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/)  | 3.3M | 144.4K | 22.7K | 171.8K | C++ | 279 |
 | [ydb-platform/ydb](https://github.com/ydb-platform/ydb/)  | 2.8M | 9.3K | 35 | 2.7K | C++ | 237 |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch/)  | 2.4M | 67.8K | 62.4K | 62.9K | Java | 202 |
+| [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach/)  | 1.6M | 78.5K | 48.5K | 26.7K | Go | 140 |
 | [rust-lang/rust](https://github.com/rust-lang/rust/)  | 1.5M | 219.1K | 61.1K | 78.6K | Rust | 127 |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1.4M | 114.4K | 73.5K | 96.4K | Go | 124 |
 | [python/cpython](https://github.com/python/cpython/)  | 1.3M | 116.2K | 39.4K | 51.7K | Python | 114 |
@@ -243,6 +245,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [kubernetes-sigs/vsphere-csi-driver](https://github.com/kubernetes-sigs/vsphere-csi-driver/)  | 106.9K | 2.2K | 1.8K | 218 | Go | 9 |
 | [grafana/agent](https://github.com/grafana/agent/)  | 105.9K | 1.4K | 1.7K | 980 | Go | 9 |
 | [emissary-ingress/emissary](https://github.com/emissary-ingress/emissary/)  | 105.2K | 17.9K | 3.2K | 4.2K | Python | 9 |
+| [cockroachdb/pebble](https://github.com/cockroachdb/pebble/)  | 101.5K | 2.8K | 1.6K | 3.4K | Go | 8 |
 | [dapr/dapr](https://github.com/dapr/dapr/)  | 100.9K | 3.9K | 3.1K | 20.6K | Go | 8 |
 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager/)  | 100.4K | 7.5K | 2.7K | 10.6K | Go | 8 |
 | [openebs/maya](https://github.com/openebs/maya/)  | 100.7K | 1.7K | 1.6K | 180 | Go | 8 |
@@ -331,6 +334,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [open-telemetry/opentelemetry-pytho~](https://github.com/open-telemetry/opentelemetry-python-contrib/)  | 45.7K | 1.7K | 1.2K | 413 | Python | 4 |
 | [kubernetes-sigs/cli-utils](https://github.com/kubernetes-sigs/cli-utils/)  | 45.2K | 1.8K | 543 | 113 | Go | 4 |
 | [kubernetes/dashboard](https://github.com/kubernetes/dashboard/)  | 44.8K | 4.4K | 4.9K | 12.3K | Go | 4 |
+| [cockroachdb/gostdlib](https://github.com/cockroachdb/gostdlib/)  | 44.6K | 10 | 5 | 2 | Go | 4 |
 | [notaryproject/notary](https://github.com/notaryproject/notary/)  | 43.7K | 3.1K | 992 | 2.9K | Go | 4 |
 | [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper/)  | 43.7K | 1.2K | 1.5K | 2.9K | Go | 4 |
 | [containerd/nerdctl](https://github.com/containerd/nerdctl/)  | 43.5K | 2.4K | 1.2K | 5.6K | Go | 4 |
@@ -378,6 +382,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [litmuschaos/test-tools](https://github.com/litmuschaos/test-tools/)  | 31.8K | 226 | 300 | 27 | C | 3 |
 | [kubevirt/hyperconverged-cluster-op~](https://github.com/kubevirt/hyperconverged-cluster-operator/)  | 31.3K | 1.4K | 2.1K | 106 | Go | 3 |
 | [knative/func](https://github.com/knative/func/)  | 31.2K | 1.1K | 1.1K | 156 | Go | 3 |
+| [cockroachdb/docs](https://github.com/cockroachdb/docs/)  | 31.0K | 13.9K | 6.2K | 169 | Java | 3 |
 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php/)  | 30.9K | 508 | 591 | 519 | PHP | 3 |
 | [kubernetes/kube-openapi](https://github.com/kubernetes/kube-openapi/)  | 30.9K | 1.2K | 308 | 232 | Go | 3 |
 | [ClickHouse/libc-headers](https://github.com/ClickHouse/libc-headers/)  | 30.9K | 18 | 4 | 0 | C Header | 3 |
@@ -409,6 +414,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [open-telemetry/opentelemetry-java-~](https://github.com/open-telemetry/opentelemetry-java-contrib/)  | 26.3K | 562 | 644 | 80 | Java | 2 |
 | [containernetworking/plugins](https://github.com/containernetworking/plugins/)  | 26.2K | 1.6K | 484 | 1.7K | Go | 2 |
 | [open-telemetry/opentelemetry-swift](https://github.com/open-telemetry/opentelemetry-swift/)  | 25.9K | 618 | 252 | 126 | Swift | 2 |
+| [cockroachdb/cockroach-operator](https://github.com/cockroachdb/cockroach-operator/)  | 25.8K | 589 | 461 | 216 | Go | 2 |
 | [longhorn/longhorn-ui](https://github.com/longhorn/longhorn-ui/)  | 25.6K | 817 | 595 | 92 | JavaScript | 2 |
 | [envoyproxy/java-control-plane](https://github.com/envoyproxy/java-control-plane/)  | 25.4K | 235 | 206 | 246 | Protocol Buffers | 2 |
 | [grafana/grafana-plugin-sdk-go](https://github.com/grafana/grafana-plugin-sdk-go/)  | 25.3K | 416 | 531 | 157 | Go | 2 |
@@ -539,6 +545,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [etcd-io/bbolt](https://github.com/etcd-io/bbolt/)  | 12.5K | 1.1K | 220 | 6.2K | Go | 1 |
 | [kubeedge/mappers-go](https://github.com/kubeedge/mappers-go/)  | 12.5K | 158 | 74 | 33 | Go | 1 |
 | [argoproj/applicationset](https://github.com/argoproj/applicationset/)  | 12.5K | 195 | 255 | 566 | Go | 1 |
+| [cockroachdb/sequelize-cockroachdb](https://github.com/cockroachdb/sequelize-cockroachdb/)  | 12.5K | 289 | 114 | 49 | JavaScript | 1 |
 | [ydb-platform/ydb-rs-sdk](https://github.com/ydb-platform/ydb-rs-sdk/)  | 12.4K | 604 | 105 | 37 | Rust | 1 |
 | [rook/nfs](https://github.com/rook/nfs/)  | 12.4K | 7.4K | 22 | 28 | Go | 1 |
 | [jaegertracing/jaeger-client-java](https://github.com/jaegertracing/jaeger-client-java/)  | 12.3K | 528 | 504 | 485 | Java | 1 |
@@ -638,6 +645,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [ClickHouse/clickhouse-connect](https://github.com/ClickHouse/clickhouse-connect/)  | 8.7K | 229 | 84 | 86 | Python | 1 |
 | [buildpacks/imgutil](https://github.com/buildpacks/imgutil/)  | 8.6K | 416 | 149 | 21 | Go | 1 |
 | [knative/observability](https://github.com/knative/observability/)  | 8.6K | 19 | 28 | 25 | Go | 1 |
+| [cockroachdb/errors](https://github.com/cockroachdb/errors/)  | 8.6K | 198 | 63 | 1.5K | Go | 1 |
 | [kubernetes-sigs/cli-experimental](https://github.com/kubernetes-sigs/cli-experimental/)  | 8.6K | 278 | 200 | 65 | Go | 1 |
 | [spiffe/tornjak](https://github.com/spiffe/tornjak/)  | 8.5K | 206 | 75 | 55 | TypeScript | 1 |
 | [containernetworking/cni](https://github.com/containernetworking/cni/)  | 8.5K | 1.9K | 603 | 4.7K | Go | 1 |
@@ -657,7 +665,9 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [operator-framework/audit](https://github.com/operator-framework/audit/)  | 7.9K | 247 | 107 | 8 | Go | 1 |
 | [openebs/mayastor-extensions](https://github.com/openebs/mayastor-extensions/)  | 7.8K | 220 | 125 | 10 | Rust | 1 |
 | [envoyproxy/ratelimit](https://github.com/envoyproxy/ratelimit/)  | 7.8K | 150 | 235 | 1.7K | Go | 1 |
+| [cockroachdb/roachprod](https://github.com/cockroachdb/roachprod/)  | 7.8K | 385 | 195 | 14 | Go | 1 |
 | [open-telemetry/opentelemetry-go-bu~](https://github.com/open-telemetry/opentelemetry-go-build-tools/)  | 7.7K | 309 | 242 | 21 | Go | 1 |
+| [cockroachdb/apd](https://github.com/cockroachdb/apd/)  | 7.7K | 324 | 83 | 516 | Go | 1 |
 | [openebs/device-localpv](https://github.com/openebs/device-localpv/)  | 7.7K | 55 | 49 | 15 | Go | 1 |
 | [nats-io/nats-pure.rb](https://github.com/nats-io/nats-pure.rb/)  | 7.6K | 304 | 60 | 95 | Ruby | 1 |
 | [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew/)  | 7.6K | 478 | 479 | 5.3K | Go | 1 |
@@ -710,6 +720,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [AthenZ/terraform-provider-athenz](https://github.com/AthenZ/terraform-provider-athenz/)  | 6.4K | 94 | 56 | 3 | Go | 1 |
 | [gotd/botapi](https://github.com/gotd/botapi/)  | 6.4K | 653 | 313 | 18 | Go | 1 |
 | [nats-io/nats.ts](https://github.com/nats-io/nats.ts/)  | 6.3K | 533 | 86 | 180 | TypeScript | 1 |
+| [cockroachdb/activerecord-cockroach~](https://github.com/cockroachdb/activerecord-cockroachdb-adapter/)  | 6.3K | 338 | 172 | 92 | Ruby | 1 |
 | [kubernetes/csi-translation-lib](https://github.com/kubernetes/csi-translation-lib/)  | 6.3K | 658 | 0 | 10 | Go | 1 |
 | [open-telemetry/opamp-go](https://github.com/open-telemetry/opamp-go/)  | 6.3K | 92 | 110 | 60 | Go | 1 |
 | [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2/)  | 6.3K | 535 | 177 | 259 | Go | 1 |

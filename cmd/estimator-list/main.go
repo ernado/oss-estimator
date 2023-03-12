@@ -49,11 +49,20 @@ func main() {
 			{"ClickHouse", "libuv"}:                {},
 			{"ClickHouse", "UnixODBC"}:             {},
 			{"ClickHouse", "grpc"}:                 {},
-			{"cilium", "busybox"}:                  {},
-			{"istio", "old_vendor-istio_repo"}:     {},
-			{"openebs", "openebs-docs"}:            {},
-			{"chaos-mesh", "toda-glibc"}:           {},
-			{"envoyproxy", "envoy-website"}:        {},
+
+			{"cilium", "busybox"}:              {},
+			{"istio", "old_vendor-istio_repo"}: {},
+			{"openebs", "openebs-docs"}:        {},
+			{"chaos-mesh", "toda-glibc"}:       {},
+			{"envoyproxy", "envoy-website"}:    {},
+
+			{"cockroachdb", "vendored"}:      {},
+			{"cockroachdb", "cockroach-gen"}: {},
+			{"cockroachdb", "c-protobuf"}:    {},
+			{"cockroachdb", "c-rocksdb"}:     {},
+			{"cockroachdb", "c-jemalloc"}:    {},
+			{"cockroachdb", "c-snappy"}:      {},
+			{"cockroachdb", "c-lz4"}:         {},
 		}
 
 		g, ctx := errgroup.WithContext(ctx)
@@ -134,6 +143,7 @@ func main() {
 				"k3s-io",
 				"karmada-io",
 				"ydb-platform",
+				"cockroachdb",
 			} {
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
