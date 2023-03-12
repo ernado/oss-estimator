@@ -21,7 +21,7 @@ func main() {
 		flag.Parse()
 
 		c := gh.Client(ctx)
-		u, _, err := c.Users.Get(ctx, "go-faster")
+		u, _, err := c.Users.Get(ctx, arg.User)
 		if err != nil {
 			return errors.Wrap(err, "get user")
 		}
