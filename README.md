@@ -44,7 +44,7 @@ Languages: BASH, Bazel, C, C Header, C#, C++, Cython, Dart, Erlang, Go, Go Templ
 
 ### Effort
 
-Effort is **rough estimate** how much developer-years it would take to write this project from scratch in proprietary,
+Effort is **rough estimate** how much developer-years it would take to write some project from scratch in proprietary,
 enterprise environment (i.e. in a big company).
 
 Current model is very simple: we estimate that average developer writes 12k SLOC per year.
