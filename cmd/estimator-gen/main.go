@@ -36,6 +36,16 @@ type Stat struct {
 	Languages map[string]int
 }
 
+func (s Stat) Effort() float64 {
+	if s.SLOC == 0 {
+		return 0
+	}
+	const linesPerMonth = 12_000
+	v := float64(s.SLOC) / linesPerMonth
+	const roundTo = 100
+	return math.Round(v*roundTo) / roundTo
+}
+
 func (s Stat) Lang() string {
 	if !lang.In(s.Language) {
 		return "N/A"
@@ -86,7 +96,7 @@ func (c Context) Languages() string {
 }
 
 // credit to https://github.com/DeyV/gotools/blob/master/numbers.go
-func RoundPrec(x float64, prec int) float64 {
+func roundPrec(x float64, prec int) float64 {
 	if math.IsNaN(x) || math.IsInf(x, 0) {
 		return x
 	}
@@ -111,7 +121,7 @@ func RoundPrec(x float64, prec int) float64 {
 	return rounder / pow * sign
 }
 
-func NumberFormat(number float64, decimals int, decPoint, thousandsSep string) string {
+func numberFormat(number float64, decimals int, decPoint, thousandsSep string) string {
 	if math.IsNaN(number) || math.IsInf(number, 0) {
 		number = 0
 	}
@@ -130,7 +140,7 @@ func NumberFormat(number float64, decimals int, decPoint, thousandsSep string) s
 		fract = 0
 	} else {
 		pow := math.Pow(10, float64(decimals))
-		fract = RoundPrec(fract*pow, 0)
+		fract = roundPrec(fract*pow, 0)
 	}
 
 	if thousandsSep == "" {
@@ -164,7 +174,7 @@ func NumberFormat(number float64, decimals int, decPoint, thousandsSep string) s
 	return ret
 }
 
-func RoundInt(input float64) int {
+func roundInt(input float64) int {
 	var result float64
 
 	if input < 0 {
@@ -179,21 +189,24 @@ func RoundInt(input float64) int {
 	return int(i)
 }
 
-func FormatNumber(input float64) string {
-	x := RoundInt(input)
-	xFormatted := NumberFormat(float64(x), 2, ".", ",")
+func formatNumber(input float64) string {
+	x := roundInt(input)
+	xFormatted := numberFormat(float64(x), 2, ".", ",")
 	return xFormatted
 }
 
-func NearestThousandFormat(x int) string {
-	num := float64(x)
+func formatInt(x int) string {
+	return formatFloat(float64(x))
+}
+
+func formatFloat(num float64) string {
 	if math.Abs(num) < 999.5 {
-		xNum := FormatNumber(num)
+		xNum := formatNumber(num)
 		xNumStr := xNum[:len(xNum)-3]
 		return xNumStr
 	}
 
-	xNum := FormatNumber(num)
+	xNum := formatNumber(num)
 	// first, remove the .00 then convert to slice
 	xNumStr := xNum[:len(xNum)-3]
 	xNumCleaned := strings.Replace(xNumStr, ",", " ", -1)
@@ -215,7 +228,8 @@ func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
 		t := template.New("template")
 		t.Funcs(template.FuncMap{
-			"formatNumber": NearestThousandFormat,
+			"formatInt":   formatInt,
+			"formatFloat": formatFloat,
 		})
 		template.Must(t.Parse(tpl))
 
