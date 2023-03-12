@@ -35,7 +35,7 @@ func main() {
 		flag.Parse()
 
 		var (
-			c    = gh.Client(ctx)
+			c    = gh.Client()
 			e    = estimate.New(c, dir)
 			jobs = make(chan Job, concurrency)
 		)

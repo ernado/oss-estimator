@@ -29,7 +29,7 @@ func main() {
 			orgName, repoName = elems[0], elems[1]
 		}
 
-		c, err := estimate.New(gh.Client(ctx), filepath.Join("_work", "dataset")).Get(ctx, orgName, repoName)
+		c, err := estimate.New(gh.Client(), filepath.Join("_work", "dataset")).Get(ctx, orgName, repoName)
 		if err != nil {
 			return errors.Wrap(err, "estimate")
 		}

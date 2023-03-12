@@ -20,7 +20,7 @@ func main() {
 		flag.StringVar(&arg.User, "user", "ernado", "user name")
 		flag.Parse()
 
-		c := gh.Client(ctx)
+		c := gh.Client()
 		u, _, err := c.Users.Get(ctx, arg.User)
 		if err != nil {
 			return errors.Wrap(err, "get user")

@@ -6,9 +6,11 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
+	"github.com/google/go-github/v50/github"
 	"go.uber.org/zap"
 
 	"estimator/internal/af"
@@ -27,7 +29,7 @@ func main() {
 		flag.StringVar(&arg.DB, "db", "", "path to bbolt user database")
 		flag.Parse()
 
-		c := gh.Client(ctx)
+		c := gh.Client()
 		db, err := archive.NewUserCache(archive.UserCacheOptions{
 			Path: arg.DB,
 		})
@@ -85,7 +87,22 @@ func main() {
 					}
 
 					if id == 0 {
+					Request:
 						usr, res, err := c.Users.Get(ctx, u.Name)
+						if re, ok := err.(*github.RateLimitError); ok {
+							d := time.Until(re.Rate.Reset.Time) + time.Second*10
+							lg.Warn("Rate limit exceeded",
+								zap.Duration("reset", d),
+								zap.Int("limit", re.Rate.Limit),
+								zap.Int("remaining", re.Rate.Remaining),
+							)
+							select {
+							case <-ctx.Done():
+								return ctx.Err()
+							case <-time.After(d):
+								goto Request
+							}
+						}
 						if err != nil {
 							if res == nil || (res.StatusCode != 404 && res.StatusCode != 403) {
 								return errors.Wrap(err, "get user")
