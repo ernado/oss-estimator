@@ -11,7 +11,7 @@ require (
 	github.com/google/go-github/v50 v50.1.0
 	github.com/hashicorp/golang-lru/v2 v2.0.1
 	github.com/jedib0t/go-pretty/v6 v6.4.6
-	github.com/klauspost/compress v1.16.0
+	github.com/klauspost/compress v1.16.1
 	github.com/mattn/go-colorable v0.1.13
 	github.com/stretchr/testify v1.8.2
 	go.etcd.io/bbolt v1.3.7
