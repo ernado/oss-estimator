@@ -95,5 +95,5 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | Project | SLOC | Commits | PRs | Stars | Effort |
 |---------|------|---------|-----|-------|--------|
 {{ range .OTEL -}}
-| [{{ .Short }}]({{ .URL }})  | {{ formatInt .SLOC }} | {{ formatInt .Commits }} | {{ formatInt .PR }} | {{ formatInt .Stars }} | {{ formatFloat .Effort }} |
+| [{{ .Short }}]({{ .URL }})  | {{ formatInt .SLOC }} | {{ formatInt .Commits }} | {{ formatInt .PR }} | {{ formatInt .Stars }} | {{ .Effort }} |
 {{ end }}

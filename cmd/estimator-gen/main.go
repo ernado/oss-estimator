@@ -316,10 +316,10 @@ func main() {
 						continue Repo
 					}
 				}
-				otel.PR += org.PR
-				otel.Commits += org.Commits
-				otel.Stars += org.Stars
-				otel.SLOC += org.SLOC
+				otel.PR += repo.PR
+				otel.Commits += repo.Commits
+				otel.Stars += repo.Stars
+				otel.SLOC += repo.SLOC
 				c.OTEL = append(c.OTEL, v)
 			}
 			v := Stat{
