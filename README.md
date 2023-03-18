@@ -871,3 +871,34 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [carina-io](https://github.com/carina-io)  | 12.8K | 749 | 118 | 588 | Go | 1 |
 | [OpenObservability](https://github.com/OpenObservability)  | 2.3K | 251 | 117 | 2.1K | Go | 0 |
 
+
+### OTEL Instrumentations
+| Project | SLOC | Commits | PRs | Stars | Effort |
+|---------|------|---------|-----|-------|--------|
+| [**OTEL**](https://opentelemetry.io/docs/instrumentation/)  | 44.5M | 1.5M | 1.5M | 715.2K | 3.7K |
+| [java-instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation/)  | 167.8K | 8.8K | 5.6K | 1.2K | 14 |
+| [dotnet-instrumentation](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation/)  | 141.8K | 929 | 1.7K | 224 | 12 |
+| [java](https://github.com/open-telemetry/opentelemetry-java/)  | 96.3K | 3.2K | 3.6K | 1.4K | 8 |
+| [js](https://github.com/open-telemetry/opentelemetry-js/)  | 61.1K | 1.7K | 2.6K | 1.7K | 5 |
+| [dotnet](https://github.com/open-telemetry/opentelemetry-dotnet/)  | 56.9K | 2.2K | 2.7K | 2.2K | 5 |
+| [js-contrib](https://github.com/open-telemetry/opentelemetry-js-contrib/)  | 51.3K | 1.5K | 990 | 420 | 4 |
+| [go](https://github.com/open-telemetry/opentelemetry-go/)  | 51.9K | 1.9K | 2.3K | 3.6K | 4 |
+| [python-contrib](https://github.com/open-telemetry/opentelemetry-python-contrib/)  | 45.7K | 1.7K | 1.2K | 413 | 4 |
+| [python](https://github.com/open-telemetry/opentelemetry-python/)  | 42.2K | 1.4K | 1.7K | 1.2K | 4 |
+| [cpp-contrib](https://github.com/open-telemetry/opentelemetry-cpp-contrib/)  | 42.5K | 157 | 180 | 78 | 4 |
+| [ebpf](https://github.com/open-telemetry/opentelemetry-ebpf/)  | 41.4K | 268 | 112 | 85 | 3 |
+| [cpp](https://github.com/open-telemetry/opentelemetry-cpp/)  | 33.5K | 1.5K | 1.1K | 432 | 3 |
+| [dotnet-contrib](https://github.com/open-telemetry/opentelemetry-dotnet-contrib/)  | 33.3K | 732 | 850 | 230 | 3 |
+| [php](https://github.com/open-telemetry/opentelemetry-php/)  | 30.9K | 508 | 591 | 519 | 3 |
+| [rust](https://github.com/open-telemetry/opentelemetry-rust/)  | 30.5K | 574 | 597 | 997 | 3 |
+| [go-contrib](https://github.com/open-telemetry/opentelemetry-go-contrib/)  | 27.2K | 1.4K | 3.2K | 684 | 2 |
+| [java-contrib](https://github.com/open-telemetry/opentelemetry-java-contrib/)  | 26.3K | 562 | 644 | 80 | 2 |
+| [swift](https://github.com/open-telemetry/opentelemetry-swift/)  | 25.9K | 618 | 252 | 126 | 2 |
+| [ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib/)  | 19.9K | 895 | 241 | 29 | 2 |
+| [ruby](https://github.com/open-telemetry/opentelemetry-ruby/)  | 16.4K | 763 | 919 | 375 | 1 |
+| [php-contrib](https://github.com/open-telemetry/opentelemetry-php-contrib/)  | 12.7K | 322 | 112 | 22 | 1 |
+| [erlang](https://github.com/open-telemetry/opentelemetry-erlang/)  | 11.5K | 1.1K | 355 | 253 | 1 |
+| [go-instrumentation](https://github.com/open-telemetry/opentelemetry-go-instrumentation/)  | 2.8K | 23 | 23 | 54 | 0 |
+| [erlang-contrib](https://github.com/open-telemetry/opentelemetry-erlang-contrib/)  | 1.4K | 96 | 117 | 73 | 0 |
+| [php-instrumentation](https://github.com/open-telemetry/opentelemetry-php-instrumentation/)  | 556 | 30 | 30 | 24 | 0 |
+

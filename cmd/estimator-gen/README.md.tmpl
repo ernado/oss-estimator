@@ -90,3 +90,10 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 {{ range .CNCF -}}
 | [{{ .Title }}]({{ .URL }})  | {{ formatInt .SLOC }} | {{ formatInt .Commits }} | {{ formatInt .PR }} | {{ formatInt .Stars }} | {{ .Lang }} | {{ formatFloat .Effort }} |
 {{ end }}
+
+### OTEL Instrumentations
+| Project | SLOC | Commits | PRs | Stars | Effort |
+|---------|------|---------|-----|-------|--------|
+{{ range .OTEL -}}
+| [{{ .Short }}]({{ .URL }})  | {{ formatInt .SLOC }} | {{ formatInt .Commits }} | {{ formatInt .PR }} | {{ formatInt .Stars }} | {{ formatFloat .Effort }} |
+{{ end }}

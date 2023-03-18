@@ -55,8 +55,23 @@ func (s Stat) Lang() string {
 
 const maxLen = 35
 
+func (s Stat) Short() string {
+	switch s.Name {
+	case "CNCF", "K8s", "OTEL":
+		// Markdown bold for aggregate.
+		return "**" + s.Name + "**"
+	}
+	v := s.Name
+	v = strings.TrimPrefix(v, "opentelemetry-")
+	if len(v) > maxLen {
+		return v[:maxLen-1] + "~"
+	}
+	return v
+}
+
 func (s Stat) Title() string {
-	if s.Name == "CNCF" || s.Name == "K8s" {
+	switch s.Name {
+	case "CNCF", "K8s", "OTEL":
 		// Markdown bold for aggregate.
 		return "**" + s.Name + "**"
 	}
@@ -77,6 +92,9 @@ func (s Stat) URL() string {
 	if s.Name == "K8s" {
 		return "https://kubernetes.io/"
 	}
+	if s.Name == "OTEL" {
+		return "https://opentelemetry.io/docs/instrumentation/"
+	}
 	if s.Org == "" {
 		return fmt.Sprintf("https://github.com/%s", s.Name)
 	}
@@ -87,6 +105,7 @@ type Context struct {
 	Orgs          []Stat
 	Repos         []Stat
 	CNCF          []Stat
+	OTEL          []Stat
 	LanguagesList []string
 }
 
@@ -250,12 +269,16 @@ func main() {
 			Name: "CNCF",
 		}
 
+		otel := Stat{
+			Name: "OTEL",
+		}
 		c := Context{
 			LanguagesList: lang.All(),
 		}
 		for _, org := range ag.Organizations {
+		Repo:
 			for _, repo := range org.Repos {
-				c.Repos = append(c.Repos, Stat{
+				v := Stat{
 					Org:       org.Name,
 					Name:      repo.Name,
 					SLOC:      repo.SLOC,
@@ -264,7 +287,40 @@ func main() {
 					Stars:     repo.Stars,
 					Language:  estimate.Max(repo.Languages),
 					Languages: repo.Languages,
-				})
+				}
+				c.Repos = append(c.Repos, v)
+				if org.Name != "open-telemetry" {
+					continue
+				}
+				if !strings.HasPrefix(v.Name, "opentelemetry-") {
+					continue
+				}
+				for _, s := range []string{
+					"vanityurls",
+					"collection",
+					"api",
+					"collector",
+					"docs",
+					"sandbox",
+					"profiling",
+					"proto",
+					"demo",
+					"operator",
+					"tools",
+					"helm",
+					"lambda",
+					"specification",
+					"sqlcommenter",
+				} {
+					if strings.Contains(v.Name, s) {
+						continue Repo
+					}
+				}
+				otel.PR += org.PR
+				otel.Commits += org.Commits
+				otel.Stars += org.Stars
+				otel.SLOC += org.SLOC
+				c.OTEL = append(c.OTEL, v)
 			}
 			v := Stat{
 				Name:      org.Name,
@@ -298,6 +354,7 @@ func main() {
 		k8s.Language = estimate.Max(k8s.Languages)
 		cncf.Language = estimate.Max(cncf.Languages)
 		c.Orgs = append(c.Orgs, k8s, cncf)
+		c.OTEL = append(c.OTEL, otel)
 
 		comparator := func(s []Stat) func(i int, j int) bool {
 			return func(i int, j int) bool {
@@ -312,6 +369,7 @@ func main() {
 		sort.SliceStable(c.Orgs, comparator(c.Orgs))
 		sort.SliceStable(c.Repos, comparator(c.Repos))
 		sort.SliceStable(c.CNCF, comparator(c.CNCF))
+		sort.SliceStable(c.OTEL, comparator(c.OTEL))
 
 		var filteredRepos []Stat
 		for _, repo := range c.Repos {
