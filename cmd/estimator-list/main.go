@@ -34,7 +34,7 @@ func main() {
 			pull        bool
 		)
 		flag.BoolVar(&force, "f", force, "force update (re-fetch orgs)")
-		flag.BoolVar(&force, "pull", force, "pull repositories for updates")
+		flag.BoolVar(&pull, "pull", pull, "pull repositories for updates")
 		flag.StringVar(&dir, "dir", dir, "directory to store data")
 		flag.IntVar(&concurrency, "j", concurrency, "number of concurrent jobs")
 		flag.Parse()
