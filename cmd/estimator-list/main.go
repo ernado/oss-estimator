@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"os"
 	"path"
 	"strings"
 	"sync"
@@ -29,14 +30,18 @@ func main() {
 		var (
 			dir         = path.Join("_work", "dataset")
 			concurrency = 8
+			force       bool
+			pull        bool
 		)
+		flag.BoolVar(&force, "f", force, "force update (re-fetch orgs)")
+		flag.BoolVar(&force, "pull", force, "pull repositories for updates")
 		flag.StringVar(&dir, "dir", dir, "directory to store data")
 		flag.IntVar(&concurrency, "j", concurrency, "number of concurrent jobs")
 		flag.Parse()
 
 		var (
 			c    = gh.Client()
-			e    = estimate.New(c, dir)
+			e    = estimate.New(c, dir).WithPull(pull)
 			jobs = make(chan Job, concurrency)
 		)
 
@@ -145,6 +150,12 @@ func main() {
 				"ydb-platform",
 				"cockroachdb",
 			} {
+				if stat, err := os.Stat(path.Join(dir, org)); err == nil && stat.IsDir() && !force {
+					lg.Debug("Skipping org (already exists)",
+						zap.String("org", org),
+					)
+					continue
+				}
 				repos, _, err := c.Repositories.ListByOrg(ctx, org, &github.RepositoryListByOrgOptions{
 					ListOptions: github.ListOptions{
 						PerPage: 500,

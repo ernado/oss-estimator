@@ -112,8 +112,14 @@ func (e Entry) Print() {
 }
 
 type Client struct {
-	gh  *github.Client
-	dir string
+	gh   *github.Client
+	dir  string
+	pull bool
+}
+
+func (c *Client) WithPull(v bool) *Client {
+	c.pull = v
+	return c
 }
 
 func New(ghClient *github.Client, dir string) *Client {
@@ -128,7 +134,7 @@ func New(ghClient *github.Client, dir string) *Client {
 func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, error) {
 	p := filepath.Join(c.dir, orgName, repoName)
 	cacheEntryPath := filepath.Join(p, "cache.json")
-	if data, err := os.ReadFile(cacheEntryPath); err == nil {
+	if data, err := os.ReadFile(cacheEntryPath); err == nil && !c.pull {
 		var ce Entry
 		if err := json.Unmarshal(data, &ce); err != nil {
 			return nil, errors.Wrap(err, "unmarshal cache entry")
@@ -192,6 +198,17 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 			}
 			return nil, errors.Wrap(err, "run git")
 		}
+
+		gitRepo, err = git.Open(storage, root)
+		if err != nil {
+			return nil, errors.Wrap(err, "open git repo after clone")
+		}
+	} else if c.pull {
+		cmd := exec.CommandContext(ctx, "git", "pull")
+		out, outErr := new(bytes.Buffer), new(bytes.Buffer)
+		cmd.Stdout = out
+		cmd.Stderr = outErr
+		cmd.Dir = gitRoot
 
 		gitRepo, err = git.Open(storage, root)
 		if err != nil {
