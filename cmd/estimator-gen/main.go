@@ -254,7 +254,7 @@ func main() {
 
 		var filteredRepos []Stat
 		for _, repo := range c.Repos {
-			if repo.SLOC < 4500 {
+			if repo.SLOC < 25_000 {
 				continue
 			}
 			filteredRepos = append(filteredRepos, repo)
