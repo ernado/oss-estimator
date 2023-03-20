@@ -236,6 +236,7 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		"3rdparty",
 		"contrib",
 		"c-deps",
+		"deps",
 
 		".git",
 		".yarn",

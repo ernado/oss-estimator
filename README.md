@@ -89,6 +89,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [python](https://github.com/python)  | 1.4M | 116.3k | 39.6k | 51.3k | Python | 114.4 |
 | [docker](https://github.com/docker)  | 1.3M | 173.8k | 30.6k | 146.4k | Go | 105.5 |
 | [golang](https://github.com/golang)  | 1.1M | 55.8k | 2.9k | 109.4k | Go | 88.4 |
+| [nodejs](https://github.com/nodejs)  | 966.7k | 38.5k | 29.8k | 94.0k | JavaScript | 80.6 |
 | [ziglang](https://github.com/ziglang)  | 901.1k | 23.1k | 6.8k | 20.5k | Zig | 75.1 |
 | [nats-io](https://github.com/nats-io)  | 802.5k | 36.2k | 12.9k | 31.0k | Go | 66.9 |
 | [m3db](https://github.com/m3db)  | 736.8k | 10.4k | 5.1k | 4.6k | Go | 61.4 |
@@ -106,6 +107,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [backstage](https://github.com/backstage)  | 402.7k | 40.4k | 12.9k | 21.8k | TypeScript | 33.6 |
 | [tikv](https://github.com/tikv)  | 395.8k | 7.1k | 10.3k | 12.8k | Rust | 33.0 |
 | [prometheus](https://github.com/prometheus)  | 377.3k | 30.9k | 19.1k | 89.5k | Go | 31.4 |
+| [django](https://github.com/django)  | 365.8k | 31.6k | 16.6k | 69.4k | Python | 30.5 |
 | [facebook](https://github.com/facebook)  | 357.5k | 15.6k | 13.3k | 204.1k | JavaScript | 29.8 |
 | [containerd](https://github.com/containerd)  | 353.4k | 23.2k | 11.7k | 24.7k | Go | 29.4 |
 | [pixie-io](https://github.com/pixie-io)  | 352.5k | 11.8k | 591.0 | 4.4k | C++ | 29.4 |
@@ -120,6 +122,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [jaegertracing](https://github.com/jaegertracing)  | 250.5k | 8.7k | 7.6k | 23.7k | Go | 20.9 |
 | [goharbor](https://github.com/goharbor)  | 242.5k | 16.9k | 10.4k | 21.1k | Go | 20.2 |
 | [linkerd](https://github.com/linkerd)  | 237.9k | 13.0k | 13.4k | 18.0k | Rust | 19.8 |
+| [matplotlib](https://github.com/matplotlib)  | 235.9k | 46.7k | 16.1k | 17.0k | Python | 19.6 |
 | [siderolabs](https://github.com/siderolabs)  | 232.8k | 7.1k | 9.1k | 4.8k | Go | 19.4 |
 | [kata-containers](https://github.com/kata-containers)  | 223.8k | 22.8k | 10.3k | 7.0k | Go | 18.6 |
 | [Netflix](https://github.com/Netflix)  | 208.1k | 4.2k | 2.3k | 550.0 | Java | 17.4 |
@@ -160,7 +163,9 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [vitalif](https://github.com/vitalif)  | 40.9k | 1.2k | 12.0 | 72.0 | C++ | 3.4 |
 | [k3s-io](https://github.com/k3s-io)  | 38.5k | 3.5k | 3.3k | 25.3k | Go | 3.2 |
 | [ogen-go](https://github.com/ogen-go)  | 38.1k | 3.9k | 1.1k | 472.0 | Go | 3.2 |
+| [jquery](https://github.com/jquery)  | 37.2k | 6.6k | 2.8k | 57.3k | JavaScript | 3.1 |
 | [containernetworking](https://github.com/containernetworking)  | 34.8k | 2.8k | 1.2k | 6.5k | Go | 2.9 |
+| [pallets](https://github.com/pallets)  | 15.0k | 5.0k | 2.4k | 62.3k | Python | 1.2 |
 | [falcosecurity](https://github.com/falcosecurity)  | 14.0k | 3.6k | 1.4k | 5.7k | C++ | 1.2 |
 | [carina-io](https://github.com/carina-io)  | 12.9k | 749.0 | 118.0 | 588.0 | Go | 1.1 |
 | [OpenObservability](https://github.com/OpenObservability)  | 2.3k | 251.0 | 117.0 | 2.0k | Go | 190.0m |
@@ -179,6 +184,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [python/cpython](https://github.com/python/cpython/)  | 1.4M | 116.3k | 39.6k | 51.3k | Python | 114.4 |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse/)  | 1.1M | 109.8k | 32.2k | 27.4k | C++ | 92.7 |
 | [golang/go](https://github.com/golang/go/)  | 1.1M | 55.8k | 2.9k | 109.4k | Go | 88.4 |
+| [nodejs/node](https://github.com/nodejs/node/)  | 966.7k | 38.5k | 29.8k | 94.0k | JavaScript | 80.6 |
 | [ziglang/zig](https://github.com/ziglang/zig/)  | 901.1k | 23.1k | 6.8k | 20.5k | Zig | 75.1 |
 | [grafana/grafana](https://github.com/grafana/grafana/)  | 889.8k | 41.4k | 33.6k | 54.3k | TypeScript | 74.2 |
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy/)  | 807.6k | 17.3k | 17.1k | 21.6k | C++ | 67.3 |
@@ -192,6 +198,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [tikv/tikv](https://github.com/tikv/tikv/)  | 395.8k | 7.1k | 10.3k | 12.8k | Rust | 33.0 |
 | [backstage/backstage](https://github.com/backstage/backstage/)  | 393.7k | 38.2k | 12.3k | 21.1k | TypeScript | 32.8 |
 | [open-telemetry/opentelemetry-colle~](https://github.com/open-telemetry/opentelemetry-collector-contrib/)  | 389.2k | 9.6k | 16.2k | 1.5k | Go | 32.4 |
+| [django/django](https://github.com/django/django/)  | 365.8k | 31.6k | 16.6k | 69.4k | Python | 30.5 |
 | [facebook/react](https://github.com/facebook/react/)  | 357.5k | 15.6k | 13.3k | 204.1k | JavaScript | 29.8 |
 | [pixie-io/pixie](https://github.com/pixie-io/pixie/)  | 352.5k | 11.8k | 591.0 | 4.4k | C++ | 29.4 |
 | [AthenZ/athenz](https://github.com/AthenZ/athenz/)  | 346.1k | 2.6k | 1.9k | 751.0 | Java | 28.8 |
@@ -209,6 +216,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [docker/get-involved](https://github.com/docker/get-involved/)  | 264.4k | 1.6k | 36.0 | 24.0 | JavaScript | 22.0 |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno/)  | 259.5k | 5.5k | 3.9k | 3.6k | Go | 21.6 |
 | [grafana/loki](https://github.com/grafana/loki/)  | 241.1k | 4.7k | 5.2k | 18.5k | Go | 20.1 |
+| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib/)  | 235.9k | 46.7k | 16.1k | 17.0k | Python | 19.6 |
 | [open-policy-agent/opa](https://github.com/open-policy-agent/opa/)  | 235.4k | 4.5k | 3.5k | 7.8k | Go | 19.6 |
 | [grpc/grpc-java](https://github.com/grpc/grpc-java/)  | 235.2k | 5.7k | 6.9k | 10.4k | Java | 19.6 |
 | [uber/peloton](https://github.com/uber/peloton/)  | 216.4k | 705.0 | 10.0 | 582.0 | Go | 18.0 |
@@ -357,6 +365,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder/)  | 38.0k | 3.0k | 1.8k | 6.2k | Go | 3.2 |
 | [uber/kraken](https://github.com/uber/kraken/)  | 37.4k | 867.0 | 238.0 | 5.4k | Go | 3.1 |
 | [kubernetes/cloud-provider-alibaba-~](https://github.com/kubernetes/cloud-provider-alibaba-cloud/)  | 37.3k | 799.0 | 283.0 | 321.0 | Go | 3.1 |
+| [jquery/jquery](https://github.com/jquery/jquery/)  | 37.2k | 6.6k | 2.8k | 57.3k | JavaScript | 3.1 |
 | [ogen-go/ogen](https://github.com/ogen-go/ogen/)  | 36.7k | 3.3k | 700.0 | 454.0 | Go | 3.0 |
 | [ClickHouse/libpq](https://github.com/ClickHouse/libpq/)  | 36.4k | 35.0 | 7.0 | 1.0 | C | 3.0 |
 | [openebs/cstor-operators](https://github.com/openebs/cstor-operators/)  | 36.3k | 298.0 | 358.0 | 83.0 | Go | 3.0 |

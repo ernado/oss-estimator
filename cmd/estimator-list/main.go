@@ -208,6 +208,11 @@ func main() {
 				{"elastic", "beats"},
 				{"elastic", "logstash"},
 				{"ziglang", "zig"},
+				{"matplotlib", "matplotlib"},
+				{"pallets", "flask"},
+				{"django", "django"},
+				{"nodejs", "node"},
+				{"jquery", "jquery"},
 			} {
 				select {
 				case <-ctx.Done():

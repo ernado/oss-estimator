@@ -10260,6 +10260,63 @@
         }
       }
     },
+    "django": {
+      "ID": 27804,
+      "Name": "django",
+      "SLOC": 365819,
+      "PR": 16610,
+      "Commits": 31565,
+      "Stars": 69379,
+      "Languages": {
+        "Autoconf": 21,
+        "Batch": 182,
+        "CSS": 267,
+        "CSV": 4,
+        "HTML": 3324,
+        "JavaScript": 810,
+        "License": 22,
+        "Makefile": 144,
+        "Plain Text": 95191,
+        "Python": 365009,
+        "ReStructuredText": 78,
+        "SVG": 283,
+        "Shell": 16,
+        "Smarty Template": 8,
+        "TOML": 6,
+        "XML": 199,
+        "gitignore": 14
+      },
+      "Repos": {
+        "django": {
+          "ID": 4164482,
+          "OrgID": 27804,
+          "Name": "django",
+          "SLOC": 365819,
+          "PR": 16610,
+          "Commits": 31565,
+          "Stars": 69379,
+          "Languages": {
+            "Autoconf": 21,
+            "Batch": 182,
+            "CSS": 267,
+            "CSV": 4,
+            "HTML": 3324,
+            "JavaScript": 810,
+            "License": 22,
+            "Makefile": 144,
+            "Plain Text": 95191,
+            "Python": 365009,
+            "ReStructuredText": 78,
+            "SVG": 283,
+            "Shell": 16,
+            "Smarty Template": 8,
+            "TOML": 6,
+            "XML": 199,
+            "gitignore": 14
+          }
+        }
+      }
+    },
     "docker": {
       "ID": 5429470,
       "Name": "docker",
@@ -20503,6 +20560,45 @@
         }
       }
     },
+    "jquery": {
+      "ID": 70142,
+      "Name": "jquery",
+      "SLOC": 37193,
+      "PR": 2834,
+      "Commits": 6603,
+      "Stars": 57288,
+      "Languages": {
+        "CSS": 128,
+        "HTML": 2231,
+        "JavaScript": 36927,
+        "PHP": 266,
+        "Plain Text": 385,
+        "SVG": 6,
+        "XML": 36,
+        "gitignore": 19
+      },
+      "Repos": {
+        "jquery": {
+          "ID": 167174,
+          "OrgID": 70142,
+          "Name": "jquery",
+          "SLOC": 37193,
+          "PR": 2834,
+          "Commits": 6603,
+          "Stars": 57288,
+          "Languages": {
+            "CSS": 128,
+            "HTML": 2231,
+            "JavaScript": 36927,
+            "PHP": 266,
+            "Plain Text": 385,
+            "SVG": 6,
+            "XML": 36,
+            "gitignore": 19
+          }
+        }
+      }
+    },
     "k3s-io": {
       "ID": 49319725,
       "Name": "k3s-io",
@@ -29861,6 +29957,73 @@
         }
       }
     },
+    "matplotlib": {
+      "ID": 215947,
+      "Name": "matplotlib",
+      "SLOC": 235851,
+      "PR": 16135,
+      "Commits": 46722,
+      "Stars": 17036,
+      "Languages": {
+        "BASH": 9,
+        "Batch": 51,
+        "C": 212,
+        "C Header": 5105,
+        "C++": 26928,
+        "CSS": 328,
+        "CSV": 603,
+        "HTML": 212,
+        "JavaScript": 782,
+        "Jupyter": 1514,
+        "License": 94,
+        "Lua": 2,
+        "Makefile": 29,
+        "Objective C": 1734,
+        "Plain Text": 291,
+        "Python": 201079,
+        "ReStructuredText": 47362,
+        "SVG": 337728,
+        "Shell": 35,
+        "TOML": 116,
+        "TeX": 11,
+        "gitignore": 69
+      },
+      "Repos": {
+        "matplotlib": {
+          "ID": 1385122,
+          "OrgID": 215947,
+          "Name": "matplotlib",
+          "SLOC": 235851,
+          "PR": 16135,
+          "Commits": 46722,
+          "Stars": 17036,
+          "Languages": {
+            "BASH": 9,
+            "Batch": 51,
+            "C": 212,
+            "C Header": 5105,
+            "C++": 26928,
+            "CSS": 328,
+            "CSV": 603,
+            "HTML": 212,
+            "JavaScript": 782,
+            "Jupyter": 1514,
+            "License": 94,
+            "Lua": 2,
+            "Makefile": 29,
+            "Objective C": 1734,
+            "Plain Text": 291,
+            "Python": 201079,
+            "ReStructuredText": 47362,
+            "SVG": 337728,
+            "Shell": 35,
+            "TOML": 116,
+            "TeX": 11,
+            "gitignore": 69
+          }
+        }
+      }
+    },
     "nats-io": {
       "ID": 10203055,
       "Name": "nats-io",
@@ -31437,6 +31600,93 @@
             "License": 169,
             "TypeScript": 898,
             "gitignore": 9
+          }
+        }
+      }
+    },
+    "nodejs": {
+      "ID": 9950313,
+      "Name": "nodejs",
+      "SLOC": 966746,
+      "PR": 29849,
+      "Commits": 38475,
+      "Stars": 94046,
+      "Languages": {
+        "Assembly": 8,
+        "Autoconf": 2,
+        "BASH": 76,
+        "Batch": 956,
+        "C": 6054,
+        "C Header": 27913,
+        "C++": 74740,
+        "CSS": 957,
+        "CoffeeScript": 14,
+        "Emacs Lisp": 258,
+        "Flow9": 2447,
+        "GN": 90,
+        "Go Template": 76,
+        "HTML": 40591,
+        "JSX": 11,
+        "JavaScript": 801311,
+        "License": 5872,
+        "MSBuild": 8,
+        "Makefile": 1860,
+        "Markdown": 270,
+        "Module-Definition": 456,
+        "PHP": 124,
+        "Patch": 24,
+        "Perl": 249,
+        "Plain Text": 24697,
+        "Python": 56139,
+        "R": 166,
+        "Shell": 1293,
+        "TypeScript": 64,
+        "TypeScript Typings": 1872,
+        "XML": 7,
+        "gitignore": 230
+      },
+      "Repos": {
+        "node": {
+          "ID": 27193779,
+          "OrgID": 9950313,
+          "Name": "node",
+          "SLOC": 966746,
+          "PR": 29849,
+          "Commits": 38475,
+          "Stars": 94046,
+          "Languages": {
+            "Assembly": 8,
+            "Autoconf": 2,
+            "BASH": 76,
+            "Batch": 956,
+            "C": 6054,
+            "C Header": 27913,
+            "C++": 74740,
+            "CSS": 957,
+            "CoffeeScript": 14,
+            "Emacs Lisp": 258,
+            "Flow9": 2447,
+            "GN": 90,
+            "Go Template": 76,
+            "HTML": 40591,
+            "JSX": 11,
+            "JavaScript": 801311,
+            "License": 5872,
+            "MSBuild": 8,
+            "Makefile": 1860,
+            "Markdown": 270,
+            "Module-Definition": 456,
+            "PHP": 124,
+            "Patch": 24,
+            "Perl": 249,
+            "Plain Text": 24697,
+            "Python": 56139,
+            "R": 166,
+            "Shell": 1293,
+            "TypeScript": 64,
+            "TypeScript Typings": 1872,
+            "XML": 7,
+            "gitignore": 230
           }
         }
       }
@@ -35136,6 +35386,53 @@
           "Stars": 1,
           "Languages": {
             "License": 169
+          }
+        }
+      }
+    },
+    "pallets": {
+      "ID": 16748505,
+      "Name": "pallets",
+      "SLOC": 14972,
+      "PR": 2351,
+      "Commits": 4969,
+      "Stars": 62252,
+      "Languages": {
+        "Autoconf": 48,
+        "Batch": 26,
+        "CSS": 109,
+        "HTML": 326,
+        "Makefile": 9,
+        "Plain Text": 290,
+        "Python": 14972,
+        "ReStructuredText": 11045,
+        "SQL": 22,
+        "SVG": 163,
+        "TOML": 133,
+        "gitignore": 51
+      },
+      "Repos": {
+        "flask": {
+          "ID": 596892,
+          "OrgID": 16748505,
+          "Name": "flask",
+          "SLOC": 14972,
+          "PR": 2351,
+          "Commits": 4969,
+          "Stars": 62252,
+          "Languages": {
+            "Autoconf": 48,
+            "Batch": 26,
+            "CSS": 109,
+            "HTML": 326,
+            "Makefile": 9,
+            "Plain Text": 290,
+            "Python": 14972,
+            "ReStructuredText": 11045,
+            "SQL": 22,
+            "SVG": 163,
+            "TOML": 133,
+            "gitignore": 51
           }
         }
       }
