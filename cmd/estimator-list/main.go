@@ -149,6 +149,7 @@ func main() {
 				"karmada-io",
 				"ydb-platform",
 				"cockroachdb",
+				"ytsaurus",
 			} {
 				if stat, err := os.Stat(path.Join(dir, org)); err == nil && stat.IsDir() && !force {
 					lg.Debug("Skipping org (already exists)",
