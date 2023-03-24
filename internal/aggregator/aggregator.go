@@ -68,6 +68,7 @@ var _cncf = func() map[string]struct{} {
 		"k3s-io",
 		"karmada-io",
 		"open-telemetry",
+		"kubearmor",
 	} {
 		out[s] = struct{}{}
 	}

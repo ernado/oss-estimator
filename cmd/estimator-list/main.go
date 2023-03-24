@@ -150,6 +150,7 @@ func main() {
 				"ydb-platform",
 				"cockroachdb",
 				"ytsaurus",
+				"kubearmor",
 			} {
 				if stat, err := os.Stat(path.Join(dir, org)); err == nil && stat.IsDir() && !force {
 					lg.Debug("Skipping org (already exists)",
