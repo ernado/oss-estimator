@@ -80,9 +80,7 @@ func main() {
 		}
 
 		var orgs []string
-		for _, org := range cncfDB.Organizations {
-			orgs = append(orgs, org)
-		}
+		orgs = append(orgs, cncfDB.Organizations...)
 		for _, org := range cfg.Include.Orgs {
 			if cncfDB.Has(org) {
 				lg.Warn("Already in CNCF", zap.String("org", org))
