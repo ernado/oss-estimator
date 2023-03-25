@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	_ "embed"
 	"flag"
 	"os"
 	"path"
@@ -9,11 +10,13 @@ import (
 	"sync"
 
 	"github.com/go-faster/errors"
+	yaml "github.com/go-faster/yamlx"
 	"github.com/google/go-github/v50/github"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
 	"estimator/internal/app"
+	"estimator/internal/cncf"
 	"estimator/internal/estimate"
 	"estimator/internal/gh"
 )
@@ -23,7 +26,28 @@ type Job struct {
 	Repo string
 }
 
+type Include struct {
+	Orgs  []string `yaml:"orgs"`
+	Repos []string `yaml:"repos"`
+}
+
+type Config struct {
+	Exclude []string `yaml:"exclude"`
+	Include Include  `yaml:"include"`
+}
+
+//go:embed config.yaml
+var configRaw []byte
+
 type key [2]string
+
+func toKey(repo string) key {
+	parts := strings.Split(repo, "/")
+	if len(parts) != 2 {
+		panic("invalid repo: " + repo)
+	}
+	return key{parts[0], parts[1]}
+}
 
 func main() {
 	app.Run(func(ctx context.Context, lg *zap.Logger) error {
@@ -39,119 +63,46 @@ func main() {
 		flag.IntVar(&concurrency, "j", concurrency, "number of concurrent jobs")
 		flag.Parse()
 
+		var cfg Config
+		if err := yaml.Unmarshal(configRaw, &cfg); err != nil {
+			return errors.Wrap(err, "unmarshal config")
+		}
+
 		var (
 			c    = gh.Client()
 			e    = estimate.New(c, dir).WithPull(pull)
 			jobs = make(chan Job, concurrency)
 		)
 
-		skip := map[key]struct{}{
-			{"ClickHouse", "clickhouse.github.io"}: {},
-			{"ClickHouse", "llvm"}:                 {},
-			{"ClickHouse", "protobuf"}:             {},
-			{"ClickHouse", "ssl"}:                  {},
-			{"ClickHouse", "libgsasl"}:             {},
-			{"ClickHouse", "libuv"}:                {},
-			{"ClickHouse", "UnixODBC"}:             {},
-			{"ClickHouse", "grpc"}:                 {},
+		cncfDB, err := cncf.New()
+		if err != nil {
+			return errors.Wrap(err, "load cncf")
+		}
 
-			{"cilium", "busybox"}:              {},
-			{"istio", "old_vendor-istio_repo"}: {},
-			{"openebs", "openebs-docs"}:        {},
-			{"chaos-mesh", "toda-glibc"}:       {},
-			{"envoyproxy", "envoy-website"}:    {},
-
-			{"cockroachdb", "vendored"}:      {},
-			{"cockroachdb", "cockroach-gen"}: {},
-			{"cockroachdb", "c-protobuf"}:    {},
-			{"cockroachdb", "c-rocksdb"}:     {},
-			{"cockroachdb", "c-jemalloc"}:    {},
-			{"cockroachdb", "c-snappy"}:      {},
-			{"cockroachdb", "c-lz4"}:         {},
+		var orgs []string
+		for _, org := range cncfDB.Organizations {
+			orgs = append(orgs, org)
+		}
+		for _, org := range cfg.Include.Orgs {
+			if cncfDB.Has(org) {
+				lg.Warn("Already in CNCF", zap.String("org", org))
+				continue
+			}
+			orgs = append(orgs, org)
+		}
+		skip := make(map[key]struct{}, len(cfg.Exclude))
+		for _, repo := range cfg.Exclude {
+			skip[toKey(repo)] = struct{}{}
+		}
+		var keys []key
+		for _, repo := range cfg.Include.Repos {
+			keys = append(keys, toKey(repo))
 		}
 
 		g, ctx := errgroup.WithContext(ctx)
 		g.Go(func() error {
 			defer close(jobs)
-			for _, org := range []string{
-				"ClickHouse",
-				"grpc",
-				"open-telemetry",
-				"prometheus",
-				"cilium",
-				"kubernetes",
-				"kubernetes-sigs",
-				"istio",
-				"etcd-io",
-				"kata-containers",
-				"siderolabs",
-				"openebs",
-				"m3db",
-				"grafana",
-				"VictoriaMetrics",
-				"vectordotdev",
-				"envoyproxy",
-				"helm",
-				"docker",
-				"go-faster",
-				"gotd",
-				"ogen-go",
-				"argoproj",
-				"containerd",
-				"coredns",
-				"fluent",
-				"goharbor",
-				"jaegertracing",
-				"linkerd",
-				"open-policy-agent",
-				"rook",
-				"spiffe",
-				"cri-o",
-				"containernetworking",
-				"cortexproject",
-				"projectcontour",
-				"nats-io",
-				"notaryproject",
-				"OpenObservability",
-				"operator-framework",
-				"thanos-io",
-				"longhorn",
-				"fluent",
-				"fluxcd",
-				"helm",
-				"prometheus",
-				"theupdateframework",
-				"vitessio",
-				"backstage",
-				"buildpacks",
-				"cert-manager",
-				"chaos-mesh",
-				"cert-manager",
-				"cloud-custodian",
-				"cloudevents",
-				"crossplane",
-				"cubeFS",
-				"dapr",
-				"emissary-ingress",
-				"in-toto",
-				"kedacore",
-				"keptn",
-				"knative",
-				"kubeedge",
-				"kubevirt",
-				"kyverno",
-				"litmuschaos",
-				"volcano-sh",
-				"containerssh",
-				"AthenZ",
-				"carina-io",
-				"k3s-io",
-				"karmada-io",
-				"ydb-platform",
-				"cockroachdb",
-				"ytsaurus",
-				"kubearmor",
-			} {
+			for _, org := range orgs {
 				if stat, err := os.Stat(path.Join(dir, org)); err == nil && stat.IsDir() && !force {
 					lg.Debug("Skipping org (already exists)",
 						zap.String("org", org),
@@ -183,39 +134,7 @@ func main() {
 					}
 				}
 			}
-			for _, v := range []key{
-				{"torvalds", "linux"},
-				{"VKCOM", "statshouse"},
-				{"VKCOM", "VKUI"},
-				{"pixie-io", "pixie"},
-				{"falcosecurity", "falco"},
-				{"apache", "mesos"},
-				{"apache", "aurora"},
-				{"uber", "peloton"},
-				{"Netflix", "titus-executor"},
-				{"Netflix", "titus-control-plane"},
-				{"vitalif", "vitastor"},
-				{"LINBIT", "linstor-server"},
-				{"uber", "kraken"},
-				{"containers", "podman"},
-				{"facebook", "react"},
-				{"vuejs", "vue"},
-				{"tensorflow", "tensorflow"},
-				{"golang", "go"},
-				{"python", "cpython"},
-				{"rust-lang", "rust"},
-				{"tikv", "tikv"},
-				{"dragonflyoss", "Dragonfly2"},
-				{"elastic", "elasticsearch"},
-				{"elastic", "beats"},
-				{"elastic", "logstash"},
-				{"ziglang", "zig"},
-				{"matplotlib", "matplotlib"},
-				{"pallets", "flask"},
-				{"django", "django"},
-				{"nodejs", "node"},
-				{"jquery", "jquery"},
-			} {
+			for _, v := range keys {
 				select {
 				case <-ctx.Done():
 					return ctx.Err()

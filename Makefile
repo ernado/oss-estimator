@@ -12,4 +12,7 @@ generate:
 fetch: force aggregate generate
 update: pull aggregate generate
 
-.PHONY: all list pull force aggregate generate fetch update
+cncf:
+	./cncf.sh
+
+.PHONY: all list pull force aggregate generate fetch update cncf

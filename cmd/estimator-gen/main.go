@@ -16,8 +16,8 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"estimator/internal/aggregator"
 	"estimator/internal/app"
+	cncfdb "estimator/internal/cncf"
 	"estimator/internal/estimate"
 	"estimator/internal/lang"
 )
@@ -133,6 +133,11 @@ func main() {
 		})
 		template.Must(t.Parse(tpl))
 
+		db, err := cncfdb.New()
+		if err != nil {
+			return errors.Wrap(err, "open cncf db")
+		}
+
 		data, err := os.ReadFile(filepath.Join("_data", "aggregated.json"))
 		if err != nil {
 			return errors.Wrap(err, "read affiliations.json")
@@ -212,7 +217,7 @@ func main() {
 				Language:  estimate.Max(org.Languages),
 				Languages: org.Languages,
 			}
-			if aggregator.IsCNCF(org.Name) {
+			if db.Has(org.Name) {
 				cncf.PR += org.PR
 				cncf.Commits += org.Commits
 				cncf.Stars += org.Stars

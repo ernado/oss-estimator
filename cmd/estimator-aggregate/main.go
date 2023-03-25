@@ -10,8 +10,8 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"estimator/internal/aggregator"
 	"estimator/internal/app"
+	"estimator/internal/cncf"
 	"estimator/internal/estimate"
 )
 
@@ -53,6 +53,11 @@ func main() {
 			return errors.Wrap(err, "read orgs")
 		}
 
+		db, err := cncf.New()
+		if err != nil {
+			return errors.Wrap(err, "open cncf db")
+		}
+
 		var cncfRepos []int64
 		for _, org := range orgs {
 			orgOut := &estimate.AggregatedOrg{
@@ -85,7 +90,7 @@ func main() {
 				if orgOut.Name != e.Org {
 					return errors.Errorf("org mismatch: %s != %s", orgOut.Name, e.Org)
 				}
-				if aggregator.IsCNCF(e.Org) {
+				if db.Has(e.Org) {
 					cncfRepos = append(cncfRepos, e.RepoID)
 				}
 

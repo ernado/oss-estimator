@@ -237,6 +237,8 @@ func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, err
 		"contrib",
 		"c-deps",
 		"deps",
+		"Godeps",
+		"_workspace",
 
 		".git",
 		".yarn",
