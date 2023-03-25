@@ -78,4 +78,4 @@ include:
     - ytsaurus
     - cockroachdb
     - netdata
-    - zephyrproject
+    - zephyrproject-rtos
