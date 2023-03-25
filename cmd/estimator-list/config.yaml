@@ -61,6 +61,11 @@ include:
     - nodejs/node
     - jquery/jquery
     - godotengine/godot
+    - denoland/deno
+    - tauri-apps/tauri
+    - alacritty/alacritty
+    - firecracker-microvm/firecracker
+    - meilisearch/meilisearch
   orgs:
     - ClickHouse
     - kata-containers

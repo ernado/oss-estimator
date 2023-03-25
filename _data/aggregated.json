@@ -1873,6 +1873,51 @@
         }
       }
     },
+    "alacritty": {
+      "ID": 29714349,
+      "Name": "alacritty",
+      "SLOC": 23241,
+      "PR": 1987,
+      "Commits": 2095,
+      "Stars": 45634,
+      "Languages": {
+        "BASH": 201,
+        "Fish": 31,
+        "License": 21,
+        "Makefile": 69,
+        "Plain Text": 721,
+        "Rust": 23040,
+        "SVG": 2879,
+        "Shell": 162,
+        "TOML": 189,
+        "XML": 30,
+        "gitignore": 1
+      },
+      "Repos": {
+        "alacritty": {
+          "ID": 51980455,
+          "OrgID": 29714349,
+          "Name": "alacritty",
+          "SLOC": 23241,
+          "PR": 1987,
+          "Commits": 2095,
+          "Stars": 45634,
+          "Languages": {
+            "BASH": 201,
+            "Fish": 31,
+            "License": 21,
+            "Makefile": 69,
+            "Plain Text": 721,
+            "Rust": 23040,
+            "SVG": 2879,
+            "Shell": 162,
+            "TOML": 189,
+            "XML": 30,
+            "gitignore": 1
+          }
+        }
+      }
+    },
     "alibaba": {
       "ID": 1961952,
       "Name": "alibaba",
@@ -17523,6 +17568,63 @@
         }
       }
     },
+    "denoland": {
+      "ID": 42048915,
+      "Name": "denoland",
+      "SLOC": 498222,
+      "PR": 9978,
+      "Commits": 8958,
+      "Stars": 88606,
+      "Languages": {
+        "Autoconf": 31,
+        "C": 25,
+        "C#": 100,
+        "Dockerfile": 3,
+        "JSX": 137,
+        "JavaScript": 273694,
+        "License": 17,
+        "Lua": 28,
+        "Markdown": 13,
+        "Module-Definition": 290,
+        "Plain Text": 689,
+        "Powershell": 10,
+        "Rust": 146917,
+        "TOML": 1203,
+        "TypeScript": 77458,
+        "TypeScript Typings": 34725,
+        "gitignore": 32
+      },
+      "Repos": {
+        "deno": {
+          "ID": 133442384,
+          "OrgID": 42048915,
+          "Name": "deno",
+          "SLOC": 498222,
+          "PR": 9978,
+          "Commits": 8958,
+          "Stars": 88606,
+          "Languages": {
+            "Autoconf": 31,
+            "C": 25,
+            "C#": 100,
+            "Dockerfile": 3,
+            "JSX": 137,
+            "JavaScript": 273694,
+            "License": 17,
+            "Lua": 28,
+            "Markdown": 13,
+            "Module-Definition": 290,
+            "Plain Text": 689,
+            "Powershell": 10,
+            "Rust": 146917,
+            "TOML": 1203,
+            "TypeScript": 77458,
+            "TypeScript Typings": 34725,
+            "gitignore": 32
+          }
+        }
+      }
+    },
     "devfile": {
       "ID": 61544107,
       "Name": "devfile",
@@ -21648,6 +21750,59 @@
             "Shell": 309,
             "Systemd": 127,
             "gitignore": 14
+          }
+        }
+      }
+    },
+    "firecracker-microvm": {
+      "ID": 44477506,
+      "Name": "firecracker-microvm",
+      "SLOC": 82488,
+      "PR": 2206,
+      "Commits": 4115,
+      "Stars": 21130,
+      "Languages": {
+        "BASH": 914,
+        "C": 368,
+        "CSV": 934584,
+        "Docker ignore": 5,
+        "Dockerfile": 71,
+        "License": 169,
+        "Patch": 11,
+        "Plain Text": 179,
+        "Python": 19270,
+        "Ruby": 9,
+        "Rust": 61927,
+        "SVG": 4554,
+        "Shell": 720,
+        "TOML": 392,
+        "gitignore": 13
+      },
+      "Repos": {
+        "firecracker": {
+          "ID": 107505869,
+          "OrgID": 44477506,
+          "Name": "firecracker",
+          "SLOC": 82488,
+          "PR": 2206,
+          "Commits": 4115,
+          "Stars": 21130,
+          "Languages": {
+            "BASH": 914,
+            "C": 368,
+            "CSV": 934584,
+            "Docker ignore": 5,
+            "Dockerfile": 71,
+            "License": 169,
+            "Patch": 11,
+            "Plain Text": 179,
+            "Python": 19270,
+            "Ruby": 9,
+            "Rust": 61927,
+            "SVG": 4554,
+            "Shell": 720,
+            "TOML": 392,
+            "gitignore": 13
           }
         }
       }
@@ -47066,6 +47221,45 @@
         }
       }
     },
+    "meilisearch": {
+      "ID": 43250847,
+      "Name": "meilisearch",
+      "SLOC": 70683,
+      "PR": 1483,
+      "Commits": 7536,
+      "Stars": 34875,
+      "Languages": {
+        "Docker ignore": 4,
+        "Dockerfile": 26,
+        "License": 17,
+        "Rust": 70683,
+        "SVG": 107,
+        "Shell": 175,
+        "TOML": 599,
+        "gitignore": 18
+      },
+      "Repos": {
+        "meilisearch": {
+          "ID": 130688011,
+          "OrgID": 43250847,
+          "Name": "meilisearch",
+          "SLOC": 70683,
+          "PR": 1483,
+          "Commits": 7536,
+          "Stars": 34875,
+          "Languages": {
+            "Docker ignore": 4,
+            "Dockerfile": 26,
+            "License": 17,
+            "Rust": 70683,
+            "SVG": 107,
+            "Shell": 175,
+            "TOML": 599,
+            "gitignore": 18
+          }
+        }
+      }
+    },
     "merbridge": {
       "ID": 97713038,
       "Name": "merbridge",
@@ -68048,6 +68242,65 @@
             "Sass": 65,
             "TOML": 113,
             "gitignore": 5
+          }
+        }
+      }
+    },
+    "tauri-apps": {
+      "ID": 54536011,
+      "Name": "tauri-apps",
+      "SLOC": 43415,
+      "PR": 3254,
+      "Commits": 3285,
+      "Stars": 61191,
+      "Languages": {
+        "AppleScript": 56,
+        "BASH": 589,
+        "Batch": 27,
+        "CSS": 125,
+        "Dockerfile": 38,
+        "HTML": 865,
+        "JavaScript": 1503,
+        "Plain Text": 1,
+        "Powershell": 94,
+        "Rust": 38315,
+        "SPDX": 20,
+        "Shell": 673,
+        "Svelte": 1704,
+        "TOML": 1185,
+        "TypeScript": 3008,
+        "TypeScript Typings": 6,
+        "XML": 163,
+        "gitignore": 196
+      },
+      "Repos": {
+        "tauri": {
+          "ID": 196701619,
+          "OrgID": 54536011,
+          "Name": "tauri",
+          "SLOC": 43415,
+          "PR": 3254,
+          "Commits": 3285,
+          "Stars": 61191,
+          "Languages": {
+            "AppleScript": 56,
+            "BASH": 589,
+            "Batch": 27,
+            "CSS": 125,
+            "Dockerfile": 38,
+            "HTML": 865,
+            "JavaScript": 1503,
+            "Plain Text": 1,
+            "Powershell": 94,
+            "Rust": 38315,
+            "SPDX": 20,
+            "Shell": 673,
+            "Svelte": 1704,
+            "TOML": 1185,
+            "TypeScript": 3008,
+            "TypeScript Typings": 6,
+            "XML": 163,
+            "gitignore": 196
           }
         }
       }
