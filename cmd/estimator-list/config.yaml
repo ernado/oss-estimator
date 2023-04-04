@@ -84,3 +84,4 @@ include:
     - cockroachdb
     - netdata
     - zephyrproject-rtos
+    - metrico
