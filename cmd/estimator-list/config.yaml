@@ -81,6 +81,7 @@ include:
     - ogen-go
     - ydb-platform
     - ytsaurus
+    - ten-nancy
     - cockroachdb
     - netdata
     - zephyrproject-rtos
