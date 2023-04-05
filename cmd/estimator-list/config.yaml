@@ -85,3 +85,4 @@ include:
     - netdata
     - zephyrproject-rtos
     - metrico
+    - gravity-ui
