@@ -66,6 +66,9 @@ include:
     - alacritty/alacritty
     - firecracker-microvm/firecracker
     - meilisearch/meilisearch
+    - meilisearch/meilisearch
+    - ariga/atlas
+    - ent/ent
   orgs:
     - ClickHouse
     - kata-containers
