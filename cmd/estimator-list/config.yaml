@@ -69,6 +69,7 @@ include:
     - meilisearch/meilisearch
     - ariga/atlas
     - ent/ent
+    - drakkan/sftpgo
   orgs:
     - ClickHouse
     - kata-containers
