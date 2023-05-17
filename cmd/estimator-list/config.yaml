@@ -70,6 +70,7 @@ include:
     - ariga/atlas
     - ent/ent
     - drakkan/sftpgo
+    - apache/hadoop
   orgs:
     - apache
     - ClickHouse
