@@ -71,6 +71,7 @@ include:
     - ent/ent
     - drakkan/sftpgo
   orgs:
+    - apache
     - ClickHouse
     - kata-containers
     - siderolabs
