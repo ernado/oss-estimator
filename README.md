@@ -74,7 +74,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [**CNCF**](https://www.cncf.io/)  | 39.3M | 1.9M | 1.1M | 1.5M | Go | 3.3k |
 | [zephyrproject-rtos](https://github.com/zephyrproject-rtos)  | 20.3M | 269.8k | 42.3k | 8.6k | C Header | 1.7k |
 | [torvalds](https://github.com/torvalds)  | 19.1M | 1.2M | 761.0 | 151.7k | C | 1.6k |
-| [apache](https://github.com/apache)  | 13.7M | 582.8k | 38.4k | 74.5k | Java | 1.1k |
+| [apache](https://github.com/apache)  | 15.7M | 609.4k | 44.1k | 88.0k | Java | 1.3k |
 | [**K8s**](https://kubernetes.io/)  | 5.4M | 498.8k | 261.7k | 341.4k | Go | 452.9 |
 | [kubernetes](https://github.com/kubernetes)  | 3.4M | 381.1k | 190.5k | 243.1k | Go | 286.4 |
 | [tensorflow](https://github.com/tensorflow)  | 3.4M | 148.0k | 23.0k | 174.6k | C++ | 279.2 |
@@ -96,7 +96,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [docker](https://github.com/docker)  | 1.3M | 176.8k | 30.6k | 146.4k | Go | 106.0 |
 | [netdata](https://github.com/netdata)  | 1.2M | 25.8k | 12.1k | 63.1k | JavaScript | 103.4 |
 | [prestodb](https://github.com/prestodb)  | 1.2M | 26.0k | 15.3k | 15.7k | Java | 97.0 |
-| [golang](https://github.com/golang)  | 1.1M | 56.6k | 3.0k | 111.3k | Go | 88.4 |
+| [golang](https://github.com/golang)  | 1.1M | 56.6k | 3.0k | 111.4k | Go | 88.4 |
 | [nodejs](https://github.com/nodejs)  | 966.7k | 38.9k | 30.4k | 95.4k | JavaScript | 80.6 |
 | [ziglang](https://github.com/ziglang)  | 888.6k | 24.1k | 7.2k | 22.1k | Zig | 74.0 |
 | [brigadecore](https://github.com/brigadecore)  | 877.2k | 6.3k | 2.8k | 3.0k | JavaScript | 73.1 |
@@ -193,7 +193,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [chaos-mesh](https://github.com/chaos-mesh)  | 107.2k | 3.3k | 3.2k | 5.9k | Go | 8.9 |
 | [emissary-ingress](https://github.com/emissary-ingress)  | 105.7k | 18.0k | 3.3k | 4.0k | Python | 8.8 |
 | [kedacore](https://github.com/kedacore)  | 105.0k | 3.9k | 4.2k | 6.8k | Go | 8.8 |
-| [VKCOM](https://github.com/VKCOM)  | 101.5k | 10.3k | 3.8k | 920.0 | TypeScript | 8.4 |
+| [VKCOM](https://github.com/VKCOM)  | 101.5k | 10.4k | 3.8k | 920.0 | TypeScript | 8.4 |
 | [karmada-io](https://github.com/karmada-io)  | 98.9k | 4.1k | 2.7k | 3.2k | Go | 8.2 |
 | [kubescape](https://github.com/kubescape)  | 97.4k | 9.7k | 1.9k | 8.3k | Go | 8.1 |
 | [bfenetworks](https://github.com/bfenetworks)  | 95.8k | 1.4k | 825.0 | 6.0k | Go | 8.0 |
@@ -306,7 +306,8 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [ydb-platform/ydb](https://github.com/ydb-platform/ydb/)  | 2.8M | 9.4k | 35.0 | 2.8k | C++ | 237.4 |
 | [ytsaurus/ytsaurus](https://github.com/ytsaurus/ytsaurus/)  | 2.5M | 65.5k | 5.0 | 799.0 | C++ | 204.8 |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch/)  | 2.4M | 68.8k | 63.8k | 63.8k | Java | 201.9 |
-| [godotengine/godot](https://github.com/godotengine/godot/)  | 2.0M | 54.1k | 34.2k | 61.3k | C++ | 164.8 |
+| [apache/hadoop](https://github.com/apache/hadoop/)  | 2.0M | 26.6k | 5.7k | 13.5k | Java | 165.6 |
+| [godotengine/godot](https://github.com/godotengine/godot/)  | 2.0M | 54.2k | 34.2k | 61.3k | C++ | 164.8 |
 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach/)  | 1.7M | 78.5k | 48.5k | 26.8k | Go | 139.7 |
 | [rust-lang/rust](https://github.com/rust-lang/rust/)  | 1.5M | 224.3k | 63.0k | 81.6k | Rust | 126.5 |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/)  | 1.5M | 114.5k | 73.6k | 96.5k | Go | 124.0 |
@@ -318,7 +319,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [apache/hive](https://github.com/apache/hive/)  | 1.1M | 16.8k | 4.3k | 4.8k | Java | 93.6 |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse/)  | 1.1M | 109.8k | 32.2k | 27.4k | C++ | 92.7 |
 | [apache/harmony-classlib](https://github.com/apache/harmony-classlib/)  | 1.1M | 7.5k | 3.0 | 6.0 | Java | 92.4 |
-| [golang/go](https://github.com/golang/go/)  | 1.1M | 56.6k | 3.0k | 111.3k | Go | 88.4 |
+| [golang/go](https://github.com/golang/go/)  | 1.1M | 56.6k | 3.0k | 111.4k | Go | 88.4 |
 | [prestodb/presto](https://github.com/prestodb/presto/)  | 1.0M | 20.8k | 13.9k | 14.6k | Java | 86.0 |
 | [zephyrproject-rtos/hal_silabs](https://github.com/zephyrproject-rtos/hal_silabs/)  | 1.0M | 54.0 | 24.0 | 4.0 | C Header | 84.6 |
 | [zephyrproject-rtos/sdk-ng](https://github.com/zephyrproject-rtos/sdk-ng/)  | 980.2k | 730.0 | 453.0 | 110.0 | C | 81.7 |
@@ -564,7 +565,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [werf/trdl-vault-actions](https://github.com/werf/trdl-vault-actions/)  | 62.2k | 13.0 | 7.0 | 0.0 | JavaScript | 5.2 |
 | [kubeovn/kube-ovn](https://github.com/kubeovn/kube-ovn/)  | 61.8k | 3.0k | 1.9k | 1.5k | Go | 5.2 |
 | [knative/pkg](https://github.com/knative/pkg/)  | 61.2k | 2.0k | 2.3k | 234.0 | Go | 5.1 |
-| [VKCOM/statshouse](https://github.com/VKCOM/statshouse/)  | 61.1k | 353.0 | 331.0 | 142.0 | Go | 5.1 |
+| [VKCOM/statshouse](https://github.com/VKCOM/statshouse/)  | 61.1k | 356.0 | 334.0 | 142.0 | Go | 5.1 |
 | [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js/)  | 61.0k | 1.7k | 2.0k | 1.8k | TypeScript | 5.1 |
 | [openebs/mayastor-control-plane](https://github.com/openebs/mayastor-control-plane/)  | 60.9k | 1.2k | 447.0 | 27.0 | Rust | 5.1 |
 | [zephyrproject-rtos/hal_gigadevice](https://github.com/zephyrproject-rtos/hal_gigadevice/)  | 60.8k | 90.0 | 32.0 | 3.0 | C | 5.1 |
