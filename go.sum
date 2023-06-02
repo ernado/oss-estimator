@@ -1,5 +1,5 @@
-github.com/ClickHouse/ch-go v0.56.0 h1:Uli/jOQl7+pYyA2E+/VvOSQRX3jHZ4FjESCRReAeFuM=
-github.com/ClickHouse/ch-go v0.56.0/go.mod h1:nKtI66Lz8pRvbO7NZDrgbRaC9ldsD4HMeWKb1hpbpBI=
+github.com/ClickHouse/ch-go v0.56.1 h1:OshO1TWLpWGFFNFvOGDMtqRX38N7qjK9UwQwXzm20pA=
+github.com/ClickHouse/ch-go v0.56.1/go.mod h1:6Mxu7RO1nuIC6/wBVzvAsUOSiLDMB0ZbTqMlBA3Gl/A=
 github.com/Microsoft/go-winio v0.5.2/go.mod h1:WpS1mjBmmwHBEWmogvA2mj8546UReBk4v8QkMxJ6pZY=
 github.com/Microsoft/go-winio v0.6.0 h1:slsWYD/zyx7lCXoZVlvQrj0hPTM1HI4+v1sIda2yDvg=
 github.com/Microsoft/go-winio v0.6.0/go.mod h1:cTAf44im0RAYeL23bpB+fzCyDH2MJiz2BO69KH/soAE=
