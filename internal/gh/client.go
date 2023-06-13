@@ -44,5 +44,4 @@ func Client() *github.Client {
 		},
 	}
 	return github.NewClient(httpClient)
-
 }
