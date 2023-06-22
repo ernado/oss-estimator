@@ -3,7 +3,7 @@ module estimator
 go 1.19
 
 require (
-	github.com/ClickHouse/ch-go v0.56.1
+	github.com/ClickHouse/ch-go v0.57.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-faster/errors v0.6.1
 	github.com/go-faster/jx v1.0.0
@@ -48,7 +48,7 @@ require (
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/pascaldekloe/name v1.0.1 // indirect
-	github.com/pierrec/lz4/v4 v4.1.17 // indirect
+	github.com/pierrec/lz4/v4 v4.1.18 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
