@@ -11624,10 +11624,10 @@
     "cilium": {
       "ID": 21054566,
       "Name": "cilium",
-      "SLOC": 681681,
-      "PR": 21853,
-      "Commits": 30959,
-      "Stars": 23627,
+      "SLOC": 683810,
+      "PR": 22162,
+      "Commits": 32538,
+      "Stars": 23754,
       "Languages": {
         "AWK": 24,
         "Autoconf": 1,
@@ -11636,17 +11636,17 @@
         "C": 11078,
         "C Header": 210173,
         "C++": 7269,
-        "CSS": 432,
+        "CSS": 665,
         "Docker ignore": 106,
-        "Dockerfile": 1854,
-        "Go": 383895,
+        "Dockerfile": 1866,
+        "Go": 384064,
         "Go Template": 19357,
         "Groovy": 176,
         "HTML": 264,
-        "JSX": 4451,
-        "JavaScript": 1529,
+        "JSX": 12961,
+        "JavaScript": 3489,
         "Jenkins Buildfile": 545,
-        "License": 12183,
+        "License": 12656,
         "Lua": 71,
         "Makefile": 2805,
         "Patch": 864,
@@ -11656,17 +11656,17 @@
         "Python": 9602,
         "ReStructuredText": 32344,
         "Ruby": 9,
-        "SVG": 1327,
+        "SVG": 46873,
         "Sass": 999,
-        "Shell": 14177,
+        "Shell": 14205,
         "Smarty Template": 8719,
         "Systemd": 109,
-        "TOML": 111,
+        "TOML": 114,
         "Terraform": 1864,
         "TypeScript": 23412,
         "TypeScript Typings": 2568,
         "XML": 14,
-        "gitignore": 453,
+        "gitignore": 488,
         "sed": 162
       },
       "Repos": {
@@ -11985,6 +11985,18 @@
             "gitignore": 2
           }
         },
+        "cilium-service-mesh-beta": {
+          "ID": 435806812,
+          "OrgID": 21054566,
+          "Name": "cilium-service-mesh-beta",
+          "SLOC": 0,
+          "PR": 17,
+          "Commits": 76,
+          "Stars": 105,
+          "Languages": {
+            "License": 169
+          }
+        },
         "cilium-sysdump": {
           "ID": 114926056,
           "OrgID": 21054566,
@@ -11999,6 +12011,25 @@
             "Python": 1032,
             "Shell": 38,
             "gitignore": 11
+          }
+        },
+        "cilium.io": {
+          "ID": 449665803,
+          "OrgID": 21054566,
+          "Name": "cilium.io",
+          "SLOC": 1960,
+          "PR": 292,
+          "Commits": 1498,
+          "Stars": 19,
+          "Languages": {
+            "CSS": 233,
+            "JSX": 8510,
+            "JavaScript": 1960,
+            "License": 304,
+            "SVG": 45546,
+            "Shell": 4,
+            "TOML": 3,
+            "gitignore": 35
           }
         },
         "client-example": {
@@ -12277,6 +12308,19 @@
             "Go": 1172,
             "License": 3,
             "Makefile": 28
+          }
+        },
+        "graceful-termination-test-apps": {
+          "ID": 424070536,
+          "OrgID": 21054566,
+          "Name": "graceful-termination-test-apps",
+          "SLOC": 169,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 1,
+          "Languages": {
+            "Dockerfile": 12,
+            "Go": 169
           }
         },
         "health-examples": {
@@ -12877,6 +12921,18 @@
           "Languages": {
             "Go": 565,
             "License": 169
+          }
+        },
+        "xdp-config": {
+          "ID": 452643534,
+          "OrgID": 21054566,
+          "Name": "xdp-config",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 2,
+          "Languages": {
+            "Shell": 24
           }
         }
       }
@@ -20357,42 +20413,86 @@
     "devfile": {
       "ID": 61544107,
       "Name": "devfile",
-      "SLOC": 120955,
-      "PR": 1983,
-      "Commits": 4316,
-      "Stars": 310,
+      "SLOC": 134155,
+      "PR": 1993,
+      "Commits": 4452,
+      "Stars": 313,
       "Languages": {
         "AsciiDoc": 5500,
         "Batch": 353,
-        "CSS": 6366,
+        "C#": 1036,
+        "CSS": 6570,
         "Docker ignore": 80,
-        "Dockerfile": 847,
+        "Dockerfile": 861,
+        "F#": 77,
         "Gherkin Specification": 253,
-        "Go": 103428,
+        "Go": 112198,
         "Gradle": 42,
-        "HTML": 4773,
+        "HTML": 5881,
         "Handlebars": 177,
-        "Java": 1573,
-        "JavaScript": 842,
+        "Java": 2359,
+        "JavaScript": 1454,
         "LESS": 3876,
-        "License": 2539,
-        "Makefile": 720,
-        "Plain Text": 384,
-        "Properties File": 80,
-        "Python": 3449,
+        "License": 2708,
+        "MSBuild": 127,
+        "Makefile": 735,
+        "PHP": 845,
+        "Plain Text": 392,
+        "Properties File": 92,
+        "Python": 3713,
+        "Razor": 464,
         "ReStructuredText": 47,
         "SQL": 921,
         "SVG": 14632,
-        "Sass": 3516,
-        "Shell": 2935,
+        "Sass": 3518,
+        "Shell": 3425,
         "Smarty Template": 36,
+        "Svelte": 40,
         "TOML": 21,
-        "TypeScript": 11663,
-        "TypeScript Typings": 238,
-        "XML": 965,
-        "gitignore": 442
+        "TypeScript": 12550,
+        "TypeScript Typings": 258,
+        "Visual Basic": 6,
+        "Vue": 60,
+        "XML": 2485,
+        "gitignore": 464
       },
       "Repos": {
+        "alizer": {
+          "ID": 660343905,
+          "OrgID": 61544107,
+          "Name": "alizer",
+          "SLOC": 13200,
+          "PR": 10,
+          "Commits": 136,
+          "Stars": 3,
+          "Languages": {
+            "C#": 1036,
+            "CSS": 204,
+            "Dockerfile": 14,
+            "F#": 77,
+            "Go": 8770,
+            "HTML": 1108,
+            "Java": 786,
+            "JavaScript": 612,
+            "License": 169,
+            "MSBuild": 127,
+            "Makefile": 15,
+            "PHP": 845,
+            "Plain Text": 8,
+            "Properties File": 12,
+            "Python": 264,
+            "Razor": 464,
+            "Sass": 2,
+            "Shell": 490,
+            "Svelte": 40,
+            "TypeScript": 887,
+            "TypeScript Typings": 20,
+            "Visual Basic": 6,
+            "Vue": 60,
+            "XML": 1520,
+            "gitignore": 22
+          }
+        },
         "api": {
           "ID": 226084465,
           "OrgID": 61544107,
@@ -30669,8 +30769,8 @@
       "Name": "goharbor",
       "SLOC": 242493,
       "PR": 10355,
-      "Commits": 16930,
-      "Stars": 21116,
+      "Commits": 16931,
+      "Stars": 21117,
       "Languages": {
         "BASH": 101,
         "CSS": 90,
@@ -30682,7 +30782,7 @@
         "HTML": 19823,
         "JavaScript": 2207,
         "Jinja": 5657,
-        "License": 2227,
+        "License": 2396,
         "Makefile": 1452,
         "Patch": 879,
         "Plain Text": 39,
@@ -30725,6 +30825,18 @@
             "Makefile": 19,
             "Shell": 33,
             "gitignore": 10
+          }
+        },
+        "chartmuseum-migration-tools": {
+          "ID": 662983143,
+          "OrgID": 40275816,
+          "Name": "chartmuseum-migration-tools",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 1,
+          "Languages": {
+            "License": 169
           }
         },
         "community": {
@@ -32812,25 +32924,25 @@
     "gravity-ui": {
       "ID": 107542106,
       "Name": "gravity-ui",
-      "SLOC": 138678,
+      "SLOC": 138855,
       "PR": 1459,
-      "Commits": 3098,
+      "Commits": 3102,
       "Stars": 330,
       "Languages": {
         "Alex": 317,
         "CSS": 51,
         "Dockerfile": 15,
         "HTML": 815,
-        "JavaScript": 23862,
+        "JavaScript": 23907,
         "License": 663,
         "Makefile": 10,
         "Plain Text": 17833,
         "SVG": 69,
         "Sass": 21346,
         "Shell": 80,
-        "TypeScript": 114816,
+        "TypeScript": 114948,
         "TypeScript Typings": 294,
-        "gitignore": 289
+        "gitignore": 291
       },
       "Repos": {
         "app-builder": {
@@ -33451,6 +33563,20 @@
             "TypeScript": 25072,
             "TypeScript Typings": 25,
             "gitignore": 7
+          }
+        },
+        "uikit-codemod": {
+          "ID": 655725286,
+          "OrgID": 107542106,
+          "Name": "uikit-codemod",
+          "SLOC": 177,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 0,
+          "Languages": {
+            "JavaScript": 45,
+            "TypeScript": 132,
+            "gitignore": 2
           }
         },
         "uikit-example-cra": {
@@ -35644,8 +35770,8 @@
       "ID": 111520143,
       "Name": "inspektor-gadget",
       "SLOC": 253455,
-      "PR": 1035,
-      "Commits": 2863,
+      "PR": 1037,
+      "Commits": 2871,
       "Stars": 1268,
       "Languages": {
         "BASH": 15,
@@ -35655,7 +35781,7 @@
         "Go": 39119,
         "HTML": 3120,
         "JavaScript": 2053,
-        "License": 676,
+        "License": 845,
         "Makefile": 488,
         "Perl": 53,
         "Plain Text": 311,
@@ -35665,7 +35791,7 @@
         "Sass": 8684,
         "Shell": 512,
         "TOML": 11,
-        "gitignore": 40
+        "gitignore": 41
       },
       "Repos": {
         ".github": {
@@ -35677,6 +35803,19 @@
           "Commits": 3,
           "Stars": 0,
           "Languages": {}
+        },
+        "charts": {
+          "ID": 661601414,
+          "OrgID": 111520143,
+          "Name": "charts",
+          "SLOC": 0,
+          "PR": 2,
+          "Commits": 8,
+          "Stars": 0,
+          "Languages": {
+            "License": 169,
+            "gitignore": 1
+          }
         },
         "ig-benchmarks": {
           "ID": 613918447,
@@ -39793,10 +39932,10 @@
     "konveyor": {
       "ID": 57494908,
       "Name": "konveyor",
-      "SLOC": 1571809,
-      "PR": 6254,
-      "Commits": 7132,
-      "Stars": 806,
+      "SLOC": 1571909,
+      "PR": 6458,
+      "Commits": 7462,
+      "Stars": 822,
       "Languages": {
         "AsciiDoc": 838,
         "Autoconf": 6,
@@ -39807,7 +39946,7 @@
         "CSV": 348,
         "DOT": 6704,
         "Docker ignore": 91,
-        "Dockerfile": 1258,
+        "Dockerfile": 1281,
         "Expect": 25,
         "Extensible Stylesheet Language Transformations": 36,
         "Freemarker Template": 199,
@@ -39820,16 +39959,16 @@
         "JavaScript": 966998,
         "JavaServer Pages": 51,
         "Jenkins Buildfile": 105,
-        "Jinja": 3057,
-        "License": 17999,
+        "Jinja": 4897,
+        "License": 18168,
         "MSBuild": 206,
-        "Makefile": 2222,
+        "Makefile": 2394,
         "Org": 38,
         "PHP": 600,
         "Plain Text": 1754,
         "Properties File": 779,
         "Protocol Buffers": 18,
-        "Python": 236364,
+        "Python": 236464,
         "Rakefile": 1,
         "Razor": 168,
         "ReStructuredText": 80,
@@ -39839,7 +39978,7 @@
         "SQL": 122411,
         "SVG": 15776,
         "Sass": 24519,
-        "Shell": 9285,
+        "Shell": 9757,
         "Smarty Template": 116,
         "Systemd": 66,
         "TOML": 1134,
@@ -39848,7 +39987,7 @@
         "Web Services Description Language": 18,
         "XML": 49578,
         "XML Schema": 1221,
-        "gitignore": 2351
+        "gitignore": 2362
       },
       "Repos": {
         ".github": {
@@ -40509,6 +40648,24 @@
             "Shell": 83,
             "TypeScript": 315,
             "gitignore": 15
+          }
+        },
+        "operator": {
+          "ID": 460579961,
+          "OrgID": 57494908,
+          "Name": "operator",
+          "SLOC": 100,
+          "PR": 204,
+          "Commits": 330,
+          "Stars": 16,
+          "Languages": {
+            "Dockerfile": 23,
+            "Jinja": 1840,
+            "License": 169,
+            "Makefile": 172,
+            "Python": 100,
+            "Shell": 472,
+            "gitignore": 11
           }
         },
         "pelorus": {
@@ -53772,22 +53929,23 @@
     "metrico": {
       "ID": 21342216,
       "Name": "metrico",
-      "SLOC": 199160,
-      "PR": 519,
-      "Commits": 5275,
-      "Stars": 819,
+      "SLOC": 202845,
+      "PR": 536,
+      "Commits": 5324,
+      "Stars": 821,
       "Languages": {
         "BASH": 26,
         "C Header": 332,
         "C++": 146,
         "CSS": 2137,
-        "Dockerfile": 277,
+        "Dockerfile": 286,
         "Gemfile": 15,
         "Go": 83398,
-        "HTML": 5636,
+        "HTML": 6083,
         "Happy": 374,
-        "JavaScript": 68793,
-        "License": 5034,
+        "JavaScript": 68915,
+        "LESS": 0,
+        "License": 5578,
         "Makefile": 617,
         "Patch": 68,
         "Plain Text": 2575,
@@ -53798,17 +53956,17 @@
         "Rust": 25,
         "SQL": 66,
         "SVG": 46,
-        "Sass": 2323,
-        "Shell": 591,
+        "Sass": 2798,
+        "Shell": 596,
         "Smarty Template": 236,
         "Systemd": 28,
         "TOML": 58,
         "Terraform": 64,
-        "TypeScript": 43918,
-        "TypeScript Typings": 137,
+        "TypeScript": 47481,
+        "TypeScript Typings": 169,
         "V": 9,
         "XML": 374,
-        "gitignore": 121
+        "gitignore": 172
       },
       "Repos": {
         ".github": {
@@ -54013,6 +54171,27 @@
             "Sass": 984,
             "TypeScript": 4294,
             "gitignore": 32
+          }
+        },
+        "grafana-flow": {
+          "ID": 657057193,
+          "OrgID": 21342216,
+          "Name": "grafana-flow",
+          "SLOC": 3685,
+          "PR": 17,
+          "Commits": 49,
+          "Stars": 2,
+          "Languages": {
+            "Dockerfile": 9,
+            "HTML": 447,
+            "JavaScript": 122,
+            "LESS": 0,
+            "License": 544,
+            "Sass": 475,
+            "Shell": 5,
+            "TypeScript": 3563,
+            "TypeScript Typings": 32,
+            "gitignore": 51
           }
         },
         "helm-charts": {
@@ -62612,9 +62791,9 @@
     "opencurve": {
       "ID": 67676885,
       "Name": "opencurve",
-      "SLOC": 406257,
+      "SLOC": 416226,
       "PR": 1865,
-      "Commits": 5556,
+      "Commits": 5622,
       "Stars": 1916,
       "Languages": {
         "BASH": 1025,
@@ -62622,24 +62801,31 @@
         "C": 25748,
         "C Header": 54006,
         "C++": 268439,
-        "Dockerfile": 279,
-        "Go": 39643,
+        "CSS": 7,
+        "Dockerfile": 288,
+        "Go": 47545,
+        "HTML": 13,
+        "Handlebars": 48,
+        "JavaScript": 105,
         "Jinja": 2876,
-        "License": 1230,
-        "Makefile": 578,
+        "License": 1399,
+        "Makefile": 621,
         "Patch": 10488,
         "Perl": 3941,
         "Plain Text": 3370,
         "Protocol Buffers": 3005,
         "Python": 9696,
         "Rust": 286,
-        "Shell": 4373,
+        "Shell": 4381,
         "Smarty Template": 288,
         "Swig": 24,
         "Systemd": 111,
         "TOML": 8,
+        "TypeScript": 1962,
+        "TypeScript Typings": 100,
+        "Vue": 8947,
         "XML": 1919,
-        "gitignore": 149
+        "gitignore": 179
       },
       "Repos": {
         "community": {
@@ -62709,6 +62895,26 @@
             "gitignore": 13
           }
         },
+        "curve-dashboard": {
+          "ID": 561648051,
+          "OrgID": 67676885,
+          "Name": "curve-dashboard",
+          "SLOC": 2067,
+          "PR": 0,
+          "Commits": 11,
+          "Stars": 0,
+          "Languages": {
+            "CSS": 7,
+            "HTML": 13,
+            "Handlebars": 48,
+            "JavaScript": 105,
+            "Shell": 4,
+            "TypeScript": 1962,
+            "TypeScript Typings": 100,
+            "Vue": 8947,
+            "gitignore": 23
+          }
+        },
         "curve-helm": {
           "ID": 426058354,
           "OrgID": 67676885,
@@ -62720,6 +62926,23 @@
           "Languages": {
             "Makefile": 11,
             "Smarty Template": 231
+          }
+        },
+        "curve-manager": {
+          "ID": 660054073,
+          "OrgID": 67676885,
+          "Name": "curve-manager",
+          "SLOC": 7902,
+          "PR": 0,
+          "Commits": 55,
+          "Stars": 0,
+          "Languages": {
+            "Dockerfile": 9,
+            "Go": 7902,
+            "License": 169,
+            "Makefile": 43,
+            "Shell": 4,
+            "gitignore": 7
           }
         },
         "curve-meetup-slides": {
@@ -64600,23 +64823,23 @@
     "openfga": {
       "ID": 103602580,
       "Name": "openfga",
-      "SLOC": 45156,
-      "PR": 1167,
-      "Commits": 1243,
-      "Stars": 979,
+      "SLOC": 47336,
+      "PR": 1197,
+      "Commits": 1319,
+      "Stars": 981,
       "Languages": {
         "C#": 77,
         "CSS": 10570,
         "Docker ignore": 8,
-        "Dockerfile": 40,
-        "Go": 27438,
+        "Dockerfile": 47,
+        "Go": 29618,
         "HTML": 12,
         "JavaScript": 675,
-        "License": 2012,
+        "License": 2181,
         "MSBuild": 57,
-        "Makefile": 239,
+        "Makefile": 265,
         "Mustache": 336,
-        "Plain Text": 16175,
+        "Plain Text": 16699,
         "Protocol Buffers": 1374,
         "Python": 1,
         "SQL": 106,
@@ -64625,7 +64848,7 @@
         "Smarty Template": 65,
         "TypeScript": 15591,
         "TypeScript Typings": 6,
-        "gitignore": 375
+        "gitignore": 385
       },
       "Repos": {
         ".github": {
@@ -64652,6 +64875,24 @@
             "Protocol Buffers": 1374,
             "Shell": 14,
             "gitignore": 9
+          }
+        },
+        "cli": {
+          "ID": 649913371,
+          "OrgID": 103602580,
+          "Name": "cli",
+          "SLOC": 2180,
+          "PR": 30,
+          "Commits": 76,
+          "Stars": 2,
+          "Languages": {
+            "Docker ignore": 0,
+            "Dockerfile": 7,
+            "Go": 2180,
+            "License": 169,
+            "Makefile": 26,
+            "Plain Text": 524,
+            "gitignore": 10
           }
         },
         "community": {
@@ -73044,33 +73285,33 @@
     "siderolabs": {
       "ID": 13804887,
       "Name": "siderolabs",
-      "SLOC": 243133,
-      "PR": 9067,
-      "Commits": 7121,
+      "SLOC": 243374,
+      "PR": 9069,
+      "Commits": 7124,
       "Stars": 4787,
       "Languages": {
         "C Header": 23,
         "CSS": 32291,
         "Docker ignore": 156,
         "Dockerfile": 2719,
-        "Go": 214290,
+        "Go": 214517,
         "Go Template": 223,
         "HTML": 4298,
         "Java": 211,
         "JavaScript": 3768,
         "Jinja": 1692,
-        "License": 20952,
+        "License": 21245,
         "Makefile": 2305,
         "Patch": 6111,
-        "Plain Text": 731,
-        "Protocol Buffers": 6480,
+        "Plain Text": 734,
+        "Protocol Buffers": 6494,
         "Python": 23,
         "Ruby": 19,
         "SVG": 18508,
         "Sass": 3124,
         "Shell": 3878,
         "Smarty Template": 164,
-        "TOML": 2926,
+        "TOML": 2930,
         "Terraform": 1130,
         "TypeScript": 18096,
         "TypeScript Typings": 5,
@@ -73815,6 +74056,22 @@
             "Makefile": 36,
             "Patch": 29,
             "gitignore": 1
+          }
+        },
+        "kms-client": {
+          "ID": 659399586,
+          "OrgID": 13804887,
+          "Name": "kms-client",
+          "SLOC": 241,
+          "PR": 2,
+          "Commits": 3,
+          "Stars": 0,
+          "Languages": {
+            "Go": 227,
+            "License": 293,
+            "Plain Text": 3,
+            "Protocol Buffers": 14,
+            "TOML": 4
           }
         },
         "kres": {

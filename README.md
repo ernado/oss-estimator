@@ -71,7 +71,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 ### Organizations
 | Organization | SLOC | Commits | PRs | Stars | Language | Effort |
 |--------------|------|---------|-----|-------|----------|--------|
-| [**CNCF**](https://www.cncf.io/)  | 39.5M | 1.9M | 1.1M | 1.5M | Go | 3.3k |
+| [**CNCF**](https://www.cncf.io/)  | 39.6M | 1.9M | 1.1M | 1.5M | Go | 3.3k |
 | [zephyrproject-rtos](https://github.com/zephyrproject-rtos)  | 20.3M | 269.8k | 42.3k | 8.6k | C Header | 1.7k |
 | [torvalds](https://github.com/torvalds)  | 19.1M | 1.2M | 761.0 | 153.7k | C | 1.6k |
 | [apache](https://github.com/apache)  | 15.7M | 609.5k | 44.2k | 88.2k | Java | 1.3k |
@@ -89,7 +89,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [ClickHouse](https://github.com/ClickHouse)  | 1.7M | 119.4k | 34.9k | 34.0k | C++ | 140.1 |
 | [grafana](https://github.com/grafana)  | 1.7M | 76.6k | 50.2k | 103.2k | Go | 139.9 |
 | [envoyproxy](https://github.com/envoyproxy)  | 1.6M | 47.0k | 24.7k | 28.1k | C++ | 135.3 |
-| [konveyor](https://github.com/konveyor)  | 1.6M | 7.1k | 6.3k | 806.0 | JavaScript | 131.0 |
+| [konveyor](https://github.com/konveyor)  | 1.6M | 7.5k | 6.5k | 822.0 | JavaScript | 131.0 |
 | [rust-lang](https://github.com/rust-lang)  | 1.5M | 227.8k | 63.9k | 83.0k | Rust | 126.5 |
 | [python](https://github.com/python)  | 1.4M | 117.6k | 41.8k | 54.2k | Python | 114.4 |
 | [openkruise](https://github.com/openkruise)  | 1.4M | 1.3k | 1.2k | 4.0k | JavaScript | 113.5 |
@@ -104,7 +104,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [cdk8s-team](https://github.com/cdk8s-team)  | 803.7k | 9.3k | 7.9k | 3.8k | Go | 67.0 |
 | [nats-io](https://github.com/nats-io)  | 802.5k | 36.2k | 12.9k | 31.0k | Go | 66.9 |
 | [m3db](https://github.com/m3db)  | 736.8k | 10.4k | 5.1k | 4.6k | Go | 61.4 |
-| [cilium](https://github.com/cilium)  | 681.7k | 31.0k | 21.9k | 23.6k | Go | 56.8 |
+| [cilium](https://github.com/cilium)  | 683.8k | 32.5k | 22.2k | 23.8k | Go | 57.0 |
 | [vitessio](https://github.com/vitessio)  | 671.3k | 36.7k | 11.0k | 15.9k | Go | 56.0 |
 | [moby](https://github.com/moby)  | 648.2k | 74.7k | 31.3k | 83.2k | Go | 54.0 |
 | [fluent](https://github.com/fluent)  | 639.2k | 38.0k | 12.0k | 24.2k | C | 53.3 |
@@ -120,8 +120,8 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [kubevela](https://github.com/kubevela)  | 448.4k | 8.3k | 6.8k | 5.6k | Go | 37.4 |
 | [knative](https://github.com/knative)  | 432.8k | 30.6k | 32.3k | 12.4k | Go | 36.1 |
 | [awslabs](https://github.com/awslabs)  | 427.5k | 11.1k | 4.5k | 45.6k | Java | 35.6 |
+| [opencurve](https://github.com/opencurve)  | 416.2k | 5.6k | 1.9k | 1.9k | C++ | 34.7 |
 | [athenz](https://github.com/athenz)  | 408.2k | 3.5k | 2.1k | 771.0 | Java | 34.0 |
-| [opencurve](https://github.com/opencurve)  | 406.3k | 5.6k | 1.9k | 1.9k | C++ | 33.9 |
 | [AthenZ](https://github.com/AthenZ)  | 405.6k | 3.5k | 2.0k | 762.0 | Java | 33.8 |
 | [backstage](https://github.com/backstage)  | 403.5k | 40.5k | 12.9k | 21.8k | TypeScript | 33.6 |
 | [pixie-io](https://github.com/pixie-io)  | 378.2k | 13.2k | 1.9k | 4.9k | C++ | 31.5 |
@@ -146,7 +146,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [inspektor-gadget](https://github.com/inspektor-gadget)  | 253.5k | 2.9k | 1.0k | 1.3k | C Header | 21.1 |
 | [strimzi](https://github.com/strimzi)  | 252.3k | 7.1k | 6.0k | 4.3k | Java | 21.0 |
 | [jaegertracing](https://github.com/jaegertracing)  | 250.5k | 8.7k | 7.6k | 23.7k | Go | 20.9 |
-| [siderolabs](https://github.com/siderolabs)  | 243.1k | 7.1k | 9.1k | 4.8k | Go | 20.3 |
+| [siderolabs](https://github.com/siderolabs)  | 243.4k | 7.1k | 9.1k | 4.8k | Go | 20.3 |
 | [goharbor](https://github.com/goharbor)  | 242.5k | 16.9k | 10.4k | 21.1k | Go | 20.2 |
 | [kumahq](https://github.com/kumahq)  | 240.3k | 7.2k | 7.1k | 3.3k | Go | 20.0 |
 | [linkerd](https://github.com/linkerd)  | 237.9k | 13.0k | 13.4k | 18.0k | Rust | 19.8 |
@@ -157,9 +157,9 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [VictoriaMetrics](https://github.com/VictoriaMetrics)  | 206.0k | 8.1k | 2.6k | 11.0k | Go | 17.2 |
 | [alibaba](https://github.com/alibaba)  | 205.2k | 4.1k | 859.0 | 27.2k | Java | 17.1 |
 | [litmuschaos](https://github.com/litmuschaos)  | 203.2k | 7.5k | 7.1k | 4.1k | TypeScript | 16.9 |
+| [metrico](https://github.com/metrico)  | 202.8k | 5.3k | 536.0 | 821.0 | Go | 16.9 |
 | [confidential-containers](https://github.com/confidential-containers)  | 201.9k | 18.7k | 1.5k | 383.0 | Rust | 16.8 |
 | [fluxcd](https://github.com/fluxcd)  | 200.2k | 27.7k | 9.5k | 19.9k | Go | 16.7 |
-| [metrico](https://github.com/metrico)  | 199.2k | 5.3k | 519.0 | 819.0 | Go | 16.6 |
 | [longhorn](https://github.com/longhorn)  | 197.7k | 10.0k | 6.6k | 5.1k | Go | 16.5 |
 | [cloud-custodian](https://github.com/cloud-custodian)  | 196.4k | 4.5k | 4.6k | 4.8k | Python | 16.4 |
 | [tremor-rs](https://github.com/tremor-rs)  | 193.6k | 7.3k | 3.6k | 837.0 | Rust | 16.1 |
@@ -174,9 +174,10 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [thanos-io](https://github.com/thanos-io)  | 144.3k | 4.3k | 4.2k | 12.1k | Go | 12.0 |
 | [drakkan](https://github.com/drakkan)  | 142.1k | 1.5k | 221.0 | 6.4k | Go | 11.8 |
 | [kubeedge](https://github.com/kubeedge)  | 141.3k | 7.3k | 3.9k | 6.8k | Go | 11.8 |
-| [gravity-ui](https://github.com/gravity-ui)  | 138.7k | 3.1k | 1.5k | 330.0 | TypeScript | 11.6 |
+| [gravity-ui](https://github.com/gravity-ui)  | 138.9k | 3.1k | 1.5k | 330.0 | TypeScript | 11.6 |
 | [fluid-cloudnative](https://github.com/fluid-cloudnative)  | 136.8k | 2.0k | 2.0k | 1.3k | Go | 11.4 |
 | [getporter](https://github.com/getporter)  | 134.4k | 6.1k | 2.5k | 1.1k | Go | 11.2 |
+| [devfile](https://github.com/devfile)  | 134.2k | 4.5k | 2.0k | 313.0 | Go | 11.2 |
 | [rook](https://github.com/rook)  | 132.1k | 24.8k | 7.1k | 11.2k | Go | 11.0 |
 | [projectcontour](https://github.com/projectcontour)  | 130.8k | 4.9k | 3.8k | 4.1k | Go | 10.9 |
 | [wasmedge](https://github.com/wasmedge)  | 128.4k | 3.3k | 1.5k | 5.8k | Rust | 10.7 |
@@ -184,7 +185,6 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [armadaproject](https://github.com/armadaproject)  | 127.7k | 2.2k | 1.8k | 286.0 | Go | 10.6 |
 | [keylime](https://github.com/keylime)  | 127.1k | 2.4k | 1.5k | 399.0 | C | 10.6 |
 | [nocalhost](https://github.com/nocalhost)  | 123.0k | 6.1k | 2.1k | 1.6k | Go | 10.2 |
-| [devfile](https://github.com/devfile)  | 121.0k | 4.3k | 2.0k | 310.0 | Go | 10.1 |
 | [cortexproject](https://github.com/cortexproject)  | 120.0k | 4.9k | 3.8k | 5.1k | Go | 10.0 |
 | [artifacthub](https://github.com/artifacthub)  | 116.7k | 1.8k | 2.3k | 1.2k | TypeScript | 9.7 |
 | [buildpacks](https://github.com/buildpacks)  | 116.7k | 16.1k | 3.5k | 2.8k | Go | 9.7 |
@@ -238,8 +238,8 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [superedge](https://github.com/superedge)  | 48.2k | 487.0 | 425.0 | 913.0 | Go | 4.0 |
 | [virtual-kubelet](https://github.com/virtual-kubelet)  | 48.1k | 2.8k | 1.3k | 4.4k | Go | 4.0 |
 | [kudobuilder](https://github.com/kudobuilder)  | 47.9k | 2.2k | 2.0k | 1.8k | Go | 4.0 |
+| [openfga](https://github.com/openfga)  | 47.3k | 1.3k | 1.2k | 981.0 | Go | 3.9 |
 | [theupdateframework](https://github.com/theupdateframework)  | 45.4k | 8.6k | 2.6k | 2.6k | Rust | 3.8 |
-| [openfga](https://github.com/openfga)  | 45.2k | 1.2k | 1.2k | 979.0 | Go | 3.8 |
 | [kubedl-io](https://github.com/kubedl-io)  | 44.1k | 1.3k | 369.0 | 488.0 | Go | 3.7 |
 | [skooner-k8s](https://github.com/skooner-k8s)  | 44.0k | 507.0 | 213.0 | 1.1k | JavaScript | 3.7 |
 | [tauri-apps](https://github.com/tauri-apps)  | 43.4k | 3.8k | 3.6k | 65.8k | Rust | 3.6 |
@@ -804,13 +804,13 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [open-telemetry](https://github.com/open-telemetry)  | 1.8M | 62.5k | 61.2k | 28.7k | Go | 148.7 |
 | [grpc](https://github.com/grpc)  | 1.7M | 74.1k | 38.8k | 86.8k | C++ | 140.3 |
 | [envoyproxy](https://github.com/envoyproxy)  | 1.6M | 47.0k | 24.7k | 28.1k | C++ | 135.3 |
-| [konveyor](https://github.com/konveyor)  | 1.6M | 7.1k | 6.3k | 806.0 | JavaScript | 131.0 |
+| [konveyor](https://github.com/konveyor)  | 1.6M | 7.5k | 6.5k | 822.0 | JavaScript | 131.0 |
 | [openkruise](https://github.com/openkruise)  | 1.4M | 1.3k | 1.2k | 4.0k | JavaScript | 113.5 |
 | [brigadecore](https://github.com/brigadecore)  | 877.2k | 6.3k | 2.8k | 3.0k | JavaScript | 73.1 |
 | [tikv](https://github.com/tikv)  | 860.8k | 16.8k | 20.1k | 24.1k | Rust | 71.7 |
 | [cdk8s-team](https://github.com/cdk8s-team)  | 803.7k | 9.3k | 7.9k | 3.8k | Go | 67.0 |
 | [nats-io](https://github.com/nats-io)  | 802.5k | 36.2k | 12.9k | 31.0k | Go | 66.9 |
-| [cilium](https://github.com/cilium)  | 681.7k | 31.0k | 21.9k | 23.6k | Go | 56.8 |
+| [cilium](https://github.com/cilium)  | 683.8k | 32.5k | 22.2k | 23.8k | Go | 57.0 |
 | [vitessio](https://github.com/vitessio)  | 671.3k | 36.7k | 11.0k | 15.9k | Go | 56.0 |
 | [fluent](https://github.com/fluent)  | 639.2k | 38.0k | 12.0k | 24.2k | C | 53.3 |
 | [kubevirt](https://github.com/kubevirt)  | 637.7k | 60.6k | 22.6k | 5.5k | Go | 53.1 |
@@ -822,8 +822,8 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [pravega](https://github.com/pravega)  | 472.7k | 6.4k | 5.5k | 2.5k | Java | 39.4 |
 | [kubevela](https://github.com/kubevela)  | 448.4k | 8.3k | 6.8k | 5.6k | Go | 37.4 |
 | [knative](https://github.com/knative)  | 432.8k | 30.6k | 32.3k | 12.4k | Go | 36.1 |
+| [opencurve](https://github.com/opencurve)  | 416.2k | 5.6k | 1.9k | 1.9k | C++ | 34.7 |
 | [athenz](https://github.com/athenz)  | 408.2k | 3.5k | 2.1k | 771.0 | Java | 34.0 |
-| [opencurve](https://github.com/opencurve)  | 406.3k | 5.6k | 1.9k | 1.9k | C++ | 33.9 |
 | [AthenZ](https://github.com/AthenZ)  | 405.6k | 3.5k | 2.0k | 762.0 | Java | 33.8 |
 | [backstage](https://github.com/backstage)  | 403.5k | 40.5k | 12.9k | 21.8k | TypeScript | 33.6 |
 | [pixie-io](https://github.com/pixie-io)  | 378.2k | 13.2k | 1.9k | 4.9k | C++ | 31.5 |
@@ -864,6 +864,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [kubeedge](https://github.com/kubeedge)  | 141.3k | 7.3k | 3.9k | 6.8k | Go | 11.8 |
 | [fluid-cloudnative](https://github.com/fluid-cloudnative)  | 136.8k | 2.0k | 2.0k | 1.3k | Go | 11.4 |
 | [getporter](https://github.com/getporter)  | 134.4k | 6.1k | 2.5k | 1.1k | Go | 11.2 |
+| [devfile](https://github.com/devfile)  | 134.2k | 4.5k | 2.0k | 313.0 | Go | 11.2 |
 | [rook](https://github.com/rook)  | 132.1k | 24.8k | 7.1k | 11.2k | Go | 11.0 |
 | [projectcontour](https://github.com/projectcontour)  | 130.8k | 4.9k | 3.8k | 4.1k | Go | 10.9 |
 | [wasmedge](https://github.com/wasmedge)  | 128.4k | 3.3k | 1.5k | 5.8k | Rust | 10.7 |
@@ -871,7 +872,6 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [armadaproject](https://github.com/armadaproject)  | 127.7k | 2.2k | 1.8k | 286.0 | Go | 10.6 |
 | [keylime](https://github.com/keylime)  | 127.1k | 2.4k | 1.5k | 399.0 | C | 10.6 |
 | [nocalhost](https://github.com/nocalhost)  | 123.0k | 6.1k | 2.1k | 1.6k | Go | 10.2 |
-| [devfile](https://github.com/devfile)  | 121.0k | 4.3k | 2.0k | 310.0 | Go | 10.1 |
 | [cortexproject](https://github.com/cortexproject)  | 120.0k | 4.9k | 3.8k | 5.1k | Go | 10.0 |
 | [artifacthub](https://github.com/artifacthub)  | 116.7k | 1.8k | 2.3k | 1.2k | TypeScript | 9.7 |
 | [buildpacks](https://github.com/buildpacks)  | 116.7k | 16.1k | 3.5k | 2.8k | Go | 9.7 |
@@ -911,8 +911,8 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [superedge](https://github.com/superedge)  | 48.2k | 487.0 | 425.0 | 913.0 | Go | 4.0 |
 | [virtual-kubelet](https://github.com/virtual-kubelet)  | 48.1k | 2.8k | 1.3k | 4.4k | Go | 4.0 |
 | [kudobuilder](https://github.com/kudobuilder)  | 47.9k | 2.2k | 2.0k | 1.8k | Go | 4.0 |
+| [openfga](https://github.com/openfga)  | 47.3k | 1.3k | 1.2k | 981.0 | Go | 3.9 |
 | [theupdateframework](https://github.com/theupdateframework)  | 45.4k | 8.6k | 2.6k | 2.6k | Rust | 3.8 |
-| [openfga](https://github.com/openfga)  | 45.2k | 1.2k | 1.2k | 979.0 | Go | 3.8 |
 | [kubedl-io](https://github.com/kubedl-io)  | 44.1k | 1.3k | 369.0 | 488.0 | Go | 3.7 |
 | [skooner-k8s](https://github.com/skooner-k8s)  | 44.0k | 507.0 | 213.0 | 1.1k | JavaScript | 3.7 |
 | [distribution](https://github.com/distribution)  | 42.9k | 4.8k | 1.8k | 7.4k | Go | 3.6 |
