@@ -6,7 +6,7 @@ require (
 	github.com/ClickHouse/ch-go v0.58.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-faster/errors v0.6.1
-	github.com/go-faster/jx v1.0.1
+	github.com/go-faster/jx v1.1.0
 	github.com/go-faster/yamlx v0.4.1
 	github.com/go-git/go-billy/v5 v5.4.1
 	github.com/go-git/go-git/v5 v5.8.1
