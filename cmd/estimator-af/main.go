@@ -29,6 +29,10 @@ func main() {
 		flag.StringVar(&arg.DB, "db", "", "path to bbolt user database")
 		flag.Parse()
 
+		if err := gh.Check(); err != nil {
+			return errors.Wrap(err, "check tokens")
+		}
+
 		c := gh.Client()
 		db, err := archive.NewUserCache(archive.UserCacheOptions{
 			Path: arg.DB,

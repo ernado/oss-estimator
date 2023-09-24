@@ -21,6 +21,9 @@ func main() {
 		flag.Parse()
 
 		c := gh.Client()
+		if err := gh.Check(); err != nil {
+			return errors.Wrap(err, "check tokens")
+		}
 		u, _, err := c.Users.Get(ctx, arg.User)
 		if err != nil {
 			return errors.Wrap(err, "get user")

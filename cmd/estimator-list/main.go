@@ -74,6 +74,10 @@ func main() {
 			jobs = make(chan Job, concurrency)
 		)
 
+		if err := gh.Check(); err != nil {
+			return errors.Wrap(err, "check tokens")
+		}
+
 		cncfDB, err := cncf.New()
 		if err != nil {
 			return errors.Wrap(err, "load cncf")
