@@ -11,7 +11,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.5.0
 	github.com/go-git/go-git/v5 v5.9.0
 	github.com/google/go-github/v50 v50.2.0
-	github.com/hashicorp/golang-lru/v2 v2.0.6
+	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/jedib0t/go-pretty/v6 v6.4.8
 	github.com/klauspost/compress v1.17.1
 	github.com/mattn/go-colorable v0.1.13
