@@ -93,3 +93,4 @@ include:
     - zephyrproject-rtos
     - metrico
     - gravity-ui
+    - kubeflow
