@@ -20,13 +20,6 @@ exclude:
   - cockroachdb/c-jemalloc
   - cockroachdb/c-snappy
   - cockroachdb/c-lz4
-  - zephyrproject-rtos/hal_nxp
-  - zephyrproject-rtos/hal_stm32
-  - zephyrproject-rtos/hal_silabs
-  - zephyrproject-rtos/hal_espressif
-  - zephyrproject-rtos/newlib-cygwin
-  - zephyrproject-rtos/hal_st
-  - zephyrproject/lipstick2
 include:
   repos:
     - torvalds/linux
@@ -90,7 +83,5 @@ include:
     - ten-nancy
     - cockroachdb
     - netdata
-    - zephyrproject-rtos
     - metrico
     - gravity-ui
-    - kubeflow

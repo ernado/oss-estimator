@@ -78,7 +78,6 @@ func New() (*Database, error) {
 	}
 	for _, org := range []string{
 		"kubernetes-sigs",
-		"kubeflow",
 	} {
 		organizations = append(organizations, org)
 		isCNCF[org] = struct{}{}
