@@ -311,7 +311,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [krator-rs](https://github.com/krator-rs)  | 2.9k | 498.0 | 33.0 | 113.0 | Rust | 250.0m |
 | [OpenObservability](https://github.com/OpenObservability)  | 2.3k | 251.0 | 117.0 | 2.0k | Go | 190.0m |
 | [openobservability](https://github.com/openobservability)  | 2.3k | 251.0 | 117.0 | 2.0k | Go | 190.0m |
-| [slimtoolkit](https://github.com/slimtoolkit)  | 2.3k | 228.0 | 59.0 | 143.0 | JavaScript | 190.0m |
+| [slimtoolkit](https://github.com/slimtoolkit)  | 2.3k | 228.0 | 59.0 | 143.0 | Ruby | 190.0m |
 | [service-mesh-performance](https://github.com/service-mesh-performance)  | 2.2k | 797.0 | 217.0 | 237.0 | JavaScript | 180.0m |
 | [kubereboot](https://github.com/kubereboot)  | 2.0k | 997.0 | 558.0 | 1.8k | Go | 170.0m |
 | [g-research](https://github.com/g-research)  | 870.0 | 9.0 | 0.0 | 4.0 | Go | 70.0m |
@@ -1007,7 +1007,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [krator-rs](https://github.com/krator-rs)  | 2.9k | 498.0 | 33.0 | 113.0 | Rust | 250.0m |
 | [OpenObservability](https://github.com/OpenObservability)  | 2.3k | 251.0 | 117.0 | 2.0k | Go | 190.0m |
 | [openobservability](https://github.com/openobservability)  | 2.3k | 251.0 | 117.0 | 2.0k | Go | 190.0m |
-| [slimtoolkit](https://github.com/slimtoolkit)  | 2.3k | 228.0 | 59.0 | 143.0 | JavaScript | 190.0m |
+| [slimtoolkit](https://github.com/slimtoolkit)  | 2.3k | 228.0 | 59.0 | 143.0 | Ruby | 190.0m |
 | [service-mesh-performance](https://github.com/service-mesh-performance)  | 2.2k | 797.0 | 217.0 | 237.0 | JavaScript | 180.0m |
 | [kubereboot](https://github.com/kubereboot)  | 2.0k | 997.0 | 558.0 | 1.8k | Go | 170.0m |
 | [googlecontainertools](https://github.com/googlecontainertools)  | 0.0 | 0.0 | 0.0 | 0.0 | N/A | 0.0 |
