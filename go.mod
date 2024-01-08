@@ -14,7 +14,7 @@ require (
 	github.com/go-git/go-git/v5 v5.11.0
 	github.com/google/go-github/v50 v50.2.0
 	github.com/hashicorp/golang-lru/v2 v2.0.7
-	github.com/jedib0t/go-pretty/v6 v6.5.0
+	github.com/jedib0t/go-pretty/v6 v6.5.2
 	github.com/klauspost/compress v1.17.4
 	github.com/mattn/go-colorable v0.1.13
 	github.com/stretchr/testify v1.8.4
@@ -48,7 +48,7 @@ require (
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
-	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/pascaldekloe/name v1.0.1 // indirect
 	github.com/pierrec/lz4/v4 v4.1.18 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
@@ -66,7 +66,7 @@ require (
 	golang.org/x/exp v0.0.0-20230206171751-46f607a40771 // indirect
 	golang.org/x/mod v0.13.0 // indirect
 	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
