@@ -9,6 +9,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"slices"
 	"strings"
 
 	"github.com/go-faster/errors"
@@ -77,18 +78,27 @@ func Merge(dst, src map[string]int) map[string]int {
 }
 
 func Max(s map[string]int) string {
-	var max int
-	var name string
-	for k, v := range s {
+	type kv struct {
+		Name string
+		Code int
+	}
+	var elements []kv
+	for k := range s {
 		if !lang.In(k) {
 			continue
 		}
-		if v > max {
-			max = v
-			name = k
-		}
+		elements = append(elements, kv{Name: k, Code: s[k]})
 	}
-	return name
+	if len(elements) == 0 {
+		return ""
+	}
+	slices.SortStableFunc(elements, func(a, b kv) int {
+		if a.Code == b.Code {
+			return strings.Compare(a.Name, b.Name)
+		}
+		return b.Code - a.Code
+	})
+	return elements[0].Name
 }
 
 type Aggregated struct {
