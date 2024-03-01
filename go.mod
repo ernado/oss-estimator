@@ -17,7 +17,7 @@ require (
 	github.com/jedib0t/go-pretty/v6 v6.5.4
 	github.com/klauspost/compress v1.17.7
 	github.com/mattn/go-colorable v0.1.13
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	go.etcd.io/bbolt v1.3.9
 	go.uber.org/multierr v1.11.0
 	go.uber.org/ratelimit v0.3.0
