@@ -38,7 +38,7 @@ func check(client *github.Client) error {
 func Check() error {
 	// Check all tokens.
 	var out error
-	for _, v := range strings.Split(os.Getenv("GITHUB_TOKENS"), ",") {
+	for i, v := range strings.Split(os.Getenv("GITHUB_TOKENS"), ",") {
 		tok := &oauth2.Token{
 			AccessToken: v,
 		}
@@ -50,7 +50,7 @@ func Check() error {
 		}
 		client := github.NewClient(httpClient)
 		if err := check(client); err != nil {
-			out = multierr.Append(out, errors.Wrapf(err, "token %s", tok.AccessToken[len(tok.AccessToken)-8:]))
+			out = multierr.Append(out, errors.Wrapf(err, "token #%d (~%s)", i, tok.AccessToken[len(tok.AccessToken)-8:]))
 		}
 	}
 	return out
