@@ -25557,9 +25557,9 @@
     "emissary-ingress": {
       "ID": 79531940,
       "Name": "emissary-ingress",
-      "SLOC": 105687,
+      "SLOC": 111072,
       "PR": 3266,
-      "Commits": 17988,
+      "Commits": 19147,
       "Stars": 4037,
       "Languages": {
         "AWK": 94,
@@ -25570,11 +25570,14 @@
         "Expect": 24,
         "Go": 36303,
         "HTML": 664,
+        "JavaScript": 5385,
+        "LESS": 931,
         "License": 845,
-        "Makefile": 1737,
-        "Plain Text": 73349,
+        "Makefile": 1746,
+        "Plain Text": 73518,
         "Protocol Buffers": 17544,
         "Python": 51649,
+        "SVG": 13300,
         "Shell": 1106,
         "Smarty Template": 2006,
         "TOML": 6,
@@ -25619,6 +25622,22 @@
             "Smarty Template": 2006,
             "TOML": 6,
             "gitignore": 131
+          }
+        },
+        "emissary-ingress.dev": {
+          "ID": 629310887,
+          "OrgID": 79531940,
+          "Name": "emissary-ingress.dev",
+          "SLOC": 5385,
+          "PR": 0,
+          "Commits": 1159,
+          "Stars": 0,
+          "Languages": {
+            "JavaScript": 5385,
+            "LESS": 931,
+            "Makefile": 9,
+            "Plain Text": 169,
+            "SVG": 13300
           }
         },
         "goversion": {
@@ -29480,8 +29499,8 @@
       "Name": "fluxcd",
       "SLOC": 200223,
       "PR": 9495,
-      "Commits": 27794,
-      "Stars": 19889,
+      "Commits": 27826,
+      "Stars": 19894,
       "Languages": {
         "BASH": 651,
         "Docker ignore": 2,
@@ -29490,8 +29509,8 @@
         "Go Template": 1389,
         "HTML": 1003,
         "JavaScript": 43,
-        "License": 6723,
-        "Makefile": 1699,
+        "License": 6892,
+        "Makefile": 1713,
         "Plain Text": 451,
         "Protocol Buffers": 223,
         "Python": 708,
@@ -29499,13 +29518,13 @@
         "Ruby": 5,
         "SVG": 698,
         "Sass": 1150,
-        "Shell": 5927,
+        "Shell": 6023,
         "Smarty Template": 1914,
         "TOML": 111,
         "Terraform": 1786,
         "TypeScript": 3721,
         "XML": 13,
-        "gitignore": 390,
+        "gitignore": 399,
         "ignore": 1
       },
       "Repos": {
@@ -29674,6 +29693,21 @@
             "TOML": 3,
             "Terraform": 459,
             "gitignore": 25
+          }
+        },
+        "flux2-hub-spoke-example": {
+          "ID": 784434209,
+          "OrgID": 52158677,
+          "Name": "flux2-hub-spoke-example",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 32,
+          "Stars": 5,
+          "Languages": {
+            "License": 169,
+            "Makefile": 14,
+            "Shell": 96,
+            "gitignore": 9
           }
         },
         "flux2-kustomize-helm-example": {
@@ -34223,7 +34257,7 @@
       "Name": "gotd",
       "SLOC": 74523,
       "PR": 2445,
-      "Commits": 6242,
+      "Commits": 6246,
       "Stars": 1163,
       "Languages": {
         "CSS": 765,
@@ -34240,6 +34274,16 @@
         "gitignore": 115
       },
       "Repos": {
+        ".github": {
+          "ID": 788032253,
+          "OrgID": 75253497,
+          "Name": ".github",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 0,
+          "Languages": {}
+        },
         "bot": {
           "ID": 325420207,
           "OrgID": 75253497,
@@ -37580,9 +37624,9 @@
     "headlamp-k8s": {
       "ID": 122369679,
       "Name": "headlamp-k8s",
-      "SLOC": 50571,
+      "SLOC": 50736,
       "PR": 1145,
-      "Commits": 3694,
+      "Commits": 3696,
       "Stars": 1334,
       "Languages": {
         "CSS": 4,
@@ -37590,8 +37634,8 @@
         "Dockerfile": 79,
         "Go": 4757,
         "HTML": 3279,
-        "JavaScript": 4595,
-        "License": 507,
+        "JavaScript": 4599,
+        "License": 676,
         "Makefile": 123,
         "Patch": 124,
         "Plain Text": 51,
@@ -37602,9 +37646,9 @@
         "Shell": 213,
         "Smarty Template": 57,
         "TOML": 11,
-        "TypeScript": 41119,
+        "TypeScript": 41280,
         "TypeScript Typings": 139,
-        "gitignore": 199,
+        "gitignore": 204,
         "nuspec": 44
       },
       "Repos": {
@@ -37672,6 +37716,21 @@
             "TypeScript": 3056,
             "TypeScript Typings": 36,
             "gitignore": 27
+          }
+        },
+        "vscode-extension-headlamp": {
+          "ID": 784149643,
+          "OrgID": 122369679,
+          "Name": "vscode-extension-headlamp",
+          "SLOC": 165,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0,
+          "Languages": {
+            "JavaScript": 4,
+            "License": 169,
+            "TypeScript": 161,
+            "gitignore": 5
           }
         }
       }
@@ -39103,7 +39162,7 @@
       "Name": "inclavare-containers",
       "SLOC": 342306,
       "PR": 1108,
-      "Commits": 3287,
+      "Commits": 3290,
       "Stars": 571,
       "Languages": {
         "Assembly": 415,
@@ -39120,7 +39179,7 @@
         "HTML": 942,
         "JavaScript": 1107,
         "LD Script": 77,
-        "License": 2643,
+        "License": 3150,
         "Makefile": 3264,
         "Patch": 3916,
         "Plain Text": 66,
@@ -39136,6 +39195,30 @@
         "gitignore": 232
       },
       "Repos": {
+        "SecureAI": {
+          "ID": 784576989,
+          "OrgID": 65494285,
+          "Name": "SecureAI",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0,
+          "Languages": {
+            "License": 169
+          }
+        },
+        "TrustyVault": {
+          "ID": 784644635,
+          "OrgID": 65494285,
+          "Name": "TrustyVault",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0,
+          "Languages": {
+            "License": 169
+          }
+        },
         "attestation-agent": {
           "ID": 759284805,
           "OrgID": 65494285,
@@ -39460,6 +39543,18 @@
             "Shell": 2573,
             "TOML": 11,
             "gitignore": 4
+          }
+        },
+        "secure-ai": {
+          "ID": 787703396,
+          "OrgID": 65494285,
+          "Name": "secure-ai",
+          "SLOC": 0,
+          "PR": 0,
+          "Commits": 1,
+          "Stars": 0,
+          "Languages": {
+            "License": 169
           }
         },
         "shelter": {
@@ -41610,9 +41705,9 @@
     "k8up-io": {
       "ID": 87297658,
       "Name": "k8up-io",
-      "SLOC": 13523,
-      "PR": 699,
-      "Commits": 1997,
+      "SLOC": 14067,
+      "PR": 716,
+      "Commits": 2014,
       "Stars": 412,
       "Languages": {
         "AsciiDoc": 3681,
@@ -41621,17 +41716,20 @@
         "Docker ignore": 10,
         "Dockerfile": 57,
         "Go": 11900,
+        "HTML": 888,
         "Handlebars": 287,
-        "JavaScript": 921,
-        "License": 484,
+        "JavaScript": 1465,
+        "License": 501,
         "Makefile": 530,
         "Plain Text": 116,
         "Python": 21,
-        "SVG": 1219,
+        "SVG": 1405,
+        "Sass": 1682,
         "Shell": 235,
         "Smarty Template": 127,
-        "XML": 9,
-        "gitignore": 51
+        "TOML": 61,
+        "XML": 39,
+        "gitignore": 67
       },
       "Repos": {
         ".github": {
@@ -41699,6 +41797,25 @@
             "Shell": 128,
             "Smarty Template": 127,
             "gitignore": 28
+          }
+        },
+        "website": {
+          "ID": 778869722,
+          "OrgID": 87297658,
+          "Name": "website",
+          "SLOC": 544,
+          "PR": 17,
+          "Commits": 17,
+          "Stars": 0,
+          "Languages": {
+            "HTML": 888,
+            "JavaScript": 544,
+            "License": 17,
+            "SVG": 186,
+            "Sass": 1682,
+            "TOML": 61,
+            "XML": 30,
+            "gitignore": 16
           }
         },
         "wrestic": {
@@ -45640,10 +45757,10 @@
     "konveyor": {
       "ID": 57494908,
       "Name": "konveyor",
-      "SLOC": 1577768,
-      "PR": 6501,
-      "Commits": 7521,
-      "Stars": 825,
+      "SLOC": 1617170,
+      "PR": 7295,
+      "Commits": 7582,
+      "Stars": 829,
       "Languages": {
         "AsciiDoc": 838,
         "Autoconf": 6,
@@ -45664,11 +45781,11 @@
         "HTML": 7363,
         "JSX": 45,
         "Java": 240795,
-        "JavaScript": 967078,
+        "JavaScript": 1005934,
         "JavaServer Pages": 51,
         "Jenkins Buildfile": 105,
         "Jinja": 4897,
-        "License": 18844,
+        "License": 19351,
         "MSBuild": 206,
         "Makefile": 2394,
         "Org": 38,
@@ -45690,12 +45807,12 @@
         "Smarty Template": 116,
         "Systemd": 66,
         "TOML": 1134,
-        "TypeScript": 51151,
+        "TypeScript": 51697,
         "TypeScript Typings": 77028,
         "Web Services Description Language": 18,
         "XML": 49795,
         "XML Schema": 1221,
-        "gitignore": 2418
+        "gitignore": 2549
       },
       "Repos": {
         ".github": {
@@ -46212,6 +46329,21 @@
             "gitignore": 8
           }
         },
+        "move2kube-create-release-draft": {
+          "ID": 338532061,
+          "OrgID": 57494908,
+          "Name": "move2kube-create-release-draft",
+          "SLOC": 9530,
+          "PR": 467,
+          "Commits": 32,
+          "Stars": 1,
+          "Languages": {
+            "JavaScript": 9298,
+            "License": 169,
+            "TypeScript": 232,
+            "gitignore": 41
+          }
+        },
         "move2kube-demos": {
           "ID": 303058357,
           "OrgID": 57494908,
@@ -46252,6 +46384,36 @@
             "TypeScript Typings": 24,
             "XML": 1208,
             "gitignore": 816
+          }
+        },
+        "move2kube-get-env-info": {
+          "ID": 320644987,
+          "OrgID": 57494908,
+          "Name": "move2kube-get-env-info",
+          "SLOC": 20356,
+          "PR": 9,
+          "Commits": 7,
+          "Stars": 1,
+          "Languages": {
+            "JavaScript": 20315,
+            "License": 169,
+            "TypeScript": 41,
+            "gitignore": 43
+          }
+        },
+        "move2kube-get-release-info": {
+          "ID": 324535962,
+          "OrgID": 57494908,
+          "Name": "move2kube-get-release-info",
+          "SLOC": 9516,
+          "PR": 318,
+          "Commits": 22,
+          "Stars": 2,
+          "Languages": {
+            "JavaScript": 9243,
+            "License": 169,
+            "TypeScript": 273,
+            "gitignore": 47
           }
         },
         "move2kube-katacoda": {
@@ -54987,9 +55149,9 @@
     "kubevirt": {
       "ID": 18700703,
       "Name": "kubevirt",
-      "SLOC": 678077,
+      "SLOC": 678393,
       "PR": 22657,
-      "Commits": 60820,
+      "Commits": 60824,
       "Stars": 5479,
       "Languages": {
         "Autoconf": 8215,
@@ -55005,19 +55167,19 @@
         "Dockerfile": 1882,
         "Expect": 10,
         "Gemfile": 23,
-        "Go": 599130,
+        "Go": 599416,
         "Go Template": 1130,
         "Gradle": 50,
         "HTML": 4782045,
         "JavaScript": 28655,
         "Jinja": 5675,
-        "License": 11436,
+        "License": 11605,
         "Makefile": 3876,
         "Patch": 4,
         "Plain Text": 412,
         "Prolog": 10,
         "Properties File": 2,
-        "Protocol Buffers": 342,
+        "Protocol Buffers": 372,
         "Python": 12966,
         "Rakefile": 169,
         "ReStructuredText": 33,
@@ -55029,7 +55191,7 @@
         "TOML": 211,
         "Terraform": 752,
         "XML": 64257,
-        "gitignore": 873
+        "gitignore": 875
       },
       "Repos": {
         ".github": {
@@ -55105,6 +55267,21 @@
             "Protocol Buffers": 30,
             "Shell": 2502,
             "gitignore": 12
+          }
+        },
+        "application-aware-quota-api": {
+          "ID": 781368055,
+          "OrgID": 18700703,
+          "Name": "application-aware-quota-api",
+          "SLOC": 316,
+          "PR": 0,
+          "Commits": 4,
+          "Stars": 0,
+          "Languages": {
+            "Go": 286,
+            "License": 169,
+            "Protocol Buffers": 30,
+            "gitignore": 2
           }
         },
         "applications-aware-quota": {
@@ -56363,38 +56540,50 @@
     "kubewarden": {
       "ID": 80915497,
       "Name": "kubewarden",
-      "SLOC": 63844,
-      "PR": 3118,
-      "Commits": 8717,
-      "Stars": 493,
+      "SLOC": 1110308,
+      "PR": 3133,
+      "Commits": 8758,
+      "Stars": 494,
       "Languages": {
-        "BASH": 305,
+        "BASH": 352,
         "C#": 410,
-        "CSS": 179,
+        "CSS": 10968,
+        "CoffeeScript": 291,
         "Docker ignore": 3,
         "Dockerfile": 74,
+        "Fish": 1,
+        "Flow9": 5175,
         "Go": 23068,
         "Go Template": 331,
-        "HTML": 331,
-        "JavaScript": 1833,
-        "License": 13520,
+        "HTML": 20242,
+        "Handlebars": 23,
+        "JavaScript": 1036327,
+        "License": 29928,
         "MSBuild": 61,
-        "Makefile": 2194,
-        "Plain Text": 2154,
-        "Python": 131,
+        "Makefile": 2481,
+        "Markdown": 1044,
+        "Module-Definition": 451,
+        "Nix": 19,
+        "OCaml": 21,
+        "PHP": 124,
+        "Plain Text": 3403,
+        "Python": 277,
         "Ruby": 299,
         "Rust": 34652,
-        "SVG": 253,
-        "Sass": 756,
-        "Shell": 658,
+        "SVG": 324,
+        "Sass": 8927,
+        "Shell": 684,
         "Smarty Template": 2539,
         "Swift": 1586,
         "TOML": 837,
         "Terraform": 976,
-        "TypeScript": 1229,
+        "TypeScript": 12882,
+        "TypeScript Typings": 63531,
         "Vue": 5957,
-        "XML": 131,
-        "gitignore": 382
+        "XML": 495,
+        "Zsh": 6,
+        "gitignore": 382,
+        "ignore": 0
       },
       "Repos": {
         ".github": {
@@ -56964,6 +57153,42 @@
             "Makefile": 9,
             "Shell": 72,
             "gitignore": 5
+          }
+        },
+        "kubecon-24-eu-kubewarden": {
+          "ID": 769185036,
+          "OrgID": 80915497,
+          "Name": "kubecon-24-eu-kubewarden",
+          "SLOC": 1046464,
+          "PR": 15,
+          "Commits": 41,
+          "Stars": 1,
+          "Languages": {
+            "BASH": 47,
+            "CSS": 10789,
+            "CoffeeScript": 291,
+            "Fish": 1,
+            "Flow9": 5175,
+            "HTML": 19911,
+            "Handlebars": 23,
+            "JavaScript": 1034494,
+            "License": 16408,
+            "Makefile": 287,
+            "Markdown": 1044,
+            "Module-Definition": 451,
+            "Nix": 19,
+            "OCaml": 21,
+            "PHP": 124,
+            "Plain Text": 1249,
+            "Python": 146,
+            "SVG": 71,
+            "Sass": 8171,
+            "Shell": 26,
+            "TypeScript": 11653,
+            "TypeScript Typings": 63531,
+            "XML": 364,
+            "Zsh": 6,
+            "ignore": 0
           }
         },
         "kubewarden-controller": {
@@ -75059,36 +75284,36 @@
     "openfga": {
       "ID": 103602580,
       "Name": "openfga",
-      "SLOC": 55447,
-      "PR": 1407,
-      "Commits": 1532,
-      "Stars": 1014,
+      "SLOC": 55949,
+      "PR": 1439,
+      "Commits": 1617,
+      "Stars": 1022,
       "Languages": {
-        "Batch": 68,
+        "Batch": 139,
         "C#": 77,
         "CSS": 10570,
         "Docker ignore": 8,
         "Dockerfile": 63,
         "Go": 30090,
-        "Gradle": 143,
+        "Gradle": 263,
         "HTML": 12,
-        "Java": 55,
+        "Java": 557,
         "JavaScript": 807,
-        "License": 3138,
+        "License": 3307,
         "MSBuild": 57,
         "Makefile": 371,
         "Mustache": 336,
         "Plain Text": 17117,
-        "Properties File": 5,
+        "Properties File": 14,
         "Protocol Buffers": 1374,
         "Python": 1,
         "SQL": 106,
         "SVG": 9258,
-        "Shell": 276,
+        "Shell": 380,
         "Smarty Template": 65,
         "TypeScript": 23043,
         "TypeScript Typings": 6,
-        "gitignore": 439
+        "gitignore": 453
       },
       "Repos": {
         ".github": {
@@ -75404,6 +75629,24 @@
             "Mustache": 336,
             "Shell": 161,
             "gitignore": 8
+          }
+        },
+        "spring-boot-starter": {
+          "ID": 765889022,
+          "OrgID": 103602580,
+          "Name": "spring-boot-starter",
+          "SLOC": 502,
+          "PR": 32,
+          "Commits": 85,
+          "Stars": 8,
+          "Languages": {
+            "Batch": 71,
+            "Gradle": 120,
+            "Java": 502,
+            "License": 169,
+            "Properties File": 9,
+            "Shell": 104,
+            "gitignore": 14
           }
         },
         "syntax-transformer": {
@@ -78708,9 +78951,9 @@
     "pipe-cd": {
       "ID": 62555443,
       "Name": "pipe-cd",
-      "SLOC": 104605,
+      "SLOC": 104646,
       "PR": 3795,
-      "Commits": 4598,
+      "Commits": 4601,
       "Stars": 1002,
       "Languages": {
         "BASH": 90,
@@ -78719,10 +78962,11 @@
         "Go": 80688,
         "HTML": 2712,
         "JavaScript": 2052,
-        "License": 2028,
+        "License": 2197,
         "Makefile": 178,
         "Plain Text": 362,
         "Protocol Buffers": 1921,
+        "Ruby": 41,
         "SQL": 120,
         "SVG": 9127,
         "Sass": 1492,
@@ -78830,6 +79074,20 @@
             "Smarty Template": 58,
             "Terraform": 72,
             "gitignore": 7
+          }
+        },
+        "homebrew-tap": {
+          "ID": 788782177,
+          "OrgID": 62555443,
+          "Name": "homebrew-tap",
+          "SLOC": 41,
+          "PR": 0,
+          "Commits": 3,
+          "Stars": 0,
+          "Languages": {
+            "License": 169,
+            "Ruby": 41,
+            "gitignore": 0
           }
         },
         "orb-pipecd": {
@@ -84491,39 +84749,39 @@
     "siderolabs": {
       "ID": 13804887,
       "Name": "siderolabs",
-      "SLOC": 253335,
-      "PR": 9170,
-      "Commits": 7329,
-      "Stars": 4856,
+      "SLOC": 253391,
+      "PR": 9234,
+      "Commits": 7397,
+      "Stars": 4857,
       "Languages": {
         "C Header": 23,
-        "CSS": 32297,
+        "CSS": 32358,
         "Docker ignore": 156,
         "Dockerfile": 2732,
         "Go": 224368,
         "Go Template": 223,
-        "HTML": 4684,
+        "HTML": 4748,
         "Java": 211,
-        "JavaScript": 3788,
+        "JavaScript": 3844,
         "Jinja": 1692,
-        "License": 23322,
-        "Makefile": 2321,
+        "License": 23491,
+        "Makefile": 2328,
         "Patch": 6111,
-        "Plain Text": 746,
+        "Plain Text": 749,
         "Protocol Buffers": 6494,
         "Python": 23,
         "Ruby": 109,
         "SVG": 18508,
-        "Sass": 3124,
+        "Sass": 3299,
         "Shell": 3904,
         "Smarty Template": 164,
-        "TOML": 2946,
+        "TOML": 2952,
         "Terraform": 1130,
         "TypeScript": 18096,
         "TypeScript Typings": 5,
         "Vue": 13413,
-        "XML": 212,
-        "gitignore": 280
+        "XML": 224,
+        "gitignore": 290
       },
       "Repos": {
         ".github": {
@@ -85471,6 +85729,27 @@
             "Go": 8092,
             "License": 293,
             "Protocol Buffers": 1666
+          }
+        },
+        "omni-docs": {
+          "ID": 550289386,
+          "OrgID": 13804887,
+          "Name": "omni-docs",
+          "SLOC": 56,
+          "PR": 64,
+          "Commits": 68,
+          "Stars": 1,
+          "Languages": {
+            "CSS": 61,
+            "HTML": 64,
+            "JavaScript": 56,
+            "License": 169,
+            "Makefile": 7,
+            "Plain Text": 3,
+            "Sass": 175,
+            "TOML": 6,
+            "XML": 12,
+            "gitignore": 10
           }
         },
         "omni-feedback": {
@@ -90794,9 +91073,9 @@
     "tremor-rs": {
       "ID": 60009416,
       "Name": "tremor-rs",
-      "SLOC": 193622,
-      "PR": 3605,
-      "Commits": 7295,
+      "SLOC": 193884,
+      "PR": 3646,
+      "Commits": 7352,
       "Stars": 837,
       "Languages": {
         "Autoconf": 126,
@@ -90810,22 +91089,22 @@
         "Erlang": 1420,
         "HTML": 11087,
         "JavaScript": 89687,
-        "License": 2417,
+        "License": 2453,
         "Makefile": 446,
         "Plain Text": 3296,
         "Protocol Buffers": 381,
         "Python": 739,
         "ReasonML": 2,
-        "Rust": 101192,
+        "Rust": 101454,
         "SQL": 10,
         "SVG": 35451,
         "Shell": 1105,
         "Smarty Template": 90,
         "Systemd": 13,
-        "TOML": 1412,
+        "TOML": 1439,
         "TypeScript": 189,
         "Vim Script": 209,
-        "gitignore": 439
+        "gitignore": 442
       },
       "Repos": {
         "bob2020": {
@@ -90859,6 +91138,21 @@
             "Rust": 1252,
             "TOML": 27,
             "gitignore": 38
+          }
+        },
+        "fenster": {
+          "ID": 215944866,
+          "OrgID": 60009416,
+          "Name": "fenster",
+          "SLOC": 262,
+          "PR": 41,
+          "Commits": 57,
+          "Stars": 0,
+          "Languages": {
+            "License": 36,
+            "Rust": 262,
+            "TOML": 27,
+            "gitignore": 3
           }
         },
         "highlightjs-tremor": {
@@ -95404,9 +95698,9 @@
     "ydb-platform": {
       "ID": 88314308,
       "Name": "ydb-platform",
-      "SLOC": 6773971,
+      "SLOC": 6777884,
       "PR": 1809,
-      "Commits": 36438,
+      "Commits": 36506,
       "Stars": 3232,
       "Languages": {
         "Assembly": 417,
@@ -95424,7 +95718,7 @@
         "Cython": 5176,
         "Docker ignore": 7,
         "Dockerfile": 184,
-        "Go": 162747,
+        "Go": 166660,
         "Gradle": 213,
         "HTML": 5650,
         "Java": 164604,
@@ -95446,7 +95740,7 @@
         "SQL": 14933,
         "SVG": 26,
         "Sass": 4526,
-        "Shell": 4411,
+        "Shell": 4416,
         "Smarty Template": 356,
         "Swig": 93,
         "Systemd": 80,
@@ -95456,7 +95750,7 @@
         "TypeScript Typings": 9558,
         "XML": 18281,
         "XML Schema": 88,
-        "gitignore": 759
+        "gitignore": 760
       },
       "Repos": {
         "benchhelpers": {
@@ -96601,6 +96895,21 @@
             "gitignore": 1
           }
         },
+        "ydbops": {
+          "ID": 770604324,
+          "OrgID": 88314308,
+          "Name": "ydbops",
+          "SLOC": 3913,
+          "PR": 0,
+          "Commits": 68,
+          "Stars": 0,
+          "Languages": {
+            "Go": 3913,
+            "License": 0,
+            "Shell": 5,
+            "gitignore": 1
+          }
+        },
         "yoj-project": {
           "ID": 727805098,
           "OrgID": 88314308,
@@ -96622,9 +96931,9 @@
     "ytsaurus": {
       "ID": 119880778,
       "Name": "ytsaurus",
-      "SLOC": 2606974,
+      "SLOC": 2608369,
       "PR": 9,
-      "Commits": 65522,
+      "Commits": 65524,
       "Stars": 822,
       "Languages": {
         "Arvo": 311,
@@ -96641,7 +96950,7 @@
         "CSV": 100110,
         "Cython": 3774,
         "Docker ignore": 37,
-        "Dockerfile": 239,
+        "Dockerfile": 259,
         "Gemfile": 5,
         "Go": 58727,
         "Go Template": 59,
@@ -96651,21 +96960,21 @@
         "Jupyter": 3833,
         "Kotlin": 1065,
         "License": 724,
-        "Makefile": 319,
+        "Makefile": 334,
         "Patch": 4760,
-        "Plain Text": 147463,
+        "Plain Text": 147500,
         "Powershell": 69,
         "Properties File": 599,
         "Protocol Buffers": 12103,
-        "Python": 381460,
+        "Python": 382855,
         "R": 16950,
         "ReStructuredText": 5588,
         "Ruby": 203,
-        "SQL": 25805,
+        "SQL": 25994,
         "SVG": 397,
         "Sass": 12733,
         "Scala": 740245,
-        "Shell": 4781,
+        "Shell": 4782,
         "Smarty Template": 57,
         "Swig": 31,
         "TOML": 3,
@@ -96674,7 +96983,7 @@
         "TypeScript": 72082,
         "TypeScript Typings": 171,
         "XML": 8960,
-        "gitignore": 68
+        "gitignore": 143
       },
       "Repos": {
         "benchmarks": {
@@ -96716,6 +97025,24 @@
             "License": 293,
             "Makefile": 17,
             "Terraform": 114
+          }
+        },
+        "yt-k8s-demo": {
+          "ID": 784836294,
+          "OrgID": 119880778,
+          "Name": "yt-k8s-demo",
+          "SLOC": 1395,
+          "PR": 0,
+          "Commits": 2,
+          "Stars": 0,
+          "Languages": {
+            "Dockerfile": 20,
+            "Makefile": 15,
+            "Plain Text": 37,
+            "Python": 1395,
+            "SQL": 189,
+            "Shell": 1,
+            "gitignore": 75
           }
         },
         "yt-k8s-operator": {
