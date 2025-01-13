@@ -69,6 +69,7 @@ include:
     - gotd
     - pion
     - ogen-go
+    - tarantool
     - apache
     - ClickHouse
     - kata-containers

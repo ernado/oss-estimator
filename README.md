@@ -104,6 +104,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [brigadecore](https://github.com/brigadecore)  | 877.2k | 6.3k | 2.8k | 3.0k | JavaScript | 73.1 |
 | [tikv](https://github.com/tikv)  | 862.8k | 17.6k | 22.2k | 26.2k | Rust | 71.9 |
 | [nats-io](https://github.com/nats-io)  | 862.6k | 37.8k | 13.8k | 33.3k | Go | 71.9 |
+| [tarantool](https://github.com/tarantool)  | 851.2k | 30.3k | 6.9k | 5.4k | Lua | 70.9 |
 | [keycloak](https://github.com/keycloak)  | 842.3k | 39.1k | 27.7k | 32.1k | Java | 70.2 |
 | [cdk8s-team](https://github.com/cdk8s-team)  | 804.0k | 29.4k | 30.3k | 4.9k | Go | 67.0 |
 | [m3db](https://github.com/m3db)  | 736.8k | 10.4k | 5.1k | 4.6k | Go | 61.4 |
@@ -390,6 +391,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [elastic/beats](https://github.com/elastic/beats/)  | 616.2k | 18.3k | 31.3k | 12.2k | Go | 51.4 |
 | [vitessio/vitess](https://github.com/vitessio/vitess/)  | 611.0k | 34.4k | 13.4k | 19.0k | Go | 50.9 |
 | [apache/lucenenet](https://github.com/apache/lucenenet/)  | 608.0k | 7.0k | 753 | 2.3k | C# | 50.7 |
+| [tarantool/tarantool](https://github.com/tarantool/tarantool/)  | 592.8k | 19.0k | 3.4k | 3.4k | Lua | 49.4 |
 | [grpc/grpc](https://github.com/grpc/grpc/)  | 514.8k | 52.7k | 21.6k | 37.2k | C++ | 42.9 |
 | [grpc/grpc-ios](https://github.com/grpc/grpc-ios/)  | 512.3k | 96 | 103 | 22 | C++ | 42.7 |
 | [falcosecurity/libs](https://github.com/falcosecurity/libs/)  | 504.5k | 9.7k | 2.0k | 240 | C Header | 42.0 |
@@ -658,6 +660,7 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 | [apache/nutch](https://github.com/apache/nutch/)  | 58.7k | 3.5k | 832 | 3.0k | Java | 4.9 |
 | [apache/maven-plugin-tools](https://github.com/apache/maven-plugin-tools/)  | 58.4k | 1.2k | 210 | 45 | JavaScript | 4.9 |
 | [buildpacks/pack](https://github.com/buildpacks/pack/)  | 58.4k | 4.6k | 1.4k | 2.6k | Go | 4.9 |
+| [tarantool/graphql.0](https://github.com/tarantool/graphql.0/)  | 58.3k | 306 | 113 | 20 | JavaScript | 4.9 |
 | [cartography-cncf/cartography](https://github.com/cartography-cncf/cartography/)  | 58.1k | 855 | 1.0k | 3.1k | Python | 4.8 |
 | [loxilb-io/asn1c](https://github.com/loxilb-io/asn1c/)  | 57.9k | 2.9k | 0 | 0 | C | 4.8 |
 | [awslabs/aws-elasticache-cluster-cl~](https://github.com/awslabs/aws-elasticache-cluster-client-libmemcached/)  | 57.8k | 59 | 10 | 22 | C++ | 4.8 |
