@@ -12,6 +12,7 @@ projects:
          kubernetes-sidecars,kubernetes-tools,kubernetes-test,kubernetes-sigs"
     start_date: 2014-06-01T00:00:00Z
     join_date: 2016-03-10T00:00:00Z
+    incubating_date: 2016-03-11T00:00:00Z
     graduated_date: 2018-03-06T00:00:00Z
     psql_db: gha
     shared_db: allprj
@@ -37,7 +38,7 @@ projects:
     name: Prometheus
     status: Graduated
     command_line:
-      - prometheus
+      - 'prometheus,OpenObservability,OpenMetrics,openmetrics'
     start_date: 2014-01-06T00:00:00Z
     join_date: 2016-05-09T00:00:00Z
     graduated_date: 2018-08-09T00:00:00Z
@@ -55,6 +56,7 @@ projects:
       - opentracing
     start_date: 2015-11-26T00:00:00Z
     join_date: 2016-10-11T00:00:00Z
+    archived_date: 2022-01-31T00:00:00Z
     psql_db: opentracing
     shared_db: allprj
     main_repo: opentracing/opentracing-go
@@ -315,12 +317,13 @@ projects:
   cloudevents:
     order: 21
     name: CloudEvents
-    status: Incubating
+    status: Graduated
     command_line:
       - cloudevents
     start_date: 2017-12-09T00:00:00Z
     join_date: 2018-05-15T00:00:00Z
     incubating_date: 2019-10-24T00:00:00Z
+    graduated_date: 2024-01-25T00:00:00Z
     psql_db: cloudevents
     shared_db: allprj
     main_repo: cloudevents/spec
@@ -358,12 +361,13 @@ projects:
   openmetrics:
     order: 24
     name: OpenMetrics
-    status: Incubating
+    status: Archived # Merged into Prometheus
     command_line:
-      - OpenObservability
+      - "OpenObservability,OpenMetrics,openmetrics"
     start_date: 2017-06-22T00:00:00Z
     join_date: 2018-08-10T00:00:00Z
     incubating_date: 2022-02-03T00:00:00Z
+    archived_date: 2024-07-08T00:00:00Z
     psql_db: openmetrics
     shared_db: allprj
     main_repo: OpenObservability/OpenMetrics
@@ -445,12 +449,13 @@ projects:
   falco:
     order: 30
     name: Falco
-    status: Incubating
+    status: Graduated
     command_line:
       - falcosecurity
     start_date: 2016-05-17T00:00:00Z
     join_date: 2018-10-10T00:00:00Z
     incubating_date: 2020-01-08T00:00:00Z
+    graduated_date: 2024-02-29T00:00:00Z
     psql_db: falco
     shared_db: allprj
     main_repo: falcosecurity/falco
@@ -467,7 +472,7 @@ projects:
     incubating_date: 2020-04-09T00:00:00Z
     psql_db: dragonfly
     shared_db: allprj
-    main_repo: dragonflyoss/Dragonfly2
+    main_repo: dragonflyoss/Dragonfly
     annotation_regexp: '^v\d+\.\d+\.\d+$'
     files_skip_pattern: ''
   virtualkubelet:
@@ -487,12 +492,13 @@ projects:
   kubeedge:
     order: 33
     name: KubeEdge
-    status: Incubating
+    status: Graduated
     command_line:
       - 'kubeedge'
     start_date: 2018-11-12T00:00:00Z
     join_date: 2019-03-18T00:00:00Z
     incubating_date: 2020-09-16T00:00:00Z
+    graduated_date: 2024-09-11T00:00:00Z
     psql_db: kubeedge
     shared_db: allprj
     main_repo: kubeedge/kubeedge
@@ -548,7 +554,7 @@ projects:
     command_line:
       - openebs
     start_date: 2016-08-01T00:00:00Z
-    join_date: 2019-05-14T00:00:00Z
+    join_date: 2024-10-10T00:00:00Z
     psql_db: openebs
     shared_db: allprj
     main_repo: openebs/openebs
@@ -618,11 +624,12 @@ projects:
   strimzi:
     order: 42
     name: Strimzi
-    status: Sandbox
+    status: Incubating
     command_line:
       - strimzi
     start_date: 2016-05-06T00:00:00Z
     join_date: 2019-08-28T00:00:00Z
+    incubating_date: 2024-02-08T00:00:00Z
     psql_db: strimzi
     shared_db: allprj
     main_repo: strimzi/strimzi-kafka-operator
@@ -633,7 +640,7 @@ projects:
     name: KubeVirt
     status: Incubating
     command_line:
-      - kubevirt
+      - 'kubevirt,k8snetworkplumbingwg/kubemacpool,k8snetworkplumbingwg/multi-networkpolicy-iptables,k8snetworkplumbingwg/sriov-network-operator,nmstate/kubernetes-nmstate'
     start_date: 2016-04-27T00:00:00Z
     join_date: 2019-09-06T00:00:00Z
     incubating_date: 2022-04-19T00:00:00Z
@@ -660,12 +667,13 @@ projects:
   chubaofs:
     order: 45
     name: CubeFS
-    status: Incubating
+    status: Graduated
     command_line:
       - chubaofs,cubefs
     start_date: 2018-09-29T00:00:00Z
     join_date: 2019-12-16T00:00:00Z
     incubating_date: 2022-07-03T00:00:00Z
+    graduated_date: 2024-12-11T00:00:00Z
     psql_db: chubaofs
     shared_db: allprj
     main_repo: cubefs/cubefs
@@ -696,6 +704,7 @@ projects:
       - servicemeshinterface
     start_date: 2019-05-21T00:00:00Z
     join_date: 2020-03-19T00:00:00Z
+    archived_date: 2023-10-09T00:00:00Z
     psql_db: smi
     shared_db: allprj
     main_repo: servicemeshinterface/smi-spec
@@ -814,11 +823,12 @@ projects:
   artifacthub:
     order: 56
     name: Artifact Hub
-    status: Sandbox
+    status: Incubating
     command_line:
       - artifacthub
     start_date: 2020-03-10T00:00:00Z
     join_date: 2020-06-25T00:00:00Z
+    incubating_date: 2024-05-30T00:00:00Z
     psql_db: artifacthub
     shared_db: allprj
     main_repo: artifacthub/hub
@@ -1055,7 +1065,7 @@ projects:
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
   cdk8s:
     order: 74
-    name: Cloud Deployment Kit for Kubernetes
+    name: Cloud Development Kit for Kubernetes
     status: Sandbox
     command_line:
       - 'cdk8s-team'
@@ -1069,12 +1079,13 @@ projects:
   certmanager:
     order: 75
     name: cert-manager
-    status: Incubating
+    status: Graduated
     command_line:
       - 'cert-manager'
     start_date: 2017-08-07T00:00:00Z
     join_date: 2020-11-10T00:00:00Z
     incubating_date: 2022-09-19T00:00:00Z
+    graduated_date: 2024-09-29T00:00:00Z
     psql_db: certmanager
     shared_db: allprj
     main_repo: cert-manager/cert-manager
@@ -1136,12 +1147,13 @@ projects:
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
   gitopswg:
     order: 80
-    name: GitOps WG
+    name: OpenGitOps
     status: Sandbox
     command_line:
-      - 'gitops-working-group,cncf/tag-app-delivery'
+      - 'open-gitops,gitops-working-group,cncf/tag-app-delivery'
     start_date: 2019-06-07T00:00:00Z
-    join_date: 2020-12-17T00:00:00Z
+    # join_date: 2020-12-17T00:00:00Z
+    join_date: 2021-01-26T00:00:00Z
     psql_db: gitopswg
     shared_db: allprj
     main_repo: 'cncf/tag-app-delivery'
@@ -1163,11 +1175,12 @@ projects:
   k8dash:
     order: 82
     name: Skooner
-    status: Sandbox
+    status: Archived
     command_line:
       - 'skooner-k8s'
     start_date: 2019-03-05T00:00:00Z
     join_date: 2021-01-26T00:00:00Z
+    archived_date: 2024-10-24T00:00:00Z
     psql_db: k8dash
     shared_db: allprj
     main_repo: 'skooner-k8s/skooner'
@@ -1202,11 +1215,12 @@ projects:
   curiefense:
     order: 85
     name: Curiefense
-    status: Sandbox
+    status: Archived
     command_line:
       - 'curiefense'
     start_date: 2020-02-06T00:00:00Z
     join_date: 2021-01-26T00:00:00Z
+    archived_date: 2024-07-08T00:00:00Z
     psql_db: curiefense
     shared_db: allprj
     main_repo: 'curiefense/curiefense'
@@ -1228,11 +1242,12 @@ projects:
   ingraind:
     order: 87
     name: Foniod
-    status: Sandbox
+    status: Archived
     command_line:
       - 'foniod'
     start_date: 2018-09-25T00:00:00Z
     join_date: 2021-03-30T00:00:00Z
+    archived_date: 2024-01-31T00:00:00Z
     psql_db: ingraind
     shared_db: allprj
     main_repo: 'foniod/foniod'
@@ -1450,11 +1465,12 @@ projects:
   krustlet:
     order: 104
     name: Krustlet
-    status: Sandbox
+    status: Archived
     command_line:
     - 'krustlet'
     start_date: 2019-12-09T00:00:00Z
     join_date: 2021-07-13T00:00:00Z
+    archived_date: 2024-09-30T00:00:00Z
     psql_db: krustlet
     shared_db: allprj
     main_repo: 'krustlet/krustlet'
@@ -1463,11 +1479,12 @@ projects:
   krator:
     order: 105
     name: Krator
-    status: Sandbox
+    status: Archived
     command_line:
     - 'krator-rs'
     start_date: 2021-05-17T00:00:00Z
     join_date: 2021-07-13T00:00:00Z
+    archived_date: 2024-01-31T00:00:00Z
     psql_db: krator
     shared_db: allprj
     main_repo: 'krator-rs/krator'
@@ -1489,11 +1506,12 @@ projects:
   wasmcloud:
     order: 107
     name: wasmCloud
-    status: Sandbox
+    status: Incubating
     command_line:
     - 'wasmCloud'
     start_date: 2019-06-20T00:00:00Z
     join_date: 2021-07-13T00:00:00Z
+    incubating_date: 2024-11-08T00:00:00Z
     psql_db: wasmcloud
     shared_db: allprj
     main_repo: 'wasmCloud/wasmCloud'
@@ -1582,11 +1600,12 @@ projects:
   dapr:
     order: 114
     name: Dapr
-    status: Incubating
+    status: Graduated
     command_line:
     - 'dapr'
     start_date: 2019-10-16T00:00:00Z
     join_date: 2021-11-09T00:00:00Z
+    graduated_date: 2024-10-30T00:00:00Z
     psql_db: dapr
     shared_db: allprj
     main_repo: 'dapr/dapr'
@@ -1680,7 +1699,7 @@ projects:
     join_date: 2021-11-16T00:00:00Z
     psql_db: kubers
     shared_db: allprj
-    main_repo: 'kube-rs/kube-rs'
+    main_repo: 'kube-rs/kube'
     annotation_regexp: '^v?\d+\.\d+\.0$'
     files_skip_pattern: ''
   devfile:
@@ -1712,11 +1731,12 @@ projects:
   fabedge:
     order: 124
     name: FabEdge
-    status: Sandbox
+    status: Archived
     command_line:
       - 'FabEdge'
     start_date: 2021-07-16T00:00:00Z
     join_date: 2022-03-08T00:00:00Z
+    archived_date: 2024-11-05T00:00:00Z
     psql_db: fabedge
     shared_db: allprj
     main_repo: FabEdge/fabedge
@@ -1790,12 +1810,13 @@ projects:
   opencost:
     order: 130
     name: OpenCost
-    status: Sandbox
+    status: Incubating
     command_line:
       - 'opencost'
     # start_date: 2018-11-21T00:00:00Z - this was with kubecost included
     start_date: 2022-07-15T00:00:00Z
     join_date: 2022-06-17T00:00:00Z
+    incubating_date: 2024-10-25T00:00:00Z
     psql_db: opencost
     shared_db: allprj
     main_repo: opencost/opencost
@@ -1817,11 +1838,12 @@ projects:
   curve:
     order: 132
     name: Curve
-    status: Sandbox
+    status: Archived
     command_line:
       - 'opencurve'
     start_date: 2020-07-01T00:00:00Z
     join_date: 2022-06-17T00:00:00Z
+    archived_date: 2024-11-06T00:00:00Z
     psql_db: curve
     shared_db: allprj
     main_repo: opencurve/curve
@@ -1890,7 +1912,7 @@ projects:
     join_date: 2022-07-26T00:00:00Z
     psql_db: konveyor
     shared_db: allprj
-    main_repo: konveyor/tackle2-operator
+    main_repo: konveyor/operator
     annotation_regexp: '^v\d+\.\d+\.\d+$'
     files_skip_pattern: ''
   armada:
@@ -2030,12 +2052,12 @@ projects:
     name: DevSpace
     status: Sandbox
     command_line:
-      - 'devspace-cloud'
+      - 'devspace-cloud,devspace-sh'
     start_date: 2017-10-13T00:00:00Z
     join_date: 2022-12-13T00:00:00Z
     psql_db: 'devspace'
     shared_db: allprj
-    main_repo: devspace-cloud/devspace-cloud
+    main_repo: devspace-sh/devspace
     annotation_regexp: '^v?\d+\.\d+\.0$'
     files_skip_pattern: ''
   capsule:
@@ -2290,12 +2312,12 @@ projects:
     name: kpt
     status: Sandbox
     command_line:
-      - 'regexp:(?i)^GoogleContainerTools\/.*kpt.*$'
+      - 'kptdev'
     start_date: 2020-02-03T00:00:00Z
     join_date: 2023-06-30T00:00:00Z
     psql_db: 'kpt'
     shared_db: allprj
-    main_repo: GoogleContainerTools/kpt
+    main_repo: kptdev/kpt
     annotation_regexp: '^v\d+\.\d+\.0(-beta\.\d*0)?$'
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
   microcks:
@@ -2303,7 +2325,7 @@ projects:
     name: Microcks
     status: Sandbox
     command_line:
-      - microcks
+      - 'microcks'
     start_date: 2015-02-23T00:00:00Z
     join_date: 2023-06-22T00:00:00Z
     psql_db: 'microcks'
@@ -2344,7 +2366,7 @@ projects:
     command_line:
       - 'project-copacetic'
     start_date: 2023-01-11T00:00:00Z
-    join_date: 2023-09-20T00:00:00Z
+    join_date: 2023-09-19T00:00:00Z
     psql_db: copacetic
     shared_db: allprj
     main_repo: project-copacetic/copacetic
@@ -2357,7 +2379,7 @@ projects:
     command_line:
       - 'kube-logging'
     start_date: 2018-08-02T00:00:00Z
-    join_date: 2023-09-20T00:00:00Z
+    join_date: 2023-09-19T00:00:00Z
     psql_db: 'loggingoperator'
     shared_db: allprj
     main_repo: kube-logging/logging-operator
@@ -2409,10 +2431,10 @@ projects:
     command_line:
       - 'kube-burner'
     start_date: 2020-09-02T00:00:00Z
-    join_date: 2023-12-19T00:00:00Z
+    join_date: 2023-12-18T00:00:00Z
     psql_db: 'kubeburner'
     shared_db: allprj
-    main_repo: cloud-bulldozer/kube-burner
+    main_repo: kube-burner/kube-burner
     annotation_regexp: '^v\d+\.\d+\.0$'
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
   kuasar:
@@ -2433,12 +2455,12 @@ projects:
     name: KrknChaos
     status: Sandbox
     command_line:
-      - 'redhat-chaos'
+      - 'krkn-chaos'
     start_date: 2020-04-19T00:00:00Z
     join_date: 2023-12-19T00:00:00Z
     psql_db: 'krknchaos'
     shared_db: allprj
-    main_repo: redhat-chaos/krknChaos
+    main_repo: krkn-chaos/krkn
     annotation_regexp: '^v\d+\.\d+\.0$'
     files_skip_pattern: ''
   kubestellar:
@@ -2459,12 +2481,12 @@ projects:
     name: easegress
     status: Sandbox
     command_line:
-      - 'megaease'
+      - easegress-io
     start_date: 2017-06-07T00:00:00Z
     join_date: 2023-12-19T00:00:00Z
     psql_db: 'easegress'
     shared_db: allprj
-    main_repo: megaease/easegress
+    main_repo: easegress-io/easegress
     annotation_regexp: '^v\d+\.\d+\.0$'
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
   spiderpool:
@@ -2493,8 +2515,359 @@ projects:
     main_repo: k8sgpt-ai/k8sgpt
     annotation_regexp: '^v\d+\.\d+\.0$'
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
-  opencontainers:
+  kubeslice:
+    order: 184
+    name: Kubeslice
+    status: Sandbox
+    command_line:
+      - kubeslice
+    start_date: 2022-05-05T00:00:00Z
+    join_date: 2024-04-16T00:00:00Z
+    psql_db: kubeslice
+    shared_db: allprj
+    main_repo: kubeslice/kubeslice
+    annotation_regexp: '^kubeslice-worker-\d+\.\d+\.0$'
+    files_skip_pattern: ''
+  connect:
+    order: 185
+    name: Connect
+    status: Sandbox
+    command_line:
+      - connectrpc
+    start_date: 2021-11-01T00:00:00Z
+    join_date: 2024-04-13T00:00:00Z
+    psql_db: connect
+    shared_db: allprj
+    main_repo: connectrpc/connect-go
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  kairos:
+    order: 186
+    name: Kairos
+    status: Sandbox
+    command_line:
+      - kairos-io
+    start_date: 2021-07-30T00:00:00Z
+    join_date: 2024-04-13T00:00:00Z
+    psql_db: kairos
+    shared_db: allprj
+    main_repo: kairos-io/kairos
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  kubean:
+    order: 187
+    name: Kubean
+    status: Sandbox
+    command_line:
+      - kubean-io
+    start_date: 2022-07-05T00:00:00Z
+    join_date: 2024-04-16T00:00:00Z
+    psql_db: kubean
+    shared_db: allprj
+    main_repo: kubean-io/kubean
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  koordinator:
+    order: 188
+    name: Koordinator
+    status: Sandbox
+    command_line:
+      - koordinator-sh
+    start_date: 2022-03-16T00:00:00Z
+    join_date: 2024-04-16T00:00:00Z
+    psql_db: koordinator
+    shared_db: allprj
+    main_repo: koordinator-sh/koordinator
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  radius:
+    order: 189
+    name: Radius
+    status: Sandbox
+    command_line:
+      - radius-project
+    start_date: 2023-10-16T00:00:00Z
+    join_date: 2024-04-16T00:00:00Z
+    psql_db: radius
+    shared_db: allprj
+    main_repo: radius-project/radius
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  bankvaults:
+    order: 190
+    name: Bank-Vaults
+    status: Sandbox
+    command_line:
+      - bank-vaults
+    start_date: 2018-03-07T00:00:00Z
+    join_date: 2024-06-18T00:00:00Z
+    psql_db: bankvaults
+    shared_db: allprj
+    main_repo: bank-vaults/bank-vaults
+    annotation_regexp: '^v?\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  atlantis:
+    order: 191
+    name: Atlantis
+    status: Sandbox
+    command_line:
+      - runatlantis
+    start_date: 2018-02-06T00:00:00Z
+    join_date: 2024-06-18T00:00:00Z
+    psql_db: atlantis
+    shared_db: allprj
+    main_repo: runatlantis/atlantis
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  stacker:
+    order: 192
+    name: Stacker
+    status: Sandbox
+    command_line:
+      - project-stacker
+    start_date: 2017-11-30T00:00:00Z
+    join_date: 2024-06-19T00:00:00Z
+    psql_db: stacker
+    shared_db: allprj
+    main_repo: project-stacker/stacker
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  trestlegrc:
+    order: 193
+    name: TrestleGRC
+    status: Sandbox
+    command_line:
+      - oscal-compass
+    start_date: 2020-08-30T00:00:00Z
+    join_date: 2024-06-21T00:00:00Z
+    psql_db: trestlegrc
+    shared_db: allprj
+    main_repo: oscal-compass/compliance-trestle
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: ''
+  kuadrant:
+    order: 194
+    name: Kuadrant
+    status: Sandbox
+    command_line:
+      - Kuadrant
+    start_date: 2020-12-22T00:00:00Z
+    join_date: 2024-06-19T00:00:00Z
+    psql_db: kuadrant
+    shared_db: allprj
+    main_repo: Kuadrant/authorino
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  opengemini:
+    order: 195
+    name: openGemini
+    status: Sandbox
+    command_line:
+      - openGemini
+    start_date: 2022-06-27T00:00:00Z
+    join_date: 2024-07-09T00:00:00Z
+    psql_db: opengemini
+    shared_db: allprj
+    main_repo: openGemini/openGemini
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  score:
+    order: 196
+    name: Score
+    status: Sandbox
+    command_line:
+      - score-spec
+    start_date: 2022-10-16T00:00:00Z
+    join_date: 2024-07-08T00:00:00Z
+    psql_db: score
+    shared_db: allprj
+    main_repo: score-spec/score-go
+    annotation_regexp: '^v\d+\.\d+\.\d+$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  bpfman:
+    order: 197
+    name: bpfman
+    status: Sandbox
+    command_line:
+      - bpfman
+    start_date: 2022-01-14T00:00:00Z
+    join_date: 2024-06-19T00:00:00Z
+    psql_db: bpfman
+    shared_db: allprj
+    main_repo: bpfman/bpfman
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: ''
+  loxilb:
+    order: 198
+    name: LoxiLB
+    status: Sandbox
+    command_line:
+      - loxilb-io
+    start_date: 2022-06-27T00:00:00Z
+    join_date: 2024-08-30T00:00:00Z
+    psql_db: loxilb
+    shared_db: allprj
+    main_repo: loxilb-io/loxilb
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  cartography:
+    order: 199
+    name: Cartography
+    status: Sandbox
+    command_line:
+      - cartography-cncf
+    start_date: 2019-03-01T00:00:00Z
+    join_date: 2024-08-23T00:00:00Z
+    psql_db: cartography
+    shared_db: allprj
+    main_repo: cartography-cncf/cartography
+    annotation_regexp: '^\d+\.\d+\.0$'
+    files_skip_pattern: ''
+  perses:
     order: 200
+    name: Perses
+    status: Sandbox
+    command_line:
+      - perses
+    start_date: 2021-01-26T00:00:00Z
+    join_date: 2024-08-29T00:00:00Z
+    psql_db: perses
+    shared_db: allprj
+    main_repo: perses/perses
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  ratify:
+    order: 201
+    name: Ratify
+    status: Sandbox
+    command_line:
+      - ratify-project
+    start_date: 2021-11-15T00:00:00Z
+    join_date: 2024-08-30T00:00:00Z
+    psql_db: ratify
+    shared_db: allprj
+    main_repo: ratify-project/ratify
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  hami:
+    order: 202
+    name: HAMi
+    status: Sandbox
+    command_line:
+      - Project-HAMi
+    start_date: 2024-01-31T00:00:00Z
+    join_date: 2024-08-21T00:00:00Z
+    psql_db: hami
+    shared_db: allprj
+    main_repo: Project-HAMi/HAMi
+    annotation_regexp: '^v\d+\.\d+\.\d*0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  shipwrightcncf:
+    order: 203
+    name: Shipwright
+    status: Sandbox
+    command_line:
+      - shipwright-io
+    start_date: 2020-02-06T00:00:00Z
+    join_date: 2024-08-19T00:00:00Z
+    psql_db: shipwrightcncf
+    shared_db: allprj
+    main_repo: shipwright-io/build
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  flatcar:
+    order: 204
+    name: Flatcar
+    status: Incubating
+    command_line:
+      - flatcar,flatcar-linux
+    start_date: 2018-03-05T00:00:00Z
+    join_date: 2024-08-02T00:00:00Z
+    psql_db: flatcar
+    shared_db: allprj
+    main_repo: flatcar/mantle
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  kusionstack:
+    order: 205
+    name: KusionStack
+    status: Sandbox
+    command_line:
+      - KusionStack
+    start_date: 2022-05-06T00:00:00Z
+    join_date: 2024-09-12T00:00:00Z
+    psql_db: kusionstack
+    shared_db: allprj
+    main_repo: KusionStack/kusion
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  youki:
+    order: 206
+    name: Youki
+    status: Sandbox
+    command_line:
+      - youki-dev
+    start_date: 2021-06-04T00:00:00Z
+    join_date: 2024-10-17T00:00:00Z
+    psql_db: youki
+    shared_db: allprj
+    main_repo: youki-dev/youki
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: ''
+  kaito:
+    order: 207
+    name: KAITO
+    status: Sandbox
+    command_line:
+      - kaito-project
+    start_date: 2023-11-15T00:00:00Z
+    join_date: 2024-10-17T00:00:00Z
+    psql_db: kaito
+    shared_db: allprj
+    main_repo: kaito-project/kaito
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  sermant:
+    order: 208
+    name: Sermant
+    status: Sandbox
+    command_line:
+      - sermant-io
+    start_date: 2021-09-07T00:00:00Z
+    join_date: 2024-10-09T00:00:00Z
+    psql_db: sermant
+    shared_db: allprj
+    main_repo: sermant-io/Sermant
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: ''
+  kmesh:
+    order: 209
+    name: Kmesh
+    status: Sandbox
+    command_line:
+      - kmesh-net
+    start_date: 2023-07-12T00:00:00Z
+    join_date: 2024-10-17T00:00:00Z
+    psql_db: kmesh
+    shared_db: allprj
+    main_repo: kmesh-net/kmesh
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  ovnkubernetes:
+    order: 210
+    name: OVN-Kubernetes
+    status: Sandbox
+    command_line:
+      - ovn-org
+    start_date: 2016-08-11T00:00:00Z
+    join_date: 2024-10-17T00:00:00Z
+    psql_db: ovnkubernetes
+    shared_db: allprj
+    main_repo: ovn-org/ovn-kubernetes
+    annotation_regexp: '^v\d+\.\d+\.0$'
+    files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
+  opencontainers:
+    order: 1200
     name: OCI
     status: "-"
     command_line:
@@ -2509,7 +2882,7 @@ projects:
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
     disabled: true
   sam:
-    order: 204
+    order: 1204
     name: AWS SAM
     status: "-"
     command_line:
@@ -2523,7 +2896,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   azf:
-    order: 205
+    order: 1205
     name: AZF
     status: "-"
     command_line:
@@ -2540,7 +2913,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   riff:
-    order: 206
+    order: 1206
     name: Pivotal Riff
     status: "-"
     command_line:
@@ -2554,7 +2927,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   fn:
-    order: 207
+    order: 1207
     name: Oracle Fn
     status: "-"
     command_line:
@@ -2568,7 +2941,7 @@ projects:
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
     disabled: true
   openwhisk:
-    order: 208
+    order: 1208
     name: Apache OpenWhisk
     status: "-"
     command_line:
@@ -2582,7 +2955,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   openfaas:
-    order: 209
+    order: 1209
     name: OpenFaaS
     status: "-"
     command_line:
@@ -2596,7 +2969,7 @@ projects:
     files_skip_pattern: '(^|/)_?(vendor|Godeps|_workspace)/'
     disabled: true
   cii:
-    order: 210
+    order: 1210
     name: CII
     status: "-"
     command_line:
@@ -2644,7 +3017,7 @@ projects:
     disabled: true
     project_scale: 0.3
   prestodb:
-    order: 211
+    order: 1211
     name: Presto
     status: "-"
     command_line:
@@ -2658,7 +3031,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   godotengine:
-    order: 212
+    order: 1212
     name: Godot Engine
     status: "-"
     command_line:
@@ -2671,11 +3044,11 @@ projects:
     files_skip_pattern: ''
     disabled: true
   cncf:
-    order: 254
+    order: 1254
     name: CNCF
     status: "-"
     command_line:
-      - 'cncf,crosscloudci,cdfoundation'
+      - 'cncf,crosscloudci,cdfoundation,cncf-tags'
     start_date: 2015-12-07T18:00:00Z
     join_date: 2015-12-07T18:00:00Z
     psql_db: cncf
@@ -2685,7 +3058,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   all:
-    order: 255
+    order: 1255
     name: All CNCF
     status: "-"
     command_line:
@@ -2694,37 +3067,41 @@ projects:
          kubernetes-providers,kubernetes-addons,kubernetes-retired,kubernetes-sigs,\
          kubernetes-extensions,kubernetes-federation,kubernetes-security,crossplaneio,\
          kubernetes-sidecars,kubernetes-tools,kubernetes-test,kubernetes-charts,xline-kv,\
-         prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,rkt,notaryproject,\
+         prometheus,opentracing,fluent,linkerd,grpc,coredns,containerd,notaryproject,\
          containernetworking,envoyproxy,jaegertracing,theupdateframework,crossplane-contrib,\
          rook,cncf,crosscloudci,vitessio,nats-io,open-policy-agent,spiffe,headlamp-k8s,\
          cloudevents,telepresenceio,helm,kubernetes-csi,goharbor,tikv,etcd-io,hwameistor,\
          OpenObservability,cortexproject,buildpacks,falcosecurity,dragonflyoss,microcks,\
-         virtual-kubelet,kubeedge,brigadecore,cri-o,networkservicemesh,openebs,kubeclipper,\
+         virtual-kubelet,kubeedge,cri-o,networkservicemesh,kubeclipper,nmstate/kubernetes-nmstate,\
          open-telemetry,thanos-io,fluxcd,in-toto,strimzi,kubevirt,cdfoundation,kubeflow,\
-         longhorn,chubaofs,cubefs,kedacore,servicemeshinterface,argoproj,volcano-sh,\
+         longhorn,chubaofs,cubefs,kedacore,argoproj,volcano-sh,k8snetworkplumbingwg/kubemacpool,\
+         k8snetworkplumbingwg/multi-networkpolicy-iptables,k8snetworkplumbingwg/sriov-network-operator,\
          cni-genie,keptn,kudobuilder,cloud-custodian,dexidp,litmuschaos,artifacthub,\
          parallaxsecond,bfenetworks,crossplane,kumahq,projectcontour,operator-framework,\
-         chaos-mesh,serverlessworkflow,tremor-rs,metal3-io,openservicemesh,keylime,\
+         chaos-mesh,serverlessworkflow,tremor-rs,metal3-io,keylime,KusionStack,kaito-project,\
          Kong/kumacut,Kong/docker-kuma,getporter,schemahero,openkruise,openyurtio,\
          tinkerbell,pravega,kyverno,cert-manager,cdk8s-team,k8up-io,kube-rs,devfile,\
-         k3s-io,gitops-working-group,piraeusdatastore,skooner-k8s,AthenZ,curiefense,\
-         distribution,kubeovn,foniod,k8gb-io,trickstercache,emissary-ingress,\
+         k3s-io,gitops-working-group,piraeusdatastore,openebs,AthenZ,bank-vaults,\
+         distribution,kubeovn,k8gb-io,trickstercache,emissary-ingress,runatlantis,\
          backstage,kuberhealthy,WasmEdge,chaosblade-io,v6d-io,antrea-io,pixie-io,\
          fluid-cloudnative,submariner-io,argoproj-labs,kube-vip,kubedl-io,keycloak,\
-         oras-project,krustlet,wasmCloud,project-akri,metallb,karmada-io,clusternet,\
+         oras-project,wasmCloud,project-akri,metallb,karmada-io,clusternet,youki-dev,\
          inclavare-containers,superedge,cilium,dapr,openelb,kubescape,inspektor-gadget,\
-         open-cluster-management-io,vscode-kubernetes-tools,nocalhost,kubearmor,\
-         meshery,service-mesh-performance,knative,knative-sandbox,FabEdge,krator-rs,\
+         open-cluster-management-io,vscode-kubernetes-tools,nocalhost,kubearmor,cncf-tags,\
+         meshery,service-mesh-performance,knative,knative-sandbox,project-stacker,\
          confidential-containers,tellerops,cncf/tag-app-delivery,knative-extensions,\
-         SpectralOps/setup-teller-action,OpenFunction,sealerio,clusterpedia-io,\
-         aeraki-mesh,opencurve,open-feature,kubewarden,devstream-io,kubevela,\
-         hexa-org,konveyor,armadaproject,external-secrets,Serverless-Devs,\
+         SpectralOps/setup-teller-action,OpenFunction,sealerio,clusterpedia-io,Kuadrant,\
+         aeraki-mesh,open-feature,kubewarden,devstream-io,kubevela,openGemini,\
+         hexa-org,konveyor,armadaproject,external-secrets,Serverless-Devs,devspace-sh,\
          ContainerSSH,openfga,kubereboot,lima-vm,istio,carvel-dev,merbridge,opencost,\
          devspace-cloud,project-zot,paralus,carina-io,ko-build,opcr-io,werf,getsops,\
-         pipe-cd,slimtoolkit,projectcapsule,sustainable-computing-io,\
-         GoogleContainerTools/kpt,kubeclipper-labs,buildpacks-community,\
-         project-copacetic,kube-logging,kanisterio,kcp-dev,kcl-lang,kube-burner,\
-         kuasar-io,redhat-chaoss,kubestellar,megaease,spidernet-io,k8sgpt-ai"
+         pipe-cd,slimtoolkit,projectcapsule,sustainable-computing-io,kptdev,krkn-chaos,\
+         kubeclipper-labs,buildpacks-community,project-copacetic,kube-logging,bpfman,\
+         kanisterio,kcp-dev,kcl-lang,kube-burner,kuasar-io,kubestellar,easegress-io,\
+         spidernet-io,k8sgpt-ai,OpenMetrics,openmetrics,open-gitops,kubeslice,score-spec,\
+         connectrpc,kairos-io,kubean-io,koordinator-sh,radius-project,oscal-compass,\
+         loxilb-io,cartography-cncf,perses,ratify-project,Project-HAMi,shipwright-io,\
+         flatcar,flatcar-linux,sermant-io,kmesh-net,ovn-org"
     start_date: 2014-01-01T00:00:00Z
     join_date: 2016-03-10T00:00:00Z
     psql_db: allprj
@@ -2745,7 +3122,7 @@ projects:
          k3s-io/klog,k3s-io/containerd,k3s-io/cri-tools,k3s-io/etcd,k3s-io/flannel,\
          k3s-io/go-powershell,k3s-io/kubernetes,k3s-io/nocode"
   nodejs:
-    order: 1000
+    order: 2000
     name: Node.js
     status: "-"
     command_line:
@@ -2759,7 +3136,7 @@ projects:
     files_skip_pattern: ''
     disabled: true
   linux:
-    order: 1001
+    order: 2001
     name: Linux
     status: "-"
     command_line:
@@ -2775,7 +3152,7 @@ projects:
     disabled: true
     project_scale: 2
   zephyr:
-    order: 1002
+    order: 2002
     name: Zephyr
     status: "-"
     command_line:
