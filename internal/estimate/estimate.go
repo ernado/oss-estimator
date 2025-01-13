@@ -122,13 +122,19 @@ func (e Entry) Print() {
 }
 
 type Client struct {
-	gh   *github.Client
-	dir  string
-	pull bool
+	gh    *github.Client
+	dir   string
+	pull  bool
+	force bool
 }
 
 func (c *Client) WithPull(v bool) *Client {
 	c.pull = v
+	return c
+}
+
+func (c *Client) WithForce(v bool) *Client {
+	c.force = v
 	return c
 }
 
@@ -144,7 +150,7 @@ func New(ghClient *github.Client, dir string) *Client {
 func (c *Client) Get(ctx context.Context, orgName, repoName string) (*Entry, error) {
 	p := filepath.Join(c.dir, orgName, repoName)
 	cacheEntryPath := filepath.Join(p, "cache.json")
-	if data, err := os.ReadFile(cacheEntryPath); err == nil && !c.pull {
+	if data, err := os.ReadFile(cacheEntryPath); err == nil && !c.pull && !c.force {
 		var ce Entry
 		if err := json.Unmarshal(data, &ce); err != nil {
 			return nil, errors.Wrap(err, "unmarshal cache entry")

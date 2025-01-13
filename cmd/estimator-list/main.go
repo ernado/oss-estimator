@@ -8,7 +8,9 @@ import (
 	"path"
 	"strings"
 	"sync"
+	"time"
 
+	"github.com/cenkalti/backoff/v4"
 	"github.com/go-faster/errors"
 	yaml "github.com/go-faster/yamlx"
 	"github.com/google/go-github/v50/github"
@@ -70,7 +72,7 @@ func main() {
 
 		var (
 			c    = gh.Client()
-			e    = estimate.New(c, dir).WithPull(pull)
+			e    = estimate.New(c, dir).WithPull(pull).WithForce(force)
 			jobs = make(chan Job, concurrency)
 		)
 
@@ -156,10 +158,20 @@ func main() {
 						if !ok {
 							return nil
 						}
-						stat, err := e.Get(ctx, j.Org, j.Repo)
+
+						bo := backoff.NewExponentialBackOff()
+						bo.MaxElapsedTime = time.Minute
+						bo.MaxInterval = time.Second * 5
+						stat, err := backoff.RetryNotifyWithData[*estimate.Entry](func() (*estimate.Entry, error) {
+							return e.Get(ctx, j.Org, j.Repo)
+						}, bo, func(err error, d time.Duration) {
+							lg.Warn("Retry", zap.String("repo", j.Repo), zap.Duration("backoff", d), zap.Error(err))
+						})
 						if err != nil {
-							return errors.Wrap(err, "get repo")
+							lg.Error("Failed", zap.String("repo", j.Repo), zap.Error(err))
+							continue
 						}
+
 						mux.Lock()
 						stat.Print()
 						mux.Unlock()
