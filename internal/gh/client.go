@@ -64,7 +64,7 @@ func Client() *github.Client {
 			AccessToken: v,
 		})
 	}
-	const singleTokenPerHour = 5_000
+	const singleTokenPerHour = 4_000
 	source.Rate = ratelimit.New(
 		singleTokenPerHour*len(source.Tokens),
 		ratelimit.Per(time.Hour),

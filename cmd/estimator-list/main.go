@@ -86,7 +86,6 @@ func main() {
 		}
 
 		var orgs []string
-		orgs = append(orgs, cncfDB.Organizations...)
 		for _, org := range cfg.Include.Orgs {
 			if cncfDB.Has(org) {
 				lg.Warn("Already in CNCF", zap.String("org", org))
@@ -94,6 +93,7 @@ func main() {
 			}
 			orgs = append(orgs, org)
 		}
+		orgs = append(orgs, cncfDB.Organizations...)
 		skip := make(map[key]struct{}, len(cfg.Exclude))
 		for _, repo := range cfg.Exclude {
 			skip[toKey(repo)] = struct{}{}
@@ -163,6 +163,9 @@ func main() {
 						bo.MaxElapsedTime = time.Minute
 						bo.MaxInterval = time.Second * 5
 						stat, err := backoff.RetryNotifyWithData[*estimate.Entry](func() (*estimate.Entry, error) {
+							if err := ctx.Err(); err != nil {
+								return nil, backoff.Permanent(err)
+							}
 							return e.Get(ctx, j.Org, j.Repo)
 						}, bo, func(err error, d time.Duration) {
 							lg.Warn("Retry", zap.String("repo", j.Repo), zap.Duration("backoff", d), zap.Error(err))

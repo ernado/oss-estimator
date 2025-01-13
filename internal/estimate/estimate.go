@@ -18,7 +18,6 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/cache"
 	"github.com/go-git/go-git/v5/storage/filesystem"
 	"github.com/google/go-github/v50/github"
-	"github.com/jedib0t/go-pretty/v6/table"
 
 	"estimator/internal/lang"
 )
@@ -106,19 +105,17 @@ type Aggregated struct {
 }
 
 func (e Entry) Print() {
-	tw := table.NewWriter()
-	tw.SetTitle(fmt.Sprintf("%s/%s", e.Org, e.Repo))
+	var b strings.Builder
 
-	tw.AppendRows([]table.Row{
-		{"SLOC", e.SLOC},
-		{"Commits", e.Commits},
-		{"PR", e.PullRequests},
-	})
-	if e.Head != "" {
-		tw.AppendRow(table.Row{"HEAD", e.Head[:7]})
-	}
+	fullName := fmt.Sprintf("%s/%s", e.Org, e.Repo)
+	b.WriteString(fmt.Sprintf("%-50s", fullName))
 
-	fmt.Println(tw.Render())
+	b.WriteString(fmt.Sprintf(" SLOC=%-15d", e.SLOC))
+	b.WriteString(fmt.Sprintf(" Commits=%-8d", e.Commits))
+	b.WriteString(fmt.Sprintf(" PR=%-8d", e.PullRequests))
+	b.WriteString(fmt.Sprintf(" Stars=%-8d", e.Stars))
+
+	fmt.Println(b.String())
 }
 
 type Client struct {

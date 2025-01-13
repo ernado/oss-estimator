@@ -65,6 +65,10 @@ include:
     - drakkan/sftpgo
     - apache/hadoop
   orgs:
+    - go-faster
+    - gotd
+    - pion
+    - ogen-go
     - apache
     - ClickHouse
     - kata-containers
@@ -75,9 +79,6 @@ include:
     - vectordotdev
     - docker
     - moby
-    - go-faster
-    - gotd
-    - ogen-go
     - ydb-platform
     - ytsaurus
     - ten-nancy
@@ -85,4 +86,3 @@ include:
     - netdata
     - metrico
     - gravity-ui
-    - pion
