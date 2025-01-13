@@ -97,3 +97,11 @@ Repositories in kubernetes and kuberentes-sigs organizations.
 {{ range .OTEL -}}
 | [{{ .Short }}]({{ .URL }})  | {{ formatInt .SLOC }} | {{ formatInt .Commits }} | {{ formatInt .PR }} | {{ formatInt .Stars }} | {{ .Effort }} |
 {{ end }}
+
+### go-faster
+
+| Project | SLOC | Commits | PRs | Stars | Effort |
+|---------|------|---------|-----|-------|--------|
+{{ range .Faster -}}
+| [{{ .Short }}]({{ .URL }})  | {{ formatInt .SLOC }} | {{ formatInt .Commits }} | {{ formatInt .PR }} | {{ formatInt .Stars }} | {{ .Effort }} |
+{{ end }}

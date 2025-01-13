@@ -57,7 +57,7 @@ const maxLen = 35
 
 func (s Stat) Short() string {
 	switch s.Name {
-	case "CNCF", "K8s", "OTEL":
+	case "CNCF", "K8s", "OTEL", "go-faster":
 		// Markdown bold for aggregate.
 		return "**" + s.Name + "**"
 	}
@@ -106,6 +106,7 @@ type Context struct {
 	Repos         []Stat
 	CNCF          []Stat
 	OTEL          []Stat
+	Faster        []Stat
 	LanguagesList []string
 }
 
@@ -115,7 +116,8 @@ func (c Context) Languages() string {
 }
 
 func formatInt(x int) string {
-	return formatFloat(float64(x))
+	v := formatFloat(float64(x))
+	return strings.TrimSuffix(v, ".0")
 }
 
 func formatFloat(num float64) string {
@@ -154,12 +156,61 @@ func main() {
 		cncf := Stat{
 			Name: "CNCF",
 		}
-
 		otel := Stat{
 			Name: "OTEL",
 		}
+		faster := Stat{
+			Name: "go-faster",
+		}
 		c := Context{
 			LanguagesList: lang.All(),
+		}
+		// Estimate go-faster projects.
+		for _, org := range ag.Organizations {
+			switch org.Name {
+			case "ClickHouse", "ogen-go", "go-faster", "gotd", "pion":
+			default:
+				continue
+			}
+			sum := func(repo *estimate.AggregatedRepo) {
+				if repo == nil {
+					return
+				}
+				faster.PR += repo.PR
+				faster.Commits += repo.Commits
+				faster.Stars += repo.Stars
+				faster.SLOC += repo.SLOC
+				faster.Languages = estimate.Merge(faster.Languages, repo.Languages)
+				v := Stat{
+					Org:       org.Name,
+					Name:      repo.Name,
+					SLOC:      repo.SLOC,
+					PR:        repo.PR,
+					Commits:   repo.Commits,
+					Stars:     repo.Stars,
+					Language:  estimate.Max(repo.Languages),
+					Languages: repo.Languages,
+				}
+				c.Faster = append(c.Faster, v)
+			}
+			switch org.Name {
+			case "ClickHouse":
+				sum(org.Repos["ch-go"])
+				sum(org.Repos["ch-bench"])
+			case "pion":
+				sum(org.Repos["stun"])
+			default:
+				for _, repo := range org.Repos {
+					if repo.SLOC == 0 {
+						continue
+					}
+					switch repo.Name {
+					case ".github", "porto", "yt-k8s-operator", "yt", "ytsaurus-ui", "minikube", "yamlx", "portoshim":
+						continue
+					}
+					sum(repo)
+				}
+			}
 		}
 		for _, org := range ag.Organizations {
 		Repo:
@@ -241,6 +292,7 @@ func main() {
 		cncf.Language = estimate.Max(cncf.Languages)
 		c.Orgs = append(c.Orgs, k8s, cncf)
 		c.OTEL = append(c.OTEL, otel)
+		c.Faster = append(c.Faster, faster)
 
 		comparator := func(s []Stat) func(i int, j int) bool {
 			return func(i int, j int) bool {
@@ -256,6 +308,7 @@ func main() {
 		sort.SliceStable(c.Repos, comparator(c.Repos))
 		sort.SliceStable(c.CNCF, comparator(c.CNCF))
 		sort.SliceStable(c.OTEL, comparator(c.OTEL))
+		sort.SliceStable(c.Faster, comparator(c.Faster))
 
 		var filteredRepos []Stat
 		for _, repo := range c.Repos {
