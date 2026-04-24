@@ -1,8 +1,6 @@
 module estimator
 
-go 1.21
-
-toolchain go1.21.5
+go 1.23
 
 require (
 	github.com/ClickHouse/ch-go v0.61.5
@@ -17,13 +15,13 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/klauspost/compress v1.17.8
 	github.com/mattn/go-colorable v0.1.13
-	github.com/stretchr/testify v1.9.0
-	go.etcd.io/bbolt v1.3.9
+	github.com/stretchr/testify v1.10.0
+	go.etcd.io/bbolt v1.4.3
 	go.uber.org/multierr v1.11.0
 	go.uber.org/ratelimit v0.3.1
 	go.uber.org/zap v1.27.0
 	golang.org/x/oauth2 v0.19.0
-	golang.org/x/sync v0.7.0
+	golang.org/x/sync v0.10.0
 )
 
 require (
@@ -63,7 +61,7 @@ require (
 	golang.org/x/exp v0.0.0-20230206171751-46f607a40771 // indirect
 	golang.org/x/mod v0.13.0 // indirect
 	golang.org/x/net v0.22.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
