@@ -21,7 +21,7 @@ require (
 	go.etcd.io/bbolt v1.3.9
 	go.uber.org/multierr v1.11.0
 	go.uber.org/ratelimit v0.3.1
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 	golang.org/x/oauth2 v0.19.0
 	golang.org/x/sync v0.7.0
 )
